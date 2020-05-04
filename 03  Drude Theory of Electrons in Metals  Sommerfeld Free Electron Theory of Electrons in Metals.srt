@@ -1,0 +1,3051 @@
+1
+00:00:00,000 --> 00:00:03,689
+在我们开始之前，我想对如何
+before we get going I want to do a
+little bit of philosophizing about how
+
+2
+00:00:03,689 --> 00:00:07,740
+我们开始的一周开始就是在物理学中学习东西
+it is we learn things in in physics at
+the beginning of the week we started
+
+3
+00:00:07,740 --> 00:00:11,910
+用固体振动的玻尔兹曼模型，然后我们决定
+with the Boltzmann model of vibrations
+in solids and then we decided that
+
+4
+00:00:11,910 --> 00:00:15,570
+不太正确，因此我们必须使用固体的爱因斯坦模型对其进行改进
+wasn't quite right so we had to improve
+it with the Einstein model of the solid
+
+5
+00:00:15,570 --> 00:00:18,840
+那是相当不错的，但是没有正确的低温行为
+and that was pretty good but it didn't
+get the low-temperature behavior right
+
+6
+00:00:18,840 --> 00:00:22,199
+所以我们不得不用德拜固体理论对其进行改进，甚至
+so we had to improve it with the Debye
+theory of solids and that was even
+
+7
+00:00:22,199 --> 00:00:25,019
+更好，但今年晚些时候我们也将不得不对其进行改进
+better but we're going to have to
+improve it later on in the year as well
+
+8
+00:00:25,019 --> 00:00:28,949
+一个完全正确的问题是我们为什么不从中学到正确的东西
+and a perfectly valid question is why
+didn't we learn the right thing at the
+
+9
+00:00:28,949 --> 00:00:32,969
+开始，而不必经历所有这些错误的模型，并且
+beginning and not have to go through all
+of these models which are all wrong and
+
+10
+00:00:32,969 --> 00:00:37,530
+这不仅仅是因为我喜欢告诉您了解有关所有
+it's not just because I like telling you
+know history stories about how all of
+
+11
+00:00:37,530 --> 00:00:41,160
+这是开发出来的，但我们这样做的原因是因为这始终是我们的方式
+this was developed but the reason we do
+this is because this is always how we
+
+12
+00:00:41,160 --> 00:00:43,920
+在物理学中学习事物，即使它是
+learn things in physics you always learn
+the simple model even though it's
+
+13
+00:00:43,920 --> 00:00:47,789
+首先是错误的，因为这样容易思考，例如
+incorrect first because it's a lot
+easier to think about so for example you
+
+14
+00:00:47,789 --> 00:00:51,149
+首先要学习古典力学，这是不对的，因为你知道
+learn in classical mechanics first and
+it's not really right because you know
+
+15
+00:00:51,149 --> 00:00:54,059
+有相对论和量子力学，然后将它们叠加
+there's special relativity and there's
+quantum mechanics and you layer those on
+
+16
+00:00:54,059 --> 00:00:58,469
+回到顶部，但是您的直觉总是回到简单的模型上
+top later but your intuition always
+falls back to the simple model it's a
+
+17
+00:00:58,469 --> 00:01:01,559
+更容易思考，这就是我们这样做的原因，而这正是
+lot easier to think about and that's why
+we do this and this is exactly what
+
+18
+00:01:01,559 --> 00:01:06,380
+今天我们要谈论上次开始的金属时要做的
+we're going to be doing today when we
+talk about metals we started last time
+
+19
+00:01:06,380 --> 00:01:13,020
+金属和我们用于许多事物的简单原油模型是德鲁伊
+metals and the simple crude model we use
+for many many things is the druid
+
+20
+00:01:13,020 --> 00:01:15,869
+电子和金属的图片
+apicture
+of electrons and metals which is
+
+21
+00:01:15,869 --> 00:01:24,530
+基本上只是动力学理论。 
+basically just kinetic theory kinetic
+theory for electrons for electrons and
+
+22
+00:01:24,530 --> 00:01:32,610
+在最后一次结束时，我们导出了dru来传递方程D动量DT 
+at the end of last time we derived the
+dru to transport equation D momentum DT
+
+23
+00:01:32,610 --> 00:01:39,840
+等于在某些现象学散射上电子减去P上的力
+equals the force on the electron minus P
+over some phenomenological scattering
+
+24
+00:01:39,840 --> 00:01:48,570
+时间力是洛伦兹力的时间tau 
+time tau where the force is Lorentz
+force the general force that the
+
+25
+00:01:48,570 --> 00:01:52,770
+电子的感觉，所以基本上只是牛顿方程，增加了阻力
+electron feels so it's basically just
+Newton's equation with an added drag
+
+26
+00:01:52,770 --> 00:01:57,960
+ P超过tau的力P代表散射
+force P over tau which sort of
+represents scattering sort of slows the
+
+27
+00:01:57,960 --> 00:02:01,799
+现在，对于许多实验，电子都会以某种方式下降，我们将对此感兴趣
+electron down in some way now for many
+experiments we're going to be interested
+
+28
+00:02:01,799 --> 00:02:05,939
+在我们实际上正在进行某种稳态实验，您可能会应用
+in we are actually doing some sort of
+steady state experiment you might apply
+
+29
+00:02:05,939 --> 00:02:10,080
+稳定的电场，您可能会施加稳定的电流，并且您对此感兴趣
+a steady electric field you might apply
+a steady current and you're interested
+
+30
+00:02:10,080 --> 00:02:15,590
+处于稳定状态的结果，因此大大简化了寻找工作
+in a steady state result so it's
+simplifies things a lot to look for
+
+31
+00:02:15,590 --> 00:02:25,189
+稳态，所以DP DT等于零，所以我们尝试解决，使GP DT等于
+steady states so DP DT equals zero so
+let's try to solve that so GP DT equals
+
+32
+00:02:25,189 --> 00:02:28,939
+零，我们将在右侧施加力，因此我要使用的力
+zero we'll put in the force on the right
+hand side here so the force I'm going to
+
+33
+00:02:28,939 --> 00:02:36,680
+用洛伦兹力加V叉B代替，然后我们需要P超过tau 
+replace that by the Lorentz force plus V
+cross B and then we need P over tau over
+
+34
+00:02:36,680 --> 00:02:42,139
+在这里，但是我要用tau的MV代替P，因为我们有一个速度
+here but I'm going to replace P by M V
+over tau just because we have a velocity
+
+35
+00:02:42,139 --> 00:02:46,970
+哦，这里有相同的速度，我们现在要在其中放置另一个速度
+here oh there's the same velocity here
+we'll put another velocity there now
+
+36
+00:02:46,970 --> 00:02:51,260
+速度是一个非常好的数量，但实际上不是你所需要的
+velocity is a perfectly good quantity
+but it's not actually what you are
+
+37
+00:02:51,260 --> 00:02:54,620
+有可能在实验中进行测量，而您更有可能进行测量
+likely to measure in the experiment
+which you're much more likely to measure
+
+38
+00:02:54,620 --> 00:03:02,030
+实验是电流密度电流密度与
+an experiment is the current density
+current density very closely related to
+
+39
+00:03:02,030 --> 00:03:10,750
+速度J是电子数或电子密度
+velocity J is the number of electron or
+the density of electrons density of
+
+40
+00:03:10,750 --> 00:03:16,400
+电子乘以电子上的电荷至负e乘以电子
+electrons times the charge on the
+electron goes to minus e times his
+
+41
+00:03:16,400 --> 00:03:21,109
+速度好，所以电流密度就是你拥有多少电子，但是
+velocity okay so the current density is
+just how many electrons you have but the
+
+42
+00:03:21,109 --> 00:03:26,269
+给他们充电，移动速度有多快，所以每次我有速度时
+charge they have and how fast they're
+moving so every time I have velocity in
+
+43
+00:03:26,269 --> 00:03:30,859
+该方程式我将插入J并除以N和负E 
+that equation I'm going to plug in J
+instead and divide by an N and a minus E
+
+44
+00:03:30,859 --> 00:03:36,979
+第一步，我还要将e移到另一边
+and one step I'm also going to move e
+over to the other side and get this
+
+45
+00:03:36,979 --> 00:03:53,840
+方程e在整个J交叉B上等于1，然后在N平方的tau时间上等于M 
+equation e equals one over n e J cross B
+and then plus M over N squared tau times
+
+46
+00:03:53,840 --> 00:04:05,239
+ J对一次太多的步骤感到非常高兴，是的，所以我只是我
+J is that good happy with that too many
+steps at once yeah so I just I just
+
+47
+00:04:05,239 --> 00:04:07,819
+插入j4v，然后将D移动到另一侧
+plugged in j4v
+and then move D to the other side and
+
+48
+00:04:07,819 --> 00:04:13,069
+通过任何驱动器将其划分为我的密钥，好吧，所以这有两个术语
+divide it through by any drive to my key
+okay good so there's two terms in this
+
+49
+00:04:13,069 --> 00:04:15,739
+等式，我们称它们为两个不同的东西
+equation and we'll call them two
+different things
+
+50
+00:04:15,739 --> 00:04:23,530
+让我们将此称为e并行，我们将其称为e暂停
+let's call this e parallel and we'll
+call this e halt
+
+51
+00:04:23,530 --> 00:04:29,620
+我用这个画一个图，所以我们有一块金属
+let me draw a diagram with this so we
+have is we have a block of metal like
+
+52
+00:04:29,620 --> 00:04:35,710
+这将使电流像这样的电流流过金属
+this we're going to run a current
+through the metal like this current
+
+53
+00:04:35,710 --> 00:04:40,360
+像我们可能会施加磁场
+density in content C out like that we
+might apply a magnetic field
+
+54
+00:04:40,360 --> 00:04:46,300
+也许像这样的B垂直于金属，然后我们将有一个平行
+maybe perpendicular to the metal like
+this B and then we will have a parallel
+
+55
+00:04:46,300 --> 00:04:50,680
+在这个方向上的电场在那个方向上然后是霍尔垂直
+in this direction electric field in that
+direction and then a Hall perpendicular
+
+56
+00:04:50,680 --> 00:05:00,580
+电流和垂直于磁场以及一个大厅，它是
+to the current and perpendicular to the
+magnetic field as well a hall and it's
+
+57
+00:05:00,580 --> 00:05:04,960
+之所以称为霍尔电场是因为它是由埃德温·霍尔（Edwin Hall）发现的， 
+called the hall electric field because
+it was discovered by Edwin Hall who is
+
+58
+00:05:04,960 --> 00:05:09,370
+正是在1879年进行了这类实验，他发现当他
+doing exactly these kind of experiments
+in 1879 and he discovered that when he
+
+59
+00:05:09,370 --> 00:05:13,270
+在磁场中使电流流过金属，最终导致
+ran a current through a metal in a
+magnetic field he ended up with an
+
+60
+00:05:13,270 --> 00:05:15,880
+垂直于它们两个的电场，您之前可能已经遇到过
+electric field perpendicular both of
+them you may have run into this before
+
+61
+00:05:15,880 --> 00:05:20,110
+这是洛伦兹力量的一个非常明显的结果，发生的是你在
+it's a pretty clear result of the
+Lorentz force what's happening is you're
+
+62
+00:05:20,110 --> 00:05:23,980
+使电子穿过材料，并且它们试图弯曲，因为
+running electrons through the material
+and they're trying to curve because of
+
+63
+00:05:23,980 --> 00:05:29,410
+磁场并建立一个电场，每个人都满意
+the magnetic field and that builds up an
+electric field good everyone happy with
+
+64
+00:05:29,410 --> 00:05:36,310
+差不多，所以让我们尝试了解一下这个方程
+that more or less okay so let's try to
+you know think about this equation a
+
+65
+00:05:36,310 --> 00:05:42,780
+让我们更简单地考虑一个磁场为零的简单情况
+little more closely let's take a simple
+case case one magnetic field equals zero
+
+66
+00:05:42,780 --> 00:05:48,580
+所以在那种情况下，我们只有电场让我绕过另一个
+so in that case we just have electric
+field let me turn it around the other
+
+67
+00:05:48,580 --> 00:05:50,860
+将J移到他们旁边的方式
+way
+move the J to their side so J the
+
+68
+00:05:50,860 --> 00:05:58,390
+然后，电流在m倍于电场的平方n上被平方
+current is then n e squared Tao over m
+times the electric field this quantity
+
+69
+00:05:58,390 --> 00:06:07,450
+这是电导率Sigma电导率这是电导率，因为
+here is a conductivity Sigma
+conductivity it's a conductivity because
+
+70
+00:06:07,450 --> 00:06:12,640
+它把电场与电流联系起来
+it relates the electric field to the
+current now the expression for the
+
+71
+00:06:12,640 --> 00:06:16,750
+我们在m上推导出e平方的Tao的电导率是Deuter 
+conductivity that we derived an e
+squared Tao over m is the Deuter
+
+72
+00:06:16,750 --> 00:06:20,350
+电导率是我们将在Drude理论中计算出的电导率
+conductivity is the conductivity we
+would calculate in the Drude theory we
+
+73
+00:06:20,350 --> 00:06:24,729
+只是计算了一下，我们对什么是什么应该有一个很容易的直觉
+just calculated it and we should have
+pretty easy intuition for what's what's
+
+74
+00:06:24,729 --> 00:06:31,300
+继续讲，电导率具有最高密度的因素，因为
+going on here the conductivity has a
+factor of density up top because the
+
+75
+00:06:31,300 --> 00:06:34,240
+电子越多，电流就越多
+more electrons you have the more current
+you're going to get and the more
+
+76
+00:06:34,240 --> 00:06:37,840
+您将要获得的电导率是tau的系数
+conductivity you're going to get it has
+a factor of tau up top
+
+77
+00:06:37,840 --> 00:06:41,950
+因为越长的道越大道意味着更长的散射时间和更长的时间
+because longer Tao bigger Tao means
+longer scattering time and the longer
+
+78
+00:06:41,950 --> 00:06:45,040
+散布时间或更少的事情变得更好
+scattering time you have or the less
+things you have to run into the better
+
+79
+00:06:45,040 --> 00:06:48,700
+现在你的电导率会变成事实，我正在楼下，看起来有点
+your conductivity is going to be now the
+fact I'm mass downstairs looks a little
+
+80
+00:06:48,700 --> 00:06:53,470
+稍微复杂一点，但实际上如果质量等于F等于MA 
+bit more complicated but actually it
+just comes from F equals MA if your mass
+
+81
+00:06:53,470 --> 00:06:58,030
+对于固定力来说很小，您的加速度必须更大，所以您
+is small for a fixed force your
+acceleration has to be larger so you
+
+82
+00:06:58,030 --> 00:07:02,710
+施加一定的固定力，如果电子质量较小，则电子运动得更快
+apply out some fixed force the electrons
+move faster if their mass were smaller
+
+83
+00:07:02,710 --> 00:07:08,650
+这就是为什么现在我们可能要问楼下传出大量东西的原因，或者保罗提请德
+that's why the mass comes out downstairs
+now we might ask or Paul drew de might
+
+84
+00:07:08,650 --> 00:07:11,020
+问这是一个好答案吗？ 
+ask is this a good answer is this a bad
+answer
+
+85
+00:07:11,020 --> 00:07:17,320
+现在我们实际上不知道，因为它是一个未知数
+and right now we actually don't know
+because how is some unknown number it's
+
+86
+00:07:17,320 --> 00:07:21,550
+他不知道如何计算的一些现象，我们只能把
+some phenomena he doesn't know how to
+calculate it we can just we have to put
+
+87
+00:07:21,550 --> 00:07:25,120
+从现象学上讲，所以实际上它几乎适合任何东西
+it in phenomenologically so really it
+would fit pretty much anything at this
+
+88
+00:07:25,120 --> 00:07:27,760
+点，所以你可能会想到它，你知道排序
+point
+so you might think of it you know sort
+
+89
+00:07:27,760 --> 00:07:31,660
+这反过来说明电导率的测量实际上是
+of turn this on its head that
+measurement of conductivity is actually
+
+90
+00:07:31,660 --> 00:07:37,110
+参数tau的度量正常，这通常是如何查看的
+a measurement of the parameter tau okay
+and that's frequently how it's viewed
+
+91
+00:07:37,110 --> 00:07:43,780
+好吧，让我们做一些稍微复杂一些的事
+all right let's do a little something a
+little bit more complicated case to case
+
+92
+00:07:43,780 --> 00:07:48,789
+ B等于零的两个，我们可能会以多种方式思考
+two which is B not equal to zero and
+there are various ways we might think
+
+93
+00:07:48,789 --> 00:07:53,350
+关于B不等于零的一种可能
+about B not equal to zero one
+possibility of doing this experiment is
+
+94
+00:07:53,350 --> 00:08:00,070
+我们可能想像一下，假设我们知道，所以将其称为假设我们知道一对
+we might imagine suppose we know so it's
+called its to a suppose we know a couple
+
+95
+00:08:00,070 --> 00:08:03,880
+假设我们知道电子的密度，当然我们知道
+things suppose we know the density of
+our electrons of course we know the
+
+96
+00:08:03,880 --> 00:08:12,250
+电子上的电荷假设我们知道电流并且我们测量我们测量一个
+charge on the electron suppose we know
+the current and we measure we measure a
+
+97
+00:08:12,250 --> 00:08:19,660
+然后根据犹大理论停下来，我们知道然后我们得到一个磁场B 
+halt then according to Judah Theory we
+then know then we get a magnetic field B
+
+98
+00:08:19,660 --> 00:08:25,479
+实际上，这是一种非常常用的测量磁场的方法
+and in fact this is a very frequently
+used method for measuring magnetic
+
+99
+00:08:25,479 --> 00:08:34,679
+在现场它被称为霍尔传感器，并且您知道它仍然经常在
+fields it's known as a hall sensor and
+you know it's still used frequently in
+
+100
+00:08:34,679 --> 00:08:39,218
+现在，让我们稍微详细一点
+
+101
+00:08:39,219 --> 00:08:46,870
+通常在这里，如果您在磁场中有电流，您将会得到一些东西
+here generally if you have a current in
+a magnetic field you will get something
+
+102
+00:08:46,870 --> 00:08:54,550
+的形式，我们定义此数量rhv cross j注意转订单
+of the form we define this quantity
+rhv cross j notice that turn the order
+
+103
+00:08:54,550 --> 00:08:59,110
+ J和B在那边的-在这里这只是常用的定义
+of J and B over there - over here this
+is just a definition of a commonly used
+
+104
+00:08:59,110 --> 00:09:03,060
+称为霍尔系数的数量
+quantity known as the Hall coefficient
+
+105
+00:09:05,850 --> 00:09:13,990
+所以嗯，你知道你是否知道J是什么，B就是II 
+so um you know if you know what J is you
+know what B is measure II get the Hall
+
+106
+00:09:13,990 --> 00:09:25,120
+例如，系数如此正确，因此吸引了犹大理论比较
+coefficient for example so right so in
+drew the theory Judah Theory comparing
+
+107
+00:09:25,120 --> 00:09:31,480
+这个方程式，所以这是犹大理论中的B霍尔对不起G霍尔
+to that equation so this is B Hall sorry
+G Hall in Judah Theory comparing to that
+
+108
+00:09:31,480 --> 00:09:41,110
+那里的等式，霍尔系数RH在密度乘以1时得到-e减去
+equation over there the hall coefficient
+RH is 1 over density times - e the minus
+
+109
+00:09:41,110 --> 00:09:45,040
+信号来自这样一个事实，即我将这两个顺序颠倒了
+sign comes from the fact that I flipped
+the order of these two compared to over
+
+110
+00:09:45,040 --> 00:09:49,450
+那里的霍尔电场
+there
+so the Hall electric field that you
+
+111
+00:09:49,450 --> 00:09:53,890
+将测量与霍尔系数成正比，如果你是
+would measure would be proportional to
+the Hall coefficient here and if you're
+
+112
+00:09:53,890 --> 00:09:58,630
+试图建立一个霍尔传感器以找到准确的测量方法
+trying to build a hall sensor in order
+to find accurate ways of measuring
+
+113
+00:09:58,630 --> 00:10:03,910
+使用电子设备或使用电压测量结果产生的磁场
+magnetic fields using electronics or
+using voltage measurements you really
+
+114
+00:10:03,910 --> 00:10:08,290
+希望霍尔电压尽可能大，以便
+want the hall voltage to be large as
+large as possible so that you have a
+
+115
+00:10:08,290 --> 00:10:13,090
+要测量大电场，以便这样做，您通常会选择一个
+large electric field to measure so to do
+that what you do is you usually choose a
+
+116
+00:10:13,090 --> 00:10:22,950
+密度较小的材料，所以使用时要用较小的密度来变大
+material with a small density so use use
+use small density to get big to get big
+
+117
+00:10:22,950 --> 00:10:31,090
+大e和典型的霍尔传感器由半导体和其他材料制成
+big e and typical Hall sensors are built
+with semiconductors and other materials
+
+118
+00:10:31,090 --> 00:10:36,430
+电子密度很小，我们稍后将介绍半导体
+that have a small electron density and
+we'll come to semiconductors later on in
+
+119
+00:10:36,430 --> 00:10:41,740
+这个词现在让我们开始实验吧，大概是
+the term now let's turn this experiment
+now on its head probably the way that
+
+120
+00:10:41,740 --> 00:10:49,270
+保罗·德鲁（Paul Drude）对他的案子有一个想法，他可能不知道有什么问题， 
+Paul Drude a thought about it in his
+case he probably knew no the dent up and
+
+121
+00:10:49,270 --> 00:10:52,870
+因此，在他的情况下，他可能知道磁场，电子电荷和
+so in his case he probably knew the
+magnetic field the electron charge and
+
+122
+00:10:52,870 --> 00:11:02,260
+当前测得的霍尔数和得到的结果
+the current measured measure Hall and
+what you get
+
+123
+00:11:02,260 --> 00:11:07,970
+你得到的是样品中电子的密度，因为他当然
+what you get is the density of electrons
+in your sample because of course he
+
+124
+00:11:07,970 --> 00:11:12,590
+不太了解他材料中的电子密度，所以让我们尝试一下
+didn't know the density of electrons in
+his materials well so let's try this
+
+125
+00:11:12,590 --> 00:11:16,760
+假设我们针对多种不同的材料执行此操作，因此我们将采用
+suppose we do this for a bunch of
+different materials so we'll take a
+
+126
+00:11:16,760 --> 00:11:23,200
+一堆金属，例如锂钠，钾，铜，铜
+bunch of metals like lithium sodium
+potassium copper are sort of typical
+
+127
+00:11:23,200 --> 00:11:29,240
+好的金属，保罗·犹大会注意到的第一件事是
+good metals and the first thing that
+Paul Judah would have noticed is that
+
+128
+00:11:29,240 --> 00:11:35,360
+对于所有这些金属，相对湿度均小于零，这是他所预测的
+for all of these metals RH is less than
+zero which is what he predicted by his
+
+129
+00:11:35,360 --> 00:11:40,010
+公式在这里，所以很多东西都很好，然后他可以实际输入
+formula over here so that much is good
+and then he can actually put in you know
+
+130
+00:11:40,010 --> 00:11:45,830
+测量e霍尔的幅度并尝试提取电子的密度。 
+measure the magnitude of e Hall and try
+to extract the density of electrons and
+
+131
+00:11:45,830 --> 00:11:51,770
+他得到的是每个原子约0.8个电子，这里约1.2 
+what he would have gotten was about 0.8
+electrons per atom here about 1.2
+
+132
+00:11:51,770 --> 00:11:56,000
+每个原子电子约1.1个电子/原子1.5个电子/个
+electrons per atom here about 1.1
+electrons per atom 1.5 electrons per
+
+133
+00:11:56,000 --> 00:12:00,560
+原子似乎是个合理的数字，您知道想知道几个电子
+atom seems like reasonable numbers a
+couple of electrons you know wondering
+
+134
+00:12:00,560 --> 00:12:05,060
+每个原子或多或少有一个电子，这是一个好答案吗？ 
+one electron per atom more or less is
+this a good answer is this a bad answer
+
+135
+00:12:05,060 --> 00:12:09,200
+好吧，如果你考虑一秒钟，你会记得你的周期表
+well if you think about it for a second
+you'll remember your periodic table
+
+136
+00:12:09,200 --> 00:12:13,940
+铜是元素周期表中的第29个元素，因此它具有29个质子
+copper is the twenty-ninth element on
+the periodic table so it has 29 protons
+
+137
+00:12:13,940 --> 00:12:18,890
+和29个电子，我们测得每个原子1.5个电子
+and 29 electrons and we measured 1.5
+electrons per atom
+
+138
+00:12:18,890 --> 00:12:24,590
+其他27.5到哪里去了，所以这可能有点令人费解
+where'd the other 27.5 go so this might
+have been a little bit puzzling to to
+
+139
+00:12:24,590 --> 00:12:29,000
+犹大，但实际上我们现在对原子结构有所了解
+Judah but actually now that we know a
+little bit about the atomic structure we
+
+140
+00:12:29,000 --> 00:12:31,670
+了解原子的壳结构，我们对化学有一点了解
+know about the shell structure of atoms
+we know a little bit about chemical
+
+141
+00:12:31,670 --> 00:12:34,250
+键合，我们甚至会在稍后的内容中谈论化学键合
+bonding we'll even talk a little bit
+about chemical bonding later on in the
+
+142
+00:12:34,250 --> 00:12:39,650
+一年，我们知道实际上一个原子中的许多电子实际上在
+year and we know that in fact many of
+the electrons in an atom are actually in
+
+143
+00:12:39,650 --> 00:12:44,630
+这些核心轨道电子非常靠近原子核的轨道
+orbitals very close to the to the
+nucleus these core orbital electrons are
+
+144
+00:12:44,630 --> 00:12:53,570
+基本上卡住了，所以核心轨道上的littlez电子或明显的电子
+basically stuck so core orbitals
+littlez electrons or overt electrons
+
+145
+00:12:53,570 --> 00:13:06,230
+不要移动唯一能移动外壳电子的电子，也就是
+don't move the only ones that do move
+outer shell electrons also known as
+
+146
+00:13:06,230 --> 00:13:09,220
+价电子
+valence electrons
+
+147
+00:13:10,070 --> 00:13:16,020
+移动，因此在固体中运行的电子是
+move so the electrons that are running
+around in the in the solid are the
+
+148
+00:13:16,020 --> 00:13:22,590
+所谓的价电子，您知道化学作用，实际上我们知道
+so-called valence electrons and you know
+do from chemistry we actually know how
+
+149
+00:13:22,590 --> 00:13:27,270
+这些材料具有许多价电子，实际上所有这四个
+many valence electrons these materials
+have and in fact all these four
+
+150
+00:13:27,270 --> 00:13:33,210
+材料的化合价为1，意味着在最外层壳中只有一个电子
+materials have valence one meaning only
+one electron in the outermost shell so
+
+151
+00:13:33,210 --> 00:13:36,660
+如果我们假设只有最外面的电子移动最外面的电子
+if we assume only the outermost
+electrons move the ones in the outermost
+
+152
+00:13:36,660 --> 00:13:40,770
+壳，我们应该预测每个原子一个电子
+shell
+we should predict one electron per atom
+
+153
+00:13:40,770 --> 00:13:44,760
+实际上，您知道与测得的结果相当一致
+and that's actually you know in fairly
+good agreement with what is measured
+
+154
+00:13:44,760 --> 00:13:50,400
+从实验上来说，这对于juda理论非常有用
+experimentally so that's pretty good for
+for juda theory we get roughly one
+
+155
+00:13:50,400 --> 00:13:57,570
+每个原子移动的电子，所以我们可能会为成功感到鼓舞
+electron per atom moving around so we
+might you know emboldened by our success
+
+156
+00:13:57,570 --> 00:14:02,780
+我们可能会尝试其他一些材料，所以让我们尝试一些价
+we might try some other materials so
+let's try some with valence to valence
+
+157
+00:14:02,780 --> 00:14:07,920
+等于2我们有像铍这样的材料我们有镁
+equals two we have materials like
+beryllium we have magnesium
+
+158
+00:14:07,920 --> 00:14:13,500
+他们两个都有价，突然之间我们遇到了一个大问题
+both of them have valence two and all of
+a sudden we have a big problem the big
+
+159
+00:14:13,500 --> 00:14:19,830
+问题是它的相对湿度霍尔系数现在大于零，这是
+problem is it RH the Hall coefficient is
+now greater than zero and this is
+
+160
+00:14:19,830 --> 00:14:24,060
+从这张犹大计算机的图片中完全令人困惑的是，应该
+completely puzzling from this picture of
+Judah computer says that it should be
+
+161
+00:14:24,060 --> 00:14:28,020
+只是密度乘以负电荷的电子电荷，所以
+just the density times the charge of the
+electron which is negative and so
+
+162
+00:14:28,020 --> 00:14:32,190
+在犹大理论中，我们不可能得到霍尔系数
+there's no way in Judah Theory we're
+going to get a Hall coefficient which is
+
+163
+00:14:32,190 --> 00:14:36,570
+积极，这一定使保罗·德鲁德（Paul Drude）非常困惑，并在当年晚些时候
+positive and this must have puzzled Paul
+Drude a terribly and later on the year
+
+164
+00:14:36,570 --> 00:14:40,560
+当我们研究材料的能带结构时会明白为什么
+when we study band structure of
+materials will understand why this is
+
+165
+00:14:40,560 --> 00:14:44,940
+但看起来好像发生了两件事之一，可能是
+but it kind of looks like one of two
+things is going on possibility one is
+
+166
+00:14:44,940 --> 00:14:48,780
+电子密度由于某种原因变为负数
+that the density of electrons has gone
+negative for some reason if that makes
+
+167
+00:14:48,780 --> 00:14:52,410
+任何有意义的可能性二是充电
+any sense
+possibility two is that the charge
+
+168
+00:14:52,410 --> 00:14:56,310
+携带电荷的东西不是电子
+carrier the thing that's moving around
+carrying the charge is not the electron
+
+169
+00:14:56,310 --> 00:14:59,910
+但是其他带有正电荷的东西似乎都没有
+but something else with a positive
+charge neither of those seem to make
+
+170
+00:14:59,910 --> 00:15:04,760
+现在很有道理，但希望以后会更有意义
+much sense right now but they'll make a
+little bit more sense later on hopefully
+
+171
+00:15:04,760 --> 00:15:10,050
+但是你知道犹大是一个非常勇敢的人，他决定我们要去
+but you know Judah was a very brave
+person and he decided that we're going
+
+172
+00:15:10,050 --> 00:15:14,460
+忽略这两种材料，这些材料似乎不适合它们的价
+to ignore these two materials that don't
+seem to fit the materials with valence
+
+173
+00:15:14,460 --> 00:15:19,560
+两个霍尔系数为正，我们将继续尝试
+two that have Hall coefficient positive
+and we're going to go ahead and try to
+
+174
+00:15:19,560 --> 00:15:23,690
+计算动力学理论或犹大理论的其他数量
+calculate some other quantity
+that kinetic theory or Judah theory
+
+175
+00:15:23,690 --> 00:15:28,430
+应该可以预测，您去年和一年以前学习了动力学理论
+should be able to predict now you
+studied kinetic theory last year and one
+
+176
+00:15:28,430 --> 00:15:32,570
+您能在动力学理论中计算的事物是热的
+of the things that you were able to
+calculate in kinetic theory was thermal
+
+177
+00:15:32,570 --> 00:15:40,520
+电导率我不会进行整个计算，因为它是
+conductivity I'm not going to go through
+the whole calculation because it's
+
+178
+00:15:40,520 --> 00:15:43,760
+您去年可能学得很好的东西可能不值得
+something that you probably learned very
+well last year it's probably not worth
+
+179
+00:15:43,760 --> 00:15:47,540
+再次经历，但我会写下答案，你可能应该
+going through again but I'll write down
+the answer that you probably well should
+
+180
+00:15:47,540 --> 00:15:51,200
+可能看起来很熟悉单原子气体的导热系数
+probably look familiar the thermal
+conductivity for a monatomic gas is
+
+181
+00:15:51,200 --> 00:15:58,810
+颗粒密度每颗粒热容量的三分之一，这是N之上的CV 
+one-third the density of particles heat
+capacity per particle this is CV over N
+
+182
+00:15:58,810 --> 00:16:05,600
+然后有一个速度和一个散射长度，即速度
+and then there's a velocity and a
+scattering length which is velocity
+
+183
+00:16:05,600 --> 00:16:11,200
+乘以散射时间，在动力学理论中，我们可以将速度设为
+times the scattering time and in kinetic
+theory we can take the velocity to be
+
+184
+00:16:11,200 --> 00:16:18,320
+ pi乘以pi的倍数为8 KBT的平方根
+square root of eight KBT over pi times
+the mass does this all look familiar is
+
+185
+00:16:18,320 --> 00:16:23,900
+去年大概有点熟悉，希望还可以，所以我们要做的是
+vaguely familiar from last year
+hopefully okay so what we do is we
+
+186
+00:16:23,900 --> 00:16:27,770
+实际上只是将其插入V平方，因为它发生了
+actually just plug this in it's going to
+be V squared because because it occurs
+
+187
+00:16:27,770 --> 00:16:32,870
+在两个地方将插入动力学理论CD在N上的表达式
+in two places will plug in the
+expression from kinetic theory CD over N
+
+188
+00:16:32,870 --> 00:16:42,920
+是经典气体物理学的三分之二kb，而我们得到的是热
+is three-halves kb from classical gas
+physics and what we get is the thermal
+
+189
+00:16:42,920 --> 00:16:49,070
+电导率在pi上是4，所以让我们看一下PI就是从这里下来的
+conductivity is 4 over pi so the let's
+see so the PI comes from down here
+
+190
+00:16:49,070 --> 00:16:53,150
+平方之后，我猜我们那里有一个2，它取消了8以使
+having gotten squared I guess we got a 2
+over there which cancel the 8 to make a
+
+191
+00:16:53,150 --> 00:17:03,290
+ 4那么我们在n上有n tau KB平方T，所以这是对
+4 then we have n tau K B squared T over
+m so that's the prediction for the
+
+192
+00:17:03,290 --> 00:17:08,780
+在犹大理论中的热导率现在我们再次有这个问题是
+thermal conductivity in in judah theory
+now again we have this question is this
+
+193
+00:17:08,780 --> 00:17:12,650
+一个好答案还是一个不好的答案，我们真的不知道，因为我们有
+a good answer or is this a bad answer
+and we don't really know because we have
+
+194
+00:17:12,650 --> 00:17:18,319
+这个tau这个等式中的未知数量tau但是还不错
+this tau this unknown quantity tau in
+this equation but it's not so bad
+
+195
+00:17:18,319 --> 00:17:24,439
+因为我们也有Sigma是t大于m的平方的平方，我们可以看一下比率
+
+196
+00:17:24,440 --> 00:17:29,330
+这两个数量中的1个，然后去掉tau，所以我们做的就是
+of these two quantities and get rid of
+tau so let's do that we'll take what is
+
+197
+00:17:29,330 --> 00:17:36,590
+称为L洛伦兹burr洛伦兹编号这不是
+known as L the Lorentz
+burr lorentz number number this is not
+
+198
+00:17:36,590 --> 00:17:40,700
+实际上是洛伦兹转型和洛伦兹力量的同一个人
+actually the same guy who is Lorentz
+transformations and Lorentz force
+
+199
+00:17:40,700 --> 00:17:45,890
+这是洛伦兹（Lorenz），他名字中没有T，每个人似乎都有洛伦兹（Lorentz）号
+this is Lorenz without the T in his name
+Lorentz number everyone seems to have
+
+200
+00:17:45,890 --> 00:17:50,380
+ 1800年代在德国同名啊
+the same name in Germany in the 1800s ah
+
+201
+00:17:50,410 --> 00:17:56,930
+我们可以将导热率与T乘以Sigma的比率
+we so we can take the ratio of the
+thermal conductivity to T times Sigma
+
+202
+00:17:56,930 --> 00:18:05,360
+在这里，Taos取消了，我们只剩下四个PI和KB / e平方
+here the Taos cancel and we're left with
+just four over PI and KB / e squared
+
+203
+00:18:05,360 --> 00:18:12,320
+就是这样，当您输入数字时，此结果是10的1倍
+that's it and this result while you put
+in numbers you discover it's 1 times 10
+
+204
+00:18:12,320 --> 00:18:18,080
+到每开尔文平方减去-8瓦欧姆，这个结果有点
+to the minus 8 watt ohms per Kelvin
+squared and this result is kind of
+
+205
+00:18:18,080 --> 00:18:22,400
+有趣，因为这就是我们所说的通用性，它并不依赖于
+interesting because it's it's what we
+call universal it doesn't depend on
+
+206
+00:18:22,400 --> 00:18:25,850
+温度与电子的质量无关
+temperature it doesn't depend on the
+mass of the electron it doesn't depend
+
+207
+00:18:25,850 --> 00:18:28,700
+电子的散射时间与电子的密度无关
+on the scattering time of the electrons
+doesn't pend on the density of electrons
+
+208
+00:18:28,700 --> 00:18:32,870
+除了这些基本数量之外，它不依赖任何其他因素
+it doesn't depend on anything except
+these fundamental quantities Boltzmann's
+
+209
+00:18:32,870 --> 00:18:38,420
+常数和电子的电荷，这是一个有趣的预测
+constant and the charge of the electron
+it's kind of an interesting prediction
+
+210
+00:18:38,420 --> 00:18:47,420
+实际上，洛伦兹数固定为L的事实对于
+and in fact the fact that the Lorentz
+number is fixed L the same the same for
+
+211
+00:18:47,420 --> 00:18:58,880
+所有材料的所有材料在所有场合都是已知的
+all materials for all materials was
+known in all t t um this is known as the
+
+212
+00:18:58,880 --> 00:19:07,880
+维生素Franz法维生素Franz，自1800年代中期以来就广为人知， 
+vitamin Franz law vitamin Franz and it
+was known since the mid 1800s and no one
+
+213
+00:19:07,880 --> 00:19:11,270
+有一个最雾的想法，为什么它是真的，他们只是测量了维生素和弗朗兹
+had the foggiest idea why it was true
+they just measured it vitamin and Franz
+
+214
+00:19:11,270 --> 00:19:15,890
+是德国人，他们喜欢测量热导率电
+were Germans who liked to measure things
+like thermal conductivity electrical
+
+215
+00:19:15,890 --> 00:19:20,510
+电导率在1800年代中期，他们注意到，如果采用该比率
+conductivity in the mid-1800s and they
+noticed that if you take this ratio it
+
+216
+00:19:20,510 --> 00:19:25,250
+我猜如果我们想成为所有材料的结果几乎相同
+comes out pretty much the same for all
+materials I guess if we want to be
+
+217
+00:19:25,250 --> 00:19:31,160
+实际上，对于锂来说，它的精确度是2.2瓦乘以10 
+precise about it in fact for lithium it
+comes out about 2.2 watt times 10 to the
+
+218
+00:19:31,160 --> 00:19:39,350
+铜的每开尔文平方减去8瓦欧姆，铁约为2.0 
+minus 8 watt ohms per Kelvin squared for
+copper it's about 2.0 for iron
+
+219
+00:19:39,350 --> 00:19:44,390
+大约是2.6，所以非常接近犹大的
+it's about 2.6 so it's pretty close to
+judah's
+
+220
+00:19:44,390 --> 00:19:48,650
+预测好吧，它偏离了两倍，但至少它是正确的
+prediction okay it's off by a factor of
+two but at least it's in the right
+
+221
+00:19:48,650 --> 00:19:53,660
+球场这是一个非常粗糙的理论，在犹大之前没有人有任何想法
+ballpark it's a very crude theory and
+before Judah no one had the had any idea
+
+222
+00:19:53,660 --> 00:19:59,960
+为什么要为所有材料完全固定这个比例，所以这是
+why this ratio should be fixed for all
+materials all and at all so this was
+
+223
+00:19:59,960 --> 00:20:03,770
+确实向前迈出了一大步，我们应该拥有直觉
+really a great step forward and the
+intuition that we should have in our
+
+224
+00:20:03,770 --> 00:20:08,900
+头实际上不是那么复杂的直觉应该是
+heads is actually not that complicated
+the intuition should be that whether
+
+225
+00:20:08,900 --> 00:20:11,390
+我们正在考虑传热或他们在考虑什么
+we're thinking about heat transport or
+whatever they're thinking about
+
+226
+00:20:11,390 --> 00:20:15,920
+电传输我们实际上只是在考虑电子在运动
+electrical transport we're really just
+thinking about electrons moving if we're
+
+227
+00:20:15,920 --> 00:20:18,890
+考虑到常规电导率，我们有点在数
+thinking about regular conductivity
+we're sort of counting how many
+
+228
+00:20:18,890 --> 00:20:22,669
+电子移动，每个电子上都有一定量的电荷，而
+electrons move and each electron has a
+certain amount of charge on it whereas
+
+229
+00:20:22,669 --> 00:20:26,750
+如果我们在考虑导热系数，我们仍在计算
+if we're thinking about thermal
+conductivity we're still counting how
+
+230
+00:20:26,750 --> 00:20:30,650
+许多电子在运动，但是每个电子在运动一定量的
+many electrons are moving but each
+electron is moving a certain amount of
+
+231
+00:20:30,650 --> 00:20:34,970
+热量与温度成正比，因此热量比
+heat which is proportional to
+temperature so that ratio of thermal
+
+232
+00:20:34,970 --> 00:20:40,250
+电导率除以温度，然后除以常规电导率
+conductivity divided by temperature then
+divided by regular conductivity should
+
+233
+00:20:40,250 --> 00:20:43,160
+大致恒定，因为在所有情况下，您都只是在数
+come out roughly constant because in
+both in all cases you're just counting
+
+234
+00:20:43,160 --> 00:20:48,290
+可以移动的电子数，所以这是一个非常好的结果
+the number of electrons that move okay
+so this was a really good result from
+
+235
+00:20:48,290 --> 00:20:52,490
+来自犹大的会议，解释了维南法和弗朗茨法，但其中有一个
+meeting from from Judah explaining the
+vinum and Franz law but there's a really
+
+236
+00:20:52,490 --> 00:21:04,370
+大难题，而难题在于，我们过去使用了相当容易的陈述
+big puzzle and the puzzle is that we
+used we used rather glibly the statement
+
+237
+00:21:04,370 --> 00:21:10,190
+ N上的CV为三分之二kb，对于
+the CV over N is three-halves kb which
+is a perfectly good result for a
+
+238
+00:21:10,190 --> 00:21:17,380
+单原子气体，但对于金属中的电子而言并非如此
+monatomic gas but it's just not true for
+electrons in the metal not true for
+
+239
+00:21:17,380 --> 00:21:22,760
+金属中的电子为什么不能很好地测量，我们发现它不是
+electrons in metal why not
+well we measured it and we saw it's not
+
+240
+00:21:22,760 --> 00:21:27,980
+真实记住金属中的热容量是立方T，我们
+true remember in metals the heat
+capacity is alpha T cubed and we
+
+241
+00:21:27,980 --> 00:21:34,040
+将此alpha识别为振动或Debye Theory加gamma 
+identified this alpha as being
+vibrations or Debye Theory plus gamma
+
+242
+00:21:34,040 --> 00:21:40,100
+乘以T，实际上，如果您将此伽马乘以T，对于金属来说是特殊的，所以这是
+times T and in fact if you this gamma
+times T is special for metals so this is
+
+243
+00:21:40,100 --> 00:21:44,000
+电子在金属中以及任何周围流动的热容量
+the heat capacity of the electrons
+running around in the metal and for any
+
+244
+00:21:44,000 --> 00:21:49,640
+合理的温度伽玛乘以T远小于三分之二Kb 
+reasonable temperature gamma times T is
+much much less than three halves Kb as
+
+245
+00:21:49,640 --> 00:21:59,080
+只要T不是巨大的，就意味着您知道的巨大
+long as T is not ginormous
+enormous that means huge like you know
+
+246
+00:21:59,080 --> 00:22:03,940
+只要T不为10,000开尔文10,000开尔文伽马T远小于
+10,000 Kelvin as long as T is not 10,000
+Kelvin gamma T is much less than
+
+247
+00:22:03,940 --> 00:22:08,320
+即使我们使用三分之二的Kb 
+three-halves Kb
+so somehow or other even though we use
+
+248
+00:22:08,320 --> 00:22:11,800
+这东西显然是不正确的，我们用电子给了热量
+this thing that was clearly incorrect we
+use we gave the electrons the heat
+
+249
+00:22:11,800 --> 00:22:17,620
+每个容量可减少三分之二KB，而实际上如果测量热量
+capacity of three-halves KB each whereas
+in fact if you measure the heat capacity
+
+250
+00:22:17,620 --> 00:22:21,430
+金属的热容量不只是唯一的热容量
+of the metal that heat capacity is just
+not there the only heat capacity the
+
+251
+00:22:21,430 --> 00:22:24,340
+电子具有的这个伽马乘以T远小于
+electrons have is this gamma times T
+which is much much less than
+
+252
+00:22:24,340 --> 00:22:29,230
+三分之二Kb，那么我们如何正确地处理这件事呢
+three-halves Kb so how did we get this
+right what what what's going on here
+
+253
+00:22:29,230 --> 00:22:34,540
+好了，这里的问题这里的问题实际上变得更加明显
+well the problem here the problem here
+actually becomes much much more obvious
+
+254
+00:22:34,540 --> 00:22:39,660
+如果我们看其他数量，我们来看看热电特性
+if we look at some other quantities
+let's look at thermoelectric properties
+
+255
+00:22:39,660 --> 00:22:52,210
+热电性能电性能是一种
+thermo electric properties electric
+properties properties this is a kind of
+
+256
+00:22:52,210 --> 00:22:56,140
+我们要看的实验这里是一块金属，我们要运行电流
+experiment we want to look at here's a
+block of metal we want to run a current
+
+257
+00:22:56,140 --> 00:23:00,730
+所以这是电流源，我们将电流流过金属
+so here's a current source we run the
+current through the metal so the current
+
+258
+00:23:00,730 --> 00:23:06,370
+通过这种方式将电子拖过金属，然后因为电流是
+drags electrons through the metal this
+way and then because the current is
+
+259
+00:23:06,370 --> 00:23:08,830
+穿过金属，这意味着电子正在穿过金属
+moving through the metal it means the
+electrons are moving through the metal
+
+260
+00:23:08,830 --> 00:23:14,440
+因此热量就是我让电子以这种方式移动
+and therefore heat is I just have the
+electrons moving this way a current
+
+261
+00:23:14,440 --> 00:23:18,610
+向相反的方向移动，但是电子以这种方式移动，因此
+moves in the opposite direction but the
+electron is moving this way so then the
+
+262
+00:23:18,610 --> 00:23:23,380
+加热时，热电流被拖向同一方向，因为每个电子
+heat the heat current gets dragged in
+the same direction because each electron
+
+263
+00:23:23,380 --> 00:23:30,580
+用它拖动一定量的热量，所以可以定义J q JQ现在
+is dragging a certain amount of heat
+with it so one can define J q JQ is now
+
+264
+00:23:30,580 --> 00:23:42,730
+热流密度热流密度J q等于某个系数
+the heat current density heat current
+density J q is equal to some coefficient
+
+265
+00:23:42,730 --> 00:23:49,270
+ pi乘以常规电流密度J和pi称为珀耳帖
+pi times the regular current density J
+and pi is known as the Peltier
+
+266
+00:23:49,270 --> 00:23:59,510
+珀尔帖系数，这称为
+coefficient Peltier coefficient and this
+is known as a Peltier effect after
+
+267
+00:23:59,510 --> 00:24:05,210
+先生。佩莱捷（Pelletier）在1834年发现了这种效应， 
+mr. Pelletier who discovered this effect
+in 1834 another one of these people from
+
+268
+00:24:05,210 --> 00:24:12,770
+不管怎样，无论如何，我们都喜欢测量热电传输
+the 1800s who like to measure thermal
+and electrical transport anyway we can
+
+269
+00:24:12,770 --> 00:24:17,570
+实际上，除了珀尔帖效应是
+actually I should comment here as a bit
+of an aside that Peltier effect is
+
+270
+00:24:17,570 --> 00:24:22,130
+实际上，了解您的技术效果非常有用
+actually a very technologically useful
+effect to know about you can actually
+
+271
+00:24:22,130 --> 00:24:25,970
+用它建造一个非常好的没有移动部件的冰箱，这个想法是
+build a very nice refrigerator with it
+which has no moving parts the idea is
+
+272
+00:24:25,970 --> 00:24:30,890
+如果您想将热量从冰箱评价器的一侧转移到
+that if you want to move heat from one
+side the inside of your fridge rater to
+
+273
+00:24:30,890 --> 00:24:33,140
+冰箱的外部将热量转移出去
+the outside of the refrigerator to move
+heat out
+
+274
+00:24:33,140 --> 00:24:36,710
+你只需要运行电流，它就会带走热量，使这一面变冷
+you just run current and it drags heat
+with it and leaving this side cold
+
+275
+00:24:36,710 --> 00:24:41,390
+事实上，您可以购买这样构造的冰箱
+making that side hot in fact you can buy
+refrigerators that are built like this
+
+276
+00:24:41,390 --> 00:24:44,420
+他们没有水泵之类的东西他们不大声他们很安静
+they don't have pumps and things like
+that they're not loud they're very quiet
+
+277
+00:24:44,420 --> 00:24:49,190
+实际上，它们经常被用作葡萄酒冰箱，我不知道为什么，但是
+frequently they're actually used as wine
+refrigerators I don't know why but but
+
+278
+00:24:49,190 --> 00:24:54,290
+这些天，您可以在公开市场上购买Peltier冰箱，但是
+you can buy a Peltier refrigerator you
+know on the open market these days but
+
+279
+00:24:54,290 --> 00:24:58,190
+在Peltier冰箱中必须记住的一件事是
+one thing that wuntch has to keep in
+mind in a Peltier refrigerator is that
+
+280
+00:24:58,190 --> 00:25:01,280
+你不能使自己不能仅仅继续运行越来越多的电流， 
+you can't make you can't just keep
+running more and more current and
+
+281
+00:25:01,280 --> 00:25:04,550
+越来越冷，因为在某个时候会有一个我
+getting a colder and colder because at
+some point there's going to be an I
+
+282
+00:25:04,550 --> 00:25:10,040
+平方R的散热量，因此您将消耗功率，如果我平方R 
+squared R heat dissipation so you'll be
+dissipating power and if I squared R
+
+283
+00:25:10,040 --> 00:25:14,150
+变得太大，那么您就开始加热东西，所以对于小电流来说
+gets too big then you start heating
+things up so for small currents this
+
+284
+00:25:14,150 --> 00:25:18,020
+一侧会变冷一侧会变热但对于大电流而言
+side will get cold this side will get
+hot but for large currents everything
+
+285
+00:25:18,020 --> 00:25:23,450
+会变热，因此建造一台好的帕尔贴冰箱的艺术形式是
+gets hot so the the art form in building
+a good Peltier refrigerator is that you
+
+286
+00:25:23,450 --> 00:25:27,350
+必须找到一种具有大珀尔帖系数但很小的材料
+have to find a material with a large
+Peltier coefficient but a small
+
+287
+00:25:27,350 --> 00:25:32,560
+电阻率，找到这些材料的人很多
+resistivity and there's many many people
+whose job it is to find these materials
+
+288
+00:25:32,560 --> 00:25:36,550
+好吧，无论如何，我们将尝试计算此帕尔帖系数um 
+alright anyway we're going to try to
+calculate this Peltier coefficient um
+
+289
+00:25:36,550 --> 00:25:43,490
+我们如何做得好，热电流密度JQ 
+how do we do that well the heat current
+density JQ and we have the electrical
+
+290
+00:25:43,490 --> 00:25:46,460
+电流信号，我们知道电流密度是多少
+current ensign we know what the
+electrical current density is it's the
+
+291
+00:25:46,460 --> 00:25:50,060
+速度电子正在移动电子和电荷的密度
+velocity electrons are moving the
+density of the electrons and the charge
+
+292
+00:25:50,060 --> 00:25:54,200
+在电子上，热含量非常相似， 
+on the electrons the heat content see
+very similar it's sort of a lot while
+
+293
+00:25:54,200 --> 00:25:57,290
+如果您老实说，这是三分之一，这是通常的情况
+there's a factor of one-third if you're
+honest about it that's a this usual
+
+294
+00:25:57,290 --> 00:25:59,540
+几何因素不必太担心
+geometric factor don't worry about it
+too much
+
+295
+00:25:59,540 --> 00:26:02,960
+电子的速度正在移动电子的密度和热量
+the velocity electrons are moving the
+density of the electrons and the heat
+
+296
+00:26:02,960 --> 00:26:07,410
+每个电子携带的是CVT 
+that each electron is carrying which is
+CVT
+
+297
+00:26:07,410 --> 00:26:12,170
+我们将这两件事的比值求得珀尔帖系数pi为
+we take the ratio of these two things
+we'll get a Peltier coefficient pi is
+
+298
+00:26:12,170 --> 00:26:20,010
+如果插入通常的CV动力学理论结果，则CVT超过e的三倍
+CVT over three times minus e if we plug
+in the usual kinetic theory result of CV
+
+299
+00:26:20,010 --> 00:26:26,390
+是三分之二的KB，我要警告您，这不是一个好主意，我们最终会得到
+is three-halves KB which I'm re warning
+you is not a good idea we end up getting
+
+300
+00:26:26,390 --> 00:26:34,380
+ KB的两倍乘以e乘以T，人们经常做的是
+KB over two times minus e times T and
+frequently what people do is they
+
+301
+00:26:34,380 --> 00:26:40,410
+实际考虑的比率称为s，即PI与T的比称为
+actually consider the ratio known as s
+which is PI over T s is known as the
+
+302
+00:26:40,410 --> 00:26:46,530
+塞贝克系数塞贝克是1800年代的另一个人， 
+Seebeck coefficient Seebeck was another
+person from the 1800s who liked to
+
+303
+00:26:46,530 --> 00:26:49,920
+我相信他来自
+measure electrical and thermal
+properties he I believe he was from
+
+304
+00:26:49,920 --> 00:26:56,250
+爱沙尼亚实际上任何人无论如何都恰好是爱沙尼亚人，所以如果你把那个
+Estonia actually anyone who happens to
+be Estonian anyway so if you take that
+
+305
+00:26:56,250 --> 00:27:02,010
+我们只得到2倍减去e的通用常数KB 
+ratio we just get the universal constant
+KB over 2 times minus e which has a
+
+306
+00:27:02,010 --> 00:27:09,660
+负0.4的数值乘以10至负10到负4伏
+numerical value of minus 0.4 times 10 to
+the minus 10 to the minus 4 volts per
+
+307
+00:27:09,660 --> 00:27:14,640
+开尔文（Kelvin），问题就在这里，如果您实际测量塞贝克（Seebeck） 
+Kelvin and the problem is here that if
+you actually measure the Seebeck
+
+308
+00:27:14,640 --> 00:27:26,660
+您实际上发现的任何金属的系数s小100倍
+coefficient for any metal you discover
+actually actually s is 100 times smaller
+
+309
+00:27:28,580 --> 00:27:35,730
+所以这在动力学理论动力学中是一个明显得多的明显错误
+so this is an obvious much more obvious
+error in in kinetic theory kinetic
+
+310
+00:27:35,730 --> 00:27:40,590
+理论是错误的，这个问题的根源是我们正在使用
+theory is going way wrong and the source
+of this problem is that we were using
+
+311
+00:27:40,590 --> 00:27:45,360
+电子的热容量是错误的，问题就来了
+this heat capacity for the electrons
+that is just wrong and the problem comes
+
+312
+00:27:45,360 --> 00:27:54,540
+从为什么为什么这样的问题开始，因为实际上C比N大得多
+from why why the problem by the problem
+because in fact C over N is much much
+
+313
+00:27:54,540 --> 00:28:00,870
+如果少于三分之二kb的话，如果
+less than three-halves kb c vo ran much
+much less than three-halves kb well if
+
+314
+00:28:00,870 --> 00:28:07,230
+如果我们使用的热量如此之大，那是真的，为什么
+this is true if we're using this heat
+capacity that's so wrong why is it that
+
+315
+00:28:07,230 --> 00:28:12,450
+当我们计算热量时，我们向上计算的方法还可以
+we did okay when we calculated way up
+there when we calculated the thermal
+
+316
+00:28:12,450 --> 00:28:16,980
+导热率我们得到了导热率与常规导热率之比
+conductivity we got the ratio of the
+thermal conductivity to the regular
+
+317
+00:28:16,980 --> 00:28:20,400
+电导率我们得到的洛伦兹数几乎完全正确
+conductivity we got the lorentz number
+almost exactly right where is the
+
+318
+00:28:20,400 --> 00:28:23,190
+塞贝克的效率是完全错误的，所以
+Seebeck
+efficient is completely wrong so
+
+319
+00:28:23,190 --> 00:28:26,550
+某种程度上的矛盾或其他V需求弗朗兹定律即将到来
+something's inconsistent somehow or
+other the V demand Franz law is coming
+
+320
+00:28:26,550 --> 00:28:29,790
+正确，塞贝克系数完全错误， 
+out right the Seebeck coefficient is
+coming out completely wrong and the
+
+321
+00:28:29,790 --> 00:28:34,980
+发生这种情况的原因我们获得了Vietminh Franz法律正确的原因
+reason that this happens the reason we
+got the Vietminh Franz law right reason
+
+322
+00:28:34,980 --> 00:28:46,860
+ CAPA之所以正确的原因是因为我们犯了两个取消错误，两个取消
+why why CAPA is right is because we made
+two canceling errors two cancelling
+
+323
+00:28:46,860 --> 00:28:55,410
+错误，这是我提到的第一个vit C over n CV over N 
+errors there's the first one I've
+mentioned already vit C over n CV over N
+
+324
+00:28:55,410 --> 00:29:00,660
+比kb的三分之二少得多，我们使用kb，但还有另一半
+is much much less than three-halves kb
+and we use kb but there's another one we
+
+325
+00:29:00,660 --> 00:29:07,110
+也使用V的V平方期望值，我们插入了动力学理论结果8 
+also use V squared expectation of V we
+plugged in the kinetic theory result 8
+
+326
+00:29:07,110 --> 00:29:14,100
+ KB T超过PI m，实际上V平方实际上要大得多
+KB T over PI m and in actuality V
+squared is actually much much greater
+
+327
+00:29:14,100 --> 00:29:21,600
+在导热系数方面比PI M的KB还要大，它们几乎
+than a KB over PI M in these errors in
+the thermal conductivity they almost
+
+328
+00:29:21,600 --> 00:29:25,110
+完全抵消，所以我们得到的导热系数几乎完全正确
+exactly cancel so we get the thermal
+conductivity almost exactly right
+
+329
+00:29:25,110 --> 00:29:30,240
+而这个V平方的量不会输入塞贝克系数，所以我们
+whereas this quantity V squared doesn't
+enter in the Seebeck coefficient so we
+
+330
+00:29:30,240 --> 00:29:35,280
+完全弄错了，因为我们使用了这个，但现在还不行
+get it completely wrong because we use
+this but not this okay now the first
+
+331
+00:29:35,280 --> 00:29:40,470
+一年中有机会赢得极好的奖品一种高质量的巧克力
+chance of the year to win fabulous
+prizes one very high quality chocolate
+
+332
+00:29:40,470 --> 00:29:43,740
+棒实际上我最喜欢的巧克力棒已经卖完了，所以这有点少了
+bar actually my favorite chocolate bar
+was sold out so this is a slightly less
+
+333
+00:29:43,740 --> 00:29:49,140
+而不是高质量的巧克力棒，所以如果有人可以告诉我我们为什么做
+than a very high quality chocolate bar
+so if anyone who can tell me why we made
+
+334
+00:29:49,140 --> 00:29:55,500
+这两个错误我们该怎么办我们会遗漏吗
+both of these mistakes what do we do
+wrong would we leave out come on come on
+
+335
+00:29:55,500 --> 00:30:00,950
+来吧来吧来吧来吧我们该怎么忘记某人某人是
+come on come on come on come on what do
+we forget someone someone yes
+
+336
+00:30:04,810 --> 00:30:08,420
+你还好，所以我不会成为那个巧克力棒，但这很好
+you're okay so I'm not going to be the
+chocolate bar for that but it's a good
+
+337
+00:30:08,420 --> 00:30:13,790
+通常使用V对X的期望的想法是UV平方
+idea generally generally using
+expectation of V versus X is UV squared
+
+338
+00:30:13,790 --> 00:30:16,670
+我们会犯一个错误，但是通常只是两种错误的一个因素，所以这是一个
+we'll make an error buts usually only a
+factor of two kind of error so it's a
+
+339
+00:30:16,670 --> 00:30:20,690
+小错误，因此有各种各样的争论，关于哪个更适合用于此
+small error so there's various debates
+as to which one is better to use in this
+
+340
+00:30:20,690 --> 00:30:22,850
+的情况，但我同意这是一个潜在的问题
+case but I agree that that's a potential
+problem
+
+341
+00:30:22,850 --> 00:30:32,270
+其他人是是是是费米子是，所以我会扔给
+anyone else yes yes yes that's it
+fermions yes so I would throw this to
+
+342
+00:30:32,270 --> 00:30:35,080
+你，但它可能会错过，所以你可以出来，然后再拿出来，所以
+you but it would probably miss so you
+can come it out and get it afterwards so
+
+343
+00:30:35,080 --> 00:30:39,380
+我们遗漏的是保利排斥原理电子是
+the thing we left out was Pauli
+exclusion principle electrons are
+
+344
+00:30:39,380 --> 00:30:42,320
+费米子不能使所有电子处于相同的状态，它们不是
+fermions you can't put all the electrons
+in the same state they're not a
+
+345
+00:30:42,320 --> 00:30:47,450
+无论如何，经典气体都有费米气体，所以我们将不得不
+classical gas in any sense there are a
+Fermi gas and so we're going to have to
+
+346
+00:30:47,450 --> 00:30:50,480
+妥善对待，也许能够读下来，因为它真的
+treat that properly maybe able to read
+that write that down because it's really
+
+347
+00:30:50,480 --> 00:30:59,620
+重要的费米统计费米统计，所以我们必须处理
+important Fermi statistics Fermi
+statistics so we have to deal with that
+
+348
+00:30:59,620 --> 00:31:03,650
+这就是我们下一步要做的，但是在此之前，您可以做一点
+that's what we're going to do next but
+before doing that you can do a little
+
+349
+00:31:03,650 --> 00:31:09,470
+犹大理论摘要犹大摘要um 
+bit of a summary of juda theory
+juda summary um
+
+350
+00:31:09,470 --> 00:31:15,590
+所以提请总结很多事情，很多事情，很多运输
+so drew to summary many things right
+many things right many transport
+
+351
+00:31:15,590 --> 00:31:20,630
+正确的物业，我认为您要学习家庭作业， 
+properties you get right and I think for
+homework you'll study a couple of other
+
+352
+00:31:20,630 --> 00:31:24,530
+在犹大理论中您正确的事情仍然被大量使用
+things that you get right in judah
+theory it's still used very heavily drew
+
+353
+00:31:24,530 --> 00:31:27,470
+该理论被广泛用于理解金属和半导体
+the theory is used very heavily for
+understanding metals and semiconductors
+
+354
+00:31:27,470 --> 00:31:35,030
+特别适用于半导体，但存在一些问题
+particularly good for semiconductors but
+it has problems and some of the problems
+
+355
+00:31:35,030 --> 00:31:47,150
+好吧，我们的H可能有错误的符号，错误的符号，您可以让CV超过
+are well our H can have wrong sign have
+wrong sign sign um you can have CV over
+
+356
+00:31:47,150 --> 00:31:51,620
+ N实际上远小于我们使用的三分之二kb 
+N is actually much much less than
+three-halves kb where we use
+
+357
+00:31:51,620 --> 00:31:56,470
+在计算中减少了三分之二kb，这样您就可以知道Seebeck错误
+three-halves kb in the calculations and
+you can get you know Seebeck wrong by
+
+358
+00:31:56,470 --> 00:32:02,570
+错误一百一百零零等等，实际上您可以得到
+wrong by a hundred long by a hundred and
+so forth in fact you can get the sign of
+
+359
+00:32:02,570 --> 00:32:06,590
+ Seebeck系数也是错误的，但是由于我们被Mac和
+the Seebeck coefficient wrong as well
+but being that we're off by a mac and
+
+360
+00:32:06,590 --> 00:32:10,880
+幅度高达一百倍，似乎有点多余
+magnitude by a factor of a hundred it
+seems a little bit superfluous to worry
+
+361
+00:32:10,880 --> 00:32:14,750
+无论如何，关于标志的一切都突然好起来了，这些是其中的一些
+about the sign all of a sudden okay
+anyway so these are some of the
+
+362
+00:32:14,750 --> 00:32:18,520
+犹大理论的总结，但尽管如此， 
+summaries of juda theory but nonetheless
+this was
+
+363
+00:32:18,520 --> 00:32:23,950
+人们如何在犹大之前的1900年代首次了解奖牌
+how people understood medals for the
+first time in the 1900s before Judah
+
+364
+00:32:23,950 --> 00:32:27,730
+人们根本不了解金属，但对理论仍然很满意
+people didn't understand metals at all
+and still do to theories extremely good
+
+365
+00:32:27,730 --> 00:32:32,620
+粗略了解金属的方法，但是大约25步并没有真正进展
+way to roughly understand metals but
+nothing really progressed for about 25
+
+366
+00:32:32,620 --> 00:32:36,910
+十年，犹大理论就存在了，人们不明白为什么这些
+years and Judah theory was all there was
+and people didn't understand why these
+
+367
+00:32:36,910 --> 00:32:41,980
+事情并没有解决，但是在1925年左右，先生
+things didn't come out right
+but around 1925 there are a lot of sir
+
+368
+00:32:41,980 --> 00:32:46,210
+物理上同时取得的巨大进步是1925年的Pauli排除法
+simultaneous enormous advances in
+physics 1925 was the Pauli exclusion
+
+369
+00:32:46,210 --> 00:32:52,090
+原理1926年是薛定inger方程，1926年是费米·狄拉克
+principle 1926 was the Schrodinger
+equation also 1926 was was Fermi Dirac
+
+370
+00:32:52,090 --> 00:33:00,190
+统计资料，1927年有人来了一个名叫Arnold Sommerfeld的家伙
+statistics and in 1927 someone came
+along guy named Arnold Sommerfeld 1927
+
+371
+00:33:00,190 --> 00:33:08,950
+索默菲尔德索默菲尔德获得诺贝尔奖提名81次从未失败
+Sommerfeld Sommerfeld was nominated for
+nobel prize 81 times never got it poor
+
+372
+00:33:08,950 --> 00:33:14,830
+家伙，但他的想法是他要用费米统计来治疗金属
+guy but his idea was he was going to
+treat metals with fermi statistics treat
+
+373
+00:33:14,830 --> 00:33:26,500
+用费米统计与费米统计换句话说就是
+metals metals with fermi statistics with
+fermi statistics in other words we're
+
+374
+00:33:26,500 --> 00:33:31,420
+将解释电子实际上是费米子这样的事实
+going to account for the fact that the
+electrons are actually fermions and so
+
+375
+00:33:31,420 --> 00:33:35,800
+现在，我们需要回顾一下关于费米的知识
+now we have to do a little bit of a
+review of what we know about fermi
+
+376
+00:33:35,800 --> 00:33:39,640
+统计数据，我们要记住的最重要的是费米
+statistics and the most important thing
+we have to remember is the Fermi
+
+377
+00:33:39,640 --> 00:33:48,580
+ βε的职业函数n F减去mu比βε的e大1 
+occupation function n F of beta epsilon
+minus mu is 1 over e to the beta epsilon
+
+378
+00:33:48,580 --> 00:33:56,470
+减亩加1处视图是化学势γ势和
+minus mu plus 1 view here is the
+chemical potential gamma potential and
+
+379
+00:33:56,470 --> 00:34:06,970
+这个NF事物NF是概率桶处于本征态的概率是一个鸡蛋。 
+this NF thing NF is the probability the
+prob bin an eigenstate it's an egg an
+
+380
+00:34:06,970 --> 00:34:17,130
+鸡蛋能量在能量能量epsilon被占领
+egg at energy at energy energy epsilon
+is occupied
+
+381
+00:34:18,829 --> 00:34:26,809
+好是是问题否是好的好吧好吧，让我们来画这个东西
+good yes yes question No yeah good all
+right good so so let's plot this thing
+
+382
+00:34:26,809 --> 00:34:34,049
+所以我们在这个轴上有能量，在这个轴上还有NF 
+so we have energy on this axis we have
+NF on this axis and somewhere over here
+
+383
+00:34:34,049 --> 00:34:39,659
+我们在零温度下的化学势μ费米函数
+we have the chemical potential mu at
+zero temperature the Fermi function goes
+
+384
+00:34:39,659 --> 00:34:44,069
+从一到零作为应该在那儿放平的阶跃函数
+from one to zero as a step function
+that's supposed to be flat up there so
+
+385
+00:34:44,069 --> 00:34:48,989
+这等于T等于零，这是从1下降到零的完美步骤
+this is at T equals zero it's a perfect
+step from one down to zero at the
+
+386
+00:34:48,989 --> 00:34:54,418
+ T处的化学势不等于零，看起来更平滑
+chemical potential at T not equal to
+zero it's somewhat smoother looks like
+
+387
+00:34:54,418 --> 00:35:00,000
+因此，这是T大于零，并且宽度从一开始下降
+this so this is T greater than zero and
+the width over which it drops from one
+
+388
+00:35:00,000 --> 00:35:06,150
+设为零，这里的宽度大约是KBT好的，这看起来有点模糊吗
+to zero that this width here is roughly
+KBT okay does this look vaguely familiar
+
+389
+00:35:06,150 --> 00:35:10,650
+从去年开始，我希望是的，所以现在对
+from last year
+I hope yeah okay so now it's useful to
+
+390
+00:35:10,650 --> 00:35:16,650
+有几个定义，我们将使用定义化学
+have a couple of definitions that we're
+going to use definition the chemical
+
+391
+00:35:16,650 --> 00:35:25,740
+ t处的电位mu等于零称为费米能量EF 
+potential mu at t equals zero is known
+as is called the Fermi energy EF a Fermi
+
+392
+00:35:25,740 --> 00:35:33,809
+能量费米能量，您会发现很多东西都是以先生的名字命名的
+energy Fermi energy you'll discover that
+a lot of things are named after mister
+
+393
+00:35:33,809 --> 00:35:41,279
+ Fermi好吧，现在我应该警告您， 
+Fermi okay now I should warn you that
+there's some disagreement in the
+
+394
+00:35:41,279 --> 00:35:44,609
+书中有关您所谓的费米能量的文献
+literature in the books as to what
+you're supposed to call the Fermi energy
+
+395
+00:35:44,609 --> 00:35:48,690
+有人认为化学势和费米能是
+some people think that the chemical
+potential and the Fermi energy are
+
+396
+00:35:48,690 --> 00:35:53,430
+实际上，同义词是大多数人都相信的东西，我认为
+actually synonymous mean the same thing
+most people I believe think that the
+
+397
+00:35:53,430 --> 00:35:57,869
+ 0温度下的化学势是费米能， 
+chemical potential at 0 temperature is
+the Fermi energy and that's the
+
+398
+00:35:57,869 --> 00:36:01,140
+我们将要使用的定义实际上是有意义的
+definition we're going to work with it's
+actually it makes sense to do that
+
+399
+00:36:01,140 --> 00:36:04,260
+因为为什么只用两个词来表示完全相同的事情
+because why would you just have two
+terms that mean exactly the same thing
+
+400
+00:36:04,260 --> 00:36:07,500
+如果您指的是化学势，就称其为化学势
+just call it the chemical potential if
+you mean chemical potential Kelvin
+
+401
+00:36:07,500 --> 00:36:13,049
+零温度下的电势我们称费米能为电子
+potential at zero temperature we call
+the Fermi energy for electrons which are
+
+402
+00:36:13,049 --> 00:36:17,490
+你知道自由电子波我们通常有H bar平方K平方
+you know free electron waves we
+generally have H bar squared K squared
+
+403
+00:36:17,490 --> 00:36:24,660
+如果您的波向量为K，则超过2m的能量就是能量
+over 2m is the energy is an energy if
+you have a wave with wave vector K its
+
+404
+00:36:24,660 --> 00:36:30,300
+能量将为H bar平方K平方超过2m，因此如果我们将其固定为
+energy will be H bar squared K squared
+over 2m so if we fix this thing to be
+
+405
+00:36:30,300 --> 00:36:38,040
+费米能量然后我们定义KF来满足这个方程，所以定义了KF 
+the Fermi energy then we define KF to
+satisfy this equation so KF is defined
+
+406
+00:36:38,040 --> 00:36:50,640
+通过这个方程式，可以确定KF为费米动量费米动量
+by this equation this defines KF is the
+Fermi momentum fermi momentum so if we
+
+407
+00:36:50,640 --> 00:36:55,080
+知道费米能量我们只是从这个方程计算费米
+know the Fermi energy we just calculate
+from this equation what the Fermi
+
+408
+00:36:55,080 --> 00:37:00,870
+每个人都对此感到高兴，所以如果你想知道我们是否
+momentum is okay everyone happy with
+that all right so if you wonder if we
+
+409
+00:37:00,870 --> 00:37:04,110
+有一些物理系统，我们知道那个物理中有多少个电子
+have some physical system we know how
+many electrons are in that physical
+
+410
+00:37:04,110 --> 00:37:08,610
+我们写n的系统电子总数是所有电子的总和
+system we write n the total number of
+electrons is the sum over all
+
+411
+00:37:08,610 --> 00:37:16,140
+本征态数据ε的费米占有因子的本征态卵
+eigenstates eggs of the Fermi occupation
+factor of data epsilon of the eigenstate
+
+412
+00:37:16,140 --> 00:37:21,030
+减去亩，为什么我要这样写所以这是所有可能的总和
+minus mu so why do I write it like this
+so this is the sum over all possible
+
+413
+00:37:21,030 --> 00:37:25,620
+状态在系统中被占据的概率，以及
+states in the system the probability
+that that state will be occupied and if
+
+414
+00:37:25,620 --> 00:37:29,430
+对所有本征态求和，就得到了粒子的总数
+you sum up over all eigenstates you get
+the total number of particles in the
+
+415
+00:37:29,430 --> 00:37:35,820
+系统不错，是的，如果您知道
+system good yeah you can also turn this
+on the on its head if you know the
+
+416
+00:37:35,820 --> 00:37:39,240
+系统中粒子的数量，您可以使用此公式计算
+number of particles in the system you
+could use this equation to figure out
+
+417
+00:37:39,240 --> 00:37:44,610
+如果您必须像现在那样做，那么化学潜力是什么
+what the chemical potential is if you
+have to do that now as we did in the
+
+418
+00:37:44,610 --> 00:37:51,060
+德拜理论，我们不得不经常对所有可能的平面波求和，所以
+Debye theory we had to frequently sum
+over all possible plane waves so one
+
+419
+00:37:51,060 --> 00:37:54,720
+这时候我们应该熟悉的事情我向你保证，我们会用这个
+thing we should be familiar with at this
+time I promised you we would use this a
+
+420
+00:37:54,720 --> 00:38:00,090
+很多是所有可能的平面波的总和被D 3代替
+lot is the sum over all possible plane
+waves gets replaced by an integral a D 3
+
+421
+00:38:00,090 --> 00:38:06,840
+ K超过2 PI的立方，因此每个本征态都是我们盒子中的特定平面波，因此
+K over 2 PI cubed so every eigenstate is
+a particular plane wave in our box so
+
+422
+00:38:06,840 --> 00:38:10,950
+总和成为2 pi乘以体积因子的整数d 3 
+the sum becomes an integral d 3 cubed
+over 2 pi times a factor of the volume
+
+423
+00:38:10,950 --> 00:38:14,850
+唯一不同的是，我将前面的系数设为2 
+the only thing that's different is I'm
+going to put a factor of 2 out front and
+
+424
+00:38:14,850 --> 00:38:21,360
+对于自旋，因子2是电子具有两个可能的自旋
+the factor of 2 is for spins that
+electrons have two possible spins in one
+
+425
+00:38:21,360 --> 00:38:25,170
+特定的平面波可以旋转或向下旋转，因此有两种可能
+particular plane wave it can be either
+spin up or spin down so two possible
+
+426
+00:38:25,170 --> 00:38:33,540
+状态，然后我们将费米因子beta epsilon K减去Mew ok 
+States and then we're integrating the
+Fermi factor beta epsilon K minus Mew ok
+
+427
+00:38:33,540 --> 00:38:41,040
+到目前为止，还不错，所以在低温，低T下
+so far so good
+alright so at low temperature at low T
+
+428
+00:38:41,040 --> 00:38:49,290
+洛蒂这东西是一个阶梯功能这是阶梯
+loti this thing here is a step function
+this is step which the step function
+
+429
+00:38:49,290 --> 00:38:54,180
+会告诉我们，我们应该整合直到将第一相加直到
+would tell us we should integrate up
+until integrate the number one up until
+
+430
+00:38:54,180 --> 00:38:58,740
+能量就是费米能量，换句话说，所有电子都被充满
+the energy is the Fermi energy in other
+words all the electrons are filled all
+
+431
+00:38:58,740 --> 00:39:01,830
+这些州被充满在费米能量之下，而所有东西都被塞满
+the states are filled below the Fermi
+energy and everything above the Fermi
+
+432
+00:39:01,830 --> 00:39:11,960
+能量为空，所以我们可以重写n为2v，让我们拉出2个PI立方体
+energy is empty so we can rewrite n is
+2v let's pull out the 2 PI cubed
+
+433
+00:39:11,960 --> 00:39:21,510
+积分d3k小于K小于KF，因此说K的绝对值为
+integral d3k up to K less than KF so
+saying that the absolute value of K is
+
+434
+00:39:21,510 --> 00:39:26,490
+费米动量小于KF等于说能量必须是
+less than KF the fermi momentum is
+equivalent to saying the energy must be
+
+435
+00:39:26,490 --> 00:39:33,540
+小于费米能量好，是的，现在这告诉我们的是
+less than the Fermi energy good yeah ok
+now this what this is telling us is that
+
+436
+00:39:33,540 --> 00:39:49,070
+此处的填充状态填充状态形成半径KF的球，并且
+the filled States here filled States
+States form a ball ball of radius KF and
+
+437
+00:39:49,070 --> 00:39:54,420
+零温度下的充满状态通常又被称为费米海
+filled States at zero temperature are
+usually known as the Fermi sea again
+
+438
+00:39:54,420 --> 00:40:02,180
+以费米和球表面命名的东西被称为
+something named after Fermi and the
+surface of the ball surface is known as
+
+439
+00:40:02,180 --> 00:40:11,160
+费米表面，所以这种恐惧和球体周围的所有地方都是
+the Fermi surface so this fear and
+everywhere around the sphere are the
+
+440
+00:40:11,160 --> 00:40:16,260
+这个球的表面所有能量都是EF，所以如果您有一个半径球体
+surface of this ball the energies are
+all EF so if you have a sphere of radius
+
+441
+00:40:16,260 --> 00:40:20,880
+ KF那个球体表面上的所有东西都具有相同的能量，并且
+KF everything on the surface of that
+sphere has the same energy and the
+
+442
+00:40:20,880 --> 00:40:28,050
+能量就是费米能量，好，所以我们要做的最后一件事就是
+energy is the Fermi energy good alright
+so last thing we have to do is we have
+
+443
+00:40:28,050 --> 00:40:34,860
+实际计算球与球的结合量，所以我们有2 V 
+to actually calculate the volume of that
+sphere bond with a ball so we have 2 V
+
+444
+00:40:34,860 --> 00:40:38,820
+超过2个PI的立方，该积分的值只会给我们
+over 2 PI cubed and the value of that
+integral is just going to give us the
+
+445
+00:40:38,820 --> 00:40:46,970
+体积为4/3 pi KF立方，然后进行一些重新排列
+volume which is 4/3 pi K F cubed and
+then with a little bit of rearrangement
+
+446
+00:40:46,970 --> 00:40:51,450
+我们可以将V移交给该副律师
+we can move the V over to this side
+counsel
+
+447
+00:40:51,450 --> 00:41:00,200
+因子将在V上得到n，这是密度和电子密度e密度
+factors will get n over V which is the
+density and electron density e density
+
+448
+00:41:00,200 --> 00:41:16,860
+这是KF超过3 pi平方的立方，然后求解此KF将得到KF等于3 
+which is KF cubed over 3 pi squared then
+solve this for KF will get KF equals 3
+
+449
+00:41:16,860 --> 00:41:21,660
+ PI的平方乘以密度的1/3，所以如果我们知道电子的密度
+PI squared times the density to the 1/3
+so if we know the density of electrons
+
+450
+00:41:21,660 --> 00:41:27,930
+我们知道KF，然后我们可以将KF重新插入方程式中
+we know KF and then we can plug KF back
+in to our equation which I'm just about
+
+451
+00:41:27,930 --> 00:41:36,230
+向下滚动以获取EF，因此EF为H bar平方KF平方2 m 
+to scroll off the top to get EF so EF is
+H bar squared K F squared over 2 m
+
+452
+00:41:36,230 --> 00:41:48,090
+等于H bar平方超过2m乘以3 pi平方n等于2/3，这是
+equals H bar squared over 2m times 3 pi
+squared n to the 2/3 and this is a
+
+453
+00:41:48,090 --> 00:41:56,520
+相当重要的方程式，我们稍后将使用它，它告诉我们什么是
+rather important equation we're going to
+use it later on so it tells us what is
+
+454
+00:41:56,520 --> 00:42:01,260
+费米能量的密度，所以你知道费米能量有多大
+the Fermi energy in terms of the density
+so you know how big is the Fermi energy
+
+455
+00:42:01,260 --> 00:42:04,890
+好吧，我们首先要弄清楚密度是多少
+well let's first we have to figure out
+what the density is
+
+456
+00:42:04,890 --> 00:42:11,190
+应该使用什么密度好让我们尝试每个原子大约1个电子的密度
+what density should use well let's try
+try density of about 1 electron per atom
+
+457
+00:42:11,190 --> 00:42:16,710
+至少对于福特Ruda理论而言，这似乎非常有效
+which seemed to work pretty well for
+Ford Ruda theory at least for some of
+
+458
+00:42:16,710 --> 00:42:25,430
+这些金属，如果我们这样说，对于铜II X铜，我们得到的EF为
+these metals if we do that say for
+copper II X copper we get EF is
+
+459
+00:42:25,430 --> 00:42:31,740
+大约7电子伏特，是个好数量还是个好数量
+approximately 7 electron volts and is
+that a big number or small number well
+
+460
+00:42:31,740 --> 00:42:35,400
+将其转换为费米温度非常有用
+it's useful to convert it to a
+temperature which is known as the Fermi
+
+461
+00:42:35,400 --> 00:42:38,940
+温度，所以我将再次定义费米温度
+temperature so I'll define Fermi
+temperature again something named after
+
+462
+00:42:38,940 --> 00:42:52,230
+费米温度TF等于EF超过KB，对于铜或铜TF约为
+Fermi temp which is T F equals EF over
+KB and for copper or copper TF is about
+
+463
+00:42:52,230 --> 00:42:55,310
+ 80,000开尔文
+80,000 Kelvin
+
+464
+00:42:55,760 --> 00:43:01,410
+巨大的巨大巨大的巨大的费米能量和费米温度
+huge huge huge huge so typical Fermi
+energies and Fermi temperatures in
+
+465
+00:43:01,410 --> 00:43:04,890
+金属绝对是巨大的，其原因是
+metals are absolutely enormous and the
+reason for the
+
+466
+00:43:04,890 --> 00:43:08,490
+这是因为如果每个原子有一个电子，那么会有很多电子
+this is because there's a lot a lot of
+electrons if one electron per atom
+
+467
+00:43:08,490 --> 00:43:12,330
+当您开始将电子放入系统时，会有很多原子
+there's a lot of atoms when you start
+putting electrons into your system you
+
+468
+00:43:12,330 --> 00:43:16,560
+填充小的低能态首先是具有最小K的态，然后
+fill up the small the low energy states
+first the ones with smallest K but then
+
+469
+00:43:16,560 --> 00:43:18,960
+那些被填满了，你必须开始越来越多地填满
+those are filled and you have to start
+filling up higher and higher and higher
+
+470
+00:43:18,960 --> 00:43:23,100
+能量状态，当你把最后一个电子放进去的时候
+energy states and by the time you put
+that last electron in you've gotten up
+
+471
+00:43:23,100 --> 00:43:26,640
+消耗巨大的能量，因为这些电子的密度确实
+to an enormous energy because the
+density of these electrons is really
+
+472
+00:43:26,640 --> 00:43:30,090
+很大，所以让我们实际绘制费米
+really big
+so let's actually plot the Fermi
+
+473
+00:43:30,090 --> 00:43:38,010
+再次起作用，所以这里是F这里是EF这里的化学势
+function again so here's an F here's one
+here's EF the chemical potential
+
+474
+00:43:38,010 --> 00:43:44,850
+从KB中取出约80,000开尔文，费米功能将
+approximately 80,000 Kelvin from take
+out a KB and the Fermi function will
+
+475
+00:43:44,850 --> 00:43:53,520
+看起来像这样，它的范围很小，是KBT茶室
+look like this it drops in a very very
+small range this is KBT tearoom it's
+
+476
+00:43:53,520 --> 00:43:58,200
+比我画的还要夸张，比我画的还要窄
+even more exaggerated than I've drawn
+it's even narrower little drop than I've
+
+477
+00:43:58,200 --> 00:44:03,000
+然后我画了一下，因为这里的距离是8万
+then I've drawn because this distance
+here as a temperature is 80 thousand
+
+478
+00:44:03,000 --> 00:44:09,270
+开尔文与我们的室温300开尔文之间的距离
+Kelvin versus our room temperature which
+is 300 Kelvin so this distance over
+
+479
+00:44:09,270 --> 00:44:15,630
+费米函数从一下降到零的范围非常狭窄
+which the the Fermi function drops from
+from one to zero is a very very narrow
+
+480
+00:44:15,630 --> 00:44:22,050
+在费米表面的顶部银条，实际上这张图片给了我们
+sliver at the top of the Fermi surface
+and in fact this picture here gives us
+
+481
+00:44:22,050 --> 00:44:26,790
+已经暗示了为什么金属的热容量如此之低
+already a hint as to why the heat
+capacity of the metal is so low so much
+
+482
+00:44:26,790 --> 00:44:30,300
+比我们想像的要低，以具有热容量，您必须
+lower than we would have guessed in
+order to have heat capacity you have to
+
+483
+00:44:30,300 --> 00:44:34,560
+能够吸收一些能量，所以你想象一个电子处于本征态
+be able to absorb some energy so you
+imagine an electron in some eigenstate
+
+484
+00:44:34,560 --> 00:44:39,090
+它吸收一些能量，然后一点点跳到附近的本征态
+it absorbs some energy and it jumps up
+to a nearby eigenstate with a little
+
+485
+00:44:39,090 --> 00:44:45,720
+所有这些电子都在这里，它们吸收不了任何能量
+more energy well all of these electrons
+down here they can't absorb any energy
+
+486
+00:44:45,720 --> 00:44:49,050
+因为它们附近的所有本征态都已被填充，所以无处可去
+because all the eigenstates near them
+are already filled there's nowhere for
+
+487
+00:44:49,050 --> 00:44:52,830
+他们走了，他们完全冻结了，他们根本无法吸收任何能量
+them to go they're completely frozen
+they can't absorb any energy at all the
+
+488
+00:44:52,830 --> 00:44:56,460
+只有能吸收能量的东西才是费米表面附近的东西
+only things that can absorb energy are
+the things close to the Fermi surface
+
+489
+00:44:56,460 --> 00:45:00,780
+他们可能会跳到费米表面上方并吸收能量，因为
+where they could jump above the Fermi
+surface and absorb energy because
+
+490
+00:45:00,780 --> 00:45:04,110
+如果没有空的状态可以进入一个空状态
+there's an empty state there for them to
+go into if there's no empty state to go
+
+491
+00:45:04,110 --> 00:45:09,660
+他们根本无法吸收任何能量，因此给了我们一个提示
+into there's no way they can absorb any
+energy at all so that gives us a hint as
+
+492
+00:45:09,660 --> 00:45:16,110
+为什么热容量这么低最后一件事是我们可以看看
+to why the the heat capacity is so low
+one final thing is we can look at the
+
+493
+00:45:16,110 --> 00:45:21,930
+典型速度典型速度称为
+typical velocity
+typical velocity which is known as the
+
+494
+00:45:21,930 --> 00:45:33,500
+费米速度费米速度显然可以，VF可以是h-bar KF 
+Fermi velocity Fermi velocity apparently
+right okay VF which would be h-bar K F
+
+495
+00:45:33,500 --> 00:45:41,460
+除以质量好的KF，如果把它放进去，就会得到很大的数目
+divided by the mass okay K F and if you
+put that in you get a huge number
+
+496
+00:45:41,460 --> 00:45:47,130
+巨大约等于光速的1％ 
+huge equals huge approximately 1% of the
+speed of light
+
+497
+00:45:47,130 --> 00:45:51,720
+这可能会让您感到惊讶，因为您曾经接触过的每种金属
+which might surprise you this every
+metal that you've ever run into contact
+
+498
+00:45:51,720 --> 00:45:56,970
+像铜，铅，银，钨，钨等具有电子的东西
+with things like copper lead silver
+tungsten whatever it is it has electrons
+
+499
+00:45:56,970 --> 00:46:01,830
+在它周围以一定速度奔跑时将具有光速的1％甚至更大
+in it running around at speeds will have
+1% the speed of light or even greater
+
+500
+00:46:01,830 --> 00:46:06,300
+现在这听起来让您感到惊讶，而实际上相对论开始变得
+now that might sound surprising to you
+and in fact relativity starts to become
+
+501
+00:46:06,300 --> 00:46:11,400
+重要的是，如果您以这些速度小心地做事，但实际上
+important if you're doing things
+carefully at those speeds but in fact
+
+502
+00:46:11,400 --> 00:46:15,570
+一想到有多少电子就不足为奇了
+it's not surprising once you think about
+how many electrons there are there are
+
+503
+00:46:15,570 --> 00:46:18,840
+每个原子一个或一个原子几个电子
+tons and tons and tons of electrons one
+per every atom or several per every atom
+
+504
+00:46:18,840 --> 00:46:22,260
+在某些情况下，所有低能状态都被您完全充满了
+in some cases and so all the low energy
+states are completely filled you just
+
+505
+00:46:22,260 --> 00:46:25,110
+必须不断建立越来越高的能量状态， 
+have to keep building up to higher and
+higher and higher energy states and the
+
+506
+00:46:25,110 --> 00:46:29,100
+费米表面上的费米表面顶部的电子
+electrons on the top of the Fermi
+surface on the Fermi on the Fermi
+
+507
+00:46:29,100 --> 00:46:33,480
+费米球外边缘的表面异常高
+surface in the outer edge of the fermi
+ball are an extraordinarily high have
+
+508
+00:46:33,480 --> 00:46:37,500
+非凡的高能量，高动能，因此从外部
+extraordinary high energy high kinetic
+energy therefore externally a high
+
+509
+00:46:37,500 --> 00:46:41,560
+速度，我想我们停在那里，我想我周一见
+velocity and I guess we stop there and I
+guess I see you Monday
+
+510
+00:46:41,560 --> 00:46:45,150
+ [掌声] 
+[Applause]
+

@@ -1,0 +1,3211 @@
+1
+00:00:00,829 --> 00:00:07,740
+好吧，让我们开始吧欢迎回来这是精简版的第七讲
+okay let's get started welcome back this
+is the seventh lecture of the condensed
+
+2
+00:00:07,740 --> 00:00:11,910
+在上一堂课程中，我们介绍了一个非常重要的简单
+matter course in the last lecture we
+introduced a rather important simple
+
+3
+00:00:11,910 --> 00:00:17,400
+一维振动的质量单调谐波链链模型
+model of vibrations in one dimension the
+monotonic harmonic chain chain of masses
+
+4
+00:00:17,400 --> 00:00:20,910
+和弹簧每个弹簧都一样每个质量都一样极其简单
+and Springs every spring is the same
+every mass is the same extremely simple
+
+5
+00:00:20,910 --> 00:00:24,930
+模型，但是它为我们引入了很多非常重要的概念
+model but it introduced a lot of very
+important concepts to us we solved for
+
+6
+00:00:24,930 --> 00:00:28,619
+当我们量化系统时，链的所有正常模式
+all of the normal modes of the chain
+when we quantize the system we
+
+7
+00:00:28,619 --> 00:00:33,930
+通过对正常模式的量化发现了声子的含义
+discovered the meaning of phonons with
+the quantization of normal modes were we
+
+8
+00:00:33,930 --> 00:00:38,100
+介绍了水晶动量的概念，如果你转移一个想法
+introduced the concept of crystal
+momentum the idea that if you shift a
+
+9
+00:00:38,100 --> 00:00:42,120
+通过2 pi的波向量，您将获得与您相同的精确物理波
+wave vector by 2 pi over a you get back
+the same exact physical wave that you
+
+10
+00:00:42,120 --> 00:00:46,110
+首先，我们介绍了在k空间中布置青铜的概念
+started with we introduced the concept
+of a bronze own arranged in k space
+
+11
+00:00:46,110 --> 00:00:50,730
+通常取自2个PI的负PI，其中所有波矢都在
+usually taken from minus PI over a 2 PI
+over a where all of the wave vectors are
+
+12
+00:00:50,730 --> 00:00:53,460
+身体上不同的波浪，如果您走出布鲁恩斯区，就可以开始
+physically different waves and if you go
+outside the Bruins zone you just start
+
+13
+00:00:53,460 --> 00:00:56,430
+重复您已经描述的波浪，我们也设法
+repeating the waves that you've already
+described and we also managed to
+
+14
+00:00:56,430 --> 00:01:01,260
+精确计算该链的热容，然后将其与
+calculate the heat capacity of this
+chain exactly and we compared it to the
+
+15
+00:01:01,260 --> 00:01:05,519
+我们以前看过的德拜理论和爱因斯坦理论之一
+Debye theory and the Einstein theory
+that we had looked at previously now one
+
+16
+00:01:05,519 --> 00:01:09,840
+我们用于此模型的简化假设是
+of the simplifying assumptions we used
+going into this model was that every
+
+17
+00:01:09,840 --> 00:01:13,710
+链中的单个质量和每个弹簧都是相同且真实的
+single mass and every single spring in
+this chain were the same and in real
+
+18
+00:01:13,710 --> 00:01:17,820
+材料通常具有不同类型的原子，例如钠
+materials you typically have different
+types of atoms for example in sodium
+
+19
+00:01:17,820 --> 00:01:20,759
+氯化物，你将有一个钠原子和一个氯原子，这些将是
+chloride you'll have a sodium atom and a
+chlorine atom and these will be
+
+20
+00:01:20,759 --> 00:01:24,540
+不同，所以也许更好的典型材料模型看起来会有些变化
+different so maybe a better model of a
+typical material would look something
+
+21
+00:01:24,540 --> 00:01:28,619
+像这样，我在绘制一个深色原子时会有一个浅色原子
+like this you'd have a light-colored
+atom in a dark colored atom I'm drawing
+
+22
+00:01:28,619 --> 00:01:31,110
+一维的一切，然后是暗的浅色原子
+everything in one dimension again and
+then a light colored atom in a dark
+
+23
+00:01:31,110 --> 00:01:36,960
+彩色的原子和深色的灯杆，等等
+colored atom and a light pole down the
+dark color down and so forth let me
+
+24
+00:01:36,960 --> 00:01:44,460
+介绍一些有用的术语，单位单元格的概念是
+introduce some nomenclature that's gonna
+be useful the idea of a unit cell is the
+
+25
+00:01:44,460 --> 00:01:58,290
+重复重复的图案，例如，我们可以将这个单元格放在这个盒子里， 
+repeated repeated motif so for example
+we can take our unit cell this box and
+
+26
+00:01:58,290 --> 00:02:02,700
+如果您一遍又一遍地重复此框，并且将框堆叠在一起而没有
+if you repeat this box over and over and
+you stack the boxes together with no
+
+27
+00:02:02,700 --> 00:02:08,340
+您之间的空间将重建整个链条另一个重要的词
+space in between you will reconstruct
+the entire chain another important word
+
+28
+00:02:08,340 --> 00:02:16,200
+我们上次介绍的是晶格常数，我们定义为
+that we introduced last time
+is lattice constant which we defined as
+
+29
+00:02:16,200 --> 00:02:22,590
+我们通常称之为a，我们将其定义为距离之间的距离
+what we usually call it a and we defined
+it as the distance between distance
+
+30
+00:02:22,590 --> 00:02:41,040
+在我们等价的原子之间，例如，像这样的晶格常数
+between we equivalent atoms so for
+example lattice constant like this we'll
+
+31
+00:02:41,040 --> 00:02:45,240
+从这个像把原子变成这个浅色原子这样称呼它
+call it a from this like put atom to
+this light color atom you may also
+
+32
+00:02:45,240 --> 00:02:52,370
+请注意，晶格常数也恰好是晶胞的大小
+notice that that lattice constant also
+happens to be the size of the unit cell
+
+33
+00:02:56,000 --> 00:03:03,900
+像这样的距离，如果我正确驾驶，现在也是一侧
+like this this distance here is also a
+if I drove properly it was now one side
+
+34
+00:03:03,900 --> 00:03:08,340
+评论是，左边的晶胞实际上不是唯一的，让我画
+comment is that the left the unit cell
+is actually not unique let me draw
+
+35
+00:03:08,340 --> 00:03:16,970
+我还可以同样好地画出该链的另一幅图
+another picture of this chain I could
+have drawn the unit cell equally well
+
+36
+00:03:16,970 --> 00:03:24,530
+这样，所以我们甚至应该写下来，因为
+like this so that's something we should
+probably even write down because it's
+
+37
+00:03:24,530 --> 00:03:33,660
+重要的晶胞不是唯一的，如果我选择这是一个晶胞，我可以
+important unit cell not unique and if I
+had chosen this is a unit cell I could
+
+38
+00:03:33,660 --> 00:03:41,910
+将这些重复项堆叠在一起，并同样构建整个链
+stack duplications of that together and
+build up the entire chain just as well
+
+39
+00:03:41,910 --> 00:03:46,800
+现在，我们今天将要进行的实际计算是尝试
+now what we're going to do today in a
+real calculation is we're going to try
+
+40
+00:03:46,800 --> 00:03:53,970
+计算看起来像这样的链的火车的正常模式
+to calculate the normal modes of a train
+of a chain that looks like this and the
+
+41
+00:03:53,970 --> 00:03:57,330
+我们这样做的原因不仅仅是增加我们已经存在的问题的复杂性
+reason we're doing this is not just to
+add complexity to a problem we already
+
+42
+00:03:57,330 --> 00:04:01,380
+实际上是通过在链中具有不同类型的原子来解决的
+solved last time in fact by having
+different types of atoms in our chain
+
+43
+00:04:01,380 --> 00:04:04,140
+我们将看到一些根本不同的东西
+we're going to see that some
+fundamentally new and different things
+
+44
+00:04:04,140 --> 00:04:10,410
+发生所以这就是为什么这就是我们这样做的原因，所以让我画出这样的链条
+occur so that's why that's why we're
+doing it so let me draw the chain this
+
+45
+00:04:10,410 --> 00:04:13,820
+被称为交替链
+is known as the alternating chain
+
+46
+00:04:14,300 --> 00:04:19,260
+通常被称为交替链，有时会注意到双原子
+frequently known as the alternating
+chain sometimes notice the diatomic
+
+47
+00:04:19,260 --> 00:04:22,070
+链，看起来像这样，有一个
+chain
+and it looks kind of like this there's a
+
+48
+00:04:22,070 --> 00:04:29,000
+黑暗的亚当，然后是光的亚当，黑暗的亚当，然后是光的亚当，黑暗的亚当，是光
+dark Adam then a light Adam dark Adam
+and a light Adam the dark Adam a light
+
+49
+00:04:29,000 --> 00:04:39,020
+亚当，他们与斯普林斯相连，依此类推
+Adam they're connected together with
+Springs and so forth
+
+50
+00:04:39,020 --> 00:04:46,100
+我们有一个晶格常数a，它是相同的
+and we have a lattice constant a which
+is the distance between identical you
+
+51
+00:04:46,100 --> 00:04:49,310
+看到明暗之间的差异已经足够清晰了
+see the difference between the light and
+dark have made clear enough you can see
+
+52
+00:04:49,310 --> 00:04:54,980
+好的，所以a是等效原子之间的距离，所以光是亚当之间
+that okay so a is the distance between
+equivalent atoms so between light Adam
+
+53
+00:04:54,980 --> 00:04:59,360
+和光亚当，现在我们可以选择我们要写下的模型
+and light Adam and now we have a choice
+as to what model we want to write down
+
+54
+00:04:59,360 --> 00:05:02,990
+人们在解决这两个方面有两个共同的选择
+and there's two common choices that
+people make in solving these two
+
+55
+00:05:02,990 --> 00:05:07,040
+单独的问题，但它们相似，经常做出的一个选择是
+separate problems but they're similar
+one choice is frequently made is to make
+
+56
+00:05:07,040 --> 00:05:11,330
+亮原子的质量暗原子的质量不同我们不会去
+the mass of the light atom the mass of
+the dark atom different we're not going
+
+57
+00:05:11,330 --> 00:05:14,330
+解决您可以实际解决的典型家庭作业
+to solve that you can actually solve
+that for homework that one is a typical
+
+58
+00:05:14,330 --> 00:05:17,540
+选择我们要解决的是，我们要使两个不同
+choice what we're gonna solve instead is
+we're going to make the two different
+
+59
+00:05:17,540 --> 00:05:22,550
+今年春天的首都一号泉和今年春天的卡帕二号泉，我们
+Springs this spring Capital One and this
+spring Kappa two different and we're
+
+60
+00:05:22,550 --> 00:05:27,680
+让他们来回交替kappa 1 kappa 2 kappa 1 kappa 2等等
+gonna let them alternate back and forth
+kappa 1 kappa 2 kappa 1 kappa 2 and so
+
+61
+00:05:27,680 --> 00:05:31,910
+第四，因此命名为交替链，因为弹簧交替
+forth and hence the name alternating
+chain because the springs alternate
+
+62
+00:05:31,910 --> 00:05:37,220
+在资本一和卡伯之间到这两个链的物理
+between capital one and Kappa to the
+physics of these two chains whether
+
+63
+00:05:37,220 --> 00:05:40,940
+我们让群众交替或弹簧交替是极端
+we're letting the masses alternate or
+the springs alternate is extremely
+
+64
+00:05:40,940 --> 00:05:44,000
+非常相似，我们之所以这样做，是因为它是代数的
+extremely similar the reason we're doing
+this one is because it's algebraically
+
+65
+00:05:44,000 --> 00:05:47,930
+只是比您要做的要容易一些
+just slightly easier to keep track of
+than the one you're going to do for
+
+66
+00:05:47,930 --> 00:05:53,750
+作业在代数上稍微复杂些，所以让我们写下来
+homework which is slightly algebraically
+more complicated so let's write down
+
+67
+00:05:53,750 --> 00:05:58,400
+一些坐标，例如，让我们让浅色原子具有
+some coordinates so for example let's
+let the light colored atoms have
+
+68
+00:05:58,400 --> 00:06:06,350
+ XN位置和深色原子的位置为Y n，所以让我们
+positions X N and the dark colored atoms
+have position Y n so for example let's
+
+69
+00:06:06,350 --> 00:06:16,220
+让这个为x1这个为y1这个为X 2这个为Y 2等等
+let this one be x1 this one will be y1
+this one be X 2 this will be Y 2 and so
+
+70
+00:06:16,220 --> 00:06:23,210
+现在，我们解决这类质量和弹簧问题的方法
+forth and now the way we solve problems
+like this these mass and spring problems
+
+71
+00:06:23,210 --> 00:06:28,760
+你是从写下牛顿的运动方程开始的，好吧，我
+is you start by writing down Newton's
+equations of motion so well okay I
+
+72
+00:06:28,760 --> 00:06:33,310
+应该再指出一个定义Delta X和Delta Y 
+should point one more definition the
+Delta X and Delta Y
+
+73
+00:06:33,310 --> 00:06:40,960
+平衡创造的偏离平衡位置的偏离
+deviations from equilibrium creations
+from equilibrium position from from
+
+74
+00:06:40,960 --> 00:06:50,080
+平衡好了，我们将用以下公式写下牛顿方程
+equilibrium okay and we're gonna write
+down Newton's equations in terms of
+
+75
+00:06:50,080 --> 00:06:55,540
+这些Delta X和Delta Y，所以也许也许我会把它放在另一个
+these Delta X and Delta Y so maybe
+actually maybe I'll put it on another
+
+76
+00:06:55,540 --> 00:07:04,420
+另一块板在这里，所以质量Delta X双点
+another board here
+so mass Delta X double dot
+
+77
+00:07:04,420 --> 00:07:09,340
+质量乘以加速度等于我们在X上必须要小心一点
+mass times acceleration equals we have
+to be a little bit careful here on X
+
+78
+00:07:09,340 --> 00:07:18,100
+一个轻原子在其右边具有Kappa 2 Kappa 2，然后在其右侧
+atom a light atom on the right it has a
+Kappa 2 Kappa 2 and then on the right of
+
+79
+00:07:18,100 --> 00:07:25,270
+ X原子是具有相同数字的ay原子，所以Delta Y和负Delta X n 
+an X atom is a y atom with the same
+number so Delta Y and minus Delta X n
+
+80
+00:07:25,270 --> 00:07:33,400
+然后在左边是大写字母加资本一，在左边是
+and then on its left is a capital one
+plus Capital One and on its left is a
+
+81
+00:07:33,400 --> 00:07:40,060
+指数低一的Delta Y原子是Delta X n每个人都同意吗
+Delta Y atom with the index one lower is
+Delta X n does everyone agree with that
+
+82
+00:07:40,060 --> 00:07:46,120
+ X 2的左边是y 1，所以我必须大写一个弹簧
+that on the left of X 2 is y 1 so I have
+to the capital one spring has the lower
+
+83
+00:07:46,120 --> 00:07:55,750
+索引是好高兴好吧好然后Delta Y和双点好
+index yes good happy all right good
+and then and Delta Y and double dot okay
+
+84
+00:07:55,750 --> 00:08:02,200
+因此在a的右边，为什么索引号为高的X是一个
+so on the right of a why is an X with
+the index one higher and that's a
+
+85
+00:08:02,200 --> 00:08:10,810
+大写一个春天，所以Delta X n加1减去Delta YN并在左Kappa上
+Capital One spring so Delta X n plus 1
+minus Delta Y N and on the Left Kappa
+
+86
+00:08:10,810 --> 00:08:16,570
+ Y左边的两个是X 1，因此它是相同索引Delta X的X 
+two on the left of Y one is X 1 so it's
+an X for the same index Delta X and
+
+87
+00:08:16,570 --> 00:08:23,050
+减去Delta Y，我想我没事，所以这是我们的等式
+minus Delta Y and I think I got that
+right ok so those are our equations of
+
+88
+00:08:23,050 --> 00:08:30,880
+运动和解决问题的方式与我们上次所做的方式相同
+motion and the way we're going to solve
+this is the same way we did last time we
+
+89
+00:08:30,880 --> 00:08:36,460
+会在Zods的Zots wave上写下一波
+will write down a wave on Zots
+wave on Zod's so there's some
+
+90
+00:08:36,460 --> 00:08:40,210
+圆点这个词在德语中实际上是什么意思，而我实际上是不同意
+disagreement on what the word on dots
+actually meant in german and i actually
+
+91
+00:08:40,210 --> 00:08:43,929
+所以有人在演讲后拦住了我，一位德语发言者说不，不，你是对的
+so someone stopped me after lecture a
+german speaker said no no you were right
+
+92
+00:08:43,929 --> 00:08:46,740
+关于点的意思，然后别人说不，不，你错了
+about what on dots means and then
+someone else said no no you're wrong
+
+93
+00:08:46,740 --> 00:08:50,190
+然后我问了几个德国人，他们都不同意，然后
+and then I asked a couple German
+speakers and they all disagreed and then
+
+94
+00:08:50,190 --> 00:08:53,430
+实际上有人指出anzats实际上是一个英文单词
+actually someone pointed out that anzats
+is actually an English word it's in the
+
+95
+00:08:53,430 --> 00:09:00,780
+ OED，您可以查找它，这意味着数学上的猜测，所以我会这样
+OED you can look it up it means it means
+mathematical guess so so I'm gonna so
+
+96
+00:09:00,780 --> 00:09:05,280
+在那里真的很好，所以无论如何我们都要写下我们的
+it's in there it really is okay so
+anyway we're going to write down our
+
+97
+00:09:05,280 --> 00:09:14,030
+在点上波动，因此Delta xn对I Omega t减去IK以及a和
+wave on dots so Delta xn is some a n e
+to the I Omega t minus I K and a and
+
+98
+00:09:14,030 --> 00:09:22,200
+ Delta yn会混淆这是怎么称呼ax和I e到I Omega t 
+Delta yn is oopss how that's called to
+ax rather and a Y e to the I Omega t
+
+99
+00:09:22,200 --> 00:09:27,840
+减去IK和a，我们上次真正指的是
+minus I K and a and what we really mean
+as last time is where we mean to
+
+100
+00:09:27,840 --> 00:09:31,200
+实际上占据了整个表达的真正部分，因此
+actually take the real part of this
+whole expression and because of that
+
+101
+00:09:31,200 --> 00:09:35,760
+我们可以选择Omega大于零，但K可以是
+we're allowed to choose Omega greater
+than equal to zero but K can be either
+
+102
+00:09:35,760 --> 00:09:45,320
+在任一符号上签名以表示现在向左或向右波浪
+sign either sign to represent either
+left going or right going waves now as
+
+103
+00:09:45,320 --> 00:09:51,500
+上次我们意识到，如果您取K，然后将其转换为K加2 pi 
+with last time we realized that if you
+take K and you shift it to K plus 2 pi
+
+104
+00:09:51,500 --> 00:09:55,950
+超过一个，您会返回完全相同的波浪，其原因是因为
+over a you get back exactly the same
+wave and the reason for that is because
+
+105
+00:09:55,950 --> 00:10:02,790
+如果您查看指数系数e到负IK加2 pi的倍数
+if you look at the exponential factor e
+to the minus I K plus 2 pi over a times
+
+106
+00:10:02,790 --> 00:10:11,010
+ n是IK的一遍乘以n等于IK的e完全相同
+n is times a times a times n is equal to
+exactly the same thing as e to the I K
+
+107
+00:10:11,010 --> 00:10:19,170
+以及那两个完全相同的匹配项，因此，如果您将K移2 pi 
+and a matches that those two are exactly
+the same so if you shift K by the 2 pi
+
+108
+00:10:19,170 --> 00:10:24,570
+超过一个，您获得完全相同的波形，但实际上我们很重要
+over a you get back exactly the same
+wave form rather important in fact we
+
+109
+00:10:24,570 --> 00:10:29,700
+上次发现只是另外两件事，我们将定期使用
+found out last time just a couple other
+things we're going to use periodic
+
+110
+00:10:29,700 --> 00:10:36,800
+边界条件周期边界论文我们使用长度为L的系统
+boundary conditions periodic boundaries
+theses we use a system of length L
+
+111
+00:10:36,800 --> 00:10:48,300
+等于n乘以a，所以这意味着我们有n个晶胞晶胞，如果我们有一个
+equals n times a so this means we have n
+unit cells unit cells and if we have a
+
+112
+00:10:48,300 --> 00:10:54,000
+ L大小的系统，这意味着案件必须处于周期性边界条件
+system of size L that means the case
+must be on a periodic boundary condition
+
+113
+00:10:54,000 --> 00:11:00,740
+必须是L乘以P的2 PI，其中P是整数，因此间距
+must be 2 PI over L times P where P is
+an integer so the spacing
+
+114
+00:11:00,740 --> 00:11:06,860
+在不同的L之间，K的不同可能值是L上的两个PI 
+between different L different possible
+values of K are two PI over L so now if
+
+115
+00:11:06,860 --> 00:11:14,390
+我们要计算不同情况的数量，我们进行了完全相同的计算
+we want to count the number of different
+case we did exactly the same calculation
+
+116
+00:11:14,390 --> 00:11:20,150
+上次不同情况等于两个PI的可能情况范围
+last time different case that equals the
+range of possible case that's two PI
+
+117
+00:11:20,150 --> 00:11:24,560
+在开始重复之前，您可以在a上移动两个PI并得到
+over a before we start repeating since
+you can shift by two PI over a and get
+
+118
+00:11:24,560 --> 00:11:29,840
+以相同的方式返回，k之间的间隔是L上的两个PI 
+the same way back and the spacing
+between k's is two PI over L that gives
+
+119
+00:11:29,840 --> 00:11:34,370
+我们在a或n上获得L，因此不同Ches的数量
+us L over a or n so the number of
+different Ches
+
+120
+00:11:34,370 --> 00:11:44,000
+等于系统中单位晶胞的数量
+is equal to the number of unit cells in
+the system a rather general rule that we
+
+121
+00:11:44,000 --> 00:11:52,490
+会使用很多次，所以考虑到我们的波浪点，我们可以解决这个问题
+will use many times okay so given our
+wave on dots up there we can solve this
+
+122
+00:11:52,490 --> 00:11:58,670
+牛顿方程组是通过插入并做一点点
+set of Newton's equations it's by
+plugging in and doing a little bit of
+
+123
+00:11:58,670 --> 00:12:02,000
+代数，然后我承认我要做的代数有点
+algebra and then I concede that the
+algebra I'm about to do is a little bit
+
+124
+00:12:02,000 --> 00:12:10,130
+凌乱，但请忍受我，所以这里首先我们要为Delta xn插入，所以两个
+messy but bear with me so here goes
+first we'll plug in for Delta xn so two
+
+125
+00:12:10,130 --> 00:12:18,500
+导数给我减去Omega平方M，则波是I Omega t的轴心
+derivatives gives me minus Omega squared
+M then the wave is ax e to the I Omega t
+
+126
+00:12:18,500 --> 00:12:28,900
+减去IK和a，等于好就等于Kappa 2倍Delta Y n 
+minus I K and a and that equals well
+okay equals Kappa 2 times Delta Y n
+
+127
+00:12:28,900 --> 00:12:35,990
+这就是为什么e等于I Omega t减去IK，而a然后让我们做另一个
+which is a why e to the I Omega t minus
+I K and a and then let's do the other
+
+128
+00:12:35,990 --> 00:12:39,830
+资本，让我们在另一个y词上做另一个词，所以加上
+capital let's do the other term over
+here the other y term so that's plus
+
+129
+00:12:39,830 --> 00:12:49,160
+ I Omega t减去IK的大写字母e，然后是n减去1 a，因为它是
+Capital One e to the I Omega t minus I K
+and then it's n minus 1 a because it's
+
+130
+00:12:49,160 --> 00:12:55,310
+指数n减去1，然后让我们做2个X项，所以我们有减去Capital 1 
+an index n minus 1 and then let's do the
+2 X terms so we have minus Capital 1
+
+131
+00:12:55,310 --> 00:13:05,270
+加上Kappa 2a X哎呀，我在这里错过了一个Y，不是I Omega t的一个斧头
+plus Kappa 2a X oops I missed an a Y
+here didn't I a Y ax e to the I Omega t
+
+132
+00:13:05,270 --> 00:13:13,420
+减去IK，每个对此都感到满意的人，我都做了正确认识的Jex 
+minus I K and a everyone happy with that
+did I do that correctly known Jex seems
+
+133
+00:13:13,420 --> 00:13:21,010
+工作正常，然后另一个方程式是减去Ω的平方M，为什么e到I 
+work okay and then the other equation is
+minus Omega squared M a why e to the I
+
+134
+00:13:21,010 --> 00:13:30,460
+ Omega t减去IK和一个等于，让我们先做两个x项， 
+Omega t minus I K and a equals and let's
+do the two x terms first so we have
+
+135
+00:13:30,460 --> 00:13:38,890
+大写1轴e到I Omega t减去I K，然后是第二个系数
+capital 1 ax e to the I Omega t minus I
+K and then the coefficient in the second
+
+136
+00:13:38,890 --> 00:13:44,770
+ DX的索引方程（大写为1）有n加1，所以它是n加
+equation of the the index of DX with
+capital one has n plus 1 so it's n plus
+
+137
+00:13:44,770 --> 00:13:56,620
+ 1 n在这里，然后我们得到Iωt减去IK的+ kappa 2轴e和a和
+1 n here and then we have + kappa 2 ax e
+to the I Omega t minus I K and a and
+
+138
+00:13:56,620 --> 00:14:05,070
+然后是2个上限，然后是两个Y项减去资本1加Kappa 2a Y e 
+then the 2 cap then the to the two Y
+terms minus capital 1 plus Kappa 2a Y e
+
+139
+00:14:05,070 --> 00:14:11,290
+等于IΩ减去IK，关于该方程式值得注意的是
+to the I Omega t minus I K and a a
+notable thing about this equation is
+
+140
+00:14:11,290 --> 00:14:14,080
+这是我全年要写在黑板上的最长方程
+it's the longest equation I'm going to
+write on the chalkboard all year long
+
+141
+00:14:14,080 --> 00:14:19,180
+现在完成了，所以我们不必再做一次，但是实际上
+and now it's done so we never have to do
+that again but it's not actually
+
+142
+00:14:19,180 --> 00:14:23,200
+看起来很复杂，因为有很多指数因素
+complicated as it might look because
+there's a bunch of exponential factors
+
+143
+00:14:23,200 --> 00:14:28,870
+他们退出了双方取消，所以我们有两个方程，我们可以
+which drop out they cancel on both sides
+so we have two equations and we can
+
+144
+00:14:28,870 --> 00:14:33,540
+简化成一个矩阵方程
+simplify it into one matrix equation
+
+145
+00:14:34,920 --> 00:14:43,300
+我将这样写，减去M Omega平方乘以向量ax ay等于
+I'll write it this way minus M Omega
+squared times the vector ax a y equals
+
+146
+00:14:43,300 --> 00:14:52,660
+一些大矩阵乘以向量ax到Y，大矩阵是什么
+some big matrix times the vector ax a Y
+and the big matrix is what is it it's a
+
+147
+00:14:52,660 --> 00:14:58,960
+减去资本1加Kappa 2，然后减去资本1加Kappa 2 
+minus Capital 1 plus Kappa 2 and then
+minus Capital 1 plus Kappa 2 on the
+
+148
+00:14:58,960 --> 00:15:05,770
+对角Kappa 1加Kappa 2，然后关闭对角线具有Kappa 2加
+diagonal Kappa 1 plus Kappa 2 and then
+the off diagonal has Kappa 2 plus
+
+149
+00:15:05,770 --> 00:15:12,280
+ IK a的大写1 e就是那部分指数没有取消
+Capital 1 e to the I K a that's that
+part of the exponential didn't cancel it
+
+150
+00:15:12,280 --> 00:15:19,950
+来自加号1，然后是Kappa 2加资本一减IK a 
+comes from the plus 1 and then the Kappa
+2 plus Capital One the minus I K a
+
+151
+00:15:19,950 --> 00:15:24,610
+从指数中的负1出来的每个人都很好
+coming from the minus 1 in the
+exponential is everyone good with that
+
+152
+00:15:24,610 --> 00:15:29,500
+好吧，好的，这是一个特征值
+agree ok all right
+so what is this this is an eigenvalue
+
+153
+00:15:29,500 --> 00:15:34,750
+等式中，这个人的特征值减去M Omega平方， 
+equation where the eigenvalue is this
+guy over here minus M Omega squared and
+
+154
+00:15:34,750 --> 00:15:39,610
+解决特征值方程的方法是将M Omega平方移至
+the way you solve an eigenvalue equation
+is by moving the M Omega squared to the
+
+155
+00:15:39,610 --> 00:15:44,320
+对角线在这边，然后将行列式设置为0， 
+diagonals over on this side then you set
+the determinant equal to 0 you get the
+
+156
+00:15:44,320 --> 00:15:47,200
+特征行列式或特征方程式，有时
+characteristic determinant or
+characteristic equation or sometimes
+
+157
+00:15:47,200 --> 00:15:52,750
+如果我们做到这一点，则称为世俗方程式
+called the secular equation if we do
+that the one-step M Omega squared minus
+
+158
+00:15:52,750 --> 00:16:02,730
+大写1加Kappa 2的平方除以Kappa 2加大写One e到PI K a 
+Capital 1 plus Kappa 2 all squared minus
+Kappa 2 plus Capital One e to the PI K a
+
+159
+00:16:02,730 --> 00:16:11,620
+绝对值平方等于0，我们可以很快解决这一问题。 
+absolute value squared equals 0 and we
+can solve that rather rapidly M Omega
+
+160
+00:16:11,620 --> 00:16:19,060
+平方等于资本1加Kappa 2加上或减去绝对值Kappa 2 
+squared equals capital 1 plus Kappa 2
+plus or minus absolute value Kappa 2
+
+161
+00:16:19,060 --> 00:16:27,520
+再加上资本1 e到i pi K a，这就是我们的解决方案
+plus Capital 1 e to the I pi K a and
+that's our solution now one thing you
+
+162
+00:16:27,520 --> 00:16:33,220
+可能会注意到，对于每个K，欧米茄都有两种可能的解决方案
+may notice is that for each K there are
+two possible solutions of Omega the plus
+
+163
+00:16:33,220 --> 00:16:37,800
+解决方案中的负解正确，这样就可以在这里写下
+solution in the minus solution right so
+as that mean write it down over here
+
+164
+00:16:37,800 --> 00:16:51,610
+每个K都有两个正常模式模式，我们可以称它们为Omega plus和minus ok， 
+each K has two normal modes modes we can
+call them Omega plus and minus ok and
+
+165
+00:16:51,610 --> 00:16:55,870
+我们有多少个k，k的个数等于单位数
+how many k's do we have the number of
+k's are equal to the number of unit
+
+166
+00:16:55,870 --> 00:17:00,990
+单元，每个k有两个正常模式的两倍，所以正常模式的数量
+cells and each k has two times two
+normal modes so number of normal modes
+
+167
+00:17:00,990 --> 00:17:12,609
+正常模式的数量等于单位电池数量的两倍，并且它的销量等于
+number of normal modes equals two times
+number of unit cells and it sells equals
+
+168
+00:17:12,609 --> 00:17:18,068
+数量，这是我们应该期望的，因为我们有这个数量
+
+169
+00:17:18,069 --> 00:17:22,240
+质量是我们拥有的自由度的数量，所以当我们解决这个问题时
+of masses is the number of degrees of
+freedom we have so when we solve this
+
+170
+00:17:22,240 --> 00:17:26,319
+问题在于，有许多正常模式，而实际上我们这样做了
+problem which is that exactly that many
+normal modes and indeed we do so that's
+
+171
+00:17:26,319 --> 00:17:33,010
+这很好，我现在对所有的好都感到满意，因此对
+that's good good I'm happy with that
+all right good now so it's useful to
+
+172
+00:17:33,010 --> 00:17:36,610
+实际画出这个东西，我先将其勾画出来，然后我们将
+actually plot this thing and I'm going
+to sketch it out first and then we'll
+
+173
+00:17:36,610 --> 00:17:39,540
+某种理由说明为什么它看起来像这样做
+sort of justify why it looks the way it
+does
+
+174
+00:17:39,540 --> 00:17:50,680
+所以在这里我要在这里绘制K在这是Omega好的PI在
+so here I'm gonna plot
+here's K here's Omega okay PI over a is
+
+175
+00:17:50,680 --> 00:17:56,110
+负PI超过负PI，所以这是
+minus PI over a minus PI over a so
+that's the wrong zone outside of the
+
+176
+00:17:56,110 --> 00:18:00,010
+布劳恩斯拥有的一切都会重复，所以我们应该有一个像这样的模式
+Brauns own everything just repeats so we
+should have a mode that looks like this
+
+177
+00:18:00,010 --> 00:18:08,800
+然后更高频率的模式看起来像这样，然后您可以
+and then a higher frequency mode maybe
+looks like this okay and then you could
+
+178
+00:18:08,800 --> 00:18:13,330
+实际上定期在外部复制它，我的意思是你可以做到
+actually reproduce this periodically
+outside I mean you could you can make it
+
+179
+00:18:13,330 --> 00:18:18,640
+随心所欲继续前进，因为当您将所有PI移到两个PI上时
+go onwards as you like because as you
+shift everything by two PI over a you
+
+180
+00:18:18,640 --> 00:18:22,120
+只是回到同一波，但我们要真正专注于青铜
+just get back the same wave but we're
+gonna really focus on the bronze own
+
+181
+00:18:22,120 --> 00:18:25,690
+因为在这里拥有的青铜器中，您发现的每个波浪都与每个波浪不同
+because within the bronze own here every
+wave you find is different from every
+
+182
+00:18:25,690 --> 00:18:32,800
+另一波现在在这里看起来可能会有用
+other wave now it's useful here to
+probably look a little bit more
+
+183
+00:18:32,800 --> 00:18:36,550
+仔细查看此图，看看为什么它看起来像我绘制的样子，所以让我们
+carefully at this plot and see why it
+looks the way I've drawn it so let's
+
+184
+00:18:36,550 --> 00:18:43,840
+看一些方便的点，也许K等于零，这对
+look at some convenient points maybe at
+K equals zero that's a good point to
+
+185
+00:18:43,840 --> 00:18:50,980
+好好看看K等于0发生了什么，所以在这里我们有这个绝对值
+look at well what happens with K equals
+zero so over here we have this absolute
+
+186
+00:18:50,980 --> 00:19:03,160
+ K 2加K 1 e等于i K等于K 2加K 1，所以M Omega平方是
+K 2 plus K 1 e to the i ka that goes to
+just K 2 plus K 1 so M Omega squared is
+
+187
+00:19:03,160 --> 00:19:12,850
+是K 1加K 2的2倍，或者是0，所以我在这里画出K处的0 
+either 2 times K 1 plus K 2 or at 0 and
+so I've drawn that here here's 0 at K
+
+188
+00:19:12,850 --> 00:19:17,380
+等于0，这是较高的能量1可能能够吸收较高的能量
+equals 0 and here is the higher energy 1
+may be able to draw the higher energy
+
+189
+00:19:17,380 --> 00:19:25,350
+一个也因此Omega加K等于0是2的平方根1加Kappa 2 
+one also so Omega plus at K equals 0 is
+square root of 2 capital 1 plus Kappa 2
+
+190
+00:19:25,350 --> 00:19:32,080
+我认为艾玛对这个观点的看法是对的，所以这里的要点是平方根
+over Emma take it that right I think so
+so that point here give it a square root
+
+191
+00:19:32,080 --> 00:19:40,090
+ 2的资本1加m的Kappa 2，所以我们有Loranger模式
+of 2 capital 1 plus Kappa 2 over m and
+we so we have the Loranger mode with the
+
+192
+00:19:40,090 --> 00:19:43,660
+高能模式现在低能模式我们将回到氢动力
+high energy mode now the low energy mode
+we will come back to the hydrogen motive
+
+193
+00:19:43,660 --> 00:19:47,170
+时刻，但低能量低频模式是我们应该期望的一种
+moment but the low energy low frequency
+mode is one that we should expect should
+
+194
+00:19:47,170 --> 00:19:50,320
+曾经去过那里，因为我们应该期望应该在某处有声波
+have been there because we should expect
+that there should be Soundwave somewhere
+
+195
+00:19:50,320 --> 00:19:52,760
+在系统中，当有声波时，我们注意到
+in the system and when there are sound
+waves we notice
+
+196
+00:19:52,760 --> 00:19:57,140
+具有在波矢量中具有线性频率的频谱的方法，以及
+ways to have a spectrum which is has
+frequency linear in wave vector and
+
+197
+00:19:57,140 --> 00:20:01,280
+现在以零波矢降到零，以说服自己，这就是
+comes down to zero at zero wave vector
+now to convince ourselves that's what's
+
+198
+00:20:01,280 --> 00:20:05,840
+继续这个方程，我们实际上需要做更多的数学运算
+going on with this equation we have to
+actually do a little bit of more math
+
+199
+00:20:05,840 --> 00:20:12,970
+并将色散曲线扩展到K等于零附近，让我们看看如何做到这一点
+and expand the dispersion curve near K
+equals zero so let's see how we do that
+
+200
+00:20:12,970 --> 00:20:25,760
+因此，让我们将K 2加K 1 e取到i ka那个数量是
+so let's take K 2 plus K 1 e to the i ka
+that quantity there is well yeah that
+
+201
+00:20:25,760 --> 00:20:31,100
+东西可以写成平方根Kappa 2平方加Kappa 1 
+thing there can be written as square
+root Kappa 2 squared plus Kappa 1
+
+202
+00:20:31,100 --> 00:20:43,310
+ ka的平方加2 kappa 1 kappa 2余弦
+squared plus 2 kappa 1 kappa 2 cosine of
+ka just by multiplying that out and if K
+
+203
+00:20:43,310 --> 00:20:50,450
+很小，我们将用1减去K乘以2的平方来代替余弦
+is small we're going to replace this
+cosine by 1 minus K a squared over 2 so
+
+204
+00:20:50,450 --> 00:20:55,610
+那么我们所拥有的就是我可以这样写它的平方根
+then what we have is I guess we can
+write it like this square root of this
+
+205
+00:20:55,610 --> 00:21:03,770
+整个Kappa 2加Kappa 1平方，当我放置时会照顾1个学期
+whole thing Kappa 2 plus Kappa 1 squared
+that takes care of the 1 term when I put
+
+206
+00:21:03,770 --> 00:21:07,880
+这个和这个加在一起，我得到Kappa 1加Kappa 2的平方，然后是什么
+together this this and this I get Kappa
+1 plus Kappa 2 squared and then what's
+
+207
+00:21:07,880 --> 00:21:16,760
+剩下的就是二元对消kappa 1 kappa 2 ka平方我得到我想要的
+left over is the twos cancel kappa 1
+kappa 2 ka squared I get that I want to
+
+208
+00:21:16,760 --> 00:21:26,960
+这样做是的，那么这很方便地分解出一个Kappa 2 plus Kappa 
+do that yeah ok then this conveniently
+factors out to give a Kappa 2 plus Kappa
+
+209
+00:21:26,960 --> 00:21:38,930
+ 1的平方根加Kappa 1 Kappa 2 ka平方大写1 
+1 times the square root of 1 plus Kappa
+1 Kappa 2 ka squared over capital 1
+
+210
+00:21:38,930 --> 00:21:45,890
+ kappa 2平方，如果您还记得1的平方根加X oops负数
+kappa 2 squared and if you remember
+square root of 1 plus X oops negative
+
+211
+00:21:45,890 --> 00:21:54,080
+签错了他们签错了-那是-没有人拿到巧克力
+sign wrong they got a sign wrong
+that's - that's - no one gets chocolate
+
+212
+00:21:54,080 --> 00:22:04,010
+因为那是一个减去两个的x，所以我们可以将其重写为
+for that is one minus x over two so so
+then we have we can rewrite this as
+
+213
+00:22:04,010 --> 00:22:11,920
+卡伯2加资本一号-卡伯1卡伯2 ka 
+Kappa 2 plus Capital One - kappa 1 kappa
+2 ka
+
+214
+00:22:11,920 --> 00:22:17,740
+平方乘以2个大写字母1加Kappa- 
+squared over 2 capital 1 plus Kappa -
+
+215
+00:22:19,210 --> 00:22:23,770
+我错过了什么吗？ 
+does that look right did I miss anything
+
+216
+00:22:27,710 --> 00:22:36,380
+是的，kappa 1让我们加盖-谢谢kappa longo的kappa-是，是的，很好，谢谢
+yeah kappa 1 let's cap - thank you kappa
+Longo's kappa - yeah yeah good thank you
+
+217
+00:22:36,380 --> 00:22:41,270
+谁说我不是Michalka迟到的人，是的，好的，所以我没有
+whoever said that I wasn't Michalka
+late' yeah ok ok good so I don't have
+
+218
+00:22:41,270 --> 00:22:46,970
+今天我要带一个，但是我讨厌它，所以如果我插上那个
+one today I was gonna bring one but I
+hate it so alright so if I plug that
+
+219
+00:22:46,970 --> 00:22:52,790
+进入此处，我们看到大写字母1加Kappa-与- 
+into into here we see that the capital 1
+plus Kappa - with the with the -
+
+220
+00:22:52,790 --> 00:22:58,580
+解决方案取消了此溶质，将资本金加Kappa取消-也将取消
+solution cancels this solute this
+capital 1 plus Kappa - also will cancel
+
+221
+00:22:58,580 --> 00:23:04,390
+这样，我们最终将得到em将使平方成为M Omega平方
+this and we'll end up just getting em
+will make a squared M Omega squared
+
+222
+00:23:04,390 --> 00:23:14,380
+等于资本1 kappa 2 ka平方2 kappa 1加Kappa-或等价
+equals capital 1 kappa 2 ka squared over
+2 kappa 1 plus Kappa - or equivalently
+
+223
+00:23:14,380 --> 00:23:25,700
+欧米茄是平方根kappa 1 kappa 2 a平方超过2 kappa 1加Kappa 2 em 
+Omega is square root kappa 1 kappa 2 a
+squared over 2 kappa 1 plus Kappa 2 em
+
+224
+00:23:25,700 --> 00:23:32,570
+在那儿，然后绝对K没问题，我意识到这是很多数学
+down there and then absolute K all right
+and I realize that's a lot of math we're
+
+225
+00:23:32,570 --> 00:23:37,370
+今年不会做太多那么重的数学运算，但必须每学一次
+not going to do too much math that heavy
+this year but have to do it once in a
+
+226
+00:23:37,370 --> 00:23:44,720
+虽然很好，所以我们将其识别为声速，所以我们只是推导了
+while okay so this we recognize as the
+sound velocity so we just derived the
+
+227
+00:23:44,720 --> 00:23:51,170
+该波的声速声速是该曲线的斜率
+sound velocity of this wave the sound
+velocity is the slope of this curve here
+
+228
+00:23:51,170 --> 00:23:56,720
+现在通常我应该使用人们通常参考的适当术语
+now usually actually I should use the
+proper nomenclature usually people refer
+
+229
+00:23:56,720 --> 00:24:00,430
+以此作为声学模式
+to this as the acoustic mode
+
+230
+00:24:01,210 --> 00:24:08,749
+他们倾向于称其为声学模式，甚至一直到该区域
+and they tend to call it the acoustic
+mode even all the way out to the zone
+
+231
+00:24:08,749 --> 00:24:13,940
+即使在K的情况下实际上只是声音
+boundary out here at very high K even
+though it's really only sound when it's
+
+232
+00:24:13,940 --> 00:24:18,019
+长，当它是长波长或小K时，它们在这里称为整个分支
+long and when it's long wavelength or
+small K they call the whole branch here
+
+233
+00:24:18,019 --> 00:24:23,499
+声学模式现在您还记得上一次我们导出声速时
+the acoustic mode now you remember last
+time when we derive the sound velocity
+
+234
+00:24:23,499 --> 00:24:27,710
+我们还能够通过使用氢获得相同的声速
+we also were able to derive the same
+sound velocity by using a hydrogen
+
+235
+00:24:27,710 --> 00:24:31,580
+原子参数，所以让我们看看这次是否可以再次执行此操作
+atomic argument so let's see if we can
+do that again this time remember from
+
+236
+00:24:31,580 --> 00:24:37,909
+在流体力学方面，我们认为V声在整个过程中应等于1的平方根。 
+hydrodynamics we have that the V sound
+should equal square root of 1 over the
+
+237
+00:24:37,909 --> 00:24:43,429
+质量密度乘以可压缩性质量密度很好有两个
+mass density times the compressibility
+the mass density is well there are two
+
+238
+00:24:43,429 --> 00:24:49,039
+每个晶格常数a的质量和我们上次得出的可压缩性
+masses per lattice constant a and the
+compressibility well we derive last time
+
+239
+00:24:49,039 --> 00:24:53,570
+压缩系数应在弹簧常数乘以a和的基础上为1 
+the compressibility should be 1 over the
+spring constant times a and the spring
+
+240
+00:24:53,570 --> 00:24:58,490
+这里的单元格中有两个弹簧，一个弹簧
+constant well here the the unit cell has
+two springs in it and the spring
+
+241
+00:24:58,490 --> 00:25:03,830
+两个弹簧串联的常数是kappa 1 kappa 2超过大写字母1 plus 
+constant for two springs in series is
+kappa 1 kappa 2 over capital 1 plus
+
+242
+00:25:03,830 --> 00:25:09,320
+ Kappa 2听起来很熟悉吗，记得从第一年起
+Kappa 2 does that sound familiar
+remember that from first year ok so if
+
+243
+00:25:09,320 --> 00:25:15,889
+我们把这个和这个和这个插入这里，实际上我们得到完全相同的结果V 
+we plug this and this and this into here
+in fact we get exactly the same result V
+
+244
+00:25:15,889 --> 00:25:24,230
+声音等于平方根大写1 kappa 2 a平方超过2m的大写1加
+sound equals square root capital 1 kappa
+2 a squared over 2m of capital 1 plus
+
+245
+00:25:24,230 --> 00:25:30,740
+ Kappa 2，因此流体力学计算可为您提供与我们完全相同的结果
+Kappa 2 so the hydrodynamic calculation
+gives you exactly the same result as we
+
+246
+00:25:30,740 --> 00:25:36,769
+通过完全解决系统问题得到的，现在让我们谈谈
+got by actually solving the system
+completely now let's talk about this
+
+247
+00:25:36,769 --> 00:25:42,110
+此处的模式与声学模式相比
+mode up here this mode is known in
+comparison to the acoustic mode this
+
+248
+00:25:42,110 --> 00:25:50,269
+模式在K时称为光学模式光学模式高频模式
+mode is known as the optical mode
+optical mode high frequency mode at K
+
+249
+00:25:50,269 --> 00:25:56,269
+等于0，我们可能应该说我应该告诉你为什么这个名字
+equals 0 and we should probably I mean I
+should probably tell you why the name
+
+250
+00:25:56,269 --> 00:26:01,999
+光学模式，因此“光学模式”一词来自真实实测
+optical mode so the word optical mode
+comes from experiments on on real real
+
+251
+00:26:01,999 --> 00:26:07,279
+当您在材料上照射光并引起振动时
+materials when you shine light on the
+material and you induced vibrations by
+
+252
+00:26:07,279 --> 00:26:11,179
+如果您想一想，现在就照耀着太阳
+Sun by shining light on it now if you
+think for a second what's the property
+
+253
+00:26:11,179 --> 00:26:18,749
+我们知道类似声光的频率为
+of light that we know similar
+sound light has frequency which is
+
+254
+00:26:18,749 --> 00:26:23,580
+与其波矢成比例，唯一的不同是C很大
+proportional to its wave vector the only
+big difference is that C is huge
+
+255
+00:26:23,580 --> 00:26:30,869
+与声速相比，如果我在同一条曲线上绘制光散射曲线
+compared to sound velocity so if I drew
+the light dispersion curve on the same
+
+256
+00:26:30,869 --> 00:26:37,679
+绘制一条非常陡峭的斜线，可能像这样陡峭
+plot it would be an extremely steep
+sloped line like this probably so steep
+
+257
+00:26:37,679 --> 00:26:44,549
+如果您想象材料上闪烁着光，我现在什至无法绘制它
+I couldn't even draw it now if you
+imagine shining light on a material and
+
+258
+00:26:44,549 --> 00:26:49,169
+在量子力学中产生振动，我们应该考虑吸收光子
+creating vibrations in quantum mechanics
+we should think about absorbing a photon
+
+259
+00:26:49,169 --> 00:26:54,990
+并创建一个声子，然后想象一个吸收光子和
+and creating a phonon so imagine a
+process where you absorb a photon and
+
+260
+00:26:54,990 --> 00:27:00,149
+创造一个声子为了做到这一点，你必须节约能量
+create a phonon in order for that to
+happen you have to conserve both energy
+
+261
+00:27:00,149 --> 00:27:04,740
+和动量，所以您必须同时匹配频率和波矢
+and momentum so you have to match up
+both the frequency and the wave vector
+
+262
+00:27:04,740 --> 00:27:08,429
+声子的波矢中具有频率的光的唯一位置
+of the light with the frequency in the
+wave vector of a phonon the only place
+
+263
+00:27:08,429 --> 00:27:13,139
+可能发生的事情就在这里，您永远无法匹配的原因
+that can happen is right here and the
+reason you're never going to match the
+
+264
+00:27:13,139 --> 00:27:16,710
+声模，因为速度失配非常严重，但与光学
+acoustic mode because the velocity
+mismatches so badly but with the optical
+
+265
+00:27:16,710 --> 00:27:20,850
+因为光学模式即使在K等于零时也具有有限的频率，所以存在
+mode since the optical mode has finite
+frequency even at K equals zero there is
+
+266
+00:27:20,850 --> 00:27:24,869
+光学模式频率与光频率和光学模式相匹配的点
+a point where the optical mode frequency
+matches light frequency and the optical
+
+267
+00:27:24,869 --> 00:27:31,669
+在这种情况下，模式动量与光动量甚至晶体动量匹配
+mode momentum matches the light momentum
+or even crystal momentum in this case
+
+268
+00:27:31,669 --> 00:27:36,779
+现在，这就是人们为什么称其为光学模式的名称
+now so that's a nomenclature of where
+why people call this the optical mode
+
+269
+00:27:36,779 --> 00:27:40,440
+每当您与光线和振动发生相互作用时， 
+whenever you have interactions with
+light and vibrations it's inevitably the
+
+270
+00:27:40,440 --> 00:27:44,850
+光学模式，但我应该诚实地说我所描述的过程
+optical mode but I should be a little
+bit honest that that process I described
+
+271
+00:27:44,850 --> 00:27:49,950
+给你吸收光子而发出声子的方式实际上并没有
+to you by which you absorb a photon and
+you emit a phonon actually does not
+
+272
+00:27:49,950 --> 00:27:53,309
+发生而没有发生的原因是因为有一个保守的量子
+occur and the reason it doesn't occur is
+because there's a conserved quantum
+
+273
+00:27:53,309 --> 00:27:59,399
+编号光子的自旋，我的意思是光子具有自旋声子
+number the spin of the photon which I
+mean photons have spin phonons do not so
+
+274
+00:27:59,399 --> 00:28:02,519
+如果要发生该过程，则会违反角动量
+if that process to were to occur you
+would violate angular momentum
+
+275
+00:28:02,519 --> 00:28:06,210
+保护，所以您绝对不想破坏
+conservation so that's you know
+definitely bad you don't want to violate
+
+276
+00:28:06,210 --> 00:28:10,470
+保持角质素，因此实际上不存在这样的过程
+angular mentum conservation so in fact
+no such process exists by which a single
+
+277
+00:28:10,470 --> 00:28:14,639
+光子被吸收并产生单个声子，但是还有更多
+photon is absorbed and a single phonon
+is created however there are more
+
+278
+00:28:14,639 --> 00:28:19,110
+可能发生涉及光子和声子的复杂过程
+complicated processes that can occur
+involving photons and phonons for
+
+279
+00:28:19,110 --> 00:28:24,690
+例如吸收两个光子并发射一些声子，因为这个角度
+example absorb two photons and emit some
+phonons that's okay because this angular
+
+280
+00:28:24,690 --> 00:28:27,520
+两个光子的动量可以抵消，你可以
+momentum of the two photons can cancel
+and you can
+
+281
+00:28:27,520 --> 00:28:32,410
+我们将有保护，这仍然是很难克服的相同原则
+we'll have conservation and it's still
+the same principle that is very hard to
+
+282
+00:28:32,410 --> 00:28:37,330
+在声子与声子之间的任何形式的相互作用中均能保持能量和动量
+conserve both energy and momentum in any
+sort of interaction between phonons and
+
+283
+00:28:37,330 --> 00:28:40,480
+光子，除非您需要进入光学模式，因为您需要
+photons unless you're getting optical
+modes into the game because you need to
+
+284
+00:28:40,480 --> 00:28:44,200
+通过声子以某种方式使高频进入游戏，因此唯一的方法
+get high frequencies into the game
+somehow with phonon so the only way to
+
+285
+00:28:44,200 --> 00:28:48,280
+用声子的小波矢获得高频是使用光学
+get high frequencies with small wave
+vectors in phonons is to use the optical
+
+286
+00:28:48,280 --> 00:28:53,590
+模式好吧，所以这个名字实际上来自更普遍的地方
+mode okay so that's where the name comes
+from actually more generally
+
+287
+00:28:53,590 --> 00:29:01,620
+让我更一般地给Nam和Chur Chur讲声学模式
+let me give more general Nam and clay
+Chur here acoustic mode generally
+
+288
+00:29:01,620 --> 00:29:13,450
+声学模式是在小K且光与Omega成正比的任何模式
+acoustic mode is any mode where Omega is
+proportional to K at small K and optical
+
+289
+00:29:13,450 --> 00:29:22,300
+光学模式是欧米茄达到不等于常数的任何模式
+mode optical mode is any mode where
+Omega goes to a constant not equal to
+
+290
+00:29:22,300 --> 00:29:30,700
+在小K处为零好吧，让我们考虑一下这个小K体制
+zero at small K okay let's think about
+this this small K regime a little bit
+
+291
+00:29:30,700 --> 00:29:38,440
+更严重的是，我们发现本征值是频率，但让我们看一下
+more seriously so we found the eigen
+values the frequencies but let's look at
+
+292
+00:29:38,440 --> 00:29:42,100
+特征向量，所以我们实际上对角化的矩阵很大
+the eigenvectors so the matrix we're
+actually diagonalizing is that big
+
+293
+00:29:42,100 --> 00:29:47,320
+那里的矩阵，让我们看看它在K等于零，所以在K等于零
+matrix there and let's look at it at K
+equals zero so at K equals zero
+
+294
+00:29:47,320 --> 00:29:52,090
+我们感兴趣的矩阵的形式为
+the matrix we're interested in is of the
+form
+
+295
+00:29:52,090 --> 00:30:00,490
+我猜它是负Kappa 1加Kappa 2乘以1负1负1 1 
+I guess it's minus Kappa 1 plus Kappa 2
+times what is it 1 minus 1 minus 1 1
+
+296
+00:30:00,490 --> 00:30:06,310
+那样的事情，还是我在错误的地方弄糟了，不，我想
+something like that or do I get the
+minuses in the wrong place no I think
+
+297
+00:30:06,310 --> 00:30:11,500
+没关系，所以看起来像这样，因为当波向量
+it's right ok so it looks something like
+this because when when the wave vector
+
+298
+00:30:11,500 --> 00:30:16,420
+变成0到i的指数e都变成1，所以你有一个矩阵
+goes to 0 the Exponential's e to the i
+ka both go to 1 and so you have a matrix
+
+299
+00:30:16,420 --> 00:30:22,060
+的形式是1 1减去1减去1 1（如果我拉出减去Kappa 1加Kappa 2） 
+of the form 1 1 minus 1 minus 1 1 if I
+pull out minus Kappa 1 plus Kappa 2 so
+
+300
+00:30:22,060 --> 00:30:26,050
+特征向量我们有两个可能的特征向量
+the eigen vectors
+we have two possible eigenvectors one is
+
+301
+00:30:26,050 --> 00:30:34,830
+对于欧米茄等于零的解，我们有一个特征向量ax ay等于1 1 
+for the Omega equals zero solution we
+have an eigen vector ax a y equals 1 1
+
+302
+00:30:34,830 --> 00:30:41,740
+至于光学模式解，另一个特征向量
+where as for the the optical mode
+solution the other eigen vector the high
+
+303
+00:30:41,740 --> 00:30:51,070
+能量高频本征向量，我们具有axay等于1减去1，所以
+energy high frequency eigen vector we
+have a x a y equals 1 minus 1 so what is
+
+304
+00:30:51,070 --> 00:30:55,660
+这告诉我们这是告诉我们的是对于k附近的声学模式
+this telling us what this is telling us
+is that for the acoustic mode near k
+
+305
+00:30:55,660 --> 00:31:00,790
+等于0，原子实际上正在与它们的邻居一起移动， 
+equals 0 the atoms are actually moving
+with their neighbors that both of the
+
+306
+00:31:00,790 --> 00:31:04,900
+晶胞中的原子在同一时间向同一方向移动
+atoms in the unit cell are moving the
+same direction at the same time they're
+
+307
+00:31:04,900 --> 00:31:09,970
+同步移动，而对于光学模式，则为高频模式
+moving in concert the whereas for the
+optical mode the higher frequency mode
+
+308
+00:31:09,970 --> 00:31:13,990
+晶胞中的两个原子彼此相对移动， 
+the two atoms in the unit cell are
+moving opposite each other and it's
+
+309
+00:31:13,990 --> 00:31:18,520
+实际上很自然地解释了为什么光学模式如此
+actually quite natural to explain then
+why it is that the optical mode is so
+
+310
+00:31:18,520 --> 00:31:21,820
+频率要高得多，因为在光学模式下，您正在压缩
+much higher in frequency because in
+optical mode you're compressing the
+
+311
+00:31:21,820 --> 00:31:25,570
+最大弹起，而当声学模式下您几乎没有压缩
+springs maximally whereas when the
+acoustic mode you're hardly compressing
+
+312
+00:31:25,570 --> 00:31:29,740
+之所以如此，是因为每个人都朝着相同的方向前进
+the springs at all because everyone is
+moving in the same direction these sort
+
+313
+00:31:29,740 --> 00:31:38,200
+趋势的发生更普遍，如果存在
+of trends occur more generally so
+general if if there are m
+
+314
+00:31:38,200 --> 00:31:48,960
+如果晶胞中的晶胞原子中有m个原子，我们将有M个模式
+if there are m atoms in the unit cell
+atoms in unit cell we would have M modes
+
+315
+00:31:48,960 --> 00:31:59,980
+在每个K处，声学就是每个人都以相同的方式运动的模式
+at each K one is acoustic that's the
+mode where every one moves in the same
+
+316
+00:31:59,980 --> 00:32:04,840
+ K的方向等于零，则剩余的M减去其中之一为
+direction at K equals zero and then the
+remaining M minus one of them are
+
+317
+00:32:04,840 --> 00:32:11,770
+光学上的含义是，它们在k等于d时不等于0 
+optical meaning they don't all move in
+the same direction at k equals 0 in d
+
+318
+00:32:11,770 --> 00:32:29,170
+维度d维度在香港d每k有d次m个模
+dimensions d dimensions there are d
+times m modes at each k at HK d our
+
+319
+00:32:29,170 --> 00:32:32,220
+光学声
+optic are acoustic
+
+320
+00:32:32,590 --> 00:32:45,200
+剩下的D乘以M减去1可以算是好的，为什么这是我们
+and the remaining D times M minus 1 are
+optical okay why is this well we're the
+
+321
+00:32:45,200 --> 00:32:48,110
+模式的总数是指度数的总数
+total count of the modes is a total
+count of the number of degrees of
+
+322
+00:32:48,110 --> 00:32:53,600
+自由，如果有M，则每个K的数目总是与数字相同
+freedom if there are M there's always
+the same number of K's per as the number
+
+323
+00:32:53,600 --> 00:33:00,860
+系统中的每个单元格的每个每个值具有M质量
+of unit cells in the system each each
+value of each unit cell has M masses in
+
+324
+00:33:00,860 --> 00:33:06,260
+它可以在D维度上移动，因此共有DM自由度
+it and they can move in D dimensions so
+there's a total of DM degrees of freedom
+
+325
+00:33:06,260 --> 00:33:15,260
+每个单元格，因此我们期望每个K的DM模式现在可以有d个
+per unit cell so we expect DM modes for
+each K now of them there can be d of
+
+326
+00:33:15,260 --> 00:33:19,070
+他们在那里声学，并对应于任何一个
+them there acoustic and that corresponds
+to all of the masses moving in any of
+
+327
+00:33:19,070 --> 00:33:24,020
+三个可能的方向，所以我们知道我们已经讨论了这些事情
+the three possible directions so we know
+what these things are we've discussed
+
+328
+00:33:24,020 --> 00:33:28,040
+它们中的一个是纵向的，而其中两个是横向的，所以对于
+them before one of them is longitudinal
+and two of them are transverse so for
+
+329
+00:33:28,040 --> 00:33:31,970
+每一个K都向K方向移动，然后其中两个是
+each K one of them is moving in the
+direction of K and then two of them are
+
+330
+00:33:31,970 --> 00:33:38,090
+在三个维度上垂直于K移动好一点
+moving perpendicular to K in three
+dimensions okay there's one more point
+
+331
+00:33:38,090 --> 00:33:43,190
+在这张照片上，我们可能会更仔细地看一下
+on this picture that we could probably
+look at more carefully which is these
+
+332
+00:33:43,190 --> 00:33:48,770
+此处有趣的点位于所谓的Braun自己的边界PI 
+interesting points here near which are
+at the so-called Braun's own boundary PI
+
+333
+00:33:48,770 --> 00:33:57,680
+让我把它放在这里，所以考虑考虑BZ边界BZ 
+over a let me put it over here so
+consider consider BZ boundary BZ
+
+334
+00:33:57,680 --> 00:34:08,899
+边界K等于a上的PI，那么我们有什么好呢，那么这个系数Kappa 
+boundary K equals PI over a so what do
+we have then well then this factor Kappa
+
+335
+00:34:08,899 --> 00:34:18,320
+ i kappa 1的2加e实际上是绝对k2减去k1，所以
+2 plus e to the i ka Kappa 1 is actually
+absolute k2 minus k1 and so the
+
+336
+00:34:18,320 --> 00:34:26,510
+ Ω平方的频率是m k1上的1加Kappa 1加Kappa 2正负
+frequencies Omega squared is 1 over m k1
+plus Kappa 1 plus Kappa 2 plus or minus
+
+337
+00:34:26,510 --> 00:34:32,510
+绝对Kappa 1减去Kappa 2或Kappa 2减去大写1并不重要
+absolute Kappa 1 minus Kappa 2 or Kappa
+2 minus Capital one doesn't matter its
+
+338
+00:34:32,510 --> 00:34:38,179
+绝对值，这意味着我们有两个可能的解决方案，欧米茄等于
+absolute value and that means that we
+have two possible solutions Omega equals
+
+339
+00:34:38,179 --> 00:34:44,000
+ m上的2 kappa 1的平方根或2 kappa 2的平方根
+either square root of 2 kappa 1 over m
+or square root of 2 Kappa 2
+
+340
+00:34:44,000 --> 00:34:50,270
+在em上，因此我们将其标记在这里，因此该称呼2的平方根为1 
+over em so we'll mark them here so this
+one will call square root of 2 capital 1
+
+341
+00:34:50,270 --> 00:34:56,510
+超过m，这个将称2为m的2 Kappa 2的平方根
+over m and this one will call square
+root of 2 Kappa 2 over m and here I've
+
+342
+00:34:56,510 --> 00:35:01,760
+假设资本1大于Kappa 2，否则更高
+assumed that capital 1 is greater than
+Kappa 2 otherwise around the higher
+
+343
+00:35:01,760 --> 00:35:04,910
+能量永远是最重要的，这些模式实际上永远不会相互交叉
+energy one is always on top and these
+modes actually never cross each other
+
+344
+00:35:04,910 --> 00:35:11,840
+您可以通过查看这些频率的形式来说服自己
+you can convince yourself by looking at
+the form of the the frequency that these
+
+345
+00:35:11,840 --> 00:35:16,520
+两种模式实际上无法交叉，所以在这个青铜器上发生了什么
+two modes can never actually cross so
+what's going on at this at this bronze
+
+346
+00:35:16,520 --> 00:35:24,980
+自身边界位于青铜器自身边界处，波形Delta X Delta y等于ax 
+own boundary at the bronze own boundary
+the wave form Delta X Delta y equals ax
+
+347
+00:35:24,980 --> 00:35:33,590
+为什么将e代入IΩ减去负IK，再将这e代至负IK和a 
+a why e to the I Omega T e to the minus
+I K and a this e to the minus I K and a
+
+348
+00:35:33,590 --> 00:35:39,850
+变成N的负1，这告诉我们发生了什么
+becomes minus 1 to the N and that tells
+us that what's going on is that
+
+349
+00:35:39,850 --> 00:35:44,330
+备用单位晶格彼此异相移动
+alternate unit cells are moving out of
+phase with each other they're moving in
+
+350
+00:35:44,330 --> 00:35:48,440
+彼此相反的方向，所以现在看看是否可以使它起作用
+the opposite direction as each other so
+now it's see if we can get this to work
+
+351
+00:35:48,440 --> 00:35:59,980
+哦，不，不，不，停止，停止，停止，停止
+oh no no no stop stop stop sets of stop
+
+352
+00:36:03,210 --> 00:36:05,750
+没有
+No
+
+353
+00:36:10,160 --> 00:36:18,500
+哦，亲爱的，这仅在星期一发生，所以我们在这里进行筛选哦，但是那是在
+oh dear does this happen only on Monday
+so here we go screen up oh but that's on
+
+354
+00:36:18,500 --> 00:36:22,160
+哦，哇，好极了，所以我们仍然可以在它进行的同时做这件事，所以这
+oh wow amazing okay so we can still do
+this while it's going on okay so this
+
+355
+00:36:22,160 --> 00:36:27,980
+程序是由Mike Glazer编写的，您可以单击交替
+program is the thing written by by Mike
+Glazer and you can click alternating
+
+356
+00:36:27,980 --> 00:36:32,360
+链条和纵向纵向意味着一切都在
+chain and longitudinal longitudinal
+means that everything oscillates in the
+
+357
+00:36:32,360 --> 00:36:38,840
+单行，您可以通过更改此滑块在此处更改K，您可以看到
+single line you can change the K here by
+changing this slider and you can see
+
+358
+00:36:38,840 --> 00:36:43,610
+色散在下方绘制，从零到2pi 
+that the the dispersion is plotted down
+here it's plotted from zero to 2pi
+
+359
+00:36:43,610 --> 00:36:49,160
+而不是零而不是负PI超过零到2pi而不是a 
+instead of a zero instead of minus PI
+over zero to 2pi over a instead of minus
+
+360
+00:36:49,160 --> 00:36:54,020
+我在这里画的像是2pi上的PI，所以它是同一张图片
+PI over a 2pi over a like I've drawn
+here so it's the same picture so first
+
+361
+00:36:54,020 --> 00:36:58,670
+让我们从非常小的K开始，哦，还有这些
+let's start by taking K very very small
+oh and also you have these little
+
+362
+00:36:58,670 --> 00:37:02,810
+咔嗒声在这里，这将改变弹簧的质量，让我们
+clickers up here which will change the
+masses on the springs let's make the
+
+363
+00:37:02,810 --> 00:37:06,860
+质量是相同的，而c1和c2或我们称之为两者的Capital One和Kappa 
+mass is the same and c1 and c2 or what
+we call Capital One and Kappa to the two
+
+364
+00:37:06,860 --> 00:37:11,870
+弹簧常数，所以我们有两个不同的弹簧常数大写N和
+spring constants so we have two
+different spring constants capital N and
+
+365
+00:37:11,870 --> 00:37:15,980
+卡伯（Kappa）-这里是声学模式的分散，这里是光学模式
+Kappa - and here's the dispersion the
+acoustic mode down here the optical mode
+
+366
+00:37:15,980 --> 00:37:19,430
+在这里，我们单击了声学，所以我们实际上看到了声学模式
+up here here we've clicked acoustic so
+we're seeing actually the acoustic mode
+
+367
+00:37:19,430 --> 00:37:23,360
+在这里，您会看到声学模式的频率非常低，基本上
+here and you see that the acoustic mode
+is very low frequency and basically all
+
+368
+00:37:23,360 --> 00:37:27,110
+让我们将其向上移动一点，以便它可以更快地发生
+of the let's move this up a little bit
+so it happens a little faster you can
+
+369
+00:37:27,110 --> 00:37:32,150
+看到基本上所有的群众都在互相配合
+see that basically all the masses are
+moving in concert with each other sort
+
+370
+00:37:32,150 --> 00:37:37,610
+缓慢的来回晃动的水动力振荡
+of slow sloshing back and forth
+hydrodynamic oscillations you can sort
+
+371
+00:37:37,610 --> 00:37:42,500
+当您知道一个巨大的流体时，如果
+of viewed as you know one big fluid
+everything sort of moves together now if
+
+372
+00:37:42,500 --> 00:37:46,640
+我们去K等于零，它变成零频率，但我们可以在这里单击光学
+we go to K equals zero it becomes zero
+frequency but we can click on optic here
+
+373
+00:37:46,640 --> 00:37:50,990
+我们将得到光学模式，您会看到光学模式是每个质量运动的
+and we'll get the optical mode you see
+the optical mode is each mass moving
+
+374
+00:37:50,990 --> 00:37:55,520
+与晶胞中的其他质量相对，您可以看到这是
+opposite the other mass in the unit cell
+you can see that this is something that
+
+375
+00:37:55,520 --> 00:38:01,210
+应该是高频的，因为它现在最大程度地压缩弹簧
+should be high frequency because it's
+compressing the springs maximally now if
+
+376
+00:38:01,210 --> 00:38:09,500
+然后我们将K向量更改为bronz自己的边界，我们在这里是
+we then change the K vector to the bronz
+own boundary what we have here is is as
+
+377
+00:38:09,500 --> 00:38:16,670
+预测备用晶胞彼此相对移动，因此
+predicted that the alternate unit cells
+are moving opposite each other so this
+
+378
+00:38:16,670 --> 00:38:22,310
+单位质量，这两个质量与这两个质量相反，因此您可以
+unit cell these two masses are moving
+opposite of these two masses and you can
+
+379
+00:38:22,310 --> 00:38:26,050
+看看为什么它只是两个弹簧常数之一
+see actually why it is
+only one of the two spring constants
+
+380
+00:38:26,050 --> 00:38:31,120
+进入频率，因为这两个质量之间的弹簧实际上
+enters in the frequency because the
+spring between these two masses actually
+
+381
+00:38:31,120 --> 00:38:34,420
+完全没有压缩，只是晶胞之间的弹簧
+isn't getting compressed at all it's
+only the spring between the unit cells
+
+382
+00:38:34,420 --> 00:38:37,720
+被压缩，而不是晶胞内的弹簧
+that are getting compressed and not the
+spring within the unit cell that's
+
+383
+00:38:37,720 --> 00:38:42,250
+现在，如果您切换到压缩模式，请从以下位置开始压缩： 
+getting compressed now if you switch
+then from looking at the optical mode at
+
+384
+00:38:42,250 --> 00:38:45,340
+区域边界到区域边界的声学模式看起来非常好
+the zone boundary to the acoustic mode
+of the zone boundary it looks extremely
+
+385
+00:38:45,340 --> 00:38:49,300
+类似，但这里的频率较低，但您会注意到这是另一个春天
+similar but it's a lower frequency here
+but you'll notice it's the other spring
+
+386
+00:38:49,300 --> 00:38:53,350
+现在被压缩了，仍然知道一个单元格正在移动
+that's now getting compressed it's still
+you know you have one unit cell moving
+
+387
+00:38:53,350 --> 00:38:57,370
+在一个方向上另一个单位晶格朝相反的方向移动，但现在
+in one direction another unit cell
+moving in the opposite direction but now
+
+388
+00:38:57,370 --> 00:39:02,530
+是相反的弹簧k2弹簧被压缩，而不是
+it's the opposite spring the k2 spring
+which is being compressed rather than
+
+389
+00:39:02,530 --> 00:39:09,390
+ Kappa一个弹簧被压缩好了，所以我强烈建议人们
+the Kappa one spring being compressed
+okay so I highly recommend that people
+
+390
+00:39:09,390 --> 00:39:13,330
+下载此程序并弄乱它，还有很多其他乐趣
+download this program and mess around
+with it it's got a lot of other fun
+
+391
+00:39:13,330 --> 00:39:17,920
+这就是我们在无聊的星期六晚上可以做的事情或可以的事情
+features this is what we can do on a
+boring Saturday night or something okay
+
+392
+00:39:17,920 --> 00:39:27,310
+所以让我在这里重画这张照片，或者也许再停止一遍
+so let me redraw this picture here or
+maybe maybe stop this for a second okay
+
+393
+00:39:27,310 --> 00:39:32,590
+在这里重画这张图片好吧，我不知道为什么它仍然还在做
+redraw this picture here all right I
+don't know why it's still still doing
+
+394
+00:39:32,590 --> 00:39:41,860
+那好吧好吧，让我重画这张照片，除了我要
+that but okay all right good let me
+redraw this picture except I'm going to
+
+395
+00:39:41,860 --> 00:39:49,480
+略有不同，这里又是K，这是欧米茄，我要
+draw slightly differently
+here's K again here's Omega I'm going to
+
+396
+00:39:49,480 --> 00:39:57,970
+将PI放在此处，并将PI减去在此处，然后将两个PI放在此处和
+put PI over a here and minus PI over a
+here and then two PI over a here and
+
+397
+00:39:57,970 --> 00:40:02,890
+然后减去8的两个PI，我将绘制声学模式
+then minus two PI over eight here I'm
+going to draw the acoustic mode just
+
+398
+00:40:02,890 --> 00:40:07,660
+就像我以前拥有过的一样，然后我们以前拥有的光学模式是
+like I had it before and then the
+optical mode what we had before was
+
+399
+00:40:07,660 --> 00:40:14,770
+看起来像这样的东西，但我完全可以拿走这块
+something that looked like this but I'm
+perfectly allowed to take this piece
+
+400
+00:40:14,770 --> 00:40:24,670
+在这里，将其在a上移动两个pi，然后在此处进行绘制就可以了
+here and shift it by two pi over a and
+plot it instead here okay
+
+401
+00:40:24,670 --> 00:40:28,180
+所以我要做的就是拿走了这件作品，然后将它移了两个pi来移动它
+so all I did was I took this piece and I
+shifted it by two pi over a to move it
+
+402
+00:40:28,180 --> 00:40:32,920
+在这里，然后我可以在这里拿走这部分，并通过这种方式将其转移到PI 
+over here and then I can take this piece
+here and shift it to PI over a this way
+
+403
+00:40:32,920 --> 00:40:38,030
+放在这里，所以现在我要抹去我认识的人
+and put it here
+so now I'm going to erase I know people
+
+404
+00:40:38,030 --> 00:40:40,640
+当您进行一系列转换时会讨厌中间的部分
+hate when you do a race of transforms
+going to raise the piece in the middle
+
+405
+00:40:40,640 --> 00:40:46,630
+我要把这些碎片留在这里
+and I'm going to leave these pieces here
+so this piece and have this piece
+
+406
+00:40:46,630 --> 00:40:52,520
+好吧，所以拿了这块，并以这种方式将它移动了2pi 
+okay so just took this piece and moved
+it by 2pi over a this way and this piece
+
+407
+00:40:52,520 --> 00:40:57,260
+以2pi的方式移动，现在我以这种方式在这里得到这张照片
+moved by 2pi over a that way and I got
+this picture here now this way of
+
+408
+00:40:57,260 --> 00:41:05,570
+绘制事物被称为扩展区域游戏扩展区域方案，它
+drawing things is known as the extended
+zones game extended zone scheme and it
+
+409
+00:41:05,570 --> 00:41:10,220
+有一个很好的优点，就是只有一个凯，每个只有一个模式
+has a nice advantage that there is only
+one Kay there's only one mode at each
+
+410
+00:41:10,220 --> 00:41:16,250
+在h波向量k处的频率，因此在这里，每个波都有两种模式
+frequency at h wave vector k so whereas
+over here we have two modes at each wave
+
+411
+00:41:16,250 --> 00:41:21,260
+向量k在这里我们只有一个，但是我们使用了两倍的k范围， 
+vector k here we only have one but we've
+used twice as much range of k and that
+
+412
+00:41:21,260 --> 00:41:27,530
+有时方便地做一些命名，这在此范围内很有用
+sometimes convenient to to do just some
+nomenclature which is useful this range
+
+413
+00:41:27,530 --> 00:41:38,540
+这里被称为第一个拥有自己的青铜器的青铜器，这里被称为该地区
+here is known as the first bronze own
+bronze own and this region here is known
+
+414
+00:41:38,540 --> 00:41:45,170
+作为这里的第二个青铜人，这里也是第二个青铜人
+as the second bronze own along with this
+region here second bronze own so we took
+
+415
+00:41:45,170 --> 00:41:49,220
+光学模式，我们将其从第一个青铜器中移出并放入
+the optical mode and we moved it out of
+the first bronze own and put it into the
+
+416
+00:41:49,220 --> 00:41:53,780
+扩展区域方案拥有的第二个青铜器，以这种方式画图
+second bronze own for the extended zone
+scheme this way of drawing things over
+
+417
+00:41:53,780 --> 00:41:55,850
+与扩展区相比
+here
+in comparison to the extended zone
+
+418
+00:41:55,850 --> 00:42:01,250
+该方案被称为减少区域方案，因为一切都已经
+scheme is known as the reduced zone
+scheme because everything has been
+
+419
+00:42:01,250 --> 00:42:10,490
+现在变成一个铜牌了，为什么这么方便
+reduced into a single bronze own now why
+is it that it's so convenient to to
+
+420
+00:42:10,490 --> 00:42:16,910
+展开所有东西，以便每个波矢处只有一个模式
+spread everything out so that there's
+only one mode at each wave vector well a
+
+421
+00:42:16,910 --> 00:42:21,670
+假设这样做非常有用的情况是以下情况
+case where this becomes extremely useful
+to do is the following case suppose
+
+422
+00:42:21,670 --> 00:42:28,070
+认为Capital One非常接近Kappa 2 
+consider Capital One very close to Kappa
+2
+
+423
+00:42:28,070 --> 00:42:33,230
+所以在这种情况下，将会发生的是
+so in that case what's going to happen
+is that these this little gap here is
+
+424
+00:42:33,230 --> 00:42:37,550
+会变得非常小，所以让我们看看发生了什么
+going to get extremely small so let's
+see what that happened what that looks
+
+425
+00:42:37,550 --> 00:42:48,050
+就像这样，这里是K，这里是PI，而这里的PI是两个PI 
+like so here's K here's PI over a
+there's two pi over a here's minus PI
+
+426
+00:42:48,050 --> 00:42:52,040
+超过a，而这里的负两个pi，因此
+over a
+and here's minus two pi over a so it's
+
+427
+00:42:52,040 --> 00:43:02,570
+看起来像是这样的，这样的缝隙很小
+going to look like is kind of this that
+like this like that so a very small gap
+
+428
+00:43:02,570 --> 00:43:06,770
+在这里是青铜的边界，因为首都一号和卡帕二号非常接近
+at the bronze own boundary here because
+Capital One and Kappa two are very close
+
+429
+00:43:06,770 --> 00:43:12,619
+现在彼此交流当Capital One实际上等于Kappa时会发生什么
+to each other now what happens when
+Capital One actually equals Kappa - well
+
+430
+00:43:12,619 --> 00:43:17,420
+那么我们所拥有的就是差距缩小，它变成了一条单独的连接线
+then what we have is the gap closes it
+becomes a single single connected line
+
+431
+00:43:17,420 --> 00:43:23,660
+但更重要的是我们恢复了单原子链
+but more importantly we recover the
+monatomic chain right
+
+432
+00:43:23,660 --> 00:43:28,340
+如果Capital One等于Kappa，那么每个质量和每个春天都是相同的
+if Capital One equals Kappa - then every
+mass and every every spring is the same
+
+433
+00:43:28,340 --> 00:43:31,160
+因为每隔一个春天每个质量都与每个其他春天相同，所以我们得到
+as every other spring every mass is the
+same as every other spring so we get
+
+434
+00:43:31,160 --> 00:43:37,280
+返回单原子链，但是晶格常数改变了新的晶格
+back the monatomic chain but the lattice
+constant has changed the new lattice
+
+435
+00:43:37,280 --> 00:43:41,359
+常数仅是旧晶格常数的一半，因为白色和
+constant is only half as big as the old
+lattice constant because the white and
+
+436
+00:43:41,359 --> 00:43:47,119
+现在黑球质量实际上是相同的，它们现在是相同的对象，所以我们
+black ball mass is now actually are the
+same they're the same object now so we
+
+437
+00:43:47,119 --> 00:43:52,609
+不必用两件事来制作一个晶胞，我们现在只用一个
+don't have to make a unit cell with two
+things we now make a unit cell with only
+
+438
+00:43:52,609 --> 00:44:01,730
+一件事是对的，所以棕熊拥有铜牌，而BZ现在的范围是K 
+one thing in it right so the Bruins own
+the bronze own the BZ now ranges from K
+
+439
+00:44:01,730 --> 00:44:09,980
+是从负数从质数的PI变为质数好的PI，这是相同的
+is goes from minus PI over a prime to PI
+over a prime okay and that is the same
+
+440
+00:44:09,980 --> 00:44:19,850
+因为2 PI超过负2 PI超过2 2 PI超过了OK，所以这里的整个范围为1 
+as 2 PI over a minus 2 PI over a 2 2 PI
+over a ok so this entire range here 1 if
+
+441
+00:44:19,850 --> 00:44:24,859
+这两个质量变得相同这整个范围成为第一个
+the two masses become the same this
+entire range here becomes the first
+
+442
+00:44:24,859 --> 00:44:34,010
+青铜拥有第一个单原子链的BZ，然后如果
+bronze own first BZ of monatomic chain
+monatomic chain and then if you make
+
+443
+00:44:34,010 --> 00:44:39,619
+ Capital One和Kappa会使您在新产品方面稍有差距
+Capital One and Kappa to slightly
+unequal you open a small gap at the new
+
+444
+00:44:39,619 --> 00:44:45,410
+熊在PI上拥有自己的界限，但实际上底层是一个
+Bruins own boundaries at PI over a ok
+but really what's underlying is a single
+
+445
+00:44:45,410 --> 00:44:50,720
+从这里到这里，从这里到这里，单原子链的模式
+mode for the monatomic chain from here
+to here and here to here just a single
+
+446
+00:44:50,720 --> 00:44:54,080
+连接模式，当您将大写N和Kappa设为两个时，您将打开make 
+connected mode and you open up if make
+when you make capital N and Kappa two
+
+447
+00:44:54,080 --> 00:44:59,210
+稍有不同，您会在自己的铜牌上开一个小缺口
+slightly different you open up a small
+gap at the bronze own at the bronze own
+
+448
+00:44:59,210 --> 00:45:04,240
+与新的较小的青铜合金的边界与新的较大的晶胞相关联
+boundary with the new smaller bronze own
+associated with the new larger unit cell
+
+449
+00:45:04,240 --> 00:45:10,809
+好吧，好吧好吧，在最后几分钟我想讨论一个完全不同的问题
+okay happy okay in the last few minutes
+I want to discuss a completely different
+
+450
+00:45:10,809 --> 00:45:14,890
+话题，我们没有，我们没到上次，那是我们的时间
+topic something we didn't we didn't get
+to last time which was our the time
+
+451
+00:45:14,890 --> 00:45:19,839
+在范德华（van der Waals）结合之前，您可能还记得这个家伙
+before which is van der Waals bonding
+van der waals you may remember this guy
+
+452
+00:45:19,839 --> 00:45:23,530
+根据您可能已经在统计中研究的范德华斯状态方程
+from the van der Waals equation of state
+that you've probably studied in a stat
+
+453
+00:45:23,530 --> 00:45:30,670
+机械范德华力键也称为分子键
+mech van der Waals bonds also known as
+molecular bonds molecular or fluctuating
+
+454
+00:45:30,670 --> 00:45:43,599
+偶极波动偶极键，这些是范德华键
+dipole fluctuating dipole bonds bonds
+and these are van der Waals bonds are
+
+455
+00:45:43,599 --> 00:45:47,740
+实际上与离子或共价或氢或
+actually quite different from either
+ionic or covalent or hydrogen or
+
+456
+00:45:47,740 --> 00:45:53,020
+金属键，从某种意义上说，这些键是针对非活性化学物而发生的
+metallic bonds in the sense that these
+bonds occur for inactive chemical
+
+457
+00:45:53,020 --> 00:46:01,569
+活跃物种中的物种，我所说的非活跃物种是
+species in active species and what I
+mean by inactive species is that no
+
+458
+00:46:01,569 --> 00:46:07,480
+电子在原子之间转移没有原子之间共享电子
+electron is transferred between atoms no
+electron is shared between atoms things
+
+459
+00:46:07,480 --> 00:46:11,440
+像稀有气体是范德华力键合的经典案例，稀有气体具有
+like noble gases are classic cases of
+Vander Waals bonding the noble gas has a
+
+460
+00:46:11,440 --> 00:46:15,369
+充满的外壳，它不共享电子，不捐赠
+filled shell it doesn't share its
+electrons it doesn't donate its
+
+461
+00:46:15,369 --> 00:46:17,950
+电子，它不共价键，它不
+electrons
+it doesn't covalently bond it doesn't
+
+462
+00:46:17,950 --> 00:46:23,740
+离子键，但它仍然可以范德华力键，这是另一个
+ionically bond but it can still Van der
+Waals bond now another example of an
+
+463
+00:46:23,740 --> 00:46:29,290
+非活性物质是分子，例如氮2本身就是一个原子
+inactive species are molecules such as
+nitrogen 2 nitrogen by itself as an atom
+
+464
+00:46:29,290 --> 00:46:33,160
+是非常活跃的，但是当您将两个氮原子放在一起时，它们会形成一个
+is very active but when you put two
+nitrogen atoms together they form a
+
+465
+00:46:33,160 --> 00:46:36,160
+极惰性的氮分子，您可以认为它是
+nitrogen molecule which is extremely
+inactive you can think of it as being
+
+466
+00:46:36,160 --> 00:46:42,280
+填充的分子壳的填充壳，一旦拥有，它也不会共享
+filled shell of a filled molecular shell
+and it also does not share once you have
+
+467
+00:46:42,280 --> 00:46:45,609
+分子分子非常稳定，不与电子共享
+the molecule the molecule is very stable
+it doesn't share its electrons with
+
+468
+00:46:45,609 --> 00:46:50,369
+其他什么也不会把电子捐给其他任何东西
+anything else and it doesn't donate its
+electrons to anything else so
+
+469
+00:46:50,369 --> 00:46:53,920
+尽管如此，即使您不捐赠电子或移动电子
+nonetheless even though you're not
+donating electrons or moving electrons
+
+470
+00:46:53,920 --> 00:47:00,490
+周围仍然可以用尽空间，但仍然可以形成一种纽带
+around you can still running out of
+space you can still form a bond the way
+
+471
+00:47:00,490 --> 00:47:07,390
+发生这种结合的情况如下，想像您说的是一个很好的稀有气体原子
+the bond occurs is as follows imagine
+that you have say a nice noble gas atom
+
+472
+00:47:07,390 --> 00:47:13,390
+在这里，也许还有另一个很好的稀有气体原子，我想
+over here and maybe another nice noble
+gas atom over here and I suppose at some
+
+473
+00:47:13,390 --> 00:47:17,890
+当亚当有一些偶极子向量p1 a时
+moment the
+Adam has some dipole vector p1 a
+
+474
+00:47:17,890 --> 00:47:24,550
+极化现在，如果您记得从您的enm离开R的距离， 
+polarization now if you remember from
+your enm a distance R away there will be
+
+475
+00:47:24,550 --> 00:47:28,600
+由偶极矩引起的电场在这种情况下指向
+an electric field due to that dipole
+moment in this case pointing in that
+
+476
+00:47:28,600 --> 00:47:39,400
+方向和e在4个PI epsilon零R的立方上等于p1 
+direction and e will be equal to minus
+p1 over 4 PI epsilon naught R cubed and
+
+477
+00:47:39,400 --> 00:47:43,600
+如果是我以不同的角度绘制角度，我便方便地选择R为
+if it was if I had drawn the angles
+differently I conveniently chose R to be
+
+478
+00:47:43,600 --> 00:47:48,190
+垂直于那一刻，但如果我不使它们垂直
+perpendicular to the moment there but if
+I didn't make them perpendicular there'd
+
+479
+00:47:48,190 --> 00:47:52,780
+是一些余弦，正弦之类的东西，像我现在要忽略的东西
+be some cosines and sines and stuff like
+that which I'm leaving out now when this
+
+480
+00:47:52,780 --> 00:47:58,630
+原子经历此电场会产生极化，并得到
+atom experiences this electric field it
+develops a polarization it gets an
+
+481
+00:47:58,630 --> 00:48:05,410
+感应极化P 2这是Chi恒定的时间e这是
+induced polarization P 2 which is Chi
+some constant times e this is this
+
+482
+00:48:05,410 --> 00:48:11,350
+常数在这里称为极化率极化率或
+constant here is known as the
+polarizability polarizability or
+
+483
+00:48:11,350 --> 00:48:15,270
+电敏感性
+electric susceptibility electric
+
+484
+00:48:19,650 --> 00:48:24,310
+像氢这样的敏感原子，您可以计算出您知道的磁化率
+susceptible atoms like hydrogen you can
+calculate the susceptibility you know
+
+485
+00:48:24,310 --> 00:48:28,450
+微扰理论甚至可以将其作为运动
+perturbation Theory maybe even done that
+as an exercise as an exercise in the
+
+486
+00:48:28,450 --> 00:48:31,420
+他们要求你使用量子力学做到这一点
+book they asked you to do that using
+quantum mechanics
+
+487
+00:48:31,420 --> 00:48:35,980
+无论如何，现在我们有两个偶极矩，你会记得
+anyway now what we have is we have two
+dipole moments and you'll remember that
+
+488
+00:48:35,980 --> 00:48:42,880
+两个偶极矩的能量在4 PIε零R上为负P 1 P 2 
+the energy of two dipole moments is
+minus P 1 P 2 over 4 PI epsilon naught R
+
+489
+00:48:42,880 --> 00:48:48,280
+求立方，这样总能量就可以将这些东西塞在一起
+cubed so the total energy is then just
+plugging these things all together
+
+490
+00:48:48,280 --> 00:48:56,740
+我们得到减去4个PI epsilon的负P 1平方PI零R将所有平方和
+we get minus P 1 squared PI over 4 PI
+epsilon naught R cubed all squared and
+
+491
+00:48:56,740 --> 00:49:03,940
+特别是这是负数，R等于第六，所以力等于1 
+in particular this is negative and goes
+as R to the sixth so the force goes as 1
+
+492
+00:49:03,940 --> 00:49:09,400
+从R到第七，这或多或少是您如何计算的
+over R to the seventh now that's more or
+less how the calculation goes that you
+
+493
+00:49:09,400 --> 00:49:12,730
+具有一个原子的极化，它会引起另一个原子的极化， 
+have a polarization one atom it induces
+a polarization in the other atom and
+
+494
+00:49:12,730 --> 00:49:16,869
+他们的两极分化很吸引人，但您可能会说，请等一秒钟
+they the polarization is attract but you
+might say well wait a second this whole
+
+495
+00:49:16,869 --> 00:49:22,810
+争论的依据是两极化不等于
+argument was predicated on the statement
+that the polarization is not equal to
+
+496
+00:49:22,810 --> 00:49:27,440
+从零开始，但在球对称原子上
+zero to begin with but on a spherically
+symmetric atom like
+
+497
+00:49:27,440 --> 00:49:33,140
+氦极化的期望为零为什么那么好
+helium the expectation of the
+polarization is zero why is that well
+
+498
+00:49:33,140 --> 00:49:37,940
+你还记得一个原子的极化这里是原子核这里是
+you remember that the polarization of an
+atom here's the nucleus here's the
+
+499
+00:49:37,940 --> 00:49:44,780
+电子以某种球形轨道绕原子运行
+electron electrons running around the
+atom in some sort of spherical orbit so
+
+500
+00:49:44,780 --> 00:49:50,329
+电子的位置R仅与极化有关
+the position R of the electron is
+related to the polarization just by
+
+501
+00:49:50,329 --> 00:49:55,339
+减去e乘以R或类似的数字，所以实际上我们只是在说
+minus e times R or something like that
+so it's really we're just saying that
+
+502
+00:49:55,339 --> 00:50:00,650
+电子的平均位置实际上是零，但是您会注意到
+the average position of the electron is
+actually at zero but you'll notice that
+
+503
+00:50:00,650 --> 00:50:04,520
+实际上，这个方程式不是极化或偶极子
+what actually comes into this equation
+is not the polarization or the dipole
+
+504
+00:50:04,520 --> 00:50:11,140
+矩P，但是它是P平方，所以P平方不等于零，所以你可以得到
+moment P but it's P squared so P squared
+is not equal to zero so that you can get
+
+505
+00:50:11,140 --> 00:50:17,569
+即使平均偶极矩为零，非零偶极引力
+nonzero dipolar attractive force even
+though the average dipole moment is zero
+
+506
+00:50:17,569 --> 00:50:20,390
+如果您想考虑一下，就知道波动和量子力学是
+if you like to think about you know
+fluctuations and quantum mechanics as
+
+507
+00:50:20,390 --> 00:50:24,619
+是某种动态波动或时间波动， 
+being some sort of dynamical fluctuation
+or fluctuation in time what we really
+
+508
+00:50:24,619 --> 00:50:28,550
+意思是说，这是一种课程图或什么的粗略图
+mean is that at it's a sort of a course
+picture or a crude picture of what
+
+509
+00:50:28,550 --> 00:50:32,270
+量子力学是，但您可以将其视为某个时候
+quantum mechanics is but you can sort of
+think of it as at some moment in time
+
+510
+00:50:32,270 --> 00:50:36,349
+电子在原子核的一侧，所以有一个偶极矩
+the electron is on one side of the
+nucleus so there's a dipole moment the
+
+511
+00:50:36,349 --> 00:50:40,220
+另一个原子对此做出反应，而东方的偶极矩则相反
+other atom responds to that and Orient's
+its dipole moment in the opposite
+
+512
+00:50:40,220 --> 00:50:45,609
+方向，然后他们吸引，然后在以后的某个时间出现一个问题
+direction then they attract and then at
+some later time there's a question
+
+513
+00:50:51,740 --> 00:50:55,559
+是的，如果小便之间有角度，那是说如果有一个角度
+yeah if there's an angle between pee
+you're saying that if there's an angle
+
+514
+00:50:55,559 --> 00:50:59,309
+在p1到p2之间​​会有余弦Thetas等等，类似的东西
+between p1 to p2 there would be cosine
+Thetas and so forth and things like that
+
+515
+00:50:59,309 --> 00:51:03,960
+是的，但是在力量仍然具有吸引力的地方，实际上
+yeah but that where the force will still
+be attractive you can actually there's
+
+516
+00:51:03,960 --> 00:51:07,020
+书中有一个练习可以帮助您完成练习，并且您可以
+there's an exercise in the book that
+works you through it and you can and you
+
+517
+00:51:07,020 --> 00:51:10,680
+可以使所有角度正确，并且总是会出现有吸引力的好问题
+can get all the angles right and it will
+always come out attractive good question
+
+518
+00:51:10,680 --> 00:51:15,530
+但不值巧克力棒，所以还是个好问题，谢谢
+but not worth the chocolate bar so but
+it's still a good question thank you
+
+519
+00:51:15,530 --> 00:51:22,799
+无论如何，所以基本上你在一个原子上会有一点波动
+anyway the so it's basically you get a
+little bit of a fluctuation on one atom
+
+520
+00:51:22,799 --> 00:51:26,160
+它引起另一个原子的波动，它们吸引，无论是哪个原子
+it causes a fluctuation the other atom
+and they attract and no matter which
+
+521
+00:51:26,160 --> 00:51:28,710
+方向波动是响应波动在
+direction the fluctuation is the
+responding fluctuation is in the
+
+522
+00:51:28,710 --> 00:51:31,859
+相反的方向，他们总是吸引，所以你仍然可以得到一个非零
+opposite direction and they always
+attract so you can still get a nonzero
+
+523
+00:51:31,859 --> 00:51:35,640
+范德华力没有范德华力比共价离子弱得多
+Van der Waals force no the van der Waals
+force is much weaker than covalent ionic
+
+524
+00:51:35,640 --> 00:51:41,880
+或氢键，但它仍然足够强到可以引起诸如
+or hydrogen bond but it's still strong
+enough to cause important effects such
+
+525
+00:51:41,880 --> 00:51:46,559
+如您所知，它可以将低温下的氩气和
+as you know you know it holds together
+things like argon at low temperature and
+
+526
+00:51:46,559 --> 00:51:51,539
+当氩气变成固体时，范德华斯更有趣
+when argon becomes a solid a more
+interesting case of where van der Waals
+
+527
+00:51:51,539 --> 00:51:56,190
+如果你去过热带气候，部队就会和这个家伙在一起
+forces show up is with this guy if
+you've ever been to tropical climate
+
+528
+00:51:56,190 --> 00:52:00,150
+这是壁虎的小蜥蜴，他们也出售汽车保险
+this this is a gecko a little lizard
+they also they sell car insurance in the
+
+529
+00:52:00,150 --> 00:52:03,869
+美国我不知道为什么这是事实，这是美国的吉祥物
+United States I don't I don't know why
+that's true this is the mascot of the
+
+530
+00:52:03,869 --> 00:52:11,099
+壁虎Geico壁虎公司无论如何壁虎是惊人的小动物
+Gecko Geico gecko company anyway
+geckos are amazing little creatures
+
+531
+00:52:11,099 --> 00:52:15,960
+因为它们可以爬上几乎完全平坦的玻璃墙而没有
+because they can crawl up almost
+completely flat glass walls with no
+
+532
+00:52:15,960 --> 00:52:20,010
+根本没有麻烦，实际上把它们粘在墙上的东西变成了
+trouble at all and the thing that
+actually sticks them to the wall turns
+
+533
+00:52:20,010 --> 00:52:23,490
+成为范德华力，他们让你知道他们的脚很扁平， 
+out to be Van der Waals forces they have
+you know they have very flat foot and
+
+534
+00:52:23,490 --> 00:52:27,599
+他们将脚踩在玻璃上，并且有足够的范德华力
+they stick their foot onto the glass and
+there's enough van der Waals force
+
+535
+00:52:27,599 --> 00:52:30,869
+在他们的脚和玻璃之间，它们是相当轻的小动物
+between their foot and the glass and
+they're fairly light little creatures
+
+536
+00:52:30,869 --> 00:52:34,589
+他们实际上可以走到墙上，因为那很好，我向我道歉
+that they can actually walk up the wall
+because of that all right I apologize I
+
+537
+00:52:34,589 --> 00:52:40,130
+过去了，我星期三见
+went over it I will see you on Wednesday
+you
+

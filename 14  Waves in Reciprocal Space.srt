@@ -1,0 +1,3223 @@
+1
+00:00:00,030 --> 00:00:06,150
+欢迎回来，现在是浓缩物课程的第14讲或
+welcome back it's now the 14th lecture
+of the condensed matter course more or
+
+2
+00:00:06,150 --> 00:00:09,719
+少一点，我们结束谈论散射时，有一些
+less we finished talking about
+scattering there's a couple of little
+
+3
+00:00:09,719 --> 00:00:13,259
+零散的点点滴，我打算稍后再尝试
+bits and pieces of scattering that I'm
+going to try to pick up later maybe at
+
+4
+00:00:13,259 --> 00:00:17,699
+在其他一些讲座的结尾，我想继续讲下去，并使用我们所拥有的
+the end of some other lectures instead
+I'd like to move on and use what we've
+
+5
+00:00:17,699 --> 00:00:21,510
+当我们研究散射以便回头研究其他类型时学到的
+learned when we studied scattering in
+order to go back and study other types
+
+6
+00:00:21,510 --> 00:00:25,289
+晶体中的波浪类型我们最初感兴趣的波浪类型是
+of waves in crystals the type of waves
+we were interested in originally we're
+
+7
+00:00:25,289 --> 00:00:29,880
+电子波，振动波或声子，让我提醒您一些
+electron waves and vibrational waves or
+phonons so let me remind you a few
+
+8
+00:00:29,880 --> 00:00:32,910
+我们已经了解了一维关于电子波的东西，然后
+things we had learned about electron
+waves in one dimension and then we're
+
+9
+00:00:32,910 --> 00:00:37,340
+将尝试从我们所学到的知识中推广到更高的维度
+gonna try to generalize up to higher
+dimensions from what we've learned so
+
+10
+00:00:37,340 --> 00:00:43,980
+让我们回想一下电子的紧密结合模型
+let's a recall the tight binding model
+tight binding model for electrons
+
+11
+00:00:43,980 --> 00:00:51,510
+一维一维绑定模型，我们将考虑两个轨道的情况
+binding model in 1d in 1d and we're
+gonna consider the case of two orbitals
+
+12
+00:00:51,510 --> 00:00:59,489
+每个单位晶胞有两个轨道，或者如果每个单位晶胞有两个，则可以是两个
+with two orbitals per unit cell or if
+it's per unit cell and that can be two
+
+13
+00:00:59,489 --> 00:01:04,229
+原子在每个原子中一个轨道，也可以是同一原子上的两个轨道
+atoms one orbital in each atom or it
+could be two orbitals on the same atom
+
+14
+00:01:04,229 --> 00:01:10,080
+每个晶胞一个原子，我们可以绘制缩小区域中的色散
+one atom per unit cell and we can we can
+draw up the dispersion in reduced zone
+
+15
+00:01:10,080 --> 00:01:18,570
+方案这里是K这里是能量这里是PI超过这里的负PI超过了
+scheme here's K here's energy here's PI
+over a here's minus PI over a that's the
+
+16
+00:01:18,570 --> 00:01:25,770
+ Brauns拥有自己的BZ Ron区，我们可以这样写得出分散类型
+Brauns own BZ Ron zone we can write draw
+the dispersion kind of like this and
+
+17
+00:01:25,770 --> 00:01:33,570
+像在布劳恩斯自己的每个波矢K上的两种模式一样，否则我们可以展开
+like this two modes at each wave vector
+K in the Brauns own or we can unfold
+
+18
+00:01:33,570 --> 00:01:39,750
+扩展区域方案中的图片看起来像这样
+that picture in the extended zone scheme
+looking like this
+
+19
+00:01:39,750 --> 00:01:51,960
+这是K，这里是PI，而这里是负PI，而在a和两个PI 
+here's K here's PI over a here's minus
+PI over a there's two PI over a and
+
+20
+00:01:51,960 --> 00:01:58,229
+这是一个负两个pi，因此第一个模式的图片相同
+here's minus two pi over a so we have
+the same picture for the first mode and
+
+21
+00:01:58,229 --> 00:02:02,460
+然后在第二种模式下，我们将把东西移到
+then for the second mode we're going to
+shift things over shift the thing on the
+
+22
+00:02:02,460 --> 00:02:06,630
+在两个PI上向左或向右移动两个PI，使其看起来像这样，然后将
+left or to the right by two PI over a to
+make it look like this and ship the
+
+23
+00:02:06,630 --> 00:02:12,540
+在右边的两个PI上方的一块上，使其看起来像这样
+piece on the right over by two PI over a
+to the left to make it look like this
+
+24
+00:02:12,540 --> 00:02:19,530
+所以我们这里有所谓的第一个青铜拥有者
+so we have what we called the first
+bronze own here first bronze own BZ here
+
+25
+00:02:19,530 --> 00:02:27,900
+然后这些是我们的第二块青铜，第二块青铜
+and then these pieces here we're the
+second bronze own second bronze own BZ
+
+26
+00:02:27,900 --> 00:02:33,329
+所以有用的是K等于零
+and so it's useful
+there's K equals zero all right in the
+
+27
+00:02:33,329 --> 00:02:37,620
+中间，尝试将这个概念推广到三个维度是很有用的，或者
+middle it's useful to try to generalize
+this concept to three dimensions or
+
+28
+00:02:37,620 --> 00:02:44,670
+较大的尺寸，所以我们呃，一般来说， 
+higher dimensions so let's uh let's do
+that so generally the Bruins zone for
+
+29
+00:02:44,670 --> 00:02:49,500
+一个区域，因为我们正在考虑三维中的电子
+one zone since we're thinking about
+electrons in three dimensions is going
+
+30
+00:02:49,500 --> 00:03:01,500
+总是定义为倒数空间中的晶胞，我们将拥有
+to be always defined as the unit cell in
+reciprocal space and we're going to have
+
+31
+00:03:01,500 --> 00:03:05,310
+弄清楚我们的意思是第一个青铜拥有第二个青铜拥有，等等
+to figure out what we mean by first
+bronze own second bronze own and so
+
+32
+00:03:05,310 --> 00:03:15,209
+因此，这是我们定义的将军和青铜器将军
+forth so it's a general and bronze own
+general general nth bronze own we define
+
+33
+00:03:15,209 --> 00:03:25,639
+如下，所以我们将从k空间中的第一个青铜点开始
+as follows so we'll start with the first
+bronze own points in k-space
+
+34
+00:03:27,139 --> 00:03:40,019
+越接近越接近越接近K等于零K 
+that are closer to that are closer to
+that are closer to K equals zero K
+
+35
+00:03:40,019 --> 00:03:47,449
+等于零，然后等于任何其他值
+equals zero then to any other any other
+
+36
+00:03:48,379 --> 00:03:59,940
+倒数晶格点静止点R第一个青铜器是
+reciprocal lattice point resit lat
+point R the first bronze own are the
+
+37
+00:03:59,940 --> 00:04:08,190
+第一个青铜拥有第一个BZ，所以第一个青铜拥有的所有这些点都是
+first bronze own first BZ so all these
+points in the first bronze own are
+
+38
+00:04:08,190 --> 00:04:14,579
+靠近K点等于零然后靠近另一个倒易晶格
+closer to the point at K equals zero
+then to the other reciprocal lattice
+
+39
+00:04:14,579 --> 00:04:17,909
+点在这里是一个倒数晶格点，在这里的2减去2 pi 
+points here's a reciprocal lattice point
+here at two minus two pi over a here's
+
+40
+00:04:17,909 --> 00:04:22,289
+另一个互易晶格点在此处位于两个pi之上
+another reciprocal lattice point here at
+two pi over a and everything between
+
+41
+00:04:22,289 --> 00:04:25,860
+减去a的PI和a的PI构成第一个青铜
+minus PI over a and PI over a
+constitutes the first bronze own
+
+42
+00:04:25,860 --> 00:04:29,129
+它比其他倒数晶格点更接近K等于零
+it's closer to K equals zero than it is
+to any other reciprocal lattice point
+
+43
+00:04:29,129 --> 00:04:33,659
+您可能对这个定义有点陌生，因为实际上
+this definition might look a little
+familiar to you because in fact it's the
+
+44
+00:04:33,659 --> 00:04:39,500
+与大nur位点单元格的定义相同，因此等于Vig护士位点单元格
+same definition as the big nur site cell
+so this equals the Vig nurse site cell
+
+45
+00:04:39,500 --> 00:04:48,569
+在倒数晶格中，K的Seitz单元等于零，K的零点等于零
+Seitz cell of the K equals zero point of
+K equals zero in reciprocal lattice in
+
+46
+00:04:48,569 --> 00:04:55,319
+倒数格子听起来是否很熟悉，我希望所有观点
+reciprocal lattice does that sound
+familiar I hope all points they're
+
+47
+00:04:55,319 --> 00:04:59,490
+更接近给定的倒易晶格点，然后接近所有
+closer to a given reciprocal lattice
+point then to any all points that are
+
+48
+00:04:59,490 --> 00:05:03,029
+相比给定的晶格点更接近给定的晶格点
+closer to a given lattice point than to
+any other lattice point constitute its
+
+49
+00:05:03,029 --> 00:05:06,659
+ Vigna站点像元，因此所有比K更近的点等于零
+Vigna site cell so all points that are
+closer to K equals zero than to any
+
+50
+00:05:06,659 --> 00:05:10,590
+其他倒易晶格点构成了
+other reciprocal lattice point
+constitute the bigger sites cell of the
+
+51
+00:05:10,590 --> 00:05:15,599
+ K等于倒数空间中的零点是是好的怎么样
+K equals zero point in reciprocal space
+good yes okay good so how about the
+
+52
+00:05:15,599 --> 00:05:28,379
+第二个青铜拥有的点，其中K等于零是第二个最接近的点是第二个
+second bronze own points where K equals
+zero is the second closest is the second
+
+53
+00:05:28,379 --> 00:05:44,449
+最接近的里斯（如果该点是第二个青铜器，则是第二个） 
+closest Reese if that point that point
+are the second bronze own are the second
+
+54
+00:05:44,449 --> 00:05:52,050
+第二个是Z，例如，如果我们在此处选择一个点X，则将此点称为x 
+second be Z so for example if we pick
+pick a point here X call this point x
+
+55
+00:05:52,050 --> 00:05:56,879
+与此点X最接近的第一个倒数晶格点是第二个
+the first closest reciprocal lattice
+point to this point X is here the second
+
+56
+00:05:56,879 --> 00:06:01,229
+最接近点X的倒数晶格点K为零，因此
+closest reciprocal lattice point to the
+point X is K equals zero therefore this
+
+57
+00:06:01,229 --> 00:06:06,990
+ X点在第二个熊身上很好，这就是定义，所以
+point X is in the second Bruins own good
+okay that's the definition so a couple
+
+58
+00:06:06,990 --> 00:06:17,550
+关于这些定义的注释首先是青铜自己的边界二
+of notes about these definitions first
+of all one bronze own boundary two
+
+59
+00:06:17,550 --> 00:06:28,529
+相对的两个相对的相对的Z边界是倒数晶格向量
+opposite two opposite opposite be Z
+boundary is a reciprocal lattice vector
+
+60
+00:06:28,529 --> 00:06:37,219
+是他们up了一口的补给向量，让我们看看，所以这是一个青铜色的
+is a resupply vector they sip lad
+back let's see so here's a bronze own
+
+61
+00:06:37,219 --> 00:06:40,969
+边界是第二个青铜器上的第一个青铜器之间的边界- 
+boundary it's the boundary between the
+first bronze on the second bronze own -
+
+62
+00:06:40,969 --> 00:06:44,659
+在这是另一个PI上，PI是减去PI上调加PI的相反值
+PI over a here's another one it's the
+opposite one from minus PI raise plus PI
+
+63
+00:06:44,659 --> 00:06:51,079
+ R在它们之间的距离是两个PI，实际上是一个倒数晶格
+R a distance between them is two PI over
+a which is indeed a reciprocal lattice
+
+64
+00:06:51,079 --> 00:06:55,429
+向量类似，这是第二个青铜拥有者和外出者之间的边界
+vector similarly here's a boundary
+between the second bronze own and out
+
+65
+00:06:55,429 --> 00:06:59,329
+这里实际上是第三个青铜器，所以这是青铜器的边界
+here actually would be the third bronze
+own and so it's a bronze own boundary
+
+66
+00:06:59,329 --> 00:07:05,749
+从那里到相对的青铜本国边界的距离
+the distance from it to the opposite
+bronze own boundary over here at plus
+
+67
+00:07:05,749 --> 00:07:10,969
+在a上的两个PI是在a上的四个PI，这也是一个倒数晶格矢量， 
+two PI over a is four PI over a and that
+is also a reciprocal lattice vector that
+
+68
+00:07:10,969 --> 00:07:16,969
+通常是一个真实的声明，好吧，有一个类似的例子
+is generally a true statement okay
+there's a similar so one a sort of Kavya
+
+69
+00:07:16,969 --> 00:07:26,149
+一个必然的结论是BZ边界或者也许不是
+a corollary of this is that BZ
+boundaries or maybe a maybe it's not
+
+70
+00:07:26,149 --> 00:07:32,919
+推论，但这些边界几乎是等价的陈述
+corollary but it's almost equivalent
+statement these e boundaries are points
+
+71
+00:07:32,919 --> 00:07:43,029
+其中K的绝对值等于某个G的K的绝对值加G的绝对值
+where absolute value of K equals
+absolute value of K plus G for some G
+
+72
+00:07:43,029 --> 00:07:53,029
+对于一些倒数晶格向量G好的，例如，您需要
+for some reciprocal lattice vector G
+okay so for example you need you need to
+
+73
+00:07:53,029 --> 00:08:00,349
+让K和K加G让我们看看K和k k + g的大小相同
+have K and K plus G let's see it was K
+and k k+ g having the same magnitude for
+
+74
+00:08:00,349 --> 00:08:03,679
+ g的小猫是一些倒数晶格向量，所以如果减去pi 
+kitten for g being some reciprocal
+lattice vector so if you take minus pi
+
+75
+00:08:03,679 --> 00:08:08,209
+在a上，您在8008上添加了倒数晶格矢量2pi，得到的是PI 
+over a you add a reciprocal lattice
+vector 2pi over 8008 you get plus PI
+
+76
+00:08:08,209 --> 00:08:11,239
+那些具有相同的幅度，因此您处于柏林区域边界
+over a those have the same magnitude so
+you're on the Berlin zone boundary
+
+77
+00:08:11,239 --> 00:08:16,069
+类似地，您将负2 PI减去a，然后向其添加一个倒数晶格矢量4 
+similarly you take minus 2 PI over a you
+add a reciprocal lattice vector to it 4
+
+78
+00:08:16,069 --> 00:08:20,059
+您的PI等于2，加上2的PI的幅度相同，因此您的
+PI over a you get 2 plus 2 PI over a
+that has the same magnitude so your
+
+79
+00:08:20,059 --> 00:08:25,639
+荣誉棕色区域边界第二个对棕色很重要的声明
+honor brown zone boundary the second
+statement which is important about brown
+
+80
+00:08:25,639 --> 00:08:35,808
+区域是每个BZ*区域在三个区域中具有相同的面积或体积
+zones is each BZ bran zone has the same
+the same area or volume in three
+
+81
+00:08:35,808 --> 00:08:43,478
+尺寸相同的区域并代表
+dimensions same area and and represents
+
+82
+00:08:45,209 --> 00:08:52,300
+代表每个K点每个晶体动量每个晶体波矢量I 
+represents each K point each crystal
+momentum each crystal wave vector I
+
+83
+00:08:52,300 --> 00:09:01,930
+猜测波向量K曾经是构造青铜的总体思路
+guess wave vector K once that was a
+general idea of constructing the bronze
+
+84
+00:09:01,930 --> 00:09:06,040
+首先，它代表了每个物理上不同的波
+own in the first place that every
+physically different wave is represented
+
+85
+00:09:06,040 --> 00:09:10,450
+正好在青铜器中拥有一次，第二个青铜器拥有相当于
+exactly once in the bronze own the
+second bronze own is equivalent to the
+
+86
+00:09:10,450 --> 00:09:13,839
+第一个青铜器，我们只是将棋子以两种不同的方式移动
+first bronze own we've just sort of
+moved the pieces around in two different
+
+87
+00:09:13,839 --> 00:09:18,790
+放置，但每个波向量K在每个波向量内恰好代表一次
+places but each wave vector K is
+representing exactly once inside each
+
+88
+00:09:18,790 --> 00:09:24,100
+顺便说一句，从第二个青铜器本身可以明显看出您
+bronze own incidentally is it obvious
+from the second bronze own that you
+
+89
+00:09:24,100 --> 00:09:28,510
+可以定义第三个青铜像点，其中K等于
+would define the third bronze own
+analogously points where the K equals
+
+90
+00:09:28,510 --> 00:09:32,589
+零是第三最接近的倒数晶格点将是第三青铜
+zero is the third closest reciprocal
+lattice point would be the third bronze
+
+91
+00:09:32,589 --> 00:09:35,850
+是的，所以第一，第二，三等分可以拥有任意数量的青铜器
+own so yeah the first second third you
+can have as many bronze owns as you want
+
+92
+00:09:35,850 --> 00:09:40,600
+最后的最后声明很有用，我认为这是一项功课
+the final the final statement which is
+useful I think this is a homework
+
+93
+00:09:40,600 --> 00:09:46,480
+第三个作业的作业设置为K个州数K个州
+assignment on the third homework set
+that the number of K States number of K
+
+94
+00:09:46,480 --> 00:09:55,959
+在每个BZ中我们甚至在演讲中证明的状态BZ等于单位数
+States we even proved this in lecture in
+each B Z BZ equals the number of unit
+
+95
+00:09:55,959 --> 00:10:05,440
+听起来很熟悉，我们证明了这一点
+cells unit cells in system in system
+does that sound familiar we proved this
+
+96
+00:10:05,440 --> 00:10:08,529
+在一个方面，我认为对于功课，您应该在三个方面进行证明
+in one dimension I think for homework
+you're supposed to prove it in three
+
+97
+00:10:08,529 --> 00:10:14,890
+尺寸，这通常也是真实的陈述，因此实际上让我
+dimensions it is also generally a true
+statement so actually let me do an
+
+98
+00:10:14,890 --> 00:10:18,730
+二维的示例，以使其更清晰，因此我们将
+example of this in two dimensions to
+make this more clear so this we're gonna
+
+99
+00:10:18,730 --> 00:10:22,630
+从真实空间中的正方形晶格开始正方形的倒数晶格
+start with a square lattice in real
+space the reciprocal lattice of a square
+
+100
+00:10:22,630 --> 00:10:25,630
+格子也是正方形格子，所以我画了一个正方形，它应该是
+lattice is also a square lattice so I've
+drawn a square last it's supposed to be
+
+101
+00:10:25,630 --> 00:10:29,410
+作为倒数格子，所以又是方形格子
+as the reciprocal lattice so it's a
+square lattice again I've colored some
+
+102
+00:10:29,410 --> 00:10:32,860
+点的不同只是为了使他们易于谈论K点
+of the points differently just to make
+them easy to talk about the point at K
+
+103
+00:10:32,860 --> 00:10:36,850
+等于零，我在中间涂了黑色，所以首先我们要尝试
+equals zero I've colored black in the
+center and so first we're going to try
+
+104
+00:10:36,850 --> 00:10:42,130
+建造第一个青铜人，就是这种黑色的维尼亚·塞兹（Vigna Seitz）牢房
+to construct the first bronze own that
+is the Vigna Seitz cell of this black
+
+105
+00:10:42,130 --> 00:10:45,490
+指向中心，那么如何构造放置的手指Seitz细胞
+point in the center so how do you
+construct the finger Seitz cell you put
+
+106
+00:10:45,490 --> 00:10:49,000
+垂直平分线向下到最近的垂直平分线点
+down perpendicular bisectors to the
+nearest points perpendicular bisectors
+
+107
+00:10:49,000 --> 00:10:52,480
+到这里的红点，我们将这一点设为垂直平分线
+to the red points here we'll make this
+point that's a perpendicular bisector
+
+108
+00:10:52,480 --> 00:10:57,520
+在这里，这个平面这个垂直平分线这两个
+here then this this plane this
+perpendicular bisector these two also
+
+109
+00:10:57,520 --> 00:11:00,790
+将所有垂直平分线赋予红点和新点
+giving all the perpendicular
+bisectors to the red points and the new
+
+110
+00:11:00,790 --> 00:11:06,550
+该区域的颜色是第一个自己拥有的青铜色，现在的距离
+color in the area that is the first
+bronze own okay now the distance across
+
+111
+00:11:06,550 --> 00:11:11,320
+第一个青铜器本身是两个pi，这是一个倒数晶格向量
+the first bronze own is two pi over a
+which is a reciprocal lattice vector the
+
+112
+00:11:11,320 --> 00:11:15,070
+方式应该是它们与垂直等分线的距离， 
+way it's supposed to be that distance
+they are from perpendicular bisector and
+
+113
+00:11:15,070 --> 00:11:20,410
+垂直平分线是倒数晶格矢量，现在让我们寻找
+perpendicular bisector is a reciprocal
+lattice vector now let's look for the
+
+114
+00:11:20,410 --> 00:11:24,730
+自己拥有第二座青铜器，我们如何做到这一点，这是一套非常相似的结构
+second bronze own how do we do that it's
+a set very similar construction you just
+
+115
+00:11:24,730 --> 00:11:29,020
+开始放下更多垂直平分线，所以这里是第二个平分线
+start putting down more perpendicular
+bisectors so here the second closest
+
+116
+00:11:29,020 --> 00:11:31,630
+点集是这些蓝色点，所以我们放下垂直
+sets of points are these blue points
+here so let's put down perpendicular
+
+117
+00:11:31,630 --> 00:11:36,400
+像这样的人平分秋色这样的，所以这些是
+bisectors to those like this like this
+like this like this so these are the
+
+118
+00:11:36,400 --> 00:11:40,180
+垂直于蓝色的等分线，在这里我们将为
+perpendicular bisectors to the blue
+points out here we'll color in the
+
+119
+00:11:40,180 --> 00:11:45,700
+围墙蓝色区域，这是现在拥有的第二个青铜器，让我们检查一下
+walled off area blue and this is now the
+second bronze own now let's just check
+
+120
+00:11:45,700 --> 00:11:49,360
+如果您在第二个青铜像这里这样选择一个点，它就符合定义
+that it fits the definition if you pick
+a point like here in the second bronze
+
+121
+00:11:49,360 --> 00:11:55,690
+拥有第一个最接近的倒数晶格点是这里的红色点
+own the first closest reciprocal lattice
+point is this red point here the second
+
+122
+00:11:55,690 --> 00:12:00,730
+最接近的倒数晶格点为K等于0，因此此处为该点
+closest reciprocal lattice point is K
+equals 0 therefore this point here
+
+123
+00:12:00,730 --> 00:12:06,850
+这个蓝色区域中的某个地方是第二个青铜器，现在可以了
+somewhere in this blue region is in the
+second bronze own good okay now it may
+
+124
+00:12:06,850 --> 00:12:11,080
+显然，青铜器自身与男爵自身边界之间的距离
+not be obvious that the distance across
+the bronze own from barons own boundary
+
+125
+00:12:11,080 --> 00:12:14,350
+到柏林区域边界这是一个互易的晶格矢量，但我将展示
+to Berlin zone boundary here is a
+reciprocal lattice vector but I'll show
+
+126
+00:12:14,350 --> 00:12:18,070
+你是这是一个从0到蓝点的倒数晶格向量
+you that it is this is a reciprocal
+lattice vector from 0 to the blue point
+
+127
+00:12:18,070 --> 00:12:23,230
+如果你只是这样移动的话，那的确是与娇兰的距离
+if you just shift it like that it's
+indeed the distance across from Guerlain
+
+128
+00:12:23,230 --> 00:12:27,010
+区域边界到*区域边界，因此我们可以继续寻找
+zone boundary to bran zone boundary so
+we can keep going on looking for the
+
+129
+00:12:27,010 --> 00:12:30,850
+第三*区和建造第三*区，我们必须采取
+third bran zone and to construct the
+third bran zone we have to take put
+
+130
+00:12:30,850 --> 00:12:35,770
+垂直于这些绿点的等分线，所以我们要做的是
+perpendicular bisectors to these green
+points so let's do that put down those
+
+131
+00:12:35,770 --> 00:12:38,410
+垂直于等分线的绿线，我们
+green lines which are perpendicular
+bisectors to the green points and we
+
+132
+00:12:38,410 --> 00:12:43,270
+现在将区域填写为绿色，然后检查其是否满足定义要求
+fill in the area now green and let's
+check that it satisfies the definition
+
+133
+00:12:43,270 --> 00:12:47,860
+如果您在绿色区域中选择一个点，则倒数第二个倒数
+if you pick a point here in the green
+area the first closest reciprocal
+
+134
+00:12:47,860 --> 00:12:51,700
+晶格点是这个红色点，第二个第二点是蓝色点
+lattice point is this red point here the
+second closest is the blue point out
+
+135
+00:12:51,700 --> 00:12:56,350
+在这里，第三个最接近的是K等于中心的0点，所以它在
+here the third closest is the K equals 0
+point in the center so this is in the
+
+136
+00:12:56,350 --> 00:13:02,020
+现在，第三个*区域也是从*区域边界到*区域的距离
+third bran zone now also the distance
+from bran zone boundary to bran zone
+
+137
+00:13:02,020 --> 00:13:06,610
+整个系统的边界是a的4 pi，这也是一个倒易的晶格
+boundary across the system is 4 pi over
+a which is also a reciprocal lattice
+
+138
+00:13:06,610 --> 00:13:10,300
+向量现在，这些定义向您保证的另一件事是
+vector now another thing that you've
+been promised from these definitions is
+
+139
+00:13:10,300 --> 00:13:14,620
+每个*区域都有面积，就像那种威力和
+that each bran zone has
+area looks like the kind of might and
+
+140
+00:13:14,620 --> 00:13:20,529
+他们每个应该代表每个K点一次，所以青铜拥有
+that they should each represent each K
+point once so the bronze owns represent
+
+141
+00:13:20,529 --> 00:13:25,149
+每个可能的K点只有一次，看到我们要做的是
+every possible K point exactly
+once to see this what we're gonna do is
+
+142
+00:13:25,149 --> 00:13:28,149
+我们将用一些非常粗糙的方法来解决这个难题
+we're going to take the pieces of this
+puzzle and with some very crude
+
+143
+00:13:28,149 --> 00:13:32,230
+动画，我们将通过倒数晶格矢量移动它们，并显示
+animation we're gonna move them by
+reciprocal lattice vectors and show that
+
+144
+00:13:32,230 --> 00:13:36,759
+它们实际上是相同的形状，所以让我们看看它是如何工作的，我将采取
+they're actually the same shape so let's
+see how that works so I'm going to take
+
+145
+00:13:36,759 --> 00:13:41,079
+这个红色部分是第一个自己拥有的青铜色，我将获得完全相同的形状
+this red section the first bronze own
+I'm going to get that exact same shape
+
+146
+00:13:41,079 --> 00:13:46,149
+通过移动这些第一个
+of the first bronze own same area same
+shape exactly by moving these pieces of
+
+147
+00:13:46,149 --> 00:13:49,269
+第二个青铜区，所以这件作品我将互惠互利
+the second bronze zone over so this
+piece I'm going to move by a reciprocal
+
+148
+00:13:49,269 --> 00:13:54,459
+像这样的两个pi的晶格矢量，然后我将移动
+lattice vector like that two pi over a
+over then I'll take this piece I'll move
+
+149
+00:13:54,459 --> 00:13:58,420
+通过这种方式将其传递给PI，然后我将最上面的部分移至另一部分
+it to PI over a over this way and I'll
+take the top piece move it to part over
+
+150
+00:13:58,420 --> 00:14:03,490
+一个下降，另一个下降到PI，然后完全填满第一个青铜
+a down and the other one to PI over a up
+and it fills exactly the first bronze
+
+151
+00:14:03,490 --> 00:14:08,259
+自己这么好吧，我的动画技能还不是很完美，请拭目以待
+own so well okay mine animation skills
+are not not perfect wait to see the
+
+152
+00:14:08,259 --> 00:14:12,370
+另一幅甚至更糟，但是嗯，但是您得到的图像应该充满
+other one it's even worse but uh but you
+get the picture that is supposed to fill
+
+153
+00:14:12,370 --> 00:14:15,819
+第一个布里渊区刚好一次，我们没有通过
+the the first Brillouin zone exactly
+once and we didn't by shifting things by
+
+154
+00:14:15,819 --> 00:14:20,230
+实际上，两个pi并没有改变波浪，因为如果您移动
+two pi over a we actually didn't change
+the waves at all because if you shift by
+
+155
+00:14:20,230 --> 00:14:23,079
+在两个PI上，您将获得完全相同的水晶动量
+two PI over a you're getting back
+exactly the same crystal momentum the
+
+156
+00:14:23,079 --> 00:14:28,480
+通过执行相同的物理波，因此第二个青铜器有效
+same physical wave by doing this
+so the second bronze own is effectively
+
+157
+00:14:28,480 --> 00:14:32,319
+完全等同于第一个青铜器现在让我们为
+exactly equivalent to the first bronze
+own now let's do the same thing for the
+
+158
+00:14:32,319 --> 00:14:36,850
+第三个青铜将以2 pi的价格将其运送过来，以3 PI的价格将其运送过来
+third bronze own will ship this over by
+two pi over a this over by three PI over
+
+159
+00:14:36,850 --> 00:14:42,069
+好的，现在真的可以了，但是您却知道
+a okay now it's really gonna get that
+but but you get the idea that it's
+
+160
+00:14:42,069 --> 00:14:46,389
+应该能够完美契合，如果我的动画效果更好
+supposed to is supposed to fit perfectly
+and had I been better with my animation
+
+161
+00:14:46,389 --> 00:14:51,790
+技能就可以了，所以这就是
+skills it would have fit perfectly okay
+so that's the general general idea of a
+
+162
+00:14:51,790 --> 00:14:58,720
+青铜器拥有3d中关于柏林区域的一些事实，因此在3d中有格子
+bronze owns there's a couple facts about
+Berlin zones in 3d so in 3d the lattices
+
+163
+00:14:58,720 --> 00:15:01,509
+我们有兴趣让我们写下我们所需要的晶格列表
+that we're interested in let's write
+down a list of the lattices we're
+
+164
+00:15:01,509 --> 00:15:07,959
+感兴趣的主要是感兴趣的，我们有简单立方简单立方我们
+interested in are mainly interested in
+and we have simple cubic simple cubic we
+
+165
+00:15:07,959 --> 00:15:14,949
+有BCC，而我们有FCC，所以对应的倒数格子是Lisa 
+have BCC and we have FCC so the
+corresponding reciprocal lattice is Lisa
+
+166
+00:15:14,949 --> 00:15:21,250
+平台很好，简单的立方晶格具有一个倒数晶格
+plat is well the simple cubic lattice
+has a has a reciprocal lattice which is
+
+167
+00:15:21,250 --> 00:15:25,879
+也简单的立方BCC晶格这是我的东西
+also simple cubic
+the BCC lattice this is something I
+
+168
+00:15:25,879 --> 00:15:30,290
+提到，我认为这是一个修正的作业问题，倒数格
+mentioned and I think it's a revision
+homework problem the reciprocal lattice
+
+169
+00:15:30,290 --> 00:15:34,959
+ BCC晶格的总和为FCC，FCC晶格的倒数晶格为
+sum of BCC lattice is FCC and the
+reciprocal lattice of an FCC lattice is
+
+170
+00:15:34,959 --> 00:15:44,060
+ BCC，所以第一个青铜的形状首先是BZ形状就很简单
+BCC so the shape of the first bronze on
+first being BZ shape is well for simple
+
+171
+00:15:44,060 --> 00:15:49,550
+立方晶格Figner位置单元是一个立方体，因此第一个青铜区
+cubic lattice the figner site cell is a
+cube so the first bronze zone for the
+
+172
+00:15:49,550 --> 00:15:54,410
+简单立方晶格是BCC晶格的立方，倒数晶格是
+simple cubic lattice is a cube for the
+BCC lattice the reciprocal lattice is
+
+173
+00:15:54,410 --> 00:16:01,160
+ FCC，所以我们得到的东西就是FCC更大的站点单元格的形状
+FCC so we get something that's the shape
+of the bigger site cell for FCC which
+
+174
+00:16:01,160 --> 00:16:04,310
+是一个有趣的形状，它是一个截短的八面体，我给你看一张照片
+was a funny shape it was a truncated
+octahedron and I'll show you a picture
+
+175
+00:16:04,310 --> 00:16:09,800
+在一秒钟内，对于FCC晶格，倒数晶格给出BCC，所以您
+in a second and for FCC lattice the
+reciprocal lattice gives BCC and so you
+
+176
+00:16:09,800 --> 00:16:18,259
+在这里得到BCC的大型nur网站单元格我也许会说这是
+get the big nur site cell for BCC here
+actually I maybe said this this one is
+
+177
+00:16:18,259 --> 00:16:23,000
+截断的八面体现在这是截短的八面体，这是
+the truncated octahedron now this one is
+the truncated octahedron and this is the
+
+178
+00:16:23,000 --> 00:16:27,889
+让我在幻灯片上展示一下好吧，所以这是FCC的第一个铜牌
+let me just show it on the slide okay so
+this is the first bronze own an FCC
+
+179
+00:16:27,889 --> 00:16:31,279
+格子这个是树干这个是截短的八面体这个是
+lattice this one's the trunk this one's
+a truncated octahedron this one's a the
+
+180
+00:16:31,279 --> 00:16:37,040
+截短的十二面体这是12尺寸这个有14面好
+truncated no dodecahedron this one is 12
+size this one has 14 sides alright
+
+181
+00:16:37,040 --> 00:16:44,029
+无论这些是青铜拥有的形状，在这种情况下， 
+whatever these are the shapes of the of
+the of the bronze own so in this case
+
+182
+00:16:44,029 --> 00:16:49,309
+ FCC晶格具有互惠晶格，即BCC，这是初学者
+the FCC lattice has a reciprocal lattice
+which is BCC and this is the beginner
+
+183
+00:16:49,309 --> 00:16:54,079
+ BCC晶格的Seitz单元，这是FCC的初学者Seitz单元
+Seitz cell of the BCC lattice and this
+is the beginner Seitz cell of the FCC
+
+184
+00:16:54,079 --> 00:16:57,920
+晶格也是BCC晶格的第一个青铜色，现在您会注意到
+lattice which is also the first bronze
+own of the BCC lattice now you'll notice
+
+185
+00:16:57,920 --> 00:17:04,000
+这些图片是在k空间KX KY和KZ中绘制的，您还会注意到
+that these pictures are drawn in k-space
+KX KY and KZ and you'll also notice that
+
+186
+00:17:04,000 --> 00:17:08,539
+这些图片上有一些字母，这些字母在那里
+there are some letters dropped on to
+these pictures these letters are there
+
+187
+00:17:08,539 --> 00:17:13,220
+因为人们通常在描述棕熊身上的点时
+because people typically when they
+describe points on in the bruins own
+
+188
+00:17:13,220 --> 00:17:17,659
+他们通常说我们在谈论伽玛点或x点或L 
+they usually say we're talking about the
+gamma point or the x point or the L
+
+189
+00:17:17,659 --> 00:17:21,650
+点，那只是Naumann黏土的简写，您不需要
+point and that's just a shorthand
+Naumann clay chu that you don't need to
+
+190
+00:17:21,650 --> 00:17:25,400
+知道，但值得一提的是，当他们说X点时，他们拥有这些
+know but it's worth knowing that they
+have these when they say X point they
+
+191
+00:17:25,400 --> 00:17:28,099
+是指男爵区中的某个特定点，所以该点位于
+mean some particular point in the barone
+zone so the point in the middle of a
+
+192
+00:17:28,099 --> 00:17:32,299
+方形面称为X点此点此点此点
+square face is called the X point this
+point this point at this point the point
+
+193
+00:17:32,299 --> 00:17:36,140
+在一个六角形面的中间称为L点
+in the middle of one of the hexagonal
+faces is called the L point the point in
+
+194
+00:17:36,140 --> 00:17:38,810
+中心是你不需要知道的叫做伽马
+the center is
+it's called gamma you don't need to know
+
+195
+00:17:38,810 --> 00:17:45,470
+这些东西还可以，所以现在我们可以拥有这些图片
+these things alright so now that we
+we've can we have these pictures of the
+
+196
+00:17:45,470 --> 00:17:50,390
+您拥有的青铜，因为我们了解各种格子，我们可以开始考虑
+bronze own for you know for our various
+lattices we can start thinking about the
+
+197
+00:17:50,390 --> 00:17:54,830
+激发光谱电子激发光谱或声子
+excitation spectra either the electronic
+excitation spectra or the phonon
+
+198
+00:17:54,830 --> 00:18:00,470
+各种不同晶体的激发光谱，在青铜器中到处都有
+excitation spectra for various different
+crystals and so everywhere in the bronze
+
+199
+00:18:00,470 --> 00:18:03,470
+拥有的人会有所不同，例如您将拥有的缩小区域方案
+own there will be different like in the
+reduced zone scheme you'll have
+
+200
+00:18:03,470 --> 00:18:09,110
+青铜器中K的每个可能值都有不同的激励模式
+different excitation modes at each
+possible value of K in the in the bronze
+
+201
+00:18:09,110 --> 00:18:14,150
+自己做一个例子，就是这个情人节快乐的情人节
+own so let's let's do an example being
+this Valentine's Day happy Valentine's
+
+202
+00:18:14,150 --> 00:18:21,350
+所有人都可以，如果可以的话，我们要去做钻石
+Day everyone is we're gonna do diamond
+if alright so well we do diamond to
+
+203
+00:18:21,350 --> 00:18:26,720
+每年正好是今年的情人节，所以钻石
+every year so just happens to be a
+Valentine's Day this year so diamond do
+
+204
+00:18:26,720 --> 00:18:30,830
+回想一下，一个FCC晶格具有两个原子基，一个碳在零，零，零和
+recall is an FCC lattice with a two atom
+basis one carbon at zero zero zero and
+
+205
+00:18:30,830 --> 00:18:35,480
+每季度四分之一的碳，这就是
+one carbon at one quarter one quarter
+one quarter this is the shape of the
+
+206
+00:18:35,480 --> 00:18:39,160
+我们在上一张幻灯片中获得的青铜现在是第一个问题， 
+bronze own as we had on the previous
+slide now the first question and
+
+207
+00:18:39,160 --> 00:18:43,340
+机会赢取巧克力每个K应该有多少个声子模式
+opportunities win chocolate how many
+phonon modes should there be at each K
+
+208
+00:18:43,340 --> 00:18:57,800
+第一个青铜器中的向量拥有多少声子模式不，不，不，不，哦，天哪
+vector in the first bronze own how many
+phonon modes no no no no oh my god so
+
+209
+00:18:57,800 --> 00:19:01,370
+印刷品中有两个原子我要自己吃一个
+there's there's two atoms in the print
+I'm gonna eat this one myself
+
+210
+00:19:01,370 --> 00:19:06,680
+好吧，今年我要增加体重，原始中没有两个原子
+alright I'm gonna gain weight this year
+no there's two atoms in the primitive
+
+211
+00:19:06,680 --> 00:19:11,390
+每个原子可以在三个可能的方向上移动，这意味着您
+unit cell each atom can move in three
+possible directions so that means you
+
+212
+00:19:11,390 --> 00:19:16,370
+有六种模式，所以让我们看看是否有它的图片，所以这是
+have six modes yeah so let's see if we
+have a picture of it yeah so here's
+
+213
+00:19:16,370 --> 00:19:22,070
+这是钻石声子光谱的图片，因此绘制方式是
+here's a picture of the diamond phonon
+spectrum so the way it's drawn is that
+
+214
+00:19:22,070 --> 00:19:25,400
+您沿着特定方向在青铜区切开
+you take cuts through the bronze zone
+along certain directions that you're
+
+215
+00:19:25,400 --> 00:19:29,960
+对这个感兴趣，例如很多，所以这里是垂直频率，然后
+interested in so for example this lot so
+here's the frequency vertical and then
+
+216
+00:19:29,960 --> 00:19:35,060
+ K向量是水平的，但您在切割中给了您，所以这是切割
+the K vector is horizontal but you this
+given to you in a cut so this is cutting
+
+217
+00:19:35,060 --> 00:19:39,740
+从伽玛到X沿着1 0 0方向从伽玛到X沿着1 0 0 
+from gamma to X along the 1 0 0
+direction gamma to X along 1 0 0
+
+218
+00:19:39,740 --> 00:19:43,340
+沿着这条Duyvil线的方向，然后您会知道从这里到这里是
+direction along this Duyvil line here
+and then you know from here to here is
+
+219
+00:19:43,340 --> 00:19:48,560
+伽马沿1 1 1方向从L沿该虚线到此处
+gamma to L along the 1 1 1 direction
+from here to here along that dotted line
+
+220
+00:19:48,560 --> 00:19:53,490
+这个沿1 1 0方向稍微复杂一点的x2 Gama 
+this one's a little more complicated
+x2 Gama along the 1 1 0 direction so
+
+221
+00:19:53,490 --> 00:19:58,830
+实际上是从这个X穿过这个K到中间的间隙Gama 
+that actually goes from this X through
+this K into the gap Gama in the center
+
+222
+00:19:58,830 --> 00:20:02,399
+下一个*区域的上方，所以有些复杂，但是现在
+of the next bran zone over so that one's
+a little complicated but all right now
+
+223
+00:20:02,399 --> 00:20:05,639
+您会注意到，如果您在此处选择一个中心点，您将
+you'll notice that if you pick a point
+in the center here you will count
+
+224
+00:20:05,639 --> 00:20:11,369
+正好有6种模式1 2 3 4 5 6如果您在这里计数，您会发现只有4种模式
+exactly 6 modes 1 2 3 4 5 6 if you count
+over here you'll discover there's only 4
+
+225
+00:20:11,369 --> 00:20:15,350
+模式为什么很好，原因是因为其中两个退化了
+modes why is that well the reason is
+because two of them are degenerate
+
+226
+00:20:15,350 --> 00:20:19,379
+您将在此处看到这两种模式，然后它们具有
+you'll see these two modes coming in to
+this point here and then they have the
+
+227
+00:20:19,379 --> 00:20:23,279
+从这里一直到这里一直有相同的能量，然后这里有两种模式
+same energy all the way down from here
+to here and then two modes here are
+
+228
+00:20:23,279 --> 00:20:27,149
+在这里退化，它们具有相同的能量或相同的频率
+degenerate up here and they have the
+same energy or same frequency all the
+
+229
+00:20:27,149 --> 00:20:30,929
+在这里，简并性的原因是因为您正在寻找
+way over here and the reason for the
+degeneracy is because you're looking
+
+230
+00:20:30,929 --> 00:20:35,369
+沿着特定的对称方向，在该方向上横向振动
+along a particular symmetric direction
+where vibrations transverse in this
+
+231
+00:20:35,369 --> 00:20:38,129
+方向和该方向上的横向振动看起来相同
+direction and vibrations the transverse
+in that direction look identical
+
+232
+00:20:38,129 --> 00:20:42,899
+而沿着这个方向是非常不对称的方向，所以所有方向
+whereas along this direction it's a very
+unsymmetric direction so all directions
+
+233
+00:20:42,899 --> 00:20:46,470
+振动实际上具有不同的能量，您可以看到
+of vibration actually have different
+energies you can see a couple
+
+234
+00:20:46,470 --> 00:20:50,100
+有趣的是，在此图中，伽玛点为K等于0， 
+interesting things in this in this
+figure the gamma point is K equals 0 you
+
+235
+00:20:50,100 --> 00:20:56,340
+可以看到下降到2 K的声模线性等于0，这些是
+can see the acoustic modes coming down
+to 2 K equals 0 linearly and these are
+
+236
+00:20:56,340 --> 00:21:01,619
+此处的光学模式处于高频状态，这些模式之一是
+the optical modes up here at at high
+frequency and one of these modes is
+
+237
+00:21:01,619 --> 00:21:07,110
+纵向两个是横向的现在我们可以问相同的问题
+longitudinal two of them are transverse
+now we can ask the same questions about
+
+238
+00:21:07,110 --> 00:21:11,220
+电子激发光谱，当您计算电子
+an electronic excitation spectrum and
+when you calculate an electronic
+
+239
+00:21:11,220 --> 00:21:14,700
+在这种激发光谱中，您必须确定类型绑定近似值
+excitation spectrum in this a type
+binding approximation you have to decide
+
+240
+00:21:14,700 --> 00:21:20,460
+您将要在每个原子上考虑多少轨道，因此
+how many orbitals you're going to
+consider on each on each atom so for
+
+241
+00:21:20,460 --> 00:21:24,450
+在上图中的示例中，我们考虑了每个晶胞两个轨道，因此
+example in that picture up there we
+considered two orbitals per unit cell so
+
+242
+00:21:24,450 --> 00:21:31,080
+考虑到典型的碳计算类型，您不想保留所有
+given that a typical type of calculation
+for carbon you don't want to keep all
+
+243
+00:21:31,080 --> 00:21:34,919
+轨道延伸到无穷大，所以通常您只需保持轨道
+the orbitals out to infinity so
+generally you just keep the orbitals
+
+244
+00:21:34,919 --> 00:21:39,450
+您对通常感兴趣的是什么轨道感兴趣
+you're interested in what one is usually
+interested in is the orbitals where
+
+245
+00:21:39,450 --> 00:21:44,039
+虽然有1到1 
+there's some sort of interesting action
+going on that though the 1 the 1
+
+246
+00:21:44,039 --> 00:21:47,100
+轨道有一个核心轨道，它们只是完全没有被填充
+orbitals there was a core orbitals
+they're just completely filled nothing
+
+247
+00:21:47,100 --> 00:21:51,929
+有趣的是，那里的三个3s 3p轨道等等
+interesting going on there the orbitals
+that are three 3s 3p and so forth those
+
+248
+00:21:51,929 --> 00:21:54,840
+完全是空的，完全没有意思
+are just completely empty totally
+uninteresting the ones that are
+
+249
+00:21:54,840 --> 00:21:57,749
+有趣的是有些是部分填充，部分是空白
+interesting are the ones that are sort
+of partially filled partially empty
+
+250
+00:21:57,749 --> 00:22:02,340
+这些是2s和3 2p轨道，因此考虑到3s 
+those are the 2s and the 3 2p orbitals
+so given that we're considering the 3s
+
+251
+00:22:02,340 --> 00:22:05,960
+和三个2p轨道有多少激发
+and the
+three 2p orbitals how many excitation
+
+252
+00:22:05,960 --> 00:22:13,360
+模式特征值应该在青铜器的每个K点处找到一次
+modes eigenvalues should be find at each
+K point in the bronz own one more chance
+
+253
+00:22:13,360 --> 00:22:21,590
+我们正在考虑每个原子有四个轨道，你说的答案是八，是的
+we're considering four orbitals per atom
+what was the answer eight you say yeah
+
+254
+00:22:21,590 --> 00:22:26,270
+好吧，哦，差不多他们到了八点，是的，所以有两个轨道
+okay so Oh almost they got there all
+right eight yeah so there's two orbitals
+
+255
+00:22:26,270 --> 00:22:30,290
+如果您算出您需要做的是，您需要算出
+per if you count what you you need to do
+is you need to count the total number of
+
+256
+00:22:30,290 --> 00:22:33,590
+每个基本晶胞的轨道，这将为您提供
+orbitals per primitive unit cell and
+that will give you the total number of
+
+257
+00:22:33,590 --> 00:22:40,550
+每个K向量的激励模式现在，此图为激励
+excitation modes per per K vector now
+this diagram this is an excitation
+
+258
+00:22:40,550 --> 00:22:44,270
+这些东西是钻石的电子激发光谱
+spectrum an electronic excitation
+spectrum of diamond these things are
+
+259
+00:22:44,270 --> 00:22:47,240
+由于其明显的原因，通常被称为意大利面条图，因为它看起来
+frequently known as spaghetti diagrams
+for obvious reasons because it looks
+
+260
+00:22:47,240 --> 00:22:50,300
+像一碗复杂的意大利面，你说不通
+like some sort of complicated bowl of
+spaghetti that you can't make any sense
+
+261
+00:22:50,300 --> 00:22:53,360
+的，但实际上是相当简单的
+of but but it's actually it's it's
+fairly simple
+
+262
+00:22:53,360 --> 00:22:58,160
+嗯，不是那么复杂，您正在查看削减的内容
+well not that not that complicated
+what's again you're looking at cuts
+
+263
+00:22:58,160 --> 00:23:02,090
+通过青铜器本身，所以这是L和伽玛点之间的一条线
+through the bronze own so this is a line
+between the L and gamma point along this
+
+264
+00:23:02,090 --> 00:23:07,100
+槽虚线，这是一条从伽玛到X的直线，沿着该虚线，然后是X 
+slot dotted line this is a line from
+gamma to X along this dotted line then X
+
+265
+00:23:07,100 --> 00:23:11,510
+到KK到伽玛，所以基本上只是削减铜牌
+to KK to gamma so it's basically just
+taking cuts to the bronze own and at
+
+266
+00:23:11,510 --> 00:23:16,940
+每个K点有八种模式一二三四五五六七八
+each K point there are eight modes one
+two three four five six seven eight and
+
+267
+00:23:16,940 --> 00:23:21,950
+有些方向看起来好像只有六个，让我们来看一下
+some in some directions it looks like
+there's only six let's see for example
+
+268
+00:23:21,950 --> 00:23:25,760
+这个方向一二三四有五六，因为其中两个已经成为
+this direction one two three four five
+six because two of them have become
+
+269
+00:23:25,760 --> 00:23:29,420
+退化在这里看到这两个一起走了哦，这两个来不挂
+degenerate here see these two came
+together oh no hang on these two came
+
+270
+00:23:29,420 --> 00:23:33,350
+一起在这里只做一个，因为实际上有两种模式
+together here to make only one that's
+because there's actually two modes with
+
+271
+00:23:33,350 --> 00:23:38,720
+同样的能量，所以您现在必须对此稍加注意
+the same energy so you have to be a
+little bit careful about that for now
+
+272
+00:23:38,720 --> 00:23:44,690
+碳的化合价为4，这意味着每个碳都贡献四个电子
+carbon has a valence of four which means
+each carbon donates four electrons and
+
+273
+00:23:44,690 --> 00:23:49,250
+这意味着我们已经捐赠了每个原始晶胞两个碳
+that means with two carbons per
+primitive unit cell we have donated
+
+274
+00:23:49,250 --> 00:23:54,260
+总共八个电子，所以您同时用两个自旋填充了底部四个带，因此
+eight electrons total so you fill the
+bottom four bands with both spins so the
+
+275
+00:23:54,260 --> 00:23:57,050
+当有间隙时，底部的四个带被填充
+bottom four bands are filled when
+there's a gap and you have the upper
+
+276
+00:23:57,050 --> 00:24:01,130
+四个乐队，事实上，正如我们稍后将在几个讲座中讨论的那样， 
+four bands and in fact as we'll discuss
+in a couple lectures later on that means
+
+277
+00:24:01,130 --> 00:24:05,300
+我们所拥有的是我们有一个非常好的绝缘子填充带，而不是一个很大的间隙
+what we have is we have a really good
+insulator filled bands than a big gap
+
+278
+00:24:05,300 --> 00:24:08,420
+然后是一堆空乐队，这也使钻石变得漂亮， 
+and then a bunch of empty bands it's
+also what makes diamond nice and
+
+279
+00:24:08,420 --> 00:24:12,410
+透明的，使钻石足够美丽
+transparent so it makes diamond
+beautiful appropriately enough for
+
+280
+00:24:12,410 --> 00:24:16,860
+情人节好吧，让我们从这里继续
+Valentine's Day alright so let's move on
+from here
+
+281
+00:24:16,860 --> 00:24:22,470
+认为今天的钻石足够了，所以其中之一是
+think that's enough of diamond for today
+so one of the things that's fairly
+
+282
+00:24:22,470 --> 00:24:27,120
+这个故事很重要，这是因为我们始终具有紧密的结合光谱
+important about this is this story is it
+with our tight binding spectra we always
+
+283
+00:24:27,120 --> 00:24:33,720
+的原则是，如果您将K乘以K加G，您就会准确地得到
+have the principle that if you take K to
+some K plus G you get back exactly the
+
+284
+00:24:33,720 --> 00:24:39,720
+同一波，您对振动也有相同的原理
+same wave and you have the same
+principle for vibrations as well now you
+
+285
+00:24:39,720 --> 00:24:45,420
+可能会问这个原理，是否当您将K倒数倒数
+might ask whether this principle that if
+when you shift K by a reciprocal lattice
+
+286
+00:24:45,420 --> 00:24:49,590
+向量是否对紧绑定逼近特别有用
+vector whether that is actually special
+to the tight binding approximation we
+
+287
+00:24:49,590 --> 00:24:52,919
+使用或是否实际上是一般性声明让我们提醒自己
+use or whether this is actually a
+general statement let's remind ourselves
+
+288
+00:24:52,919 --> 00:24:58,620
+为什么我们在紧密绑定模型的退出时找到了这个
+why it is that we found this for an exit
+for for tight binding model basically
+
+289
+00:24:58,620 --> 00:25:02,790
+紧密束缚波函数这与我的语言略有不同
+the tight binding wave function this is
+in a slightly different language than I
+
+290
+00:25:02,790 --> 00:25:10,100
+之前写过，但是您可以将它写为IK点R倍
+wrote it before but you can you can
+write it as e to the I K dot R times
+
+291
+00:25:10,100 --> 00:25:15,600
+坐在晶格点R上的电子，这是我们常称的东西
+electron sitting on lattice point R this
+is this is we used to call this thing
+
+292
+00:25:15,600 --> 00:25:21,210
+ Phi，我们给了这个，嗯，不，我觉得差不多，我想区别是
+Phi and we gave this uh no I think it's
+more or less I guess the difference is
+
+293
+00:25:21,210 --> 00:25:23,760
+现在我们在三个维度而不是一个维度中进行操作，这就是为什么
+now we're doing in three dimensions
+rather than one dimension that's why it
+
+294
+00:25:23,760 --> 00:25:26,970
+看起来有点不同，但这基本上是紧束缚波函数
+looks a little different but this is
+basically a tight binding wave function
+
+295
+00:25:26,970 --> 00:25:33,000
+我们之前写下的东西在取k 2k的情况下显然是不变的
+that we wrote down before and this thing
+is obviously invariant under taking k 2k
+
+296
+00:25:33,000 --> 00:25:40,200
+加g是因为当您将g按ET i移位k时，e会传给i gr 
+plus g because e to the i okay oops
+e to the i gr when you shift k by g ET i
+
+297
+00:25:40,200 --> 00:25:43,950
+ g点r等于1，因为g在倒数晶格中，而R在正晶格中
+g dot r equals one because g is in the
+reciprocal lattice and R's in the direct
+
+298
+00:25:43,950 --> 00:25:46,980
+晶格，因此，如果k偏移了g，则此处不会更改此因子，您
+lattice so if k gets shifted by g it
+doesn't change this factor here and you
+
+299
+00:25:46,980 --> 00:25:50,880
+回到同一波，所以你可能会问这是否仅仅是一个属性
+get back the same wave so but you might
+ask whether this is just a property of a
+
+300
+00:25:50,880 --> 00:25:54,630
+紧密绑定模型，或者如果这实际上是普遍的
+tight binding model or if this is
+actually something that's general and
+
+301
+00:25:54,630 --> 00:25:57,929
+这实际上是一个非常重要的问题，也是后来出现的一个问题
+this is actually a really important
+question and it's a question that came
+
+302
+00:25:57,929 --> 00:26:02,520
+在发现缩短方程后很短的时间内
+up very shortly after the discovery of
+the shortening equation shorting a
+
+303
+00:26:02,520 --> 00:26:07,559
+ 1926年在1928年发现他的方程式，人们已经担心
+discovered his equation in 1926 in 1928
+that people were already worried about
+
+304
+00:26:07,559 --> 00:26:13,650
+这个问题，并由Felix Bloch著名地解决了， 
+this issue and it was resolved very
+famously by block Felix Bloch and what's
+
+305
+00:26:13,650 --> 00:26:23,070
+被称为布洛赫定理布洛赫定理好吧，这经常
+known as Bloch's theorem Bloch's theorem
+all right okay which is frequently
+
+306
+00:26:23,070 --> 00:26:29,400
+被称为所有材料科学的基础，这是基础
+referred to as the underpinning of all
+of material science it's an underpinning
+
+307
+00:26:29,400 --> 00:26:32,529
+在你所有的物理学中，这是非常重要的
+of all of
+your physics it's an extremely important
+
+308
+00:26:32,529 --> 00:26:37,179
+直到我们谈论一些
+principle which may not seem so
+important until we talk about some of
+
+309
+00:26:37,179 --> 00:26:40,870
+它的含义，但让我先陈述定理，然后我们将证明
+its implications but let me state the
+theorem first then we'll prove the
+
+310
+00:26:40,870 --> 00:26:44,500
+定理，然后我们将讨论其中的一些含义，因此该陈述是
+theorem then we'll talk about some of
+the implications so the statement is an
+
+311
+00:26:44,500 --> 00:26:52,390
+电子在周期电势中在周期电势中周期V 
+electron in a periodic potential in
+periodic potential potential periodic V
+
+312
+00:26:52,390 --> 00:26:58,330
+的RI猜测周期均值R的V等于VR加V等于R的大写R 
+of R I guess periodic means V of R
+equals V R plus V a capital R with
+
+313
+00:26:58,330 --> 00:27:05,820
+作为晶格矢量的大写R具有本征态形式的本征态
+capital R being a lattice vector has
+eigenstates of the form as I ghen states
+
+314
+00:27:06,090 --> 00:27:22,360
+形式很多符号在这里第二叹息R的子K等于e 
+of the form a lot of symbols here for a
+second sighs sub K of R equals e to the
+
+315
+00:27:22,360 --> 00:27:39,720
+ IK点R乘以u的u上标alpha sub sub K 
+I K dot R times u superscript alpha sub
+K of our where where u is periodic so
+
+316
+00:27:40,380 --> 00:27:50,970
+如果您将其从R移到U，则等于R的U加R和Cays， 
+it's the same if you shift it from you U
+of R equals U of R plus R and Cays and
+
+317
+00:27:50,970 --> 00:28:05,370
+可以在第一个古铜色中选择k可以在第一个古铜色中选择
+k's can be chosen in the first bronze
+own can be chosen in first bronze own
+
+318
+00:28:06,179 --> 00:28:13,149
+换句话说，K是晶体动量K是晶体波矢量晶体波
+in other words K is crystal momentum K
+is crystal wave vector crystal wave
+
+319
+00:28:13,149 --> 00:28:15,570
+向量
+vector
+
+320
+00:28:20,680 --> 00:28:26,440
+这种形式被称为这种叹气形式
+this form is known as this form of sigh
+
+321
+00:28:26,920 --> 00:28:36,860
+叹气被称为修正平面波被称为修正平面
+of sigh is known as a modified plane
+wave is known as as a modified plane
+
+322
+00:28:36,860 --> 00:28:49,550
+挥动一个修改过的平面波修改一个应该相当平的平面波
+wave a modified plane wave modified a
+plane wave that that should be fairly
+
+323
+00:28:49,550 --> 00:28:54,800
+很明显，这是到IKr的平面波e，并乘以
+obvious it's a plane wave e to the IKr
+and is modified by being multiplied by a
+
+324
+00:28:54,800 --> 00:29:01,160
+周期函数，你就是平面波指数的修改
+periodic function you that's the
+modification of the plane wave the index
+
+325
+00:29:01,160 --> 00:29:12,140
+ alpha alpha是乐队索引，乐队索引旨在描述您所知道的
+alpha alpha is the band index and the
+band index is meant to describe you know
+
+326
+00:29:12,140 --> 00:29:15,950
+如果您在这里谈论这一点，您将获得不同的波动函数，或者
+you get a different wave function if
+you're talking about this point here or
+
+327
+00:29:15,950 --> 00:29:20,210
+这一点在相同的K向量处，您可以知道相同的K向量
+this point here at the same K vector at
+the you know same K vector you can have
+
+328
+00:29:20,210 --> 00:29:34,190
+不止一个本征态，所以能量本征能量是
+more than one eigenstate so the energies
+eigenenergies are e superscript alpha of
+
+329
+00:29:34,190 --> 00:29:44,030
+ K所以e1和e2取决于我们在讨论哪个频段
+K so e1 and e2 depending on which which
+band we're talking about which which
+
+330
+00:29:44,030 --> 00:29:47,450
+最低的能量级别是下一个下一个最小值中的下一个最小值，因此
+energy level the lowest are the next
+lowest of the next next lowest and so
+
+331
+00:29:47,450 --> 00:29:53,300
+好的，这是我们在这里所做的一大堆声明，但是
+forth okay so this is a pretty big bunch
+of statements we've made here but it's
+
+332
+00:29:53,300 --> 00:29:56,890
+相当重要，因为它可以告诉您有关
+fairly important because it tells you
+about the general structure of
+
+333
+00:29:56,890 --> 00:30:02,180
+本征态处于周期性势，所以让我们首先证明这个定理，然后
+eigenstates in a periodic potential so
+let's first prove this theorem and then
+
+334
+00:30:02,180 --> 00:30:05,630
+我们将讨论为什么这个定理如此重要，为什么它如此重要
+we'll talk about why this theorem is so
+important and why it underlies so much
+
+335
+00:30:05,630 --> 00:30:09,350
+材料科学和半导体物理学等
+of material science and semiconductor
+physics and so forth
+
+336
+00:30:09,350 --> 00:30:14,030
+所以首先好吧，这是一个准证明，它实际上相当严格，但是
+so first okay so this is sort of a quasi
+proof it's actually fairly rigorous but
+
+337
+00:30:14,030 --> 00:30:19,310
+好吧，不会早点填写细节，但是准证明像这样
+well will sooner not fill in the details
+but the quasi proof goes like like this
+
+338
+00:30:19,310 --> 00:30:24,440
+首先我们考虑一下我们的哈密顿量
+first we'll consider our Hamiltonian
+which is H naught just the free electron
+
+339
+00:30:24,440 --> 00:30:29,680
+哈密​​顿量加上我们的势v是周期性的，所以V是周期性的
+Hamiltonian plus our potential v which
+is periodic so V is periodic
+
+340
+00:30:29,680 --> 00:30:39,160
+如果我们丢掉定期
+and H naught is the usual P squared over
+2m now if we threw away the periodic
+
+341
+00:30:39,160 --> 00:30:42,670
+我们会知道本征态的潜力，所以这些仅仅是平波本征态
+potential we would know the eigenstate
+so those are just plain wave eigenstates
+
+342
+00:30:42,670 --> 00:30:51,970
+打波，呃，他不好，好吧，我们不是，你知道k只是h的平方
+playing waves uh he not ok ok we're anot
+you know of k is just the h bar squared
+
+343
+00:30:51,970 --> 00:30:59,560
+ k超过2m的平方，我们通常到目前为止到目前为止，我们知道我们有飞机
+k squared over 2m we usually have so so
+far so good we know we have the plane
+
+344
+00:30:59,560 --> 00:31:03,670
+波浪，那么我们现在必须添加周期性电势
+waves then we have to add the periodic
+potential now what can the periodic
+
+345
+00:31:03,670 --> 00:31:10,120
+周期性的势能将您从一些K散布到一些K Prime 
+potential do the periodic potential can
+scatter you from some K to some K Prime
+
+346
+00:31:10,120 --> 00:31:15,460
+通过这种形式的矩阵元素，现在我们对这种矩阵元素了解很多
+via a matrix element of this form now we
+know a lot about matrix elements of this
+
+347
+00:31:15,460 --> 00:31:20,620
+从我们从散射理论中学到的东西形成这个矩阵
+form from what we learned in scattering
+theory this thing here this matrix
+
+348
+00:31:20,620 --> 00:31:24,970
+周期电势V从平面波k到平面波K prime的元素
+element from a plane wave k to a plane
+wave K prime via a periodic potential V
+
+349
+00:31:24,970 --> 00:31:31,840
+是u的傅立叶变换在K减去时求出的傅立叶变换
+is the Fourier transform Fourier
+transform of u are evaluated at K minus
+
+350
+00:31:31,840 --> 00:31:43,270
+ K素数，如果K减K素数K减K素数是，则其为0 
+K Prime and that is the following it is
+0 if K minus K prime K minus K prime is
+
+351
+00:31:43,270 --> 00:31:51,720
+不是倒数晶格向量不等于G，如果
+not a reciprocal lattice vector is not
+equal to G and we'll call it V sub G if
+
+352
+00:31:51,720 --> 00:31:59,290
+ K减去K素数等于G，我将其称为K素数减去K等于G，并且
+K minus K prime equals G I'm gonna call
+it K prime minus K equals G that and
+
+353
+00:31:59,290 --> 00:32:04,540
+这只是老挝的缓解条件，但您可以从波矢k散射到
+this is just Lao ease condition but you
+can scatter from a wave vector k to a
+
+354
+00:32:04,540 --> 00:32:08,620
+仅当K和K素数之差为a时，波矢量K素数
+wave vector K prime only if the
+difference between K and K prime is a
+
+355
+00:32:08,620 --> 00:32:12,850
+倒易晶格矢量，当我们研究x射线的散射时我们学到了这一点
+reciprocal lattice vector we learned
+this when we study scattering of x-rays
+
+356
+00:32:12,850 --> 00:32:16,930
+和中子等等，这几乎可以证明我们
+and neutrons and so forth
+so this gets us almost to the proof so
+
+357
+00:32:16,930 --> 00:32:24,100
+我们几乎可以在这里得出结论，为什么这里要点是
+we can almost conclude the result here
+why well the point here is that the
+
+358
+00:32:24,100 --> 00:32:28,180
+具有散射势的哈密顿量为块对角线无双点
+Hamiltonian with the scattering
+potential is block diagonal no pun
+
+359
+00:32:28,180 --> 00:32:33,070
+对角线块
+intended
+block diagonal block with a K diagonal
+
+360
+00:32:33,070 --> 00:32:39,280
+我的意思是，如果k和k，您可以从k分散到ak素数
+what I mean by this is that you can
+scatter from k to a k prime if k and k
+
+361
+00:32:39,280 --> 00:32:43,600
+素数被g隔开，然后从k素数可以分散到另一种情况
+prime are separated by g and then from k
+prime you can scatter to another case
+
+362
+00:32:43,600 --> 00:32:47,799
+如果双引号被一个G隔开，则可以分散到另一个K素
+double prime if those are separated by a
+G and you can scatter to another K Prime
+
+363
+00:32:47,799 --> 00:32:51,130
+依此类推，依此类推，等等，但是您永远无法改变水晶
+and so forth and so on and so forth but
+you can never change the crystal
+
+364
+00:32:51,130 --> 00:32:56,289
+动量，通过周期的散射可以得到的所有K 
+momentum all of the K's that you can get
+to by scattering by the via the periodic
+
+365
+00:32:56,289 --> 00:32:59,650
+通过互逆的晶格矢量使它们彼此不同
+potential all of them different from
+each other by reciprocal lattice vectors
+
+366
+00:32:59,650 --> 00:33:05,380
+所以哈密尔顿分手了，如果你愿意的话，你进入这些领域
+so the Hamiltonian breaks up and if you
+into these sectors if you like and so
+
+367
+00:33:05,380 --> 00:33:12,370
+波动函数的形式必须为psy K，且必须为G的总和。 
+the wave function must be of the form
+psy K must be of the form sum over G of
+
+368
+00:33:12,370 --> 00:33:22,330
+一些系数我们称它们为mg加K乘以e到I k加G的点
+some coefficients let's call them a mg
+plus K times e to the I k plus G dotted
+
+369
+00:33:22,330 --> 00:33:26,980
+用r然后为什么它必须是这种形式，所以从e开始
+with r then why should it have to be of
+this form well you start with some e to
+
+370
+00:33:26,980 --> 00:33:32,770
+ IKr，然后将其混合成汉密尔顿量
+the IKr and then you mix into that the
+Hamiltonian mixes into that different
+
+371
+00:33:32,770 --> 00:33:38,500
+平面波，其波矢量K相差互相关矢量G和
+plane waves whose wave vector K differs
+by a reciprocal reliance vector G and
+
+372
+00:33:38,500 --> 00:33:41,650
+您可以根据需要将它们混合使用，它们都会得到一些系数
+you can mix in as many of those as you
+want and they all get some coefficients
+
+373
+00:33:41,650 --> 00:33:45,669
+但是到了最后，波动函数必须仅是事物的诗篇
+a but at the end of the day the wave
+function must be a psalm only of things
+
+374
+00:33:45,669 --> 00:33:49,360
+具有相同的晶体动量k加上一些倒易的晶格矢量g 
+that have the same crystal momentum k
+plus some reciprocal lattice vector g
+
+375
+00:33:49,360 --> 00:33:52,780
+没有办法比较耳部潜力可以改变您的
+there's no way that compare otic
+potential can take you can change your
+
+376
+00:33:52,780 --> 00:33:57,280
+水晶气势是重要的认识
+crystal momentum that's the important
+realization good yeah
+
+377
+00:33:57,280 --> 00:34:02,740
+好的，好吧，所以从这里我们已经完成了很多，因为你可以
+happy good all right so from here we're
+pretty much done because you can just
+
+378
+00:34:02,740 --> 00:34:11,710
+将e分解为IK点R，然后在G Plus K中有超过G的部分
+factor out the e to the I K dot R and
+then you have some over G of a G Plus K
+
+379
+00:34:11,710 --> 00:34:26,710
+ e到i gr，这是r的周期函数uu 
+e to the i gr and this piece here is the
+is the periodic function u u of r which
+
+380
+00:34:26,710 --> 00:34:32,100
+而且您可以说这件事一定是周期性的，因为如果您将e转到i 
+and you can tell this thing must be
+periodic because if you take e to the i
+
+381
+00:34:32,100 --> 00:34:41,320
+用r加r点缀的gg通过直接空间晶格矢量移动它
+g g dotted with r plus r move it by a
+direct space lattice vector this thing
+
+382
+00:34:41,320 --> 00:34:47,669
+与e到点R相同，所以这是周期性的
+is the same as e to the i okay dot R so
+this thing is periodic
+
+383
+00:34:48,870 --> 00:34:57,420
+如所声称的还可以，我们还可以检查如果您服用K而您会发生什么
+as claimed okay furthermore we can also
+check what happens if you take K and you
+
+384
+00:34:57,420 --> 00:35:02,070
+将其移动一个互逆的晶格矢量G，所以让我们实际采用这种形式
+shift it by a reciprocal lattice vector
+G so let's let's actually take this form
+
+385
+00:35:02,070 --> 00:35:09,330
+的K到这里，让我们将K加G的正弦值，实际上我已经使用过
+of K up here and let's shift K by G sine
+of K plus G actually I've already used
+
+386
+00:35:09,330 --> 00:35:15,960
+字母G，所以我们称其为G素数，将其移位K-K加G素数
+the letter G so let's call this G Prime
+shift it by K - K plus G Prime
+
+387
+00:35:15,960 --> 00:35:27,720
+因此，我们将其写为G加sub G加K加G素数e等于IK加G的总和
+so we'll write it as sum over G a sub G
+Plus K plus G prime e to the I K plus G
+
+388
+00:35:27,720 --> 00:35:34,440
+素数加G，但总和超过虚拟索引，因此我们可以定义一个虚拟
+prime plus G but this sum is over a
+dummy index so we can define a dummy
+
+389
+00:35:34,440 --> 00:35:39,570
+索引，它称为G旋转等于GG旋转
+index
+it's called G twiddle equals G G twiddle
+
+390
+00:35:39,570 --> 00:35:44,130
+向量等于G加G的素数向量，然后用那个代替
+vector equals G Plus G prime vector and
+then if you substitute that in that
+
+391
+00:35:44,130 --> 00:35:57,330
+成为G旋转向量的总和，G旋转向量加K e至i k r k + 
+becomes sum over G twiddle vector a G
+twiddle vector plus K e to the i ke r k+
+
+392
+00:35:57,330 --> 00:36:02,520
+ g旋转向量点r，它与我们开始时的表达式完全相同
+g twiddle vector dot r which is exactly
+the same expression that we started with
+
+393
+00:36:02,520 --> 00:36:08,700
+到那里，所以如果您将k倒移晶格向量g， 
+up up there so if you shift k by a
+reciprocal lattice vector g you get back
+
+394
+00:36:08,700 --> 00:36:11,880
+完全相同的波动函数，这就是我们试图在
+exactly the same wave function which was
+what we were trying to answer in the
+
+395
+00:36:11,880 --> 00:36:16,140
+首先是特殊的是，当您按倒数晶格向量移动k时
+first place is it's special that when
+you shift k by reciprocal lattice vector
+
+396
+00:36:16,140 --> 00:36:19,800
+你会得到完全相同的波动函数，这对紧
+you get back exactly the same wave
+function is that special to the tight
+
+397
+00:36:19,800 --> 00:36:23,250
+绑定模型不是它是较短方程和周期的属性
+binding model it's not it's a property
+of the shorter equation and periodic
+
+398
+00:36:23,250 --> 00:36:29,820
+可能还可以，所以这个定理的含义是
+potential okay all right so the
+implications of this theorem which is
+
+399
+00:36:29,820 --> 00:36:43,110
+被视为如此重要是一种暗示，一种激发一切
+viewed as so important is one
+implications one an excitation all
+
+400
+00:36:43,110 --> 00:36:51,710
+可以描述所有的激励z' 
+excitations can be described all
+excitation z' can be described be
+
+401
+00:36:51,710 --> 00:37:01,839
+在一个BZ拥有的一枚青铜中描述，因为
+described
+in one bronze owned in one BZ because
+
+402
+00:37:01,839 --> 00:37:05,140
+每当您走出青铜所有者的大门时，您都可以相互交换
+whenever you go outside of the bronze
+owner you can just shift by a reciprocal
+
+403
+00:37:05,140 --> 00:37:11,380
+晶格矢量回到第一个，然后回到那个*区域
+lattice vector to get back into the
+first it back into that bran zone so
+
+404
+00:37:11,380 --> 00:37:15,099
+这是一个重要的声明第二个重要的声明可能更多
+that's an important statement second
+important statement may be more
+
+405
+00:37:15,099 --> 00:37:27,249
+重要的是周期性电势不会改变
+important is that periodic potential a
+periodic potential does not change does
+
+406
+00:37:27,249 --> 00:37:39,220
+不分散晶体动量，这是我之前提到的
+not scatter crystal momentum and this is
+something that I mentioned before when
+
+407
+00:37:39,220 --> 00:37:44,249
+我们讨论了一个紧结合模型，该模型保持了晶体动量。 
+we discuss a tight binding model that
+the crystal momentum is conserved the
+
+408
+00:37:44,249 --> 00:37:47,589
+水晶动量始终保持不变，因为我们拥有
+crystal momentum is always conserved in
+the fact that that we have this very
+
+409
+00:37:47,589 --> 00:37:51,700
+强大的周期性潜力不会破坏这就是如此的原因
+strong periodic potential doesn't ruin
+that this is the reason this is so
+
+410
+00:37:51,700 --> 00:37:55,390
+重要的是请记住，当我们研究Sommerfeld模型
+important remember we had this puzzle
+when we study the Sommerfeld model that
+
+411
+00:37:55,390 --> 00:37:59,019
+你有电子的平均自由程，这是巨大的李长
+you have this mean free path of
+electrons which is enormous Li long
+
+412
+00:37:59,019 --> 00:38:02,829
+数百个原子或数千个原子长，我们无法理解
+hundreds of atoms or thousands of atoms
+long and we couldn't understand it
+
+413
+00:38:02,829 --> 00:38:07,150
+因为有一个大原子核，原子可以击中几乎每一个你不知道的原子
+because there's a big nucleus that the
+atom can hit every you know few
+
+414
+00:38:07,150 --> 00:38:10,869
+埃可以从数吨的核子中飞散而来
+angstroms it could scatter off of tons
+and tons of nuclei the point here is
+
+415
+00:38:10,869 --> 00:38:15,400
+你没有纯粹的平面波，你拥有的是修改过的平面
+that the it you don't have pure plane
+waves what you have is modified plane
+
+416
+00:38:15,400 --> 00:38:18,940
+波具有这些平面波乘以周期函数，但是一旦修改
+waves you have these plane waves times a
+periodic function but once you modify
+
+417
+00:38:18,940 --> 00:38:22,239
+将该平面波乘以该周期函数，则它是完美的
+the plane wave by multiplying it by this
+periodic function then it's perfectly
+
+418
+00:38:22,239 --> 00:38:26,440
+好的平面波可以完全穿过系统而不会发生散射
+good plane wave to go all the way across
+the system without scattering at all so
+
+419
+00:38:26,440 --> 00:38:30,279
+如果你带一个电子，你会把它放在一个小波包中
+if you take a you know an electron you
+put in a little wave packet of this
+
+420
+00:38:30,279 --> 00:38:33,489
+修改过的平面波，只要它在整个系统中传播， 
+modified plane wave it would travel
+clear across the system as long as it
+
+421
+00:38:33,489 --> 00:38:38,230
+不会碰到任何杂质或类似我们的讨厌的东西，但它可以
+doesn't hit any impurities or our nasty
+things like that but it could go all the
+
+422
+00:38:38,230 --> 00:38:42,239
+整个系统之间完全没有分散，因此这种解决方案解决了我们
+way across the system without scattering
+at all so this sort of resolves our our
+
+423
+00:38:42,239 --> 00:38:46,119
+电子为什么能在没有电子的情况下传播那么远的最初问题
+initial issue of why it is that
+electrons can travel so far without
+
+424
+00:38:46,119 --> 00:38:51,940
+没有分散好吗，这个结果是从哪里来的
+without scattering okay and where did
+this this result come from it's
+
+425
+00:38:51,940 --> 00:38:56,200
+重要的是要意识到这个重要结果确实来自毛伊岛的状况
+important to realize that this important
+result really came from maui's condition
+
+426
+00:38:56,200 --> 00:39:00,609
+这是因为周期性的电势仅以倒数的方式散射
+it came from the fact that a periodic
+potential only scatters u by reciprocal
+
+427
+00:39:00,609 --> 00:39:07,400
+波向量没问题，所以这对我们不起作用的一件事是
+wave vectors all right so the one thing
+that this doesn't do for us is
+
+428
+00:39:07,400 --> 00:39:11,839
+无法解决它并不能帮助我们解决较短的问题
+does not manage to it does not manage to
+help us actually solve the shorter
+
+429
+00:39:11,839 --> 00:39:19,970
+方程式，因此解决缩短方程式的难度仍然很大，我们已经
+equation so solving solving shortening
+your equation is still hard and we've
+
+430
+00:39:19,970 --> 00:39:28,369
+已经讨论了一种实现方法，一种实现方法是类型绑定和按类型
+already discussed one way to do it one
+way to do it is type binding and by type
+
+431
+00:39:28,369 --> 00:39:32,990
+绑定我们真正在做的是从原子轨道开始
+binding what we're really doing is we
+start with start with atomic orbitals
+
+432
+00:39:32,990 --> 00:39:46,339
+与原子轨道，并允许周跳允许周跳，但那
+with atomic orbitals and allow week
+hopping allow week hopping but that
+
+433
+00:39:46,339 --> 00:39:50,960
+听起来可能有点不通用，因为跳跃可能很强烈
+might sound a little non-generic because
+maybe the hopping is strong be from one
+
+434
+00:39:50,960 --> 00:39:57,440
+放在另一个地方，因此非常感谢您从一个角度思考它
+place to another so it's useful to thank
+you very useful to think about it from a
+
+435
+00:39:57,440 --> 00:40:00,980
+非常互补的观点，而不是从紧密的约束开始
+very complimentary viewpoint where
+instead of starting with a tight binding
+
+436
+00:40:00,980 --> 00:40:09,849
+我们从平面波开始的模型从平面波开始平面波和
+model we start with plane waves start
+with with plane waves plane waves and
+
+437
+00:40:09,849 --> 00:40:23,059
+加上R的弱周期性电位V，所以完全相反
+add weak periodic potential V of R so
+it's entirely the opposite way of
+
+438
+00:40:23,059 --> 00:40:27,619
+看一下这种方法的两种方法是已知的
+looking at things
+this approach approach to two is known
+
+439
+00:40:27,619 --> 00:40:39,650
+因为几乎是自由电子模型，几乎是自由电子模型， 
+as the nearly free electron model nearly
+free electron model and it's a very
+
+440
+00:40:39,650 --> 00:40:44,809
+一个有用的模型，可用于理解许多半导体和能带的物理性质
+useful model for understanding a lot of
+the physics of semiconductors and band
+
+441
+00:40:44,809 --> 00:40:49,849
+固体中的结构，让我们开始吧，我们大概开始吧
+structure in solids so let's let's go
+about that let's start it we probably
+
+442
+00:40:49,849 --> 00:40:55,339
+想今天完成它，所以我们如何开始
+want to finish it today
+but the so how do we do this we start
+
+443
+00:40:55,339 --> 00:41:02,150
+我们的H零在K上是平面波而没有周期性势，所以更容易
+with our H zero on K are plane waves
+without the periodic potential so easier
+
+444
+00:41:02,150 --> 00:41:11,299
+好吧，在K上我们很容易Rho是通常的H条平方K平方超过2m，这是
+okay on K we're easy Rho is the usual H
+bar squared K squared over 2m it's a
+
+445
+00:41:11,299 --> 00:41:19,299
+一个好的开始，然后让我们假设V弱假设V弱
+good place to start and then let's
+assume V is weak assume weak V
+
+446
+00:41:19,950 --> 00:41:23,260
+好的，那么当您对一个物体的微弱干扰时该怎么办
+all right so what do you do when you
+have a weak perturbation to an
+
+447
+00:41:23,260 --> 00:41:27,220
+汉密尔顿算术，您使用的是您可能最后了解的微扰理论
+hamiltonian well you use perturbation
+theory which you presumably learned last
+
+448
+00:41:27,220 --> 00:41:33,010
+年，所以您还记得微扰理论中能量发生了什么变化
+year so you remember what happens to the
+energies in perturbation theory so it's
+
+449
+00:41:33,010 --> 00:41:42,700
+不以一阶扰动理论一阶扰动能量
+not with first order perturbation theory
+first order order pert the energy this
+
+450
+00:41:42,700 --> 00:41:46,780
+大概熟悉本征态K的波能
+probably look familiar
+the energy of the wave the eigenstate K
+
+451
+00:41:46,780 --> 00:41:51,820
+是没有干扰加上一阶的光秃秃的能量
+is the bare energy without the
+perturbation plus the first order
+
+452
+00:41:51,820 --> 00:42:00,430
+摄动理论项，即KVK和此处的矩阵元素
+perturbation theory term which is K V K
+and this matrix element here
+
+453
+00:42:00,430 --> 00:42:04,120
+好吧，我将其滚动到了面板的顶部，也许我没有，也许我没有
+well I scrolled it off the top of the
+board No maybe I didn't maybe I did I
+
+454
+00:42:04,120 --> 00:42:11,290
+认为我确实将其定义为V sub 0，因为K减去K为0且该V sub 0 
+think I did we defined it as V sub 0
+because K minus K is 0 and this V sub 0
+
+455
+00:42:11,290 --> 00:42:20,800
+对于所有K，对于所有K都是相同的，所以这仅给出了一个整体常数
+is the same same for all K for all K so
+this just gives an overall constant
+
+456
+00:42:20,800 --> 00:42:26,230
+本征态的能量转移，因此本征态需要转移
+energy shift of the the eigenstates so
+they the eigenstates need to get shifted
+
+457
+00:42:26,230 --> 00:42:29,650
+能量上升或能量下降，这是零
+up in energy or they get shifted down in
+energy this is sort of the zeroth
+
+458
+00:42:29,650 --> 00:42:33,910
+这种势的傅立叶模式，无论在其顶部添加什么恒定势
+Fourier mode of this potentials whatever
+constant potential is added on top of
+
+459
+00:42:33,910 --> 00:42:39,010
+任何波动的势能都会在空间中发生变化，因此零傅立叶
+any fluctuating potentials things that
+change in space so the zeroth Fourier
+
+460
+00:42:39,010 --> 00:42:43,150
+势的模式只是将K的整体能量上下移动
+mode of the of the potential just shifts
+up and down the overall energy of K does
+
+461
+00:42:43,150 --> 00:42:45,610
+这个表达式看起来像您刚刚熟悉的一阶微扰理论
+this expression look familiar first
+order perturbation theory you just take
+
+462
+00:42:45,610 --> 00:42:48,730
+专家API很好，所以这并不有趣
+the expert API ok
+good so this is not interesting in as a
+
+463
+00:42:48,730 --> 00:42:52,330
+事实上，人们经常放弃v-0，因为他们太无趣了
+matter of fact people frequently dropped
+v-0 because it's so uninteresting they
+
+464
+00:42:52,330 --> 00:42:57,160
+只是摆脱它，我会尽力保留它，但也许我会误以为忘记它
+just get rid of it I'll try to keep it
+but maybe I'll forget it by mistake at
+
+465
+00:42:57,160 --> 00:43:03,160
+一点，所以二阶更有趣，所以它是二阶
+some point so second-order is more
+interesting so it's second-order you
+
+466
+00:43:03,160 --> 00:43:09,130
+拥有EK等于EK并不是裸露的东西加上v-0是一阶
+have EK equals EK not that's the bare
+piece plus v-0 that's the first-order
+
+467
+00:43:09,130 --> 00:43:14,020
+件，然后您有二阶件，它是K素数之和不等于
+piece and then you have the second-order
+piece which is sum of K prime not equal
+
+468
+00:43:14,020 --> 00:43:24,640
+到K，则我们有K个素数VK乘以B个子N的平方N减去e个素数
+to K then we have K prime V K squared
+over B sub K naught minus e K prime not
+
+469
+00:43:24,640 --> 00:43:28,450
+设置正确的顺序是的，从二阶微扰中看起来很熟悉
+set the right order yeah does that look
+familiar from second-order perturbation
+
+470
+00:43:28,450 --> 00:43:32,600
+好的理论现在好了，我们对此有什么了解
+Theory good all right
+now what do we know about this second
+
+471
+00:43:32,600 --> 00:43:38,960
+同样，我们有楼上矩阵元素的老挝缓解条件， 
+well again we have Lao ease condition
+for the upstairs matrix element that in
+
+472
+00:43:38,960 --> 00:43:41,210
+该矩阵元素为非零的顺序
+order for that matrix element to be
+nonzero
+
+473
+00:43:41,210 --> 00:43:48,290
+您必须有K个素数减去KI必须等于一个倒数晶格向量G，所以
+you must have K prime minus K I must
+equal a reciprocal lattice vector G so
+
+474
+00:43:48,290 --> 00:43:55,400
+该术语在这里可以重写为互易的晶格矢量G的总和
+this term here can be re-written as sum
+over G of reciprocal lattice vectors G
+
+475
+00:43:55,400 --> 00:44:07,220
+ V sub G的平方，其中G是K素数减去K / e sub K等于n减去e sub K 
+of V sub G squared where G is K prime
+minus K / e sub K naught minus e sub K
+
+476
+00:44:07,220 --> 00:44:17,540
+加G看起来不太满意，还可以，所以这是我们的表情
+plus G not good look happy with that
+somewhat okay so this is our expression
+
+477
+00:44:17,540 --> 00:44:23,120
+对于我们开始的平面波能量的二阶位移， 
+for the second-order shift in energy of
+the plane waves that we started with but
+
+478
+00:44:23,120 --> 00:44:26,120
+我们必须对看起来像这样的表达式和
+we have to be a little bit careful about
+expressions that look like this and the
+
+479
+00:44:26,120 --> 00:44:30,770
+我们必须谨慎的原因是因为您可能会遇到两种情况
+reason we have to be careful is because
+you might have a situation where the two
+
+480
+00:44:30,770 --> 00:44:34,670
+分母中的两个术语彼此相等，在这种情况下， 
+terms in the denominator are either
+equal to each other in which case you
+
+481
+00:44:34,670 --> 00:44:37,700
+下楼为零或彼此非常接近，在这种情况下
+get zero downstairs or very close to
+each other in which case you get
+
+482
+00:44:37,700 --> 00:44:41,390
+楼下很小的东西，无论哪种情况，二阶项都会
+something very small downstairs and in
+either case the second-order term would
+
+483
+00:44:41,390 --> 00:44:45,020
+爆炸，在这种情况下，您会有分歧，这意味着
+blow up in which case you have a
+divergence and that means the
+
+484
+00:44:45,020 --> 00:44:53,630
+二阶微扰理论是不正确的，因此您必须小心
+second-order perturbation theory is not
+correct so you must be careful be
+
+485
+00:44:53,630 --> 00:45:04,370
+小心当esup k这恰好是e sub K大约不等于e sub 
+careful when esup k this just right it's
+e sub K not approximately equal to e sub
+
+486
+00:45:04,370 --> 00:45:08,360
+ k加G现在什么时候发生
+k plus G naught now when does that
+happen
+
+487
+00:45:08,360 --> 00:45:12,920
+ e sub K实际上正好与K平方成正比，因此
+well e sub K is actually just
+proportional to K squared so that will
+
+488
+00:45:12,920 --> 00:45:20,690
+当绝对k等于绝对好加g时发生
+happen when absolute k equals absolute
+okay plus g well where's that you
+
+489
+00:45:20,690 --> 00:45:28,089
+记得在这里某处，这是存在的条件
+remember somewhere here
+there it is it's the condition for being
+
+490
+00:45:28,089 --> 00:45:33,460
+当您在青铜自己的边界上时，在青铜自己的边界上
+on a bronze own boundary when you're on
+bronze own boundary et sub K and E sub K
+
+491
+00:45:33,460 --> 00:45:40,960
+ + G实际上是相同的让我们为它画一幅画
++ G are actually the same let's actually
+draw a picture of that so what we have
+
+492
+00:45:40,960 --> 00:45:49,809
+是的，这是我们的Barre光谱还可以，而II，Barre光谱只是一个
+is we have a this is our Barre spectrum
+okay and II the barre spectrum is just a
+
+493
+00:45:49,809 --> 00:45:59,910
+抛物线，所以这是e sub K是H bar平方而不是K平方超过2m，这是
+parabola so this is e sub K is H bar
+squared not K squared over 2m and here's
+
+494
+00:45:59,910 --> 00:46:07,690
+此处a的PI减去a的PI，并且这两个能量分开
+PI over a here's minus PI over a and the
+energy of these two these are separated
+
+495
+00:46:07,690 --> 00:46:14,619
+通过一个互易的晶格矢量，两个PI在a上，它们的能量相同，因此
+by a reciprocal lattice vector two PI
+over a and their energy is identical so
+
+496
+00:46:14,619 --> 00:46:17,849
+这将使我们在二阶微扰理论上出现分歧
+this would give us a divergence in
+second order perturbation theory
+
+497
+00:46:17,849 --> 00:46:29,170
+类似地，如果我们在a上减去负2 PI，在a上减去2 PI，则这些被a隔开
+similarly if we go to minus 2 PI over a
+and 2 PI over a these are separated by a
+
+498
+00:46:29,170 --> 00:46:34,299
+ a上的倒数晶格矢量4 PI和它们的能量相同，所以它们
+reciprocal lattice vector 4 PI over a
+and their energies are identical so they
+
+499
+00:46:34,299 --> 00:46:38,200
+将使您在二阶微扰理论上有分歧，所以这个地方
+will give you a divergence in second
+order perturbation Theory so the place
+
+500
+00:46:38,200 --> 00:46:44,200
+二阶微扰理论失败的地方恰好是您在青铜上
+where second order perturbation Theory
+fails is exactly when you're on a bronze
+
+501
+00:46:44,200 --> 00:46:52,289
+自己的边界，所以我们需要做的是
+own boundary so what we're going to need
+to do is we are going to need to
+
+502
+00:46:52,289 --> 00:46:56,619
+可能下次必须做这个，但是我们要做什么来解决这个问题
+probably gonna have to do this next time
+but what we're going to do to fix this
+
+503
+00:46:56,619 --> 00:47:05,039
+通过使用退化扰动理论解决问题
+problem fix a problem by using using
+degenerate perturbation Theory
+
+504
+00:47:05,039 --> 00:47:12,450
+退化它是摄动理论第三理论
+degenerate
+it's a perturbation theory third theory
+
+505
+00:47:12,450 --> 00:47:18,640
+希望你已经学到了一些东西，所以我们不会
+which hopefully you've learned something
+about already so we're not gonna have
+
+506
+00:47:18,640 --> 00:47:22,569
+是今天开始的时间，所以我要真正抓住机会
+time to launch into that today so I'm
+going to actually take the opportunity
+
+507
+00:47:22,569 --> 00:47:26,529
+插入一条信息，或者可能插入两条信息
+to insert one piece of information or
+maybe two piece of information about
+
+508
+00:47:26,529 --> 00:47:30,670
+我答应过你，我们会谈谈的
+scattering that I promised you we would
+talk about sometime and that is
+
+509
+00:47:30,670 --> 00:47:36,320
+分散的东西，所以也许我会把它放在这里
+scattering off of so maybe I'll put that
+over here scattering off of
+
+510
+00:47:36,320 --> 00:47:41,900
+ X射线和中子散射X射线和中子散射这是不同的
+x-rays and neutron scattering x-ray and
+neutron scattering this is a different
+
+511
+00:47:41,900 --> 00:47:50,630
+受试者刚刚插入了这最后五分钟，从
+subject just inserted in this last five
+minutes neutron scattering from from
+
+512
+00:47:50,630 --> 00:48:00,620
+液体液体和无定形固体形态固体，因此在液体和
+liquids liquids and amorphous solids
+morphus solids so in liquids and
+
+513
+00:48:00,620 --> 00:48:06,020
+无定形固体我们没有周期性结构我们没有周期性
+amorphous solids we do not have periodic
+structures we do not have periodic
+
+514
+00:48:06,020 --> 00:48:11,090
+原子的排列，但是尽管如此，您仍然可以从中获得很多信息
+arrangement of atoms but nonetheless you
+get a lot of information out of the
+
+515
+00:48:11,090 --> 00:48:13,970
+中子X射线散射，如果您想回到我们做费米金像时
+neutron x-ray scattering if you think
+way back to when we did Fermi's Golden
+
+516
+00:48:13,970 --> 00:48:18,830
+规则，即散射幅度仍然是物体的傅立叶变换
+Rule that the scattering amplitude is
+still the Fourier transform of the
+
+517
+00:48:18,830 --> 00:48:22,910
+电位的周期性，但不是傅立叶变换的周期性
+periodic of the potential but it's not a
+periodic potential its Fourier transform
+
+518
+00:48:22,910 --> 00:48:26,390
+超过非周期性的潜力，但这是否意味着其中没有任何信息
+over the non periodic potential but does
+that mean there's no information in it
+
+519
+00:48:26,390 --> 00:48:29,480
+不，其中仍然有信息，只是您没有得到尖锐的峰
+no there's still information in it it's
+just that you don't get sharp Peaks
+
+520
+00:48:29,480 --> 00:48:35,630
+现在你得到的是在这里，所以这是液体上的X射线散射
+anymore what you get is here there it is
+so this is x-ray scattering on liquid
+
+521
+00:48:35,630 --> 00:48:39,460
+铝，它被加热到高温，所以它是液体
+aluminium it's heated up to some high
+temperature so it's so it's a liquid
+
+522
+00:48:39,460 --> 00:48:44,120
+有散射角或倒数向量的函数
+there's a function of the scattering
+angle or the reciprocal wave vector
+
+523
+00:48:44,120 --> 00:48:50,720
+那就是沿着这个轴的波向量，散射的幅度是
+that's the the wave vector along this
+axis the amplitude of scattering is has
+
+524
+00:48:50,720 --> 00:48:56,690
+峰和峰大致代表了原子之间的距离
+Peaks and the peaks represent roughly
+the distance between between atoms it's
+
+525
+00:48:56,690 --> 00:49:00,430
+ 1在原子之间的距离上以相同的方式表示峰
+1 over the distance between atoms the
+same way the peaks represent the
+
+526
+00:49:00,430 --> 00:49:04,550
+现在晶胞变成晶体时的周期性是
+periodicity of the unit cell when it
+becomes crystalline now what happens is
+
+527
+00:49:04,550 --> 00:49:08,870
+当您冷却液体时，它变得越来越结晶， 
+as you cool down a liquid and it gets
+more and more crystalline that becomes
+
+528
+00:49:08,870 --> 00:49:12,320
+越来越多的本地秩序，这些山峰变得越来越尖锐， 
+more and more local order and these
+Peaks get sharper and sharper and
+
+529
+00:49:12,320 --> 00:49:16,880
+最终变得更加清晰，当事物真正结晶时，它们就变成了三角洲
+sharper and finally when the thing
+actually crystallizes they become Delta
+
+530
+00:49:16,880 --> 00:49:21,500
+函数以我们期望的方式达到晶体的峰值，但是如果是
+function Peaks the way we expected them
+to for for a crystal but if it's a
+
+531
+00:49:21,500 --> 00:49:24,950
+液体，您可以将液体视为本地
+liquid it's sort of you can sort of
+think of a liquid as locally being like
+
+532
+00:49:24,950 --> 00:49:27,950
+固体，您知道每个原子都有几个邻居，但是如果您看起来
+a solid you know each atom has a couple
+neighbors but if you sort of look
+
+533
+00:49:27,950 --> 00:49:31,730
+更远的地方它不再有序了
+farther away it's not ordered anymore it
+sort of loses its order but if you sort
+
+534
+00:49:31,730 --> 00:49:35,780
+只是在某个小区域的外观，您可能已经知道它是有组织的
+of look just in some small region it
+probably has you know it's organized
+
+535
+00:49:35,780 --> 00:49:40,300
+在一个很小的区域内，因此您会在散射中得到这些宽峰
+over a small region so you get these
+sort of broad peaks in in the scattering
+
+536
+00:49:40,300 --> 00:49:47,510
+频谱好吧，我想也许我今天不会尝试涵盖任何其他问题， 
+spectrum okay I think maybe I won't try
+to cover any further issues today and
+
+537
+00:49:47,510 --> 00:49:52,220
+我们将在星期三再次开始，我认为周末愉快
+we'll start again on
+Wednesday I think have a good weekend
+
+538
+00:49:52,220 --> 00:49:57,020
+ [掌声] 
+[Applause]
+

@@ -1,0 +1,3258 @@
+1
+00:00:00,299 --> 00:00:06,890
+好的，欢迎大家，您好，欢迎入门
+okay welcome everyone
+hello welcome getting started
+
+2
+00:00:06,890 --> 00:00:13,219
+你好欢迎这是第三年B6凝聚态的第一堂课
+hello welcome this is the first lecture
+of the third year b6 condensed matter
+
+3
+00:00:13,219 --> 00:00:17,930
+物理课程之前，我才真正开始该课程的材料
+physics course before we get actually
+started in the material for the course I
+
+4
+00:00:17,930 --> 00:00:21,350
+想提及我们拥有的一些关键资源
+want to mention a couple of key
+resources we have that are meant to make
+
+5
+00:00:21,350 --> 00:00:25,850
+让您的生活更轻松第一重要资源是我
+your life easier
+the first key resource is the book I'm
+
+6
+00:00:25,850 --> 00:00:33,860
+要写下这本书，所以我为这门课程写了这本书
+gonna write down the book so I wrote
+this book for this course
+
+7
+00:00:33,860 --> 00:00:38,960
+这本书的想法是涵盖可能提出的所有问题
+the idea of the book was to cover
+everything that could possibly be asked
+
+8
+00:00:38,960 --> 00:00:42,829
+给你参加凝聚态物理考试，所以如果你学到了这一切
+to you on a condensed matter physics
+exam so if you learn everything in this
+
+9
+00:00:42,829 --> 00:00:46,550
+当我们完成本课程时，您会发现自己的状态非常好
+book you'll be in very good shape as we
+go through the course you will discover
+
+10
+00:00:46,550 --> 00:00:50,809
+那本书和讲座非常相似，这不是
+that the book and the lectures are
+extremely similar this is not a
+
+11
+00:00:50,809 --> 00:00:58,370
+巧合的是，我和他们都写了这本书，但实际上这本书在
+coincidence I wrote them both the but
+the book is actually more detailed in
+
+12
+00:00:58,370 --> 00:01:02,299
+比讲座要多的地方讲座会强调那些事情
+many places than the lectures will be
+the lectures will emphasize those things
+
+13
+00:01:02,299 --> 00:01:06,190
+这是最重要的，因此将它们视为有点
+which are most important so that view
+them sort of as being a little bit
+
+14
+00:01:06,190 --> 00:01:10,700
+彼此互补，希望它们对您都有用
+complementary to each other hopefully
+you'll find them both useful you can
+
+15
+00:01:10,700 --> 00:01:15,110
+我在亚马逊的许多图书馆的布莱克韦尔（Blackwell）那里捡书
+pick up books at Blackwell's there in
+many of the libraries there on amazon i
+
+16
+00:01:15,110 --> 00:01:19,369
+道歉，这并不像我想的那样便宜
+do apologize it's not quite as cheap as
+i would have liked it to be i think it
+
+17
+00:01:19,369 --> 00:01:24,229
+每本大约25磅，为此表示歉意
+cost about 25 pounds a copy so apologies
+for that
+
+18
+00:01:24,229 --> 00:01:29,750
+第二个网页第二个资源是网页，有很多
+the second web page the second resource
+is the web page there's a lot of
+
+19
+00:01:29,750 --> 00:01:34,969
+课程网页上有趣和有用的东西链接到我的首页
+interesting and useful things on the
+course web page link to my home page one
+
+20
+00:01:34,969 --> 00:01:41,479
+您可能会在网页上发现有用的东西是这本书现在
+thing that you might find useful on the
+web page is the book now the book the
+
+21
+00:01:41,479 --> 00:01:44,570
+实际的书不在网页上，出版商不允许我这样做
+actual book is not on the webpage the
+publishers wouldn't let me do that
+
+22
+00:01:44,570 --> 00:01:47,899
+大概他们认为如果我免费给你，他们永远也不会卖掉
+presumably they figured they would never
+sell one if I gave it to you for free
+
+23
+00:01:47,899 --> 00:01:52,399
+但是我们前几年使用的草稿已发布在网页上， 
+but the draft that we used in previous
+years is posted on the web page and it's
+
+24
+00:01:52,399 --> 00:01:56,899
+一个很好的替代品，大约是85％ 
+a pretty good replacement for this it's
+about 85 percent similar to what's
+
+25
+00:01:56,899 --> 00:02:00,259
+实际上是在书中，所以如果您发现自己没有图书馆
+actually in the book so if you find
+yourself in a library not having your
+
+26
+00:02:00,259 --> 00:02:04,909
+书或类似的东西，您只需打开网页，看看有什么
+book or something like that you can just
+open up the web page and and see what's
+
+27
+00:02:04,909 --> 00:02:09,199
+在那儿，您可能甚至没有发现需要花25磅
+in there maybe you might not even find
+that you need to spend the 25 pounds on
+
+28
+00:02:09,199 --> 00:02:13,070
+尽管本书比较好，但许多错误已得到纠正
+it although the book is better a lot of
+the errors have been corrected the
+
+29
+00:02:13,070 --> 00:02:15,470
+图片更好一些解释得到了改善，因此
+pictures are better some of the
+explanations have been improved and so
+
+30
+00:02:15,470 --> 00:02:19,510
+以便在选择其他资源时
+forth
+so as you choose other resources on the
+
+31
+00:02:19,510 --> 00:02:22,629
+有助于建议作业的网页，请与您的导师联系
+webpage that are useful to suggested
+homeworks please check with your tutors
+
+32
+00:02:22,629 --> 00:02:25,959
+确保他们同意您应该做的家庭作业样本
+to make sure they agree with which
+homework assignment you should do sample
+
+33
+00:02:25,959 --> 00:02:31,989
+考试示例解决方案也在那里PowerPoint幻灯片首先
+exams sample solutions are also there
+PowerPoint slides first of all I will
+
+34
+00:02:31,989 --> 00:02:35,860
+永远不要在这里留下任何形式的讲义，所以你不必看我答应你
+never leave any sort of handouts here so
+you don't have to look I promise you
+
+35
+00:02:35,860 --> 00:02:40,510
+我需要在演讲中以PowerPoint形式向您展示的所有内容
+that anything that I need to show you in
+the lecture in terms of a PowerPoint
+
+36
+00:02:40,510 --> 00:02:44,980
+幻灯片将出现在网页上的某种图形现在我知道人们
+slides some sort of figure that will be
+on the webpage now I know that people
+
+37
+00:02:44,980 --> 00:02:50,380
+我更喜欢粉笔，而不是PowerPoint幻灯片
+prefer chalk to PowerPoint slides I feel
+the same way to the largest extent
+
+38
+00:02:50,380 --> 00:02:54,790
+可能我会一直使用粉笔，但是有时候我不得不
+possible I will always use chalk but
+there are some times when I just have to
+
+39
+00:02:54,790 --> 00:02:59,470
+显示我无法绘制的图片，以便这些幻灯片或视频或其他任何东西
+show a picture that I can't draw
+so those slides or videos or anything
+
+40
+00:02:59,470 --> 00:03:04,360
+否则我将显示在网页上，您可能会注意到后面有人
+else I show will be on the webpage you
+may notice there's someone in the back
+
+41
+00:03:04,360 --> 00:03:09,790
+格雷格拍摄我们的影片，大概也会链接到该网页，因此如果您
+Greg filming us that will presumably be
+linked to the webpage also so if you
+
+42
+00:03:09,790 --> 00:03:14,709
+想要给ricci一些解释或类似的东西，它将在
+want to ricci something some explanation
+or something like that it will be on the
+
+43
+00:03:14,709 --> 00:03:19,510
+网页上的任何更正我必须对作业进行更正
+web page any correction I have to issue
+corrections to the homework Corrections
+
+44
+00:03:19,510 --> 00:03:22,900
+从书中的任何错别字，我在演讲中可能要说的
+from the books any typos in the books
+anything I might say in lecture that
+
+45
+00:03:22,900 --> 00:03:27,670
+原来是不正确的，它将以某种方式在网页上修复
+turns out to be incorrect somehow that
+will be fixed on the web page one more
+
+46
+00:03:27,670 --> 00:03:33,700
+我真正要指出的是链接到网络的留言板
+thing I really want to point out is the
+message board that's linked to the web
+
+47
+00:03:33,700 --> 00:03:37,660
+页面以及我不确定您是否在我们的其他课程中也有
+page as well I'm not sure if you've had
+this in your other courses before we
+
+48
+00:03:37,660 --> 00:03:41,620
+去年第一次尝试它，其他课程效果很好
+tried it for the first time last year
+it worked extremely well other courses
+
+49
+00:03:41,620 --> 00:03:45,280
+现在也正在使用它，其想法是建立一个在线论坛，人们可以
+are now using it as well the idea is to
+have an online forum where people can
+
+50
+00:03:45,280 --> 00:03:48,579
+讨论正在发生的事情，并提出问题并在回答问题时给出答案
+discuss what's going on and ask
+questions and give answers when you're
+
+51
+00:03:48,579 --> 00:03:52,389
+在演讲之外，所以去年的工作方式是有人打字
+outside of lecture so the way it worked
+last year is someone would type to type
+
+52
+00:03:52,389 --> 00:03:56,650
+在您的演讲中说了XY或Z，但这没有任何意义，因为
+in you said X Y or Z in lecture but that
+doesn't make sense because of this that
+
+53
+00:03:56,650 --> 00:03:59,739
+或其他你可以解释我会写一些答案，但就像
+or the other can you please explain I
+would write some answer but just as
+
+54
+00:03:59,739 --> 00:04:03,579
+通常不是我给答案，而是其他学生给
+often as not it wouldn't be me giving an
+answer but some other student would give
+
+55
+00:04:03,579 --> 00:04:06,609
+答案或导师会给出答案，或者两个或两个会问一个问题
+an answer or tutor would give an answer
+or two two would ask a question some
+
+56
+00:04:06,609 --> 00:04:10,150
+学生会回答它或类似的东西，所以这只是一个地方
+student would answer it or something
+like that so so it's just some place
+
+57
+00:04:10,150 --> 00:04:13,209
+人们可以去哪里，只留下简单的信息并得到答复
+where people could go and just leave
+simple messages and get them answered
+
+58
+00:04:13,209 --> 00:04:17,349
+而且我认为随着课程的进行，人们会发现非常有用的方法不要害羞
+and I think as the course goes on people
+will find that very useful don't be shy
+
+59
+00:04:17,349 --> 00:04:23,229
+尝试使用这些资源，这就是我所拥有的全部资源，我们实际上可以
+in trying to use that so that's all I
+have for resources and we can actually
+
+60
+00:04:23,229 --> 00:04:27,099
+开始学习本课程的第一件事
+get started with the introduction to
+this course the first thing you're
+
+61
+00:04:27,099 --> 00:04:30,400
+可能问自己这是什么主题
+probably asking yourself is what is this
+subject
+
+62
+00:04:30,400 --> 00:04:33,610
+本来应该开始学习什么是凝聚态物理
+supposed to be learning what is
+condensed matter physics well to begin
+
+63
+00:04:33,610 --> 00:04:40,479
+凝聚态物理约占物理的三分之一
+with condensed matter physics is one
+third of physics approximately one third
+
+64
+00:04:40,479 --> 00:04:44,770
+物理，我的意思是，如果你去的话，下面的实验
+of physics and what I mean by that is is
+the following experiment if you go
+
+65
+00:04:44,770 --> 00:04:48,490
+世界各地，你问每一个物理学家，你是一个凝结
+around the world and you ask every
+single physicist are you a condensed
+
+66
+00:04:48,490 --> 00:04:52,000
+大约三分之一的物质物理学家会告诉你，我是一个凝聚态物质
+matter physicist about one third of them
+will tell you yes I'm a condensed matter
+
+67
+00:04:52,000 --> 00:04:56,050
+物理学家凝聚态物理学实际上是物理学中最大的子领域
+physicists condensed matter physics is
+the largest subfield of physics actually
+
+68
+00:04:56,050 --> 00:05:00,729
+它是迄今为止最大的子领域
+it's the largest subfield by far it's
+extremely broad extremely diverse and it
+
+69
+00:05:00,729 --> 00:05:05,470
+其中包含许多不同的主题，为您提供了一种
+includes many many different topics
+within it to give you a sort of an
+
+70
+00:05:05,470 --> 00:05:10,300
+我将使用这个领域的规模，范围和多样性的示例
+example of how big and how broad and how
+diverse this field is I'm going to use
+
+71
+00:05:10,300 --> 00:05:15,130
+每年三月举行的美国物理学会三月会议
+the March meeting of the American
+Physical Society every March the
+
+72
+00:05:15,130 --> 00:05:18,460
+美国物理学会召开了他所有凝聚态的会议
+American Physical Society holds a
+meeting of all of his condensed matter
+
+73
+00:05:18,460 --> 00:05:22,090
+物理学家或去年可能出现的尽可能多的人是在巴尔的摩
+physicists or as many as can possibly
+show up last year was in Baltimore
+
+74
+00:05:22,090 --> 00:05:25,840
+马里兰我自己去那里那里有8000名物理学家
+Maryland I went there myself there were
+8,000 physicists there it was very
+
+75
+00:05:25,840 --> 00:05:30,370
+令人兴奋的一个巨大的书呆子节非常有趣，我建议如果你去
+exciting for one week huge a nerd fest
+very enjoyable I recommend going if you
+
+76
+00:05:30,370 --> 00:05:36,160
+在会议的第一天早上8点有机会
+ever get a chance at 8 a.m. on the first
+day of the meeting there were talks on
+
+77
+00:05:36,160 --> 00:05:41,139
+以下学科超导体超流体玻璃聚合物量子
+the following subjects superconductors
+superfluids glasses polymers quantum
+
+78
+00:05:41,139 --> 00:05:45,280
+点微观流体晶体生长自旋电子相变量子
+dots micro fluidics crystal growth
+spintronics phase transitions quantum
+
+79
+00:05:45,280 --> 00:05:48,669
+临界玻色共同6分电荷量子计算高
+criticality bose common 6 fractionalized
+charges quantum computation high
+
+80
+00:05:48,669 --> 00:05:51,909
+压力物理学磁性重费米子弗洛里克和液体
+pressure physics magnetism heavy
+fermions multi Florrick's and liquid
+
+81
+00:05:51,909 --> 00:05:56,500
+水晶，第一天早上8:00，第一天早上11点
+crystals and that's just at 8:00 a.m. on
+the first day by 11 a.m. the first day
+
+82
+00:05:56,500 --> 00:06:00,520
+关于不同主题的讨论也很多，所以清单还在继续， 
+there were just as many talks on
+different topics so the list goes on and
+
+83
+00:06:00,520 --> 00:06:05,080
+浓缩中包含的所有有趣的东西
+on and on of all the interesting things
+that are contained within condensed
+
+84
+00:06:05,080 --> 00:06:08,710
+物质物理学在凝聚态物理学中往往与
+matter physics it tends to be a large
+overlap in condensed matter physics with
+
+85
+00:06:08,710 --> 00:06:14,500
+化学物质科学生物学原子物理等领域
+fields such as chemistry material
+science biology atomic physics sometimes
+
+86
+00:06:14,500 --> 00:06:19,120
+高能物理纳米科学量子科学越来越多的我们
+high energy physics nanoscience quantum
+sciences and more and more often we're
+
+87
+00:06:19,120 --> 00:06:23,229
+与黑洞物理学，弦论和重力以及
+getting overlaps with black hole physics
+and string theory and gravity as well as
+
+88
+00:06:23,229 --> 00:06:28,000
+物理学的许多其他领域也包括在内
+many other fields of physics as well so
+it includes many many many things in it
+
+89
+00:06:28,000 --> 00:06:38,260
+此时您可能会问自己，为什么要学习它，为什么还要学习它
+and you might be asking yourself at this
+point why study it why study it besides
+
+90
+00:06:38,260 --> 00:06:41,409
+它恰好在您的课程提纲中，但这只会引起
+the fact that it happens to be on your
+syllabus but that just raises the
+
+91
+00:06:41,409 --> 00:06:44,380
+为什么有人把它放在你的教学大纲上的问题
+question of why did someone put it on
+your syllabus
+
+92
+00:06:44,380 --> 00:06:48,700
+嗯，我们有很多很好的理由来研究这个主题， 
+well there's a lot of good reasons why
+we should be studying this subject the
+
+93
+00:06:48,700 --> 00:06:57,330
+第一个好的原因是一个，那就是世界
+first good reason is one it is the world
+
+94
+00:06:57,600 --> 00:07:02,260
+凝聚态物理是您周围的世界，我们想到了凝聚态
+condensed matter physics is the world
+around you we think of condensed matter
+
+95
+00:07:02,260 --> 00:07:08,350
+作为对周围世界事物的研究，所以您可以
+as being the study of the stuff in the
+world around you so anything you can
+
+96
+00:07:08,350 --> 00:07:15,160
+指出可以使用的任何材料，可以查看可以拾取固体的任何材料
+point out any material you can you can
+look at any thing you can pick up solids
+
+97
+00:07:15,160 --> 00:07:20,650
+液体，玻璃，聚合物，你知道金属，这些在某些情况下都是冷凝物
+liquids glasses polymers you know metals
+these are all condensed matter in some
+
+98
+00:07:20,650 --> 00:07:24,430
+方式，如果您指着这些东西，您会问的问题就是我们
+way and if you point at these things you
+ask questions that's what we as
+
+99
+00:07:24,430 --> 00:07:27,370
+科学家和我们作为物理学家应该做的事情应该指向事物
+scientists and we as physicists should
+be doing we should be pointing at things
+
+100
+00:07:27,370 --> 00:07:31,750
+并询问有关他们的问题，如果您问为什么是玻璃杯
+and asking questions about them if you
+ask questions like why is glass
+
+101
+00:07:31,750 --> 00:07:36,460
+透明为什么金属发亮为什么橡胶柔软而粘软为什么水弄湿
+transparent why is metal shiny why is
+rubber soft and squishy why is water wet
+
+102
+00:07:36,460 --> 00:07:42,160
+为什么油会打滑以及更微妙的问题，例如为什么蛋黄至关重要
+why is oil slippery and even more subtle
+questions like why is egg-yolk crucial
+
+103
+00:07:42,160 --> 00:07:48,220
+为了使蛋黄酱变好，所有这些都是浓缩的主题
+for making good mayonnaise all of these
+things are the subject of condensed
+
+104
+00:07:48,220 --> 00:07:51,520
+物质物理学凝聚态物理学家在从事
+matter physics condensed matter
+physicists are in the business of
+
+105
+00:07:51,520 --> 00:07:55,000
+解释所有这些事情，至少在这么长的问题列表中
+explaining all of these things and in
+that long list of questions at least
+
+106
+00:07:55,000 --> 00:07:58,990
+在学期结束前，其中一些我们将得到答案
+some of them by the end of the term we
+will have answers to so pretty much
+
+107
+00:07:58,990 --> 00:08:02,890
+您在周围世界上看到的一切都是凝结的物质
+everything you see in the world around
+you the world is condensed matter
+
+108
+00:08:02,890 --> 00:08:14,740
+它是有用的物理原因凝聚态物理是迄今为止最多的
+physics reason to it is useful condensed
+matter physics is by far the most
+
+109
+00:08:14,740 --> 00:08:19,870
+从技术上讲，这是物理学上重要的工业领域，我们知道
+technologically an industrially
+important field of physics you know we
+
+110
+00:08:19,870 --> 00:08:23,680
+作为人类，我们作为科学家，我们作为凝聚态物理学家
+as humans and we as scientists and we as
+condensed matter physicists over the
+
+111
+00:08:23,680 --> 00:08:28,750
+过去150年必须对材料进行不可思议的控制
+last 150 year have to come to an
+incredible control over the materials
+
+112
+00:08:28,750 --> 00:08:33,760
+和我们周围世界中的东西，您知道其中的例子包括您
+and the stuff in the world around us
+you know examples of this include you
+
+113
+00:08:33,760 --> 00:08:39,490
+知道150年前，人们开始能够思考电气
+know 150 years ago people first started
+being able to think about electrical
+
+114
+00:08:39,490 --> 00:08:42,940
+电流在物质中运动，然后他们认为某些物质具有
+currents moving in materials and then
+they figured some materials had
+
+115
+00:08:42,940 --> 00:08:45,850
+不同的电气特性，很快他们就能够
+different electrical properties than
+others and pretty soon they were able to
+
+116
+00:08:45,850 --> 00:08:49,450
+制作电子产品，他们很快就能制造出精美的电子产品
+make electronics and they could build up
+very fancy electronics and pretty soon
+
+117
+00:08:49,450 --> 00:08:53,320
+他们正在建造iPad，iPhone，计算机之类的东西， 
+they're building things like iPads
+iPhones computers and things that we
+
+118
+00:08:53,320 --> 00:08:56,950
+今天在我们周围的世界中理所当然，所有这些都来自
+take for granted in the world around us
+today and all of this comes from the
+
+119
+00:08:56,950 --> 00:08:59,830
+物质物理学研究凝聚态物理学
+study of
+matter physics condensed matter physics
+
+120
+00:08:59,830 --> 00:09:04,660
+确实改变了我们作为人的生活，但这些我们认为理所当然的事情
+really changes our lives as people but
+these things that we take for granted
+
+121
+00:09:04,660 --> 00:09:10,390
+现在是凝聚态物理学中迄今为止最有用的物理学领域
+now come out of condensed matter physics
+by far the most useful field of physics
+
+122
+00:09:10,390 --> 00:09:22,450
+是凝聚态的原因3我们研究它的原因3它是深层的基础
+is condensed matter reason 3 why we
+study it 3 it is deep fundamental and
+
+123
+00:09:22,450 --> 00:09:26,470
+凝聚态物理学的深刻新思想现在有人
+deep new ideas in condensed matter
+physics it is now some people have this
+
+124
+00:09:26,470 --> 00:09:31,000
+错误的想法，认为2和3如果有用的话，在某种程度上是矛盾的
+mistaken idea that 2 & 3 are somehow
+contradictory if it's useful
+
+125
+00:09:31,000 --> 00:09:35,290
+如果它很深，那么它就不会很深，这将是完全不真实的
+it can't be deep if it's deep it can't
+be useful this is completely untrue the
+
+126
+00:09:35,290 --> 00:09:38,950
+我们在凝聚态物理中谈论的思想深深
+ideas that we talked about in condensed
+matter physics are every bit as deep as
+
+127
+00:09:38,950 --> 00:09:42,520
+您将在物理的任何其他领域中遇到的想法我怎么知道
+the ideas that you will run into in any
+other field of physics how do I know
+
+128
+00:09:42,520 --> 00:09:46,240
+我该如何向您证明这一点，因为我知道它与
+this how can I prove this to you the
+reason I know that it is just as deep as
+
+129
+00:09:46,240 --> 00:09:49,360
+物理学的任何其他领域是因为它们是完全相同的想法
+any other field of physics is because
+they're exactly the same ideas good
+
+130
+00:09:49,360 --> 00:09:53,650
+想法来自一个领域，进入另一个领域，反之亦然
+ideas come from one field and go into
+the other field and vice versa and as
+
+131
+00:09:53,650 --> 00:09:58,300
+通常，最好的主意不是从凝聚态中产生出来，而是进入
+often as not the best ideas have come
+out of condensed matter and gone into
+
+132
+00:09:58,300 --> 00:10:02,260
+其他领域真的是一个很好的例子，每个人都可能听说过希格斯
+other fields really good example of this
+everyone has probably heard of the Higgs
+
+133
+00:10:02,260 --> 00:10:05,680
+玻色子教授希格斯在几个月前获得了诺贝尔奖
+boson professor Higgs won his Nobel
+Prize just a few months ago for
+
+134
+00:10:05,680 --> 00:10:09,430
+后来在欧洲核子研究中心发现了这种亚原子粒子的预测
+prediction of this subatomic particle
+which was then discovered in CERN many
+
+135
+00:10:09,430 --> 00:10:13,360
+几年后，如果您读过他的著作，他在哪里对希格斯玻色子的想法很好
+years later where did he get the idea
+for the Higgs boson well if you read
+
+136
+00:10:13,360 --> 00:10:18,760
+他的诺贝尔奖论文的第一段非常明确地说我明白了这一点
+paragraph 1 of his Nobel prize-winning
+paper it says very explicitly I got this
+
+137
+00:10:18,760 --> 00:10:24,370
+凝聚态物理学家的想法早于希格斯凝聚态
+idea from condensed matter physicists
+back before our Higgs the condensed
+
+138
+00:10:24,370 --> 00:10:27,340
+物质物理学家，我们正在研究低温金属，他们发现
+matter physicists we're studying metals
+at low temperature and they discovered
+
+139
+00:10:27,340 --> 00:10:31,000
+金属在低温下超导，它们没有电
+that metals superconduct at low
+temperature they have no electrical
+
+140
+00:10:31,000 --> 00:10:34,810
+完全抵制，并且在真正了解导致原因之后
+resistance at all and after coming to a
+really good understanding of what causes
+
+141
+00:10:34,810 --> 00:10:38,890
+我们向高能物理学家建议这个凝聚态物理学家
+this condensed matter physicists we're
+suggesting to high energy physicist that
+
+142
+00:10:38,890 --> 00:10:42,820
+类似的事情可能会在高能量中发生，这就是
+something similar might be going on in a
+high energy and that is the origin of
+
+143
+00:10:42,820 --> 00:10:47,080
+希格斯玻色子，所以深刻的想法已经从凝结物质中消失了
+the Higgs boson so the deep ideas have
+come out of condensed matter and gone
+
+144
+00:10:47,080 --> 00:10:59,920
+进入其他领域，因为我们为什么要研究它的反还原主义，这是一个
+into other fields for reason for why we
+study it anti reductionism this is a
+
+145
+00:10:59,920 --> 00:11:05,050
+我写的一个词，但还原主义实际上是一个
+word that I made up
+but but reductionism is actually is a
+
+146
+00:11:05,050 --> 00:11:09,100
+还原主义的真实意思是，您将要学习更多有关
+real word the reductionism is the idea
+that you're going to learn more about
+
+147
+00:11:09,100 --> 00:11:12,610
+通过询问它是由什么组成的
+something by asking what is it made of
+what is the smaller and smaller and
+
+148
+00:11:12,610 --> 00:11:17,769
+较小的反还原主义是一个错误的想法
+smaller piece anti reductionism is the
+idea that that is the wrong way to go
+
+149
+00:11:17,769 --> 00:11:21,730
+那完全是错误理解某事的方式的例子
+that that is completely the wrong way to
+understand something an example that
+
+150
+00:11:21,730 --> 00:11:25,839
+人们喜欢使用的是，如果您要描述一杯水，如果您
+people like to use is if you ask to
+describe a glass of water and if you
+
+151
+00:11:25,839 --> 00:11:29,199
+沿着水的这个兔子洞开始是由分子和
+start along this rabbit hole of the
+water is made up of molecules and
+
+152
+00:11:29,199 --> 00:11:31,870
+分子由原子组成，原子由质子中子和
+molecules and made up of atoms the atoms
+are made of protons neutrons and
+
+153
+00:11:31,870 --> 00:11:35,019
+电子，中子和质子由夸克组成，而夸克则由
+electrons and neutrons and protons are
+made up of quarks and those are made up
+
+154
+00:11:35,019 --> 00:11:38,860
+字符串等等等等等等等等，你无处可去
+of strings and so forth and so on and so
+forth and so on you get nowhere you
+
+155
+00:11:38,860 --> 00:11:41,949
+没有学到为什么水很湿你没有学到为什么水很湿
+didn't learn anything about why the
+water is wet you didn't learn why it's
+
+156
+00:11:41,949 --> 00:11:45,550
+透明的，你根本没有学到任何真正有用的还原论
+transparent you didn't learn anything
+really useful at all reductionism
+
+157
+00:11:45,550 --> 00:11:49,269
+完全因为树木而错过森林，如果您
+completely misses the forest for the
+trees and more often than not if you
+
+158
+00:11:49,269 --> 00:11:52,540
+想了解您需要的东西的真实物理特性
+want to understand the real physical
+properties of something what you need to
+
+159
+00:11:52,540 --> 00:11:56,319
+问一下大图是如何一起发挥作用的
+ask about is the big picture
+how the pieces act together to give you
+
+160
+00:11:56,319 --> 00:12:01,259
+所以反还原论是研究凝聚态物理的一个很好的理由
+the whole so anti reductionism is a good
+reason to study condensed matter physics
+
+161
+00:12:01,259 --> 00:12:20,670
+ 5这是一个量子和退步的实验室
+5 it is a laboratory laboratory for
+quantum and step back to a large extent
+
+162
+00:12:20,670 --> 00:12:25,990
+物理学的凝聚态是我们探索宇宙的最好的实验室
+condensed matter of physics is the best
+laboratory we have for exploring the
+
+163
+00:12:25,990 --> 00:12:30,250
+量子力学和统计力学可以做的令人惊奇的事情，以及
+amazing things that quantum mechanics
+and statistical mechanics can do and the
+
+164
+00:12:30,250 --> 00:12:34,089
+他们可以一起做的事情，所以我希望你能看到整个
+things that they can do together so I
+would like you to view this entire
+
+165
+00:12:34,089 --> 00:12:38,949
+本课程是您去年在这两门课程中学到的知识的延伸
+course as an extension of what you
+learned in those two courses last year
+
+166
+00:12:38,949 --> 00:12:42,579
+如果您去年喜欢这些课程，希望您会喜欢
+and if you like those courses last year
+hopefully you'll like this course just
+
+167
+00:12:42,579 --> 00:12:46,209
+以及因为这真的是同一件事，如果您不喜欢那些
+as well because it's really just the
+same thing and if you didn't like those
+
+168
+00:12:46,209 --> 00:12:50,819
+去年第二期的两门课程将打赌您会更喜欢本课程
+two courses from last year I I will bet
+that you will like this course better
+
+169
+00:12:50,819 --> 00:12:53,949
+但实际上有充分的理由认为您会喜欢本课程
+but there's actually a good reason to
+think that you'll like this course
+
+170
+00:12:53,949 --> 00:12:58,059
+更好，因为与其以更抽象的方式思考这些主题
+better because instead of thinking about
+these subjects in the more abstract
+
+171
+00:12:58,059 --> 00:13:01,059
+我们实际上会以一些非常真实和重要的方式考虑它们
+we're gonna actually think about them in
+some very real and important
+
+172
+00:13:01,059 --> 00:13:07,420
+应用程序以及它们如何应用于一些真实的东西好，就像我提到的
+applications and how they apply to some
+real real stuff ok so as I mentioned
+
+173
+00:13:07,420 --> 00:13:12,189
+凝聚态物理学的早期阶段是一个非常广泛的领域，我们
+early on condensed matter physics is a
+very broad and diverse field and we
+
+174
+00:13:12,189 --> 00:13:15,820
+不可能研究其中的所有子领域
+can't possibly study all the subfields
+within
+
+175
+00:13:15,820 --> 00:13:20,440
+这件事在这八周之内全部完成，因此我们将只关注一个
+this matter all within these eight weeks
+so we're gonna focus in on just one
+
+176
+00:13:20,440 --> 00:13:24,190
+在我们要花费的特定子域中的凝聚态子域
+subfield of condensed matter in the
+particular subfield we're going to spend
+
+177
+00:13:24,190 --> 00:13:31,120
+我们所有的时间或大部分时间都是固态的
+all of our time on or most of our time
+on is solid state and by solid state
+
+178
+00:13:31,120 --> 00:13:36,190
+我的意思是物质的固态与液态的固态相比
+what I mean is the solid state of matter
+as compared to the liquid state of
+
+179
+00:13:36,190 --> 00:13:40,720
+物质的超流体状态或物质的其他某种状态
+matter the superfluid state of matter or
+some other state of matter and the
+
+180
+00:13:40,720 --> 00:13:45,100
+我们有几个原因选择固态是最大的原因
+reason we there's several reasons why we
+pick solid state here it's the largest
+
+181
+00:13:45,100 --> 00:13:49,990
+凝聚态子域中最有用和最成功的子域
+the most useful and the most successful
+of the subfields in condensed matter
+
+182
+00:13:49,990 --> 00:13:54,490
+物理学中，我们对固体特别是结晶固体和
+physics we know more about solids and in
+particular about crystalline solids and
+
+183
+00:13:54,490 --> 00:13:57,760
+我们将在以后的课程中定义晶体和固体的含义
+we'll define what we mean by crystal and
+solids later on in the course we know
+
+184
+00:13:57,760 --> 00:14:01,510
+关于固体，比我们对其他任何物质状态所了解的更多
+more about solids than we know about any
+other state of matter that what we have
+
+185
+00:14:01,510 --> 00:14:04,840
+了解固体实在令人难以置信，我们对您所做的一切
+learned about solids is incredible what
+we've been able to do with solids you
+
+186
+00:14:04,840 --> 00:14:08,200
+知道您对它的思考电子产品业全部由电子业构成
+know you think about it electronics the
+electronics industry that's all made of
+
+187
+00:14:08,200 --> 00:14:11,740
+固体，所以所有这些都被称为固态电子产品，因为
+solids so all of that that's why it's
+called solid-state electronics because
+
+188
+00:14:11,740 --> 00:14:16,330
+固态电子学的知识令人难以置信，并且
+of electronics of the solid state all of
+that is incredibly well understood and
+
+189
+00:14:16,330 --> 00:14:20,440
+这是一个开始我们对该领域进行研究的好地方，但更重要的是
+it's a great place to start our study of
+this field but more than that the reason
+
+190
+00:14:20,440 --> 00:14:23,800
+我们从看到状态开始是因为我们在学习中必须学习的东西
+we start with saw the state is because
+the things we have to learn in studying
+
+191
+00:14:23,800 --> 00:14:27,850
+国家风格形成一个很好的平台，一个很好的起点
+style of state form a really good
+platform a really good jumping-off point
+
+192
+00:14:27,850 --> 00:14:32,230
+用于研究凝结物质内部甚至外部的其他领域
+for studying other fields within
+condensed matter and even outside of
+
+193
+00:14:32,230 --> 00:14:35,710
+浓缩的物质，所以如果要继续学习更复杂的东西
+condensed matter so if one wants to go
+on and study something more complicated
+
+194
+00:14:35,710 --> 00:14:39,220
+后来在生活中像液体或超流体，我们从中学到了
+later on in life like a liquid or a
+superfluid what we learned in saw the
+
+195
+00:14:39,220 --> 00:14:42,700
+国家将成为学习这些东西的基本起点
+state is going to be a fundamental
+starting point for learning those things
+
+196
+00:14:42,700 --> 00:14:47,740
+稍后，这是我对课程的介绍，在这一点上，我们可以
+later on so that's my introduction to
+the course and at this point we can
+
+197
+00:14:47,740 --> 00:14:52,690
+真正开始正确地学习这个主题，是一个很好的起点
+actually get started on on the subject
+proper and a good place to start
+
+198
+00:14:52,690 --> 00:14:57,310
+研究固态或凝聚态实际上是一百多年前
+studying solid state or condensed matter
+is actually over a hundred years ago
+
+199
+00:14:57,310 --> 00:15:02,680
+大约在1900世纪之交，我之所以选择该时间是因为
+around the turn of the century 1900 and
+the reason I picked that time is because
+
+200
+00:15:02,680 --> 00:15:07,450
+那是人们第一次开始应用诸如
+that was about the time when people
+first started applying things like
+
+201
+00:15:07,450 --> 00:15:11,320
+统计力学以及后来关于量子力学的研究
+statistical mechanics and later on
+quantum mechanics to the study of the
+
+202
+00:15:11,320 --> 00:15:17,140
+ 1800年代科学家在他们周围的事物
+things in the world around them
+over the course of the 1800s scientists
+
+203
+00:15:17,140 --> 00:15:20,980
+能够进行很多非常精确的测量， 
+were able to make a lot of very
+increasingly precise measurements and
+
+204
+00:15:20,980 --> 00:15:24,370
+他们对周围的世界有了很多了解，但是有很多
+they had figured out a lot about the
+world around them but there were a lot
+
+205
+00:15:24,370 --> 00:15:27,490
+他们可以得到的测量结果中，他们可以看到什么
+of the measurements that they could get
+a measurement they could see what was
+
+206
+00:15:27,490 --> 00:15:31,180
+继续，但他们做不到，为什么要取得结果
+going on but they couldn't
+and why they were getting the results
+
+207
+00:15:31,180 --> 00:15:35,500
+他们得到了，在接下来的两节课中，所以我们将重点放在
+they were getting and for the next two
+lectures or so we're gonna focus on one
+
+208
+00:15:35,500 --> 00:15:40,120
+他们已经做过很多次的特定类型的实验
+particular type of experiment that they
+had been doing a lot of and those are
+
+209
+00:15:40,120 --> 00:15:47,260
+您可能还记得的热容量实验
+experiments on heat capacity you
+probably remember from your
+
+210
+00:15:47,260 --> 00:15:54,580
+热力学过程，特别是固体的热容，因此它们是
+thermodynamics course and in particular
+heat capacity of solids so they were
+
+211
+00:15:54,580 --> 00:15:57,940
+能够测量有关热容量的各种事物， 
+able to measure all sorts of things
+about heat capacity and they had been
+
+212
+00:15:57,940 --> 00:16:01,600
+这样做将近100年，但他们不知道
+doing so for close to 100 years at that
+point but they didn't know what the
+
+213
+00:16:01,600 --> 00:16:08,279
+结果的意思是提醒您什么是热容量DQ DT 
+results meant so just to remind you what
+heat capacity is heat capacity is DQ DT
+
+214
+00:16:08,279 --> 00:16:12,399
+您知道必须将某种材料放进去多少热量才能提高它
+you know how much heat you have to put
+into a material to raise it a certain
+
+215
+00:16:12,399 --> 00:16:15,910
+量的温度，这是该过程的第一个方程式，并且已经
+amount in temperature and this is the
+first equation of the course and already
+
+216
+00:16:15,910 --> 00:16:20,320
+有人应该反对并说稍等片刻，那为什么呢？ 
+someone should be objecting and saying
+wait a second that's wrong so what why
+
+217
+00:16:20,320 --> 00:16:23,500
+如果您还记得的话，我应该说这是出问题了吗？ 
+should I say something is something's
+wrong with this well if you remember
+
+218
+00:16:23,500 --> 00:16:28,350
+去年，只要写热容，就可以从热力学课程中学习
+from your courses in thermodynamics last
+year whenever you write a heat capacity
+
+219
+00:16:28,350 --> 00:16:33,060
+您应该写一个下标是否表示恒定压力下的热容量
+you should write a subscript whether you
+mean heat capacity at constant pressure
+
+220
+00:16:33,060 --> 00:16:38,740
+恒定体积CV时的CP或热容量，通常这两点是
+CP or heat capacity at constant volume
+CV and generally these two things are
+
+221
+00:16:38,740 --> 00:16:43,450
+不同的是我没有写我只是写了C，而我只写了C的原因
+different I didn't do that I just wrote
+C and the reason I only wrote C instead
+
+222
+00:16:43,450 --> 00:16:50,140
+ CP或CV的值是因为在实心中CP和CV非常接近相同的数字
+of CP or CV is because in a solid CP and
+CV are very close to the same number so
+
+223
+00:16:50,140 --> 00:16:53,860
+我们只是打电话给他们，看看我的意思是如果您真的非常仔细地测量它，您将
+we just call them to see I mean if you
+measure it really really closely you'll
+
+224
+00:16:53,860 --> 00:16:57,279
+发现它们略有不同，但是现在它们非常非常接近
+discover they're slightly different but
+they're very very close to the same now
+
+225
+00:16:57,279 --> 00:17:01,420
+为什么它们非常接近我会提醒您您学到的东西
+why are they very close to the same I'll
+remind you of something that you learned
+
+226
+00:17:01,420 --> 00:17:05,230
+得出去年甚至可能已经参加过考试的问题
+to derive last year may have even been
+on your exam it's the kind of question
+
+227
+00:17:05,230 --> 00:17:11,199
+每年都会出现在考试中，或者CP减去CV是数量乘以
+that shows up on the exam every year or
+to the CP minus CV is volume times
+
+228
+00:17:11,199 --> 00:17:15,160
+温度乘以beta的alpha平方，其中alpha是热
+temperature times alpha squared over
+beta where alpha is the thermal
+
+229
+00:17:15,160 --> 00:17:23,319
+膨胀系数热膨胀和β是等温的
+expansion coefficient thermal expansion
+and beta is the isothermal
+
+230
+00:17:23,319 --> 00:17:33,100
+可压缩性等温可压缩压力机和此处的要点
+compressibility isothermal
+compressibility press and the point here
+
+231
+00:17:33,100 --> 00:17:38,200
+固体具有非常小的热膨胀，通常是固体
+is that solids have very very small
+thermal expansions generally a solid
+
+232
+00:17:38,200 --> 00:17:40,929
+将具有百万分之几的热膨胀系数
+will have a thermal expansion
+coefficient of a few parts per million
+
+233
+00:17:40,929 --> 00:17:43,820
+每度开尔文非常小，然后
+per degree Kelvin
+very very small number and then that
+
+234
+00:17:43,820 --> 00:17:47,000
+数字在这里在右边平方，因此右边
+number gets squared over here on the
+right hand side so the right hand side
+
+235
+00:17:47,000 --> 00:17:52,370
+真的很小，所以我们的CP和CV几乎完全一样
+is really really really small so CP and
+CV are almost exactly the same in our
+
+236
+00:17:52,370 --> 00:17:56,690
+理解水平或我们的分析水平，我们可以将其视为
+level of understanding or our level of
+analysis we can just treat them as being
+
+237
+00:17:56,690 --> 00:18:01,130
+如果我们正在考虑气体热，那么对于气体来说完全不一样
+exactly the same not true for a gas if
+we were thinking about a gas thermal
+
+238
+00:18:01,130 --> 00:18:05,539
+正如您去年所了解的，CP和CV的扩展非常大
+expansion is very large CP and CV as you
+learned last year it can be quite
+
+239
+00:18:05,539 --> 00:18:08,809
+不同，所以让我们想起一些我们学到的东西
+different so let's remind ourselves of a
+couple of things that we learned about
+
+240
+00:18:08,809 --> 00:18:15,019
+去年的热容量让我们现在回到天然气，因为我提到了一个
+heat capacity last year let's go back to
+gases now since I mentioned one for a
+
+241
+00:18:15,019 --> 00:18:23,809
+您去年学到的CV单原子单原子单原子原子气
+monatomic moneth monoatomic monatomic
+atomic gas you learn last year that CV
+
+242
+00:18:23,809 --> 00:18:27,529
+因为我所说的是气体，所以我必须指定CV，因为它是
+over N in here since I'm talking about a
+gas I have to specify CV because it's
+
+243
+00:18:27,529 --> 00:18:34,690
+与CP CV在N上不同，每个原子的热容为三分之二kb 
+different from CP CV over N the heat
+capacity per atom was three-halves kb
+
+244
+00:18:34,690 --> 00:18:40,850
+看起来很熟悉吗，好吧，我很高兴转过身来
+does that look familiar
+yeah okay good I'm glad well it turns
+
+245
+00:18:40,850 --> 00:18:51,889
+可以看出，固态碳在整个热容量上有非常相似的定律
+out that there's a very similar law for
+solids solids c over n the heat capacity
+
+246
+00:18:51,889 --> 00:18:59,720
+每个原子为3 kb，我没有指定cv或CP，因为我解释了该定律
+per atom is 3 kb and i didn't specify cv
+or CP as I explained this law the C over
+
+247
+00:18:59,720 --> 00:19:09,409
+ N是3 kb，被称为做长小法则，我做长小法则Dulong and Petit 
+N is 3 kb is known as the law of do long
+Petite I do long petit Dulong and Petit
+
+248
+00:19:09,409 --> 00:19:14,600
+我们是法国的化学家，他们早在1819年就发现了这一法则， 
+we're a French chemists who discovered
+this law way back in 1819 and all the
+
+249
+00:19:14,600 --> 00:19:18,500
+直到1900年代末期，人们都知道了
+way through the rest of the 1900s almost
+to the very end of the 1900s people knew
+
+250
+00:19:18,500 --> 00:19:21,820
+关于这项法律，但他们不知道是什么原因造成的
+about this law but they didn't know what
+caused it
+
+251
+00:19:21,820 --> 00:19:28,909
+直到玻尔兹曼（Boltzmann）出现，所以玻尔兹曼（Boltzmann）是一个非常聪明的人，他非常
+until along comes Boltzmann so Boltzmann
+was a very smart guy and he very much
+
+252
+00:19:28,909 --> 00:19:34,940
+喜欢这种统计机制的东西，他有点发明了这个领域， 
+liked this statistical mechanics stuff
+he sort of invented the field and he
+
+253
+00:19:34,940 --> 00:19:39,860
+以为他也许可以理解他的这个定律长了吗？ 
+thought that maybe he could understand
+that this law of do long petit using his
+
+254
+00:19:39,860 --> 00:19:44,080
+玻尔兹曼妈妈Volta mano 
+Boltzmann mom Volta mano
+
+255
+00:19:44,379 --> 00:19:50,990
+如果您还记得他的统计数据，请立即使用他的统计机制
+using his statistical mechanics now if
+you remember what is his statistical
+
+256
+00:19:50,990 --> 00:19:55,290
+他已经知道如何得出三分之二的气体的机械图Kb 
+mechanical picture of a gas he already
+knew how to derive this three-halves Kb
+
+257
+00:19:55,290 --> 00:19:58,170
+对于一种气体，这种气体的图片是你有这些原子，它们是
+for a gas and this picture of a gas is
+that you have these atoms and they're
+
+258
+00:19:58,170 --> 00:20:01,710
+随着气体温度的升高，它们在太空中来回飞行
+flying back and forth in space as you
+raise the temperature of the gas they
+
+259
+00:20:01,710 --> 00:20:06,750
+来回飞得更快，所以它们有更多的动能，所以DQ Q是
+fly back and forth faster and so they
+have more kinetic energy so DQ Q is the
+
+260
+00:20:06,750 --> 00:20:10,890
+能量，T是温度，Q随着T的上升而上升，因此
+energy and T is the temperature and Q
+goes up as T goes up so that gives you
+
+261
+00:20:10,890 --> 00:20:15,900
+一些热容量，所以他认为很好，也许固体确实
+some some heat capacity so he thought
+well maybe maybe a solid is really
+
+262
+00:20:15,900 --> 00:20:19,830
+类似于气体，您知道固体中有一些原子，并且当您提高
+similar to a gas you know you have some
+atoms in the solids and as you raise the
+
+263
+00:20:19,830 --> 00:20:23,520
+温度升高时它们运动的速度更快，但这并不完全像气体，因为
+temperature they move around faster but
+it's not exactly like a gas because
+
+264
+00:20:23,520 --> 00:20:27,090
+他们并没有完全自由地飞来飞去，你知道其中一个原子
+they're not flying around completely
+free you know one one of the atoms in
+
+265
+00:20:27,090 --> 00:20:31,740
+固体向左移动，然后被邻居推回
+the solid moves off to the left and then
+it gets pushed back by its neighbor it
+
+266
+00:20:31,740 --> 00:20:35,370
+不会熄灭，您完全知道右边或左边，并且有点
+doesn't go off you know completely off
+to the right or left and it sort of gets
+
+267
+00:20:35,370 --> 00:20:37,560
+推回原来的位置，然后朝另一个方向走
+pushed back to its original position and
+then it goes off in the other direction
+
+268
+00:20:37,560 --> 00:20:41,750
+回到了传统位置，所以他想得好，也许我
+and it comes back to the traditional
+position so he thought well maybe I
+
+269
+00:20:41,750 --> 00:20:49,200
+应该制作一个称为固体的玻尔兹曼模型的实体模型，并且
+should make a model of the solid known
+as the Boltzmann model of solid and that
+
+270
+00:20:49,200 --> 00:20:56,190
+是在1896年，他的固体模型非常简单，只是谐调
+was in 1896 and his model of a solid was
+really simple it was just a harmonic
+
+271
+00:20:56,190 --> 00:21:00,350
+在谐波阱的底部有一个原子，并且该原子可以振荡
+well with an atom in the bottom of the
+harmonic well and the atom can oscillate
+
+272
+00:21:00,350 --> 00:21:04,590
+来回移动，并且随着温度的升高，它还会来回摆动
+back and forth and as you raise the
+temperature it oscillates more back and
+
+273
+00:21:04,590 --> 00:21:08,040
+因此，它存储了更多的能量，所以有一些热量，所以他
+forth and so it's storing more energy in
+so that's some amount of heat and so he
+
+274
+00:21:08,040 --> 00:21:11,970
+只需要从底部算出这个原子的热容量
+just needs to calculate the heat
+capacity of this atom in the bottom out
+
+275
+00:21:11,970 --> 00:21:16,380
+潜力的潜力，那么您如何做得好呢？ 
+of the potential well so how do you do
+that well there's a really short and
+
+276
+00:21:16,380 --> 00:21:24,680
+计算热容的简单方法是使用等分定理
+easy way to calculate the heat capacity
+is is to use the equipartition theorem
+
+277
+00:21:24,680 --> 00:21:29,850
+您可能是去年学到的，基本上可以说每个学位
+which you probably learned last year
+which basically says for each degree of
+
+278
+00:21:29,850 --> 00:21:36,480
+您可以在其中存储能量的自由度获得1/2 KB的峰值容量，因此
+freedom where you can store energy you
+get 1/2 KB where the peak capacity so
+
+279
+00:21:36,480 --> 00:21:42,170
+让我们提醒自己这是如何工作的，例如单原子气体
+let's remind yourself how this works
+so for example with a monatomic gas
+
+280
+00:21:42,170 --> 00:21:50,430
+单原子气体能很好地存储能量的自由度是多少
+monatomic gas what are the degrees of
+freedom that store energy well the gas
+
+281
+00:21:50,430 --> 00:21:53,940
+分子可以在X方向上具有动量它可以在Y方向上具有动量
+molecule can be having momentum in the X
+direction it can have momentum in the Y
+
+282
+00:21:53,940 --> 00:21:59,130
+方向它可以在Z方向上动量，所以我们有px py或PZ 
+direction it can momentum in the Z
+direction so we have px py or PZ that's
+
+283
+00:21:59,130 --> 00:22:07,920
+每个原子有三个自由度，所以看到N是三分之二KB可以
+three degrees of freedom per atom so see
+the over N is three-halves KB okay be
+
+284
+00:22:07,920 --> 00:22:14,970
+好吧，现在固体怎么样呢？固体非常相似
+okay now what about the solid well it's
+solid pretty similar what are the
+
+285
+00:22:14,970 --> 00:22:18,090
+可以很好地存储能量的自由度，您在X中有动力
+degrees of freedom that can store energy
+well you have momentum in the X
+
+286
+00:22:18,090 --> 00:22:22,770
+ Y方向的动量Z方向的动量
+Direction momentum in the Y Direction
+momentum in the Z direction but also you
+
+287
+00:22:22,770 --> 00:22:27,450
+可以将能量存储在xy和z坐标中，因为如果采用
+can store energy in the x y and z
+coordinates because if you take that
+
+288
+00:22:27,450 --> 00:22:32,790
+原子，您将其从零位置移开，即使它耗费了能源
+atom you displace it from the position
+zero it costs you energy even if it
+
+289
+00:22:32,790 --> 00:22:36,630
+没有任何动量，只会消耗您的精力，随着
+doesn't have any momentum it just costs
+you energy to you move it up with the
+
+290
+00:22:36,630 --> 00:22:39,390
+潜在的焊接，或者只是拉伸弹簧（如果您想考虑一下） 
+potential weld or just stretch the
+spring if you want to think of it that
+
+291
+00:22:39,390 --> 00:22:48,600
+这样，Z在N的六个自由度上是3kb，做长小法则是
+way so Z over N six degrees of freedom
+is 3kb law of do long petite this was
+
+292
+00:22:48,600 --> 00:22:52,860
+现在，玻尔兹曼为您进行的第一个作业分配的理由是
+Boltzmann's reasoning now for your first
+homework assignment you'll derive this
+
+293
+00:22:52,860 --> 00:22:56,130
+更严格地说，您知道您是否记得上次统计机修课程
+more rigorously and you know if you
+remember from your stat mech course last
+
+294
+00:22:56,130 --> 00:23:00,110
+一年的严格方法是写下一个分区函数
+year the rigorous way to go about this
+is to write down a partition function
+
+295
+00:23:00,110 --> 00:23:04,170
+微分功能得到能量微分能量
+differentiate the partition function to
+get the energy differentiate the energy
+
+296
+00:23:04,170 --> 00:23:08,220
+获得热容量，如果这样做，您将得到的正是这个数量
+to get the heat capacity and if you do
+that you'll get exactly this number of
+
+297
+00:23:08,220 --> 00:23:16,290
+现在，三分之二Kb先生。玻尔兹曼派生于1896年， 
+three-halves Kb now this result that mr.
+Boltzmann derived in 1896 was an
+
+298
+00:23:16,290 --> 00:23:19,860
+由于许多原因，结果非常重要，第一个原因是
+extremely important result for a number
+of reasons the first reason is it
+
+299
+00:23:19,860 --> 00:23:24,390
+解释了这个结果，这是众所周知的长娇小法则
+explained this result this law of do
+long petite that had been known for
+
+300
+00:23:24,390 --> 00:23:28,770
+快一百年了，没人知道为什么会这样，突然之间他
+almost a hundred years and no one knew
+why that had held and all of a sudden he
+
+301
+00:23:28,770 --> 00:23:34,380
+他有其保留的充分理由，而且这非常重要
+he had this good reason why it holds and
+but moreover it was extremely important
+
+302
+00:23:34,380 --> 00:23:38,180
+因为在1896年，很少有人相信统计力学
+because in 1896 not a lot of people
+believed in statistical mechanics
+
+303
+00:23:38,180 --> 00:23:41,790
+玻尔兹曼（Boltzmann）有点孤单，他和一个认识几个他的朋友
+Boltzmann was kind of off on his own he
+and a you know a couple of his friends
+
+304
+00:23:41,790 --> 00:23:46,320
+相信siskel力学，没有人愿意，但是每次Boltzmann出现时
+believed in siskel mechanics and no one
+else did but each time Boltzmann came up
+
+305
+00:23:46,320 --> 00:23:49,500
+结果他可以解释，世界上没有其他人可以解释
+with a result that he could explain and
+no one else in the world could explain
+
+306
+00:23:49,500 --> 00:23:52,950
+人们不得不更认真地对待这种统计机制的东西，这
+people had to take this statistical
+mechanics stuff more seriously and this
+
+307
+00:23:52,950 --> 00:23:57,830
+对他来说是重要的成绩之一，所以这是一个很大的进步
+was one of the important results for him
+so so this was it was a great advance
+
+308
+00:23:57,830 --> 00:24:01,920
+但是有个问题困扰着玻尔兹曼， 
+but there was a problem something that
+bothered Boltzmann and something that
+
+309
+00:24:01,920 --> 00:24:06,630
+人们认为玻尔兹曼的推理可能是错误的， 
+made people think that potentially maybe
+Boltzmann's reasoning was wrong and the
+
+310
+00:24:06,630 --> 00:24:15,420
+问题是DP的长期定律并不总是正确的
+problem was that the law of do long
+petit of DP is not always true not
+
+311
+00:24:15,420 --> 00:24:18,470
+永远是真的
+always true
+
+312
+00:24:18,690 --> 00:24:25,869
+有时会失效，因此，如果您采用某种材料，则可以测量其热容量
+fails sometimes so if you take a
+material you measure its heat capacity
+
+313
+00:24:25,869 --> 00:24:30,970
+而每个原子有3 KB，但事实证明，如果采用
+and you come up with three KB per atom
+but it turns out that if you take that
+
+314
+00:24:30,970 --> 00:24:36,279
+材料冷却后，将其降至较低的温度T 
+material and you cool it down take it to
+a lower temperature at T much less than
+
+315
+00:24:36,279 --> 00:24:43,889
+在T室中，您会发现C大于n总是小于3 Kb 
+T room you would discover that C over n
+always becomes much less than three Kb
+
+316
+00:24:43,889 --> 00:24:50,830
+因此某些材料很少会在低温下降低每个原子的热容量
+so the heat capacity per atom drops at
+low temperature for some materials rare
+
+317
+00:24:50,830 --> 00:24:59,049
+材料，但对于某些材料，特别是对于金刚石的一种金刚石
+materials but for some materials and one
+in particular diamond for diamond that c
+
+318
+00:24:59,049 --> 00:25:08,289
+即使在室温下，n上的n都远小于3 Kb，因此
+over n is much less than three Kb
+even at room temperature at T room so
+
+319
+00:25:08,289 --> 00:25:12,899
+对于大多数室温下的材料，每个原子可获得3 KB的热容量
+for most materials at room temperature
+you get three KB heat capacity per atom
+
+320
+00:25:12,899 --> 00:25:16,570
+钻石是一个例外，因为热容量较小
+Diamond is an exception that is heat
+capacity is smaller you take any
+
+321
+00:25:16,570 --> 00:25:22,509
+材料并将其冷却，热容量将降至3 KB以下，因此
+material and cool it down and the heat
+capacity will drop below 3 KB so this
+
+322
+00:25:22,509 --> 00:25:28,059
+是一个难题-玻尔兹曼（Boltzmann）困扰了很多年的所有人， 
+was a puzzle - Boltzmann and it puzzled
+everyone for for a number of years and
+
+323
+00:25:28,059 --> 00:25:33,609
+事实上，不幸的是，玻尔兹曼（Boltzmann）从未活着看到这个难题的答案
+in fact Boltzmann never lived to see the
+answer to this puzzle he unfortunately
+
+324
+00:25:33,609 --> 00:25:38,919
+在1905年自杀，而对于一位伟大的科学家来说，这是两个
+committed suicide in 1905 rather said
+and for a great scientist and it was two
+
+325
+00:25:38,919 --> 00:25:43,749
+几年后，这终于被一个非常非常聪明的年轻人解决了
+years after that that this was finally
+sorted out by a very very bright young
+
+326
+00:25:43,749 --> 00:25:49,929
+男人叫阿尔伯特·爱因斯坦（Albert Einstein），这个成就你知道
+man by the name of Albert Einstein and
+this you know this achievement by
+
+327
+00:25:49,929 --> 00:25:54,580
+爱因斯坦实际上是我从未尝试过的最重要的事情之一
+Einstein is actually one of the most
+important things that I never did way up
+
+328
+00:25:54,580 --> 00:25:58,899
+有相对论或光电效应的人们更了解但
+there with relativity or photoelectric
+effect that people know a lot better but
+
+329
+00:25:58,899 --> 00:26:04,570
+我要说的是爱因斯坦的这一结果与这些结果一样重要，因此
+this result by Einstein I will argue is
+just as important as as those results so
+
+330
+00:26:04,570 --> 00:26:17,970
+这是固体的九个斯坦因模型爱因斯坦模型固体是1907年
+this is a nine Stein's model Einstein
+model of a solid a solid which is 1907
+
+331
+00:26:18,770 --> 00:26:24,090
+实际上，爱因斯坦的固体模型与玻耳兹曼的模型完全相同
+and Einsteins model of a solid is
+actually exactly the same as Boltzmann's
+
+332
+00:26:24,090 --> 00:26:33,960
+玻尔兹曼模型等于玻尔兹曼固体加一种成分
+model Boltzmann equals Boltzmann solid
+plus one ingredient and the one
+
+333
+00:26:33,960 --> 00:26:42,150
+成分是量子力学加量子，所以要多一点
+ingredient is quantum mechanics plus
+quantum so just to be a little bit more
+
+334
+00:26:42,150 --> 00:26:46,980
+明确我们在这里关于这个模型的意思，所以我们再次有一个原子
+specific about what we mean here about
+this model so again we have an atom in
+
+335
+00:26:46,980 --> 00:26:50,940
+势阱的底部可以来回摆动
+the bottom of potential well can
+oscillate back and forth there's an
+
+336
+00:26:50,940 --> 00:26:55,080
+振荡器频率Omega是某些Pring弹簧常数的平方根
+oscillator frequency Omega is square
+root of some Pring spring constant
+
+337
+00:26:55,080 --> 00:27:01,470
+除以一些质量，然后我们必须使用
+divided by some mass and then we have to
+treat this this potential well using
+
+338
+00:27:01,470 --> 00:27:07,650
+量子力学现在不再使用经典力学了
+quantum mechanics not using classical
+mechanics now this result by Einstein
+
+339
+00:27:07,650 --> 00:27:12,330
+在1907年完全令人发指，您必须真正考虑一下
+was completely outrageous in 1907 and
+you have to really think about what was
+
+340
+00:27:12,330 --> 00:27:16,500
+发生在1907年，比薛定inger方程式早了十九年
+going on in 1907 this was nineteen years
+before the Schrodinger equation no one
+
+341
+00:27:16,500 --> 00:27:19,260
+知道量子力学，甚至连量子力学都没有
+knew about quantum mechanics there
+wasn't even a word for quantum mechanics
+
+342
+00:27:19,260 --> 00:27:23,790
+然后他们是他真的在四肢努力工作，他在推论
+then so they were he was really working
+way out on a limb and he was deducing
+
+343
+00:27:23,790 --> 00:27:28,230
+从实验中他必须弄清楚自然界中到底发生了什么
+from the experiment what must be going
+on in nature he was figuring out quantum
+
+344
+00:27:28,230 --> 00:27:33,780
+基于这些实验的力学，我们现在比
+mechanics based on these experiments now
+we have some huge advantages over
+
+345
+00:27:33,780 --> 00:27:37,440
+爱因斯坦我们知道薛定inger方程，我们知道本征态
+Einstein we know about the Schrodinger
+equation we know about eigenstates we
+
+346
+00:27:37,440 --> 00:27:42,180
+知道如何使用统计力学来处理量化的本征态
+know how to treat quantized eigenstates
+using statistical mechanics so we're
+
+347
+00:27:42,180 --> 00:27:45,750
+将比起更容易，更直接地做到这一点
+gonna be able to do this much much more
+easily and much more directly than
+
+348
+00:27:45,750 --> 00:27:49,740
+爱因斯坦做爱因斯坦不得不采取一些真正的回旋路线才能到达爱因斯坦。 
+Einstein did Einstein had to take some
+really roundabout routes to get to the
+
+349
+00:27:49,740 --> 00:27:53,100
+最终答案，这真是一个很好的答案，我们还有另一个
+final answer which turns it out to be a
+pretty good answer we have another huge
+
+350
+00:27:53,100 --> 00:27:55,650
+比爱因斯坦的优势在于我们还活着
+advantage over
+Einstein which is that we're alive and
+
+351
+00:27:55,650 --> 00:28:02,150
+他死了，那将使我们在思想上更加平等
+he's dead and that that will put us on
+much more equal intellectual footing
+
+352
+00:28:02,350 --> 00:28:08,299
+好吧，我仍然在那儿打赌他，但是无论如何，所以我们学到了什么
+okay I'd still bet on him there but uh
+all right anyway so what we learned
+
+353
+00:28:08,299 --> 00:28:12,260
+关于去年量子力学中的谐振子的是
+about the harmonic oscillator in quantum
+mechanics last year is that the the
+
+354
+00:28:12,260 --> 00:28:17,330
+能量态势阱中原子的本征态应为
+energy states the eigenstates of the
+atom in the potential well should be
+
+355
+00:28:17,330 --> 00:28:24,919
+由下面的表达式给出e sub n是h-bar Omega n加1/2现在我应该
+given by the following expression e sub
+n is h-bar Omega n plus 1/2 now I should
+
+356
+00:28:24,919 --> 00:28:29,390
+稍微小心一点，这是一维的结果
+be a little bit more careful here this
+is the result for a one dimensional
+
+357
+00:28:29,390 --> 00:28:37,789
+振荡器一维，而我们确实生活在三个维中，所以我们要
+oscillator one dimension and we do live
+in three dimensions and so we're gonna
+
+358
+00:28:37,789 --> 00:28:41,840
+必须稍后再解决，但让我们坚持一个维度
+have to fix that up a little bit later
+but let's stick in with one dimension
+
+359
+00:28:41,840 --> 00:28:46,280
+现在，看看是否可以计算出底部原子的热容量
+for now and see if we can figure out the
+heat capacity of an atom in the bottom
+
+360
+00:28:46,280 --> 00:28:50,240
+一维的潜能，所以现在我们知道如何知道如何处理
+of potential well in one dimension so
+now we know how to we know how to handle
+
+361
+00:28:50,240 --> 00:28:55,490
+这是从统计机制过程中我们要做的是我们写下一个分区函数Z 
+this from a stat mech course what we do
+is we write down a partition function Z
+
+362
+00:28:55,490 --> 00:29:00,620
+等于本征态的和，且等于负数大于0 e 
+equals sum over the eigenstates and
+greater than equal to 0 e to the minus
+
+363
+00:29:00,620 --> 00:29:09,860
+ beta en，其中beta比通常的KVT高1，然后我们将
+beta en where beta is 1 over K V T in
+the usual way and then we're gonna take
+
+364
+00:29:09,860 --> 00:29:15,020
+这个分区函数，我们将对其进行区分，让我们来看一下
+this partition function and we'll
+differentiate it to get let's see so we
+
+365
+00:29:15,020 --> 00:29:23,210
+需要超过Z DZ DB D beta 1才能使我们对能量的期望
+need 1 over Z DZ DB D beta to give us
+the expectation of the energy just a
+
+366
+00:29:23,210 --> 00:29:27,350
+评论说，这种期望既是量子力学的又是统计的
+comment that this expectation is both a
+quantum mechanical and statistical
+
+367
+00:29:27,350 --> 00:29:32,030
+机械的期望，我不会经历代数来做到这一点
+mechanical expectation and I won't go
+through the algebra to do this that's
+
+368
+00:29:32,030 --> 00:29:34,880
+实际上是在做家庭作业，实际上可能是去年
+actually on the homework assignment and
+actually probably did it last year as
+
+369
+00:29:34,880 --> 00:29:42,320
+好吧，但是如果你做那个代数，你将得到最终表达式h-bar Omega n sub e 
+well but if you do that algebra you get
+the final expression h-bar Omega n sub e
+
+370
+00:29:42,320 --> 00:29:49,669
+ beta H bar欧米茄加1/2，其中n sub B被称为玻色因子语音
+of beta H bar Omega plus 1/2 where n sub
+B is known as the bose factor voice
+
+371
+00:29:49,669 --> 00:30:01,190
+系数b等于e比beta H barΩ减去e等于1，实际上，如果您
+factor and b equals 1 over e to the beta
+H bar Omega minus 1 and actually if you
+
+372
+00:30:01,190 --> 00:30:04,190
+比较此表达式对能量的期望
+compare this expression for the
+expectation of the energy to the
+
+373
+00:30:04,190 --> 00:30:07,940
+表达式a等于H bar Omega n加1/2你知道它们看起来很
+expression up there a and equals H bar
+Omega n plus 1/2 you know they look very
+
+374
+00:30:07,940 --> 00:30:12,020
+相似，只是n被NB取代，然后告诉您的是bose 
+similar it's just n got replaced by NB
+and what that tells you is that bose
+
+375
+00:30:12,020 --> 00:30:17,840
+因数告诉您在给定温度下的预期激发水平，因此
+factor tells you the expected level
+of excitation at a given temperature so
+
+376
+00:30:17,840 --> 00:30:22,490
+如果在特定温度下n Bose取值为3，则表示
+if at a particular temperature n Bose
+takes the value three it means on
+
+377
+00:30:22,490 --> 00:30:26,380
+在该温度下您平均兴奋到N等于3 
+average at that temperature you're
+excited up to the N equals three
+
+378
+00:30:26,380 --> 00:30:33,200
+激发水平好吧，所以一旦我们表达了能量
+excitation level okay all right so once
+we have an expression for the energy we
+
+379
+00:30:33,200 --> 00:30:40,549
+可以写出能量DT的热容量表达式，如果
+can write the expression for the heat
+capacity the energy DT and if you do
+
+380
+00:30:40,549 --> 00:30:49,130
+这个代数再一次不会做，这是KB乘以beta H条Omega平方
+that algebra again won't do it here
+it's KB times beta H bar Omega squared
+
+381
+00:30:49,130 --> 00:30:58,039
+给您beta H bar Omega超过e到beta H bar Omega的平方
+give you the beta H bar Omega over e to
+the beta H bar Omega one squared now
+
+382
+00:30:58,039 --> 00:31:02,059
+这几乎是我们最终的结果，除了我们必须处理两件事
+this is almost our final result except
+we have to deal with two things the
+
+383
+00:31:02,059 --> 00:31:05,929
+第一件事是我们只计算了单个原子的热容量，所以如果
+first thing is that we only calculated
+the heat capacity of a single atom so if
+
+384
+00:31:05,929 --> 00:31:08,779
+您有很多原子，您必须将其乘以原子数
+you have a lot of atoms you would have
+to multiply this by the number of atoms
+
+385
+00:31:08,779 --> 00:31:12,110
+所以这对于每个原子的热容量是正确的结果，但是
+so this would be the right result for
+the heat capacity per atom but the
+
+386
+00:31:12,110 --> 00:31:16,909
+我们要解决的第二件事是，我们只考虑了一个振荡器
+second thing we have to fix is that we
+were considering a oscillator in only
+
+387
+00:31:16,909 --> 00:31:20,720
+一个维度，实际上它可以振荡，你知道一个原子可以振荡
+one dimension and in fact it can
+oscillate you know an atom can oscillate
+
+388
+00:31:20,720 --> 00:31:24,799
+在三个维度中的任何一个维度上，我们将这个结果乘以三个
+at any one of three dimensions so we're
+gonna multiply this result by three and
+
+389
+00:31:24,799 --> 00:31:32,659
+得到N的最终结果C是KB theta H bar Omega squared e的三倍
+get the final result C over N is three
+times KB theta H bar Omega squared e to
+
+390
+00:31:32,659 --> 00:31:41,029
+ beta H bar Omega在beta H bar Omega中具有相同的表达平方
+the beta H bar Omega the same expression
+in the beta H bar Omega squared and this
+
+391
+00:31:41,029 --> 00:31:47,840
+是爱因斯坦的最终最终结果，因此值得为
+is Einsteins final final result so it's
+worth thinking about this expression for
+
+392
+00:31:47,840 --> 00:31:54,250
+一秒钟，看看他的属性应该是我们要做的第一件事是
+a second and seeing what his properties
+should be the first thing we might do is
+
+393
+00:31:54,250 --> 00:32:00,230
+承受的高温极限KBT远大于欧米茄H bar或其他
+take high temperature limit KBT much
+greater than H bar Omega or in other
+
+394
+00:32:00,230 --> 00:32:06,620
+单词beta H bar Omega远远小于1，如果我们这样做，则e 
+words beta H bar Omega much less than
+one and if we do that we then have e to
+
+395
+00:32:06,620 --> 00:32:13,580
+ beta H bar欧米茄大约等于1加beta H bar欧米茄加上
+the beta H bar Omega is approximately
+equal to 1 plus beta H bar Omega plus
+
+396
+00:32:13,580 --> 00:32:19,519
+点，所以如果我们将这个e带到beta H bar Omega，我们会将其插入楼上
+dot dot so then if we take this e to the
+beta H bar Omega we plug it in upstairs
+
+397
+00:32:19,519 --> 00:32:25,370
+我们只需要保留它1我们将其插入楼下1可以抵消负1 
+we only need to keep it 1 we plug it in
+downstairs the 1 cancels this minus 1
+
+398
+00:32:25,370 --> 00:32:28,820
+而且我们必须将Beta H bar Omega保持在楼下
+and we have to keep the beta H bar Omega
+downstairs
+
+399
+00:32:28,820 --> 00:32:32,120
+然后楼下有beta H bar欧米茄我们楼上有beta H bar欧米茄
+then we have beta H bar Omega downstairs
+we have beta H bar Omega upstairs those
+
+400
+00:32:32,120 --> 00:32:41,059
+两个取消，我们得到ns 3kb以上的C，每个人都很好，是的，所以
+two cancel and we get C over n s 3kb
+everyone good with that yeah okay so
+
+401
+00:32:41,059 --> 00:32:45,649
+这在高温下恢复了长期娇小的规律，也许
+this recovers at high temperature the
+law of do long petite and and maybe
+
+402
+00:32:45,649 --> 00:32:49,580
+这并不奇怪，因为您知道量子的高温极限
+that's not surprising because you know a
+high temperature limit of a quantum
+
+403
+00:32:49,580 --> 00:32:53,269
+系统有点像经典的极限，它会把你还给你
+system you sort of like a classical
+limit it gets gonna give you back what
+
+404
+00:32:53,269 --> 00:32:58,850
+玻尔兹曼（Boltzmann）计算古典物理学，就像玻尔兹曼（Boltzmann）期望在低温
+Boltzmann calculated classical physics
+just like Boltzmann expected at low
+
+405
+00:32:58,850 --> 00:33:05,539
+虽然温度差异很大，所以让我们尝试使用KBT比使用H-bar Omega少得多
+temperature though is quite different so
+let's try KBT much less than h-bar Omega
+
+406
+00:33:05,539 --> 00:33:12,909
+在这种情况下，我们的beta H bar欧米茄很大
+in this case what we have is e to the
+beta H bar Omega is big very big
+
+407
+00:33:12,909 --> 00:33:18,470
+在这种情况下，我们可以得出这个方程式
+exponentially big in which case we can
+come over to this equation here the
+
+408
+00:33:18,470 --> 00:33:22,070
+减去一个与这个庞大的数字无关紧要，所以这只是去
+minus one doesn't matter compared to
+this huge number and so it's just going
+
+409
+00:33:22,070 --> 00:33:26,570
+给我们一个e到楼下平方的beta H bar欧米茄的信息，我们将取消一个
+to give us an e to the beta H bar Omega
+squared downstairs and we'll cancel one
+
+410
+00:33:26,570 --> 00:33:33,769
+楼上的东西，我们将得到C超过n的3 KB倍beta H bar欧米茄
+of the things upstairs and we'll get C
+over n is 3 KB times beta H bar Omega
+
+411
+00:33:33,769 --> 00:33:39,860
+ e等于负beta H bar欧米茄的平方这个重要的是
+squared e to the minus beta H bar Omega
+the important thing about this is this
+
+412
+00:33:39,860 --> 00:33:49,309
+指数小指数小
+exponent which is exponentially small
+exponentially small tiny so when you go
+
+413
+00:33:49,309 --> 00:33:56,659
+到低于Omega的温度时，热容像疯了一样下降，所以
+to temperatures way below a spur Omega
+the heat capacity drops like crazy so
+
+414
+00:33:56,659 --> 00:34:05,269
+让我们来实际绘制这个，所以我在这里绘制这个函数
+let's let's actually plot this so I'll
+plot this function this function here C
+
+415
+00:34:05,269 --> 00:34:12,679
+垂直轴上超过N，水平轴上超过H bar Omega时的Kb T 
+over N on the vertical axis and Kb T
+over H bar Omega on the horizontal axis
+
+416
+00:34:12,679 --> 00:34:19,550
+而且我们知道在高温下我们要问Toth到3 Kb 
+and we know that at high temperature
+we're going to ask some Toth to three Kb
+
+417
+00:34:19,550 --> 00:34:24,560
+所以在高温和低温下看起来像这样
+so look something like this up at high
+temperature and low temperature we're
+
+418
+00:34:24,560 --> 00:34:31,750
+会成倍地变小X变小，像这样连接起来， 
+gonna be exponentially small X small and
+it connects up kind of like this and
+
+419
+00:34:31,750 --> 00:34:37,879
+那么也许这是H栏Omega上的KB大约为1，所以这就是
+then maybe here is something KB over
+h-bar Omega is about 1 so this is what
+
+420
+00:34:37,879 --> 00:34:42,219
+函数看起来像是爱因斯坦的派生
+the function looks like this is what
+Einstein derived so
+
+421
+00:34:42,219 --> 00:34:46,059
+这里发生的物理学是高温又是经典
+
+422
+00:34:46,060 --> 00:34:49,659
+但是在低温下发生了什么在低温下发生了什么
+but what's going on at low temperature
+what's going on at low temperature is
+
+423
+00:34:49,659 --> 00:34:54,399
+这些谐波振荡器冻结到其基态，所以如果
+that these harmonic oscillators are
+freezing into their ground state so if
+
+424
+00:34:54,399 --> 00:34:58,089
+谐波振荡器处于基态，它不能吸收任何
+the harmonic oscillator is sitting in
+its ground state it can't absorb any
+
+425
+00:34:58,089 --> 00:35:02,109
+除非它有足够的热能跳到最高
+energy unless it has enough thermal
+energy to jump all the way up to the
+
+426
+00:35:02,109 --> 00:35:05,890
+处于第一个激发态，H bar Omega在获得之前有一个有限的间隙
+first excited state and there's a finite
+gap of H bar Omega before it can get
+
+427
+00:35:05,890 --> 00:35:10,480
+进入下一个本征态，所以如果其温度远低于
+into the next eigenstate so if its
+temperature is much less than the
+
+428
+00:35:10,480 --> 00:35:14,740
+这些本征状态之间的间隔只是停留在底部的I ghen状态
+spacing between these eigen states it's
+just stuck in the bottom I ghen state
+
+429
+00:35:14,740 --> 00:35:19,300
+而且它根本无法吸收任何能量，因此热容像疯了一样下降
+and it can't absorb any energy at all so
+the heat capacity drops like crazy
+
+430
+00:35:19,300 --> 00:35:23,470
+这就是这张照片中发生的事情，这就是爱因斯坦意识到必须
+that's what's going on in this picture
+and that's what Einstein realized must
+
+431
+00:35:23,470 --> 00:35:30,190
+在这些物理物理系统中一直在发生，所以发生了什么
+have been going on in these physics
+physical systems so what's going on with
+
+432
+00:35:30,190 --> 00:35:36,550
+呃，那是哪里的，那是我丢失的地方，哦，那里是怎么回事
+uh where was it over here over somewhere
+I lost it Oh up there yeah what's going
+
+433
+00:35:36,550 --> 00:35:42,760
+爱因斯坦没想到的一件事就是： 
+on with with diamond well one thing that
+Einstein didn't manage to derive is this
+
+434
+00:35:42,760 --> 00:35:48,760
+这个O型杆欧米茄对于他的理论他是一个合适的参数，他知道你
+this h-bar Omega it was sort of a fit
+parameter for his theory he knew you
+
+435
+00:35:48,760 --> 00:35:51,550
+知道你能弄清楚原子的质量是多少，那么这个h-bar是什么
+know you can figure out what the mass of
+the atom is which so what is this h-bar
+
+436
+00:35:51,550 --> 00:35:55,240
+欧米茄来自那里的振荡器频率
+omega coming from
+it's the oscillator frequency up there
+
+437
+00:35:55,240 --> 00:35:58,690
+它是一些弹簧常数除以质量，你知道原子的质量是多少
+it's some spring constant divided by
+mass you know what the mass of the atom
+
+438
+00:35:58,690 --> 00:36:01,030
+是，但是你不知道弹簧常数是多少，你不知道弹性如何
+is but you don't know what the spring
+constant is you don't know how springy
+
+439
+00:36:01,030 --> 00:36:05,200
+你知道这些谐波井是，所以你只需要猜测它们，所以每个
+you know these harmonic Wells are so you
+just have to guess at them and so each
+
+440
+00:36:05,200 --> 00:36:08,079
+材料将具有不同的弹簧常数，即所谓的爱因斯坦
+material will have a different spring
+constant a different so-called Einstein
+
+441
+00:36:08,079 --> 00:36:14,349
+欧米茄的频率被称为爱因斯坦频率，因此爱因斯坦
+frequency the Omega is known as the
+Einstein frequency and so the Einstein
+
+442
+00:36:14,349 --> 00:36:18,970
+不同材料的频率对于某些材料而言是不同的
+frequency of different materials is
+different for some materials the
+
+443
+00:36:18,970 --> 00:36:24,550
+爱因斯坦频率非常低，在这种情况下，室温会使kb h bar 
+Einstein frequency is very low in which
+case room temperature puts kb h bar over
+
+444
+00:36:24,550 --> 00:36:29,710
+ h-bar欧米茄（Omega）很大，所以您会在图表上以
+h-bar Omega to be a large number so
+you'd be up here on the graph as a
+
+445
+00:36:29,710 --> 00:36:34,180
+事实上，对于大多数材料，您在图表中位于某处，因为H 
+matter of fact for most materials you're
+somewhere up here on the graph because H
+
+446
+00:36:34,180 --> 00:36:39,190
+ bar欧米茄（Omega）低于室温，但是如果您将系统冷却至
+bar Omega is less than room temperature
+but if you cool down the system to
+
+447
+00:36:39,190 --> 00:36:45,099
+从较高到较低的温度，您的热容量将按照
+higher to lower temperature you'll the
+heat capacity will drop as predicted by
+
+448
+00:36:45,099 --> 00:36:48,010
+爱因斯坦在这里，但是一些材料是不同的
+Einstein here
+however some materials are different
+
+449
+00:36:48,010 --> 00:36:54,069
+他们有一个很大的H bar Omega，在这种情况下，室温会导致
+that they have a large H bar Omega
+in which case room temperature would put
+
+450
+00:36:54,069 --> 00:36:59,019
+您在图中的温度低于h-bar 
+you here on the plot
+your temperature is lower than h-bar
+
+451
+00:36:59,019 --> 00:37:02,769
+欧米茄，所以即使在室温下的热容量现在也应该下降
+Omega and so the heat capacity even at
+room temperatures should drop now why is
+
+452
+00:37:02,769 --> 00:37:11,349
+钻石是这些有趣的材料之一钻石，让我们再写一次
+it the diamond is is one of these funny
+materials well diamond let's write again
+
+453
+00:37:11,349 --> 00:37:16,179
+欧米茄是M钻石中Kappa的平方根，原因有二
+Omega is square root of Kappa over m
+diamond is special for a couple reasons
+
+454
+00:37:16,179 --> 00:37:21,849
+首先钻石是碳，碳是非常小的元素
+first of all diamond is carbon and
+carbon is a very small element it's very
+
+455
+00:37:21,849 --> 00:37:25,359
+它是元素周期表中唯一的第六个元素
+high up on the periodic table it's the
+only sixth element on the periodic table
+
+456
+00:37:25,359 --> 00:37:32,349
+只有五个元素比碳更轻，所以对于钻石来说M很小
+only five elements are smaller lighter
+than carbon so M is small for diamond
+
+457
+00:37:32,349 --> 00:37:38,289
+而且钻石是一种非常坚硬的材料，它非常非常坚硬，所以K 
+but also diamond is a really hard
+material it's very very tough so K you
+
+458
+00:37:38,289 --> 00:37:40,900
+可能认为材料的韧性与其某种程度上有关
+might think that the toughness of the
+material is somehow related to its
+
+459
+00:37:40,900 --> 00:37:46,299
+弹簧常数，材料的坚硬程度如何，所以K很大，因此
+spring constant how how hard the
+material is so K is really big so for
+
+460
+00:37:46,299 --> 00:37:50,289
+钻石欧米茄的频率异常大这是其中之一
+diamond the frequency Omega is
+anomalously large this has one of the
+
+461
+00:37:50,289 --> 00:37:55,029
+爱因斯坦频率最大，因此振荡器频率非常大， 
+largest Einstein frequencies here so the
+oscillator frequency is extremely big so
+
+462
+00:37:55,029 --> 00:38:01,359
+室温远高于爱因斯坦频率，所以在此图上表示抱歉
+room temperature is much higher than the
+Einstein frequency so on this plot sorry
+
+463
+00:38:01,359 --> 00:38:04,779
+向后的室温要低得多，表示错误的大多数室温是
+backwards room temperature is much lower
+said that wrong most room temperature is
+
+464
+00:38:04,779 --> 00:38:08,079
+比爱因斯坦的频率低得多，爱因斯坦的频率非常大，因此在该图中
+much lower than the Einstein frequency
+which is very big so on this plot you're
+
+465
+00:38:08,079 --> 00:38:12,969
+在这边下降，所以每个原子的热容量真的很小，所以让
+way down on this side and so the heat
+capacity per atom is really small so let
+
+466
+00:38:12,969 --> 00:38:19,239
+我实际上向您展示了一些真实的实验数据，所以这是
+me actually show you some real
+experimental data there we go so this is
+
+467
+00:38:19,239 --> 00:38:25,150
+斯坦因的原始纸上的一张照片，你所拥有的是
+a picture right out of on Stein's
+original paper and what you have is
+
+468
+00:38:25,150 --> 00:38:30,160
+实验数据就是这些圆圈，您可以从理论上
+experimental data which is these these
+circles and you have the theoretical
+
+469
+00:38:30,160 --> 00:38:35,079
+曲线，这是虚线，现在似乎很适合
+curve which is the dashed line it seems
+to fit fairly well now when one should
+
+470
+00:38:35,079 --> 00:38:39,489
+请记住，有一个自由拟合参数H bar Omega，他无法
+keep in mind that there is a free fit
+parameter H bar Omega he was not able to
+
+471
+00:38:39,489 --> 00:38:43,539
+预测欧米茄应为H bar，尽管他有一个很好的论点，为什么H 
+predict what H bar Omega should be
+although he had a good argument why H
+
+472
+00:38:43,539 --> 00:38:46,029
+酒吧欧米茄（Omega）对戴蒙德（Diamond）应该很大，他不知道确切的数字
+bar Omega should be big for Diamond he
+didn't know exactly what the number
+
+473
+00:38:46,029 --> 00:38:51,099
+应该是这样，他只是选择了最适合数据的那个，而且看起来
+should be so he just chose the one that
+fit the data the best and it does seem
+
+474
+00:38:51,099 --> 00:38:54,519
+考虑到一个参数确实适合高温
+given that one parameter does seem to
+fit fairly well at high temperature you
+
+475
+00:38:54,519 --> 00:38:58,719
+取得三KB的三分之二的规律，即长时间娇小，在低温下
+get three half the three KB the law of
+do long petite and at low temperature it
+
+476
+00:38:58,719 --> 00:39:02,979
+似乎下降了，我只想再强调一次， 
+seems to drop and I just want to
+emphasize one more time that this huge
+
+477
+00:39:02,979 --> 00:39:07,810
+爱因斯坦的成功很重要，不是因为他能够解释什么是
+success for Einstein was important not
+because he was able to explain what was
+
+478
+00:39:07,810 --> 00:39:11,620
+在这些材料中进行低温下的热容
+going on in these materials the heat
+capacity at low temperature but it was
+
+479
+00:39:11,620 --> 00:39:15,430
+更重要的是，为了做到这一点，他需要发明量子
+much more important because in order to
+do this he needed to invent quantum
+
+480
+00:39:15,430 --> 00:39:19,330
+他需要发明谐波振荡器的量化技术
+mechanics he needed to invent the
+quantization of the harmonic oscillator
+
+481
+00:39:19,330 --> 00:39:23,170
+在量子的发展中一个极其重要和关键的时刻
+an extremely important and pivotal
+moment in the development of quanta of
+
+482
+00:39:23,170 --> 00:39:30,300
+量子力学之所以出现，是因为他在研究凝聚态物理
+quantum mechanics and it came because he
+was studying condensed matter physics so
+
+483
+00:39:30,300 --> 00:39:34,360
+尽管事实是这样，但您知道这对Mr. Mr而言是一个不错的成绩。 
+despite the fact that this is you know
+this is a great result for from mr.
+
+484
+00:39:34,360 --> 00:39:38,440
+爱因斯坦他的毁灭实际上是在这幅照片中
+Einstein his undoing
+is actually in this picture there are
+
+485
+00:39:38,440 --> 00:39:43,150
+该图片中也存在一些缺点，并且该缺点似乎总是
+some shortcomings in this picture as
+well and the shortcoming always seems to
+
+486
+00:39:43,150 --> 00:39:46,210
+是因为您可能已经从中知道某些东西现在不完全适合
+be because something doesn't fit
+perfectly now as you probably know from
+
+487
+00:39:46,210 --> 00:39:51,190
+您的实践中有很多原因可能导致数据与理论不符
+your practicals there's plenty of
+reasons why data may not fit theory one
+
+488
+00:39:51,190 --> 00:39:55,870
+原因可能是因为数据错误，如果您查看这一点
+reason might be because the data is
+wrong and if you look at this this point
+
+489
+00:39:55,870 --> 00:40:00,790
+在这里似乎偏离了指向该数据的图像的曲线
+here which seems to be way off the curve
+that picture that point there the data
+
+490
+00:40:00,790 --> 00:40:04,900
+谁把它弄乱了就是错的
+is just wrong whoever measured it messed
+up it's not even close to the right
+
+491
+00:40:04,900 --> 00:40:08,950
+回答它应该在这里，所以这可能是导致
+answer it's supposed to be down here
+so that was one that probably caused
+
+492
+00:40:08,950 --> 00:40:12,720
+艾扬·斯坦（Ayan Stein）做些噩梦，但实际上那不是他的错
+ayan Stein some nightmares but in fact
+that was not his fault
+
+493
+00:40:12,720 --> 00:40:18,910
+但是在这里，您会发现还有一些系统错误
+however down here you'll see that
+there's also some systematic error that
+
+494
+00:40:18,910 --> 00:40:24,610
+理论图，因此，案头曲线始终低于实测值
+the theory plot thus the desk curve is
+below systematically below the measured
+
+495
+00:40:24,610 --> 00:40:29,370
+实验数据，这是真实的，实际上是一个真正的问题是
+experimental data and that is real
+actually that is a real problem is a
+
+496
+00:40:29,370 --> 00:40:37,500
+爱因斯坦理论在大多数材料上的缺点
+shortcoming of Einstein's theory in
+truth for most materials most materials
+
+497
+00:40:37,500 --> 00:40:44,770
+包括金刚石在内，低温下的热容量与T成正比
+including diamond the heat capacity at
+low temperature is proportional to T
+
+498
+00:40:44,770 --> 00:40:52,630
+在低T处获得立方，对此例外，我们将在稍后讨论
+cubed at low T the exception to this an
+exception we'll come to later on in
+
+499
+00:40:52,630 --> 00:40:59,380
+也许两三堂课都是金属之类的东西，例如铅铜
+maybe two or three lectures is metals
+things like lead copper whatever it's
+
+500
+00:40:59,380 --> 00:41:06,460
+立方丁加伽马丁略有不同，但在任何情况下都不会
+slightly different alpha t cubed plus
+gamma t but in no case no material at
+
+501
+00:41:06,460 --> 00:41:11,290
+都是低温下的热容量以指数形式变小
+all is the heat capacity at low
+temperature exponentially small which is
+
+502
+00:41:11,290 --> 00:41:16,330
+爱因斯坦的预言热容的下降从未像爱因斯坦那样快
+Einstein's prediction the heat capacity
+never drops as fast as Einstein
+
+503
+00:41:16,330 --> 00:41:21,250
+预言实际上我想我在这里有一些钻石的比热他
+predicted actually I think I have some
+here specific heat of diamond he
+
+504
+00:41:21,250 --> 00:41:25,089
+钻石的容量作为T的函数绘制为T立方的函数，这是
+capacity of diamond as a function of T
+plotted as a function of T cube this is
+
+505
+00:41:25,089 --> 00:41:28,780
+非常低的温度，这里的温度约为4开尔文， 
+a very low temperature this temperature
+here is about 4 Kelvin and this
+
+506
+00:41:28,780 --> 00:41:34,030
+这里的温度大约是40开氏温度
+temperature here is about 40 Kelvin it
+fits a perfect T cubed line there plot
+
+507
+00:41:34,030 --> 00:41:41,380
+反对T的立方，甚至可以追溯到爱因斯坦，我想知道
+against T cubed so even way back then
+Einstein I think was aware that there
+
+508
+00:41:41,380 --> 00:41:46,030
+作为一个理论是一个问题，因为它没有预测T的立方，而是预测了
+was a problem as a theory because it did
+not predict T cubed it predicted an
+
+509
+00:41:46,030 --> 00:41:50,410
+低温下的热容呈指数增长，这就是场
+exponentially small heat capacity at low
+temperature and this is where the field
+
+510
+00:41:50,410 --> 00:41:56,490
+站在1907年，不得不等了大约五年才有人来
+stood in 1907 and had to wait about five
+years or so before someone came along
+
+511
+00:41:56,490 --> 00:42:01,839
+谁也很聪明地找出爱因斯坦理论的错误所在， 
+who's also very smart to figure out what
+was wrong with Einstein's theory the
+
+512
+00:42:01,839 --> 00:42:09,609
+来的人是一个叫彼得·德拜（Peter Debye）的人，他批准了
+person who came along was a guy by the
+name of Peter Debye and he approved
+
+513
+00:42:09,609 --> 00:42:14,530
+对爱因斯坦的结果进行了改进，并解释了哪里
+improved upon
+Einstein's result and explained where
+
+514
+00:42:14,530 --> 00:42:19,630
+这个T立方的结果来自现在，顺便说一句，我应该说
+this T cubed result came from now the
+buys into it incidentally I should say
+
+515
+00:42:19,630 --> 00:42:22,869
+爱因斯坦认为德拜真的很棒，他非常非常
+that Einstein thought the Debye was
+really brilliant and he was very very
+
+516
+00:42:22,869 --> 00:42:28,329
+很高兴Debye设法弄清楚了这个T形立方体并推翻了爱因斯坦
+happy that Debye managed to figure out
+this T cube and overturn the Einstein
+
+517
+00:42:28,329 --> 00:42:32,290
+在我们称为固体的德拜模型中的实体模型
+model of the solid in what we will call
+the Debye model of the solid which is
+
+518
+00:42:32,290 --> 00:42:37,950
+嗯，他是一个爱因斯坦，但还是个好人。 
+somewhat better um he was a Einstein was
+a good man um anyway so as to buy
+
+519
+00:42:37,950 --> 00:42:43,150
+尽管我猜最近有一些关于爱因斯坦的故事
+although I guess recently there's this
+been some stories about how Einstein was
+
+520
+00:42:43,150 --> 00:42:47,589
+ Debye是个秘密纳粹分子，他讨厌爱因斯坦，但事实证明他们
+how Debye was was secretly a Nazi and he
+hated Einstein but it turns out they
+
+521
+00:42:47,589 --> 00:42:51,579
+都错了，关于它的整本书也许你可以找到
+were all wrong there's a whole book
+about it maybe you can find out on the
+
+522
+00:42:51,579 --> 00:42:57,940
+网络，所以它必须是正确的，所以无论如何，迪拜的直觉是
+web so it's got to be true right
+so anyway what Dubai's intuition was is
+
+523
+00:42:57,940 --> 00:43:02,770
+你不能认为原子在固体中振动就像是一个
+that you can't consider an atom
+vibrating in a solid as just being an
+
+524
+00:43:02,770 --> 00:43:07,990
+势阱中孤立的原子为什么不这样，因为如果原子移动到侧面
+isolated atom in a potential well why
+not because if an atom moves to the side
+
+525
+00:43:07,990 --> 00:43:11,589
+它的潜力确实被它的邻居推回了，但在同一情况下
+of potential well it does get pushed
+back by its neighbor but in the same
+
+526
+00:43:11,589 --> 00:43:15,910
+它推它的邻居，所以它的邻居移动，然后它推
+time it pushes on its neighbor and so
+its neighbor moves and then it pushes on
+
+527
+00:43:15,910 --> 00:43:18,940
+它的邻居等等，依此类推等等
+its neighbor and so forth and so on and
+so forth and so on
+
+528
+00:43:18,940 --> 00:43:23,319
+因此，您需要考虑的不仅仅是单原子的振荡
+so what you need to think about is not
+just the oscillation of single atoms in
+
+529
+00:43:23,319 --> 00:43:25,869
+潜在井的底部，但您必须考虑集体
+the bottom of potential wells but you
+have to think about the collective
+
+530
+00:43:25,869 --> 00:43:30,700
+所有原子在固体中的运动以及所有物体的集体运动
+motion of all the atoms together in the
+solid and the collective motion of all
+
+531
+00:43:30,700 --> 00:43:34,930
+固体中的原子会产生波，因此我们将不得不研究波
+the atoms in the solid makes
+wave so we will have to study wave
+
+532
+00:43:34,930 --> 00:43:40,240
+固体中的振动运动，实际上我们甚至知道波动是什么
+motion of vibrations in the solid and in
+fact we even know what the wave motion
+
+533
+00:43:40,240 --> 00:43:45,130
+在固体中称为振动波运动，通常称为
+in a solid vibrational wave motion in a
+solid is called it's usually called
+
+534
+00:43:45,130 --> 00:43:50,650
+发出声波，所以bi意识到什么之间存在联系
+sound a sound wave so what do bi
+realizes there's a connection between
+
+535
+00:43:50,650 --> 00:43:56,440
+原子在固体中的振荡，实际上听起来像是因为
+the oscillation of atoms in a solid and
+in fact sound now one for the thing that
+
+536
+00:43:56,440 --> 00:44:00,700
+德比当时了解的真正重要的是波浪可以
+Debye understood at the time which was
+really important is that waves can be
+
+537
+00:44:00,700 --> 00:44:06,370
+在某种意义上被量化为与振动原子相同的方式
+quantized to in the sense the same way
+that the vibrational atom the
+
+538
+00:44:06,370 --> 00:44:09,700
+底部势阱中原子的振动运动可以量化
+vibrational motion of an atom in the
+bottom potential well can be quantized
+
+539
+00:44:09,700 --> 00:44:14,590
+他所研究的有关如何量化波浪的示例是Max 
+and the example that he looked to as to
+how waves should be quantized was Max
+
+540
+00:44:14,590 --> 00:44:20,320
+普朗克对光进行量化，所以迪拜想要做的是量化
+Planck's quantization of light
+so what Dubai wanted to do was quantize
+
+541
+00:44:20,320 --> 00:44:25,090
+原子的振动运动作为声波在固体中的运动
+the motion that the vibrational motion
+of atoms as the sound waves in a solid
+
+542
+00:44:25,090 --> 00:44:32,140
+就像Max Planck十年前量化光的方式一样，我猜
+the same way that Max Planck quantized
+the light ten years earlier and I guess
+
+543
+00:44:32,140 --> 00:44:35,180
+我们会在那儿停下来，我会在星期四见
+we'll stop there and I'll see you I
+guess Thursday
+
+544
+00:44:35,180 --> 00:44:43,150
+ [掌声] 
+[Applause]
+

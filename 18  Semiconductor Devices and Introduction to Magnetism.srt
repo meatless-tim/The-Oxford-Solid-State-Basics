@@ -1,0 +1,3638 @@
+1
+00:00:00,030 --> 00:00:03,540
+因此，当参加浓缩物课程的第18讲时，以及
+so when out to the 18th lecture of the
+condensed matter course and and over the
+
+2
+00:00:03,540 --> 00:00:06,330
+最近几周，我们一直在积累有关
+last couple weeks
+we've been building up our knowledge of
+
+3
+00:00:06,330 --> 00:00:09,780
+如何了解固体中的电子我们知道关于能带结构的知识
+how to understand electrons in solids we
+know about band structure we know of
+
+4
+00:00:09,780 --> 00:00:13,230
+我们知道的电子和空穴就像有效物质一样，我们知道关于掺杂
+electrons and holes we know about like
+effective masses we know about doping
+
+5
+00:00:13,230 --> 00:00:18,359
+在这一点上，我们实际上已经获得了足够的知识，我们可以
+and at this point we actually have
+arrived at enough knowledge that we can
+
+6
+00:00:18,359 --> 00:00:22,320
+实际考虑将材料组合在一起以制造真实的设备
+actually think about putting together
+materials in order to make real devices
+
+7
+00:00:22,320 --> 00:00:31,080
+尤其是半导体器件
+and in particular semiconductor devices
+semiconductor devices which is in some
+
+8
+00:00:31,080 --> 00:00:36,480
+凝聚态物理整个领域的最高荣耀是
+way the the crowning glory of the entire
+field of condensed matter physics it's
+
+9
+00:00:36,480 --> 00:00:39,149
+因为我们可以制造半导体设备，例如
+because we can make semiconductor
+devices that we can build things like
+
+10
+00:00:39,149 --> 00:00:42,870
+我们可以制造手机的计算机，我们可以制造iPad以及其他所有这些
+computers we can build cell phones we
+can build iPads and and all these other
+
+11
+00:00:42,870 --> 00:00:46,350
+我们认为理所当然的事情，并且完全改变了我们您所知道的方式
+things that we take for granted and
+completely change our you know the way
+
+12
+00:00:46,350 --> 00:00:49,410
+这几天我们活着都是因为我们了解半导体物理学
+we live these days it's all because we
+understand semiconductor physics
+
+13
+00:00:49,410 --> 00:00:56,010
+很好的消息是，这完全不是可检查的，但是
+extremely well the good news is that
+it's totally not examinable but that
+
+14
+00:00:56,010 --> 00:00:58,739
+意味着我们不能坏消息是意味着我们不能花费很多时间
+means that we can't the bad news is that
+means we can't spend a whole lot of time
+
+15
+00:00:58,739 --> 00:01:02,100
+即使这是一个非常有趣的主题，您也可以花费
+on it even though it's extremely
+interesting subject you could spend you
+
+16
+00:01:02,100 --> 00:01:05,010
+知道您一生的剩余时间来研究半导体器件，并且
+know the rest of your entire life
+studying semiconductor devices and
+
+17
+00:01:05,010 --> 00:01:08,880
+建立新的，也许有人在这个房间里真的会
+building new ones and probably some
+people in this room really will the the
+
+18
+00:01:08,880 --> 00:01:12,150
+半导体行业是一个巨大的行业，拥有许多
+semiconductor industry is a huge
+industry that employs many many
+
+19
+00:01:12,150 --> 00:01:15,630
+物理学家，所以人们会思考
+physicists so people will be thinking
+about semiconductor devices in the
+
+20
+00:01:15,630 --> 00:01:20,670
+未来，我保证你会有人，但对我们来说，它将限于40 
+future I promise you someone will but
+for us it's gonna be limited to about 40
+
+21
+00:01:20,670 --> 00:01:23,490
+分钟，但我们将看到40分钟内可以到达的距离
+minutes but we'll see how far we can get
+in 40 minutes
+
+22
+00:01:23,490 --> 00:01:26,939
+所以我们要讨论的最简单的半导体器件是量子
+so the simplest semiconductor device
+we're going to discuss is the quantum
+
+23
+00:01:26,939 --> 00:01:37,110
+好吧，无非就是一种材料夹在另一种材料中的三明治
+well which is nothing more than a a
+sandwich of one material inside another
+
+24
+00:01:37,110 --> 00:01:43,290
+材料，所以您想象这里有三层材料
+material so you imagine having a three
+layer material over here it's over here
+
+25
+00:01:43,290 --> 00:01:47,909
+我们将砷化铝放在这里是砷化镓，这里是铝
+we'll put aluminum arsenide here is
+gallium arsenide and here's aluminum
+
+26
+00:01:47,909 --> 00:01:51,630
+砷化物，所以在我们这面是砷化铝之间的薄层镓
+arsenide so it's a thin layer gallium on
+our side in between aluminum arsenide
+
+27
+00:01:51,630 --> 00:01:56,340
+这是X的一些位置坐标，我们实际上已经研究了这种材料
+this is X some position coordinate and
+we've actually studied this material
+
+28
+00:01:56,340 --> 00:02:00,030
+在砷化镓之前，记得它是具有锌混合结构的
+before gallium arsenide and remember it
+was a it has zinc blende structure it's
+
+29
+00:02:00,030 --> 00:02:04,380
+具有砷化铝基础的FCC就像砷化镓一样，除了
+FCC with the basis aluminum arsenide is
+just like gallium arsenide except you
+
+30
+00:02:04,380 --> 00:02:09,598
+用新的铝代替镓，所以也有FCC和基础
+replace the gallium with a new aluminum
+so it's also FCC with basis and the
+
+31
+00:02:09,598 --> 00:02:13,230
+选择这些材料的原因是我们的砷化铝镓
+reason that chosen these these materials
+aluminum arsenide gallium ours
+
+32
+00:02:13,230 --> 00:02:17,819
+实际上，这里有一点大自然的恩赐
+is actually the there's a little bit of
+a gift of nature here it turns out that
+
+33
+00:02:17,819 --> 00:02:20,879
+砷化镓和晶格常数的晶格常数
+the lattice constant the size of the
+unit cell for gallium arsenide and
+
+34
+00:02:20,879 --> 00:02:25,830
+砷化铝极其精确地相同
+aluminum arsenide is extremely extremely
+precisely the same it's just something
+
+35
+00:02:25,830 --> 00:02:29,250
+随机发生，使这些非常理想的材料可用于
+that randomly occurs which makes these
+very desirable materials to work with
+
+36
+00:02:29,250 --> 00:02:32,310
+使事情变得非常理想的原因是意味着您可以排队
+the reason that makes things very
+desirable is means that you can line up
+
+37
+00:02:32,310 --> 00:02:36,209
+直接位于砷化镓和砷化铝之间的原子，以及
+the atoms directly between the gallium
+arsenide and the aluminum arsenide and
+
+38
+00:02:36,209 --> 00:02:39,989
+基本上只有一个巨型水晶，当您穿过水晶时， 
+basically have just one giant crystal
+and as you walk through the crystal the
+
+39
+00:02:39,989 --> 00:02:43,410
+唯一改变的是从这种材料到所有材料
+only thing that changes is in going from
+this material to this material all the
+
+40
+00:02:43,410 --> 00:02:47,970
+铝被镓秘密地取代了x'好，所以看起来就像一个
+aluminum's get secretly replaced with
+gallium x' ok so it just looks like one
+
+41
+00:02:47,970 --> 00:02:52,500
+一种材料的大晶体，但是在这里有铝
+big crystal of one material but and over
+here you have aluminum's here you have
+
+42
+00:02:52,500 --> 00:02:55,650
+镓新材料回到这里，铝又是
+gallium xin the new back here and it's
+aluminum's again the difference between
+
+43
+00:02:55,650 --> 00:03:01,290
+不同的材料是砷化铝中的带隙实际上是
+the different materials is that the
+bandgap in aluminum arsenide is actually
+
+44
+00:03:01,290 --> 00:03:04,769
+比砷化镓中的带隙大，所以您可能会有一个带
+bigger than the bandgap in gallium
+arsenide so you might have a band
+
+45
+00:03:04,769 --> 00:03:09,000
+像这样的结构这里是大带隙这里是小带隙
+structure that looks like this it's big
+band gap out here small band gap here
+
+46
+00:03:09,000 --> 00:03:14,190
+这里的带隙很大，所以如果我们绘制导带能量，则每次导通
+big band gap here so if we plot the
+conduction band energy each conduction
+
+47
+00:03:14,190 --> 00:03:20,010
+它会在这里很大，然后在这个区域掉落，这就是
+it will be big here then it drops down
+in this region here which is known as
+
+48
+00:03:20,010 --> 00:03:24,389
+量子阱，然后又回到这里，所以这是铝
+the quantum well and then it comes back
+up over here so this is the aluminum
+
+49
+00:03:24,389 --> 00:03:27,569
+砷化物这里是砷化镓这里是砷化铝
+arsenide here's the gallium arsenide
+here's the aluminum arsenide so if
+
+50
+00:03:27,569 --> 00:03:32,010
+你是一个生活在该导带中的电子，你所看到的是你
+you're an electron living in that
+conduction band what you see is you
+
+51
+00:03:32,010 --> 00:03:35,700
+基本上看到了某种约束力，例如
+basically see a well some sort of
+confining potential like a particle in
+
+52
+00:03:35,700 --> 00:03:40,709
+框，您将通常在框内的那个粒子中形成波动函数
+box and you would form a wave function
+in that particle in a box in the usual
+
+53
+00:03:40,709 --> 00:03:44,340
+当然，您也可以在其中激发状态波功能
+way and of course you could have excited
+state wave functions also in that
+
+54
+00:03:44,340 --> 00:03:48,239
+盒子里的颗粒也是这种和那种之间的唯一区别
+particle in a box also the only
+difference between this and the kind of
+
+55
+00:03:48,239 --> 00:03:51,180
+盒子中的粒子您在量子力学课程中解决的问题
+particle in a box problems that you
+solved in your quantum mechanics courses
+
+56
+00:03:51,180 --> 00:03:56,579
+就是如果M星不是M，则电子的有效质量为
+is that if the M star not M the
+effective mass of the electron is
+
+57
+00:03:56,579 --> 00:03:59,970
+重要的是，电子在导带中的有效质量是
+important the effective mass of the
+electron in the conduction band is the
+
+58
+00:03:59,970 --> 00:04:03,810
+缩短方程中显示的重要内容不是
+important thing that shows up in the
+shorteners equation not be real mass of
+
+59
+00:04:03,810 --> 00:04:07,260
+电子和其他不同的是X的V 
+the electron and the other thing that's
+different is that this V of X this
+
+60
+00:04:07,260 --> 00:04:14,630
+电位实际上是由于带结构所致
+potential is actually due to the band
+structure due to band structure
+
+61
+00:04:17,620 --> 00:04:21,769
+这就是导致电位在底部上升和下降的原因
+so that's what's causing the potential
+to go up and down at the bottom of the
+
+62
+00:04:21,769 --> 00:04:25,970
+如果您考虑一下，导带现在正在上下移动
+conduction band is moving is moving up
+and down now if you think about the
+
+63
+00:04:25,970 --> 00:04:29,930
+价带，实际上看起来相反
+valence band
+it actually looks the opposite the
+
+64
+00:04:29,930 --> 00:04:33,980
+价带价价带的顶部从低开始，直到高
+valence band valence the top of the
+valence band starts low it was up high
+
+65
+00:04:33,980 --> 00:04:39,980
+在中间，然后像这样回落，如果你整个生活
+in the middle and then comes back down
+like this and if you are a whole living
+
+66
+00:04:39,980 --> 00:04:43,250
+在价带中，记住孔要向上爬
+in the valence band
+remember the holes try to go up instead
+
+67
+00:04:43,250 --> 00:04:47,240
+像电子一样下降的尝试试图下降，因此实际上可以得到一个空穴
+of coming down like electrons try to
+come down so in fact a hole can get
+
+68
+00:04:47,240 --> 00:04:52,520
+卡在这种颠倒的井中，它也将形成一个特殊的盒子
+stuck in this sort of upside-down well
+and it would also form a particular box
+
+69
+00:04:52,520 --> 00:04:57,410
+该量子阱内部的波函数，因此您可以将两个电子都俘获
+wavefunction inside inside this quantum
+well so you can trap both an electron up
+
+70
+00:04:57,410 --> 00:05:01,490
+在这里和这里的一个洞现在实际上已经非常使用了这种非常简单的结构
+here and a hole down here now this very
+simple structure is actually used quite
+
+71
+00:05:01,490 --> 00:05:05,150
+在半导体行业中经常用于制造
+frequently in in the semiconductor
+industry very frequently for making
+
+72
+00:05:05,150 --> 00:05:08,930
+激光会发生什么，你想象在这里放一个电子和一个洞
+lasers what happens is you imagine
+putting an electron up here and a hole
+
+73
+00:05:08,930 --> 00:05:14,200
+在这里，然后电子可以在发射光子的同时落入该孔
+down here and then an electron can fall
+into that hole while emitting a photon
+
+74
+00:05:14,200 --> 00:05:18,950
+结果出来了，如果您上学了一些激光物理学，就知道如何
+it comes out and if you learn some laser
+physics last term you understand how if
+
+75
+00:05:18,950 --> 00:05:22,760
+你有这样的过渡，你可以建立，你可以从中建立激光器
+you have transitions like this you can
+build you can build lasers out of them
+
+76
+00:05:22,760 --> 00:05:27,080
+关于这种结构整洁的是，您可以改变能量
+the thing that's neat about this
+structure is you can change the energy
+
+77
+00:05:27,080 --> 00:05:30,919
+通过改变孔的宽度来改变本征态
+of the eigenstates by changing the width
+of the well so if you make it a thinner
+
+78
+00:05:30,919 --> 00:05:36,680
+在砷化铝里面的砷化镓里面的一层
+layer in inside this of gallium arsenide
+inside aluminum arsenide then the the
+
+79
+00:05:36,680 --> 00:05:40,190
+能量本征态发生变化仅仅是因为能量本征态始终取决于
+energy eigenstates change just because
+the energy eigenstates always depend on
+
+80
+00:05:40,190 --> 00:05:44,840
+盒子的宽度，因此您可以通过以下方式调节即将发出的声子的能量
+the width of the box and so you can tune
+the energy of the outcoming phonon by
+
+81
+00:05:44,840 --> 00:05:48,200
+只是改变孔的宽度，这就是为什么这种设备
+just changing the width of the well and
+that's why this kind of device is
+
+82
+00:05:48,200 --> 00:05:52,820
+经常在光电子学中使用好吧，所以这是最简单的
+frequently used in optoelectronics okay
+all right so this is a very simplest
+
+83
+00:05:52,820 --> 00:05:55,940
+我们需要考虑的设备，我们不必担心任何掺杂剂
+device that we ever need to think about
+we don't have to worry about any dopants
+
+84
+00:05:55,940 --> 00:06:00,770
+现在我们要考虑添加掺杂剂，这将使我们能够
+now we're going to think about adding
+dopants which when it will enable us to
+
+85
+00:06:00,770 --> 00:06:05,539
+制造一些更复杂的设备，因此掺杂，尽管我在
+make some much more complicated devices
+so doping and although I said at the
+
+86
+00:06:05,539 --> 00:06:08,660
+讲座开始时不对半导体器件进行检查
+beginning of the lecture the
+semiconductor devices is not examinable
+
+87
+00:06:08,660 --> 00:06:14,180
+兴奋剂是可以检查的，我们将在上一堂课的最后讨论
+doping is examinable we are we discussed
+this at the end of last lecture I'll
+
+88
+00:06:14,180 --> 00:06:19,669
+提醒您一些结果，那么如果我们掺杂半导体，密度
+remind you of some of the results then
+if we dope a semiconductor the density
+
+89
+00:06:19,669 --> 00:06:23,750
+导带中的电子数是一些常数，我不会写下来
+of electrons in the conduction band is
+some constants which I won't write down
+
+90
+00:06:23,750 --> 00:06:29,720
+乘以一个指数因子，甚至是负βII传导负μ 
+times an exponential factor even the
+minus beta II conduction minus mu
+
+91
+00:06:29,720 --> 00:06:34,220
+所以基本上这个指数的大部分告诉你
+so basically the big part of this the
+exponential factor tells you that you
+
+92
+00:06:34,220 --> 00:06:38,840
+必须激活电子从化学物质进入导带
+have to activate an electron up into the
+conduction band from the chemical
+
+93
+00:06:38,840 --> 00:06:43,160
+势，它以指数方式被激活到导带中，然后
+potential it's exponentially activated
+up into the conduction band okay and
+
+94
+00:06:43,160 --> 00:06:46,450
+然后前面有几个前置因素没那么有趣
+then there's a couple pre factors out
+front which aren't that interesting
+
+95
+00:06:46,450 --> 00:06:53,180
+同样，实际上应该清楚，当您提高化学势时
+similarly and actually should be clear
+that as you raise the chemical potential
+
+96
+00:06:53,180 --> 00:06:57,770
+朝向导带，导带中的电子密度
+towards the conduction band the density
+of electrons in the conduction band goes
+
+97
+00:06:57,770 --> 00:07:03,080
+如果我们想知道价带中空穴的密度， 
+up similarly if we want to know about
+the density of holes in the valence band
+
+98
+00:07:03,080 --> 00:07:12,890
+ P某些常数甚至会减去beta nu减去DV，所以类似
+P that some constants also even minus
+beta nu minus DV so similarly we have
+
+99
+00:07:12,890 --> 00:07:17,870
+孔被激活到价带，因为记住
+the holes being activated down into the
+valence band because remember to
+
+100
+00:07:17,870 --> 00:07:22,490
+需要能量将一个孔向下推到价带中
+requires energy to push a hole down into
+the valence band the holes want to
+
+101
+00:07:22,490 --> 00:07:27,320
+如果您将化学势向下移动，气泡会再次被激活
+bubble up again it's activated if you
+move the chemical potential down towards
+
+102
+00:07:27,320 --> 00:07:33,400
+价带，然后空穴的密度上升，质量定律
+the valence band then the density of
+holes goes up the law of mass action
+
+103
+00:07:33,400 --> 00:07:43,310
+群众行动告诉我们T的这两个事物n的乘积等于
+mass action tells us that the product of
+these two things n of T P of T equals
+
+104
+00:07:43,310 --> 00:07:48,740
+这两个常数中有两个常数，然后将此e传递给
+and there's a couple of these these two
+sets of constants then this e to the
+
+105
+00:07:48,740 --> 00:07:54,260
+负βe传导负价，这与化学反应无关
+minus beta e conduction minus e valence
+and this is independent of the chemical
+
+106
+00:07:54,260 --> 00:07:59,960
+势，所以应该从这些方程中拿走什么呢？ 
+potential so what one should take away
+from this these equations for which have
+
+107
+00:07:59,960 --> 00:08:03,470
+与电子密度和空穴的导带密度有关
+to do with density of electrons and the
+conduction band density of holes in the
+
+108
+00:08:03,470 --> 00:08:10,760
+价带是如果我们用
+valence band
+is that if we dope if dope heavily with
+
+109
+00:08:10,760 --> 00:08:20,080
+换句话说，如果有很多供体，则化学势会上升到
+n in other words and a lot of donors
+then chemical potential goes up up to
+
+110
+00:08:20,080 --> 00:08:23,450
+导带能量朝着导带能量上升
+the conduction band energy goes up
+towards the conduction band energy
+
+111
+00:08:23,450 --> 00:08:29,810
+因为我们必须增加电子数量同时将产品保留在这里
+because we have to raise the number of
+electrons while keeping the product here
+
+112
+00:08:29,810 --> 00:08:32,919
+固定，唯一发生的方法是提高化学势
+fixed and the only way that happens is
+by raising the chemical potential
+
+113
+00:08:32,919 --> 00:08:40,130
+同样地，如果我们大量地使用毒品
+similarly if we dope heavily if dope
+heavily
+
+114
+00:08:40,130 --> 00:08:52,740
+ P受体在价带上增加空穴，然后mu下降到
+with P acceptors adding holes to the
+valence band then mu goes down to the
+
+115
+00:08:52,740 --> 00:08:58,080
+价带能量好很多，这就是可以检验的一切
+valence band energy okay is that much
+good that's everything that's examinable
+
+116
+00:08:58,080 --> 00:09:04,410
+关于设备物理的是这两个板块，所以现在我们可以做
+about a device physics is these two two
+boards right here so now what we can do
+
+117
+00:09:04,410 --> 00:09:07,920
+我们可以考虑如果在半导体中加入一些掺杂剂会发生什么
+is we can think about what happens if we
+put some dopants in our semiconductor
+
+118
+00:09:07,920 --> 00:09:11,760
+这将我们带到第一个有趣的设备PN 
+and this brings us to our first
+interesting device which is the PN
+
+119
+00:09:11,760 --> 00:09:19,380
+结PN结被意外发现或本质上被发现
+Junction PN Junction which was
+surprisingly discovered or essentially
+
+120
+00:09:19,380 --> 00:09:24,630
+费迪南德·布劳恩·弗农·布朗（Ferdinand Braun Vernon Brown）在1874年发现的行星实际上不知道是什么
+discovered in 1874 by Ferdinand Braun
+Vernon Brown actually had no idea what
+
+121
+00:09:24,630 --> 00:09:28,560
+是他被发现的，但他是一个足够聪明的物理学家，以至于意识到
+it was he discovered but he was a clever
+enough a physicist to realize that what
+
+122
+00:09:28,560 --> 00:09:32,640
+他发现真的很有趣，实际上这变得非常重要
+he discovered was really interesting in
+fact it became an extremely important
+
+123
+00:09:32,640 --> 00:09:36,360
+事情是一个小的电子小部件，使开发
+thing it was a little electronic widget
+that enabled the development of the
+
+124
+00:09:36,360 --> 00:09:40,709
+没有勃拉姆斯发现这个设备的收音机，我们将无法
+radio without Brahms discovering of this
+device we wouldn't have been able to
+
+125
+00:09:40,709 --> 00:09:43,800
+建立收音机，当然，收音机是真正的发明之一
+build a radio and of course the radio is
+one of the inventions that really
+
+126
+00:09:43,800 --> 00:09:47,730
+ PN结在许多方面改变了通信并改变了世界
+changed communications and change the
+world in many ways so PN Junction
+
+127
+00:09:47,730 --> 00:09:52,800
+改变了世界回到1800年代或1900年代初，但实际上
+changed the world back in the 1800's or
+beginning of 1900s but actually it
+
+128
+00:09:52,800 --> 00:09:56,580
+真的不明白为什么PN结表现出它的行为方式
+wasn't really understood why the PN
+Junction behaved the way it did in for
+
+129
+00:09:56,580 --> 00:09:59,970
+布朗发现后大约70年，让我们看看是否可以
+about seventy years after Browns
+discovery so let's see if we can
+
+130
+00:09:59,970 --> 00:10:03,089
+了解布朗不明白的是什么，所以首先
+understand what it was that Brown didn't
+understand so first of all what is the
+
+131
+00:10:03,089 --> 00:10:08,760
+结构，所以您从一大块半导体开始，而您只需掺杂一个
+structure so you start with a big piece
+of semiconductor and you just P dope one
+
+132
+00:10:08,760 --> 00:10:15,270
+当你梵天时，你要涂另一面，然后再涂另一面
+side of it and you n dope the other side
+and dope the other side now when Brahma
+
+133
+00:10:15,270 --> 00:10:18,360
+实际上建造了这个，他拿了两块材料，只是把它们粘住了
+actually built this he took two pieces
+of materials and just stuck them
+
+134
+00:10:18,360 --> 00:10:22,079
+在现代时代，您会一起取一个大晶体，然后添加一些掺杂剂
+together in the modern era you take one
+big crystal and you add some dopants
+
+135
+00:10:22,079 --> 00:10:25,290
+在这里，您可以在此处添加一些掺杂剂，而不是
+over here and you add some dopants over
+here much more controlled than what
+
+136
+00:10:25,290 --> 00:10:31,589
+布朗做到了，但总体上是相同的想法，所以让我们来画一下
+brown did but generally the same idea
+and so let's draw a picture of where the
+
+137
+00:10:31,589 --> 00:10:35,940
+导带和价带是，所以导带能量可能是
+conduction band and the valence band are
+so the conduction band energy might be
+
+138
+00:10:35,940 --> 00:10:43,740
+在这里价带能量可能在这里这里价带在这里和这里
+up here the valence band energy might be
+down here a valence down here and here's
+
+139
+00:10:43,740 --> 00:10:47,250
+我们中间的师现在在这边
+our division in the middle now over on
+this side
+
+140
+00:10:47,250 --> 00:10:51,810
+我们是n掺杂的，这意味着我们在传导中有一堆电子
+we're n-doped so that means we have a
+bunch of electrons up in the conduction
+
+141
+00:10:51,810 --> 00:10:56,170
+带在这里，化学势是方法
+band
+here and the chemical potential is way
+
+142
+00:10:56,170 --> 00:11:01,209
+在这里，在导电带附近，因为我们已经用
+up here mu up here near the conduction
+band because we've doped it with the
+
+143
+00:11:01,209 --> 00:11:04,029
+电子，所以化学势上升到导带能量
+electron so the chemical potential went
+up towards the conduction band energy
+
+144
+00:11:04,029 --> 00:11:14,370
+现在好了，在这里，价带上有一堆孔， 
+good now over down here we have a bunch
+of holes in the valence band and the
+
+145
+00:11:14,370 --> 00:11:20,589
+到目前为止，化学势已被拉低至价带能附近
+chemical potential has been pulled down
+to near the valence band energy so far
+
+146
+00:11:20,589 --> 00:11:23,560
+很好，现在它的绘制方式
+so good
+alright now the way it's drawn this
+
+147
+00:11:23,560 --> 00:11:26,949
+看起来您左侧有负电荷，而在左侧有正电荷
+looks like you have negative charges on
+the left and positive charges on the
+
+148
+00:11:26,949 --> 00:11:31,360
+对，这实际上是不正确的，因为我们省略了原子核上的电荷
+right that's not actually true because
+we've left out the charges on the nuclei
+
+149
+00:11:31,360 --> 00:11:38,320
+所以原子核有电荷我们的原子核也有补偿
+so the nuclei have charges also nuclei
+nukes we and they have compensating
+
+150
+00:11:38,320 --> 00:11:42,820
+像这样的收费，而comping chain在这里收费，因为您还记得
+charges like this and comping chain
+charges over here because you remember
+
+151
+00:11:42,820 --> 00:11:49,000
+当您添加例如在硅中添加磷时，您会添加额外的
+when you add a for example when you add
+a phosphorous to silicon you add a extra
+
+152
+00:11:49,000 --> 00:11:52,959
+核电荷，您还添加了额外的电子，整个事物都是中性的
+nuclear charge you also add an extra
+electron the whole thing is neutral the
+
+153
+00:11:52,959 --> 00:11:56,199
+电子进入导带但你留在正核中
+electron goes off into the conduction
+band but you left in a positive nuclear
+
+154
+00:11:56,199 --> 00:12:01,120
+后面也要充电，所以这里的一切都是电中性的，没有电
+charge behind as well so everything here
+is electrically neutral no electric
+
+155
+00:12:01,120 --> 00:12:05,230
+场电子负电荷由核正补偿。 
+fields electron negative charge is
+compensated by the nuclear positive
+
+156
+00:12:05,230 --> 00:12:09,899
+电荷，整个正电荷由受体补偿
+charge and the whole positive charge is
+compensated by the by the acceptor
+
+157
+00:12:09,899 --> 00:12:16,990
+到目前为止这里的负电荷很好，现在这里我们有电子在这里
+negative charge here so far so good okay
+now here we have electrons up here in
+
+158
+00:12:16,990 --> 00:12:20,980
+导带我们在价带上有孔，实际上
+the conduction band and we have holes
+here in the valence band and in fact
+
+159
+00:12:20,980 --> 00:12:27,070
+这个电子，如果他跌落到价带消灭它的空穴，他
+this electron if he falls down to the
+valence band annihilating its hole he
+
+160
+00:12:27,070 --> 00:12:31,540
+可以释放能量，例如可以发出光子并降低能量，那么
+can let off energy he can emit a photon
+for example and lower the energy so what
+
+161
+00:12:31,540 --> 00:12:37,149
+发生的是将电子重置这里的眼睛有点种族的转变
+happens is reset the electron here an
+eye a little bit of a race to transform
+
+162
+00:12:37,149 --> 00:12:41,740
+消灭整个电子消灭整个电子
+annihilates the whole electron
+annihilates the whole and you end up
+
+163
+00:12:41,740 --> 00:12:46,420
+对我来说是一个区域，在这里歼灭一次，然后歼灭
+with a region to me annihilate one more
+here annihilate one more and we end up
+
+164
+00:12:46,420 --> 00:12:52,360
+从这里到这里中间是这个区域，称为耗尽
+with this region in the middle from here
+to here which is known as the depletion
+
+165
+00:12:52,360 --> 00:13:01,660
+没有电子也没有电子的区域耗尽区
+region depletion region
+where there are no electrons and no
+
+166
+00:13:01,660 --> 00:13:04,089
+漏洞，没有移动电荷载体了
+holes there's no mobile charge carriers
+anymore
+
+167
+00:13:04,089 --> 00:13:09,819
+你只剩下静核电荷，没事了，所以你
+you only have the static nuclear charges
+left okay nothing moving around so you
+
+168
+00:13:09,819 --> 00:13:14,529
+可能认为这种this灭会继续下去，因为电子上升了
+might think that this annihilation would
+keep going because the electrons are up
+
+169
+00:13:14,529 --> 00:13:18,550
+在高能量时，空穴在低能量时下降，所以我们可以保持
+at high energy and the holes are down at
+low energy so we can just keep
+
+170
+00:13:18,550 --> 00:13:21,879
+消灭带有空穴的电子会继续发射光子，并且越来越低， 
+annihilating electrons with holes keep
+emitting photons and lower and lower and
+
+171
+00:13:21,879 --> 00:13:26,439
+降低能量，但事实并非如此，它不会一直持续下去， 
+lower the energy but that's not true in
+fact it doesn't keep going and the
+
+172
+00:13:26,439 --> 00:13:30,160
+之所以不能持续下去，是因为我们在这之后留下了净费用
+reason it doesn't keep going is because
+we're leaving a net charge behind this
+
+173
+00:13:30,160 --> 00:13:34,240
+该区域现在被充电，这是由于掺杂剂导致的净正电荷
+region now is charged this is net
+positive charge because of the dopants
+
+174
+00:13:34,240 --> 00:13:39,160
+这是净负电荷-电荷，所以当我们开始清醒时，我们离开
+and this is net negative charge - charge
+so as we start an eye elating we leave
+
+175
+00:13:39,160 --> 00:13:43,389
+实际上这里是带电区域，这里是带电区域，这意味着我们
+actually a charged region here and a
+charged region here and that means we
+
+176
+00:13:43,389 --> 00:13:46,629
+有一个电场，我想
+have an electric field
+I guess the electric field points from
+
+177
+00:13:46,629 --> 00:13:52,600
+ -对正数和-存入正数负数让我们看看
+the - to the positive and - deposit
+positive negative which way let's see
+
+178
+00:13:52,600 --> 00:13:56,370
+那些正电荷的方向
+the direction of a positive charge those
+
+179
+00:13:57,389 --> 00:14:02,019
+指向这种方式，电场从正网
+points this way yeah
+electric field goes from positive net
+
+180
+00:14:02,019 --> 00:14:08,230
+测试费用转为负数是的，没错，所以有一个
+test charge goes towards the negative
+yes okay got it right so so there's an
+
+181
+00:14:08,230 --> 00:14:12,910
+我们在这里建立的电场，随着我们的歼灭更多
+electric field here that we're building
+up and as we annihilate more more
+
+182
+00:14:12,910 --> 00:14:16,720
+电荷在这里最终会导致越来越多的电场，这意味着如果我们
+charges here we end up with more and
+more electric field and that means if we
+
+183
+00:14:16,720 --> 00:14:21,250
+要在这里再吸收一个电子，然后再消灭一个空穴，我们首先
+want to take one more electron here and
+annihilate one more hole here we first
+
+184
+00:14:21,250 --> 00:14:26,680
+我们必须要爬上一个潜在的山丘才能得到一个静电的山丘
+must we must climb up a potential hill
+an electrostatic potential hill to get
+
+185
+00:14:26,680 --> 00:14:31,569
+越过这个电场到达此处的某个孔
+past this electric field to reach the
+hole here at some point this
+
+186
+00:14:31,569 --> 00:14:35,649
+静电势山变得太大，我们无法克服它，我们
+electrostatic potential hill becomes too
+big and we can't get over it and we
+
+187
+00:14:35,649 --> 00:14:42,879
+不能再有an灭了，所以耗尽宽度耗尽了
+can't have any more annihilation so the
+depletion width deplete the depletion
+
+188
+00:14:42,879 --> 00:14:53,110
+宽度宽度通过设置间隙能量e间隙能量的数量来设置
+width metion width is set by setting the
+gap energy e gap the amount of energy
+
+189
+00:14:53,110 --> 00:14:57,699
+你会通过消除更多的能量和更多的电子而获得收益
+you would you would gain by annihilating
+one more energy with one more electron
+
+190
+00:14:57,699 --> 00:15:03,610
+ Munroe孔的能量等于e乘以Delta Phi的能量
+with Munroe hole is has to equal to e
+times Delta Phi the amount of energy you
+
+191
+00:15:03,610 --> 00:15:08,889
+必须放入其中以使电子越过静电山
+have to put into it to get the electron
+over the electrostatic hill that you're
+
+192
+00:15:08,889 --> 00:15:12,360
+为使电子越过
+fighting against to move the electron
+past the
+
+193
+00:15:12,360 --> 00:15:19,660
+这个充电区域是清楚的，大概有人，是，好，至少有人
+this charge region is that clear roughly
+someone yes okay good at least someone
+
+194
+00:15:19,660 --> 00:15:27,120
+说是的，这里的这种潜力只是来自
+said yes so and this this potential here
+is just the integral of e dot DL from
+
+195
+00:15:27,120 --> 00:15:34,180
+整个系统都很好，所以通常我们不相信
+well across the system alright so so the
+generally we we don't believe that this
+
+196
+00:15:34,180 --> 00:15:37,000
+耗尽宽度将无限大，它将停止在
+depletion width is going to be
+infinitely big it's going to stop at
+
+197
+00:15:37,000 --> 00:15:41,380
+某些区域，但这不是绘制发生情况的好方法，因为这看起来
+some region but this is not a good way
+to draw what goes on because this looks
+
+198
+00:15:41,380 --> 00:15:46,060
+有点看起来有点奇怪，看起来看起来不正确，我的意思是看起来
+a little it looks a little strange it
+looks it looks incorrect I mean it looks
+
+199
+00:15:46,060 --> 00:15:49,270
+就像这里的电子具有较高的能量，而空穴具有较低的能量
+like the electron here is at higher
+energy and the hole is at lower energy
+
+200
+00:15:49,270 --> 00:15:53,020
+所以看起来电子仍然应该消灭空穴
+so it kind of looks like the electron
+should still want to annihilate the hole
+
+201
+00:15:53,020 --> 00:15:56,140
+但是我们知道有一个电场使它变得困难，所以我们
+but we know that there's an electric
+field that's making it difficult so we
+
+202
+00:15:56,140 --> 00:15:59,680
+我们想要做的是我们想要以某种方式重绘这张图片
+what we want to do is we want to redraw
+this picture in a way that will make it
+
+203
+00:15:59,680 --> 00:16:04,180
+很明显，电子不想来消灭另外一个空穴，所以
+obvious that the electron doesn't want
+to come and annihilate one more hole so
+
+204
+00:16:04,180 --> 00:16:10,620
+我们要做的是根据所谓的电化学势绘制事物
+what we do is we draw things in terms of
+the so-called electrochemical potential
+
+205
+00:16:10,620 --> 00:16:19,030
+电化学势是有规律的组合
+electrochemical potential potential
+which is the combination of the regular
+
+206
+00:16:19,030 --> 00:16:24,220
+化学势和静电势都可以，所以我们要作图
+chemical potential and the electrostatic
+potential okay so we're going to plot
+
+207
+00:16:24,220 --> 00:16:29,470
+相反，它将结合在一起，所以带结构
+that instead which is going to combine
+together the so the band structure
+
+208
+00:16:29,470 --> 00:16:34,300
+以及我们留下的空间电荷的库仑效应
+diagram as well as the Coulomb effects
+of the space charge that we left behind
+
+209
+00:16:34,300 --> 00:16:40,480
+所以在这边画一幅我们以前画过的画
+so over on this side
+draw the same picture we had before so
+
+210
+00:16:40,480 --> 00:16:45,070
+我们在这里有一个导电带电化学势
+we have a the conduction band of energy
+up here the electrochemical potential
+
+211
+00:16:45,070 --> 00:16:50,110
+我们将其放在此处，这是一个mu减去E Phi，我们有价带
+we'll put here so this is a mu minus E
+Phi over here we have the valence band
+
+212
+00:16:50,110 --> 00:16:56,740
+这边的能量D价现在在另一边，我们要排队
+energy over here D valence now over here
+on the other side we are going to line
+
+213
+00:16:56,740 --> 00:17:01,390
+电化学势完全相同，但是这里的价带
+up the electrochemical potential exactly
+the same but here the valence band
+
+214
+00:17:01,390 --> 00:17:06,459
+能量将是化合价，导带能量将在此处
+energy will be here a valence and the
+conduction band energy will be up here
+
+215
+00:17:06,459 --> 00:17:13,060
+传导和这些被连接在一起，就像这样，那是
+the conduction and these get connected
+together like this okay that's those are
+
+216
+00:17:13,060 --> 00:17:17,949
+应该是平行线不是很平行应该证明是的，让我
+supposed to be parallel lines not very
+parallel should prove it yeah let me
+
+217
+00:17:17,949 --> 00:17:22,560
+改善它需要更多一点，所以它们看起来非常隐约
+improve it needs this up a little bit
+more so they look very vaguely parallel
+
+218
+00:17:22,560 --> 00:17:30,160
+所以这些应该是我会教其他好的东西，所以我已经
+so these are supposed to be
+I'll teach other okay good so all I've
+
+219
+00:17:30,160 --> 00:17:33,490
+完成就是我把那张照片拍到那里，我把它扭曲了
+done is I've taking that picture up
+there and I've twisted it I've sort of
+
+220
+00:17:33,490 --> 00:17:38,410
+弯曲它以解决额外的静电势
+bent it so as to account for the
+additional electrostatic potential so
+
+221
+00:17:38,410 --> 00:17:42,940
+现在，在左侧和右侧，电化学势与
+now that on the left and the right the
+electrochemical potential lines up with
+
+222
+00:17:42,940 --> 00:17:46,810
+那里的电化学势，告诉我们的是那里
+the electrochemical potential over here
+and what that tells us is it that there
+
+223
+00:17:46,810 --> 00:17:51,820
+如果将电子从该侧移到该侧，则没有净驱动力
+is no net driving force for moving an
+electron from this side to this side if
+
+224
+00:17:51,820 --> 00:17:55,870
+化学势有变化，但化学势也有变化
+there's a change in the chemical
+potential but there's equal change in
+
+225
+00:17:55,870 --> 00:17:59,410
+补偿它的静电势，所以左侧和
+the electrostatic potential that
+compensates it so the left-hand side and
+
+226
+00:17:59,410 --> 00:18:02,350
+就电子而言，右侧完全对齐
+the right-hand side are completely lined
+up as far as the electron is concerned
+
+227
+00:18:02,350 --> 00:18:04,840
+它不想向左移动电子不想向左移动
+it doesn't want to move to the left the
+electron doesn't want to go to left
+
+228
+00:18:04,840 --> 00:18:08,290
+不想走到右边，它只是想说保持原状，所以这是
+don't want to go to the right either it
+just wants to say stay put so this is
+
+229
+00:18:08,290 --> 00:18:12,790
+平衡的情况是很清楚如何画出来的
+the equilibrium situation is that sort
+of clear how this has been drawn okay
+
+230
+00:18:12,790 --> 00:18:17,950
+好吧，那是一张可怕的照片，不是吗，但是这个设备在这里
+all right that's a terrible picture
+isn't it okay but this this device here
+
+231
+00:18:17,950 --> 00:18:22,420
+这基本上是PN结的物理原理，即使它像
+this is basically the physics of the PN
+Junction and even as it stands just like
+
+232
+00:18:22,420 --> 00:18:25,690
+没有做任何进一步的事情，这是一个有趣的设备，因为它
+that without doing anything further it's
+an interesting device because it's
+
+233
+00:18:25,690 --> 00:18:32,670
+基本上是太阳能电池太阳能电池或光电电池光电电池
+basically a solar cell a solar or
+photoelectric cell photoelectric cell
+
+234
+00:18:34,260 --> 00:18:44,110
+电池，其想法是将光子放入光子中
+cell and the idea of this is that you
+put in photons put in photons get out
+
+235
+00:18:44,110 --> 00:18:54,250
+当前得到电流，这种把光子放进去的想法
+current get current and this idea of
+putting in photons and getting our
+
+236
+00:18:54,250 --> 00:18:58,240
+当前是一个您知道的200亿美元的行业，如果人们
+current is a you know twenty billion
+dollar industry right now if people
+
+237
+00:18:58,240 --> 00:19:03,190
+试图建立光电池来替代我们的化石燃料， 
+trying to build photo cells that are
+going to replace our fossil fuels and
+
+238
+00:19:03,190 --> 00:19:06,220
+可能拯救我们的世界免受全球变暖和其他一切的影响，所以我
+potentially save our world from global
+warming and everything else so I
+
+239
+00:19:06,220 --> 00:19:09,460
+鼓励大家进入半导体行业并尝试图
+encourage all of you to go into the
+semiconductor industry and try to figure
+
+240
+00:19:09,460 --> 00:19:12,700
+展示了我们将如何使太阳能电池更高效，以便我们能够获得所有
+out how we're going to make solar cells
+more efficient so that we can get all of
+
+241
+00:19:12,700 --> 00:19:16,120
+我们的力量来自这些东西，而不是燃烧煤炭，石油和其他东西
+our power from these things instead of
+from burning coal and oil and things
+
+242
+00:19:16,120 --> 00:19:20,440
+无论如何，让我们尝试弄清楚为什么这是该设备
+like that at any rate let's try to
+figure out why it is that this device
+
+243
+00:19:20,440 --> 00:19:25,180
+具有此属性，如果您将其置于灯光中，将会获得最新电流，因此，如果您
+has this property that if you put in
+light you'll get out current so if you
+
+244
+00:19:25,180 --> 00:19:30,850
+将光放入此图片中，您可以激发电子
+put in light into this into this picture
+you can excite an electron from the
+
+245
+00:19:30,850 --> 00:19:35,320
+价带至导带，所以您在后面留下一个洞
+valence band up to the conduction band
+so you leave a hole behind and you
+
+246
+00:19:35,320 --> 00:19:38,770
+从价态激发电子直至导带
+excite an electron up to the conduction
+band from the valence
+
+247
+00:19:38,770 --> 00:19:42,310
+现在在这个耗尽区，有一个电场， 
+and now in this depletion region there's
+an electric field there's a strong
+
+248
+00:19:42,310 --> 00:19:45,970
+在此耗尽区中的电场，您可以在这张图片中通过
+electric field in this depletion region
+you can see it in this picture by the
+
+249
+00:19:45,970 --> 00:19:49,900
+这些带的曲率以及电子要发生什么
+curvature of these bands and what
+happens is the electron wants to it's
+
+250
+00:19:49,900 --> 00:19:53,080
+被电场朝这个方向推动，因为它想下降到
+pushed by the electric field in this
+direction because it wants to go down to
+
+251
+00:19:53,080 --> 00:19:57,340
+较低的能量，孔朝这个方向被推动，希望上升到更高
+lower energy and the hole is pushed in
+this direction wants to go up to higher
+
+252
+00:19:57,340 --> 00:20:02,800
+能量，因为空穴总是试图在能带结构中上升
+energy because holes always try to go up
+in the in the band structure and either
+
+253
+00:20:02,800 --> 00:20:07,240
+这样，这总是当前的趋势，它要么是积极的，要么是积极的
+way this is always current
+going to the right it's either positive
+
+254
+00:20:07,240 --> 00:20:11,260
+当前正电荷向右移动，这就是正向移动或
+current positive charge going to the
+right this is plus going to the right or
+
+255
+00:20:11,260 --> 00:20:15,520
+负电荷向左移动，这两个电流在同一电流中
+negative charge going to the left and
+both of those are current in the same
+
+256
+00:20:15,520 --> 00:20:22,240
+方向，因此只需在此处放置一个光子
+direction so just by putting in a photon
+here photon which creates this
+
+257
+00:20:22,240 --> 00:20:30,700
+激发你设法产生电流，所以这是你所知道的物理
+excitation you manage to create current
+so this is the you know the the physics
+
+258
+00:20:30,700 --> 00:20:34,930
+这将使我们免于全球变暖的影响之一，所以请您知道
+is going to save us from global warming
+one of these days so please you know go
+
+259
+00:20:34,930 --> 00:20:38,170
+进入这个世界，弄清楚如何更好地打造那些你知道他们是
+off into the world and figure out how to
+build those better you know they're
+
+260
+00:20:38,170 --> 00:20:41,770
+仍然不如燃烧化石燃料便宜，所以人们不愿意
+still not quite as cheap as burning
+fossil fuels so people aren't willing to
+
+261
+00:20:41,770 --> 00:20:48,610
+使用它们，但也许有一天我们会好起来的，这不是费迪南德·布朗
+use them yet but maybe someday we will
+okay this is not what Ferdinand Brown
+
+262
+00:20:48,610 --> 00:20:53,440
+在1874年发现了他发现的东西就是同一台设备
+discovered in 1874 what he discovered
+was something very was the same device
+
+263
+00:20:53,440 --> 00:20:59,080
+但是他发现了这些东西产生的另一种影响
+but but he discovered another effect
+that these things have which is maybe
+
+264
+00:20:59,080 --> 00:21:07,240
+同样有趣的是整改的效果，这意味着
+equally interesting which is the effect
+of rectification which means that
+
+265
+00:21:07,240 --> 00:21:16,770
+电流以一种方式流向Lowe一种方式，但另一种则不
+current flows one way Lowe's one way one
+way but not the other
+
+266
+00:21:20,810 --> 00:21:26,670
+如果您的电路很好，那么您也许可以弄清楚为什么
+and if you're good with your circuits
+you might be able to figure out why it
+
+267
+00:21:26,670 --> 00:21:31,260
+是具有此属性的东西，它可以纠正您
+is that having something that with this
+property which rectifies enables you to
+
+268
+00:21:31,260 --> 00:21:34,920
+建立一个收音机，这是他很快意识到的，如果您有东西
+build a radio which is what he realized
+very quickly that if you have something
+
+269
+00:21:34,920 --> 00:21:37,860
+纠正允许电流以一种方式流动，但不允许另一种方式流动
+that rectifies allowing current to flow
+one way but not the other
+
+270
+00:21:37,860 --> 00:21:43,290
+你可以用它来建立一个收音机，为什么呢？为什么呢？ 
+you can build a radio with it so why is
+why is this why does it have that
+
+271
+00:21:43,290 --> 00:21:49,080
+物理，好吧，让我们拿起这个装置，让我们想象一下，让我画
+physics oh okay let's take this device
+and let's imagine well let me draw the
+
+272
+00:21:49,080 --> 00:21:52,830
+再次显示相同的图片，除了我现在要做的是要输入电压
+same picture again except what I'm going
+to do now is I'm going to put a voltage
+
+273
+00:21:52,830 --> 00:21:56,700
+跨过这张图片以尝试使电流流动，所以让我们这样做
+across this picture to try to get
+current to flow so let's do that
+
+274
+00:21:56,700 --> 00:22:03,240
+绘制所有完全相同的图片您看到的是电化学势
+draw all exactly the same picture you
+see here's the electrochemical potential
+
+275
+00:22:03,240 --> 00:22:10,070
+ mu减去e Phi在左边，然后在下面是价带能量
+mu minus e Phi on the left and then down
+here is the valence band energy availing
+
+276
+00:22:10,070 --> 00:22:15,360
+在这里，而不是准确地排列电化学势
+over here instead of lining up the
+electrochemical potentials exactly on
+
+277
+00:22:15,360 --> 00:22:18,960
+左右，我将把化学势转移到
+the left and the right I'm going to
+shift the chemical potential down to the
+
+278
+00:22:18,960 --> 00:22:22,530
+此处的电化学势，如果这是精确排列的
+electrochemical potential down here so
+this is if it was lined up exactly it
+
+279
+00:22:22,530 --> 00:22:26,820
+在这里排列完全相同，现在我将其向下移动
+would be exactly the same lined up here
+and now I'm going to shift it downwards
+
+280
+00:22:26,820 --> 00:22:33,540
+通过一些能量在这里传达出来，这就是
+by evey here by some energy so this is
+the electrochemical potential on the
+
+281
+00:22:33,540 --> 00:22:37,170
+现在就这样，因为我要在整个事情上施加电压
+right so now because I'm putting a
+voltage across the whole thing
+
+282
+00:22:37,170 --> 00:22:45,210
+所以我们必须在这里加上价带能量
+so then we have to put in the valence
+band energy I guess mu minus D Phi here
+
+283
+00:22:45,210 --> 00:22:50,070
+在这里，价带能量在这里是价和导带
+is here and the valence band energy is
+here a valence and the conduction band
+
+284
+00:22:50,070 --> 00:22:55,260
+能量将在此处感应，然后在耗尽区域中您有电
+energy will be up here duction then in
+the depletion region you have electric
+
+285
+00:22:55,260 --> 00:22:59,550
+像这样将这些连接在一起的字段，这样很清楚我画了什么
+field which connects these together like
+that okay so is it clear what I've drawn
+
+286
+00:22:59,550 --> 00:23:04,260
+在这里，我拍摄的照片完全相同，只是在
+here I've taken exactly the same picture
+I've just applied a voltage across the
+
+287
+00:23:04,260 --> 00:23:13,590
+两个将这种化学势转移到这里好吧，所以现在
+two to shift this chemical potential
+down to here good alright so um now now
+
+288
+00:23:13,590 --> 00:23:18,270
+我已经施加了这个电压有多少电流流过
+that I've applied this this voltage how
+much current flows well there's several
+
+289
+00:23:18,270 --> 00:23:22,580
+获得电流的方法一种获得电流的方法我们称此过程为
+ways you can get current one way to get
+current let's call this process one is
+
+290
+00:23:22,580 --> 00:23:28,050
+价带中的电子可以被激发到导带
+that electron in the valence band could
+get excited up to the conduction band
+
+291
+00:23:28,050 --> 00:23:30,270
+然后最终找到下坡路
+and then eventually find its way down
+the hill
+
+292
+00:23:30,270 --> 00:23:35,830
+好吧，让我们称过程1和过程2有点相反
+okay so let's call that process one
+and process 2 is sort of the reverse of
+
+293
+00:23:35,830 --> 00:23:40,240
+导带上的空穴会被激发下来
+that which is the hole up in the
+conduction band could get excited down
+
+294
+00:23:40,240 --> 00:23:44,230
+进入价带，因为记住需要正能量来推动一个洞
+into the valence band because remember
+requires positive energy to push a hole
+
+295
+00:23:44,230 --> 00:23:49,870
+下降到价带，然后找到它的上山路，所以过程1＆2 1＆ 
+down into the valence band and then find
+its way up the hill so process 1 & 2 1 &
+
+296
+00:23:49,870 --> 00:23:56,950
+ 2这要么是电子向左移动，要么是空穴向右移动， 
+2 this either an electron going to the
+left or a hole going to the right and
+
+297
+00:23:56,950 --> 00:24:04,960
+无论哪种方式，比率都是e到负beta e差距，因为限制步骤是
+either way it's rate is e to the minus
+beta e gap because the limiting step is
+
+298
+00:24:04,960 --> 00:24:08,470
+使电子上升到导带或使空穴下降
+to get the electron up into the
+conduction band or get the hole down
+
+299
+00:24:08,470 --> 00:24:13,179
+进入价带，这会消耗您的能隙能量，所以它被激活了，所以
+into the valence band and that costs you
+the gap energy so it's activated okay so
+
+300
+00:24:13,179 --> 00:24:16,240
+这是可能会导致电流发生的一件事，而另一件事是
+that's one thing that can happen that
+can cause current but another thing that
+
+301
+00:24:16,240 --> 00:24:19,120
+如果您有一些电子，可能会导致电流
+can happen that can cause current did
+you have some number of electrons up
+
+302
+00:24:19,120 --> 00:24:24,070
+在导带中，他们可以爬上山，让我们
+here in the conduction band already and
+they could just climb up the hill let's
+
+303
+00:24:24,070 --> 00:24:28,150
+叫3或在价带上有一些孔，他们可以
+call that 3 or we have some holes here
+in the valence band and they can just
+
+304
+00:24:28,150 --> 00:24:37,659
+爬下山，我们称它为4，所以3＆4 3＆4我们有电子进入
+climb down the hill let's call it 4 so 3
+& 4 3 & 4 we have electrons going to the
+
+305
+00:24:37,659 --> 00:24:44,200
+右边或左边的孔，它们以e到负的比率发生
+right or holes going to the left and
+they happen at a rate of e to the minus
+
+306
+00:24:44,200 --> 00:24:53,909
+ e gap-Evi为什么从这里到这里的这座山的高度这么好
+e gap - Evi why is that well the height
+of this hill from here to here is e gap
+
+307
+00:24:53,909 --> 00:25:01,480
+ -Evi如果我们未应用此Evie，则间隙能量将完全相同
+- Evi if we had not applied this evie it
+would be exactly the same gap energy
+
+308
+00:25:01,480 --> 00:25:05,740
+我们需要爬上山，但是现在我们减少了那座山， 
+that we would need to climb up the hill
+but now we've reduced that hill we
+
+309
+00:25:05,740 --> 00:25:12,010
+通过在系统上施加电压来减小山丘的大小
+reduced the size of the hill by evey by
+applying the voltage across the system
+
+310
+00:25:12,010 --> 00:25:20,140
+因此，当前的总JJ等于，这将是
+so the total current total J J equals
+well it's going to be a combination of
+
+311
+00:25:20,140 --> 00:25:28,030
+这两个东西，他们称其为1-e减去beta e差距减去3 4 
+these two things they call it a 1 - e to
+the minus beta e gap minus a 3 4 those
+
+312
+00:25:28,030 --> 00:25:35,440
+只是负e差距的系数e-CD 
+are just coefficients e to the minus
+beta e gap - CD which
+
+313
+00:25:35,440 --> 00:25:39,160
+好的，那么我们需要知道这些系数是多少，但实际上是
+okay then we need to know what these
+coefficients are but actually the sort
+
+314
+00:25:39,160 --> 00:25:42,730
+诀窍在于，电压为零时的电流应为零
+of a trick for that that the current
+when they're zero voltage should be zero
+
+315
+00:25:42,730 --> 00:25:47,560
+如果您不对系统施加任何电压，则不应获得任何电流，因此
+if you don't apply any voltage to the
+system you shouldn't get any current so
+
+316
+00:25:47,560 --> 00:25:52,360
+这意味着1 2和3 4应该相等，所以J与e成正比
+that means a 1 2 and a 3 4 should be
+equal so J is proportional to e to the
+
+317
+00:25:52,360 --> 00:26:01,660
+减去beta egapp，我认为乘以KBT的时间是EV 
+minus beta egapp I factored that out
+times e to the e v over KBT
+
+318
+00:26:01,660 --> 00:26:09,970
+那是beta e V减去1 ok，所以这就是所谓的二极管方程二极管
+that's beta e V minus 1 ok so this is
+what's known as the diode equation diode
+
+319
+00:26:09,970 --> 00:26:16,240
+等式PN结或整流器有时也称为二极管
+equation the PN Junction or the
+rectifier is sometimes known as a diode
+
+320
+00:26:16,240 --> 00:26:28,990
+我们可以在此处绘制其行为，以便在该轴上有当前电压
+and we can plot its behavior here so we
+have current voltage on this axis and
+
+321
+00:26:28,990 --> 00:26:36,340
+该轴上的电流，它是电压的指数，所以这是
+current on this axis and it's
+exponential in in the voltage so this is
+
+322
+00:26:36,340 --> 00:26:41,500
+这是零电流，这是负电流，所以也许我应该
+this is zero current here and this is
+negative current here so maybe I should
+
+323
+00:26:41,500 --> 00:26:46,740
+画的像是零在这里，负在这里，所以正
+have drawn it like this zero is here and
+negative is here so it with positive
+
+324
+00:26:46,740 --> 00:26:52,510
+电压呈指数上升，而负电压呈恒定
+voltage it goes up exponentially whereas
+negative voltage it goes to a constant
+
+325
+00:26:52,510 --> 00:26:58,210
+这是一个非常小的常数，因此通常用图形表示
+which is extremely small constant so
+this is frequently drawn figuratively as
+
+326
+00:26:58,210 --> 00:27:04,800
+像这样笔直向上，像这样笔直平坦
+being straight up like this and straight
+flat like this which you know the
+
+327
+00:27:04,800 --> 00:27:08,950
+大概说它允许电流沿一个方向流动，并且不允许
+approximately say it allows current to
+flow in one direction and allows no
+
+328
+00:27:08,950 --> 00:27:13,930
+我们经常在另一个方向上流动电流
+current to flow in the other direction
+frequently we draw in a circuit diagram
+
+329
+00:27:13,930 --> 00:27:20,590
+我们画了一个像这样的二极管，这意味着电流仅流入一个
+we draw a diode like this diode which
+means current flows only in one
+
+330
+00:27:20,590 --> 00:27:25,840
+方向好吧，这是一种非常整洁的设备，可以在您进入电路时
+direction okay it's pretty neat device
+to put into your circuits when you're
+
+331
+00:27:25,840 --> 00:27:32,130
+设计电路，这就是费尔南德·布朗通过实验发现的
+designing circuits so this was what
+Fernand Brown discovered experimentally
+
+332
+00:27:32,130 --> 00:27:37,180
+或多或少，直到1940年代人们才真正了解
+more or less and it wasn't understood
+until 1940s when people really developed
+
+333
+00:27:37,180 --> 00:27:42,640
+对半导体物理学有很好的了解，那时他们
+a good understanding of semiconductor
+physics and by that time when they
+
+334
+00:27:42,640 --> 00:27:45,340
+终于了解了半导体物理学，他们意识到自己可以做得更多
+finally understood semiconductor physics
+they realize they could do a lot more
+
+335
+00:27:45,340 --> 00:27:49,600
+而不是仅仅制造二极管，这使他们能够启动
+with it than just building diodes and
+this enabled them to start
+
+336
+00:27:49,600 --> 00:27:53,230
+致力于改变世界的下一个重大发明
+working on the next big invention that
+changed the world which is the
+
+337
+00:27:53,230 --> 00:28:00,520
+晶体管由John Bardeen Walter的Bell Labs团队于1947年发明
+transistor invented in 1947 by the Bell
+Labs team of John Bardeen Walter
+
+338
+00:28:00,520 --> 00:28:03,970
+ Brattain和William Shockley Bardeen绝对是每个人都应该使用的名字
+Brattain and William Shockley Bardeen is
+definitely a name that everyone should
+
+339
+00:28:03,970 --> 00:28:07,809
+知道是因为他知道晶体管的两个诺贝尔奖，一个因为晶体管
+know because he one knew two Nobel
+Prizes one for the transistor one for
+
+340
+00:28:07,809 --> 00:28:12,750
+超导理论是非常光明的，但几乎是未知的人
+the theory of superconductivity are very
+bright but pretty much unknown person
+
+341
+00:28:12,750 --> 00:28:19,960
+而该器件的晶体管是最基本的最小片
+and this device the transistor is the
+elementary the the smallest piece the
+
+342
+00:28:19,960 --> 00:28:25,299
+基本部件现在已经成为每台计算机制造的基础
+elementary piece the building block of
+every computer ever made now it's in
+
+343
+00:28:25,299 --> 00:28:30,250
+您的平均手机，笔记本电脑或iPad有数十亿个
+your average cell phone or laptop or
+iPad there are billions of these
+
+344
+00:28:30,250 --> 00:28:33,400
+数以十亿计的晶体管在那里
+transistors sitting literally billions
+of them in there
+
+345
+00:28:33,400 --> 00:28:37,450
+基本开关或基本放大器可以使所有功能
+it's the elementary switch or elementary
+amplifier that enables everything to
+
+346
+00:28:37,450 --> 00:28:41,950
+工作，所以晶体管有许多不同的品种，我们要去的品种
+work so transistors come in many
+different varieties the one we're going
+
+347
+00:28:41,950 --> 00:28:48,760
+要讨论的实际上是MOSFET MOSFET，它代表金属
+to discuss is actually known as the
+MOSFET MOSFET which stands for metal
+
+348
+00:28:48,760 --> 00:29:05,169
+氧化物氧化物半导体场效应晶体管电阻，我来解释
+oxide oxide semiconductor field effect
+transistor resistor and I'll explain
+
+349
+00:29:05,169 --> 00:29:09,070
+这是什么意思，尽管我们应该评论一下
+what that means as we as we get to it
+although I should comment that the
+
+350
+00:29:09,070 --> 00:29:13,750
+他们在1947年建造的原始晶体管不是这种设计，而是
+original transistor that they built in
+1947 was not of this design they were
+
+351
+00:29:13,750 --> 00:29:17,169
+意识到他们可以构建此设计，但由于各种原因，他们决定
+aware that they could build this design
+but for various reasons they decided
+
+352
+00:29:17,169 --> 00:29:20,049
+那不是他们要首先尝试建造的那个。 
+that was not the one they were going to
+try to build first this is the type of
+
+353
+00:29:20,049 --> 00:29:23,650
+现在最常在电路中使用的晶体管，这就是为什么要解释
+transistor that's used most frequently
+in circuits now so that's why explaining
+
+354
+00:29:23,650 --> 00:29:28,299
+那个也更容易理解它使谈论方式变得更好
+that one it's also easier to understand
+it makes it nicer to talk about the way
+
+355
+00:29:28,299 --> 00:29:33,909
+它的工作原理是相当简单的设备，需要大量的半导体， 
+it works is fairly simple device you
+take a big piece of semiconductor and
+
+356
+00:29:33,909 --> 00:29:38,230
+你P掺杂它，它有这样的表面，你可以向后做
+you P dope it and it has a surface like
+this you could do it backwards you could
+
+357
+00:29:38,230 --> 00:29:42,130
+内在，但如果您想，但让我们开始想象它是P掺杂的，那么我们采取
+endo but if you wanted to but let's
+start imagine it's P doped then we take
+
+358
+00:29:42,130 --> 00:29:47,860
+两个小区域，最后我们把它们扩大到了这个区域
+two small regions and we end up them
+make it a little bigger this region here
+
+359
+00:29:47,860 --> 00:29:53,470
+ n在这里掺杂这个区域，然后我们在这里掺杂这个区域，这是
+n doped this region here and then we'll
+M dope this region here this and this is
+
+360
+00:29:53,470 --> 00:29:59,260
+所有P掺杂都可以，所以我们现在拥有的表面是N掺杂n掺杂
+all P doped okay so what we have now is
+we have a surface with an N dope n dope
+
+361
+00:29:59,260 --> 00:30:03,130
+还有大量的P掺杂，我们将在此处放置联系人
+and a big bulk with P doped we'll put
+contacts here on
+
+362
+00:30:03,130 --> 00:30:07,600
+电线进入我们称为源极-源极线，这被称为漏极
+wires coming in this we call a source
+source wire and this is called the drain
+
+363
+00:30:07,600 --> 00:30:13,540
+线漏，然后我们尝试现在将电流从源极流到漏极
+wire drain and then we try to run
+current from the source to the drain now
+
+364
+00:30:13,540 --> 00:30:17,710
+如果您在这里查看此结构，您将意识到它不是当前的
+if you look at this structure here
+you'll realize that it's current is not
+
+365
+00:30:17,710 --> 00:30:19,330
+从源头流到漏极
+going to flow from the source to the
+drain
+
+366
+00:30:19,330 --> 00:30:24,070
+您会在nmp之间的界面处有一个耗尽区，有一个NP 
+you'll have a depletion region at the
+interface between nmp there's an NP
+
+367
+00:30:24,070 --> 00:30:30,520
+那里的结和PN结在这里，其中一个PN结想要
+Junction there and PN Junction here and
+one of the PN junctions wants the
+
+368
+00:30:30,520 --> 00:30:34,150
+当前只以一种方式流动，而另一种只希望其流动
+current to only flow one way and the
+other one wants it to flow only the
+
+369
+00:30:34,150 --> 00:30:37,900
+另一种方式，你可以比喻地想像一下，因为你知道两个
+other way you can kind of think of it
+figuratively as being you know two
+
+370
+00:30:37,900 --> 00:30:42,670
+背对背二极管指向相反的方向，因此其中一个仅允许
+back-to-back diodes pointing in opposite
+directions so one of them only allows
+
+371
+00:30:42,670 --> 00:30:45,280
+流到左边的电流只有另一个是流过的电流
+the current to flow to the left the
+other one only was the current to flow
+
+372
+00:30:45,280 --> 00:30:48,130
+在右边，所以在他们两个之间您无法通过
+to the right so between the two of them
+you can't get any kind of through it at
+
+373
+00:30:48,130 --> 00:30:52,480
+一切都好，所以这看起来很无聊，但是现在我们添加了
+all okay so this looks like a boring
+device but now we add the last part of
+
+374
+00:30:52,480 --> 00:30:55,900
+这样的设备，我们在上面放了一块大金属
+the device we put a big piece of metal
+on top like this
+
+375
+00:30:55,900 --> 00:31:05,080
+被称为金属金属门的门，然后我们将其连接到
+which is known as the gate that metal
+metal gate and then we attach it to the
+
+376
+00:31:05,080 --> 00:31:10,570
+通过一点点电池来供电，所以电压加上类似的电池
+source via a little bit of battery here
+so voltage plus battery like that
+
+377
+00:31:10,570 --> 00:31:14,290
+附在金属栅极上，然后我们在两者之间放置一个绝缘体
+attached to the metal gate and then we
+put an insulator in between here which
+
+378
+00:31:14,290 --> 00:31:19,870
+通常是氧化物层，这就是设备金属的名称
+is usually an oxide layer and this is
+what gives the name of the device metal
+
+379
+00:31:19,870 --> 00:31:24,940
+氧化物半导体，因此门是金属，氧化物在中间， 
+oxide semiconductor so the gate is metal
+the oxide is in the middle and the
+
+380
+00:31:24,940 --> 00:31:28,810
+底部的半导体氧化物的目的只是为了制造一个小的
+semiconductors on the bottom the purpose
+of the oxide is just to make a small
+
+381
+00:31:28,810 --> 00:31:33,130
+绝缘层，这样金属就不会接触半导体了
+insulating layer so the metal doesn't
+touch the semiconductor you can make it
+
+382
+00:31:33,130 --> 00:31:36,310
+任何您想要的东西通常都是由氧化物制成，非常好
+of anything you want it's just typically
+made of oxides which are very nice
+
+383
+00:31:36,310 --> 00:31:39,640
+绝缘子，它们很容易制造，您可以用任何绝缘子制成
+insulators and they're easy to build you
+could make it of any insulator you
+
+384
+00:31:39,640 --> 00:31:42,580
+想放在那里，你可以使它成为Dimond，你可以使它成为你知道的
+wanted to put there you could make it of
+Dimond you can make it of you know it
+
+385
+00:31:42,580 --> 00:31:45,310
+如果您愿意的话，可能只是真空，但关键是您必须拥有金属
+could be just vacuum if you wanted but
+the point is you have to have the metal
+
+386
+00:31:45,310 --> 00:31:49,150
+不接触半导体，因此通常称为金属氧化物半导体
+not touching the semiconductor so it's
+usually called metal oxide semiconductor
+
+387
+00:31:49,150 --> 00:31:51,940
+实际上，闸门不必一定是金属，也不必一定是金属
+in fact the gate doesn't have to be
+metal either it just has to be
+
+388
+00:31:51,940 --> 00:31:55,780
+因此，只要在任何地方进行，它就可以随心所欲
+conducting so it can be whatever you
+want as long as it's conducting at any
+
+389
+00:31:55,780 --> 00:31:58,120
+之所以称其为金属氧化物半导体，是因为它几乎总是
+rate it's called metal oxide
+semiconductor because it's almost always
+
+390
+00:31:58,120 --> 00:32:01,720
+由金属氧化物和半导体制成的，这的目的是什么
+made of metal oxide and semiconductor
+all right so what's the purpose of this
+
+391
+00:32:01,720 --> 00:32:08,020
+金属化这个金属门，您可以对其充电，因此它上面有正电荷
+metal this metal gate you charge it up
+so it has plus charges on it and this
+
+392
+00:32:08,020 --> 00:32:11,980
+加上电荷就像一个电容器，它们将吸引负数
+plus charges act like a capacitor and
+they're going to attract negative
+
+393
+00:32:11,980 --> 00:32:16,270
+在这里的半导体上充电现在这个区域是一些
+charges on the semiconductor here now
+this region is some
+
+394
+00:32:16,270 --> 00:32:20,440
+因此，如果您基本上只是在金属和
+so if you basically just charging up a
+capacitor plate between the metal and
+
+395
+00:32:20,440 --> 00:32:25,540
+半导体这个区域，它位于过去用于半导体的顶部
+the semiconductor this region here on
+the top of the semiconductor it used to
+
+396
+00:32:25,540 --> 00:32:28,780
+被p掺杂时您会在那里刺孔，但现在我们吸引了很多
+be p-doped you stab holes there
+but now we've attracted a lot of
+
+397
+00:32:28,780 --> 00:32:33,820
+电子进入该区域，因此不再是P掺杂，而是主要是n掺杂
+electrons into that region so instead of
+being P doped it's now majorly n dope
+
+398
+00:32:33,820 --> 00:32:37,960
+因为我们知道你只是在那儿吸引了电子，所以现在是n 
+because we've you know we just attracted
+electrons there so now it's n so instead
+
+399
+00:32:37,960 --> 00:32:41,740
+像我最初拥有的那张照片现在看起来
+of having something that looks like that
+picture I had originally it now looks
+
+400
+00:32:41,740 --> 00:32:46,950
+更像是从这里到这里的整个区域
+more like this this whole region here
+all the way from here to here is
+
+401
+00:32:46,950 --> 00:32:52,410
+负的是n掺杂的n中有电子，并且耗尽区
+negative is n is n doped has has
+electrons in it and the depletion region
+
+402
+00:32:52,410 --> 00:33:00,309
+有点像这样的大环境现在您可以在这里获得最新的
+sort of makes a big sort of environment
+like this now here you can get current
+
+403
+00:33:00,309 --> 00:33:05,230
+通过该电子通道直接从该末端区域到该末端区域
+directly from this end region to this
+end region by this electron channel so
+
+404
+00:33:05,230 --> 00:33:08,950
+您已经在该层中添加了电子，以便电子可以直接从
+you've added electrons to this layer so
+the electrons can travel directly from
+
+405
+00:33:08,950 --> 00:33:13,300
+源极到漏极而不必经过PN结
+the source to the drain without having
+to go through a PN Junction that's the
+
+406
+00:33:13,300 --> 00:33:19,870
+好吧，就是对那个好东西感到满意，所以
+point okay is that good happy with that
+alright good so the characteristics of
+
+407
+00:33:19,870 --> 00:33:26,170
+这样的设备看起来或多或少像这样，如果您绘制电流与
+such a device look more or less like
+this that if you plot the current versus
+
+408
+00:33:26,170 --> 00:33:29,980
+电压这是源极和漏极之间的电压这是
+the voltage this is the voltage between
+the source and the drain this is the
+
+409
+00:33:29,980 --> 00:33:34,390
+如果不施加栅极电压，则电流将从源极流到漏极
+current that flows from the source to
+the drain if you put no gate voltage on
+
+410
+00:33:34,390 --> 00:33:39,220
+门等于零，几乎没有电流流动，但是如果你放一点
+the gate equals zero you get almost no
+current flowing but if you put a little
+
+411
+00:33:39,220 --> 00:33:44,920
+栅极上的栅极电压位等于2伏特等于2伏特
+bit of gate voltage on the gate equals
+say two volts equals two volts you all
+
+412
+00:33:44,920 --> 00:33:49,750
+突然之间有很多商店都在消耗电流，所以这使您可以
+of a sudden get a lot of stores drain
+current so this enables you to take the
+
+413
+00:33:49,750 --> 00:33:54,460
+栅极上的小电压并控制很大的电流，所以这基本上是
+small voltage on the gate and control a
+very large current so this is basically
+
+414
+00:33:54,460 --> 00:33:59,500
+您知道为什么该设备如此有用以至于可以充当放大器的原因
+you know the why this device is so
+useful it acts as an amplifier it can
+
+415
+00:33:59,500 --> 00:34:04,000
+放大门上很小的信号，然后您就可以做一些有趣的事情
+amplify a very small signal on the gate
+and then you can do interesting things
+
+416
+00:34:04,000 --> 00:34:08,230
+有了它，因为现在它已经成为一大潮流，您可以使用
+with it because now it's become a big
+current that you can work with okay the
+
+417
+00:34:08,230 --> 00:34:13,119
+构成现代所有计算机的基本电路
+elementary circuit that element that
+builds all computers in the modern age
+
+418
+00:34:13,119 --> 00:34:17,409
+好的，我希望你们中的许多人会继续学习更多的半导体
+all right well I hope many of you will
+go on and study more semiconductor
+
+419
+00:34:17,409 --> 00:34:23,020
+设备物理过程比过去的35分钟还要多，但这就是我们所需要的时间
+device physics more than these last 35
+minutes but this is all we have time for
+
+420
+00:34:23,020 --> 00:34:27,399
+不幸的是，在此过程中，我们必须继续进行最后阶段
+in this course unfortunately we have to
+move on to the the final segment of our
+
+421
+00:34:27,399 --> 00:34:30,070
+当然，我们课程的最后一部分是
+course the final segment of our course
+is to
+
+422
+00:34:30,070 --> 00:34:37,239
+把所有这些东西抛在我们后面，我们继续研究磁性
+leaving all this stuff behind us and we
+move on to study magnetism magnetism so
+
+423
+00:34:37,239 --> 00:34:42,399
+深吸一口气，然后我们继续讲磁性，第一个问题是
+
+424
+00:34:42,400 --> 00:34:46,000
+可能想问的是，为什么我们要研究磁性？为什么呢？ 
+probably wants to ask is is why are we
+studying magnetism and why are you
+
+425
+00:34:46,000 --> 00:34:50,800
+从第一天开始，现在就学习磁性的整个过程
+studying magnetism now the whole course
+pretty much from day one all the way up
+
+426
+00:34:50,800 --> 00:34:54,429
+在中途讲课十八次，现在我们真的
+to lecture eighteen halfway through
+which is right now we've really been
+
+427
+00:34:54,429 --> 00:35:00,280
+一种或另一种方式研究波浪和固体的振动波
+studying waves and solids one way or the
+other way their vibrational waves over
+
+428
+00:35:00,280 --> 00:35:04,060
+那里的电子波或X射线波我们实际上只是在研究波
+there electron waves or the x-ray waves
+we're really just been studying waves in
+
+429
+00:35:04,060 --> 00:35:06,880
+固体以一种或另一种方式存在，并且磁性有些不同
+solids in one way or the other
+and magnetism is a little bit different
+
+430
+00:35:06,880 --> 00:35:11,020
+当我们开始磁性时，我们并不是真正在研究波浪和固体，所以为什么
+we're not really studying waves and
+solids when we starting magnetism so why
+
+431
+00:35:11,020 --> 00:35:14,260
+是我们对磁性的研究很好吗，我们有很多原因想要
+is it that we're studying magnetism well
+there's a lot of reasons why we want to
+
+432
+00:35:14,260 --> 00:35:18,100
+研究磁性我们想研究磁性的第一个原因是
+study magnetism the first reason why we
+want to study magnetism is it certainly
+
+433
+00:35:18,100 --> 00:35:22,840
+自古以来就知道这种效果，因为您知道它们是记录
+it's an effect that's been known about
+since antiquity you know they're records
+
+434
+00:35:22,840 --> 00:35:27,760
+知道磁力的人们，在希腊1000 BC，在中国1000 BC， 
+of people knowing about magnetism 1000
+BC in Greece thousand BC in China they
+
+435
+00:35:27,760 --> 00:35:31,810
+知道如何制作指南针，它可能早于成千上万
+knew how to build compasses and it
+probably predates that by thousands of
+
+436
+00:35:31,810 --> 00:35:35,110
+多年以来，他们可能是穴居人，他们知道磁性被卡住了
+years probably they were cavemen who
+knew about magnetism you're stuck notes
+
+437
+00:35:35,110 --> 00:35:42,130
+无论如何冰箱上都非常严重，但尽管事实是
+on the refrigerator so serious anyway
+but but despite the fact that this
+
+438
+00:35:42,130 --> 00:35:46,450
+众所周知，您知道成千上万年前
+effect was was known about you know
+thousands and thousands years ago there
+
+439
+00:35:46,450 --> 00:35:49,390
+直到人们明白了，它才完全不了解它
+was absolutely no understanding of it
+whatsoever until people understood
+
+440
+00:35:49,390 --> 00:35:53,620
+量子力学，这实际上使这一点非常有趣
+quantum mechanics and that's one thing
+that makes this very interesting in fact
+
+441
+00:35:53,620 --> 00:35:58,030
+ Bohr和Van Leeuwen有一个定理，称为Bohr Van Leeuwen 
+there's a theorem by Bohr and Van
+Leeuwen known as the Bohr Van Leeuwen
+
+442
+00:35:58,030 --> 00:36:03,160
+定理Niels Bohr我想大家都知道，但是henryka Van Leeuwen是其中之一
+theorem Niels Bohr I think everyone
+knows but henryka Van Leeuwen was one of
+
+443
+00:36:03,160 --> 00:36:11,830
+他的学生Lewin定理和摩拉维亚Lewin定理的内容是
+his students Lewin theorem and the
+content of the moravian Lewin theorem is
+
+444
+00:36:11,830 --> 00:36:22,060
+没有量子和，基本上没有磁性，没有量子，但是没有
+basically no magnetism without quantum
+sum without quantum but nothing in
+
+445
+00:36:22,060 --> 00:36:27,010
+古典物理学可以在任何意义上给您带来磁性，所以
+classical physics can ever give you
+magnetism in any sense so that's kind of
+
+446
+00:36:27,010 --> 00:36:31,090
+一个有趣的陈述，它告诉我们您知道磁场是一种
+an interesting statement so it tells us
+that you know that magnetism is a really
+
+447
+00:36:31,090 --> 00:36:36,340
+去了解你的宏观后果的好地方
+good place to go to understand you know
+the macroscopic ramifications of
+
+448
+00:36:36,340 --> 00:36:40,060
+微观磁性，这就是您要研究它的原因之一
+microscopic magnetism so that's one of
+the reasons why you want to study it
+
+449
+00:36:40,060 --> 00:36:42,970
+我们要研究磁性的另一个原因是， 
+another reason we want to study
+magnetism is because it's a rather
+
+450
+00:36:42,970 --> 00:36:45,489
+我们一直在做的一切都失败了
+spectacular
+failure of everything we've been doing
+
+451
+00:36:45,489 --> 00:36:51,069
+到目前为止，磁性我们迄今为止一直在研究的带理论将始终
+so far that magnetism the band theory
+we've been studying so far would always
+
+452
+00:36:51,069 --> 00:36:54,789
+预测您具有与向下自旋电子相同数量的向上自旋电子
+predict that you have the same number of
+up spin electrons as down spin electrons
+
+453
+00:36:54,789 --> 00:36:58,509
+而在磁场中，事实并非如此，因为您在其中有磁性物质
+whereas in magnetism it's just not true
+you have magnetic substances where you
+
+454
+00:36:58,509 --> 00:37:01,390
+具有不同数量的自旋电子和自旋电子
+have a different number of spin up
+electrons and spin down electrons it's
+
+455
+00:37:01,390 --> 00:37:04,690
+完全超出了乐队理论，而且完全没有预料到
+completely outside of band theory and
+it's completely not predicted so
+
+456
+00:37:04,690 --> 00:37:08,619
+磁性是一种理解我们已经存在的局限性的方法
+magnetism is a way to understand with
+the limitations of what we've already
+
+457
+00:37:08,619 --> 00:37:14,319
+一直在做的最后原因可能不是那么明显，就是磁性
+been doing the final reason which is
+maybe not so obvious is that magnetism
+
+458
+00:37:14,319 --> 00:37:18,819
+是研究物质各相之间相变的好地方，因此
+is a really great place to study phase
+transitions between phases of matter so
+
+459
+00:37:18,819 --> 00:37:22,509
+每个人都熟悉您在冰和水之间的相变或
+everyone's familiar with your phase
+transitions between ice and water or
+
+460
+00:37:22,509 --> 00:37:25,599
+水和蒸汽，您可能已经在热力学中研究了这些东西
+water and steam and you probably studied
+these things in your thermodynamics
+
+461
+00:37:25,599 --> 00:37:30,069
+上课，但是当真正开始了解这些阶段的细节时
+classes but when one really gets down to
+understanding the details of these phase
+
+462
+00:37:30,069 --> 00:37:33,880
+我们对相变了解的大部分来自研究
+transitions most of what we know about
+phase transitions comes from studying
+
+463
+00:37:33,880 --> 00:37:37,119
+磁铁，可以更好地控制和更好地理解事物
+magnets where things are much better
+controlled and much better understood
+
+464
+00:37:37,119 --> 00:37:41,140
+关于冰融化成水的许多知识，我们实际上
+and much of what we know about the
+melting of ice into water we actually
+
+465
+00:37:41,140 --> 00:37:45,489
+知道，因为我们研究了磁铁，然后将知识转化为您
+know because we studied magnets and then
+we so translated our knowledge into you
+
+466
+00:37:45,489 --> 00:37:49,269
+知道对冰和水的了解不是显而易见的，我们将做出
+know understanding ice and water that's
+not an obvious statement we will make
+
+467
+00:37:49,269 --> 00:37:53,319
+如果您继续学习，则对本课程中的相变有一些陈述
+some statements about phase transitions
+in this course if you go on to study
+
+468
+00:37:53,319 --> 00:37:58,569
+其他课程，您将学到很多有关的知识，所以让我们先定义一下
+other courses you'll learn a lot more
+about it okay so let's start by defining
+
+469
+00:37:58,569 --> 00:38:02,650
+两种类型的磁性我们将要工作的磁性类型
+a couple of types of magnetism types of
+magnetism that we're going to be working
+
+470
+00:38:02,650 --> 00:38:07,569
+或至少一些我们需要的磁性类型
+on of magnetism or at least some of the
+types of magnetism we're going to need
+
+471
+00:38:07,569 --> 00:38:13,690
+要知道通常我们要做的是对某个物体施加磁场
+to know about usually what we do is we
+apply a magnetic field to some object
+
+472
+00:38:13,690 --> 00:38:20,170
+我们测量oops，我们测量磁化强度M，并且有一个比例
+and we measure oops we measure a
+magnetization M and there's a proportion
+
+473
+00:38:20,170 --> 00:38:24,279
+如果存在比例常数，我们称比例为Chi 
+that if there's a proportionality
+constant we call the proportionality Chi
+
+474
+00:38:24,279 --> 00:38:29,729
+零零散散的地方，气被称为磁化率或磁化
+over mu naught where Chi is known as the
+susceptibility or magnetic
+
+475
+00:38:29,729 --> 00:38:35,489
+易感性我要拼写错误的USC Sept能力Sept能力
+susceptibility I'm going to spell that
+wrong s USC Sept ability Sept ability
+
+476
+00:38:35,489 --> 00:38:43,960
+零磁通是通常的磁导率
+and nu naught is the usual magnetic
+permeability the thing that's
+
+477
+00:38:43,960 --> 00:38:49,770
+渗透数据表上的东西
+permeability
+the thing that's on your datasheet and
+
+478
+00:38:49,770 --> 00:38:57,480
+您的考试是这样定义的，有两种磁性
+your exams so given that as a definition
+there's a couple kinds of magnetism that
+
+479
+00:38:57,480 --> 00:39:04,380
+你可以有一个是功率磁，这意味着或功率磁是任何
+you can have one is power magnetism
+which means or power magnet is any
+
+480
+00:39:04,380 --> 00:39:09,150
+ chi大于零的材料，换句话说，您施加了磁场
+material with chi greater than zero in
+other words you apply a magnetic field
+
+481
+00:39:09,150 --> 00:39:12,900
+你会在与磁场相同的方向上获得磁矩
+and you get a magnetic moment in the
+same direction as the field that you
+
+482
+00:39:12,900 --> 00:39:16,500
+应用似乎似乎有一定道理，我们已经知道
+applied which seems to make some amount
+of sense and we have know a couple of
+
+483
+00:39:16,500 --> 00:39:23,990
+该示例示例的示例是自由旋转，可能在
+examples of that example example one is
+a free spin probably studied this in
+
+484
+00:39:23,990 --> 00:39:28,710
+去年的统计力学，如果您有自由旋转的机会， 
+statistical mechanics last year if you
+have a free spin sort is sitting in
+
+485
+00:39:28,710 --> 00:39:33,599
+如果向外部空间施加磁场，则其能量会降低
+outer space if you apply a magnetic
+field to it its energy is lower if the
+
+486
+00:39:33,599 --> 00:39:37,050
+磁矩指向与磁场相同的方向，因此自旋
+magnetic moment points in the same
+direction as magnetic field so the spin
+
+487
+00:39:37,050 --> 00:39:40,770
+将尝试翻转并指向与磁场相同的方向，并且
+will try to flip over and point in the
+same direction as the magnetic field and
+
+488
+00:39:40,770 --> 00:39:48,270
+自由自旋是一个功率磁体，在前面我们研究过的第二个示例中
+the free spin is a power magnet um
+example two which we studied earlier in
+
+489
+00:39:48,270 --> 00:39:53,700
+这个术语是费米气体我们的电子气体我们应该研究Sommerfeld模型
+this term is a Fermi gas our electron
+gas we should study the Sommerfeld model
+
+490
+00:39:53,700 --> 00:40:00,690
+我们发现有一种称为多功率磁性的磁性
+and we found known as poly power
+magnetism our magnetism there was some
+
+491
+00:40:00,690 --> 00:40:06,180
+计算结果与之基本相同
+calculation which went along with that
+it's basically exactly the same physics
+
+492
+00:40:06,180 --> 00:40:10,200
+你有一束电子，你在瞬间施加磁场
+you have a bunch of electrons you apply
+magnetic field the moments of the
+
+493
+00:40:10,200 --> 00:40:13,349
+电子想要与磁场对准以降低能量，但是
+electrons want to align with the
+magnetic field to lower the energy but
+
+494
+00:40:13,349 --> 00:40:17,280
+由于保利（Pauli）排除原则，他们不能全部翻身，所以只有少数
+they can't all flip over because of the
+Pauli exclusion principle so only a few
+
+495
+00:40:17,280 --> 00:40:20,640
+他们翻转，但仍然发展出的磁化强度
+of them flip over but nonetheless the
+magnetization that develops is in the
+
+496
+00:40:20,640 --> 00:40:23,910
+与施加的磁场方向相同，所以这是一种力量
+same direction as the magnetic field
+that's been applied so this is a power
+
+497
+00:40:23,910 --> 00:40:27,420
+磁铁我会比自由旋转弱一点，因为只有一些
+magnet I'll be at a weaker one than the
+free spin because only some of the
+
+498
+00:40:27,420 --> 00:40:34,319
+在费米气体的情况下，电子将翻转。好吧，我们将详细介绍
+electrons will flip over in the case of
+a Fermi gas okay we'll say more about
+
+499
+00:40:34,319 --> 00:40:40,440
+不久之后，另一种常见的磁性是
+those in a little while so another type
+of magnetism which is common is
+
+500
+00:40:40,440 --> 00:40:48,000
+反磁性，基本上意味着Chi小于零，换句话说， 
+diamagnetism which basically means Chi
+is less than zero in other words when
+
+501
+00:40:48,000 --> 00:40:52,890
+你施加磁场，磁矩想指向相反的方向
+you apply magnetic field the magnetic
+moment wants to point in the opposite
+
+502
+00:40:52,890 --> 00:40:56,010
+方向作为磁场现在我们可能不知道任何例子
+direction as the magnetic field now we
+may not know any examples of that
+
+503
+00:40:56,010 --> 00:40:59,210
+立即出现，但在质量上有相似之处
+immediately but there's something that's
+qualitatively similar
+
+504
+00:40:59,210 --> 00:41:09,160
+我们确实像伦茨定律一样定性地知道，您可能从第一年起就记得
+we do know qualitatively like Lenz's law
+which you may remember from first year
+
+505
+00:41:09,160 --> 00:41:15,020
+ EMM镜片法则提醒您，如果使用磁性材料，则如果您有电线圈， 
+EMM lenses law to remind you if you have
+a loop of wire if you apply a magnetic
+
+506
+00:41:15,020 --> 00:41:19,760
+导线回路的磁场将在该导线回路中流动，以与
+field to the loop of wire currents will
+flow in that loop of wire to oppose the
+
+507
+00:41:19,760 --> 00:41:23,119
+磁场，所以你在相反的方向发展磁矩
+magnetic field so you're developing a
+magnetic moment in the opposite
+
+508
+00:41:23,119 --> 00:41:29,690
+磁场变化的方向导线环不是
+direction of the change in magnetic
+field a loop of wire however is not a
+
+509
+00:41:29,690 --> 00:41:33,920
+磁铁的原因是因为你会产生一个磁矩
+diamagnet the reason for this is because
+that you'll develop a magnetic moment
+
+510
+00:41:33,920 --> 00:41:40,160
+但最终电流和电线将衰减并下降至零， 
+but eventually the current and the wire
+will will decay and go down to zero and
+
+511
+00:41:40,160 --> 00:41:43,490
+您将不会在导线中留下任何磁性力矩，因此实际上它没有磁性
+you'll have no magnetic moment left in
+the wire so in fact it's not magnetic at
+
+512
+00:41:43,490 --> 00:41:48,380
+它没有磁矩，除非导线是没有导体的超导体
+all it has no magnetic moment unless the
+wire is a superconductor which has no
+
+513
+00:41:48,380 --> 00:41:52,069
+电阻电流永不衰减，电流将持续流动
+resistance currents never decay and the
+current would keep flowing around
+
+514
+00:41:52,069 --> 00:41:56,359
+永远，直到永远，而磁矩将永远留在那里
+forever and ever and ever and and the
+magnetic moment would stay there forever
+
+515
+00:41:56,359 --> 00:41:59,720
+而且那是一个真正的反磁铁，我们今年不研究超导体
+and ever and that's a real diamagnet we
+don't study superconductors this year
+
+516
+00:41:59,720 --> 00:42:02,960
+很高兴知道您可以用超导体做到这一点， 
+just nice to know that that you could do
+this with a superconductor you can get a
+
+517
+00:42:02,960 --> 00:42:07,369
+无论如何，反磁物理学实际上是真正的垫子反磁铁
+real mat diamagnet anyway that the
+physics of diamagnetism is actually
+
+518
+00:42:07,369 --> 00:42:11,359
+在性质上与镜片定律非常相似，但是当您添加
+quite similar qualitatively to the
+physics of lenses law but when you add
+
+519
+00:42:11,359 --> 00:42:16,040
+您可以通过某种解释了解量子力学
+quantum mechanics to it you kind of you
+know in some interpretation you can
+
+520
+00:42:16,040 --> 00:42:20,420
+认为这些潮流永远被困在那儿并且总是在对立
+think of these currents as being being
+stuck there forever and always opposing
+
+521
+00:42:20,420 --> 00:42:24,140
+磁场，即使您知道何时会镜片定律
+the magnetic field even when you you
+know when you it would lenses law you
+
+522
+00:42:24,140 --> 00:42:27,740
+必须不断改变磁场以使电流持续流过
+have to keep changing the magnetic field
+to get the current to keep flowing in a
+
+523
+00:42:27,740 --> 00:42:31,490
+只要磁场保持在电流上，反磁铁就应
+diamagnet as long as the magnetic field
+stays on the current the current should
+
+524
+00:42:31,490 --> 00:42:38,210
+保持流动，所以我们会在第三种情况下看到这种情况
+keep flowing so we'll see how that
+happens in a bit okay the third case
+
+525
+00:42:38,210 --> 00:42:46,960
+我们需要知道的是铁磁体的情况
+that we need to know about is the case
+of a Ferro magnet which is when
+
+526
+00:42:46,960 --> 00:42:55,700
+即使B等于零，磁化强度也不等于零，例如
+magnetization is not equal to zero
+even when B equals zero something like
+
+527
+00:42:55,700 --> 00:42:59,900
+铁具有此属性粘在冰箱上的东西是
+iron has this property the thing that
+sticks to your refrigerator this is the
+
+528
+00:42:59,900 --> 00:43:04,280
+当我们想到磁铁时，我们通常认为它是磁铁
+thing that we usually think of as a
+magnet when we think about magnets so a
+
+529
+00:43:04,280 --> 00:43:10,579
+开始研究磁性的好地方是一次一个原子，因此我们将
+good place to start our study of
+magnetism is one atom at a time so we'll
+
+530
+00:43:10,579 --> 00:43:18,410
+从原子磁性开始，我们将建立
+start with atomic magnetism
+atomic magnetism and we'll build up to
+
+531
+00:43:18,410 --> 00:43:25,170
+真实材料的磁性，我应该知道吗？ 
+magnetism of real materials and I should
+you know put it in this caveat that we
+
+532
+00:43:25,170 --> 00:43:35,160
+我们总是会忽略无视原子核的磁性。 
+always will we will ignore ignore the
+magnetism of nuclei nuclear nuclei all
+
+533
+00:43:35,160 --> 00:43:38,790
+在一起，而我们忽略原子核的原因是，如果您考虑
+together and the reason why we ignore
+the nuclei is that if you think about
+
+534
+00:43:38,790 --> 00:43:45,599
+玻尔磁子给定的某个物体的磁矩是两个M 
+the magnetic moment of some object it's
+given by the Bohr Magneton we're two M
+
+535
+00:43:45,599 --> 00:43:52,829
+电子对象的数量，这大致取决于G因子，即
+of the object for an electron this is
+roughly the up to the G factor this is
+
+536
+00:43:52,829 --> 00:43:57,540
+电子的磁矩对于核子和质子， 
+the magnetic moment of an electron it's
+similar for a nucleon and a proton or
+
+537
+00:43:57,540 --> 00:44:02,700
+中子，但进入这里的质量大千分之一或
+neutron but the mass that enters in here
+is bigger by a factor of a thousand or
+
+538
+00:44:02,700 --> 00:44:06,869
+两千左右，这样你从
+two thousand or something so that the
+magnetic moment that you get from a
+
+539
+00:44:06,869 --> 00:44:11,040
+原子核比你得到的磁矩小得多
+nucleus is much much much much much
+smaller than the magnetic moment you get
+
+540
+00:44:11,040 --> 00:44:14,970
+来自电子，这就是为什么我们通常不关心磁性的原因
+from electrons and that's why we're
+usually not concerned with the magnetism
+
+541
+00:44:14,970 --> 00:44:19,530
+原子核有时在那里很重要，特别是如果
+of nuclei it is there it's sometimes
+turns out to be important especially if
+
+542
+00:44:19,530 --> 00:44:23,220
+您正在考虑温度极低的事物，或者
+you're thinking about things at
+extremely low temperatures or if you're
+
+543
+00:44:23,220 --> 00:44:26,880
+看着非常微妙和出色的效果，您确实需要担心
+looking at very very subtle and fine
+effect you do have to worry about the
+
+544
+00:44:26,880 --> 00:44:30,569
+原子核的磁性，但对我们来说，我们只会担心
+magnetism of nuclei but for us we're
+only gonna be worried about about the
+
+545
+00:44:30,569 --> 00:44:35,670
+电子的磁性，因为它更大，所以我们要
+magnetism of the electrons because it's
+just much bigger okay so we're going to
+
+546
+00:44:35,670 --> 00:44:40,200
+忽略原子核，然后我们就必须以写法开始
+ignore the nuclei and then we have to
+start the way we always start by writing
+
+547
+00:44:40,200 --> 00:44:44,660
+用哈密顿量来表示原子中的电子，所以我写哈密顿量
+down a Hamiltonian for the electrons in
+the atom so I'll write the Hamiltonian
+
+548
+00:44:44,660 --> 00:44:48,900
+哈密​​顿量，对哈密顿量使用某种脚本H是常规做法
+Hamiltonian and it's conventional to use
+sort of a script H for the Hamiltonian
+
+549
+00:44:48,900 --> 00:44:53,130
+因此您不会将其与磁感应强度H混淆，您知道B和H 
+so you don't get it confused with a
+magnetic induction H you know B and H
+
+550
+00:44:53,130 --> 00:44:58,710
+还有你和那种东西，所以我们用汉密尔顿字母H 
+and you and that kind of stuff so we use
+a script H for the Hamiltonian and we'll
+
+551
+00:44:58,710 --> 00:45:04,020
+希望以您以前见过的方式写出来，所以有一个动力学术语P 
+write it in hopefully ways that you've
+seen before so there's a kinetic term P
+
+552
+00:45:04,020 --> 00:45:11,670
+加上EA平方超过2m，其中a是矢量电势del交叉a是B 
+plus EA squared over 2m where a is the
+vector potential del cross a is B
+
+553
+00:45:11,670 --> 00:45:16,410
+无论我决定对系统施加什么磁场， 
+whatever magnetic field I decide to
+apply to the system then there's going
+
+554
+00:45:16,410 --> 00:45:19,920
+就是这样，这只是动能，那么将会有一个吸引力
+to be so this is just the kinetic energy
+then there's going to be an attraction
+
+555
+00:45:19,920 --> 00:45:25,010
+到R的核V和我们之前见过的最后一项
+to the nucleus V of R and the last term
+we've seen before
+
+556
+00:45:25,010 --> 00:45:35,450
+ g ub b点sigma，这在um两端的术语上是相同的，也许一个
+g ub b dot sigma and this is the same on
+the term same on um two ends maybe one
+
+557
+00:45:35,450 --> 00:45:44,300
+结束有人知道结束语谢谢你，周一词是我的笔记我的笔记说我的
+end anyone know what one end thank you
+de mon term is my notes my notes say my
+
+558
+00:45:44,300 --> 00:45:49,970
+笔记不要说还可以，所以这个词告诉你
+notes don't say it okay alright so this
+is the term that tells you that the
+
+559
+00:45:49,970 --> 00:45:54,530
+如果电子指向电子的磁矩是较低的能量
+magnetic moment of the electron is lower
+energy if the electron points in the
+
+560
+00:45:54,530 --> 00:45:57,830
+如果磁矩指向相同方向，则方向相同
+same direction if the magnetic moment
+points in the same direction of magnetic
+
+561
+00:45:57,830 --> 00:46:02,960
+字段，这变得非常令人困惑，迹象变得非常令人困惑，请记住
+field this gets very confusing the signs
+get very confusing here remember that
+
+562
+00:46:02,960 --> 00:46:07,280
+电子自旋的磁矩指向与其相反的方向
+the magnetic moment of an electron spin
+points in the opposite direction of its
+
+563
+00:46:07,280 --> 00:46:10,640
+磁矩，因为电子上的电荷为负
+magnetic moment because the charge on
+the electron is negative okay
+
+564
+00:46:10,640 --> 00:46:16,370
+所以看起来这里的能量会更低
+so it looks as if the energy would be
+lower here when the so here here the
+
+565
+00:46:16,370 --> 00:46:20,090
+如果Sigma与B方向相反，则能量较低
+energy is lower if Sigma is in the
+opposite direction of B so it's pointing
+
+566
+00:46:20,090 --> 00:46:23,030
+方向相反，所以它是负数，但如果Sigma相反
+in the opposite direction so it's
+negative but if Sigma is in the opposite
+
+567
+00:46:23,030 --> 00:46:25,940
+方向是B磁矩实际上是Sigma的相反方向
+direction is B the magnetic moment is
+actually the opposite direction of Sigma
+
+568
+00:46:25,940 --> 00:46:29,390
+因此磁矩指向与BI知道减号的方向相同的方向
+so the magnetic moment is pointing the
+same direction as B I know minus signs
+
+569
+00:46:29,390 --> 00:46:33,320
+你知道我的死好吗B是电子的玻尔磁子
+are you know the death of me okay mu B
+is the Bohr Magneton for the electron
+
+570
+00:46:33,320 --> 00:46:42,110
+ G是G因子，通常只需要2就可以了，怎么办
+and G is the G factor which will usually
+take to be just 2 all right so what do
+
+571
+00:46:42,110 --> 00:46:46,250
+我们做得很好，我们真的很想治疗磁场
+we do with this well we're really would
+like to treat the magnetic field a
+
+572
+00:46:46,250 --> 00:46:50,600
+如果可以的话，请稍作扰动，以便您知道我们将以
+little bit as a perturbation if we could
+so you know that we'll start by
+
+573
+00:46:50,600 --> 00:46:58,100
+用以下方式重写此哈密顿量H等于P平方2m 
+rewriting this Hamiltonian as in the
+following way H equals P squared over 2m
+
+574
+00:46:58,100 --> 00:47:06,350
+加上R的V，即H 0或B的H等于0 
+plus V of R and that is just H 0 or H of
+B equals zero separate out that term
+
+575
+00:47:06,350 --> 00:47:12,290
+首先，我们还有几句话还没写，所以也许
+first then we have a couple terms left
+over that we didn't write yet so maybe
+
+576
+00:47:12,290 --> 00:47:18,530
+让我们在这里写这些或所有这些东西，然后我们再写
+let's write those here plus or plus all
+this stuff then we're gonna write next
+
+577
+00:47:18,530 --> 00:47:26,020
+所以一个是向量电位为2m P点a加上点P的交叉项
+so one is the cross term with the vector
+potential a over 2m P dot a plus a dot P
+
+578
+00:47:26,020 --> 00:47:33,950
+还有一个术语，向量电势平方超过2m平方， 
+and then there's another term the vector
+potential squared over 2m a squared and
+
+579
+00:47:33,950 --> 00:47:38,359
+那么我们在G UB上还有相同的期限
+then we have the same on term left over
+G UB
+
+580
+00:47:38,359 --> 00:47:44,749
+ B点Sigma，然后我们需要在这里做一些工作， 
+B dot Sigma and then we have to do a
+little bit of work here and one piece of
+
+581
+00:47:44,749 --> 00:47:48,229
+我们需要做的工作是我们需要简化这个术语以及我们的方式
+work we need to do is we need to sort of
+simplify this term and the way we're
+
+582
+00:47:48,229 --> 00:47:54,349
+要简化，那就是通过选择量规选择矢量量规
+going to simplify that is by choosing a
+gauge choose gauge for the vector
+
+583
+00:47:54,349 --> 00:47:59,089
+电位，而我要选择的量规是矢量电位
+potential and the gauge I'm going to
+choose is that the vector potential is
+
+584
+00:47:59,089 --> 00:48:07,089
+ 1/2 B十字R，如果您这样选择，确实可以让您十字A 
+1/2 B cross R and if you choose it like
+that this this does give you del cross a
+
+585
+00:48:07,089 --> 00:48:13,099
+等于B，如果您这样选择，则A和P实际上通过
+equals B if you choose it like this then
+a and P actually commute through with
+
+586
+00:48:13,099 --> 00:48:17,509
+彼此，也许不是很明显看到这是真的，但这是真的
+each other and it's maybe not so obvious
+to see that that's true but it is true
+
+587
+00:48:17,509 --> 00:48:24,229
+因为a的X分量包含我们的y分量，所以X 
+because the X component of a contains
+the y component of our so the X
+
+588
+00:48:24,229 --> 00:48:29,089
+计算的分量与P的X分量和交换。 
+component of a compute commutes with the
+with the X component component of P and
+
+589
+00:48:29,089 --> 00:48:31,579
+这些是彼此相乘的，所以哪一个都没关系
+those are the ones that are multiplied
+by each other so it doesn't matter which
+
+590
+00:48:31,579 --> 00:48:39,979
+订购它们，以便选择此量规，然后我们可以将其改写为e 
+order you put them in so choosing this
+gauge we can then rewrite this as e over
+
+591
+00:48:39,979 --> 00:48:47,630
+ 2 m到点P，所以这两个人彼此上下班，然后我们将
+2 m to a dot P so those two commute
+right through each other and then we'll
+
+592
+00:48:47,630 --> 00:48:54,380
+用表达式写出一口井，我们将用1/2抵消两个，得到B 
+write in our expression for a well we'll
+cancel the two with the 1/2 and we get B
+
+593
+00:48:54,380 --> 00:49:01,849
+两端都标有P，我们使用三元产品标识将其重写为e 
+across are dotted with P we use a triple
+product identity to rewrite that as e
+
+594
+00:49:01,849 --> 00:49:11,869
+超过2m b点R交叉PR交叉P，然后仅吸收H bar的因数
+over 2m b dot R cross P R cross P and
+then just absorbing a factor of H bar
+
+595
+00:49:11,869 --> 00:49:17,479
+进入R十字P将识别出该物体为角动量并放
+into the R cross P will recognize this
+thing as in the angular momentum and put
+
+596
+00:49:17,479 --> 00:49:27,499
+ H棒在这里，所以我们得到mu B和B点L其中L是轨道角
+the H bar up here so we get mu B and B
+dot L where L is the orbital angular
+
+597
+00:49:27,499 --> 00:49:34,179
+动量等于轨道角动量
+momentum equals orbital angular momentum
+
+598
+00:49:37,479 --> 00:49:43,429
+因此，将所有这些放在一起，最终得到最终的哈密顿量
+so putting this all together we end up
+with the final Hamiltonian that we're
+
+599
+00:49:43,429 --> 00:49:49,720
+要与哈密顿量一起工作的是哈密顿量，其V等于0加
+going to work with the Hamiltonian is
+the Hamiltonian at V equals 0 plus
+
+600
+00:49:49,720 --> 00:49:57,970
+几个项emuebie点缀着轨道角动量加G倍
+couple terms emuebie be dotted with the
+orbital angular momentum plus G times
+
+601
+00:49:57,970 --> 00:50:04,240
+自旋角动量再加上这一项，我们将d平方
+the spin angular momentum Plus this one
+more term that we're left out d squared
+
+602
+00:50:04,240 --> 00:50:13,690
+超过2m的平方，我想也许我们应该在那儿停下来，下次再取车
+over 2m a squared and I guess maybe we
+should stop there and pick up next time
+
+603
+00:50:13,690 --> 00:50:17,290
+用这个哈密顿量，我们将分析磁场对此的影响
+with this Hamiltonian and we'll analyze
+the effect of the magnetic field on this
+
+604
+00:50:17,290 --> 00:50:23,380
+哈密​​尔顿人好吧，明天见，别忘了开会
+Hamiltonian okay see you tomorrow
+don't forget the meetings meeting right
+
+605
+00:50:23,380 --> 00:50:27,849
+讲完P JCC之后，还有像今天下午在
+after the lecture P JCC and then also
+the hinds like you did this afternoon at
+
+606
+00:50:27,849 --> 00:50:30,340
+下午5点寻找太阳系外行星或
+5 p.m.
+searching for extrasolar planets or
+
+607
+00:50:30,340 --> 00:50:34,920
+好的再见[鼓掌] 
+something okay bye
+[Applause]
+

@@ -1,0 +1,3115 @@
+1
+00:00:00,619 --> 00:00:05,570
+让我们开始吧，欢迎回到这是凝聚态的第十一讲
+let's get going welcome back this is the
+eleventh lecture of the condensed matter
+
+2
+00:00:05,570 --> 00:00:10,600
+我们上次学习互惠空间的课程
+course where we left off last time we
+were studying reciprocal space
+
+3
+00:00:10,600 --> 00:00:19,010
+互惠的空间，我们来到这种理解
+reciprocal space and we came to this
+understanding that the reciprocal
+
+4
+00:00:19,010 --> 00:00:23,630
+晶格是直接晶格的傅立叶变换，也是我们产生晶格的原因
+lattice is somehow the Fourier transform
+of the direct lattice and the reason we
+
+5
+00:00:23,630 --> 00:00:25,820
+想研究互惠空间是因为它将使我们的生活
+want to study reciprocal space is
+because it's going to make our life
+
+6
+00:00:25,820 --> 00:00:29,689
+当我们学习波浪时比较容易，所以这是一件相当重要的事情
+easier when we come to studying waves so
+it's a rather important thing to to
+
+7
+00:00:29,689 --> 00:00:33,800
+很好理解，有时也很难理解傅立叶变换
+understand well and sometimes it's hard
+to understand Fourier transform as well
+
+8
+00:00:33,800 --> 00:00:38,660
+因为它们不是我们在日常生活中考虑的东西，而是
+because they're not something that we
+think about in everyday life it's a
+
+9
+00:00:38,660 --> 00:00:42,559
+有点复杂，所以事实证明，有一种更好的几何方法
+little bit complicated so it turns out
+that there's a much nicer geometric way
+
+10
+00:00:42,559 --> 00:00:45,440
+了解很多相互的空间，这是我们将要讨论的
+to understand a lot of reciprocal space
+which is what we're going to discuss
+
+11
+00:00:45,440 --> 00:00:49,309
+今天，我像往常一样需要一些定义，让我们从一个简单的开始
+today so I need some definitions as
+usual let's start with a simple
+
+12
+00:00:49,309 --> 00:01:06,490
+定义一个晶格平面等于一个包含三个三个平面
+definition a lattice plane equals a
+plane containing containing three three
+
+13
+00:01:06,490 --> 00:01:17,899
+非共线非共线线性，因此线性，因此
+non collinear non collinear linear and
+therefore linear and therefore an
+
+14
+00:01:17,899 --> 00:01:32,649
+无限数量，因此晶格点无限
+infinite number and therefore infinity
+of lattice points
+
+15
+00:01:33,770 --> 00:01:37,979
+好吧，所以晶格平面是包含三个非共线和
+okay so a lattice plane is a plane
+containing three non collinear and
+
+16
+00:01:37,979 --> 00:01:40,950
+因此，无数个晶格点，所以这是一些
+therefore an infinite number of lattice
+points so here's some pictures of
+
+17
+00:01:40,950 --> 00:01:45,000
+晶格平面这里我们在左边，我们有一个BCC晶格，还有一个平面
+lattice planes here we on the Left we
+have a BCC lattice there's a plane
+
+18
+00:01:45,000 --> 00:01:48,479
+穿过三个点，因此如果您继续到无穷远，它将
+cutting through three points therefore
+if you continued out to infinity it will
+
+19
+00:01:48,479 --> 00:01:52,229
+切掉无穷多个点，它们是晶格平面上的
+cut through an infinity number of points
+that's the lattice plane there's on the
+
+20
+00:01:52,229 --> 00:01:55,560
+右边是这个简单的立方格子，有一个平面可以切成三个
+right is this simple cubic lattice
+there's a plane that cuts through three
+
+21
+00:01:55,560 --> 00:01:59,790
+晶格点，如果您继续到无穷大，它将切入无限
+lattice points if you continue out to
+infinity it cuts through an infinite
+
+22
+00:01:59,790 --> 00:02:05,940
+晶格点数另一个定义是晶格平面族
+number of lattice points another
+definition a family of lattice planes of
+
+23
+00:02:05,940 --> 00:02:14,760
+格子飞机妈妈格子飞机婴儿格子飞机现在我在开玩笑那不是
+lattice planes mama lattice plane baby
+lattice plane now I'm joking that's not
+
+24
+00:02:14,760 --> 00:02:23,760
+在这个班上没有人笑过的是家庭最后一架飞机等于
+what uh no one ever laughs in this class
+it is families last planes equals an
+
+25
+00:02:23,760 --> 00:02:39,150
+无限无限等距等距等距格
+infinite infinite infinite and finite
+set equally spaced equal spaced lattice
+
+26
+00:02:39,150 --> 00:02:57,829
+包括所有晶格点和所有平面点的平面
+planes such that such that all lattice
+points all flat points are included are
+
+27
+00:02:57,829 --> 00:03:12,540
+包括在一架飞机中的飞机让我知道我的写作是否开始
+included in one of the planes in planes
+let me know if my writing starts getting
+
+28
+00:03:12,540 --> 00:03:18,150
+太杂乱而无法阅读，所以这里有一个简单的立方晶格和几个
+to be too messy to read so here's a
+simple cubic lattice and a couple of
+
+29
+00:03:18,150 --> 00:03:21,150
+晶格平面族这些剪切的晶格平面中的每一个
+families of lattice planes each one of
+these the lattice planes that cut
+
+30
+00:03:21,150 --> 00:03:24,329
+通过无数个晶格点，它们之间的间距相等， 
+through an infinite number of lattice
+points and they're equally spaced and
+
+31
+00:03:24,329 --> 00:03:29,100
+当包含所有元素时，它们包括晶格中的每个点
+they include every single point in the
+lattice when taken all together this is
+
+32
+00:03:29,100 --> 00:03:32,760
+一个BCC晶格，并且BCC晶格切割有一系列晶格计划
+a BCC lattice and there's a family of
+lattice plans for the BCC lattice cuts
+
+33
+00:03:32,760 --> 00:03:37,049
+通过BCC晶格中的所有晶格点，但这不是一个族
+through all the lattice points in the
+BCC lattice this however is not a family
+
+34
+00:03:37,049 --> 00:03:40,920
+ BCC晶格的晶格平面，即使它们的晶格平面是什么
+of lattice planes for the BCC lattice
+even though their lattice planes what's
+
+35
+00:03:40,920 --> 00:03:44,510
+绘制它们等距，但它们不包括
+drawn they are equally spaced but they
+do not include
+
+36
+00:03:44,510 --> 00:03:47,959
+他们在常规比赛中错过了这些家伙的格子点
+the lattice point they miss these guys
+here in the middle of the conventional
+
+37
+00:03:47,959 --> 00:03:53,510
+因此，它不是晶格平面族，所以连接
+unit cell therefore it is not a family
+of lattice planes okay so the connection
+
+38
+00:03:53,510 --> 00:04:05,150
+到相互的晶格平面晶格平面族
+to the reciprocal lattice plane a family
+of lattice planes family of lattice
+
+39
+00:04:05,150 --> 00:04:21,699
+平面垂直于倒数晶格矢量，我称之为G 
+planes is perpendicular to a reciprocal
+lattice vector back which I'll call G
+
+40
+00:04:21,699 --> 00:04:29,260
+进一步和距离间距
+and further and the distance the spacing
+
+41
+00:04:29,289 --> 00:04:47,169
+相邻平面之间的距离D等于PI 
+between between neighbor planes between
+neighbor planes planes is D equals to PI
+
+42
+00:04:47,169 --> 00:05:04,039
+超过绝对G min，其中恶魔等于的最短沉淀晶格矢量
+over absolute G min where demon a demon
+equals shortest precip lattice vector at
+
+43
+00:05:04,039 --> 00:05:16,639
+ lat BEC朝向G方向
+lat
+BEC in direction in direction of G okay
+
+44
+00:05:16,639 --> 00:05:20,440
+每当我们有一个晶格平面族时，这就是一个重要的陈述
+this is an important statement every
+time we have a family of lattice planes
+
+45
+00:05:20,440 --> 00:05:23,690
+与该晶格平面族正交，存在互易晶格
+orthogonal to this family of lattice
+planes there is a reciprocal lattice
+
+46
+00:05:23,690 --> 00:05:27,620
+向量，如果您想知道晶格平面之间的间距
+vector and if you want to know the
+spacing between the lattice planes in
+
+47
+00:05:27,620 --> 00:05:30,979
+晶格平面族，您会发现最短的倒易晶格矢量
+the family of lattice planes you find
+the shortest reciprocal lattice vector
+
+48
+00:05:30,979 --> 00:05:34,820
+在那个方向上指向PI超过那个最短的绝对值
+pointing in that direction to PI over
+the absolute value of that shortest
+
+49
+00:05:34,820 --> 00:05:39,979
+倒数晶格向量为您提供平面之间的间距
+reciprocal lattice vector gives you the
+spacing between planes okay this is a
+
+50
+00:05:39,979 --> 00:05:44,300
+我们尚未证明的重要声明，实际上证明这一声明很有用
+big statement we haven't shown it it's
+useful to actually prove this statement
+
+51
+00:05:44,300 --> 00:05:48,800
+因为实际上在证明中，我们有很多重要的几何
+because actually in the proof there's a
+lot of important geometry that we're
+
+52
+00:05:48,800 --> 00:05:53,419
+一会儿需要，所以让我们通过证明
+going to need in coming up in a moment
+so let's go through the proof that this
+
+53
+00:05:53,419 --> 00:05:57,920
+是真的，所以首先，这只是一个证明
+is true so first of all so this is just
+a proof
+
+54
+00:05:57,920 --> 00:06:03,710
+首先，您可能还记得一些几何图形
+by geometry a little bit of geometry
+that you probably remember first of all
+
+55
+00:06:03,710 --> 00:06:10,900
+它定义了我们的向量G G点的平面拾取点x等于常数C 
+it's define a plane pick of our vector G
+G dot points x equals a constant C
+
+56
+00:06:10,900 --> 00:06:23,510
+定义一个平面，该平面找到点X垂直的点的平面
+defines a plane it finds a plane of
+points of points points X perpendicular
+
+57
+00:06:23,510 --> 00:06:33,140
+垂直于G的G，好的，实际上我可以在此处绘制
+to G perpendicular to G where okay let
+me actually draw this over here so
+
+58
+00:06:33,140 --> 00:06:40,160
+这是零点这是向量G这是垂直于G的平面
+here's the point zero here's the vector
+G here's the plane perpendicular to G
+
+59
+00:06:40,160 --> 00:06:48,680
+当调用X时，这是点X的平面和距零的距离
+which when calling X this is the plane
+of points X and the distance from zero
+
+60
+00:06:48,680 --> 00:06:57,410
+到飞机X的距离叫X min ya，其中X min最小
+to the plane X let's call that distance
+X min ya where X min the minimum
+
+61
+00:06:57,410 --> 00:07:04,070
+到平面的距离等于C超过绝对G，好吗？ 
+distance to the plane equals C over
+absolute G okay does that geometry look
+
+62
+00:07:04,070 --> 00:07:11,270
+之前看起来很熟悉，看起来还不错，所以这里的X分钟是C 
+familiar from before it does it look
+reasonable yeah so the X min here is C
+
+63
+00:07:11,270 --> 00:07:17,540
+如果我们用GX定义平面等于C，那么绝对G就可以了
+over absolute G if we're defining the
+plane by GX equals equals C okay so
+
+64
+00:07:17,540 --> 00:07:21,080
+这就是您要如何定义一个平面现在我们要定义一组
+that's how are you going to define a
+plane now we're going to define a set of
+
+65
+00:07:21,080 --> 00:07:33,200
+我们由每个I GE x定义的平面的平面集合等于1，所以为什么
+planes set of planes of planes we define
+by each of the I GE x equals 1 so why
+
+66
+00:07:33,200 --> 00:07:38,450
+是否将平面集合定义为IG点x等于1的e相同
+does that define the set of planes well
+e to the I G dot x equals 1 is the same
+
+67
+00:07:38,450 --> 00:07:48,740
+说GX等于2 pi M，其中m是整数M，有一个元素
+thing as saying GX equals 2 pi M where m
+is an integer M there's an element of
+
+68
+00:07:48,740 --> 00:07:56,180
+正确的整数，所以这意味着我们有一堆最小的平面
+integers right so so that means we have
+a whole bunch of planes whose minimum
+
+69
+00:07:56,180 --> 00:08:06,449
+距原点的距离为2 pi M，因此X min等于绝对G上的2 pi M 
+distance to the origin is given by 2 pi
+M so X min equals 2 pi M over absolute G
+
+70
+00:08:06,449 --> 00:08:22,449
+因此，这些平面之间的空间平面D之间的间距为2 PI 
+so space in between these planes spacing
+between planes planes D is 2 PI over
+
+71
+00:08:22,449 --> 00:08:27,820
+绝对G好吧，实际上我对它的了解比我能画的要好
+absolute G okay let's actually I have a
+better picture of that than I can draw
+
+72
+00:08:27,820 --> 00:08:33,520
+所以我们感兴趣的几何形状是e等于IG x等于1，它定义了一组
+so the geometry we're interested in is e
+to the IG x equals 1 it defines a set of
+
+73
+00:08:33,520 --> 00:08:37,870
+平行平面中的一个将是GX等于
+parallel planes
+one of the planes will be GX equals to
+
+74
+00:08:37,870 --> 00:08:43,120
+ PI M另一个平面将是x处的G等于PI M加第一个平面的距离1 
+PI M another plane will be G at x equals
+to PI M plus 1 the distance of the first
+
+75
+00:08:43,120 --> 00:08:47,920
+平面在绝对G上为2 pi M，第二个距离为第二pi 
+plane is 2 pi M over absolute G the
+second distance the second plane is 2 pi
+
+76
+00:08:47,920 --> 00:08:52,750
+并在绝对G上加1，因此两者之间的距离在G上为2 pi 
+and plus 1 over absolute G so the
+distance between the two is 2 pi over G
+
+77
+00:08:52,750 --> 00:09:01,060
+几何看起来还不错吗，是的，好吧，所以现在回想一下，如果G 
+is that geometry look pretty good yeah
+ok good alright so now recall that if G
+
+78
+00:09:01,060 --> 00:09:09,610
+是倒数晶格向量，所以G是倒数向量，我们再往后
+is a reciprocal lattice vector so G is
+reciprocal vector we sip flat back then
+
+79
+00:09:09,610 --> 00:09:24,730
+对于所有间接格，对于所有的间接格，e到i gr等于1 
+e to the i gr equals 1 for all for all
+our indirect lattice and indirect that's
+
+80
+00:09:24,730 --> 00:09:31,029
+互易晶格的定义，这样告诉我们的是
+a definition of the reciprocal lattice
+so that what that tells us is that every
+
+81
+00:09:31,029 --> 00:09:37,000
+晶格点将包含在这组平面中，因为
+lattice point is going to be included
+inside this set of planes okay because
+
+82
+00:09:37,000 --> 00:09:41,890
+如果g是倒数晶格，则任何R都必须满足EBI g点r等于1 
+any R will have to satisfy EBI g dot r
+equals 1 if g is reciprocal lattice
+
+83
+00:09:41,890 --> 00:09:45,040
+向量，所以我们在直接晶格中的所有晶格点都将是
+vector so all of our lattice points in
+the direct lattice are going to be
+
+84
+00:09:45,040 --> 00:09:49,690
+包括在我们刚刚定义的这套飞机中，但这并不意味着
+included in this set of planes that we
+just defined however it does not mean
+
+85
+00:09:49,690 --> 00:09:55,060
+每个飞机都切过晶格点好吧，为什么不好，这是这里的
+that every plane cuts through lattice
+points okay why not okay here's a here's
+
+86
+00:09:55,060 --> 00:10:01,120
+图片说明，这里我们有一组由一些倒数定义的平面
+a picture to explain that here we have a
+set of planes defined by some reciprocal
+
+87
+00:10:01,120 --> 00:10:04,570
+我将恰好称为G min的晶格矢量，在这里我们有一组平面
+lattice vector which I'll happen to call
+G min and here we have a set of planes
+
+88
+00:10:04,570 --> 00:10:09,910
+由两倍的倒数晶格矢量定义
+devided defined by twice that reciprocal
+lattice vector the spacing between the
+
+89
+00:10:09,910 --> 00:10:14,560
+晶格平面大一半，因为在G上间距始终为2 pi 
+lattice planes is half as big because
+the spacing is always 2 pi over G you'll
+
+90
+00:10:14,560 --> 00:10:18,579
+请注意，在第二张图片中，我们有一个由此定义的平面
+notice it in the second picture we have
+a plane which is defined by this
+
+91
+00:10:18,579 --> 00:10:21,790
+不与任何晶格点相交的倒数晶格矢量G 
+reciprocal lattice vector G which
+doesn't intersect any lattice points
+
+92
+00:10:21,790 --> 00:10:26,200
+该法所保证的是，所有直接晶格点必须是
+what were guaranteed by this law is that
+all direct lattice points must be
+
+93
+00:10:26,200 --> 00:10:30,820
+包括在一架飞机中，但不能保证每个飞机都必须
+included in one of the planes but were
+not guaranteed that every plane has to
+
+94
+00:10:30,820 --> 00:10:36,670
+穿过晶格点好吧，所以如果我们想得到一组平面
+cut through a lattice point okay so if
+we want to get a set of planes in which
+
+95
+00:10:36,670 --> 00:10:42,790
+每个飞机上的每个人都穿过我们必须选择的晶格点
+everyone every plane cuts through
+lattice points we have to choose so to
+
+96
+00:10:42,790 --> 00:10:53,680
+得到晶格平面的晶格族，并成为晶格平面
+get family of lattice planes of lattice
+planes and to be a lattice plane it has
+
+97
+00:10:53,680 --> 00:10:58,660
+必须穿过一个晶格点，所以如果我们要设置一组平面
+to has to cut through a lattice point so
+if we want to set of planes where every
+
+98
+00:10:58,660 --> 00:11:07,829
+平面切过一个晶格点，我们必须选择必须选择最短的gmm 
+plane cuts through a lattice point we
+must choose must choose gmm the shortest
+
+99
+00:11:07,829 --> 00:11:13,680
+给定方向上的倒数晶格矢量（如果不是最小值） 
+reciprocal lattice vector in that given
+direction if it was not the minimum
+
+100
+00:11:13,680 --> 00:11:18,550
+在该方向上的倒数晶格矢量，您可以将其缩小
+reciprocal lattice vector in that
+direction you could make it smaller cut
+
+101
+00:11:18,550 --> 00:11:23,350
+例如，将其减半，得到的飞机平面更少，但所有
+it in half for example and get something
+which has fewer planes and yet all of
+
+102
+00:11:23,350 --> 00:11:26,110
+晶格点仍应包括在内，因此您应尽量减少
+the lattice points should still be
+included so you should take the minimum
+
+103
+00:11:26,110 --> 00:11:29,769
+倒数晶格矢量，以便获得足够的平面
+reciprocal lattice vector so that you
+get enough planes
+
+104
+00:11:29,769 --> 00:11:32,800
+确保您所有的晶格点都在直接晶格中
+there's guaranteed that all all your
+lattice points in the direct lattice
+
+105
+00:11:32,800 --> 00:11:37,990
+将被包括在那些飞机上，但是您没有得到任何额外的好处，好吧
+will be included in those planes but you
+don't get any extra okay good all right
+
+106
+00:11:37,990 --> 00:11:45,070
+这就是那个相当重要的定理的证明，现在是
+so that's the the proof of that of that
+rather important theorem now it's it's
+
+107
+00:11:45,070 --> 00:11:50,320
+实际提出一些描述这些相互关系的方法很有用
+useful to actually come up with some
+some way to describe these reciprocal
+
+108
+00:11:50,320 --> 00:11:54,850
+晶格平面是这些晶格平面族或这些倒数
+lattice planes are these these family of
+lattice planes or these reciprocal
+
+109
+00:11:54,850 --> 00:11:58,870
+格向量，这是一种符号，我们将非常使用
+lattice vectors and this is a type of
+notation that we will use very
+
+110
+00:11:58,870 --> 00:12:03,180
+通常被称为米勒指数
+frequently known as Miller indices for
+
+111
+00:12:04,290 --> 00:12:18,760
+用于描述描述飞机系列的飞机
+describing for describing describe
+families of planes planes planes
+
+112
+00:12:18,760 --> 00:12:32,470
+或收件人米勒索引中可观空间向量中的向量是
+or vectors in respectable space vectors
+in recipient Miller index is that you
+
+113
+00:12:32,470 --> 00:12:39,610
+用圆括号HK L表示实际上也许我会先
+write in parentheses HK L to mean
+actually maybe maybe I'll before I do
+
+114
+00:12:39,610 --> 00:12:43,690
+好吧，我们描述了互易空间中平面或向量的族
+that alright we describe families of
+planes or vectors in reciprocal space in
+
+115
+00:12:43,690 --> 00:12:56,529
+ XB sub I的参考向量项的术语这些B sub I是
+terms of terms of reference vectors
+reference of X B sub I these B sub I is
+
+116
+00:12:56,529 --> 00:13:00,579
+非常重要的是它们可能是原始的原始倒易晶格矢量或
+very important they may be primitive
+primitive reciprocal lattice vectors or
+
+117
+00:13:00,579 --> 00:13:05,649
+他们可能通常不是我们要做的是我们写的是我开始写的
+they may not be generally what we do is
+we write was I starting to write a
+
+118
+00:13:05,649 --> 00:13:15,430
+括号中的第二行HK L表示H乘b1加K乘b2加L乘b3 
+second go HK L in parentheses to mean H
+times b1 plus K times b2 plus L times b3
+
+119
+00:13:15,430 --> 00:13:22,720
+这个符号看起来有点熟悉，我们可以将其与
+and this notation should look a little
+bit familiar we can compare it to the
+
+120
+00:13:22,720 --> 00:13:29,980
+我们在现实空间中使用的符号间接空间直接空间中我们使用的符号u 
+notation we use in real space indirect
+space direct space we use the notation u
+
+121
+00:13:29,980 --> 00:13:45,579
+ v W表示u乘以1加V乘以2加W乘以3，所以重要的是
+v W to mean u times a 1 plus V times a 2
+plus W times a 3 so the important thing
+
+122
+00:13:45,579 --> 00:13:49,750
+要带走的是，如果我们在此处使用弯曲的括号，则表示
+to take away here is that if we use
+curved parentheses here we mean
+
+123
+00:13:49,750 --> 00:13:54,040
+倒数空间，如果我们使用方括号，是指直接空间，所以不要
+reciprocal space if we use square
+brackets we mean direct space so don't
+
+124
+00:13:54,040 --> 00:13:59,410
+现在在这两种情况下将它们彼此混淆，我们可能或可能不是故意的
+confuse those with each other now in
+both cases we may or may not mean these
+
+125
+00:13:59,410 --> 00:14:04,959
+这些B的帮助是原始的，这很重要，因为很多
+aids of these B's to be primitive okay
+that's very important because a lot of
+
+126
+00:14:04,959 --> 00:14:08,860
+考试中出现的问题恰好参考了这种细微之处
+the questions that come up on exams
+exactly reference this subtlety that
+
+127
+00:14:08,860 --> 00:14:12,279
+有时您使用原始晶格事实倒数晶格矢量
+sometimes you work with primitive
+lattice fact reciprocal lattice vectors
+
+128
+00:14:12,279 --> 00:14:15,910
+或原始晶格向量，有时您不为什么不使用
+or primitive lattice vectors and
+sometimes you don't why don't use
+
+129
+00:14:15,910 --> 00:14:19,449
+有时是因为有时原始格向量或原始
+sometimes because sometimes the
+primitive lattice vectors or primitive
+
+130
+00:14:19,449 --> 00:14:22,899
+倒数晶格向量是丑角，如果您选择使用
+reciprocal lattice vectors are ugly
+angles and if you choose to use a
+
+131
+00:14:22,899 --> 00:14:26,380
+可以使用常规单位单元而不是原始单位单元
+conventional unit cell rather than
+primitive unit cell you can use
+
+132
+00:14:26,380 --> 00:14:30,760
+正交向量而不是使用怪异角度的东西，所以如果可以的话
+orthogonal vectors rather than using
+things that weird angles so if you can
+
+133
+00:14:30,760 --> 00:14:33,430
+使用正交通常可以做到，即使这意味着您没有使用
+use orthogonal you usually
+do even if it means you're not using
+
+134
+00:14:33,430 --> 00:14:39,760
+原始晶格矢量还可以，所以在这里要小心
+primitive lattice vectors okay
+so let's be be careful here being
+
+135
+00:14:39,760 --> 00:14:45,850
+小心小心我们的定义，规则就像
+careful being careful about our
+definitions the rules kind of go like
+
+136
+00:14:45,850 --> 00:14:53,620
+首先选择直接实空间返回直接空间矢量
+this first choose direct real space back
+there's direct space vectors direct
+
+137
+00:14:53,620 --> 00:15:02,079
+空间向量是一个子I，可能是这些东西，也可能不是
+space vectors a sub I that's going to be
+these things which may or may not be
+
+138
+00:15:02,079 --> 00:15:11,829
+我什至会写成原始的，可能不是PL v z-- p LVS 
+primitive I'll even write that down may
+or may not may not be PL v z-- p LVS now
+
+139
+00:15:11,829 --> 00:15:15,490
+对我们来说，您会记得我们有一条规则，那就是我们不会负责任
+for us you'll remember we had this rule
+that we're not going to be responsible
+
+140
+00:15:15,490 --> 00:15:20,820
+对于三维的晶格，其中轴不是正交的
+for lattices in three dimensions where
+the axes are not orthogonal okay for us
+
+141
+00:15:20,820 --> 00:15:38,010
+对于我们在3D中，我们总是选择选择正交正交A 
+for us in 3d we always choose choose
+orthogonal orthogonal A's okay
+
+142
+00:15:38,010 --> 00:15:41,860
+有时在2D中，他们会问一个问题：它们不是正交的，但在3D中
+sometimes in 2d they'll ask a question
+where they're not orthogonal but in 3d
+
+143
+00:15:41,860 --> 00:15:47,279
+我们总是选择选择正交A表示简单立方
+we always choose choose orthogonal A's
+that means for simple cubic simple cubic
+
+144
+00:15:47,279 --> 00:15:54,640
+三次，这些可以是原始格向量tlv，但对于FCC FCC和
+cubic these can be these are primitive
+lattice vectors tlvs but for FCC FCC and
+
+145
+00:15:54,640 --> 00:16:00,970
+ BCC不是PL v，但它们具有正交的优势
+BCC these are not not PL v's but they
+have the advantage of being orthogonal
+
+146
+00:16:00,970 --> 00:16:04,449
+因此，它们使您的生活变得更加轻松，因为使用起来更加轻松
+so they make your life a lot easier
+because it's a lot easier to work with
+
+147
+00:16:04,449 --> 00:16:08,170
+正交的东西比不正交的东西还好
+things that are orthogonal than things
+that are not orthogonal okay so given
+
+148
+00:16:08,170 --> 00:16:14,910
+我们已经定义了这些A，然后构造了B，因此可以这样称呼为
+that we've defined these A's we then
+construct B's so can so call that to
+
+149
+00:16:14,910 --> 00:16:20,670
+构造B的
+construct construct B's
+
+150
+00:16:21,540 --> 00:16:33,399
+ bi bi AJ等于2 pi Delta IJ，我们在如果且仅当
+bi bi AJ equals 2 pi Delta IJ and we've
+seen this equation before if if and only
+
+151
+00:16:33,399 --> 00:16:44,829
+如果是我们的PL B，那么蜜蜂将是倒数，我们的倒数是这些
+if is our pl B's then bees will be
+reciprocal our reciprocal repeal these
+
+152
+00:16:44,829 --> 00:16:49,830
+如果lat P lbs原语，我们在Reese是典型的吗
+are we
+typical at Reese if lat P lbs primitive
+
+153
+00:16:49,830 --> 00:17:00,540
+格点向量对我们来说再好一次，因为我们已经在3d中使用3d 
+lattice vectors okay again for us for us
+since we are already using in 3d in 3d
+
+154
+00:17:00,540 --> 00:17:05,880
+由于我们一直在3D中使用正交轴，因此总是
+since we are always using orthogonal
+axes in 3d it will always turn out to be
+
+155
+00:17:05,880 --> 00:17:10,619
+ BI的绝对值等于PI超过PI的绝对值的情况
+the case that the absolute value of BI
+equals to PI over the absolute value of
+
+156
+00:17:10,619 --> 00:17:22,379
+ AI因为x是正交轴正交好所以使生活很多
+
+157
+00:17:22,380 --> 00:17:35,130
+比较容易，所以一般来说，当我们写下G等于HK L时，我们的意思是
+easier so generally when we write down G
+equals HK L we mean where is it this
+
+158
+00:17:35,130 --> 00:17:47,070
+ HB 1 + K ma已经是我们的意思了HB 1 + KB 2 + LB 
+thing over here HB 1 plus K ma already
+again we mean H B 1 plus K B 2 plus L B
+
+159
+00:17:47,070 --> 00:17:53,370
+ 3以这种方式构造的蜜蜂，但总是G定义了一组
+3 where the bees have been constructed
+in this way but always G defines a set
+
+160
+00:17:53,370 --> 00:18:06,870
+平面定义了一组平面，一组平面通过e到达IG x 
+of planes defines a set of planes a set
+of planes planes via e to the IG x
+
+161
+00:18:06,870 --> 00:18:14,100
+等于1 e到I GE x等于1，所以您可以始终定义一组平面
+equals 1 e to the I GE x equals 1 so you
+can always define a set of planes from
+
+162
+00:18:14,100 --> 00:18:21,120
+通过e到IG x的任何向量G等于1，并且这些平面的间距
+any vector G via e to the IG x equals 1
+and the spacing of these planes spacing
+
+163
+00:18:21,120 --> 00:18:34,560
+是d HK l等于绝对G的2pi还是我假设是在正交轴上
+is d HK l equals 2pi over absolute G or
+I guess in assuming orthogonal axes
+
+164
+00:18:34,560 --> 00:18:42,270
+假设正交蜜蜂正交A的正交正交10蜜蜂正交
+assume orthogonal bees orthogonal A's
+orthogonals a 10 bees orthogonal
+
+165
+00:18:42,270 --> 00:18:44,480
+正交的
+orthogonal
+
+166
+00:18:45,800 --> 00:18:54,950
+那么我们可以写成2 pi超过H平方的绝对值
+then we have we can write that as 2 pi
+over absolute value of H squared
+
+167
+00:18:54,950 --> 00:19:01,020
+绝对b1平方加K平方绝对b2平方加
+absolute b1 squared
+plus K squared absolute b2 squared plus
+
+168
+00:19:01,020 --> 00:19:10,530
+ l平方恰好是3平方，对于立方晶格，对于立方，对于立方
+l squared happens to be 3 squared ok and
+for cubic lattice for cubic for cubic
+
+169
+00:19:10,530 --> 00:19:15,720
+其中a 1 2和a 3的长度相同且彼此正交
+where a 1 a 2 and a 3 are the same
+length and orthogonal to each other
+
+170
+00:19:15,720 --> 00:19:20,310
+因此B 1 B 2 B 3的长度相同且彼此正交
+therefore B 1 B 2 B 3 are the same
+length and are orthogonal to each other
+
+171
+00:19:20,310 --> 00:19:29,340
+间距D HKL是图元的长度，是常规长度
+the spacing D HKL is a the length of the
+primitive the length of the conventional
+
+172
+00:19:29,340 --> 00:19:37,430
+ H平方加K平方加l平方的间接空间中的晶胞
+unit cell in indirect space over H
+squared plus K squared plus l squared
+
+173
+00:19:37,430 --> 00:19:47,810
+好吧，也许我会再注意一次，如果A是PL而不是A是PL B 
+okay and maybe I'll note this one more
+time if the A's are PL vs A's are PL B's
+
+174
+00:19:47,810 --> 00:19:55,500
+然后蜜蜂是PL V，然后是B的PL V，将其写在B的PL V之上， 
+then the bees are PL V's then B's PL V's
+to write that above B's PL V's and that
+
+175
+00:19:55,500 --> 00:20:06,300
+表示H KL是倒数晶格向量，我们向后倾斜，但不是
+means that H KL is a reciprocal lattice
+vector we sip lat back but it's not
+
+176
+00:20:06,300 --> 00:20:09,960
+总是这样，如果A不是PL V的开头
+always the case
+if the A's are not PL V's to start with
+
+177
+00:20:09,960 --> 00:20:19,080
+好吧，假设某人递给您一套飞机，并要求您
+ok all right so supposing someone hands
+you a set of planes and asked you for
+
+178
+00:20:19,080 --> 00:20:22,470
+听起来很难找到米勒指数，但实际上
+the Miller indices that sounds like it
+might be hard to figure out but in fact
+
+179
+00:20:22,470 --> 00:20:26,760
+有一种简单的方法可以从几何上找出米勒指数
+there's an easy way to figure out
+geometrically what the Miller indices
+
+180
+00:20:26,760 --> 00:20:31,710
+是针对一组平面的，这称为拦截方法
+are for a set of planes and this is
+known as the method of intercept method
+
+181
+00:20:31,710 --> 00:20:46,470
+的截距有点像这样，所以假设我们有这样的
+of intercepts goes kind of like kind of
+like this so suppose we have so here's
+
+182
+00:20:46,470 --> 00:20:53,720
+三个轴x轴，y轴和z轴让我们假设是正交的，因此
+three axes x-axis the y-axis and the
+z-axis let's assume orthorhombic so the
+
+183
+00:20:53,720 --> 00:20:58,590
+基本晶格矢量和三个方向不一定相同
+primitive lattice vectors and the three
+directions aren't necessarily the same
+
+184
+00:20:58,590 --> 00:21:05,220
+所以称这为二和二为二，这将是我猜为1 2 A 1 3 a 1 
+so call this a two and two a two and
+this one will be I guess a 1 2 A 1 3 a 1
+
+185
+00:21:05,220 --> 00:21:11,309
+ 4 a 1在这里，然后是三到三和三a 
+4 a 1 here
+then a three to a three and three a
+
+186
+00:21:11,309 --> 00:21:14,340
+三个假设我们要坐飞机
+three
+so suppose that we have a plane going
+
+187
+00:21:14,340 --> 00:21:17,549
+穿过原点，想象一下这里有一架飞机穿过原点
+through the origin so imagine there's a
+plane cutting through the origin here
+
+188
+00:21:17,549 --> 00:21:24,960
+然后像这样切开轴，所以您将前两个
+and then also cuts through the axes like
+this okay so you take the first two
+
+189
+00:21:24,960 --> 00:21:28,679
+其中一个平行平面切成与该平面平行的原点
+parallel planes one of them cuts to the
+origin it's parallel to this plane which
+
+190
+00:21:28,679 --> 00:21:35,669
+像这样切开轴，规则是HKL也许我会这样写
+cuts through the axes like this the rule
+is that HKL maybe I'll write it this way
+
+191
+00:21:35,669 --> 00:21:45,200
+ H是2 K是2 L，因为其比例与x截距上的1相同
+H is 2 K is 2 L as a proportionality is
+the same as a 1 over the x intercept is
+
+192
+00:21:45,200 --> 00:21:55,850
+ y截距上的2 a 2是Z截距上的2 a 3，所以在此图片中
+2 a 2 over the y intercept is 2 a 3 over
+the Z intercept so in this picture here
+
+193
+00:21:55,850 --> 00:22:04,980
+这将是1超过x截距是1超过4 a 2是超过y截距
+this would be a 1 over the x intercept
+is 1 over 4 a 2 is over the y intercept
+
+194
+00:22:04,980 --> 00:22:12,269
+是2上的1，Z截距上的3是3的1，所以它应该具有相同的
+is 1 over 2 and a 3 over the Z intercept
+is 1 over 3 so it should have the same
+
+195
+00:22:12,269 --> 00:22:16,620
+如果我们乘以最小公倍数和最小公倍数
+ratios as this if we multiply by the
+least common multiple least common
+
+196
+00:22:16,620 --> 00:22:23,909
+倍数，我们得到3逗号6逗号4作为Miller指数将是适当的
+multiple we get 3 comma 6 comma 4 as
+Miller indices that would be appropriate
+
+197
+00:22:23,909 --> 00:22:30,480
+对于这个平面，通常您将其写为3 6 4，而在不带任何逗号的情况下
+for this this plane and generally you
+write it as 3 6 4 without any commas at
+
+198
+00:22:30,480 --> 00:22:34,620
+至少只要不混淆应该放在哪里的逗号
+least as long as there's no confusion as
+to where you should put the commas if
+
+199
+00:22:34,620 --> 00:22:38,429
+如果您超过10，则必须指出逗号在哪里，否则不是
+you go over 10 then you have to indicate
+where the commas are otherwise it's not
+
+200
+00:22:38,429 --> 00:22:46,049
+清楚现在如果在这里和这以及我们在这里所说的3 6 4意味着什么
+clear where it would be all right now if
+and this and what we mean by 3 6 4 here
+
+201
+00:22:46,049 --> 00:22:57,299
+ 3 6 4是3 B 1加上6 B 2加上4 B 3，这就是我们所说的
+is that 3 6 4 is 3 B 1 plus 6 B 2 plus 4
+B 3 and that's what we mean by the
+
+202
+00:22:57,299 --> 00:23:01,919
+米勒指数和那套米勒指数是倒数
+Miller indices and that that set of
+Miller indices is gives a reciprocal
+
+203
+00:23:01,919 --> 00:23:08,399
+与此平面垂直的晶格矢量在某些情况下
+lattice vector which is normal to this
+to this plane there's a some cases which
+
+204
+00:23:08,399 --> 00:23:13,940
+如果一个平面不与访问相交，则要复杂一些
+are a little more complicated if a plane
+if a plane does not intersect an access
+
+205
+00:23:13,940 --> 00:23:20,740
+平面不相交访问不相交
+plane does not not intersect an access
+not intersect
+
+206
+00:23:20,740 --> 00:23:34,150
+与轴相交，则得到的密勒指数为零，得到密勒指数
+intersect an axis then you get a miller
+index of zero you get Miller index index
+
+207
+00:23:34,150 --> 00:23:38,270
+等于零，让我们看看是否可以解释那是什么
+equals zero let's see if we can explain
+what that is
+
+208
+00:23:38,270 --> 00:23:46,190
+所以这里又是三个轴，这是一个轴，这里可能是2 
+so here again three axes this is the a
+one axis out here maybe this will be a 2
+
+209
+00:23:46,190 --> 00:23:54,740
+这将是2 a 2，也许在这里我们有383，假设我们有一个轴
+this will be 2 a 2 and maybe here we
+have 383 and suppose we have an axis
+
+210
+00:23:54,740 --> 00:23:58,490
+轴总是切一个平面，总是切过0，然后再切下一个
+axis always cut an a plane always
+cutting through 0 and then the next
+
+211
+00:23:58,490 --> 00:24:06,170
+平面在这里切割，但它平行于x轴的a 1轴，因此从不
+plane cuts here but it's parallel to the
+a 1 axis here to the x axis so it never
+
+212
+00:24:06,170 --> 00:24:11,960
+拦截它，那么我们如何处理Miller指数呢？我们说H为2 K为2 
+intercepts it so what do we do with the
+Miller indices well we say H is 2 K is 2
+
+213
+00:24:11,960 --> 00:24:18,080
+ L也好，所以第一个问题是，如果
+L as well okay so the first question is
+where do we intercept the x-axis well if
+
+214
+00:24:18,080 --> 00:24:21,980
+它完全不拦截x轴，您可以说这真的像
+it doesn't intercept the x-axis at all
+you can say that it's really like
+
+215
+00:24:21,980 --> 00:24:28,610
+与x轴在无穷大处相交，因此我们在无穷大处写入1，然后在K 
+intersecting the x-axis at infinity so
+we write 1 over infinity here and then K
+
+216
+00:24:28,610 --> 00:24:34,520
+好吧，我们在2处的y轴与2相交，而在3处的z轴与相交
+well we intersect the y-axis at 2 so 1
+over 2 and we intersect the z-axis at 3
+
+217
+00:24:34,520 --> 00:24:40,220
+因此，我们将1覆盖3并乘以最小公倍数，得到1覆盖
+so we write 1 over 3 and multiply by the
+least common multiple and we get 1 over
+
+218
+00:24:40,220 --> 00:24:50,240
+无穷大0 3 3 2所以这里的米勒指数是0 3 2好的，让我展示
+infinity 0 3 3 2 so the Miller indices
+here would be 0 3 2 okay so let me show
+
+219
+00:24:50,240 --> 00:24:56,150
+您的几个示例这是一组1 0 0的Miller索引
+you a couple examples of this here's a
+set of Miller indices that are 1 0 0
+
+220
+00:24:56,150 --> 00:25:01,910
+因为它在1处与X相交，而与Z或Y不相交，所以这里是1 1 2 
+because it intersects X at 1 and doesn't
+intersect Z or Y here's one that's 1 1 2
+
+221
+00:25:01,910 --> 00:25:09,350
+因为它与1处的1 y处的X和1处的Z相交，所以1/2的倒数是2 
+because it intersects X at 1 y at 1 and
+Z at 1/2 the reciprocal of 1/2 is 2 so
+
+222
+00:25:09,350 --> 00:25:13,510
+是1 1 2所以你可以有一个情况
+it's 1 1 2 so you can have a situation
+
+223
+00:25:14,290 --> 00:25:22,510
+可以具有小于0的米勒指数
+can have can have Miller index less than
+0 index
+
+224
+00:25:22,510 --> 00:25:25,510
+负
+negative
+
+225
+00:25:25,890 --> 00:25:36,750
+像1-1 0，通常写成1 1，而在0处有一个横线
+like 1-1 0 which you typically write as
+1 1 with a bar over at 0 okay so the bar
+
+226
+00:25:36,750 --> 00:25:46,750
+条形表示否定表示否定，这只是常规的表示法
+bar means negative means negative that's
+just the notation that's conventionally
+
+227
+00:25:46,750 --> 00:25:55,090
+现在可以使用了，所以对于我们不协调的人来说，这是一个很大的道歉
+used now ok so here is a great big
+apology for the uncoordinated of our
+
+228
+00:25:55,090 --> 00:26:00,160
+社区，所以取决于您所说的方式来自海洋的哪一边
+community so depending on what side of
+the ocean you come from the way you say
+
+229
+00:26:00,160 --> 00:26:06,550
+如果您来自美国，那声音大不一样，您说1 1巴
+this out loud is different if you're
+from the United States you say 1 1 bar
+
+230
+00:26:06,550 --> 00:26:12,550
+如果您来自英国，则为0，您说1 bar 1 0我不知道为什么会这样
+is 0 if you're from England you say 1
+bar 1 0 I don't know why it makes things
+
+231
+00:26:12,550 --> 00:26:16,750
+令人难以置信的是，它写的时候完全不清楚
+incredibly confusing when it's written
+it's totally unambiguous the bar on top
+
+232
+00:26:16,750 --> 00:26:21,760
+表示负面，但当您大声说出来时，这完全令人困惑，没有人
+means negative but when you say it out
+loud it's totally confusing and no one
+
+233
+00:26:21,760 --> 00:26:24,820
+知道你的意思，所以我建议先写下来然后
+knows what you what you mean so I
+recommend just writing it down and then
+
+234
+00:26:24,820 --> 00:26:28,510
+每个人都知道你在说什么好吧，让我给你看一个例子， 
+everyone knows what you're talking about
+ok let me show you an example where we
+
+235
+00:26:28,510 --> 00:26:32,200
+米勒指数为负，所以这架飞机实际上可能并非如此
+have a negative Miller index so this
+plane here actually maybe it's not so
+
+236
+00:26:32,200 --> 00:26:35,200
+清楚，但应该是您应该能够
+clear but but it's supposed to you
+supposed to sort of be able to
+
+237
+00:26:35,200 --> 00:26:38,830
+用你的眼睛往下推，看到这架飞机有点像
+extrapolate down with your with your
+eyes and see that this plane is sort of
+
+238
+00:26:38,830 --> 00:26:44,320
+从此处开始然后向下移动，并且与z轴相交为负1/2，因此
+starts up here and goes down and would
+intersect the z-axis at minus 1/2 and so
+
+239
+00:26:44,320 --> 00:26:49,840
+它的截距是1 1减去1/2，所以它是Miller指数或1 1 2与
+it's intercepts are 1 1 minus 1/2 so
+it's Miller indices or 1 1 2 with the
+
+240
+00:26:49,840 --> 00:26:57,730
+否定为负2好的，所以这里有一堆不同的Miller指数
+bar over it negative 2 ok so here's a
+whole bunch of different Miller indices
+
+241
+00:26:57,730 --> 00:27:03,910
+对于一堆不同的飞机，他是0 0 1 1 0 0 0 1 1 0 1 0 1依此类推
+for bunches of different planes he's 0 0
+1 1 0 0 0 1 0 1 0 1 so forth and so on
+
+242
+00:27:03,910 --> 00:27:07,960
+您会发现他们实际上实际上是某种家庭成员，所以如果
+and you see that they actually they
+actually kind of come in families so if
+
+243
+00:27:07,960 --> 00:27:12,100
+您会在第一行的第一行看到家庭，您会看到0 
+you look at the family across the top
+row across the top row you'll see the 0
+
+244
+00:27:12,100 --> 00:27:16,000
+ 0 1和1 0 0它们看起来相似，而0 1 0看起来相似，如果
+0 1 and 1 0 0 they kind of look similar
+and 0 1 0 looks kind of similar and if
+
+245
+00:27:16,000 --> 00:27:19,720
+您以为实际上有一个样品，您知道这是一个简单的立方晶格， 
+you imagined actually having a sample
+you know it's a simple cubic lattice and
+
+246
+00:27:19,720 --> 00:27:24,370
+您拿起简单的立方晶格，然后从一侧对其进行了观察1 0 0 
+you picked up the simple cubic lattice
+and you looked at it from one side 1 0 0
+
+247
+00:27:24,370 --> 00:27:28,630
+看起来就像0 1 0，具体取决于您是否将其拿起并打开
+would look exactly like 0 1 0 depending
+on if you picked it up and turn it
+
+248
+00:27:28,630 --> 00:27:32,410
+侧面完全一样，只是取决于您拿起的那一侧， 
+sideways it's exactly the same it just
+depends on which side you picked up and
+
+249
+00:27:32,410 --> 00:27:36,220
+先看类似的1 0 1或1 1 0 
+looked at first
+similarly with 1 0 1 or 1 1 0 if you
+
+250
+00:27:36,220 --> 00:27:38,370
+拿起它，你侧眼看着它会
+picked it up and you looked at it
+sideways it would
+
+251
+00:27:38,370 --> 00:27:42,300
+飞机和那些家庭之间的距离完全一样
+exactly the same okay the spacing
+between planes and those families would
+
+252
+00:27:42,300 --> 00:27:45,480
+与通过设备斜切的方式完全相同
+be exactly the same the way it cuts
+diagonally through the through the unit
+
+253
+00:27:45,480 --> 00:27:48,600
+单元格看起来一样，只是选择哪种方式很重要
+cell would look the same
+it just matters which way you picked it
+
+254
+00:27:48,600 --> 00:27:52,080
+首先，所以我们有一个等效的符号
+up in the first place
+so we have a notation for equivalent
+
+255
+00:27:52,080 --> 00:28:05,910
+米勒指数集等同于我们的米勒指数集
+sets of Miller indices equivalent sets
+of Miller indices indices which we
+
+256
+00:28:05,910 --> 00:28:11,309
+请注意，我们有大括号，像那样可怕的大括号
+notate we have curly brackets okay
+that's terrible curly bracket like that
+
+257
+00:28:11,309 --> 00:28:24,510
+ HKL表示等值集等效于HDL和常规括号
+HKL which means equivalent sets equiv
+sets of HDL and regular parentheses
+
+258
+00:28:24,510 --> 00:28:33,240
+方括号，例如，在此图片中，大括号1 0 0表示1 0 0或
+brackets so for example in this picture
+curly brackets 1 0 0 would mean 1 0 0 or
+
+259
+00:28:33,240 --> 00:28:47,010
+ 0 1 0或0 0 1或1 bar 0 0或0 1 bar 0或0 0 1 bar巧合
+0 1 0 or 0 0 1 or 1 bar 0 0 or 0 1 bar 0
+or 0 0 1 bar on coincidentally you know
+
+260
+00:28:47,010 --> 00:28:51,030
+这些平面看起来像立方体的表面，您可以拾取
+these planes look like the surface of a
+cube and you can pick up the surface of
+
+261
+00:28:51,030 --> 00:28:55,440
+一个多维数据集，并以6种不同的方式查看它，从所有角度来看，它看起来都是等效的
+a cube and look at it 6 different ways
+and it would look equivalent from all
+
+262
+00:28:55,440 --> 00:29:06,050
+这六个不同的角度，我们也有称为HK L的多重性
+those six different angles we also have
+what's known as the multiplicity of HK L
+
+263
+00:29:06,050 --> 00:29:18,570
+该数字等于括号HK L中括号HK L的数量，因此
+which is the number equals the number of
+parentheses HK L in bracket HK L so in
+
+264
+00:29:18,570 --> 00:29:28,740
+在这种情况下，我们将具有1 0 0的多重性是6，因为它包括所有这些
+this case we would have multiplicity of
+1 0 0 is 6 because it includes all those
+
+265
+00:29:28,740 --> 00:29:35,760
+我写下了六组不同的米勒指数，所以对于第一个
+six different sets of Miller indices
+that I wrote down okay so for the first
+
+266
+00:29:35,760 --> 00:29:44,309
+一天的糖果吧1 2 3的多重性是多少
+candy bar of the day what is the
+multiplicity of 1 2 3 no
+
+267
+00:29:44,309 --> 00:29:53,110
+现在是谁说某事48是的，这个谁说48 
+now who is it someone said something
+48 yeah yeah this who said that 48 this
+
+268
+00:29:53,110 --> 00:29:55,510
+一个人的你很好，我不能把它扔得那么远
+one's yours very good I can't throw it
+that far
+
+269
+00:29:55,510 --> 00:30:00,280
+ 48答案是48，所以让我们看看为什么它的多重性是48 
+48 the answer is 48 so let's see why the
+multiplicity of this is 48
+
+270
+00:30:00,280 --> 00:30:06,520
+首先，两个和三个可以任意顺序排列，所以这是六个事实，或者是
+first of all one two and three can be in
+any order so that's six fact or that's
+
+271
+00:30:06,520 --> 00:30:14,200
+三个阶乘给您6 1 2 3 1 3 2 2 3 1 2 1 3 3 1 2 3 2 1 6可能的方式
+three factorial gives you 6 1 2 3 1 3 2
+2 3 1 2 1 3 3 1 2 3 2 1 6 possible ways
+
+272
+00:30:14,200 --> 00:30:18,070
+订购它们，但是除此之外，这些数字中的任何一个都可以有一个小节
+of ordering them but then in addition
+any one of those numbers can have a bar
+
+273
+00:30:18,070 --> 00:30:21,460
+是否在它上面所以这有2种可能性这有2种可能性
+over it or not so this one has 2
+possibilities this has 2 possibilities
+
+274
+00:30:21,460 --> 00:30:25,330
+她有2种可能性，有8种可能性，所以是8乘以6 
+this she has 2 possibilities that makes
+8 possibilities so it's 8 times 6 gives
+
+275
+00:30:25,330 --> 00:30:31,780
+你48好吧，所以1 2 3的多重性等于48，这很有趣
+you 48 okay so multiplicity of 1 2 3
+equals 48 which is kind of interesting
+
+276
+00:30:31,780 --> 00:30:36,100
+这意味着您是否拥有与1 2 3相关的晶格平面族
+it means if you have the family of
+lattice planes associated with the 1 2 3
+
+277
+00:30:36,100 --> 00:30:41,200
+您可以从米勒索引中选取一个简单的立方晶格，然后从48 
+Miller indices you can pick up a simple
+cubic lattice and look at it from 48
+
+278
+00:30:41,200 --> 00:30:44,740
+方向不同，且晶格面的间距完全相同
+different directions and have lattice
+planes with exactly the same spacings
+
+279
+00:30:44,740 --> 00:30:48,929
+看着你好吧，但那是真的
+looking at you okay
+sort of surprising but but that's true
+
+280
+00:30:48,929 --> 00:30:54,790
+好吧，为什么现在我们为什么如此关心这些晶格平面呢？ 
+ok so now why is it we care so much
+about these these lattice planes besides
+
+281
+00:30:54,790 --> 00:30:58,090
+他们会告诉我们很多关于互惠空间的事实，而我们
+the fact that they're going to tell us a
+lot about reciprocal space and we're
+
+282
+00:30:58,090 --> 00:31:02,020
+对波浪和波浪感兴趣，您知道互易空间是波浪的语言
+interested in waves and waves you know
+reciprocal space is a language of waves
+
+283
+00:31:02,020 --> 00:31:06,910
+这是我们可能对这些晶格家族感兴趣的原因之一
+well the reason one reason we might be
+interested in these families of lattice
+
+284
+00:31:06,910 --> 00:31:10,600
+互惠空间中的飞机是因为它们实际上告诉您很多有关
+planes in reciprocal space is because
+they actually tell you a lot about the
+
+285
+00:31:10,600 --> 00:31:14,679
+晶体的宏观结构，所有
+macroscopic structure of the crystal
+it's kind of interesting that all of
+
+286
+00:31:14,679 --> 00:31:18,640
+有关晶格平面和倒易晶格的信息，这就是全部
+this information about lattice planes
+and reciprocal lattices this was all
+
+287
+00:31:18,640 --> 00:31:22,809
+在人们甚至不知道有
+worked out in the middle of the 1800s
+before people even knew that there was
+
+288
+00:31:22,809 --> 00:31:26,440
+诸如原子之类的东西及其解决方法是因为人们知道
+such thing as atoms and the way it was
+worked out is because people knew that
+
+289
+00:31:26,440 --> 00:31:31,270
+矿物质好晶体，而矿物质破裂，相反，它们仅沿
+minerals nice crystal and minerals broke
+instead they fractured only along
+
+290
+00:31:31,270 --> 00:31:35,980
+某些轴，这使他们能够推断出所有这些信息，因此对于
+certain axes and that enabled them to
+deduce all of this information so for
+
+291
+00:31:35,980 --> 00:31:40,720
+例如，您会发现一个简单的立方格子或任何类型的立方
+example with a simple cubic lattice
+you'll discover or any type of cubic
+
+292
+00:31:40,720 --> 00:31:46,890
+点阵将打破材料将沿着简单打破
+lattice that the lattice will will break
+the material will break along simple
+
+293
+00:31:46,890 --> 00:31:52,059
+简单的Miller索引集，例如此处的1 0 0面或0 1 0面
+simple sets of Miller indices so like
+the 1 0 0 face here or the 0 1 0 face
+
+294
+00:31:52,059 --> 00:31:57,250
+这是材料最容易破裂的地方这是法律，不是
+here is where the material will will
+break most easily this is a law it's not
+
+295
+00:31:57,250 --> 00:31:59,380
+变硬了，但这是非常非常好的经验法则
+a hardened
+but it's a very very good rule of thumb
+
+296
+00:31:59,380 --> 00:32:05,760
+通过勇敢而著称的Brava是法律，是制定出所有晶格的那个人， 
+by brav a known as Brava is law the same
+guy who worked out all the lattices and
+
+297
+00:32:05,760 --> 00:32:09,850
+它实际上告诉您，当您拿起立方晶体而破裂时
+it actually tells you that when you when
+you take a cubic crystal and you break
+
+298
+00:32:09,850 --> 00:32:14,440
+它只会得到1 0 0张脸，偶尔也会得到1 1 0张脸
+it you get only the 1 0 0 faces
+occasionally you'll get the 1 1 0 faces
+
+299
+00:32:14,440 --> 00:32:19,570
+甚至偶尔你会得到1 1 2，所以这是钠的照片
+and even less occasionally you'll get 1
+1 2 so here's a picture of sodium
+
+300
+00:32:19,570 --> 00:32:24,370
+氯化物是立方晶体，实际上是FCC晶体，会破裂
+chloride which is a cubic crystal it's
+it's actually FCC crystal and it breaks
+
+301
+00:32:24,370 --> 00:32:29,890
+几乎只沿1 0 0晶格平面，您可以看到这些
+almost exclusively along the 1 0 0
+lattice planes you can see that these
+
+302
+00:32:29,890 --> 00:32:35,740
+这些断裂完全是在90度石英上的，好吧，我们不研究石英
+these breaks are entirely at 90 degrees
+quartz okay we don't study quartz this
+
+303
+00:32:35,740 --> 00:32:39,820
+今年，这只是一张非常不错的图片，所以我把它放在那里，我们不学习
+year this is just a very nice picture so
+I put it in there and we don't study
+
+304
+00:32:39,820 --> 00:32:43,539
+今年，因为轴不正交，这是一个三角形
+that this year because the axes are not
+orthogonal to each other it's a trigonal
+
+305
+00:32:43,539 --> 00:32:48,429
+水晶，但轴非常清晰，面孔非常清晰，非常固定
+crystal but the axes very clearly the
+faces are very clearly at very fixed
+
+306
+00:32:48,429 --> 00:32:53,400
+彼此的角度由晶格平面的排列方式决定
+angles to each other which are dictated
+by how the lattice planes are arranged
+
+307
+00:32:53,400 --> 00:33:00,100
+好吧，我将再强调一次这个事实，因为它显示了
+okay so I'm going to emphasize this one
+fact one more time because it shows up
+
+308
+00:33:00,100 --> 00:33:09,370
+如此频繁地参加考试，因此如果沙皇POV能够处理
+on exams so frequently so this is
+important fact if a czar POVs then deal
+
+309
+00:33:09,370 --> 00:33:13,929
+如果并且只有一个阶段或POV，那么B或PL B的情况我想我已经记下了
+if and only a phase or POVs then B's or
+PL B's I think I've written this down
+
+310
+00:33:13,929 --> 00:33:19,120
+今天是三倍，那么这些是五月的收件人
+three times today
+then these are P of a may recipients
+
+311
+00:33:19,120 --> 00:33:23,909
+收到Racal VL B，我们饮这些
+receive Racal VL B's we sip peel these
+
+312
+00:33:24,090 --> 00:33:37,799
+例如，对于简单三次就是如此，这意味着任何HKL为h b1加k 
+for example this is true for simple
+cubic which means any HKL is h b1 plus k
+
+313
+00:33:37,799 --> 00:33:45,190
+ b2这是HK L b3的定义，所以这些都是幽灵的补充
+b2 this is the definition of HK L b3 so
+any of these is a resupply the specter
+
+314
+00:33:45,190 --> 00:33:52,240
+我们喝lat BEC是因为原始晶格向量的整数和给您
+we sip lat BEC because integer sums of
+primitive lattice vectors give you an
+
+315
+00:33:52,240 --> 00:33:57,640
+格的元素，如果我们想要一个晶格平面族
+element of the lattice if we want a
+family of lattice planes a family of
+
+316
+00:33:57,640 --> 00:34:07,780
+我们应该拥有的经纬平面的晶格面应该最短
+lattice planes of lat planes we should
+have should hat should be shortest be
+
+317
+00:34:07,780 --> 00:34:10,379
+最短的
+shortest
+
+318
+00:34:11,230 --> 00:34:26,210
+在最短的给定方向上，我们在给定的方向上flat平Veck 
+in a given direction shortest we sip
+flat Veck in given direction so for
+
+319
+00:34:26,210 --> 00:34:32,179
+例如，如果我们考虑方向2 4 6是最短的倒数
+example if we're considering the
+direction 2 4 6 the shortest reciprocal
+
+320
+00:34:32,179 --> 00:34:37,550
+简单三次晶格中的最短倒易晶格矢量
+lattice for the simple cubic lattice the
+shortest reciprocal lattice vector in
+
+321
+00:34:37,550 --> 00:34:50,330
+那个方向是1 2 3所以u / /最大公约数所以如果你想
+that direction is 1 2 3 so u / /
+greatest common divisor so if you want
+
+322
+00:34:50,330 --> 00:34:54,050
+要描述一组晶格平面，您应该始终选择倒数
+to describe a set of lattice planes you
+should always choose the reciprocal
+
+323
+00:34:54,050 --> 00:35:04,220
+在给定方向上最短的晶格矢量，但是如果
+lattice vector which is shortest in that
+given direction however however if the
+
+324
+00:35:04,220 --> 00:35:14,089
+那么A不是PL V的，然后是，然后蜜蜂不是PL V的不收信
+A's are not PL V's then and this is and
+then the bees are not PL V's not recipie
+
+325
+00:35:14,089 --> 00:35:26,810
+ Alize意味着不是我们所有的补给向量都是接收格
+Alize which means that not all HK L our
+resupply us vectors are recipt lattice
+
+326
+00:35:26,810 --> 00:35:40,630
+向量，这是大多数最优秀的考试问题的根源，好吧，让我
+vectors and this is the source of most
+most good exam problems okay so let me
+
+327
+00:35:40,630 --> 00:35:46,849
+告诉你确切的意思，所以我们称这张图片和晶格
+show you exactly what we mean by this so
+we call this picture and the lattice
+
+328
+00:35:46,849 --> 00:35:49,970
+我在这张图片中绘制的最后一架飞机的家族是1架飞机
+planes that the family of last planes
+I've drawn in this picture here is the 1
+
+329
+00:35:49,970 --> 00:35:55,070
+ 0 0族的晶格平面和G的最小倒数晶格矢量
+0 0 family of lattice planes and and G
+the minimum reciprocal lattice vector in
+
+330
+00:35:55,070 --> 00:35:59,300
+那个方向实际上是1 0 0这是简单的立方晶格，所以这是
+that direction is in fact 1 0 0 this is
+simple cubic lattice so this is
+
+331
+00:35:59,300 --> 00:36:05,119
+肯定是倒数晶格矢量中的晶格平面族现在有两次
+definitely a family of lattice planes in
+a reciprocal lattice vector now twice
+
+332
+00:36:05,119 --> 00:36:09,950
+到0 0是互易的晶格向量，但不是晶格族
+that to 0 0 is a reciprocal lattice
+vector but it's not a family of lattice
+
+333
+00:36:09,950 --> 00:36:12,859
+飞机，因为您有多余的飞机，您的飞机无法穿过
+planes because you have extra planes you
+have a plane that doesn't cut through
+
+334
+00:36:12,859 --> 00:36:16,730
+任何晶格都指向平面间距的一半，所以不是最后一个族
+any lattice points half the spacing of
+planes so it's not a family of last
+
+335
+00:36:16,730 --> 00:36:19,700
+平面，但是它是一个倒易的晶格矢量，现在让我们考虑一下
+planes but it is a reciprocal lattice
+vector now let's think about what
+
+336
+00:36:19,700 --> 00:36:24,559
+当我们转到带有BCC和FCC的BCC或FCC晶格时发生
+happens when we go to either a BCC
+or an FCC lattice with a BCC and FCC
+
+337
+00:36:24,559 --> 00:36:29,839
+格我们仍将使用相同的三个正交A 
+lattice we're still going to use the
+same three orthogonal A's we're going to
+
+338
+00:36:29,839 --> 00:36:33,380
+选择使用常规单位晶格来定义我们的A 
+choose to use the conventional unit cell
+to define our A's
+
+339
+00:36:33,380 --> 00:36:37,249
+就像我们对一个简单的立方晶格所做的一样，我们这样做并不是
+just like we did with a simple cubic
+lattice and we're doing this they're not
+
+340
+00:36:37,249 --> 00:36:40,130
+原始晶格因子，这是一个问题，但我们这样做是因为我们
+primitive lattice factors and that's a
+problem but we're doing it because we
+
+341
+00:36:40,130 --> 00:36:42,950
+想要保持一切正交，如果保持下去，生活会容易很多
+want to keep everything orthogonal and
+life is just a lot easier if you keep
+
+342
+00:36:42,950 --> 00:36:48,380
+一切都正交，所以这是一堆带有米勒指数的图片
+everything orthogonal okay so here's a
+picture with a bunch of Miller indices
+
+343
+00:36:48,380 --> 00:36:51,470
+还有一堆为简单立方晶格绘制的晶格平面，这里是1 0 
+and a bunch of lattice planes drawn for
+the simple cubic lattice here's the 1 0
+
+344
+00:36:51,470 --> 00:36:56,210
+如果您添加了BCC案例中我之前绘制的0组晶格平面
+0 set of lattice planes just like I drew
+before now in the BCC case if you added
+
+345
+00:36:56,210 --> 00:37:00,499
+该单元格中心的另一个点
+one more point in the center of that
+unit cell in the center of that
+
+346
+00:37:00,499 --> 00:37:05,180
+常规的晶胞，它不会与1 0 0平面集合相交
+conventional unit cell it would not be
+intersected by the 1 0 0 set of planes
+
+347
+00:37:05,180 --> 00:37:11,599
+它与平面2 0 0集相交，所以2 0 0是一个正确的族
+it is intersected by the 2 0 0 set of
+planes so 2 0 0 is a correct family of
+
+348
+00:37:11,599 --> 00:37:18,920
+ BCC的晶格面不是4 4简单立方确定是1 0 0甚至不是
+lattice planes for BCC it is not 4 4
+simple cubic ok is 1 0 0 isn't even a
+
+349
+00:37:18,920 --> 00:37:22,849
+ BCC的互易晶格矢量，因为它并不与每个相交
+reciprocal lattice vector for BCC
+because it does not intersect every
+
+350
+00:37:22,849 --> 00:37:27,289
+晶格点好，那就是微妙之处，我们将回到
+lattice point ok that's that's the
+subtlety and we're going to come back to
+
+351
+00:37:27,289 --> 00:37:31,969
+对于BCC，这种微妙的选择一遍又一遍，您必须选择Miller指数
+this subtlety over and over for a BCC
+you have to choose Miller indices to
+
+352
+00:37:31,969 --> 00:37:35,450
+确保您的每个晶格点都包含在其中之一
+make sure that every one of your lattice
+points is included in one of those
+
+353
+00:37:35,450 --> 00:37:39,319
+飞机的FCC相同，这是有问题的原因是因为我们正在使用
+planes the same for FCC and the reason
+this is a problem is because we're using
+
+354
+00:37:39,319 --> 00:37:44,150
+不是我们正在使用的原始晶格矢量的晶格矢量a 
+lattice vectors a which are not the
+primitive lattice vectors we're using
+
+355
+00:37:44,150 --> 00:37:47,450
+正交向量，因为正交使您的生活更容易相信或不相信
+orthogonal vectors because orthogonal
+makes your life easier believe it or not
+
+356
+00:37:47,450 --> 00:37:51,890
+如果我们考虑FCC晶格，并且考虑1 1 1，则与FCC相同
+same with FCC if we consider the FCC
+lattice and you consider the 1 1 1
+
+357
+00:37:51,890 --> 00:37:56,660
+这些平面在这里我们不会与这些晶格点相交
+planes these planes here we would not
+intersect some of these lattice points
+
+358
+00:37:56,660 --> 00:38:02,809
+这些将丢失，因此1 0 0不是FCC的倒数晶格矢量2 0 0 
+these would be missing so 1 0 0 is not a
+reciprocal lattice vector for FCC 2 0 0
+
+359
+00:38:02,809 --> 00:38:13,400
+同样可以，虽然我们可以在这里看1 1 1所以1 1 1是个很好的集合
+is okay similarly while we can look at 1
+1 1 here so 1 1 1 is perfectly good set
+
+360
+00:38:13,400 --> 00:38:16,549
+一个简单立方的晶格平面族就不会是
+a family of lattice planes for simple
+cubic it would not be a family of
+
+361
+00:38:16,549 --> 00:38:20,210
+ BCC的晶格平面，因为它会错过单元中心的点
+lattice planes for BCC because it would
+miss the point in the center of unit
+
+362
+00:38:20,210 --> 00:38:25,130
+单元，但实际上它是FCC的晶格平面族，因为它只是
+cell but actually it is a family of
+lattice planes for FCC because it just
+
+363
+00:38:25,130 --> 00:38:29,479
+碰巧可以捕捉到脸部中央的所有这些点
+happens to catch all those points in the
+center of the faces okay now later on
+
+364
+00:38:29,479 --> 00:38:33,019
+我们实际上将得出一个条件，该条件将告诉我们何时
+we're actually going to derive a
+condition which will tell us when we
+
+365
+00:38:33,019 --> 00:38:35,890
+有米勒指数，我们的家庭
+have
+Miller indices which our family of
+
+366
+00:38:35,890 --> 00:38:39,370
+特定晶格的晶格平面，但重要的是要了解并非每个晶格
+lattice planes for a particular lattice
+but it's important to realize not every
+
+367
+00:38:39,370 --> 00:38:45,250
+并非每套米勒指数的集合都会给你倒数的格子
+set of not every set of Miller indices
+will give you a reciprocal lattice
+
+368
+00:38:45,250 --> 00:38:49,720
+ BCC和FCC晶格的向量或晶格平面族以及
+vector or a family of lattice planes for
+BCC and FCC lattice and the origin of
+
+369
+00:38:49,720 --> 00:38:53,050
+这个问题是我们没有使用原始格向量来描述
+this problem is we're not using
+primitive lattice vectors to describe
+
+370
+00:38:53,050 --> 00:38:57,370
+我们自己常规的我们正在使用常规单元电池的边缘
+our conventional yourself we're using
+the edges of the conventional unit cell
+
+371
+00:38:57,370 --> 00:39:02,290
+好的，很明显，我已经警告过您足够多的好事了吗
+okay is that clear
+have I warned you enough all right good
+
+372
+00:39:02,290 --> 00:39:09,880
+好的，这就是我们要说的关于互惠空间的一切，现在我们
+all right so that's everything we have
+to say about reciprocal space and now we
+
+373
+00:39:09,880 --> 00:39:14,050
+可以进入互惠空间的某些应用，也许是最
+can get on to some applications of
+reciprocal space and perhaps the most
+
+374
+00:39:14,050 --> 00:39:19,740
+我们将要遇到的重要应用是散射实验
+important application we're going to run
+into is scattering experiments
+
+375
+00:39:19,740 --> 00:39:25,120
+散射实验，这将是本讲座其余部分的主题， 
+scattering experiments which will be the
+subject of the rest of this lecture and
+
+376
+00:39:25,120 --> 00:39:29,440
+接下来的两堂课可能会讲很多，所以一般的散射实验
+probably much of the next two lectures
+so the general scattering experiment
+
+377
+00:39:29,440 --> 00:39:38,410
+从样本样本开始，您发送的是一些波向量为K的波
+starts with a sample sample you send in
+some wave with wave vector K some of it
+
+378
+00:39:38,410 --> 00:39:43,510
+经过无疤的波矢量k出现，其中一些出现在
+goes through unscared comes out at wave
+vector k and some of it comes out at
+
+379
+00:39:43,510 --> 00:39:49,240
+通过观察波向量k素产生的波向量k素
+wave vector k prime by observing what
+comes out at wave vector k prime you're
+
+380
+00:39:49,240 --> 00:39:55,120
+应该能够推断出样品中的成分现在很难高估
+supposed to be able to deduce what is in
+the sample now it's hard to overstate
+
+381
+00:39:55,120 --> 00:39:58,360
+您可能已经研究过这类实验的重要性
+the importance of this type of
+experiment you may have studied it in
+
+382
+00:39:58,360 --> 00:40:02,530
+其他课程，尤其是亚原子课程，但不是结束，不是
+other courses especially subatomic but
+it is not an over is not an
+
+383
+00:40:02,530 --> 00:40:05,440
+夸张地说，我们几乎所有关于微观的知识
+overstatement to say that almost
+everything we know about the microscopic
+
+384
+00:40:05,440 --> 00:40:08,890
+世界的一切，我们知道存在核的事实，我们
+world everything the fact that we know
+that there are nuclei the fact that we
+
+385
+00:40:08,890 --> 00:40:12,280
+知道原子的结构我们知道材料的结构
+know the structure of atoms the fact
+that we know the structure of materials
+
+386
+00:40:12,280 --> 00:40:15,580
+我们知道质子的结构这些事实都来自
+the fact that we know the structure of
+the proton all of these things come from
+
+387
+00:40:15,580 --> 00:40:18,910
+这类实验这种散射实验你知道我们成长了
+this kind of experiment this type of
+scattering experiment you know we grew
+
+388
+00:40:18,910 --> 00:40:22,510
+在一个甚至孩子都知道原子长什么样的世界里
+up in a world where even kids know what
+what atoms look like and they know what
+
+389
+00:40:22,510 --> 00:40:25,570
+ DNA看起来像这个双链螺旋，他们知道水分子是什么
+DNA looks like this double stranded
+helix they know what water molecule
+
+390
+00:40:25,570 --> 00:40:28,390
+看起来他们甚至可能知道盐分选成什么氯钠
+looks like they may even know what salt
+looks like sodium chlorine is sorted
+
+391
+00:40:28,390 --> 00:40:32,110
+在我们知道并且理所当然的所有这些东西都来自做之前
+before all of this stuff that we know
+and we take for granted comes from doing
+
+392
+00:40:32,110 --> 00:40:35,800
+这种实验唯一的不同之处就是
+this kind of experiment the only thing
+that's different when we do this
+
+393
+00:40:35,800 --> 00:40:39,730
+实验与什么时候高能物理学家做这个实验是什么
+experiment versus when the high energy
+physicist doing this experiment is what
+
+394
+00:40:39,730 --> 00:40:44,410
+首先我们开始讨论，现在我们有兴趣看到原子
+wave we put in to start with okay now
+we're interested in seeing atoms and
+
+395
+00:40:44,410 --> 00:40:47,380
+原子的大小约为埃
+atoms are on the scale of about an
+angstrom at
+
+396
+00:40:47,380 --> 00:40:50,289
+事实证明，选择波长为
+turns out to be a really good idea to
+choose a way of whose wavelength is
+
+397
+00:40:50,289 --> 00:40:54,910
+您想要看到的东西的规模差不多，所以对我们来说，他们将成为
+about the same scale of the thing you
+want to see so for us they're gonna be a
+
+398
+00:40:54,910 --> 00:41:00,490
+几种选择之一是X射线电磁波，其长度尺度
+couple of options one is x-rays
+electromagnetic waves whose length scale
+
+399
+00:41:00,490 --> 00:41:04,599
+大约是一埃，这将使我们能够看到大小约为
+is about an angstrom so that will enable
+us to see things roughly of the size of
+
+400
+00:41:04,599 --> 00:41:10,180
+埃，但你知道我们生活在这个量子力学世界中，我们知道
+an angstrom but you know we live in this
+quantum mechanical world and we know
+
+401
+00:41:10,180 --> 00:41:14,380
+那波和粒子是同一件事，所以我们不仅有权使用
+that waves and particles are the same
+thing so we're entitled to use not only
+
+402
+00:41:14,380 --> 00:41:17,200
+我们通常认为是方式的事物，但我们通常认为是粒子的事物
+things we usually think of as ways but
+things we usually think of as particles
+
+403
+00:41:17,200 --> 00:41:21,750
+所以一个粒子很方便地进行散射实验
+so a particle which is very convenient
+to do scattering experiments with
+
+404
+00:41:21,750 --> 00:41:27,609
+你知道中子我认为中子是粒子，但是它们也在挥动
+neutrons neutrons you know I think of as
+in particles but they're also waves it
+
+405
+00:41:27,609 --> 00:41:31,359
+事实证明，获得中子的波长非常容易
+turns out to be fairly easy to get
+neutrons to have wavelengths which are
+
+406
+00:41:31,359 --> 00:41:33,400
+大约等于埃
+on about the same scale of about an
+angstrom
+
+407
+00:41:33,400 --> 00:41:37,269
+这样就很容易看到大约一埃的东西
+which makes it easy to see things which
+are on the scale of roughly an angstrom
+
+408
+00:41:37,269 --> 00:41:40,690
+这些几乎是我们要负责的两种类型的波浪
+these are pretty much the two types of
+waves that we're going to be responsible
+
+409
+00:41:40,690 --> 00:41:44,559
+今年，我应该提到人们经常使用电子波作为
+for this year I should mention that
+people frequently use electron waves as
+
+410
+00:41:44,559 --> 00:41:49,990
+好吧，但我们今年不研究它们，因为它们有一些并发症
+well but we don't study them this year
+because they have some complications
+
+411
+00:41:49,990 --> 00:41:57,279
+您不想钻研，所以无论我们发送到我们的任何类型的电波
+which you don't want to delve into so
+whatever type of wave we send into our
+
+412
+00:41:57,279 --> 00:42:02,559
+物质我们应该想象的是样品中的原子
+material the thing that we're supposed
+to imagine is that the atoms in sample
+
+413
+00:42:02,559 --> 00:42:18,099
+样品中的原子提供的电位V为R，它会散射它
+atoms in the sample provide a potential
+a potential V of R it scatters it
+
+414
+00:42:18,099 --> 00:42:28,359
+散射波散射波，我们的目标实际上是
+scatters wave scatters the wave and our
+objective is actually a bit of an
+
+415
+00:42:28,359 --> 00:42:33,640
+反问题，而不是试图计算潜在的潜力
+inverse problem where instead of trying
+to calculate what does the the potential
+
+416
+00:42:33,640 --> 00:42:38,799
+由于波浪的发生频率更高，我们被告知波浪已经完成了什么
+due to the wave much more frequently
+we're told what the wave has done we've
+
+417
+00:42:38,799 --> 00:42:43,299
+测量了波浪的作用，我们正在尝试推断出潜在的
+measured what the wave has done and
+we're trying to deduce the potential the
+
+418
+00:42:43,299 --> 00:42:46,900
+势将告诉我们原子在材料中的位置，而我们
+potential is going to tell us where the
+atoms are in the material and we're
+
+419
+00:42:46,900 --> 00:42:50,920
+试图通过观察我们样本中的物质得出结论
+trying to deduce that from observing
+what physically came out of our sample
+
+420
+00:42:50,920 --> 00:42:56,049
+现在只是一个警告，很容易想到潜在的
+now just a little bit of a caveat it's
+easy to think about a potential for
+
+421
+00:42:56,049 --> 00:42:59,019
+中子和中子在它周围移动时感觉有些潜能
+neutrons and neutrons moves around it
+feels some potential as it moves around
+
+422
+00:42:59,019 --> 00:43:02,600
+现在考虑潜在的机会要少一些
+it's a little bit less now
+to think about a potential for for
+
+423
+00:43:02,600 --> 00:43:06,350
+ X射线是电磁波，如果需要，您可以
+x-rays which are electromagnetic waves
+you can if you want you can kind of
+
+424
+00:43:06,350 --> 00:43:10,970
+认为它有光子的潜力，但如果您真的
+think of it as a potential for photons
+but much more appropriate if you really
+
+425
+00:43:10,970 --> 00:43:15,710
+应该将其视为空间相关的光学指数或空间上的
+should be thinking of it as spatially
+dependent optical index or spatially
+
+426
+00:43:15,710 --> 00:43:21,260
+依赖于介电常数，但考虑到它不会太错误
+dependent dielectric constant but you
+won't go too far wrong to think about it
+
+427
+00:43:21,260 --> 00:43:25,220
+就像粒子在您的材料中移动时的潜在潜力一样
+as just a potential for particles as a
+particle move through your material so
+
+428
+00:43:25,220 --> 00:43:28,670
+我们实际上会撒尿的方式我们实际上会计算出多少
+the way we're gonna actually scat and
+we're gonna actually calculate how much
+
+429
+00:43:28,670 --> 00:43:33,910
+散布在某个波矢K素上是使用费米黄金定律
+gets scattered out at some wave vector K
+prime is to use Fermi's Golden Rule
+
+430
+00:43:33,910 --> 00:43:41,810
+费米的黄金法则浓缩的笑话你知道这是一个象征
+Fermi's golden rule rule condensed
+matter joke you know this is a symbol
+
+431
+00:43:41,810 --> 00:43:50,000
+还是因为他们的钱是黄金，所以我当场弥补了这是因为我当时
+for gold anyway their money so I made
+that up on the spot it was because I was
+
+432
+00:43:50,000 --> 00:43:54,260
+试图挽救我的手臂，以免写错了，没关系，我不会成为一个
+trying to save my arm from writing all
+right never mind I'm not gonna be a
+
+433
+00:43:54,260 --> 00:44:01,030
+喜剧演员这就是为什么我是物理学家，所以散射率散射率
+comedian that's why I'm a physicist okay
+so the scattering rate scattering rate
+
+434
+00:44:01,030 --> 00:44:09,350
+从K到K素数的振铃速率是由您给定的，您可能会看到费米的
+ring rate from K to K prime is given by
+you'll probably probably seen Fermi's
+
+435
+00:44:09,350 --> 00:44:16,400
+黄金法则h上的两个pi有一个矩阵元素K素数K 
+golden rule two pi over h-bar there's a
+matrix element K prime the K that gets
+
+436
+00:44:16,400 --> 00:44:25,820
+平方和一个能量守恒Delta函数能量守恒Delta 
+squared and an energy preserving Delta
+function energy preserving Delta
+
+437
+00:44:25,820 --> 00:44:31,550
+现在可以简化您的生活，我们假设我们假设有弹性
+function now to simplify your life
+we are going to assume we assume elastic
+
+438
+00:44:31,550 --> 00:44:41,240
+散射弹性散射，这意味着e等于E成为能量的主要来源
+scattering elastic scatter which means
+that e equals E prime the energy coming
+
+439
+00:44:41,240 --> 00:44:44,750
+进入和流出的能量是相同的，这也意味着绝对
+in and the energy coming out are the
+same that will also mean the absolute
+
+440
+00:44:44,750 --> 00:44:49,340
+ K的值等于K素数的绝对值
+value of K equals the absolute value of
+K prime there's several reasons why we
+
+441
+00:44:49,340 --> 00:44:53,750
+首先假设弹性散射，然后当您实际
+assume elastic scattering first of all
+it's easier secondly when you actually
+
+442
+00:44:53,750 --> 00:44:56,780
+做这些实验你实际测量的大部分散射是
+do these experiments most of the
+scattering that you measure actually is
+
+443
+00:44:56,780 --> 00:45:00,470
+弹性，我对观察非弹性散射也很有趣
+elastic is I did quite interesting to
+look at inelastic scattering as well I
+
+444
+00:45:00,470 --> 00:45:03,920
+可能会提到一些关于非弹性散射的讲座
+might mention that a couple of lectures
+further on with the inelastic scattering
+
+445
+00:45:03,920 --> 00:45:08,360
+实际上，您会在样本中留下一些能量，而实际上
+you actually get you leave some energy
+behind in the sample and that actually
+
+446
+00:45:08,360 --> 00:45:12,890
+让您找出可能激发的能量是什么
+allows you to figure out what the energy
+of the possible excitations are that you
+
+447
+00:45:12,890 --> 00:45:15,979
+也可以使声音兴奋，但要多一点
+can excite in the sound
+as well but that's a little bit more
+
+448
+00:45:15,979 --> 00:45:20,179
+复杂，所以我们暂时不用担心，所以我们只是去
+complicated so we're not gonna worry
+about that for now so we're just going
+
+449
+00:45:20,179 --> 00:45:23,359
+假设弹性散射，唯一困难的是
+to assume elastic scattering and the
+only thing that's difficult in that
+
+450
+00:45:23,359 --> 00:45:26,779
+费米的黄金法则是矩阵元素，所以让我们写出
+expression Fermi's golden rule is the
+matrix elements so let's write out the
+
+451
+00:45:26,779 --> 00:45:33,679
+矩阵元素，所以我们有K个素数VK等于我们将使用实数
+matrix element so we have K prime V K
+equals what well we'll use the the real
+
+452
+00:45:33,679 --> 00:45:41,629
+这些猫的空间表示形式是e到罪恶e到e的积分
+space representation of these cats it's
+integral d dr of e to the sines e to the
+
+453
+00:45:41,629 --> 00:45:51,709
+ r乘以e到i k点的ik质点rv是正确的标志，是的， 
+i k prime dot r v of r times e to the i
+k dot are the signs right yeah okay and
+
+454
+00:45:51,709 --> 00:45:55,219
+如果您小心的话，我们会用1的平方根
+if you were careful we would normalize
+this with by 1 over square roots of
+
+455
+00:45:55,219 --> 00:45:58,939
+体积这是波向量这是波函数k素数这是
+volumes this is a wave vector this is
+the wave function k prime this is the
+
+456
+00:45:58,939 --> 00:46:02,629
+波动函数K在中间有R的V，我们意识到那是什么
+wave function K there's V of R in the
+middle and we realize that what that is
+
+457
+00:46:02,629 --> 00:46:12,769
+很好地这样写d 3r e到负IK素数减K 
+is well write this way d 3r e to the
+minus I K prime minus K dotted with our
+
+458
+00:46:12,769 --> 00:46:21,319
+ R的V就是将其写为K减去K素数K减去V的旋转
+V of R that is just what will write it
+as V twiddle of K minus K prime K minus
+
+459
+00:46:21,319 --> 00:46:27,319
+ V旋转为K的素数表示傅里叶变换等于傅立叶
+K prime where V twiddle is means Fourier
+transform be twiddle equals Fourier
+
+460
+00:46:27,319 --> 00:46:33,259
+ R的V的变换这是一个非常普遍的规则，即散射
+transform of V of R this is a very very
+general rule that the scattering
+
+461
+00:46:33,259 --> 00:46:37,099
+从K到K素数的振幅只是散射的傅立叶变换
+amplitude from K to K prime is just the
+Fourier transform of the scattering
+
+462
+00:46:37,099 --> 00:46:43,309
+现在在上一堂课中具有潜力，因此这几乎总是
+potential now in the last lecture and so
+this that actually always almost always
+
+463
+00:46:43,309 --> 00:46:46,669
+对于您将要进行散射实验的任何事情都适用
+holds true for anything that you're
+going to do scattering experiments on
+
+464
+00:46:46,669 --> 00:46:51,649
+使用形式的散射是黄金法则
+that the scattering using form is Golden
+Rule the scattering amplitude from some
+
+465
+00:46:51,649 --> 00:46:54,319
+ K到K素数只是傅里叶变换或任何散射
+K to K prime is just the Fourier
+transform or whatever the scattering
+
+466
+00:46:54,319 --> 00:47:00,709
+潜力现在在上一讲中我们考虑了傅立叶变换
+potential is now in the last lecture we
+considered Fourier transforms of
+
+467
+00:47:00,709 --> 00:47:05,779
+周期函数，所以我们假设我们有一个晶体，让我们假设
+periodic functions so we're going to
+assume we have a crystal let's assume a
+
+468
+00:47:05,779 --> 00:47:10,579
+ R的周期性周期性散射势V因此，如果我们有
+periodic periodic scattering potential V
+of R so if we have anything that's
+
+469
+00:47:10,579 --> 00:47:16,909
+结晶的潜力将是周期性的，因此我们可以使用以下定律
+crystalline the potential will be
+periodic and so we can use the law that
+
+470
+00:47:16,909 --> 00:47:20,449
+我们在上一讲中导出了周期的傅立叶变换
+we derived in the last lecture if the
+Fourier transform of a periodic
+
+471
+00:47:20,449 --> 00:47:26,109
+势K减去K素数等于
+potential K minus K prime equals
+
+472
+00:47:26,630 --> 00:47:31,970
+等于三角函数3的倒数晶格向量G的和
+equals sum over a reciprocal lattice
+vectors G of a delta function three
+
+473
+00:47:31,970 --> 00:47:39,100
+ K减去K素数的维度Delta函数K减去K素数减G 
+dimensional Delta function of K minus K
+prime again K minus K prime minus G
+
+474
+00:47:39,100 --> 00:47:44,330
+乘以GI的结构因子猜测有一些归一化因子2 PI 
+times the structure factor of G I guess
+there's some normalization factor 2 PI
+
+475
+00:47:44,330 --> 00:47:53,300
+求单位晶格体积本身的体积和结构因子的立方
+cubed over the volume of the unit cell
+volume itself and the structure factor
+
+476
+00:47:53,300 --> 00:48:04,730
+这里的走出空间s的g等于积分，等于
+here s of g o running out of space s of
+g equals the integral it's equal to the
+
+477
+00:48:04,730 --> 00:48:12,440
+知道单位晶格积分d3内的傅立叶变换
+Fourier transform within a unit cell
+integral d3 are you know I I do dot R of
+
+478
+00:48:12,440 --> 00:48:19,970
+ R的V写入R的方式相同，并且在单位晶格上积分a 
+V of R write the R is the same way and
+it's integral over the unit cell ok a
+
+479
+00:48:19,970 --> 00:48:25,460
+这很重要，所以这是我们上次推导的法律
+couple of important so this is a law
+that we derived last time and a couple
+
+480
+00:48:25,460 --> 00:48:31,550
+关于这条法律的重要事实，我们上次首先提到
+of important facts about this this law
+we mentioned last time first of all the
+
+481
+00:48:31,550 --> 00:48:36,910
+除非我们查看，否则该周期函数的傅立叶变换为零
+Fourier transform of this periodic
+function is zero unless we're looking at
+
+482
+00:48:36,910 --> 00:48:42,280
+ K的值是倒数晶格向量的元素，所以0.1 
+values of K which are elements of the
+reciprocal lattice vector so 0.1
+
+483
+00:48:42,280 --> 00:48:56,390
+除非0减去K素数是倒数晶格，否则散射为0为0 
+scattering is 0 is 0 unless unless K
+minus K prime is a reciprocal lattice
+
+484
+00:48:56,390 --> 00:49:04,570
+向量G这是一个重要的框，称为低e条件
+vector G this is important box around it
+this is known as the low e condition
+
+485
+00:49:04,900 --> 00:49:10,040
+继马克·冯·劳埃二世（Max von Laue II）之后，他因在X射线中发现这一点而获得了诺贝尔奖
+after Max von Laue II who won a Nobel
+Prize for discovering this in x-ray
+
+486
+00:49:10,040 --> 00:49:16,820
+散布的诺贝尔奖实际上不时是一百年前
+scattering Nobel Prize was actually
+exactly a hundred years ago now and then
+
+487
+00:49:16,820 --> 00:49:19,880
+关于是否应将其称为“糟糕的条件”存在复杂性
+there's this complication about whether
+it should be called a lousy condition of
+
+488
+00:49:19,880 --> 00:49:23,870
+冯·劳厄（von Laue e）的病情，因为他出生于麦克斯洛（maxchloe），但后来他的父亲
+the von Laue e condition because he was
+born maxchloe but then his father was
+
+489
+00:49:23,870 --> 00:49:28,490
+后来升为贵族，他取了冯·劳埃二世的名字，但是当他
+elevated to noble hood much later and he
+took the name von Laue ii but when he
+
+490
+00:49:28,490 --> 00:49:31,430
+发现他的名字仍然是低e，所以通常称为低e 
+discovered this his name was still low e
+so it's usually called the low e
+
+491
+00:49:31,430 --> 00:49:34,070
+关于条件元音的条件，但其他人会
+condition about the vowel i of
+conditions but other people will
+
+492
+00:49:34,070 --> 00:49:38,090
+因此不同意，无论是von laue e条件的响亮状态，还是
+disagree so anyway it's either loud
+condition of von laue e condition and
+
+493
+00:49:38,090 --> 00:49:40,430
+但是我们在这是什么之前就已经看过了
+but we've seen this thing before what
+this is
+
+494
+00:49:40,430 --> 00:49:47,500
+是守恒的晶体动量守恒
+is conservation of conservation of
+crystal momentum
+
+495
+00:49:49,150 --> 00:49:56,990
+只有在您可以保留晶体动量的情况下，才散布
+you only scatter if you can conserve
+crystal momentum right K if K minus K
+
+496
+00:49:56,990 --> 00:50:00,320
+质数是互易的晶格矢量，可保持其晶体动量
+prime is a reciprocal lattice vector
+that conserves crystal momentum it
+
+497
+00:50:00,320 --> 00:50:05,840
+第二个重要事实是不会改变波浪的晶体动量
+doesn't change the crystal momentum of
+the wave the second important fact that
+
+498
+00:50:05,840 --> 00:50:10,100
+我们稍后将使用的是
+we're going to use later is that the
+intensity of scattering intensity of
+
+499
+00:50:10,100 --> 00:50:20,090
+我的散射是井Delta Delta K平方的结构因子s 
+scattering I'm scatter is the structure
+factor s of well Delta Delta K squared
+
+500
+00:50:20,090 --> 00:50:25,010
+这里的Delta K是你已经分散的倒数晶格矢量G 
+where Delta K is the reciprocal lattice
+vector G which you've scattered by okay
+
+501
+00:50:25,010 --> 00:50:28,850
+所以重点是，如果您测量各种散射的强度
+so the point is that if you measure the
+intensity of the various scatterings
+
+502
+00:50:28,850 --> 00:50:33,050
+您可以弄清楚要测量的结构因素是
+you can figure out the structure factor
+you what you're measuring is the
+
+503
+00:50:33,050 --> 00:50:37,130
+给定倒数晶格矢量的结构因子
+structure factor at given reciprocal
+lattice vectors the structure factor of
+
+504
+00:50:37,130 --> 00:50:39,680
+鉴于您在晶格因子处的典型R是
+given your typical R at lattice factors
+is the Fourier transform of the
+
+505
+00:50:39,680 --> 00:50:43,760
+散射势，所以原则上您正在测量散射
+scattering potential so in principle
+you're measuring the scattering
+
+506
+00:50:43,760 --> 00:50:48,530
+通过测量所散布的点来确定潜力
+potential that's the point
+by measuring the what is scattered
+
+507
+00:50:48,530 --> 00:50:53,330
+您实际上正在测量散射潜力，对不起，我要去了
+you're actually measuring the scattering
+potential now I'm sorry I'm going to go
+
+508
+00:50:53,330 --> 00:50:58,520
+在大约一分钟的时间里，这种情况似乎有些令人惊讶
+over about one minute here it may seem a
+little bit surprising this condition one
+
+509
+00:50:58,520 --> 00:51:01,310
+你只会在特定条件下散布
+that you only get scattering under
+certain conditions
+
+510
+00:51:01,310 --> 00:51:07,790
+只有满足了水晶的动量才满足
+only if crystal momentum is satisfied
+only if you if satisfy this lousy
+
+511
+00:51:07,790 --> 00:51:11,570
+现在看起来有些奇怪，但我要说服你
+condition now that might seem a little
+bit weird but I'm going to convince you
+
+512
+00:51:11,570 --> 00:51:16,820
+这是你非常了解的东西，所以想象你有一个水晶
+that this is something that you know
+very well so imagine you have a crystal
+
+513
+00:51:16,820 --> 00:51:22,430
+像这样，那么你想到的是，这确实是一堆晶格平面
+like this then you think of there's a
+really this is a bunch of lattice planes
+
+514
+00:51:22,430 --> 00:51:26,600
+这是一个晶格平面族，您将一些波发送到一个晶格家族中
+it's a family of lattice planes and you
+send some wave into a family of lattice
+
+515
+00:51:26,600 --> 00:51:30,890
+飞机，它会弹起，但它也可能从这一层弹起，你知道
+planes and it bounces off but it could
+bounce off this layer too and you know
+
+516
+00:51:30,890 --> 00:51:34,550
+很好，如果您像这样从平面上弹开，您会得到衍射和
+very well that if you bounce off planes
+like this you can get diffraction and
+
+517
+00:51:34,550 --> 00:51:37,850
+衍射仅在特定角度发生
+diffraction only occurs at certain
+angles
+
+518
+00:51:37,850 --> 00:51:41,270
+您只会在某些角度获得建设性的干涉
+you only get constructive interference
+at certain angles and what we're going
+
+519
+00:51:41,270 --> 00:51:45,680
+看到的是，这种糟糕的情况实际上与
+to see is that this lousy condition is
+actually exactly the same condition as
+
+520
+00:51:45,680 --> 00:51:49,400
+有建设性的干涉，我们下次见到您时会做
+having constructive interference and
+we'll do that next time I see you
+
+521
+00:51:49,400 --> 00:51:55,960
+星期三[掌声] 
+Wednesday
+[Applause]
+

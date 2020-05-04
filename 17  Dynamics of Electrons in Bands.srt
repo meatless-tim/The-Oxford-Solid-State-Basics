@@ -1,0 +1,3476 @@
+1
+00:00:00,329 --> 00:00:04,890
+欢迎回来，现在是凝聚态课程的第十七讲
+welcome back this is now the seventeenth
+lecture of the condensed matter course
+
+2
+00:00:04,890 --> 00:00:09,150
+当我们上次离开时​​，我们谈论的是乐队的结构， 
+when we left off last time we were
+talking about band structure and we were
+
+3
+00:00:09,150 --> 00:00:12,330
+讨论导带，空穴和价带中的电子，以及
+talking about electrons in conduction
+bands and holes and valence bands and
+
+4
+00:00:12,330 --> 00:00:14,700
+今天我们要做的是，首先要考虑如何
+what we're going to do today is we're
+going to start by thinking about how
+
+5
+00:00:14,700 --> 00:00:20,039
+电子和导带以及价带中的空穴四处移动，所以让我们
+electrons and conduction bands and holes
+in valence bands move around so let's
+
+6
+00:00:20,039 --> 00:00:24,390
+首先画一个导带的底部，所以我们有一些E和
+start by drawing the bottom of a
+conduction band so we have some E and
+
+7
+00:00:24,390 --> 00:00:29,820
+一些K，并且导带将会有一些二次最小值
+some K and there's going to be some
+quadratic minimum of a conduction band
+
+8
+00:00:29,820 --> 00:00:36,270
+让我们称此点为发生底部的位置
+let's call this point here came in where
+the bottom occurs and this point here
+
+9
+00:00:36,270 --> 00:00:40,110
+我们将其称为不是导带底部的能量
+we'll call it e not the energy of the
+bottom of the conduction band very
+
+10
+00:00:40,110 --> 00:00:45,059
+通常，也许我会在这里写出来，我们可以写
+generally maybe I'll write it over here
+very generally we can we can write for
+
+11
+00:00:45,059 --> 00:00:49,410
+在带的底部附近的电子，E大约为e 
+an electron in the near the bottom of
+the band that E is approximately e
+
+12
+00:00:49,410 --> 00:00:58,789
+零加泰勒展开式d平方e DK平方乘以K减去K min 
+nought plus just the Taylor expansion d
+squared e DK squared times K minus K min
+
+13
+00:00:58,789 --> 00:01:05,430
+平方其他术语，我们将忽略，鉴于此，我们将定义一个
+squared maybe other terms which we'll
+ignore and given this we will define an
+
+14
+00:01:05,430 --> 00:01:15,320
+有效质量电子有效质量电子有效质量有效
+effective mass an electron effective
+mass electron effective mass effective
+
+15
+00:01:15,680 --> 00:01:27,390
+质量M star通过m星电子上的1等于H bar上的1 
+mass M star I'm star sub electron via 1
+over m star electron equals 1 over H bar
+
+16
+00:01:27,390 --> 00:01:37,979
+平方d平方e DK平方使得没有能量加通常的H 
+squared d squared e DK squared such that
+the energy is e naught plus the usual H
+
+17
+00:01:37,979 --> 00:01:46,920
+ bar平方K减去K min平方2m电子星，现在看起来非常
+bar squared K minus K min squared over
+2m electron star now this looks very
+
+18
+00:01:46,920 --> 00:01:51,000
+就像自由电子一样，除了动量之外，波矢应该是
+much like a free electron except the
+momentum the the wave vector should be
+
+19
+00:01:51,000 --> 00:01:55,799
+相对于它们的测量，通常动量的最小值
+measured with respect to them wherever
+the minimum in the momentum is the usual
+
+20
+00:01:55,799 --> 00:02:01,560
+现在给定自由电子抛物线，我们还可以计算实际给定的任何
+free electron parabola now given this we
+can also calculate actually given any
+
+21
+00:02:01,560 --> 00:02:08,250
+在这个频带中，电子的能量形式
+form of the energy of the of the
+electron in this in this band we can
+
+22
+00:02:08,250 --> 00:02:13,030
+一般写组速度v组
+write a group velocity v group very
+generally is deal
+
+23
+00:02:13,030 --> 00:02:18,400
+衰减是群速度的一般表达，因为我们可以重放欧米茄
+decay that's a general expression for a
+group velocity since we can replay Omega
+
+24
+00:02:18,400 --> 00:02:26,260
+超过H bar倍乘以能源DK的倍数，这就是一般关系
+by 1 over H bar times times and energy
+de DK this is the general relationship
+
+25
+00:02:26,260 --> 00:02:32,790
+在我们的情况下，对于一个带中电子的群速度，将使用
+for the group velocity of an electron in
+a band in our case it will be using this
+
+26
+00:02:32,790 --> 00:02:41,140
+在这里的弥散度将是H Bar K减去电子m星上的K min 
+dispersion up here it will be H Bar K
+minus K min over m star of the electron
+
+27
+00:02:41,140 --> 00:02:46,209
+因此，这意味着如果您将图片移到这里
+so it means that if you have this
+picture over here if you if you move the
+
+28
+00:02:46,209 --> 00:02:50,709
+电子在最小值的右边，然后电子在右边移动
+electron to the right of the minimum
+then the electron is moving to the right
+
+29
+00:02:50,709 --> 00:02:54,670
+如果将电子移至最小值的左侧，则电子正在移动
+if you move the electron to the left of
+the minimum then the electron is moving
+
+30
+00:02:54,670 --> 00:02:58,209
+左边是事实，与青铜器中最小的位置无关
+to the left this is true independent of
+where in the bronz own the minimum
+
+31
+00:02:58,209 --> 00:03:02,530
+发生，所以真正的问题是您相对于
+occurs so really the issue is where are
+your position with respect to the
+
+32
+00:03:02,530 --> 00:03:06,160
+如果要弄清楚小组速度现在是哪个方向，则为最小值
+minimum if you want to figure out which
+direction your group velocity is now
+
+33
+00:03:06,160 --> 00:03:15,310
+有一些注意事项，在此不写
+there are a couple of caveats they don't
+write them here caveats one generally
+
+34
+00:03:15,310 --> 00:03:22,680
+有效质量是正确的这个质量可能是各向异性质量
+effective mass is right this mass is
+maybe anisotropic masses can be
+
+35
+00:03:22,680 --> 00:03:32,200
+各向异性意味着能量可能在所有方向上都是抛物线形的
+anisotropic meaning that the energy is
+it may be parabolic in all directions
+
+36
+00:03:32,200 --> 00:03:36,370
+但是取决于您选择曲率的方向是
+but depending on which crystal direction
+you choose the curvature may be
+
+37
+00:03:36,370 --> 00:03:39,820
+不同的是，如果您有四角形，这是很自然的
+different this is sort of natural if you
+have something like a tetra angle
+
+38
+00:03:39,820 --> 00:03:43,030
+水晶，在不同的方向上，轴的长度不同
+crystal where the axes are different
+lengths in the different directions you
+
+39
+00:03:43,030 --> 00:03:47,980
+可能期望在不同位移K中的能量曲率
+might expect that the curvature of the
+energy in the different displacing K in
+
+40
+00:03:47,980 --> 00:03:52,090
+不同的方向可能会有所不同，的确如此
+the different directions might be
+different and indeed it often is so one
+
+41
+00:03:52,090 --> 00:03:54,730
+不得不担心这样一个事实，取决于您走的是哪种方式
+has to worry about the fact that
+depending on which way you're going your
+
+42
+00:03:54,730 --> 00:04:00,250
+有效质量似乎有所不同，我们通常会忽略这一点，因此请忽略
+effective mass may seem different we're
+going to ignore this generally so ignore
+
+43
+00:04:00,250 --> 00:04:05,470
+这种并发症，但更普遍的是，您应该知道它确实会发生
+this complication but more generally you
+should be aware that it does occur the
+
+44
+00:04:05,470 --> 00:04:10,390
+您应该知道的第二种并发症是，您可以
+second complication that you should be
+aware and it occurs is you can have
+
+45
+00:04:10,390 --> 00:04:16,870
+如果在两个极小值的情况下绘制E对K的情况
+situations if you plot E versus K in a
+situation where there are two minima
+
+46
+00:04:16,870 --> 00:04:22,660
+以完全相同的能量发生
+that occur at exactly the same energy
+this e
+
+47
+00:04:22,660 --> 00:04:26,740
+这样导带的最小值可以出现在
+so that the minimum of the conduction
+band can occur at two places in the
+
+48
+00:04:26,740 --> 00:04:36,940
+青铜拥有k1和k2，由于明显的原因，它们被称为山谷
+bronz own k1 and k2 these are known as
+valleys valleys for obvious reason and
+
+49
+00:04:36,940 --> 00:04:40,840
+这看起来好像不是很不寻常的事情
+this may look like it's not something
+that's very unusual to have happen that
+
+50
+00:04:40,840 --> 00:04:45,250
+你只是一个巧合，以至于发生相同能量的最小值
+you have just such a coincidence that
+the minima that the same energy occurs
+
+51
+00:04:45,250 --> 00:04:48,340
+在青铜器中至少有两个地方，但实际上
+at the minimum in two places in the
+bronz own but in fact it's actually
+
+52
+00:04:48,340 --> 00:04:52,810
+由于晶体的对称性，因此很常见
+quite common to have this be due to
+symmetries of the crystal so generally
+
+53
+00:04:52,810 --> 00:04:56,500
+如果晶体特别对称，则会发生这种情况，您将拥有两个
+this will happen if the crystal is
+particularly symmetric you'll have two
+
+54
+00:04:56,500 --> 00:04:59,890
+铜带本身或两个不同点的导带中的最小值
+minimum in the conduction band at two
+different points in the bronz own or
+
+55
+00:04:59,890 --> 00:05:04,150
+甚至青铜拥有四个不同点甚至六个不同点
+even four different points or even six
+different points of the bronze own so
+
+56
+00:05:04,150 --> 00:05:07,720
+您必须跟踪电子是否在此最小值或以下
+you have to keep track of whether the
+electron is in this minimum or this
+
+57
+00:05:07,720 --> 00:05:11,740
+最低要求，但一般规则适用，如果您将自己从
+minimum but the general rule applies
+that if you displace yourself from the
+
+58
+00:05:11,740 --> 00:05:14,860
+如果移至最小，则向右移动
+minimum to the right you're moving to
+the right if you displace yourself from
+
+59
+00:05:14,860 --> 00:05:18,160
+在最小值的左边减去两个最小值，然后向左移动
+two the minimum to the left of the
+minimum then you're moving to the left
+
+60
+00:05:18,160 --> 00:05:22,120
+好吧，现在最后一点我们通常是
+okay
+now the final point generally we're
+
+61
+00:05:22,120 --> 00:05:27,210
+实际上，我们将忽略这种复杂性，也忽略这种复杂性
+actually we're going to ignore this
+complication also ignore this as well
+
+62
+00:05:27,210 --> 00:05:31,930
+请注意，有时会发生最终的并发症
+just be aware that it sometimes occurs
+the final complication is perhaps a much
+
+63
+00:05:31,930 --> 00:05:36,760
+更重要的并发症是如果您具有能带结构，这是青铜色
+more important complication if you have
+a band structure here's a bronze own if
+
+64
+00:05:36,760 --> 00:05:40,840
+您具有像我们之前绘制的紧密结合带结构那样的带结构
+you have a band structure like the tight
+binding band structures we drew before
+
+65
+00:05:40,840 --> 00:05:45,910
+看起来像这样，通常有效质量是由第二个给定的
+that looks like this the generally the
+effective mass is given by the second
+
+66
+00:05:45,910 --> 00:05:50,710
+能量相对于K的导数，因此将意味着
+derivative of the energy with respect to
+K so that would mean that M star of the
+
+67
+00:05:50,710 --> 00:05:57,790
+这里的电子大于零，但是在这里电子的M星将是
+electron here is greater than zero but
+up here M star of the electron would be
+
+68
+00:05:57,790 --> 00:06:05,500
+小于零，对于粒子具有负质量似乎很奇怪，但是
+less than zero which seems rather odd to
+have a negative mass for a particle but
+
+69
+00:06:05,500 --> 00:06:08,710
+我们稍后会看到这实际上很有道理，而实际上我们
+we'll see in a moment that actually
+makes quite a bit of sense and really we
+
+70
+00:06:08,710 --> 00:06:13,180
+应该认为电子的质量是负数
+should think of the mass of the electron
+as being negative the general definition
+
+71
+00:06:13,180 --> 00:06:17,920
+电子的质量超过H bar平方d平方e DK平方
+that the mass of the electron one over H
+bar squared d squared e DK squared will
+
+72
+00:06:17,920 --> 00:06:22,210
+始终保持不变，这就是我们应该一直认为的有效质量
+always hold and that's what we should
+always think of as the effective mass
+
+73
+00:06:22,210 --> 00:06:27,220
+好，到目前为止，这很好，这是容易的部分，困难的部分是当我们开始时
+okay so far so good this was the easy
+part the hard part is when we start
+
+74
+00:06:27,220 --> 00:06:32,080
+考虑价带顶部的孔
+thinking about holes at the top of a
+valence band
+
+75
+00:06:32,080 --> 00:06:37,720
+所以变得困难的原因是-迹象会回来咬你
+so the reason it gets hard is because -
+signs will come back and bite you one
+
+76
+00:06:37,720 --> 00:06:41,289
+或其他方式，因此很难跟踪减号并
+way or the other so it's really hard to
+keep track of the minus signs and to
+
+77
+00:06:41,289 --> 00:06:46,270
+更糟糕的是，有些书将减号放在不同的位置，所以您
+make matters worse some books put the
+minus signs in different places so you
+
+78
+00:06:46,270 --> 00:06:48,759
+知道这是这些情况之一，只要您知道自己在做什么
+know this is one of these situations
+where as long as you know what you're
+
+79
+00:06:48,759 --> 00:06:52,449
+如果您有减号的偶数，则可以移动减号
+doing you can move the minus sign around
+if you have the even number of minus
+
+80
+00:06:52,449 --> 00:06:56,949
+一天结束时，您会得到正确的答案，但是我要做什么
+signs at the end of the day you've got
+the right answer but what I'm going to
+
+81
+00:06:56,949 --> 00:07:00,669
+告诉你我所认为的最自然的方法来思考放置位置
+tell you is what I think is the most
+natural way to think of where you put
+
+82
+00:07:00,669 --> 00:07:04,870
+减号，我认为大多数书籍对此都表示同意，但并非全部如此
+the minus signs and I think most books
+agree with me on this but not all so be
+
+83
+00:07:04,870 --> 00:07:09,699
+警告说，这是顶部有孔的情况
+warned about that so this is the
+situation with holes at the top of
+
+84
+00:07:09,699 --> 00:07:19,780
+价带处于乐队顶部，所以这意味着在这里我们发现了这个奇数
+valence bands top of bands so so that
+means up here where we found this odd
+
+85
+00:07:19,780 --> 00:07:23,830
+当我们考虑电子时，电子的质量为负
+result that the mass of the electron is
+negative when we're thinking about the
+
+86
+00:07:23,830 --> 00:07:28,150
+像在那边这样的乐队的顶部，我们通常会发现这个奇怪的结果
+top of a band like over there where we
+found this odd result we're usually
+
+87
+00:07:28,150 --> 00:07:31,930
+当我们在乐队的顶部时，想着一个几乎充满的乐队， 
+thinking when we're at the top of the
+band about a nearly filled band and
+
+88
+00:07:31,930 --> 00:07:38,469
+价带几乎满了，所以我们将再次绘制E与K，我们会想象
+nearly filled valence band so we'll draw
+again E versus K and we'll imagine that
+
+89
+00:07:38,469 --> 00:07:43,840
+我们有一些乐队的顶部，这些乐队大部分都充满了，我们会考虑的
+we have the top of some band which is
+mostly filled and we'll think about okay
+
+90
+00:07:43,840 --> 00:07:52,630
+我们将其放置在K Max上，好吧，我们将其称为e v-不在这里，我们
+we'll put this at K Max and okay and we
+will call this e v-not also up here we
+
+91
+00:07:52,630 --> 00:07:57,520
+想像一下，如果我们将电子放在该能带的顶部，那是一种能量
+imagine if we put an electron up at the
+top of this band somewhere it's a energy
+
+92
+00:07:57,520 --> 00:08:06,610
+会没事的，所以对于孔的情况，带子顶部带子顶部的能量
+is going to be okay so for the case of
+holes top a band top a band the energy
+
+93
+00:08:06,610 --> 00:08:13,509
+保持电子的追踪非常好
+of an electron e electron it's really
+good to keep keeping your head track of
+
+94
+00:08:13,509 --> 00:08:17,349
+不管是在谈论电子能量还是空穴能量，因为
+whether you're talking about an electron
+energy or a hole energy because you'll
+
+95
+00:08:17,349 --> 00:08:21,580
+看到他们将在一秒钟内变得困惑，所以电子能量如果
+see that they're going to get confused
+in a second so the electron energy if
+
+96
+00:08:21,580 --> 00:08:27,940
+您将电子放在频带的顶部附近，这将是一些容易的行加1/2 
+you put an electron near the top of the
+band that will be some easy row plus 1/2
+
+97
+00:08:27,940 --> 00:08:35,078
+ d平方e DK平方乘以K减去K max平方与它完全相同
+d squared e DK squared times K minus K
+max squared exactly the same way as it
+
+98
+00:08:35,078 --> 00:08:39,098
+以前是，但现在这里的数量为负，因此小于零， 
+
+99
+00:08:39,099 --> 00:08:44,169
+这就是为什么我们应该认为这里的电子质量是负数
+this is why we should think of the mass
+of the electron here as being a negative
+
+100
+00:08:44,169 --> 00:08:47,950
+数量，因为当您远离
+quantity because the
+goes down as you go away from the
+
+101
+00:08:47,950 --> 00:08:54,310
+最大，所以在这里我们要做的是使我们的生活更简单一些
+maximum so here what we're going to do
+to make our life a little bit simpler is
+
+102
+00:08:54,310 --> 00:09:09,360
+定义孔的质量将孔的质量定义为整个m的H bar平方
+to define a mass of a hole define mass
+of hole to be H bar squared over m whole
+
+103
+00:09:09,360 --> 00:09:18,250
+恒星为负d平方e为电子DK平方，所以这东西在这里
+star is minus d squared e for the
+electron DK squared so this thing here
+
+104
+00:09:18,250 --> 00:09:27,550
+大于零在乐队的顶部乐队，你会注意到
+is greater than zero at top a band
+top of band and you will notice from
+
+105
+00:09:27,550 --> 00:09:33,370
+将此定义与上面的定义（孔的M星）进行比较
+comparing this definition to the above
+definition that the M star of the hole
+
+106
+00:09:33,370 --> 00:09:42,550
+实际上等于负号，电子的恒星还可以，所以在这里
+is actually equal to minus and the star
+of the electron okay so up here where
+
+107
+00:09:42,550 --> 00:09:45,910
+电子的质量似乎为负，我们已经定义了
+the mass of the electron appears to be
+negative we've defined the mass of the
+
+108
+00:09:45,910 --> 00:09:50,860
+现在是负号，为什么这样做才有意义，为什么我们
+hole to be minus of that now why is it
+that this makes sense to do why is it we
+
+109
+00:09:50,860 --> 00:09:54,760
+应该将孔的质量定义为电子质量的负数，并且
+should define the mass of a hole to be
+negative of the mass of the electron and
+
+110
+00:09:54,760 --> 00:09:59,620
+为什么它应该是孔的一部分在化合价的顶部为正
+why would should it be part of the hole
+be positive at the top of the valence
+
+111
+00:09:59,620 --> 00:10:03,970
+乐队，让我们考虑一下，所以在这里我们有相同的顶部
+band so let's think about this for a
+second so here we have the same top of
+
+112
+00:10:03,970 --> 00:10:08,590
+价带我们想象整个价带被填充，除了一个
+the valence band we imagine the whole
+valence band is filled except for one
+
+113
+00:10:08,590 --> 00:10:10,960
+我们将其放在乐队顶部的孔
+hole which we're putting at the top of
+the band here
+
+114
+00:10:10,960 --> 00:10:21,430
+好吧，所以孔的能量是恒定的，你不会在旋转
+okay so the energy of the hole e hole be
+some constant you're not twiddle and
+
+115
+00:10:21,430 --> 00:10:25,570
+那么我们想找出随着我们
+then we want to find out how does the
+energy of this hole change as we
+
+116
+00:10:25,570 --> 00:10:30,790
+将其从乐队的顶部移开，所以让我们在这里想象这一点
+displace it from the top of the band so
+let's imagine this point here just so we
+
+117
+00:10:30,790 --> 00:10:35,500
+不必随身携带这些K Max，再来吧，让我们决定一下
+don't have to carry around these K Max's
+and came ins anymore let's decide this
+
+118
+00:10:35,500 --> 00:10:40,690
+这里的点是K等于零，因为我们将K替换为
+point here is K equals zero as we
+displace K from this is just for
+
+119
+00:10:40,690 --> 00:10:43,890
+简单起见，它不一定是K等于零，但让我们想象一下它是
+simplicity it doesn't have to be a K
+equals zero but let's imagine it is
+
+120
+00:10:43,890 --> 00:10:49,930
+让我们问一下，当您从顶部移开孔时，能量会发生什么变化
+let's ask what happens to the energy as
+you displace the hole from the top of
+
+121
+00:10:49,930 --> 00:10:54,850
+乐队，所以当您这样做时，我们将把孔从这里移到这里
+the band so we're going to move the hole
+from here to here well when you do that
+
+122
+00:10:54,850 --> 00:10:58,510
+能量实际上从此上升了
+the energy actually has gone up from
+this
+
+123
+00:10:58,510 --> 00:11:02,260
+将整个乐队放在乐队的顶端为什么将其写成H条
+placing the whole from the top of the
+band why is that well write it as H bar
+
+124
+00:11:02,260 --> 00:11:08,200
+我一直都在平方M星，如果我们从
+squared to M star whole times I guess K
+squared here if we're displacing it from
+
+125
+00:11:08,200 --> 00:11:12,580
+ K等于零是当我们置换整体时能量上升的原因
+K equals zero the reason that the energy
+has gone up when we displace the whole
+
+126
+00:11:12,580 --> 00:11:17,170
+从带的顶部开始是因为电子正试图到达最低的
+from the top of the band is because the
+electrons are trying to go to the lowest
+
+127
+00:11:17,170 --> 00:11:21,910
+可能的能量孔试图冒出最大的能量
+energy possible the holes try to bubble
+up to the highest energy possible it's
+
+128
+00:11:21,910 --> 00:11:27,310
+就像是一个气袋或气泡，或者像在水下推气球一样
+like it's like an air pocket or a bubble
+or like pushing a balloon underwater if
+
+129
+00:11:27,310 --> 00:11:31,570
+你把这个气球带到这里，然后把它推到水下，这花了你很多的精力
+you take this balloon here and you push
+it underwater that costs you energy it
+
+130
+00:11:31,570 --> 00:11:35,410
+花了你正能量去把这个洞推到下面
+costs you positive energy to take this
+hole and push it underneath the
+
+131
+00:11:35,410 --> 00:11:38,710
+电子，因为电子想要尽可能降低能量是
+electrons because the electrons want to
+go to the lowest energy possible is that
+
+132
+00:11:38,710 --> 00:11:42,790
+很明显，这就是直觉，为什么你应该考虑
+clear that's the intuition why it is
+that you should think of the mass of the
+
+133
+00:11:42,790 --> 00:11:46,720
+孔是正的，因为当您将其从乐队的顶部移开时
+hole as being positive because when you
+displace it from the top of the band it
+
+134
+00:11:46,720 --> 00:11:51,510
+花费你积极的精力远离乐队的顶峰
+costs you positive energy to move away
+from the top of the band so far so good
+
+135
+00:11:51,510 --> 00:11:58,210
+好的，好的，所以这是易于跟踪的迹象，但迹象越来越多
+okay good all right so that's the easy
+sign to keep track of but signs get more
+
+136
+00:11:58,210 --> 00:12:07,500
+复杂的让我们问一个孔的动量什么是孔的动量
+complicated let's ask about the momentum
+of a hole what is the momentum of a hole
+
+137
+00:12:07,800 --> 00:12:17,590
+一个洞的动量和一个思考这个问题的好方法是意识到
+momentum of a hole and a good way to
+think about this is to realize that a
+
+138
+00:12:17,590 --> 00:12:27,160
+填充带填充带没有动量没有晶体动量没有晶体
+filled band filled band has no momentum
+has no crystal momentum no crystal
+
+139
+00:12:27,160 --> 00:12:37,840
+动量没有电流惰性，根本没有晶体动量，所以如果我们想
+momentum carry no current inert has no
+crystal momentum at all so if we want to
+
+140
+00:12:37,840 --> 00:12:43,960
+知道乐队顶部的一个洞的动量是多少，让我们想象一下
+know what the momentum is of a hole in
+the top of the band let's imagine here's
+
+141
+00:12:43,960 --> 00:12:49,060
+我们的乐队除了一个状态是
+our band we fill the entire band like
+this except for one state which is
+
+142
+00:12:49,060 --> 00:12:54,310
+像这样的状态从AK失踪了我们想像这个洞
+missing out of AK a state like this we
+imagine taking this hole this missing
+
+143
+00:12:54,310 --> 00:12:59,440
+乐队中的粒子，如果我们将其添加到一个空的乐队中
+particle from the band if we add it to a
+band that's empty except for that one
+
+144
+00:12:59,440 --> 00:13:06,210
+电子放置在这个加号等于填充带等于填充带
+electron placed in then this Plus this
+equals a filled band equals filled band
+
+145
+00:13:06,210 --> 00:13:13,030
+填充文件填充带，所以动量等于总动量
+filled file filled band
+so momentum so total momentum equals
+
+146
+00:13:13,030 --> 00:13:21,160
+零总h-bar K等于零好吧，所以这两个的总和
+zero total h-bar K equals zero okay so
+the sum of these two put together the
+
+147
+00:13:21,160 --> 00:13:25,780
+无孔的填充带，再加上空带
+filled band with the absence of the hole
+plus the empty band with this one
+
+148
+00:13:25,780 --> 00:13:30,190
+电子对不起已满的供应商，缺少该电子再加上空的电子
+electron sorry the filled vendor the
+absence of this electron plus the empty
+
+149
+00:13:30,190 --> 00:13:32,920
+当您将它们的总和放在一起时，带存在这个电子
+band with the presence of this electron
+when you put them together their total
+
+150
+00:13:32,920 --> 00:13:41,170
+动量将为零，所以我们有h-bar K 
+momentum is going to be zero so what we
+have then is h-bar K for the hole over
+
+151
+00:13:41,170 --> 00:13:48,550
+这里加上电子的h-bar K应该在这里应该给我们
+here plus h-bar K for the electron
+should which is over here should give us
+
+152
+00:13:48,550 --> 00:13:57,250
+到目前为止，总数为零，这意味着H Bar K为一个孔
+a total of zero so far so good
+so that means that H Bar K for a hole
+
+153
+00:13:57,250 --> 00:14:07,990
+对于丢失的电子，它必须为负h-bar K，所以这是一种很好的方法
+must be minus h-bar K for the missing
+electron okay so that's a good way to
+
+154
+00:14:07,990 --> 00:14:13,330
+跟踪孔的动量应该是什么
+keep track of what the momentum of a
+hole should be there's one of these
+
+155
+00:14:13,330 --> 00:14:18,940
+令人困惑的减号现在让我们考虑一下这是什么速度
+confusing minus signs now let's think
+about given this what the velocity is of
+
+156
+00:14:18,940 --> 00:14:23,920
+这些东西的顶部实际上是一个洞
+a hole at the top of them these things
+are all actually going to be end up
+
+157
+00:14:23,920 --> 00:14:27,280
+很重要，因为您需要知道电子或空穴的方向
+being important because you need to know
+which way the electrons or the holes are
+
+158
+00:14:27,280 --> 00:14:30,010
+移动跟踪它，以了解带底部的电子
+moving keeping track of it for an
+electron at the bottom of the band
+
+159
+00:14:30,010 --> 00:14:34,300
+一切似乎都很自然，但是乐队顶部的一个洞开始了
+everything seems very natural but a hole
+at the top of the band everything starts
+
+160
+00:14:34,300 --> 00:14:39,040
+变得困惑，所以正确地跟踪这些很重要，所以让我们
+getting confused so it's important to
+keep track of these correctly so let's
+
+161
+00:14:39,040 --> 00:14:51,130
+考虑带子顶部的孔洞速度，所以我们再次开始
+think about velocity of hole at top of
+band at top of band so again we start
+
+162
+00:14:51,130 --> 00:14:57,640
+带的能量在带的顶部，所以不减H 
+with the energy for the electron at the
+top of the band so that's not minus H
+
+163
+00:14:57,640 --> 00:15:05,020
+条形平方K平方K电子平方2m星孔好吧，为什么我
+bar squared K squared K electron squared
+over 2m star hole okay now why did I
+
+164
+00:15:05,020 --> 00:15:10,000
+以此方式绘制，使M星孔的能量大于零。 
+draw it this way so M star hole is
+greater than zero the energy for the
+
+165
+00:15:10,000 --> 00:15:16,420
+电子随着远离K的电子动量增加而减小
+electron decreases as you increase the
+momentum of the electron away from K
+
+166
+00:15:16,420 --> 00:15:20,830
+等于零，带正在向下弯曲，因此电子的能量为
+equals zero the band is curving down so
+the energy for the electron is
+
+167
+00:15:20,830 --> 00:15:26,800
+降低组速度然后总是
+decreasing
+the group velocity then which is always
+
+168
+00:15:26,800 --> 00:15:32,950
+在H bar D上为1，所以这是电子D电子DJ的群速度
+1 over H bar D so this is a group
+velocity for the electron D electron DJ
+
+169
+00:15:32,950 --> 00:15:42,130
+因此，电子在整个m星或整个M星上减去h-bar K电子
+electron is then minus h-bar K electron
+over m star whole or since M star whole
+
+170
+00:15:42,130 --> 00:15:48,850
+是负M星电子，我们可以将其写为m星上的H Bar K e 
+is minus M star the electron we can
+write this as H Bar K e over m star
+
+171
+00:15:48,850 --> 00:15:54,880
+电子，但M星电子小于零，所以这意味着如果我
+electron but M star electron is is less
+than zero so what this means is if I
+
+172
+00:15:54,880 --> 00:16:01,510
+如果我有一个像这样的空带并且在顶部附近有一个电子
+have a if I had an empty band like this
+and I had an electron here near the top
+
+173
+00:16:01,510 --> 00:16:06,520
+该带的速度实际上是这个电子的速度B 
+of the band the velocity of this
+electron is actually going this way B
+
+174
+00:16:06,520 --> 00:16:10,360
+小组正朝着手套走，因为您可以将其视为
+group is going this way right the mitt
+because you can think of that as the
+
+175
+00:16:10,360 --> 00:16:13,630
+电子质量趋于负是因为负
+electron mass is going negative is
+negative because of the negative
+
+176
+00:16:13,630 --> 00:16:17,710
+因此，群速度实际上与
+curvature so the group velocity is
+actually in the opposite direction as
+
+177
+00:16:17,710 --> 00:16:23,980
+波矢好吧，我知道是我知道这令人困惑，但是你知道你是否
+the wave vector okay I know it's I know
+it's confusing but but you know if you
+
+178
+00:16:23,980 --> 00:16:28,120
+只需仔细跟踪迹象，一切都会正确，让我们
+just keep track of the signs carefully
+everything comes out correct let's
+
+179
+00:16:28,120 --> 00:16:33,040
+如果我们用术语来考虑的话，可以将其与能源的情况进行比较
+compare that to the energy to the
+situation if we think about it in terms
+
+180
+00:16:33,040 --> 00:16:40,089
+孔的能量，所以靠近带顶部的孔的能量是恒定的
+of holes so the energy of a hole near
+the top of the band is some constant
+
+181
+00:16:40,089 --> 00:16:47,890
+再加上h bar平方K整平方超过2m星整，所以洞的能量
+plus h bar squared K whole squared over
+2m star whole so the energy of the hole
+
+182
+00:16:47,890 --> 00:16:52,330
+随着您远离频段顶部而增加其动量而增加，因此
+increases as you increase its momentum
+away from the top of the band so the
+
+183
+00:16:52,330 --> 00:17:02,560
+组速度V组整体等于H之上de整体DK整体等于H 
+group velocity V group whole equals one
+over H bar de whole DK whole equals H
+
+184
+00:17:02,560 --> 00:17:11,589
+ K整体超过m星整体，而K整体我们刚刚决定是同一件事
+Bar K whole over m star whole and K
+whole we just decided is the same thing
+
+185
+00:17:11,589 --> 00:17:18,329
+因为电子的负K等于负KH bar H Bar K 
+as minus K for the electron so this is
+the same thing as minus K H bar H Bar K
+
+186
+00:17:18,329 --> 00:17:24,910
+电子在毫米星孔上，这实际上与我们刚刚计算的相同
+electron over mm star hole which is in
+fact the same thing we just calculated
+
+187
+00:17:24,910 --> 00:17:31,750
+在这里，这里的意思是，如果我们有一个像这样的充满乐队
+up here so the point here is that if we
+have a filled band like this and one
+
+188
+00:17:31,750 --> 00:17:36,120
+空状态，这里的群速度朝这个方向
+empty state here the group velocity of
+that is going in this direction
+
+189
+00:17:36,120 --> 00:17:39,990
+同样，这是一个非常重要的原则，将再次出现
+as well this is an extremely important
+principle that will come back many times
+
+190
+00:17:39,990 --> 00:17:45,450
+或至少几次，但一个状态的速度
+or at least several times but the
+velocity of a state the velocity of an
+
+191
+00:17:45,450 --> 00:17:58,830
+轨道的轨道独立于该轨道是否为
+orbital of an orbital orbital is
+independent of whether that orbital is
+
+192
+00:17:58,830 --> 00:18:14,130
+填充轨道是否已填充，这样一堆就可以想到它
+filled whether the orbital is filled so
+you can think of it as you have a bunch
+
+193
+00:18:14,130 --> 00:18:17,820
+系统中的轨道数，并且轨道可以具有一定的速度
+of orbitals in your system and the
+orbitals have some velocity you can put
+
+194
+00:18:17,820 --> 00:18:20,880
+在那个轨道上的电子，电子将随着
+an electron in that orbital and the
+electron will move with that out with
+
+195
+00:18:20,880 --> 00:18:25,320
+那个速度，如果你从轨道上移走电子，它仍然是轨道
+that velocity if you remove the electron
+from that orbital it's still the orbital
+
+196
+00:18:25,320 --> 00:18:28,860
+仍然以相同的速度运动，只是其中没有电子
+is still moving with the same velocity
+it's just there's no electron in it okay
+
+197
+00:18:28,860 --> 00:18:34,800
+所以这是一个重要的原则，实际上
+so this is kind of an important
+principle which sort of it it actually
+
+198
+00:18:34,800 --> 00:18:39,090
+即使我们想到您就知道我们
+makes a very good amount of sense even
+when we think about you know the we
+
+199
+00:18:39,090 --> 00:18:42,540
+考虑氢原子或我们考虑这些轨道的某些事物
+think about hydrogen atom or something
+we think about these orbitals being
+
+200
+00:18:42,540 --> 00:18:47,730
+那里是否有电子存在于轨道和轨道中
+there whether or not the there's an
+electron in the orbital and the orbitals
+
+201
+00:18:47,730 --> 00:18:50,270
+可以以一定速度移动，它们仍然在那里并移动
+can be moving with some velocity and
+they're still there and moving
+
+202
+00:18:50,270 --> 00:18:53,520
+不管我们放电子还是不放电子
+independent of whether we put the
+electron in or we didn't put the
+
+203
+00:18:53,520 --> 00:19:01,890
+电子没问题，好吧，现在让我们实际尝试掌握我们学到的知识
+electron in okay all right so let's now
+actually try to take what we've learned
+
+204
+00:19:01,890 --> 00:19:10,580
+并计算一些电子动力学和空穴动力学
+and calculate some dynamics dynamics of
+electrons and holes dynamics of
+
+205
+00:19:10,580 --> 00:19:19,730
+电子和空穴的乔恩氏和空穴以及最简单的方法
+electrons and holes
+jon's and holes and the simplest way to
+
+206
+00:19:19,730 --> 00:19:25,140
+处理动力学是我们开始考虑提请的术语
+handle dynamics is what we started the
+term with which is to think about drew
+
+207
+00:19:25,140 --> 00:19:31,800
+回到理论上，所以我们将在数周后回到juda理论上，所以让我们回想一下
+to theory so we're back to juda theory
+after many weeks and so let's recall the
+
+208
+00:19:31,800 --> 00:19:37,350
+我们得出一些p点的Drude方程等于f只是牛顿方程
+Drude equation that we derived some p
+dot equals f just newton's equations
+
+209
+00:19:37,350 --> 00:19:44,880
+拖曳项p超过tau，我们可以将其写成电子或
+with a drag term p over tau and we can
+write that out for electrons or
+
+210
+00:19:44,880 --> 00:19:51,600
+电子，我们将拥有我所拥有的电子的质量
+electrons
+we will have mass of the electron I'm
+
+211
+00:19:51,600 --> 00:19:55,470
+要在这里加一个星星乘以V点，所以唯一与我们不同的是
+going to put a star here times V dot so
+the only thing different from what we
+
+212
+00:19:55,470 --> 00:19:59,850
+学期开始时做的是我现在在质量旁边放一颗星，所以
+did at the beginning of the term is I'm
+now putting a star next to the mass so
+
+213
+00:19:59,850 --> 00:20:03,149
+它是带底部的有效曲率
+it's it's the effective mass the
+curvature at the bottom of the band that
+
+214
+00:20:03,149 --> 00:20:07,289
+不管裸电子质量有多大， 
+matters not the bare electron mass
+there's not an important quantity in a
+
+215
+00:20:07,289 --> 00:20:13,710
+半导体或绝缘体将具有通常的力
+semiconductor or an insulator it will
+have the force the usual the usual
+
+216
+00:20:13,710 --> 00:20:19,139
+永远与您同在的洛伦兹力量永远不会再有一个笑话
+Lorentz force which is always with you
+there's a another joke all right never
+
+217
+00:20:19,139 --> 00:20:21,200
+心神
+mind
+
+218
+00:20:21,350 --> 00:20:26,070
+电子的tau大于电子的散射时间，因此
+the over tau for the electron the
+scattering time for the electron so this
+
+219
+00:20:26,070 --> 00:20:30,840
+应该看起来很熟悉，这就是我们得出的运输方程
+should look fairly familiar this is the
+drew de transport equation that we had
+
+220
+00:20:30,840 --> 00:20:35,129
+在有一些加速度和质量乘以加速度之前，有一些
+before there's some acceleration and
+mass times acceleration there's some
+
+221
+00:20:35,129 --> 00:20:38,549
+力在电子上有负E的电荷，有洛伦兹力， 
+force there's a charge of minus E on the
+electron there's a Lorentz force and
+
+222
+00:20:38,549 --> 00:20:43,500
+无论我们在谈论什么，这里都有一个阻力
+there's a drag force here this equation
+holds true whether we're talking about
+
+223
+00:20:43,500 --> 00:20:47,100
+在带的底部附近的电子或在带的顶部附近的电子
+an electron near the bottom of band or
+an electron near the top of the band
+
+224
+00:20:47,100 --> 00:20:52,740
+但是，在波段的顶部附近，质量的符号变为负， 
+however near the top of the band the
+sign of the mass gets to be negative and
+
+225
+00:20:52,740 --> 00:20:57,269
+这似乎有点不可思议，但是如果我们考虑一下它的顶部
+that seems a little bit weird
+but if we think about it near top of
+
+226
+00:20:57,269 --> 00:21:05,190
+我们可以考虑考虑到带孔等式，因此在带的顶部附近有一个带
+band near top of band a band we can
+consider drew to equation for holes so
+
+227
+00:21:05,190 --> 00:21:10,559
+我们将有一个M星洞乘以相同的洞的速度
+we would have an M star hole times the
+velocity of the hole same drew to
+
+228
+00:21:10,559 --> 00:21:16,440
+等式，但孔上的电荷现在为正e再次写等于
+equation but the charge on the hole is
+now plus e write this again equals plus
+
+229
+00:21:16,440 --> 00:21:23,850
+ e孔上的电荷为正e，那么我们有E加V叉B的力
+e the charge on the hole is plus e then
+we have E Plus V cross B rents force and
+
+230
+00:21:23,850 --> 00:21:30,269
+然后，在一定的散射时间内，减去M星孔的速度
+then minus M star hole velocity of the
+hole over some scattering time for the
+
+231
+00:21:30,269 --> 00:21:36,330
+也有孔，所以我们在带顶部的孔有一个judor方程
+hole as well so we have a judor equation
+for the holes at the top of the band as
+
+232
+00:21:36,330 --> 00:21:43,049
+现在，请记住，我们这里有两件事我们有两个方程式
+well now remember that the we have two
+things here we have two equations one
+
+233
+00:21:43,049 --> 00:21:47,399
+对于电子，对于空穴，两个方程的差是
+for the electrons one for the holes and
+the difference in the two equations is
+
+234
+00:21:47,399 --> 00:21:51,570
+电荷的符号对于空穴上的电子是不同的
+that the sign of the charge is different
+for the electrons on the holes but also
+
+235
+00:21:51,570 --> 00:21:57,960
+ M星孔被定义为电子的负M星，因此实际上这些
+M star hole was defined to be minus M
+star of the electron so in fact these
+
+236
+00:21:57,960 --> 00:22:02,410
+如果两个方程正好乘以两个方程
+two equations are exactly the
+if this equation has been multiplied by
+
+237
+00:22:02,410 --> 00:22:07,180
+整个负1 / m星整个是负电子m星，所以实际上
+an overall minus 1/m star whole is minus
+m star the electron and so it's actually
+
+238
+00:22:07,180 --> 00:22:12,370
+只是重复完全相同的Drude方程，所以实际上
+just repeating exactly the same Drude
+equation so this is actually quite
+
+239
+00:22:12,370 --> 00:22:14,920
+重要的是，我刚才在这里写的那句话完全一样
+important it's exactly the same
+statement that I just wrote over here
+
+240
+00:22:14,920 --> 00:22:19,300
+无论您说的是什么，国家的动态都是完全相同的
+the dynamics of the state are exactly
+the same whether you're talking about an
+
+241
+00:22:19,300 --> 00:22:22,870
+电子移动这种状态或空穴移动的状态不存在
+electron moving this state or a hole
+moving the state the absence of an
+
+242
+00:22:22,870 --> 00:22:26,860
+电子，轨道是否仍以相同的动力学运动
+electron the orbital still moves with
+the same dynamics whether or not the
+
+243
+00:22:26,860 --> 00:22:32,950
+轨道充满了一个电子好，所以关于
+orbital is filled with an electron okay
+good so the thing that's funny about the
+
+244
+00:22:32,950 --> 00:22:36,250
+这些半导体中的犹大方程式是
+the Judah equation in these
+semiconductors is if you're up at the
+
+245
+00:22:36,250 --> 00:22:40,450
+在乐队的顶部，您可以选择看起来似乎都有点的两件事
+top of the band you have a choice of two
+things that both seemed a little bit
+
+246
+00:22:40,450 --> 00:22:44,740
+一种奇怪的可能性是，您必须考虑负质量
+weird one possibility is that you have
+to think about a negative mass for the
+
+247
+00:22:44,740 --> 00:22:47,500
+电子，如果您正在考虑状态中的电子
+electrons if you're thinking about
+electrons in the state the other
+
+248
+00:22:47,500 --> 00:22:52,180
+可能是您考虑了积极的质量漏洞，但现在这些都是积极的
+possibility is you think about positive
+mass holes but now these are positively
+
+249
+00:22:52,180 --> 00:22:57,760
+带电粒子现在可以解决我们的旧难题之一
+charged particles now this resolves one
+of our old puzzles old puzzle from the
+
+250
+00:22:57,760 --> 00:23:08,770
+学期老难题的第二天或第三天，这就是为什么霍尔的迹象
+second day or the third day of term old
+puzzle which was why is sign of Hall
+
+251
+00:23:08,770 --> 00:23:24,310
+系数霍尔系数有时为正，因此您会记得
+coefficients Hall coefficient sometimes
+positive so you'll recall that we
+
+252
+00:23:24,310 --> 00:23:29,260
+根据犹大理论得出，霍尔系数是电荷的n倍以上的1 
+derived in judah theory that the hall
+coefficient is 1 over n times the charge
+
+253
+00:23:29,260 --> 00:23:34,510
+在粒子周围运动时，这是电子上的电荷，因此，如果您有一个
+on the particle moving around this is a
+charge on the electron so if you have a
+
+254
+00:23:34,510 --> 00:23:38,020
+几乎是空的带，它们只是几个电子在运动
+band which is mostly empty and they're
+just a couple of electrons are moving
+
+255
+00:23:38,020 --> 00:23:41,380
+周围有犹大理论，这些电子像
+around then you have Judah theory for
+these electrons moving around just like
+
+256
+00:23:41,380 --> 00:23:45,310
+我们在一开始就以索末菲理论或犹大理论思考过
+we thought about in Sommerfeld theory or
+in judah theory at the beginning of the
+
+257
+00:23:45,310 --> 00:23:48,850
+学期，您将获得一个为负的停止系数，但如果您有异动症
+term and you'll get a halt coefficient
+which is negative but if you have afib
+
+258
+00:23:48,850 --> 00:23:53,290
+而且大部分都被填充了，在顶部您只剩下几个孔
+and which is mostly filled and you just
+have a couple of holes in the top of the
+
+259
+00:23:53,290 --> 00:23:57,190
+乐队跑来跑去，无论哪种方式，您对它的看法如何
+band running around then either way you
+look at it what do you think about it as
+
+260
+00:23:57,190 --> 00:24:01,030
+带有正电荷的孔，或者您认为它是
+holes running around with a positive
+charge or you think about it as
+
+261
+00:24:01,030 --> 00:24:05,500
+电子到处跑，但是现在电子的质量是负的
+electrons running around but now the
+mass of the electron is negative what
+
+262
+00:24:05,500 --> 00:24:09,190
+你会得到的是，你会得到相反的符号，因为现在携带东西的东西
+you'll get is you'll get the opposite
+sign because now the things carrying the
+
+263
+00:24:09,190 --> 00:24:12,490
+充电有错误的信号，他们已经暂停
+charge have have the wrong sign they
+have pause
+
+264
+00:24:12,490 --> 00:24:18,490
+号而不是负号，所以这是您知道犹大可能要做的是
+sign instead of negative sign so this is
+what you know Judah might have to do is
+
+265
+00:24:18,490 --> 00:24:24,220
+可以回溯到1901年
+to way back in 1901 that it appeared
+that for some materials for some reason
+
+266
+00:24:24,220 --> 00:24:28,090
+电荷携带者的标志有误，实际上这就是其中的原因
+the charge carrier had the wrong sign
+and indeed that's what's going on in
+
+267
+00:24:28,090 --> 00:24:32,710
+在某些材料中，电荷是由空穴而非电子携带的，因此，如果您
+some materials the charge is carried by
+holes rather than electrons so if you
+
+268
+00:24:32,710 --> 00:24:36,700
+有半导体，而你掺杂了电子，你总会得到
+have a semiconductor and you and you
+dope it with electrons you always get
+
+269
+00:24:36,700 --> 00:24:39,910
+整个系数的这个符号如果您用孔掺杂它，您将得到
+this sign of the whole coefficient if
+you dope it with holes you'll get the
+
+270
+00:24:39,910 --> 00:24:44,200
+现在对金属来说，霍尔系数的符号相反
+opposite sign of the Hall coefficient
+now for metals real you know real metals
+
+271
+00:24:44,200 --> 00:24:48,580
+例如钙，铍，锰或类似的东西
+like calcium or beryllium or manganese
+or something like that which are not
+
+272
+00:24:48,580 --> 00:24:52,210
+只是轻掺杂，他们知道我们有一些复杂的能带结构
+just lightly doped where they you know
+we have some complicated band structure
+
+273
+00:24:52,210 --> 00:24:56,500
+目前尚不清楚应该发出什么信号，因为您可以
+it's less clear what the sign of this is
+supposed to come out as because you can
+
+274
+00:24:56,500 --> 00:25:00,940
+就像上次讲课中我们讨论过的钙一样， 
+have a situation like we discussed with
+calcium in the last lecture where you
+
+275
+00:25:00,940 --> 00:25:05,170
+有一个部分充满的路易斯乐队和一个部分充满的最高乐队，所以您可以
+have a partially filled Louis band and a
+partially filled highest band so you can
+
+276
+00:25:05,170 --> 00:25:09,309
+认为它在第一个青铜器中有一些孔，在第一个青铜器中有一些孔
+think of it as having some holes in the
+first bronze own some holes in the first
+
+277
+00:25:09,309 --> 00:25:12,970
+带，但是第二个带中有一些电子，所以空穴正试图给你
+band but some electrons in the second
+band so the holes are trying to give you
+
+278
+00:25:12,970 --> 00:25:16,030
+霍尔系数为正时，第二个带中的电子正在尝试
+a positive Hall coefficient the
+electrons in the second band are trying
+
+279
+00:25:16,030 --> 00:25:18,940
+给你一个负的霍尔系数，因为他们两个互相竞争
+to give you a negative Hall coefficient
+to the two of them compete with each
+
+280
+00:25:18,940 --> 00:25:21,820
+其他，然后您必须开始担心哪个具有更大的
+other and then you have to start
+worrying about which one has a greater
+
+281
+00:25:21,820 --> 00:25:26,110
+散布时间还可以，所以对于实际而言，它变得有点复杂
+scattering time okay so it gets a little
+bit more complicated for real for
+
+282
+00:25:26,110 --> 00:25:31,450
+真正的真正金属，例如铍或锰或钙，但对于
+genuine real metals like beryllium or or
+manganese or calcium but in the case of
+
+283
+00:25:31,450 --> 00:25:35,950
+掺杂的半导体，如果您基本上有电子，就会非常清楚地显示出来
+a doped semiconductor it comes out very
+clearly if you have basically electron
+
+284
+00:25:35,950 --> 00:25:39,070
+如果你基本上有空洞，你会得到霍尔系数的这个符号
+transport you get this sign of the Hall
+coefficient if you have basically hole
+
+285
+00:25:39,070 --> 00:25:42,850
+到目前为止，您的霍尔系数的符号相反
+transport you have the opposite sign of
+the Hall coefficient so far so good
+
+286
+00:25:42,850 --> 00:25:46,480
+所以我们解决了这个难题，当我提到其他问题时
+so we've resolved this one puzzle there
+was something else that I mentioned when
+
+287
+00:25:46,480 --> 00:25:49,420
+我们在学期开始时就一直谈论Garuda理论
+we talked about Garuda theory all the
+way back at the beginning of the term
+
+288
+00:25:49,420 --> 00:25:57,520
+请记住，犹大理论非常有效，对于半导体行业来说
+remember the Judah theory works well
+works well for semiconductors for
+
+289
+00:25:57,520 --> 00:26:04,890
+半导体为什么除了可以得到信号的事实
+semiconductors why is that besides the
+fact that it can get the sign
+
+290
+00:26:04,890 --> 00:26:09,460
+明智地选择犹大理论的原因
+intelligently the reason why Judah
+Theory works particularly well for
+
+291
+00:26:09,460 --> 00:26:12,130
+半导体是因为通常在您谈论半导体时
+semiconductors is because usually when
+you're talking about semiconductors
+
+292
+00:26:12,130 --> 00:26:15,460
+您正在谈论的载流子密度非常低
+you're talking about a very low density
+of charge carriers you're talking about
+
+293
+00:26:15,460 --> 00:26:20,590
+导带中只有几个电子或化合价中只有几个空穴
+just a few electrons in the conduction
+band or just a few holes in the valence
+
+294
+00:26:20,590 --> 00:26:29,110
+带是否因为密度低而低
+band because
+because density is low is low whether
+
+295
+00:26:29,110 --> 00:26:32,620
+我们说的是导带中的电子或化合价中的空穴
+we're talking about electrons in the
+conduction band or holes in the valence
+
+296
+00:26:32,620 --> 00:26:37,660
+乐队的密度相当低，为什么这会帮助您犹大的原因
+band the density is fairly low and why
+does that help you the reason that Judah
+
+297
+00:26:37,660 --> 00:26:42,100
+我们第一次学习理论失败了，是因为我们
+Theory failed back when we were studying
+it for the first time is because we
+
+298
+00:26:42,100 --> 00:26:45,429
+忽略了费米统计，而忽略了电子是
+neglected Fermi statistics we neglected
+the fact that the electrons were
+
+299
+00:26:45,429 --> 00:26:51,490
+费米子，这使我们搞砸了所有这些东西，例如热容
+fermions and that made us mess up all of
+these things like the the heat capacity
+
+300
+00:26:51,490 --> 00:26:55,390
+我们完全错了，因为我们忽略了费米的统计资料，但是如果
+we got that completely wrong because we
+neglected Fermi statistics but if the
+
+301
+00:26:55,390 --> 00:26:59,980
+密度真的很低，您实际上有权忽略费米统计量，为什么
+density is really low you're actually
+entitled to neglect Fermi statistics why
+
+302
+00:26:59,980 --> 00:27:03,909
+如果有两个电子的概率落在
+is that well if the probability of
+having two electrons ever sit in the
+
+303
+00:27:03,909 --> 00:27:07,390
+同一轨道非常低，因为这些电子的密度非常高
+same orbital is extremely low because
+the density of these electrons is very
+
+304
+00:27:07,390 --> 00:27:11,350
+低，那么您可以将它们视为经典粒子Maxwell Boltzmann 
+low then you can just treat these as
+classical particles Maxwell Boltzmann
+
+305
+00:27:11,350 --> 00:27:14,440
+微粒可能是因为它们不太可能会坐在
+particles could because it's very
+unlikely they're going to sit in the
+
+306
+00:27:14,440 --> 00:27:19,929
+相同的轨道，首先是一种更好定义的表达方式
+same orbital and in the first place a
+sort of better defined way of saying
+
+307
+00:27:19,929 --> 00:27:25,539
+在给定密度的情况下，费米能量即为
+that is the Fermi energy given this
+density the Fermi energy increases with
+
+308
+00:27:25,539 --> 00:27:29,320
+如果密度低，则费米能量低如果密度低，则费米能量低
+density if the density is low the Fermi
+energy is low if the Fermi energy is
+
+309
+00:27:29,320 --> 00:27:33,460
+比密度低时的温度要低得多
+much less than the temperature which
+would be true if the density is low then
+
+310
+00:27:33,460 --> 00:27:38,110
+您不必担心费米统计信息就可以处理粒子
+you don't have to worry about Fermi
+statistics you can treat the particles
+
+311
+00:27:38,110 --> 00:27:50,320
+因为是经典的浸泡方式，所以颗粒是经典的，所以您可以
+as being classical soaking so particles
+are classical are classical and you can
+
+312
+00:27:50,320 --> 00:27:56,140
+仅考虑常规的经典德鲁伊和经典的玻尔兹曼动力学理论
+consider just regular classical Druid a
+theory classical Boltzmann dynamics
+
+313
+00:27:56,140 --> 00:27:59,620
+ Maxwell Boltzmann分布而不必担心费米分布
+Maxwell Boltzmann distribution without
+worrying about Fermi distributions so
+
+314
+00:27:59,620 --> 00:28:07,690
+这是是的，是要做什么，是的，我们将在稍后介绍这个问题，但是
+this is yes what do to hold yes holes
+will we'll come to that in a moment but
+
+315
+00:28:07,690 --> 00:28:11,289
+孔也确实服从我的统计数据，只有在考虑了
+holes also do obey for me statistics you
+can only put if you think about it for a
+
+316
+00:28:11,289 --> 00:28:15,850
+第二步，如果您以
+second you can only put one hole in a
+particular K State if you start with the
+
+317
+00:28:15,850 --> 00:28:20,440
+价带已满，一旦不能再取出就可以取出
+valence band filled you can take it out
+once you can't take it out again okay
+
+318
+00:28:20,440 --> 00:28:25,510
+是的，孔确实服从了费米的统计，他们是费米子，所以这是
+yes holes do obey Fermi statistics they
+are fermions all right so this is
+
+319
+00:28:25,510 --> 00:28:29,470
+实际上将我们带到了统计力学领域，或者
+actually bringing us to the to the realm
+of statistical mechanics or
+
+320
+00:28:29,470 --> 00:28:34,690
+我们粒子在半导体中的热力学，所以我们必须开始
+thermodynamics of our particles in in
+semiconductors so we have to start
+
+321
+00:28:34,690 --> 00:28:40,190
+考虑诸如从中激发多少电子
+thinking about things like how many
+how many electrons get excited from the
+
+322
+00:28:40,190 --> 00:28:44,029
+价带到导带，它们如何到达那里，它们是什么
+valence band to the conduction band how
+did they get there and what are they
+
+323
+00:28:44,029 --> 00:28:49,999
+他们一旦到达那里，温度就会受到什么影响，所以一件事
+doing once they're there what's the
+effect of temperature so one thing that
+
+324
+00:28:49,999 --> 00:28:54,470
+我在上一讲中告诉您，我应该多一点
+I told you from the in the last lecture
+that I should be a little bit more
+
+325
+00:28:54,470 --> 00:28:58,879
+老实说我们要回去思考一下掺杂问题，以及如何
+honest about we're going to go back to
+think about doping for a second and how
+
+326
+00:28:58,879 --> 00:29:10,070
+掺杂受温度掺杂和温度的影响，所以让我们回想一下
+doping is affected by temperature doping
+and temperature okay so let's recall
+
+327
+00:29:10,070 --> 00:29:18,889
+当我们结束时，像磷磷一样打开和打开
+that when we took a end opened and
+opened like like phosphorus voss in
+
+328
+00:29:18,889 --> 00:29:25,669
+硅和掺杂剂，我们写道磷等于硅加一
+silicon and dopant we wrote that
+phosphorus equals a silicon plus one
+
+329
+00:29:25,669 --> 00:29:30,889
+质子加一个电子，我告诉你电子进入传导
+proton plus one electron and I told you
+the electron goes into the conduction
+
+330
+00:29:30,889 --> 00:29:40,009
+带到导带，我告诉你忽略了
+band into conduction band band and I
+told you to ignore the fact that there's
+
+331
+00:29:40,009 --> 00:29:46,399
+一个额外的质子现在可以忽略这个问题，可以忽略额外的质子
+an extra proton ignore now this issue of
+being able to ignore the extra proton
+
+332
+00:29:46,399 --> 00:29:50,869
+我们另外加上的东西实际上是我们必须要做的
+that we put in in addition that is
+something that is actually we have to be
+
+333
+00:29:50,869 --> 00:29:54,409
+多注意一点，我们必须担心温度和
+a little bit more careful about and we
+have to worry about temperature and
+
+334
+00:29:54,409 --> 00:29:57,590
+问这样的事情是否可以忽略它，所以请考虑
+things like that to ask whether it's
+it's okay to ignore it so think about
+
+335
+00:29:57,590 --> 00:30:02,330
+稍微小心一点，我们放一个质子，放一个电子
+this a little bit more carefully we put
+in a proton and we put in an electron so
+
+336
+00:30:02,330 --> 00:30:05,779
+当您将它们放在一起时，电子和质子是做什么的
+what is an electron and a proton do when
+you put them together what's really
+
+337
+00:30:05,779 --> 00:30:11,919
+即将发生的事情是您将要形成一个氢原子或氢学术分子
+going to happen is you're going to form
+form a hydrogen atom or hydrogen academ
+
+338
+00:30:11,919 --> 00:30:18,919
+氢原子，我们将电子置于导带中，但我们也将
+hydrogenic atom we put the electron in
+the conduction band but we also put a
+
+339
+00:30:18,919 --> 00:30:22,549
+后面带正电荷，电子将购买正电荷
+positive charge behind and the electron
+is going to buy into that positive
+
+340
+00:30:22,549 --> 00:30:26,389
+电荷被库仑相互作用吸引到该正电荷，所以您
+charge it's attracted to that positive
+charge by Coulomb interaction so you
+
+341
+00:30:26,389 --> 00:30:31,279
+形成氢原子，但它不是普通的氢原子
+form a hydrogen atom but it's not a
+regular hydrogen atom it's slightly
+
+342
+00:30:31,279 --> 00:30:39,710
+与氢原子不同，因为一个M星不是M不是质量
+different from a hydrogen atom because
+one M star not M not the mass of the
+
+343
+00:30:39,710 --> 00:30:43,700
+电子是电子的有效质量，而不是电子的质量
+electron it's the effective mass of the
+electron not the mass of electron the
+
+344
+00:30:43,700 --> 00:30:46,970
+ M在导带中运动的电子动力学由M给出
+dynamics of the electron running around
+in the conduction band is given by M
+
+345
+00:30:46,970 --> 00:30:50,580
+恒星不是电子的裸质量，所以差一
+star not the bare mass of the electron
+so that's difference one
+
+346
+00:30:50,580 --> 00:30:55,170
+第二个区别是您在库仑中学到的东西
+the second difference is something you
+learned in a.m. in the Coulomb
+
+347
+00:30:55,170 --> 00:31:00,690
+相互作用吸引质子的能量在4 PI epsilon上平方
+interaction the attraction back to the
+proton is e squared over 4 PI epsilon
+
+348
+00:31:00,690 --> 00:31:08,520
+零ε相对时间RRε相对介电常数
+naught epsilon relative times R R
+epsilon a relative dielectric constant
+
+349
+00:31:08,520 --> 00:31:20,630
+相对介电常数不是通常的4 PIε的平方而不是R 
+relative dielectric constant not the
+usual a squared over 4 PI epsilon not R
+
+350
+00:31:20,630 --> 00:31:27,990
+好了，库仑相互作用被相对介电常数降低了
+ok so the the Coulomb interaction is is
+reduced by the relative dielectric
+
+351
+00:31:27,990 --> 00:31:31,500
+恒定，因为您生活在半导体中，而不是生活在真空中
+constant because you're living in a
+semiconductor not living in the vacuum
+
+352
+00:31:31,500 --> 00:31:37,580
+空间，所以如果您还记得我们是规则氢原子，规则氢
+of outer space so if you recall we're
+regular hydrogen atom regular hydrogen
+
+353
+00:31:37,580 --> 00:31:48,260
+规则的氢原子有一个结合能e结合
+regular hydrogen atom there's a binding
+energy e binding which is well ok you
+
+354
+00:31:48,260 --> 00:31:54,540
+也许很好，也许还记得这个公式，它是8 epsilon naughter squared 
+probably well maybe do remember this
+formula it's 8 epsilon naught squared
+
+355
+00:31:54,540 --> 00:31:59,550
+普朗克常数平方，但您可能还记得魔术数字
+Planck's constant squared but you
+probably remember the magic number
+
+356
+00:31:59,550 --> 00:32:06,420
+十三点六e V是一个孤峰，所以这是a的结合能
+thirteen point six e V which is a rid
+berg so this is the binding energy of a
+
+357
+00:32:06,420 --> 00:32:13,310
+规则氢原子，但在半导体中的结合能e 
+regular hydrogen atom but in a
+semiconductor the binding energy e
+
+358
+00:32:13,310 --> 00:32:19,860
+电子与质子的结合将我放的额外电荷
+binding of the electron back to the
+proton the additional charge that I put
+
+359
+00:32:19,860 --> 00:32:27,750
+现在掺杂物中的M星电子e超过8 epsil 
+in with the dopant is now M star
+electron e to the fourth over 8 epsilon
+
+360
+00:32:27,750 --> 00:32:36,990
+ H平方上没有相对的ε平方，然后我可以写成M星
+relative epsilon naught squared over H
+squared which I can then write as M star
+
+361
+00:32:36,990 --> 00:32:43,800
+电子的质量除以电子的质量乘以ε的1 
+of the electron divided by the mass of
+the electrons times 1 over epsilon
+
+362
+00:32:43,800 --> 00:32:51,570
+相对平方时间13.6 TV现在，此表达式可能有很大不同
+relative squared times 13.6 TV now this
+expression can be a whole lot different
+
+363
+00:32:51,570 --> 00:32:56,400
+从13.6电视开始，通常情况下它会小很多
+from 13.6 TV and generically it's going
+to be a lot smaller typically effective
+
+364
+00:32:56,400 --> 00:33:00,180
+电子和半导体的质量可以是电子质量的三分之一
+masses of electrons and semiconductors
+can be a third of the mass of an
+
+365
+00:33:00,180 --> 00:33:03,810
+电子甚至可以是电子质量的十分之一甚至更小
+electron it can be even a tenth of the
+mass with electron or even smaller the
+
+366
+00:33:03,810 --> 00:33:05,940
+电常数半导体可以是
+die
+electric constant semiconductors can be
+
+367
+00:33:05,940 --> 00:33:10,140
+像10这样的数字，这意味着该数字的实际结合能
+numbers like 10 so that means that this
+number the actual binding energy of the
+
+368
+00:33:10,140 --> 00:33:14,279
+电子到半导体中的质子可能是一个因素
+electron to the proton in the
+semiconductor can be as much as a factor
+
+369
+00:33:14,279 --> 00:33:23,519
+比这少一千分之一
+of a thousand less than this for example
+in silicon in silicon key binding of the
+
+370
+00:33:23,519 --> 00:33:31,200
+对于电子伏特来说，回到其掺杂核的电子为0.04 
+electron back to its dopant nucleus is
+0.04 for electron volts a much much much
+
+371
+00:33:31,200 --> 00:33:35,640
+较小的数字，现在为什么这么重要好吧，哦，看这个
+smaller number now why is that important
+okay oh look at this
+
+372
+00:33:35,640 --> 00:33:44,460
+我需要学院把它放在这里，我要画画，所以这是底部
+I need that Academy put this in here I'm
+going to draw the so here's the bottom
+
+373
+00:33:44,460 --> 00:33:49,799
+导带的这里是价带的顶部，所以当您添加掺杂剂时
+of the conduction band here's the top of
+a valence band so when you put a dopant
+
+374
+00:33:49,799 --> 00:33:55,350
+当你把磷掺杂剂形成一个结合态
+in when you put the phosphorous dopant
+in you form a bound state which is a
+
+375
+00:33:55,350 --> 00:34:02,730
+导带底部下方的结合距离非常短
+very small distance a binding be binding
+below the bottom of the conduction band
+
+376
+00:34:02,730 --> 00:34:07,470
+因此，通过绑定而不是仅仅坐在K上，您可以获得一点能量
+so you gain a tiny bit of energy by
+binding instead of just sitting with K
+
+377
+00:34:07,470 --> 00:34:10,560
+在导带中等于零，您可以通过束缚获得一点能量
+equals zero in the conduction band you
+gain a little bit of energy by binding
+
+378
+00:34:10,560 --> 00:34:12,960
+到你来自的正核
+to the positive nucleus that you came
+from
+
+379
+00:34:12,960 --> 00:34:19,349
+但是这里的能量很小，在室温下
+however this energy here is very very
+small and at room temperature at room
+
+380
+00:34:19,349 --> 00:34:34,589
+温度降到t室时，电子自由断裂，自由断裂， 
+temperature is down at t room the
+electron breaks free breaks free and
+
+381
+00:34:34,589 --> 00:34:44,099
+进入导带，自由破裂并进入导带
+goes off into the conduction band breaks
+free and goes into conduction band
+
+382
+00:34:44,099 --> 00:34:51,389
+它只是被热激发到导带中，这就是为什么
+it's just thermally excited into the
+conduction band and this is why this is
+
+383
+00:34:51,389 --> 00:34:57,660
+为什么在我们向硅添加磷掺杂时可以考虑一下
+why it's okay to think about when we add
+phosphorus doping to silicon we really
+
+384
+00:34:57,660 --> 00:35:00,839
+应该只考虑室温或更高的温度
+should just think a on room temperature
+or a higher temperature we should think
+
+385
+00:35:00,839 --> 00:35:04,080
+关于这只是将电子直接添加到导带中，如果
+about this is just directly adding
+electrons into the conduction band if
+
+386
+00:35:04,080 --> 00:35:08,310
+你把它冷却一下如果我把它冷却一下也许我会写下来
+you cool it down if you cool this maybe
+I'll write that down
+
+387
+00:35:08,310 --> 00:35:16,880
+因此，掺杂增加了电子，直接增加了
+so doping adds electrons adds directly
+to
+
+388
+00:35:16,880 --> 00:35:27,299
+ -导带或类似的（如果在添加时对孔做相同的事情） 
+- conduction band or similarly if you do
+the same thing with holes when you add
+
+389
+00:35:27,299 --> 00:35:34,349
+在孔中，它将与上的负电荷形成束缚态
+in the hole it would form a bound state
+to the to the negative charge on the
+
+390
+00:35:34,349 --> 00:35:38,400
+我们留下的核被放入硼，铝或
+nucleus that we left behind we're
+putting in a boron or an aluminum or
+
+391
+00:35:38,400 --> 00:35:45,180
+在有限的温度下，空穴会脱离其原子核并运行
+something and at finite temperature that
+hole breaks free of its nucleus and runs
+
+392
+00:35:45,180 --> 00:35:53,010
+进入价带，但是在低温下
+off into the valence band however at low
+temperature at low temperature the
+
+393
+00:35:53,010 --> 00:36:00,319
+电子变得被束缚，变得被束缚，再次被束缚到掺杂核
+electron becomes becomes bound becomes
+bound again bound to the dopant nucleus
+
+394
+00:36:00,319 --> 00:36:11,400
+再次掺杂核，所以如果您要测量
+to dopant nucleus nucleus again so if
+you were measuring the density of
+
+395
+00:36:11,400 --> 00:36:16,440
+如果您将系统完全冷却，则导带中的电子
+electrons in the conduction band
+if you cooled the system down a lot all
+
+396
+00:36:16,440 --> 00:36:19,049
+突然间，您会发现传导中的电子密度
+of a sudden you would discover that the
+density of electrons in the conduction
+
+397
+00:36:19,049 --> 00:36:23,579
+能带下降是因为所有这些电子都被冻结回到
+band was dropping because all of these
+electrons were getting frozen back onto
+
+398
+00:36:23,579 --> 00:36:29,119
+他们由此产生的核被称为载体冻结
+their the nucleus that they came from
+this is known as carrier freeze-out
+
+399
+00:36:29,150 --> 00:36:42,599
+运营商冻结了，好吧，到目前为止，很好，每个人都对此感到满意
+carrier freeze-out okay all right so so
+far so good everyone happy with this all
+
+400
+00:36:42,599 --> 00:36:47,099
+对，现在是时候认真思考一下统计力学了
+right so now it's time to do some
+serious statistical mechanics thinking
+
+401
+00:36:47,099 --> 00:36:51,390
+关于我们在导带中应该有多少个电子或多少个空穴
+about how many electrons we should have
+in the conduction band or how many holes
+
+402
+00:36:51,390 --> 00:36:56,150
+我们应该在价带中有一个相当重要的计算
+we should have in the valence band this
+is a rather important calculation that
+
+403
+00:36:56,150 --> 00:37:01,950
+实际上经常出现在考试中，所以这是一件好事
+actually shows up on exams very
+frequently so it's a good thing to go
+
+404
+00:37:01,950 --> 00:37:06,839
+好几次，所以让我们从这种通用
+through several times all right so let's
+a start with this sort of generic
+
+405
+00:37:06,839 --> 00:37:11,789
+导带底部的图片价带顶部的图片
+picture of the bottom of a conduction
+band the top of a valence band
+
+406
+00:37:11,789 --> 00:37:14,880
+他们通常不必放出相同的曲率
+they don't have to have the same
+curvature in general they put out
+
+407
+00:37:14,880 --> 00:37:18,000
+我已经画出了不同的有效质量
+different effective masses I've drawn
+the effective mass is being slightly
+
+408
+00:37:18,000 --> 00:37:22,140
+不同的是他们不必对齐，这可能是间接的差距
+different they don't have to be aligned
+the it could be an indirect gap the top
+
+409
+00:37:22,140 --> 00:37:25,020
+价带的可能与底部的位置不同
+of the valence band could be in a
+different place than the bottom of the
+
+410
+00:37:25,020 --> 00:37:28,990
+导带，我们称之为能量e导通
+conduction band we'll call this energy e
+conduction
+
+411
+00:37:28,990 --> 00:37:36,190
+传导中的ec4将称此能量ev 4e价称此能量e间隙C子G 
+ec4 in conduction will call this energy
+e v 4e valence this energy e gap C sub G
+
+412
+00:37:36,190 --> 00:37:43,450
+和E间隙等于e传导-价，我们可以想象化学
+and E gap equals e conduction - valence
+and we'll imagine that the chemical
+
+413
+00:37:43,450 --> 00:37:46,600
+潜力在乐队的中间，我们将尝试找出
+potential is somewhere in the middle of
+the band and we'll try to figure out
+
+414
+00:37:46,600 --> 00:37:53,200
+没关系，所以我们从价带开始
+where it is all right and so the we
+start with the valence band being
+
+415
+00:37:53,200 --> 00:37:56,820
+完全填满，我们将尝试弄清楚添加时会发生什么
+completely filled and we're going to try
+to figure out what happens when we add
+
+416
+00:37:56,820 --> 00:38:02,050
+温度，所以我们需要做的几件事是光谱
+temperature so a couple of things we're
+going to need one is what the spectra
+
+417
+00:38:02,050 --> 00:38:08,320
+因此，对于我们的能量大于能量传导，我们拥有的能量是
+are so for our energy greater than
+energy conduction we have energy it's
+
+418
+00:38:08,320 --> 00:38:17,980
+这些能量传导的K函数+ H bar平方K-K min平方超过2m 
+function of K these energy conduction +
+H bar squared K - K min squared over 2m
+
+419
+00:38:17,980 --> 00:38:27,640
+星形电子，然后对于能量小于化合价的能量，我们有倒置的空间
+star electron and then for energy less
+than a valence we have the upside-down
+
+420
+00:38:27,640 --> 00:38:40,750
+抛物线ek等于evi减去H bar平方K-K max平方超过2m m星
+parabola ek equals evince minus H bar
+squared K - K max squared over 2m m star
+
+421
+00:38:40,750 --> 00:38:45,640
+整体+ M星整体记住正，我们曲率负
+whole + M star whole remember is
+positive we have a negative curvature of
+
+422
+00:38:45,640 --> 00:38:51,250
+乐队的顶端，然后我们必须考虑数国家
+the top of the band and then we have to
+think about counting States so counting
+
+423
+00:38:51,250 --> 00:38:58,650
+状态，我们会回想起我们对自由电子进行Sommerfeld理论的时间
+States and we'll think back to when we
+did Sommerfeld theory for free electrons
+
+424
+00:38:58,650 --> 00:39:08,560
+对于自由电子，我们的能量很好，e等于H bar平方K 
+for free electrons we had well our
+energy was e equals H bar squared K
+
+425
+00:39:08,560 --> 00:39:13,600
+平方超过2m且状态密度为单位的状态密度
+squared over 2m and the density of
+states so the density of states per unit
+
+426
+00:39:13,600 --> 00:39:21,510
+ e的体积阱G由该表达式给出，我们将其计算为质量
+volume well G of e was given by this
+expression which we calculated to mass
+
+427
+00:39:21,510 --> 00:39:32,109
+到2 pi平方的H条立方化epsilon的三分之二到1/2 
+to the three-halves over 2 pi squared H
+bar cubed epsilon to the 1/2 we
+
+428
+00:39:32,109 --> 00:39:36,869
+我在学期的第二天或第三天计算了这个
+calculated this I think on the second or
+third day of the term this is the
+
+429
+00:39:36,869 --> 00:39:42,170
+单位体积中状态的密度
+density of states out of states per unit
+volume
+
+430
+00:39:42,170 --> 00:39:51,470
+每卷的状态，因此我们希望使用完全相同的计算，除了
+States per volume so we'd like to use
+exactly the same calculation except for
+
+431
+00:39:51,470 --> 00:39:56,119
+导带和价带，所以实际上没有做功
+the conduction band and the valence band
+here so without actually doing the work
+
+432
+00:39:56,119 --> 00:40:00,529
+很容易看到随着密度的增加会产生什么结果
+it's pretty easy to see what the result
+is going to come out as the density of
+
+433
+00:40:00,529 --> 00:40:05,500
+ e大于e的导带中的状态将是
+states in the conduction band for e
+greater than e conduction is going to be
+
+434
+00:40:05,500 --> 00:40:13,339
+电子的质量到三分之二除以相同的两个π 
+to mass of the electrons star to the
+three-halves divided by the same two pi
+
+435
+00:40:13,339 --> 00:40:21,140
+平方H立方，并且一半的e相同，但是e减去e 
+squared H bar cubed and there's the same
+e to the one-half but it's e minus e
+
+436
+00:40:21,140 --> 00:40:24,470
+导带，因此您正在测量相对于底部的能量
+conduction band so you're measuring the
+energy with respect to the bottom of the
+
+437
+00:40:24,470 --> 00:40:28,160
+导带抛物线从导带的底部开始，但
+conduction band the parabola starts at
+the bottom of the conduction band but
+
+438
+00:40:28,160 --> 00:40:32,119
+否则，这与人们满意的计算完全相同
+otherwise it's exactly the same
+calculation people happy with that okay
+
+439
+00:40:32,119 --> 00:40:37,849
+好，所以G价可能会稍微复杂一些，但不会太多
+good so G valence may be a little bit
+more complicated but not too much more
+
+440
+00:40:37,849 --> 00:40:48,529
+复杂的是要在两个pi平方高的H条上将M星孔分成三等分
+complicated is to M star hole
+three-halves over two pi squared H bar
+
+441
+00:40:48,529 --> 00:40:55,130
+立方，在这里我们测量EEEME，它可用于1/2和
+cubed and here we measure
+eeeem itís available to the 1/2 and
+
+442
+00:40:55,130 --> 00:40:59,539
+我们正在测量向下的方向，我们需要这个东西
+we're measuring going in the downward
+direction well we need this thing to the
+
+443
+00:40:59,539 --> 00:41:04,279
+ 1/2是一个正数，所以它必须是价数减去e（我们测量下降） 
+1/2 to be a positive number so it has to
+be valence minus e we measure going down
+
+444
+00:41:04,279 --> 00:41:10,490
+下降到低能耗状态，我们得到的州越来越多
+we get an increasing number of states as
+we go down to lower energy good alright
+
+445
+00:41:10,490 --> 00:41:16,390
+那么我们可以写导带
+so then we can write in conduction band
+
+446
+00:41:17,349 --> 00:41:25,130
+我们只是用统计力学来计算电子密度n 
+we just use our statistical mechanics
+the density of electrons density n of
+
+447
+00:41:25,130 --> 00:41:33,529
+安逸的电子由n作为T的函数给出，即N等于
+electrons of ease is given by n as a
+function of T that's an N equals the
+
+448
+00:41:33,529 --> 00:41:36,529
+从导带底部到能量无穷大的积分
+integral from the bottom of the
+conduction band up to energy infinity
+
+449
+00:41:36,529 --> 00:41:41,930
+状态的能量密度与能量和紧实度的关系
+the energy density of states as a
+function of energy and the firming
+
+450
+00:41:41,930 --> 00:41:50,539
+ β能量减去mu ok，所以状态密度的积分是
+factor beta energy minus mu ok so the
+integral of the density of states is
+
+451
+00:41:50,539 --> 00:41:55,670
+基本上是所有本征态的总和，费米因子可能是
+basically a sum over all eigenstates and
+the fermi factor is the probably
+
+452
+00:41:55,670 --> 00:41:59,809
+我会把状态填满，所以这只是数所有
+that i ghen state is going to be filled
+so this is just counting up all the
+
+453
+00:41:59,809 --> 00:42:03,230
+在给定温度下填充的状态，但我们需要知道
+states that are filled at a given
+temperature but we need to know what the
+
+454
+00:42:03,230 --> 00:42:10,460
+化学势还可以，所以现在我们要写出费米
+chemical potential is okay so now we're
+going to well let's write out the Fermi
+
+455
+00:42:10,460 --> 00:42:18,140
+费米函数是β能量减去mu加的一倍以上
+function here the Fermi function is one
+over e to the beta energy minus mu plus
+
+456
+00:42:18,140 --> 00:42:26,510
+现在，如果我们处于相当高的温度下或者密度低，或者
+one now if if we're at a fairly high
+temperature or if the density is low or
+
+457
+00:42:26,510 --> 00:42:32,540
+严格来说，我们需要的是β能量减去mu大于1 
+strictly speaking what we need is beta
+energy minus mu is much greater than one
+
+458
+00:42:32,540 --> 00:42:43,040
+这意味着mu远低于EC以下的远低于意指低于at 
+this means that mu is much below much
+below below EC meaning that below by at
+
+459
+00:42:43,040 --> 00:42:48,049
+最少的温度，所以您知道低于
+least the amount of the temperature so
+you know fairly well below the the
+
+460
+00:42:48,049 --> 00:42:51,619
+导带的底部，这很容易，因为
+bottom of the conduction band and that's
+pretty easy because the gaps between the
+
+461
+00:42:51,619 --> 00:42:54,440
+导带和价带可以有几个电子伏特
+conduction band and the valence band
+there can be a couple of electron volts
+
+462
+00:42:54,440 --> 00:42:59,930
+比典型温度大得多，这意味着可以近似得出NF 
+much bigger than typical temperatures
+that means that NF can be approximated
+
+463
+00:42:59,930 --> 00:43:05,480
+好的，您基本上可以删除加号，而得到的只是
+by well you basically can just drop the
+plus one and you get the just the
+
+464
+00:43:05,480 --> 00:43:12,140
+常规的玻尔兹曼因数这是麦克斯韦的倍数
+regular Boltzmann factor this is just
+multiple on Maxwell Boltzmann Maxwell
+
+465
+00:43:12,140 --> 00:43:23,930
+玻尔兹曼，让我们输入，我们有n个T，那么它将是整数
+Boltzmann so let's put that in and we
+have n of T then is going to be integral
+
+466
+00:43:23,930 --> 00:43:30,890
+ d能量0对不起EC从导带的底部一直到G的无穷大
+d energy 0 sorry EC from the bottom of
+the conduction band up to infinity of G
+
+467
+00:43:30,890 --> 00:43:35,900
+能量，然后将麦克斯韦玻尔兹曼因子e减去负β能量减去
+of energy and then the Maxwell Boltzmann
+factor e to the minus beta energy minus
+
+468
+00:43:35,900 --> 00:43:43,670
+亩近似值，这是温度，那么我们该怎么做
+mu making that approximation and this is
+temperature then how do we do this
+
+469
+00:43:43,670 --> 00:43:49,130
+我们要做的第一件事就是要做好我们要做的事情
+integral well first thing we're going to
+do is we're going to well what are we
+
+470
+00:43:49,130 --> 00:43:56,059
+我们要写出这个G是什么，所以它有一颗2m星
+going to do we're going to write out
+what this G is so this has a 2m star of
+
+471
+00:43:56,059 --> 00:44:02,420
+电子到三等分，它有一个2 pi平方的H形立方体，这个
+the electron to the three-halves and it
+has a 2 pi squared H bar cubed and this
+
+472
+00:44:02,420 --> 00:44:06,589
+积分能量能量导带
+integral the energy energy the
+conduction band
+
+473
+00:44:06,589 --> 00:44:14,289
+ dx e- e传导到1/2，然后e到负β能量-mu 
+the d x e- e conduction to the 1/2 and
+then e to the minus beta energy minus mu
+
+474
+00:44:14,289 --> 00:44:19,099
+所以这是我们在那里的1/2的e，我们必须进行积分
+so this is the e to the 1/2 that we have
+up there and we have to do this integral
+
+475
+00:44:19,099 --> 00:44:25,219
+而我们进行积分的方法是将e减去负数
+and the way we do this integral is by
+shifting out a factor of e to the minus
+
+476
+00:44:25,219 --> 00:44:33,650
+ βEC在前面减去mu，所以我们剩下EC的积分d能量
+beta EC minus mu out front so then we're
+left with an integral d energy from EC
+
+477
+00:44:33,650 --> 00:44:40,809
+到无穷大u减去EC到1/2，然后e到减去beta e减去EC 
+to infinity u minus EC to the 1/2 and
+then e to the minus beta e minus EC
+
+478
+00:44:40,809 --> 00:44:47,509
+很好，如果我们想要x等于E减去EC，那么我们可以写
+which is nice we can then write if we
+want well x equals E minus EC if we want
+
+479
+00:44:47,509 --> 00:44:55,759
+所以这成为DX的整数，从0到无穷大X到1/2 e到负数
+so this becomes integral of DX from 0 to
+infinity X to the 1/2 e to the minus
+
+480
+00:44:55,759 --> 00:45:02,569
+ beta X，那么我们可以通过定义y平方等于x来进行积分
+beta X then we can do that integral by
+defining y squared equals x this becomes
+
+481
+00:45:02,569 --> 00:45:07,489
+一个简单的高斯积分，我们得到β减去三分之二的平方
+a simple Gaussian integral and we get
+beta the minus three-halves times square
+
+482
+00:45:07,489 --> 00:45:15,940
+ pi的根超过2可以，所以我们将它们放在一起，最终得到
+root of pi over 2 okay so we put that
+all together and we end up getting the
+
+483
+00:45:15,940 --> 00:45:21,829
+然后，导带中电子的密度与T的关系为
+density of electrons in the conduction
+band as a function of T is then putting
+
+484
+00:45:21,829 --> 00:45:32,539
+所有这些因素加起来，是PI H bar上电子星KBT质量的1/4 
+together all those factors 1/4 to mass
+of the electron star KBT over PI H bar
+
+485
+00:45:32,539 --> 00:45:40,400
+等于三分之二的e到负β能量的导带
+squared to the three-halves e to the
+minus beta energy the conduction band of
+
+486
+00:45:40,400 --> 00:45:45,799
+减去亩，这就是我们的表达式，我们现在知道其中有多少个电子
+minus mu so this is our expression we
+now know how many electrons there are in
+
+487
+00:45:45,799 --> 00:45:49,549
+导带是温度的函数，是MU的函数
+the conduction band is a function of
+temperature and is a function of MU the
+
+488
+00:45:49,549 --> 00:45:52,819
+重要的是要带走一些前提因素，不是
+important thing to take away there's
+some pre factors here which aren't that
+
+489
+00:45:52,819 --> 00:46:01,369
+至关重要的是这里要带走的重要东西基本上是被激活的
+crucial the important thing here to take
+away is is basically activated that you
+
+490
+00:46:01,369 --> 00:46:05,210
+必须激活从化学势到传导的能量
+have to activate the energy up from the
+chemical potential into the conduction
+
+491
+00:46:05,210 --> 00:46:08,749
+带，以便当您使电子下降时将电子带入导带
+band in order to get an electron into
+the conduction band as you drop the
+
+492
+00:46:08,749 --> 00:46:12,079
+温度导带中的电子数将下降
+temperature the number of electrons in
+the conduction band is going to drop
+
+493
+00:46:12,079 --> 00:46:17,269
+到目前为止，一切都很好，现在我们必须做同样的事情
+exponentially okay all right so far so
+good now we have to do the same thing
+
+494
+00:46:17,269 --> 00:46:20,090
+对于漏洞，我认为我们仍然可以及时做到
+for holes I think we can still do this
+in time
+
+495
+00:46:20,090 --> 00:46:25,880
+价带中的孔数好吧，让我们写下来
+the number of holes in the valence band
+well okay let's write that that's going
+
+496
+00:46:25,880 --> 00:46:31,280
+从负无穷大到价带D能量的顶部积分
+to be integral from minus infinity to
+the top of the valence band D energy the
+
+497
+00:46:31,280 --> 00:46:37,400
+在价带中的状态密度，然后我写1减去费米
+density of states in the valence band
+and then I'll write 1 minus the Fermi
+
+498
+00:46:37,400 --> 00:46:43,370
+价带βepsilon减去nu减去我的因子-为什么这么好
+factor in the valence band beta epsilon
+minus nu minus me--it why is that well
+
+499
+00:46:43,370 --> 00:46:47,930
+如果电子为状态的概率为费米函数，则
+if the probability of an electron being
+a state is the Fermi function then the
+
+500
+00:46:47,930 --> 00:46:51,680
+空穴为无电子状态的概率为1减去
+probability of a hole being the state
+the absence of electron is 1 minus the
+
+501
+00:46:51,680 --> 00:46:58,910
+ Fermi的功能还不错，所以在这里我们基本上要考虑这个因素
+Fermi function good all right so this
+factor here we're going to basically go
+
+502
+00:46:58,910 --> 00:47:04,730
+通过相同的操作，所以这可以写成1减去1等于e 
+through the same manipulation so this is
+we can write this as a 1 minus 1 over e
+
+503
+00:47:04,730 --> 00:47:11,030
+到beta epsilon的是mu加1会消失哦我的空间不足
+to the beta epsilon is mu plus 1 that
+becomes out oh I'm running out of space
+
+504
+00:47:11,030 --> 00:47:15,860
+我不是很好吗，这东西变成这个
+aren't I
+all right well this thing becomes this
+
+505
+00:47:15,860 --> 00:47:25,130
+整个事情在这里变成1比1加e到负beta e减去mu 
+whole thing here becomes 1 over 1 plus e
+to the minus beta e minus mu that maybe
+
+506
+00:47:25,130 --> 00:47:29,780
+采取了两个步骤，但是您可以代数检查这是正确的
+took two steps but but you can check
+algebraically that's true and again
+
+507
+00:47:29,780 --> 00:47:35,450
+我们将假设类似于我有更多空间的东西
+we're going to assume something
+analogous to what do I have more space
+
+508
+00:47:35,450 --> 00:47:41,030
+某个地方可能没有，也许我不是，所以我们要假设一些事情
+somewhere no all right maybe I don't so
+we're going to assume something
+
+509
+00:47:41,030 --> 00:47:47,480
+类似于我们对电子的假设，将假设化学物质
+analogous to what we assumed for the
+electrons will assume that the chemical
+
+510
+00:47:47,480 --> 00:47:55,490
+电位不太接近太接近太近意味着内部
+potential is not too close too close too
+close meaning within the within the
+
+511
+00:47:55,490 --> 00:47:59,990
+在价带顶部的KBT范围内的温度
+temperature within a range of KBT of the
+top of the valence band
+
+512
+00:47:59,990 --> 00:48:08,080
+ evie在这种情况下，可以将此事物近似为整个事物
+evie in which case this thing can be
+approximated as this whole thing here
+
+513
+00:48:08,080 --> 00:48:13,100
+可以近似等于βepsilon的玻尔兹曼因子e 
+can be approximately equal to the
+Boltzmann factor e to the beta epsilon
+
+514
+00:48:13,100 --> 00:48:21,560
+减去亩少于1好吧，所以还是差不多
+minus mu of much less than 1 okay so
+it's again more or less the same the
+
+515
+00:48:21,560 --> 00:48:24,740
+同样的故事，但在这里您必须意识到能量更少
+same story but here
+you have to realize that energy is less
+
+516
+00:48:24,740 --> 00:48:29,690
+比起您，您正在整个激活价带向下
+than you and you're activating a whole
+downwards into the valence band rather
+
+517
+00:48:29,690 --> 00:48:32,900
+而不是电子进入导带
+than a electron up into the conduction
+band
+
+518
+00:48:32,900 --> 00:48:39,950
+因此插入价带状态密度的表达式
+so plugging in the expression for the
+density of states of the valence band
+
+519
+00:48:39,950 --> 00:48:47,180
+我们得到了一个三分之二的pi平方H形立方体的星洞
+we get to I'm a star hole to the
+three-halves to pi squared H bar cubed
+
+520
+00:48:47,180 --> 00:48:51,799
+积分D能量减去无穷大至可见性
+integral D energy minus infinity to
+evince
+
+521
+00:48:51,799 --> 00:49:01,609
+ e价减去e的1/2 e减去mu并完全相同
+e valence minus e the 1/2 e to the beta
+epsilon minus mu and exactly the same
+
+522
+00:49:01,609 --> 00:49:09,529
+我认为在各个地方可能都带有几个减号的操纵
+manipulations with maybe a couple minus
+signs put in in various places I think
+
+523
+00:49:09,529 --> 00:49:12,529
+你应该做功课，所以也许我不会经历，而且我
+you're supposed to do it for homework so
+maybe I won't go through it and also I'm
+
+524
+00:49:12,529 --> 00:49:16,430
+真的提前了，所以整个事情在一天结束时变得非常
+really ahead of time so this whole thing
+becomes at the end of the day a very
+
+525
+00:49:16,430 --> 00:49:27,650
+与上面发现的类似表达是PI上1/4-M星整个KBT 
+analogous expression to what we found
+above is 1/4 - M star whole KBT over PI
+
+526
+00:49:27,650 --> 00:49:36,670
+ H bar减去负数mu的均方根为e的三分之二。 
+H bar squared all to three-halves e to
+the minus beta mu minus e valence and
+
+527
+00:49:36,670 --> 00:49:42,529
+同样，您在这里有一些前置因素，但重要的是
+again it's the same story you have some
+pre factors here but the important part
+
+528
+00:49:42,529 --> 00:49:48,170
+是您必须激活从化学势到
+is that you have to activate a hole down
+from the chemical potential into the
+
+529
+00:49:48,170 --> 00:49:52,670
+价带，因为它需要能量才能将一个孔推入价
+valence band because it takes energy to
+push on a hole down into the valence
+
+530
+00:49:52,670 --> 00:49:56,539
+带孔要尽可能多地上升，所以如果我们知道化学物质
+band the holes want to go up as much as
+possible so if we knew the chemical
+
+531
+00:49:56,539 --> 00:50:01,039
+势，我们知道温度，我们可以算出密度
+potential and we knew the temperature we
+could figure out the density of
+
+532
+00:50:01,039 --> 00:50:05,390
+导带中的电子和价带中的空穴密度
+electrons in the conduction band and the
+density of holes in the valence band but
+
+533
+00:50:05,390 --> 00:50:11,059
+现在有一个诀窍，诀窍是看T的n乘以P的乘积
+now there's a trick and the trick is to
+look at the product of n of T times P of
+
+534
+00:50:11,059 --> 00:50:22,039
+这样做，我们得到了很多因素，因此比PI H高出1/2 KB 
+T let's do that we get a bunch of
+factors so 1/2 out front KB T over PI H
+
+535
+00:50:22,039 --> 00:50:29,450
+正方形的立方，然后有一个质量为整个恒星的电子恒星- 
+bar squared cubed then there's a mass of
+an electron star mass of whole star -
+
+536
+00:50:29,450 --> 00:50:33,380
+三分之二，然后看一下指数因子，您会发现
+three-halves and then if you look at the
+exponential factors you'll notice that
+
+537
+00:50:33,380 --> 00:50:37,400
+负beta Muse的指数因子e和正beta mu的指数因子
+the exponential factors e to the minus
+beta Muse and the e to the plus beta mu
+
+538
+00:50:37,400 --> 00:50:42,160
+将取消，因此剩下的唯一东西是e到负beta e 
+will cancel so the only thing that's
+left over is e to the minus beta e
+
+539
+00:50:42,160 --> 00:50:48,620
+传导-有效eeeek诱导-e价是egapp，所以
+conduction - avail
+eeeek induction - e valence is egapp so
+
+540
+00:50:48,620 --> 00:50:52,610
+如果您知道间隙能量并且知道温度，那么您将知道
+if you know the gap energy and you know
+the temperature you know the product of
+
+541
+00:50:52,610 --> 00:50:56,840
+导带中的电子数和空穴数
+the number of electrons in the
+conduction band and the number of holes
+
+542
+00:50:56,840 --> 00:51:05,330
+在价带中，这条法则非常重要，被称为上帝
+in the valence band and this this law
+very important law is known as God is
+
+543
+00:51:05,330 --> 00:51:15,050
+如果您与化学家交谈，则被称为质量作用定律。 
+known as the law of mass action law of
+mass action if you talk to chemists they
+
+544
+00:51:15,050 --> 00:51:18,800
+知道这是他们的集体行动法则，因此命名法
+know this they have a law of mass action
+and the nomenclature comes from this
+
+545
+00:51:18,800 --> 00:51:23,180
+从化学上来说，实际上我可能不会讲究为什么它被称为相同
+from chemistry actually I won't maybe go
+through why it is it's called the same
+
+546
+00:51:23,180 --> 00:51:26,870
+是化学中的质量作用定律，但这里很重要
+thing as the law of mass action in
+chemistry but the important thing here
+
+547
+00:51:26,870 --> 00:51:30,830
+要意识到的是，该产品与化学势无关
+to realize is that the product is
+independent of the chemical potential
+
+548
+00:51:30,830 --> 00:51:36,200
+这意味着它与我们掺杂系统的方式无关，所以让我们
+and that means it's independent of how
+we've doped the system so let's a couple
+
+549
+00:51:36,200 --> 00:51:40,610
+如果我们有一个内在的话，还有更多的事情哦
+more things if we have an intrinsic Oh
+did I use that word I never use that
+
+550
+00:51:40,610 --> 00:51:50,120
+这样的本征之前的单词表示没有掺杂，所以如果我有本征半导体
+word before so intrinsic means undoped
+so if I have an intrinsic semiconductor
+
+551
+00:51:50,120 --> 00:51:55,190
+我应该在上一堂课中用那个词来表示内在的
+I should have probably used that that
+word in last lecture for an intrinsic
+
+552
+00:51:55,190 --> 00:51:58,970
+半导体导带中电子的密度等于
+semiconductor the density of electrons
+in the conduction band equals the
+
+553
+00:51:58,970 --> 00:52:02,480
+价带中空穴的密度，因为每次带电子时
+density of holes in the valence band
+because each time you take an electron
+
+554
+00:52:02,480 --> 00:52:06,140
+在价带之外，将其放在导带中，创建一个孔
+out of the valence band you put it up in
+the conduction band you created one hole
+
+555
+00:52:06,140 --> 00:52:10,190
+并创造了一个电子，在这种情况下，您只需取
+and created one electron in which case
+you can just take the square root of the
+
+556
+00:52:10,190 --> 00:52:15,170
+的质量定律，你可以知道在任何温度下N和P分别是多少
+law of mass action and you can tell what
+N and P are at any temperature so you're
+
+557
+00:52:15,170 --> 00:52:24,350
+那里很好，但是对于掺杂的掺杂系统，则更复杂，然后我们添加
+good there but for a doped system doped
+then it's more complicated then we add
+
+558
+00:52:24,350 --> 00:52:33,350
+掺杂物，我们在导带中的电子数为负
+dopants and we have the number of
+electrons in the conduction band minus
+
+559
+00:52:33,350 --> 00:52:38,380
+价带中的空穴数等于施主杂质的数目
+the number of holes in the valence band
+equals the number of donor impurities
+
+560
+00:52:38,380 --> 00:52:47,380
+杂质减去受体杂质数量
+impurities minus the number of acceptor
+impurities
+
+561
+00:52:50,530 --> 00:52:55,400
+因为基本上每次您添加施主杂质时，您都会向其中添加一个电子
+because basically each time you add a
+donor impurity you add one electron into
+
+562
+00:52:55,400 --> 00:53:00,890
+导带不每次都在价带上加一个孔
+the conduction band without adding a
+hole into the valence band on each time
+
+563
+00:53:00,890 --> 00:53:03,740
+您添加一个受体，在价带中添加一个孔，而不添加一个
+you add an acceptor you add a hole into
+the valence band without adding an
+
+564
+00:53:03,740 --> 00:53:13,040
+电子进入导带，只要T是
+electron into the conduction band and
+this is true as long as as long as T is
+
+565
+00:53:13,040 --> 00:53:20,660
+大于T冻结，其中导带中的电子
+greater than T freeze-out where the
+electrons in the conduction band gets
+
+566
+00:53:20,660 --> 00:53:26,060
+绑定到他们的供体上，价带中的空洞被绑定到
+get bound to their donors and the holes
+in the in the valence band get bound to
+
+567
+00:53:26,060 --> 00:53:32,180
+他们的受体，所以这里要意识到的关键是N的乘积
+their acceptors so the key thing to
+realize here is that the product of N
+
+568
+00:53:32,180 --> 00:53:36,770
+并且P是固定的，与掺杂无关，n NP的差异取决于
+and P is fixed independent of the doping
+the difference of n NP depends on the
+
+569
+00:53:36,770 --> 00:53:43,099
+掺杂意味着在添加电子时会添加施主杂质
+doping this means that as you add
+electrons as you add donor impurities
+
+570
+00:53:43,099 --> 00:53:48,619
+化学势上升，所以您获得更多的电子和更少的空穴，但是
+the chemical potential goes up so you
+get more electrons and fewer holes but
+
+571
+00:53:48,619 --> 00:53:51,980
+电子数乘无数的乘积保持不变
+the product of the number of electrons
+numberless holes stays fixed as you add
+
+572
+00:53:51,980 --> 00:53:56,630
+更多的受体化学势下降，您得到的空洞比
+more acceptors the chemical potential
+goes down you get more holes than
+
+573
+00:53:56,630 --> 00:53:59,540
+电子，但两者的乘积保持固定，也许我什至会写
+electrons but the product of the two
+stays fixed maybe I'll even write that
+
+574
+00:53:59,540 --> 00:54:11,150
+在叫停之前，先增加捐助者，然后亩增加亩。 
+before calling it quits
+adding donors mu goes up mu goes up
+
+575
+00:54:11,150 --> 00:54:21,589
+我们添加了接受器，接受器的mu下降了，但是由于质量定律
+we're adding acceptors acceptors mu goes
+down but because of the law of mass
+
+576
+00:54:21,589 --> 00:54:26,630
+行动这两个的乘积总是会保持固定，所以
+action the product of those two is
+always going to stay fixed all right so
+
+577
+00:54:26,630 --> 00:54:29,599
+下次我们会去讨论一些真正的半导体
+next time we'll pick up and actually
+talk about some real semiconductor
+
+578
+00:54:29,599 --> 00:54:33,770
+设备和改变世界的设备，例如晶体管，我会看到
+devices and the devices that change the
+world like the transistor and I'll see
+
+579
+00:54:33,770 --> 00:54:37,190
+你我认为星期三是星期三我认为是星期三好
+you I think Wednesday is Wednesday
+I think it's Wednesday okay have a good
+
+580
+00:54:37,190 --> 00:54:41,130
+周末你
+weekend
+you
+

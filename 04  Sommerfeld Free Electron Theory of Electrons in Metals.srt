@@ -1,0 +1,3338 @@
+1
+00:00:00,000 --> 00:00:03,899
+好吧，这是第四次讲座，孩子们当然要离开我们了
+all right this is a fourth lecture the
+kids matter of course where we left off
+
+2
+00:00:03,899 --> 00:00:07,379
+上一次我们谈论自由电子
+last time
+we were talking about the free electron
+
+3
+00:00:07,379 --> 00:00:23,359
+或金属自由电子的Sommerfeld理论金属和
+or the Sommerfeld theory of metals free
+electron Sommerfeld theory of metals and
+
+4
+00:00:24,289 --> 00:00:29,970
+ Sommerfeld在做什么，他或多或少地遵循了金属设计
+what Sommerfeld was doing he's more or
+less following drew design that a metal
+
+5
+00:00:29,970 --> 00:00:34,440
+只是电子的气体，他试图应用动力学理论
+is just a gas of electrons and he was
+trying to apply kinetic theory the only
+
+6
+00:00:34,440 --> 00:00:37,860
+他做的不同的事情是他尊重费米的统计数据
+thing he was doing differently is he was
+respecting Fermi statistics he was
+
+7
+00:00:37,860 --> 00:00:43,010
+跟踪您不能将两个电子放在一起的事实，我可以这样说： 
+keeping track of the fact that you can't
+put two electrons in one I can state and
+
+8
+00:00:43,010 --> 00:00:49,200
+在上一堂课中，我们得出了费米波矢与密度相关的信息。 
+last lecture we derived that the Fermi
+wave vector is related to the density of
+
+9
+00:00:49,200 --> 00:00:54,239
+电子由三个PI平方n到三分之一，其中n是电子
+electrons by three PI squared n to the
+one third where n is the electron
+
+10
+00:00:54,239 --> 00:01:03,629
+密度，不幸的是，在上一讲中，我错误地犯了一个错误
+density and unfortunately in the last
+lecture I made an error I mistakenly
+
+11
+00:01:03,629 --> 00:01:09,869
+称此为费米动量实际上是费米波矢
+call this thing the fermi momentum it's
+actually the Fermi wave vector and I
+
+12
+00:01:09,869 --> 00:01:16,500
+甚至将其错误地写在板上h-bar乘以波矢KF为
+even wrote it on the board incorrectly
+h-bar times the wave vector K F is the
+
+13
+00:01:16,500 --> 00:01:22,820
+费米的势头对此感到抱歉
+fermi momentum sorry about that
+
+14
+00:01:24,570 --> 00:01:30,390
+从费米波矢量中，我们可以用通常的方法EF获得费米能量
+from the Fermi wave vector we can get
+the Fermi energy in the usual way EF is
+
+15
+00:01:30,390 --> 00:01:35,729
+ H bar平方KF平方超过2m，我们可以用以下表达式代替
+H bar squared K F squared over 2m which
+we can substitute in our expression for
+
+16
+00:01:35,729 --> 00:01:44,700
+自由波矢量H bar平方2m 3 PI平方n等于2/3这是
+the free wave vector H bar squared over
+2m 3 PI squared n to the 2/3 this is a
+
+17
+00:01:44,700 --> 00:01:49,470
+非常重要的关系，我们将再次使用，但重要的是
+rather important relationship that we'll
+use again but what's important to
+
+18
+00:01:49,470 --> 00:01:52,799
+意识到这里的电子密度越大，电子越大
+realize here is the bigger the density
+of electrons you have the bigger the
+
+19
+00:01:52,799 --> 00:01:57,270
+费米能，在像铁或铅这样的典型金属中，电子的密度为
+fermi energy and in a typical metal like
+iron or lead the density of electrons is
+
+20
+00:01:57,270 --> 00:02:00,930
+每个原子真的有几个电子，而你有很多原子
+really big a couple of electrons per
+atom and you have a whole lot of atoms
+
+21
+00:02:00,930 --> 00:02:04,320
+原子和原子每两埃的极高密度，所以费米
+the very high density of atoms and atom
+every couple angstroms so the fermi
+
+22
+00:02:04,320 --> 00:02:08,520
+能量变得巨大，达到80,000开尔文甚至更高
+energy gets to be enormous on the order
+of 80,000 Kelvin or even bigger
+
+23
+00:02:08,520 --> 00:02:13,360
+有时在本讲课中，我们现在打算瞄准
+sometimes now in in this lecture what
+we're going to aim to
+
+24
+00:02:13,360 --> 00:02:21,040
+是我们之前讨论的热容量，从实验中我们
+is something that we discussed earlier
+the heat capacity and from experiment we
+
+25
+00:02:21,040 --> 00:02:25,030
+知道低温下金属的热容量采用这种形式的t立方
+know the heat capacity for metals at low
+temperature takes this form of t cubed
+
+26
+00:02:25,030 --> 00:02:31,900
+加号T，这个T立方项来自振动或德拜理论，我们
+plus plus T where this T cubed term
+comes from vibrations or Debye theory we
+
+27
+00:02:31,900 --> 00:02:37,240
+已经讨论过，这个伽马T术语对金属来说是特殊的，实际上是
+discussed that already and this gamma T
+term is special to metals and in fact is
+
+28
+00:02:37,240 --> 00:02:41,950
+电子的热容量，所以我们要使用的是伽马T项
+the heat capacity of the electrons so
+it's this gamma T term that we're going
+
+29
+00:02:41,950 --> 00:02:46,870
+要对今天感兴趣，在我们实际执行此操作之前，我们需要做一些操作
+to be interested in today now before we
+actually do this we need to do a little
+
+30
+00:02:46,870 --> 00:02:53,740
+特别是一些预备代数，我们将需要一些
+bit of preparatory algebra in particular
+we're going to need to take some over
+
+31
+00:02:53,740 --> 00:03:00,100
+并将其置于比本征态更可行的形式
+eigenstates and put it into a more
+workable form than the eigenstates in
+
+32
+00:03:00,100 --> 00:03:04,630
+这种情况将是e，你知道平面波e到IK点R和
+this case are going to be e to the you
+know plane waves e to the I K dot R and
+
+33
+00:03:04,630 --> 00:03:07,780
+再一次，因为我们将其写为指数式就是我们隐式的
+again since we're writing this as
+exponential is what we're implicitly
+
+34
+00:03:07,780 --> 00:03:11,620
+我们要做的是将事物放置在Borna von Karman边界框内
+doing is we're putting the thing in a
+periodic box Borna von Karman boundary
+
+35
+00:03:11,620 --> 00:03:15,280
+条件在所有方向上都是周期性的，因此我们可以处理指数平面波
+conditions periodic in all directions so
+we can work with exponential plane waves
+
+36
+00:03:15,280 --> 00:03:20,260
+而不是正弦和余弦，我们想要做的是
+instead of sines and cosines what we'd
+like to do is we'd like to take this sum
+
+37
+00:03:20,260 --> 00:03:26,340
+超过本征态，我们想将其转换成能量的积分
+over eigenstates and we would like to
+convert it into an integral over energy
+
+38
+00:03:26,340 --> 00:03:32,650
+能量g，其中g现在是状态密度，这与我们非常相似
+g of energy where g is now a density of
+states this is very similar to what we
+
+39
+00:03:32,650 --> 00:03:37,900
+从理论上讲，当我们做了两个时，我们会做些什么？ 
+did when we did two by theory how are we
+going to do something slightly different
+
+40
+00:03:37,900 --> 00:03:44,080
+在这里稍有不同，我们将从
+here slightly different we're going to
+remove a factor of the volume from the
+
+41
+00:03:44,080 --> 00:03:49,920
+状态密度，所以现在是每单位体积的状态密度，我们这样做
+density of states so this is now density
+of states per unit volume and we do this
+
+42
+00:03:49,920 --> 00:03:54,700
+因为这样做很传统，而且这样做很方便，如果您
+because it's conventional to do so and
+it's convenient to do so and if you
+
+43
+00:03:54,700 --> 00:03:58,600
+在传统和方便来自同一个词之前没有注意到它
+didn't notice it before conventional and
+convenient come from the same word so
+
+44
+00:03:58,600 --> 00:04:02,290
+这就是所有这些事情，恰好这样做很方便，所以我们
+it's it's both of those things it just
+happens to be handy to do so so we're
+
+45
+00:04:02,290 --> 00:04:07,620
+要去做，然后写出这种状态密度的定义是
+going to do it and then write the
+definition of this density of states is
+
+46
+00:04:07,620 --> 00:04:17,220
+ ede的G是州的数目
+that G of e d e is the number of states
+
+47
+00:04:19,000 --> 00:04:38,500
+在这种情况下，每单位体积的能量在ε和
+per unit volume in this case volume with
+energies energies between epsilon and
+
+48
+00:04:38,500 --> 00:04:44,270
+ epsilon plus D Epsilon非常类似于我们为Debye所拥有的
+epsilon plus D Epsilon
+very similar to what we had for Debye
+
+49
+00:04:44,270 --> 00:04:50,830
+我们以前在思考每个频率的密度状态之前的理论
+theory before when we were thinking
+about density States per frequency now
+
+50
+00:04:50,830 --> 00:04:54,710
+总体思路还是要对所有本征态求和
+the general idea again is we're going to
+take the sum over all the eigenstates
+
+51
+00:04:54,710 --> 00:04:58,940
+我们实际上将把各个本征态的总和转换为
+and we're actually going to convert that
+sum over individual eigenstates to an
+
+52
+00:04:58,940 --> 00:05:03,440
+能量的积分乘以每个能量的状态数
+integral over energies times the number
+of states at each energy just a
+
+53
+00:05:03,440 --> 00:05:06,890
+不同的写作方式可以让您的生活更轻松，好吗
+different way of writing it that makes
+your life a lot easier all right so what
+
+54
+00:05:06,890 --> 00:05:11,000
+我们要在这里做的事情是从总和算起第一件事
+are we going to do here to get from the
+sum into the integral well first thing
+
+55
+00:05:11,000 --> 00:05:16,550
+我们要对本征态做一些运算，实际上是对K求和，但实际上
+we're going to do some over eigenstates
+is really a sum over K but it actually
+
+56
+00:05:16,550 --> 00:05:24,200
+前面有2倍的因子，因为每个K自旋电子有两个自旋
+has a factor of 2 out front because
+there are two spins per K spins electron
+
+57
+00:05:24,200 --> 00:05:28,760
+可以用相同的波矢旋转或旋转
+can be spin up or it can be spin down
+with the same wave vector then we're
+
+58
+00:05:28,760 --> 00:05:31,880
+进行与理论上相同的操作，从而使
+going to do the same manipulation we did
+with the by theory leave the factor of
+
+59
+00:05:31,880 --> 00:05:38,060
+前面两个，我们将用2上的整数D 3k替换K上的和
+two out front we're going to replace the
+sum over K with an integral D 3k over 2
+
+60
+00:05:38,060 --> 00:05:42,350
+ PI立方体，这是将总和转换为积分的方式，我们将得出
+PI cubed this is the way sums get
+converted into integrals and we'll make
+
+61
+00:05:42,350 --> 00:05:46,130
+今年替换很多次，K的总和变成了体积乘以
+that replacement many times this year a
+sum over K becomes a volume times
+
+62
+00:05:46,130 --> 00:05:53,030
+积分D 3k超过2 PI立方，然后由于我们正在考虑各向同性
+integral D 3k over 2 PI cubed and then
+since we're thinking about an isotropic
+
+63
+00:05:53,030 --> 00:05:57,770
+系统可以在三个笛卡尔方向和两个笛卡尔方向上转换积分
+system we can convert the integral over
+three Cartesian directions and two
+
+64
+00:05:57,770 --> 00:06:03,470
+球形极坐标，所以我们要V超过2 PI立方，然后有一个
+spherical polar coordinates so we've to
+V over 2 PI cubed and then we have an
+
+65
+00:06:03,470 --> 00:06:14,660
+整数0到无穷大4 PI K平方DK，其中4 PI K平方是通常的4 
+integral 0 to infinity 4 PI K squared DK
+where the 4 PI K squared is the usual 4
+
+66
+00:06:14,660 --> 00:06:18,220
+ pi是球面上的方向，所以它是通常的球面极性
+pi is the directions on the sphere so
+it's the usual spherical polar
+
+67
+00:06:18,220 --> 00:06:23,360
+坐标，这是一个很好的结果，但实际上我们很想写
+coordinates and this is a pretty good
+result but really we'd like to write
+
+68
+00:06:23,360 --> 00:06:30,289
+这是根据能量而不是波矢，因此我们将使用epsilon 
+this in terms of energies not in terms
+of wave vectors so we'll use epsilon is
+
+69
+00:06:30,289 --> 00:06:38,689
+ H bar平方K平方超过2m，否则我可以写成K平方
+H bar squared K squared over 2m or I
+guess we could write that as K is square
+
+70
+00:06:38,689 --> 00:06:43,909
+ H bar的2m根乘以ε到一半，尤其是
+root of 2m over H bar times epsilon to
+the one half and in particular that
+
+71
+00:06:43,909 --> 00:06:49,430
+会给我们DK同样的事实，是相同因子平方的1/2倍
+would give us DK is the same fact well
+it's 1/2 times the same factor square
+
+72
+00:06:49,430 --> 00:06:56,899
+ H bar上2m的根乘以epsilon到负1/2 D Epsilon，然后如果我们插入
+root of 2m over H bar times epsilon to
+the minus 1/2 D Epsilon then if we plug
+
+73
+00:06:56,899 --> 00:07:06,529
+这些东西放到这里，然后我们得到的就可以了，所以我们现在有两个音量
+these things into here what we then get
+is ok so we now have two volume I'll
+
+74
+00:07:06,529 --> 00:07:12,499
+拉出4pi，我们在楼下有2个PI立方体，然后有一个
+pull out the 4pi and we have the 2 PI
+cubed downstairs then we have an
+
+75
+00:07:12,499 --> 00:07:19,430
+将0积分到无穷大D Epsilon，然后将这些因子放入K中
+integral 0 to infinity D Epsilon and
+then putting in those factors for the K
+
+76
+00:07:19,430 --> 00:07:24,740
+平方DK我们得到1/2，其中三个因子2m平方根2m 
+squared DK we get 1/2 there's three of
+these factors 2m square root of 2m over
+
+77
+00:07:24,740 --> 00:07:33,559
+将H条切成立方体，然后将其ε化为1/2，这看起来几乎就像我们想要的
+H bar cubed and then epsilon to the 1/2
+so this looks almost like what we want
+
+78
+00:07:33,559 --> 00:07:40,309
+它几乎是e的G的整数，所以我们确定好吧，所以我只是
+it's almost the integral of G of e de so
+we then identify well ok so I'll just
+
+79
+00:07:40,309 --> 00:07:47,870
+再次写出来，所以这个东西对于e de的无穷大G是整数0 
+write it out again so this thing is
+integral 0 to infinity G of e de where
+
+80
+00:07:47,870 --> 00:08:00,699
+我们已经定义了e的G到D的M到H bar立方时间的三分之二
+we've defined G of e to then D to M to
+the three-halves over H bar cubed times
+
+81
+00:08:00,699 --> 00:08:08,269
+ 2 pi平方中的1乘以epsilon至1/2，因此密度保持与
+1 over 2 pi squared times epsilon to the
+1/2 so density stays proportional to
+
+82
+00:08:08,269 --> 00:08:13,129
+ epsilon到1/2，这是一个很好的答案，但实际上
+epsilon to the 1/2 and this is a
+perfectly good answer but it's actually
+
+83
+00:08:13,129 --> 00:08:20,449
+方便，因此通常可以在H bar上转换2 m的因数
+convenient and therefore conventional to
+to convert this factor of 2 m over H bar
+
+84
+00:08:20,449 --> 00:08:24,529
+切成看起来更好的东西，而我们的方法是使用
+cubed into something that looks a little
+nicer and the way we do that is by using
+
+85
+00:08:24,529 --> 00:08:29,930
+这个方程在这里，那方程确保如果我把它写在这里
+this equation here that equation there
+make sure maybe write it over here if I
+
+86
+00:08:29,930 --> 00:08:35,750
+将该等式带到三等分的幂中，我得到EF的三等分
+take that equation to the three halves
+power I get EF to the three halves
+
+87
+00:08:35,750 --> 00:08:45,570
+等于H bar超过2m的立方，等于三分之二乘以3 PI平方
+equals H bar cubed over 2m
+to the three-halves times 3 PI squared
+
+88
+00:08:45,570 --> 00:08:48,990
+我做对了吗我想我做对了
+and did I do that right I think I do
+that right
+
+89
+00:08:48,990 --> 00:08:53,310
+好的，然后您会注意到我可以解决这个问题
+ok and then you'll notice that I can
+turn this around
+
+90
+00:08:53,310 --> 00:09:00,090
+或将其倒置至M到三分之三的h bar的立方，则为3 
+or make it upside down to M to the
+three-halves over h bar cubed is then 3
+
+91
+00:09:00,090 --> 00:09:08,090
+ pi在EF上将n平方为三分之二，这里的系数就是这里的系数
+pi squared n over EF to the three-halves
+and this factor here is this factor here
+
+92
+00:09:08,090 --> 00:09:19,650
+所以插入，我们得到e的e的G就是我知道的3 PI平方密度
+so plugging that in we get G of e of e
+is then what 3 PI squared density I know
+
+93
+00:09:19,650 --> 00:09:24,740
+这是很多代数，这是重要的代数日，因为这是星期一
+this is a lot of algebra it's a big
+algebra day because it's a monday
+
+94
+00:09:24,740 --> 00:09:33,750
+将三分之二的π平方乘以1到二分之一，然后取消一些
+three-halves 1 over 2 pi squared epsilon
+to the one-half and then canceling a few
+
+95
+00:09:33,750 --> 00:09:41,180
+我们得到最终结果的结果g epsilon的密度是EF的三分之二
+things we get our final result g of
+epsilon is three-halves density over EF
+
+96
+00:09:41,180 --> 00:09:49,770
+倍于EF的能量达到一半，没有犯任何错误，看起来
+times energy over EF to the one-half
+didn't make any mistakes does that look
+
+97
+00:09:49,770 --> 00:09:56,160
+正确的任何对象看起来都很好，这将是相当公平的
+right anyone object look good all right
+this is going to be something fairly
+
+98
+00:09:56,160 --> 00:10:01,560
+有用的，尤其是查看状态的密度是有用的
+useful and in particular it's useful to
+look at the density of states at the
+
+99
+00:10:01,560 --> 00:10:07,950
+费米能量仅是EF的三分之二
+Fermi energy which is just three-halves
+density over EF which i think is
+
+100
+00:10:07,950 --> 00:10:10,680
+您被要求从他们的家庭作业中得到的东西以及第一个
+something that you're asked to derive in
+their homework as well the first
+
+101
+00:10:10,680 --> 00:10:15,720
+作业，我会给你一个快速提示，我认为这是一种更简单的方法
+homework set and I'll give you a quick
+hint that I think there's a easier way
+
+102
+00:10:15,720 --> 00:10:19,860
+比我刚刚做的要去那儿，但你知道如果你不明白
+to get there than what I just did but
+you know if you can't figure it out you
+
+103
+00:10:19,860 --> 00:10:23,850
+可以跟随这个，但是有一种更便宜的方法，但是这个是
+can just follow this but there's there's
+a cheaper way but this one's this is
+
+104
+00:10:23,850 --> 00:10:28,140
+您知道的越多，路线越直接，另一种方式是
+sort of the more you know it's the more
+direct route the other way is sort of
+
+105
+00:10:28,140 --> 00:10:33,839
+无论如何，运动鞋看看现在您是否能以任何速度解决问题， 
+sneakier anyway see if you can figure it
+out ok at any rate now we're going to
+
+106
+00:10:33,839 --> 00:10:38,190
+尝试使用这个结果找出我们知道状态的密度
+try to use this result figure out we
+know the density of states here density
+
+107
+00:10:38,190 --> 00:10:41,220
+说单位体积，我们将尝试使用它来计算热量
+say for unit volume we're going to try
+to use this to figure out the heat
+
+108
+00:10:41,220 --> 00:10:48,450
+电子在低温下的容量现在总是超过
+capacity of the of the electrons at low
+temperature now there's always more than
+
+109
+00:10:48,450 --> 00:10:53,610
+一种做某事的方法，有正确的方法，有作弊的方法
+one way to do something there's the
+right way and there's the cheating way
+
+110
+00:10:53,610 --> 00:10:56,940
+我要做的是我实际上
+and
+what I'm going to do is I'm actually
+
+111
+00:10:56,940 --> 00:11:01,500
+将解释如何正确地做，然后我们将作弊， 
+going to explain how the right way is
+done and then we're going to cheat and
+
+112
+00:11:01,500 --> 00:11:05,340
+我们之所以作弊是因为正确的方法是代数
+the reason we're gonna cheat is because
+the right way is algebraically really
+
+113
+00:11:05,340 --> 00:11:10,410
+太可怕了，仅仅通过做代数我们很难获得任何直觉
+horrible and it's really hard to get any
+intuition just by doing algebra we just
+
+114
+00:11:10,410 --> 00:11:14,010
+做了足够的代数，我保证你用正确的方法做三遍
+did enough algebra and I promise you
+doing it the right ways is three times
+
+115
+00:11:14,010 --> 00:11:19,530
+更重要的是，实际的计算是，我真的
+more so furthermore the actual
+calculation is so I was really
+
+116
+00:11:19,530 --> 00:11:23,340
+很复杂，您在牛津大学的任何考试中都不会被问到，那就是我
+complicated that you'll never be asked
+it on any exam at Oxford and that is I
+
+117
+00:11:23,340 --> 00:11:29,370
+意思是我不能100％保证它，但我可以99％保证它是这样
+mean I can't 100% guarantee it but I can
+99% guarantee it so so in that so
+
+118
+00:11:29,370 --> 00:11:31,860
+因此，我们将采取欺骗手段，使您
+because of that we're gonna just do it
+the cheating way which gives you the
+
+119
+00:11:31,860 --> 00:11:35,970
+对正在发生的事情的直觉，避免了很多代数，但这是值得知道的
+intuition for what's going on and avoids
+a lot of algebra but it's worth knowing
+
+120
+00:11:35,970 --> 00:11:40,260
+至少如果你真的想诚实的话你会怎么做，如果你
+at least how you would go about it if
+you really want to be honest so if you
+
+121
+00:11:40,260 --> 00:11:44,460
+老实说你首先要做的是写一个方程式
+really want to be honest what you would
+do first is you would write an equation
+
+122
+00:11:44,460 --> 00:11:48,360
+系统中的电子数，我们之前写了这个方程
+for the number of electrons in the
+system and we wrote this equation before
+
+123
+00:11:48,360 --> 00:11:52,920
+上次是所有本征态的总和
+last time it's the sum over all
+eigenstates of the probability that each
+
+124
+00:11:52,920 --> 00:11:55,740
+本征态被填充，本征态的概率为
+eigenstate is filled and that
+probability of an eigenstate being
+
+125
+00:11:55,740 --> 00:12:02,730
+填充的是β的费米函数，是时间的逆温度乘以能量
+filled is the Fermi function of beta the
+time inverse temperature times energy of
+
+126
+00:12:02,730 --> 00:12:06,680
+本征态减去mu的化学势
+the eigenstate minus mu the chemical
+potential and being that we just derived
+
+127
+00:12:06,680 --> 00:12:12,990
+状态密度我们可以将其重写为体积乘积
+the density of states we can rewrite
+that as an integral while volume times
+
+128
+00:12:12,990 --> 00:12:18,710
+每单位体积乘以状态密度从0到无穷大的整数
+the integral from 0 to infinity of the
+density of states per unit volume times
+
+129
+00:12:18,710 --> 00:12:26,190
+ Fermi函数，所以它与ε表达式完全相同
+a Fermi function so it's exactly the
+same the same expression the epsilon
+
+130
+00:12:26,190 --> 00:12:30,360
+完全相同的表达式，除了在本征态上写和
+exactly the same expression except
+instead of writing sum over eigenstates
+
+131
+00:12:30,360 --> 00:12:35,370
+您在所有能量上积分每种能量的状态数和
+you integrate over all energies the
+number of states at each energy and of
+
+132
+00:12:35,370 --> 00:12:38,220
+当然，您总是在整合状态被填充的概率为
+course you're always integrating the
+probability that a state is filled is
+
+133
+00:12:38,220 --> 00:12:45,930
+每个人都很好，是的，是的，现在很好，您可以想到的这个方程式
+everyone good with this yes yeah ok good
+now this equation here you can think of
+
+134
+00:12:45,930 --> 00:12:49,380
+它以两种不同的方式之一是您是否可以修复化学势， 
+it in two different ways one way is if
+you could fix the chemical potential and
+
+135
+00:12:49,380 --> 00:12:53,310
+你知道温度会告诉你你有多少电子，但是更多
+you knew the temperature it would tell
+you how many electrons you have but more
+
+136
+00:12:53,310 --> 00:12:57,120
+通常它会绕着相反方向知道电子数
+often than not it goes the other way
+around you know the number of electrons
+
+137
+00:12:57,120 --> 00:12:59,790
+您在系统中拥有的，因为您知道您拥有多少原子或其他什么东西
+you have in your system because you know
+how many atoms you have or something
+
+138
+00:12:59,790 --> 00:13:03,360
+这样，您就知道了温度，它使您能够找出
+like that and you know the temperature
+and it enables you to figure out the
+
+139
+00:13:03,360 --> 00:13:08,580
+化学势，所以有点像你知道逆关系
+chemical potential so it's sort of a you
+know an inverse relationship you know
+
+140
+00:13:08,580 --> 00:13:10,630
+这个你知道这个，所以你可以找出
+this
+you know this and so you can figure out
+
+141
+00:13:10,630 --> 00:13:14,529
+原则上来说，这样做虽然在代数上很麻烦，但是
+this in principle although it's
+algebraically messy to do so but in
+
+142
+00:13:14,529 --> 00:13:17,440
+原则上，您可以算出化学势
+principle it would allow you to figure
+out the chemical potential given that
+
+143
+00:13:17,440 --> 00:13:20,710
+你知道粒子的数量，知道温度后， 
+you know the number of particles and you
+know the temperature once you have the
+
+144
+00:13:20,710 --> 00:13:25,200
+化学势，您可以为系统中的能量写一个表达式
+chemical potential you could write an
+expression for the energy in the system
+
+145
+00:13:25,200 --> 00:13:31,060
+再次积分所有状态的积分，但现在您积分了能量
+integral again integrating over all
+states but now you integrate the energy
+
+146
+00:13:31,060 --> 00:13:39,430
+乘以一个状态被填充的概率
+times the probability that a state is
+filled okay
+
+147
+00:13:39,430 --> 00:13:42,850
+因此，您不仅要对粒子进行计数，还要对粒子次数进行计数
+so instead of just counting the
+particles you count the particles times
+
+148
+00:13:42,850 --> 00:13:46,360
+它们的能量来获取系统中的总能量，以便您找到化学物质
+their energy to get the total energy in
+the system so you find the chemical
+
+149
+00:13:46,360 --> 00:13:49,900
+势首先，您一旦知道化学势便找到能量
+potential first you then find the energy
+once you know the chemical potential
+
+150
+00:13:49,900 --> 00:13:53,350
+因此，您将知道能量是温度的函数，您可以
+then therefore you would know the energy
+as a function of temperature you can
+
+151
+00:13:53,350 --> 00:13:56,589
+因此从这种原理上区分得到热容量
+differentiate that to get the heat
+capacity so in principle from this kind
+
+152
+00:13:56,589 --> 00:14:03,100
+从理论上讲，如果您可以进行这些积分，就可以获得热容量
+of argument you could get the heat
+capacity if you could do these integrals
+
+153
+00:14:03,100 --> 00:14:06,460
+问题是这些积分是否真的很讨厌，这就是为什么我们不
+the problem is if these integrals are
+really nasty and that's why we're not
+
+154
+00:14:06,460 --> 00:14:10,810
+将以这种方式进行，相反，我们将做出一些假设
+going to do it this way instead we're
+going to make some assumptions which
+
+155
+00:14:10,810 --> 00:14:15,070
+不太正确，但先看看假设是什么，让我先画一个
+aren't quite right but to see what the
+assumptions are let me first draw a
+
+156
+00:14:15,070 --> 00:14:23,140
+再次这是我们上次绘制的F 0的费米函数
+diagram this is the Fermi function again
+which we drew last time an F 0
+
+157
+00:14:23,140 --> 00:14:30,850
+温度和F从1到右边，这里F 1到0，所以这是T 
+temperature and F goes from 1 to right
+here the F 1 to 0 so this is this is T
+
+158
+00:14:30,850 --> 00:14:35,830
+等于0，然后有限e Fermi函数会像
+equals 0 and then a finite e the Fermi
+function smears out a little bit like
+
+159
+00:14:35,830 --> 00:14:41,860
+这是T大于0好吧，这一切看起来都很熟悉，我希望好
+this is T greater than 0
+ok this all looks familiar I hope ok
+
+160
+00:14:41,860 --> 00:14:45,130
+顺便说一句，我相信这个完整的计算，我认为您实际上已经做到了
+incidentally I believe this full
+calculation I think you actually did it
+
+161
+00:14:45,130 --> 00:14:49,360
+去年在您的统计机修课程中，或者至少是讲师，您知道
+last year in your stat mech course or at
+least lecturer did it and you know you
+
+162
+00:14:49,360 --> 00:14:52,900
+可能记得那很可怕，很难记住
+probably remember that it was pretty
+awful and it's hard to actually remember
+
+163
+00:14:52,900 --> 00:14:56,020
+关于代数真的很糟糕的一切直觉
+anything about the intuition of what's
+going on if the algebra is really awful
+
+164
+00:14:56,020 --> 00:14:59,230
+因此，我们将尝试以Chiti方式进行操作，从而为您提供
+so we're going to try to do this in the
+Chiti way that is going to give you the
+
+165
+00:14:59,230 --> 00:15:03,459
+直觉好多了，所以我们要假设的一件事是
+intuition a lot better so the one thing
+we're going to assume which isn't quite
+
+166
+00:15:03,459 --> 00:15:06,790
+是的，但是非常接近的是，化学势不会
+right but it's pretty close to right is
+that the chemical potential doesn't
+
+167
+00:15:06,790 --> 00:15:09,700
+实际上是随温度变化的，现在它确实改变了
+actually change as a function of
+temperature now it does change the
+
+168
+00:15:09,700 --> 00:15:12,970
+由于这个快速方程，温度的函数，但它只会改变
+function of temperature because of this
+quick equation but it only changes a
+
+169
+00:15:12,970 --> 00:15:16,630
+有点为什么，如果看一看费米，它只会改变得很好
+little bit why is it it only changes a
+little bit well if you look at the Fermi
+
+170
+00:15:16,630 --> 00:15:21,550
+您可以想象这里的功能随着温度的升高而发生了什么
+function here you can imagine as you
+raise the temperature what's happening
+
+171
+00:15:21,550 --> 00:15:25,089
+这是我们现在填补的一些州
+here is some of
+the states here that we're filled now
+
+172
+00:15:25,089 --> 00:15:28,809
+移到这里，所以这里有些电子被清空了
+move to here so some there were some
+electrons here they empty out and they
+
+173
+00:15:28,809 --> 00:15:33,309
+现在将这些州填满吧
+fill these states up here okay now if
+the number of states that empty out and
+
+174
+00:15:33,309 --> 00:15:36,549
+这个数字说它充满了彼此的化学势
+the number says it fills are equal to
+each other the chemical potential
+
+175
+00:15:36,549 --> 00:15:40,749
+完全不需要移动，您可以保持化学物质不变
+doesn't have to move at all you would
+keep in constant keeping the chemical
+
+176
+00:15:40,749 --> 00:15:44,470
+实际上，您必须调整化学势a 
+potential constant now in truth you have
+to adjust the chemical potential a
+
+177
+00:15:44,470 --> 00:15:47,739
+一点点随温度变化的函数，以保持粒子总数
+little bit as a function of temperature
+to keep the total number of particles
+
+178
+00:15:47,739 --> 00:15:51,759
+固定，但基本上不必调整很多化学势
+fixed but you don't have to adjust it a
+lot basically the chemical potential
+
+179
+00:15:51,759 --> 00:15:56,290
+保持几乎完全相同，所以我们要做出这个假设
+stays almost exactly the same so we're
+going to make this assumption where do I
+
+180
+00:15:56,290 --> 00:16:07,839
+写出来，也许这里假设mu的深度与T无关
+write it maybe here
+assume mu is in depth independent of T
+
+181
+00:16:07,839 --> 00:16:14,879
+这不是很正确，但是一旦我们有了一个近似值，还算不错
+it's not quite right but it's not too
+bad an approximation once we have that
+
+182
+00:16:14,879 --> 00:16:19,839
+好吧，一旦有了，我们可以在这里取这个方程，然后说
+well actually once we had that we could
+take this equation here and then say
+
+183
+00:16:19,839 --> 00:16:23,589
+好吧，让我们插入固定的mu作为温度的函数，然后我们
+okay let's plug in mu fixed as a
+function of temperature and then we
+
+184
+00:16:23,589 --> 00:16:27,639
+假设mu是固定的，则可以计算能量随温度的变化
+could calculate the energy as a function
+of temperature here assuming mu is fixed
+
+185
+00:16:27,639 --> 00:16:31,360
+区分它并获得热容量，但即使那样太复杂
+differentiate it and get the heat
+capacity but even that's too complicated
+
+186
+00:16:31,360 --> 00:16:34,689
+因为这个积分真的很讨厌，所以我们甚至都不会这样做
+because this integral is just really
+nasty so we're not even going to do that
+
+187
+00:16:34,689 --> 00:16:38,769
+我们将做一些更简单的事情，所以我们要做的是
+we're going to do something even simpler
+so what we're going to do is we're going
+
+188
+00:16:38,769 --> 00:16:45,309
+写某个温度T处的能量等于T处的能量等于零
+to write the energy at some temperature
+T is the energy at T equals zero plus
+
+189
+00:16:45,309 --> 00:16:52,169
+两个非常近似的事物近似事物之一是电子数量
+two very approximate things approximate
+thing one is number of electrons that
+
+190
+00:16:52,169 --> 00:17:07,199
+会变得兴奋，会变得兴奋，而事物2是x的能量
+can get excited that can get get excited
+and thing 2 is x amount of energy of
+
+191
+00:17:07,199 --> 00:17:19,480
+能量各自吸收，所以您可以想象从零温度开始，然后
+energy each absorbs so you imagine
+starting at zero temperature and then
+
+192
+00:17:19,480 --> 00:17:23,019
+你打开温度，然后一些电子会被激发
+you turn on the temperature and then the
+some number of electrons can get excited
+
+193
+00:17:23,019 --> 00:17:27,099
+每个人吸收的能量总量，一些能量和
+each one absorbs a total amount of
+energy some amount of energy and the
+
+194
+00:17:27,099 --> 00:17:30,490
+这两个的乘积大致为您提供了您已经拥有的总能量
+product of these two roughly gives you
+the total amount of energy that you've
+
+195
+00:17:30,490 --> 00:17:36,160
+通过合理的声音来增加您的系统是的，是的，这是否合理
+increased your system by sound
+reasonable yeah yes yes is it reasonable
+
+196
+00:17:36,160 --> 00:17:42,549
+大概是对的，你知道这大概是对的。 
+it's roughly true you know it's roughly
+right okay bear with me okay so now we
+
+197
+00:17:42,549 --> 00:17:49,210
+我们要做的就是找出这两个因素是什么
+all we have to do is we have to figure
+out what are these two factors so the
+
+198
+00:17:49,210 --> 00:17:52,059
+可以激发的电子数，所以这是
+number of electrons that can get excited
+so this is this is sort of the
+
+199
+00:17:52,059 --> 00:17:56,730
+有趣的是，被激发的电子数量大致
+interesting piece here the number of
+electrons that are excited is roughly
+
+200
+00:17:56,730 --> 00:18:08,740
+在EF y的KBT内的电子数，因此必须在这个范围内
+number of electrons within within KBT of
+EF y so you have to be so this range
+
+201
+00:18:08,740 --> 00:18:16,960
+这是关于KBT的信息，您必须在EF的范围内才能获得
+here is about KBT and you have to be
+within this range of EF in order to get
+
+202
+00:18:16,960 --> 00:18:21,669
+兴奋，因为如果您在这里更远的地方，您将不会兴奋
+excited because if you're farther down
+here somewhere you can't get excited
+
+203
+00:18:21,669 --> 00:18:24,850
+很难兴奋到正确的地步，所以那是你无法得到的
+hard to get excited right so it's you
+can't get it that was supposed to be
+
+204
+00:18:24,850 --> 00:18:31,179
+有趣的是，您的电子处于这种状态，我根本无法兴奋，因为
+funny you an electron in the state down
+here I can't get excited at all because
+
+205
+00:18:31,179 --> 00:18:35,110
+充满兴奋的所有状态，所以无法移动，它只是卡住了
+all the states it would get excited into
+re filled so can't move it's just stuck
+
+206
+00:18:35,110 --> 00:18:37,809
+在那种状态下，除非你把
+in that state and it's going to be
+frozen there unless you turn the
+
+207
+00:18:37,809 --> 00:18:43,480
+你知道温度很高，所以它可能一路跳到这里好，所以
+temperature you know huge so it could
+jump all the way up to here okay so it's
+
+208
+00:18:43,480 --> 00:18:48,900
+ EF的KBT内的电子数量以及它的数量
+the number of electrons within KBT of EF
+and how many is that well it's basically
+
+209
+00:18:48,900 --> 00:18:55,780
+费米能量乘以单位体积的状态密度乘以体积
+the density of states per unit volume at
+the Fermi energy times the volume so
+
+210
+00:18:55,780 --> 00:18:59,919
+这样就可以得到费米每单位能量的状态总数
+this gives you the total number of
+states per unit energy at the Fermi
+
+211
+00:18:59,919 --> 00:19:06,490
+表面乘以KB T，因此我们在此采用每单位体积的状态数
+surface times KB T so we're taking the
+number of states per unit volume at this
+
+212
+00:19:06,490 --> 00:19:09,909
+能量，我们将其乘以该范围即可得出
+energy and we're multiplying it by this
+range to give you the total number of
+
+213
+00:19:09,909 --> 00:19:16,450
+ EF的KBT中的状态让我考虑该因子，然后将其乘以
+states within KBT of EF let me take that
+factor and we multiply it by the amount
+
+214
+00:19:16,450 --> 00:19:23,520
+每个电子吸收的能量大约为KBT 
+of energy each electron absorbs which
+has got to be roughly KBT
+
+215
+00:19:24,380 --> 00:19:30,420
+ Gabey G乘以KB T，所以费米的KBT内从这里下来的一些电子
+Gabey G times KB T here so some electron
+from down here within KBT of the Fermi
+
+216
+00:19:30,420 --> 00:19:37,110
+通过吸收大约KBT的能量，表面激发到了这里
+surface got excited up to here by
+absorbing about KBT of energy and then
+
+217
+00:19:37,110 --> 00:19:41,700
+你知道要尝试对我们
+you know to be to try to be a little bit
+more honest about the fact that we're
+
+218
+00:19:41,700 --> 00:19:48,540
+作弊完全作弊在这里，我要添加一个软糖因素，所以
+cheating completely cheating here well
+I'm going to add a fudge factor so e
+
+219
+00:19:48,540 --> 00:19:56,100
+ t处的e等于0加上我们刚刚得出的因子
+total is e at t equals zero plus those
+factors they are which we just derived
+
+220
+00:19:56,100 --> 00:20:04,650
+就是G @ EF乘以KB T的平方
+so to be G @ EF times KB T squared and
+then the fudge factor is we'll call
+
+221
+00:20:04,650 --> 00:20:11,370
+伽玛twiddle超过2和伽玛twiddle只是我们承认内
+gamma twiddle over 2 and gamma twiddle
+is just our admission of guilt that we
+
+222
+00:20:11,370 --> 00:20:16,800
+并没有进行真正的真实计算，我们知道我们将得到答案
+didn't do a real real calculation we and
+we know we're going to get the answer
+
+223
+00:20:16,800 --> 00:20:20,790
+由于阶数为1的某种因素而引起的错误，所以您可能知道伽玛旋转-它
+wrong by some factor of order 1
+so gamma twiddle could be you know - it
+
+224
+00:20:20,790 --> 00:20:24,870
+可能是1/2，可能是馅饼，可能是2 pi，但不会是100 
+could be 1/2 it could be pie it could be
+2 pi but it's not going to be a hundred
+
+225
+00:20:24,870 --> 00:20:28,380
+不会是一千，不会是0.01，所以这是一些
+it's not gonna be a thousand it's not
+going to be 0.01 okay so it's some
+
+226
+00:20:28,380 --> 00:20:31,350
+一阶的数字，这是我们承认的内感，而我们没有
+number of order one which is our
+admission of guilt that we didn't
+
+227
+00:20:31,350 --> 00:20:37,290
+有了这个表达式，我们就可以真正进行真正的计算了
+actually do the real calculation okay
+once we have this expression we can of
+
+228
+00:20:37,290 --> 00:20:43,140
+当然要区分CV de DT，这就是为什么我将2的因数
+course differentiate it CV de DT which
+is this is why I put the factor of 2 in
+
+229
+00:20:43,140 --> 00:20:52,910
+因此，当您区分下一个聪明的KB，然后区分EF和G时，它就消失了
+so it goes away when you differentiate
+next clever the KB and then G at EF and
+
+230
+00:20:52,910 --> 00:20:59,460
+您剩下KBT，实际上我们已经在那派生了G @ EF，所以
+you're left with KBT and in fact we
+already derived G @ EF over there so
+
+231
+00:20:59,460 --> 00:21:03,900
+让我们将其插入三等分和EF，我们还将使用
+let's plug it in three halves and over
+EF and we're also going to use maybe
+
+232
+00:21:03,900 --> 00:21:08,490
+我在这里将其作为一种方便的常规
+I'll put it here
+a convenient conventional that the
+
+233
+00:21:08,490 --> 00:21:14,070
+密度乘以体积就是粒子数，所以当我乘以
+density times the volume is the number
+of particles so when I multiply this
+
+234
+00:21:14,070 --> 00:21:21,420
+很好地在这里写下来，所以我在这里乘以三半并超过EF 
+factor by well write it out here so I
+multiplied three halves and over EF here
+
+235
+00:21:21,420 --> 00:21:29,460
+用V表示V和较小的端点给您较大的端点，我们将让这个伽玛旋转
+by V the V and the small end give you a
+big end and we'll get this gamma twiddle
+
+236
+00:21:29,460 --> 00:21:43,159
+因数乘以三倍大n KB乘以EF的KB T好吧，这就是我们的
+factor times three halves big n
+KB times KB T over EF okay so that's our
+
+237
+00:21:43,159 --> 00:21:49,220
+最终结果，实际上如果您真的进行了计算，您会
+final result and actually if you did the
+calculation really honestly you would
+
+238
+00:21:49,220 --> 00:21:56,539
+发现伽玛旋转是PI乘以3的平方，我确定你是
+discover that gamma twiddle is is PI
+squared over three and I'm sure you're
+
+239
+00:21:56,539 --> 00:22:00,759
+不会为知道这一点而负责，只是为了您知道我们
+not going to be held responsible for
+knowing that but just for you know our
+
+240
+00:22:00,759 --> 00:22:04,610
+如果您是普通的教育者，那么数字实际上就是
+general edification that's what the
+number actually happens to be if you
+
+241
+00:22:04,610 --> 00:22:07,700
+真的很想看看如何进行此计算您可以返回统计信息
+really want to see how to do this
+calculation you can go back to your stat
+
+242
+00:22:07,700 --> 00:22:11,749
+去年的机械笔记，或者您可以知道吗？ 
+mech notes from last year or you can you
+know this it's in a lot of a lot of
+
+243
+00:22:11,749 --> 00:22:14,749
+书本等等，当人们说你知道书本很多时，你知道我讨厌它
+books and so forth you know I hate it
+when people say you know it's in a lot
+
+244
+00:22:14,749 --> 00:22:17,720
+书，但请相信我，您知道如果
+of books but trust me you know the
+algebra doesn't really teach you much if
+
+245
+00:22:17,720 --> 00:22:21,350
+你真的知道，你想知道它是如何完成的吗
+you really you know want to see how it's
+done you can you can work through it
+
+246
+00:22:21,350 --> 00:22:26,029
+ Sommerfeld确实通过了这项工作，他得到了正确的答案，但我们没有去
+Sommerfeld did work through it he got
+the right answer but we were not going
+
+247
+00:22:26,029 --> 00:22:28,789
+反正你对此负有责任
+to be you know held responsible for it
+anyway
+
+248
+00:22:28,789 --> 00:22:32,809
+关于此结果的几个重要事项首先是线性关系
+a couple of important things about this
+result first of all it's linear in
+
+249
+00:22:32,809 --> 00:22:36,470
+温度及其温度呈线性的原因基本上来自
+temperature and the reason it's linear
+in temperature comes fundamentally from
+
+250
+00:22:36,470 --> 00:22:41,059
+只有费米表面附近的电子才能吸收能量的事实
+the fact that only electrons near the
+Fermi surface can absorb energy okay
+
+251
+00:22:41,059 --> 00:22:45,919
+当温度降至零时，可以激发的电子范围接近
+when temperature goes to zero the range
+of electrons that can get excited near
+
+252
+00:22:45,919 --> 00:22:49,549
+费米表面降到零，而您的热容量完全消失了
+the Fermi surface drops to zero and you
+lose your heat capacity altogether okay
+
+253
+00:22:49,549 --> 00:22:54,019
+所以实际上这是我们想要通过实验获得的热量
+so in fact this is what we wanted
+experimentally we wanted to get a heat
+
+254
+00:22:54,019 --> 00:22:57,169
+温度是线性的，这是第一件事
+capacity that is linear in temperature
+so that's the first good thing about
+
+255
+00:22:57,169 --> 00:23:00,440
+这个表达真的很好的另一件事是
+this another thing that's really nice
+about this expression is you'll
+
+256
+00:23:00,440 --> 00:23:05,830
+在这里认识到这件作品在这件作品中，它是古典作品
+recognize this piece here this piece
+here as the classical result classical
+
+257
+00:23:05,830 --> 00:23:11,869
+来自单原子气体的三分之二和kb听起来很熟悉，然后
+result from a monatomic gas three-halves
+and kb sounds familiar right and then
+
+258
+00:23:11,869 --> 00:23:18,190
+它乘以这个系数，因此KBT超过EF，这是很小的
+it's multiplied by this factor here KBT
+over EF which is what it's tiny it's
+
+259
+00:23:18,190 --> 00:23:24,200
+例如室温300开尔文超过80,000开尔文
+like room temperature 300 Kelvin over
+80,000 Kelvin tiny tiny tiny amount so
+
+260
+00:23:24,200 --> 00:23:27,470
+你只有一个事实，那就是只有几个电子
+you have only again coming from the fact
+that only a few electrons are
+
+261
+00:23:27,470 --> 00:23:33,980
+参与热容，所以索默费尔德的这一结果过去了，他
+participating in the heat capacity so
+this result in Sommerfeld went and he
+
+262
+00:23:33,980 --> 00:23:37,999
+说好的，这是我对费米气体的热容量的新预测
+said okay this is my new prediction for
+what the heat capacity of a Fermi gas
+
+263
+00:23:37,999 --> 00:23:43,309
+应该是，所以让我们将其与实验进行比较好吧，让我们写
+should be and so let's compare it to
+experiment so well okay so let's write
+
+264
+00:23:43,309 --> 00:23:47,809
+当所有这些常量都被伽玛t吸收时， 
+it as gamma t all those constants get
+absorbed into the overall
+
+265
+00:23:47,809 --> 00:23:56,840
+伽玛，如果您想知道多少热量的真实理论，他会没事的
+gamma and he's going to okay if you if
+you want a real theory of how much heat
+
+266
+00:23:56,840 --> 00:24:00,259
+容量特定的金属应该具有您需要知道的密度
+capacity particular metal should have
+you need to know what the density of the
+
+267
+00:24:00,259 --> 00:24:03,919
+金属中的电子是，所以您可以计算EF，但他做了平常的事情
+electrons in the metal is so you can
+calculate EF but he did the usual thing
+
+268
+00:24:03,919 --> 00:24:08,210
+说好吧，让我们假设每个原子有一个电子
+and said okay let's assume one electron
+per atom the same way we've done before
+
+269
+00:24:08,210 --> 00:24:16,009
+如果这样做，则为实验划分出伽玛C伽玛
+and if you do that then you write out
+gamma C gamma for the experiment divided
+
+270
+00:24:16,009 --> 00:24:21,909
+根据理论中的伽马，并且假设每个原子有一个电子
+by gamma from the theory and with the
+Theory assuming one electron per atom
+
+271
+00:24:21,909 --> 00:24:34,549
+对于锂，我们得到2.3，对于钠，我们得到1.3钾1.2铜1.5，这是
+for lithium we get 2.3 for sodium we get
+1.3 potassium 1.2 copper 1.5 this is a
+
+272
+00:24:34,549 --> 00:24:38,059
+相当不错的协议，考虑到
+pretty good agreement it's extremely
+good agreement considering that the
+
+273
+00:24:38,059 --> 00:24:43,460
+古典理论犹大所做的三分之二的nkb结果太大了
+classical Theory what Judah had done the
+three-halves nkb result is too big by a
+
+274
+00:24:43,460 --> 00:24:47,629
+因数是100，突然之间我们得到了非常漂亮的结果
+factor of 100 and all of a sudden we're
+getting results which are really pretty
+
+275
+00:24:47,629 --> 00:24:50,749
+接近正确答案以及我们获得接近结果的原因
+close to the right answer and the reason
+we're getting results that are close to
+
+276
+00:24:50,749 --> 00:24:55,549
+正确的答案是因为现在更诚实地检索费米统计信息还可以
+the right answer is because retrieving
+Fermi statistics more honestly now okay
+
+277
+00:24:55,549 --> 00:24:58,489
+好吧，我们之前根本没有对待他们，现在索默菲尔德说你把它放进去
+well we didn't treat them at all before
+and now Sommerfeld said you put it in
+
+278
+00:24:58,489 --> 00:25:05,149
+费米统计，你现在就可以得到正确的热容量
+the Fermi statistics you get the heat
+capacity right okay now he went on and
+
+279
+00:25:05,149 --> 00:25:09,529
+说，事实上，有了对发生的事情的新发现
+said in fact with this newfound
+understanding of what's going on
+
+280
+00:25:09,529 --> 00:25:12,559
+你知道费米统计很重要，我们可以解决一些
+you know Fermi statistics being
+important we can fix some of the
+
+281
+00:25:12,559 --> 00:25:15,619
+犹大理论的问题，然后是你回想起犹大的事情之一
+problems with judah theory and then one
+of the things that you recall from judah
+
+282
+00:25:15,619 --> 00:25:22,669
+理论上回想犹大，我们计算出的东西之一，实际上使我们变得很漂亮
+theory recall judah one of the things we
+calculated which we actually got pretty
+
+283
+00:25:22,669 --> 00:25:32,419
+靠近右边的是导热系数
+close to right was the thermal
+conductivity thermal conduct the
+
+284
+00:25:32,419 --> 00:25:38,479
+导热系数密度/每cv热容量
+the thermal conductivity one third
+density cv heat capacity per per
+
+285
+00:25:38,479 --> 00:25:46,429
+电子然后是b平方乘以tau散射时间，并在此画出了de 
+electron then it was b squared times tau
+scattering time and drew de in this
+
+286
+00:25:46,429 --> 00:25:53,769
+犹大（Judah）曾经用过这些表情，这些表情我们不再喜欢
+expression judah used used these things
+that we don't like anymore the CV is
+
+287
+00:25:53,769 --> 00:25:59,570
+三分之二kb经典结果，他也将经典结果用于V 
+three-halves kb the classical result and
+he also used the classical result for V
+
+288
+00:25:59,570 --> 00:26:12,229
+在pi上平方8k BTW KBT，因此组合CV 
+squared 8k
+BTW KBT over pi m so the combination CV
+
+289
+00:26:12,229 --> 00:26:19,309
+ V平方乘以实际进入导热系数的乘积
+times V squared which actually enters in
+the thermal conductivity it has the
+
+290
+00:26:19,309 --> 00:26:30,169
+比琥珀色的pi k kb t值高12，现在好了，Sommerfeld说这两个
+value 12 over pi c kb t over amber right
+okay now Sommerfeld said both of those
+
+291
+00:26:30,169 --> 00:26:37,279
+结果是错误的，所以让我们使用正确的结果，这样他的结果就是简历
+results are wrong so let's use the right
+results so his result was CV is while he
+
+292
+00:26:37,279 --> 00:26:43,549
+ PI取3平方，然后将Kb减为经典结果的三等分，然后
+has the PI squared over 3 and then 3
+halves Kb the classical result and then
+
+293
+00:26:43,549 --> 00:26:56,119
+ KBF超过EF，然后他说ok和V平方不是由
+KBT over EF and then he said ok and V
+squared is not not given by the
+
+294
+00:26:56,119 --> 00:27:00,469
+经典动力学理论结果，但应由VF平方给出
+classical kinetic theory result but
+should instead be given by VF squared
+
+295
+00:27:00,469 --> 00:27:04,639
+费米速度平方，使事情变得简单一些，我们可以写
+the Fermi velocity squared and just make
+things a little bit simpler we can write
+
+296
+00:27:04,639 --> 00:27:10,940
+ EF是质量的1/2乘以VF的平方，那么我们得到了一些抵消
+EF as 1/2 mass times VF squared put
+those together we get some cancellation
+
+297
+00:27:10,940 --> 00:27:19,419
+再次，如果我们看cv乘以B平方，我们得到pi平方乘以kb t 
+again if we look at the factor cv times
+B squared we get pi squared times kb t
+
+298
+00:27:19,419 --> 00:27:27,289
+超过m，所以实际上我们发现与Juda的预测相距不远
+over m so in fact what we discover it's
+not too far from the juda prediction in
+
+299
+00:27:27,289 --> 00:27:39,369
+事实上Garuda Sommerfeld Sommerfeld是12块PI立方体之类的东西
+fact Garuda Sommerfeld Sommerfeld is is
+what it's 12 over PI cubed or something
+
+300
+00:27:39,369 --> 00:27:44,479
+大约是1/2，所以我得到正确的12个结果非常接近相同的结果
+about 1/2 so it gets pretty close to the
+same result did I get the right 12 are
+
+301
+00:27:44,479 --> 00:27:49,399
+ PI的立方体是的，我想是的，所以您很接近同一个人
+PI's cubed yeah I think so so it's
+pretty you get pretty close to the same
+
+302
+00:27:49,399 --> 00:27:53,389
+结果很好，因为我们喜欢导热系数的答案
+result which is good because we like the
+answer for the thermal conductivity that
+
+303
+00:27:53,389 --> 00:27:57,709
+我们进入了犹大理论，它满足了Vietminh Franz定律， 
+we got in judah theory it satisfied this
+Vietminh Franz law that was known to
+
+304
+00:27:57,709 --> 00:28:01,489
+实验性地存在，所以我们不想破坏它，而实际上Sommerfeld 
+exist experimentally and so we didn't
+want to ruin that and in fact Sommerfeld
+
+305
+00:28:01,489 --> 00:28:07,549
+理论不会毁了它两个错误热容量和速度抵消
+theory doesn't ruin it two mistakes the
+heat capacity and the velocity cancel
+
+306
+00:28:07,549 --> 00:28:10,399
+彼此很好，不是很好，但是很漂亮
+each other out
+exactly well not exactly but pretty
+
+307
+00:28:10,399 --> 00:28:15,050
+完全接近，但还有其他一些事情
+close to exactly but there were other
+things that
+
+308
+00:28:15,050 --> 00:28:20,650
+犹大犯了错，其中之一就是珀尔帖系数珀尔帖
+juda got completely wrong one of them
+was the Peltier coefficient Peltier
+
+309
+00:28:20,650 --> 00:28:26,840
+让我们看看什么完全是系数我想我想我已经离开了
+which let's see what was totally a
+coefficient I think I think I left it
+
+310
+00:28:26,840 --> 00:28:34,180
+是的，这是珀耳帖系数pi是CV乘以T 
+over here yeah okay it was a Peltier
+coefficient pi is a CV times T over
+
+311
+00:28:34,180 --> 00:28:40,460
+减去E的三倍，在朱迪思理论中得出的结果是一百倍
+three times minus E and in Judith theory
+this came out a hundred times too big
+
+312
+00:28:40,460 --> 00:28:44,330
+或多或少，但现在如果我们插入新的CV值，这是一百倍
+more or less but now if we plug in the
+new value of CV which is a hundred times
+
+313
+00:28:44,330 --> 00:28:48,500
+较小的我们突然间变得看起来不错，所以
+smaller we're all of a sudden getting
+things that start to look right okay so
+
+314
+00:28:48,500 --> 00:28:55,490
+这很好，所以Sommerfeld对这个结果非常满意，但是
+this is this is good so Sommerfeld was
+pretty happy with this result but
+
+315
+00:28:55,490 --> 00:29:01,330
+不幸的是，与我们所有人一样，他提出了一个新问题
+unfortunately as with all us with all
+things he introduced a new problem
+
+316
+00:29:01,570 --> 00:29:06,440
+新问题是什么好吧，让我们回过头来记住电导率
+what's the new problem well okay let's
+go back and remember the conductivity
+
+317
+00:29:06,440 --> 00:29:14,120
+在m上的平方tau表达式仍然与Sommerfeld中的结果相同
+expression n e squared tau over m that's
+still the same result in in Sommerfeld
+
+318
+00:29:14,120 --> 00:29:17,810
+理论给您相同的预测，最好是相同的预测，因为我们
+theory give you the same prediction it
+better be the same prediction because we
+
+319
+00:29:17,810 --> 00:29:23,090
+有比例的您知道我们想获得正确的散热比例
+have the ratio of you know we wanted to
+get the the right ratio of thermal
+
+320
+00:29:23,090 --> 00:29:27,800
+从电导率到电导率，我们没有改变热
+conductivity to electrical conductivity
+and we didn't change the thermal
+
+321
+00:29:27,800 --> 00:29:30,980
+电导率很大，所以最好不要改变电导率
+conductivity much so we better not
+change the electrical conductivity much
+
+322
+00:29:30,980 --> 00:29:35,090
+或多或少取决于您知道PI立方体的12倍
+either so more or less up to you know
+maybe a factor of 12 over PI cubed we
+
+323
+00:29:35,090 --> 00:29:38,690
+期望电导率应由以下表达式给出
+expect that the conductivity should be
+given by this expression
+
+324
+00:29:38,690 --> 00:29:43,640
+也许这个表达是一个值得坚持的表达，我们不知道
+probably this expression is a good one
+to stick with and we don't we don't know
+
+325
+00:29:43,640 --> 00:29:51,280
+ tau但我们可以测量Sigma来测量Sigma来获取tau 
+tau but we can measure Sigma measure
+this measure Sigma to get tau get this
+
+326
+00:29:51,280 --> 00:29:58,310
+得到tau然后从tau中我们可以计算出平均自由程lambda均值
+get tau and then from tau we can
+calculate the mean free path lambda mean
+
+327
+00:29:58,310 --> 00:30:07,370
+通过散射长度，该长度现在是Sommerfeld理论中的V乘以tau 
+pass scattering lengths which would be V
+times tau now in Sommerfeld theory we
+
+328
+00:30:07,370 --> 00:30:11,540
+可能用VF乘以tau代替它，因为电子是
+would probably replace this with VF
+times tau because the the electrons are
+
+329
+00:30:11,540 --> 00:30:16,670
+以接近VF的速度移动，问题在于VF接近VF 
+moving around at speeds close to VF and
+the problem is that VF is close to the
+
+330
+00:30:16,670 --> 00:30:20,060
+光速不是很接近，但是是光速的1％ 
+speed of light
+well not close to but it's 1% the speed
+
+331
+00:30:20,060 --> 00:30:24,380
+的光非常快，这意味着平均路径非常长，所以
+of light is extremely fast which means
+the mean path is extremely long so
+
+332
+00:30:24,380 --> 00:30:31,040
+ lambda太大了，房间有多大
+lambda is huge
+unreasonably big how big well at room
+
+333
+00:30:31,040 --> 00:30:40,040
+茶室lambda的茶室温度可以说是一百埃
+temperature at tea room at tea room room
+lambda can be say a hundred angstroms
+
+334
+00:30:40,040 --> 00:30:47,630
+听起来可能不大，但在低T时λ可能又是一毫米
+may not sound enormous but at low T
+lambda can be a millimeter and again
+
+335
+00:30:47,630 --> 00:30:51,290
+这对您来说听起来可能不算什么，但您必须考虑一下
+that may not sound huge to you but you
+have to think about how many things the
+
+336
+00:30:51,290 --> 00:30:56,750
+电子必须经过它才能很好地散射到每埃
+electron has to go past before it
+scatters well every angstrom there's
+
+337
+00:30:56,750 --> 00:30:59,720
+另一个原子或每两个埃是电子可以
+another atom or every two angstroms is
+another atom that the electron could
+
+338
+00:30:59,720 --> 00:31:03,380
+碰到了这里，它就走了一百个
+bump into so here it goes by a hundred
+of them here it goes by the million of
+
+339
+00:31:03,380 --> 00:31:07,640
+他们撞到东西之前，所以撞到什么东西可以
+them before it bumps into something so
+what can it have bumped into it could
+
+340
+00:31:07,640 --> 00:31:11,060
+撞到原子核，它可能撞到核心电子
+bumped into the nucleus it could have
+bumped into the core electrons it could
+
+341
+00:31:11,060 --> 00:31:14,000
+已经撞到自由电子气中的其他自由电子
+have bumped into the other free
+electrons in the free electron gas that
+
+342
+00:31:14,000 --> 00:31:17,870
+跑来跑去，由于某种原因，它并没有撞到任何一个
+are running around and for some reason
+it doesn't bump into any of them really
+
+343
+00:31:17,870 --> 00:31:22,070
+真的很奇怪，这是我们要回答的问题
+really strange and this is something
+that we're not going to answer until
+
+344
+00:31:22,070 --> 00:31:26,650
+在我们研究固体的能带理论之后， 
+much later in the term when we study
+band theory of solids so for now the
+
+345
+00:31:26,650 --> 00:31:30,950
+漫长的平均自由路径只是我们必须要解决的难题
+unreasonably long mean free path is just
+a puzzle that we're going to have to
+
+346
+00:31:30,950 --> 00:31:35,780
+处理，这使索默费尔德感到困扰，然后困扰了
+deal with so this was something that
+troubled Sommerfeld back then troubled a
+
+347
+00:31:35,780 --> 00:31:42,050
+当时有很多人，但是你知道索默菲尔德很勇敢，他决定
+lot of people back then but you know
+Sommerfeld was brave and he decided what
+
+348
+00:31:42,050 --> 00:31:45,500
+否则，您知道我们在了解热容量方面做得很好
+else you know we did pretty well over
+here understanding the heat capacity the
+
+349
+00:31:45,500 --> 00:31:50,420
+导热系数珀耳帖系数我们还能计算出什么
+thermal conductivity Peltier coefficient
+what else can we calculate that we might
+
+350
+00:31:50,420 --> 00:31:55,460
+能够正确无须担心这个特殊的小问题，因此
+be able to get right not worrying about
+this particular little problem and so
+
+351
+00:31:55,460 --> 00:31:59,750
+现在，我们将进行一些乱序绕行，并讨论
+now we're going to take a little bit of
+a out-of-order detour and discuss a
+
+352
+00:31:59,750 --> 00:32:04,130
+现在有点磁性，所以这周是今年的最后几次讲座
+little bit of magnetism now the last
+couple lectures of the year so week
+
+353
+00:32:04,130 --> 00:32:08,930
+七个完全与磁性有关，所以这有点混乱，但是我
+seven are entirely about magnetism so
+this is a little bit out of order but I
+
+354
+00:32:08,930 --> 00:32:13,580
+认为它很适合这里，因为它实际上基于完全相同的
+think it fits in here well because it
+really is based on exactly the same same
+
+355
+00:32:13,580 --> 00:32:18,680
+我们刚刚经历的业务以及特定类型的
+business that we just we just went
+through and the particular type of
+
+356
+00:32:18,680 --> 00:32:25,670
+我们将要研究的磁学是所谓的pauli副磁学
+magnetism we're going to study is what's
+known as pauli paramagnetism para
+
+357
+00:32:25,670 --> 00:32:37,390
+现在自由电子的自由电子的磁性Holly当然是你
+magnetism of free electrons of
+free electrons now Holly of course you
+
+358
+00:32:37,390 --> 00:32:41,710
+所有人都知道他是排斥原则的人，他也是骄傲的人
+all know him he was the exclusion
+principle guy he's also proud people
+
+359
+00:32:41,710 --> 00:32:45,370
+说他是有史以来最傲慢的人，你知道他曾经告诉过他
+said he was the most arrogant man who
+ever lived you know he used to tell his
+
+360
+00:32:45,370 --> 00:32:48,160
+学生，他们犯错是可以的
+students that it was okay for them to
+make a mistake
+
+361
+00:32:48,160 --> 00:32:50,920
+当然他从来没有犯错，但是对他的学生来说还可以
+of course he never made a mistake
+himself but it was okay for his students
+
+362
+00:32:50,920 --> 00:32:55,270
+犯了一个错误，所以他很典型，但是他是一个非常
+to make a mistake so he was sorted that
+was typical of him but he was a very
+
+363
+00:32:55,270 --> 00:33:00,190
+伟大的科学家，他实际上在Sommerfeld进行计算之前就进行了计算
+great scientist and he actually did this
+calculation before Sommerfeld did it did
+
+364
+00:33:00,190 --> 00:33:03,970
+他的工作如此之多，应该被称为多元论而不是索默菲尔德
+his work so a lot of this maybe should
+be called poly theory not Sommerfeld
+
+365
+00:33:03,970 --> 00:33:10,720
+无论如何，顺磁理论是什么，所以一个人做的就是应用一个
+theory at any rate paramagnetism what is
+that so what one does is one applies a
+
+366
+00:33:10,720 --> 00:33:14,980
+磁场进入系统，然后测量产生的磁化强度
+magnetic field to your system and you
+measure the magnetization that comes out
+
+367
+00:33:14,980 --> 00:33:20,200
+零零零碎的天空上的比例常数就是
+the proportionality constant it sky over
+mu naught mu naught here is just the
+
+368
+00:33:20,200 --> 00:33:24,070
+通常常数渗透率渗透率正确拼写
+usual constant the permeability
+permeability properly spelling this
+
+369
+00:33:24,070 --> 00:33:30,130
+错误的渗透性是正确的，无论如何都要正确地进行修正
+wrong permeability is that right make
+this right anyway that's a constant that
+
+370
+00:33:30,130 --> 00:33:34,750
+显示在您的数据表上，您知道一些基本常数， 
+shows up on your data sheet you know
+some fundamental constants this Chi here
+
+371
+00:33:34,750 --> 00:33:42,220
+易感性被称为可接受性易感性
+is the susceptibility is known as
+acceptability susceptibility so this
+
+372
+00:33:42,220 --> 00:33:50,440
+方程定义了Chi顺磁功率磁势意味着Chi更大
+equation defines Chi paramagnetism
+power magnetism means Chi is greater
+
+373
+00:33:50,440 --> 00:33:54,970
+大于零，换句话说，您向物理系统施加了磁场
+than zero so in other words you apply a
+magnetic field to the physical system
+
+374
+00:33:54,970 --> 00:33:59,650
+它会在与磁场相同的方向上产生磁化
+and it develops a magnetization in the
+same direction as the field that you
+
+375
+00:33:59,650 --> 00:34:04,050
+应用，所以我们要如何解决这个问题，首先要做的是
+applied so how are we going to address
+this well first thing we have to do is
+
+376
+00:34:04,050 --> 00:34:10,030
+我们必须为电子写一个哈密顿量，好吧，P平方超过2m 
+we have to write a Hamiltonian for our
+electrons all right P squared over 2m
+
+377
+00:34:10,030 --> 00:34:17,440
+通常的动力学术语加上电子自旋与磁场的耦合
+the usual kinetic term plus a coupling
+of the electron spins to a magnetic
+
+378
+00:34:17,440 --> 00:34:23,320
+场您可能在上学期的原子物理学课程中看到了这一点，因此Sigma 
+field you may have seen this in the
+atomic physics course last term so Sigma
+
+379
+00:34:23,320 --> 00:34:30,639
+这是Poway自旋算子可能是自旋跳算子
+here is the Poway spin operators
+probably spin hop operators and it has
+
+380
+00:34:30,639 --> 00:34:38,019
+重要的是它的特征值是正负1/2 B是磁场mu 
+
+381
+00:34:38,020 --> 00:34:49,010
+这是玻尔磁子玻尔磁子的基本常数是eh bar超过2 M 
+here is the Bohr Magneton Bohr Magneton
+fundamental constant is eh bar over 2 M
+
+382
+00:34:49,010 --> 00:34:54,770
+从数字上讲，记住该数字在某处很有用
+and numerically it's useful to keep in
+mind that that number is somewhere
+
+383
+00:34:54,770 --> 00:35:05,330
+大约每G特斯拉的每G特斯拉的能量G是G因子，对于
+around a Tesla per Kelvin per Tesla of
+energy G here is the G factor and for
+
+384
+00:35:05,330 --> 00:35:09,890
+电子G因子通常是自由电子，您在太空中处于G之外
+electrons the G factor is typically well
+free electron you are out in space the G
+
+385
+00:35:09,890 --> 00:35:13,610
+因数是2，所以我们只使用2，这将阻止我们
+factor is 2 so we're just going to use 2
+and that's going to prevent us from
+
+386
+00:35:13,610 --> 00:35:17,270
+不得不写g和g旋转而感到困惑，因为我们已经在使用g 
+having to write g and g twiddle and get
+confused because we're already using g
+
+387
+00:35:17,270 --> 00:35:21,950
+用于状态密度，因为它是常规的，因此方便
+for density of states because it's
+conventional therefore convenient ok
+
+388
+00:35:21,950 --> 00:35:29,060
+无论如何，如果您在此时，您可能想知道您是否服用了
+anyway and if you're at this point you
+might be wondering if you took the
+
+389
+00:35:29,060 --> 00:35:35,630
+相对论课程上学期我为什么写P平方超过200万
+relativity course last term why is it
+that I wrote P squared over 2m if we
+
+390
+00:35:35,630 --> 00:35:39,980
+在您可能期望有磁场的地方，应该
+have magnetic fields where you might
+have expected that instead you should
+
+391
+00:35:39,980 --> 00:35:47,000
+ P加EA平方超过2m，其中a是矢量势
+have P plus EA squared over 2m where a
+is the vector potential does this look
+
+392
+00:35:47,000 --> 00:35:52,970
+是的，很熟悉，所以在动能中出现的EA 
+familiar from yeah ok so the EA that
+shows up in the kinetic energy this is
+
+393
+00:35:52,970 --> 00:35:56,750
+如果将电子排除在外，会使电子弯曲的那一部分
+the piece that makes the electrons
+curved if you leave it out the electrons
+
+394
+00:35:56,750 --> 00:36:01,220
+不要弯腰好吧，我们将其遗漏的原因是我们将其遗漏的原因是
+don't curve ok we're going to leave it
+out the reason we're leaving it out is
+
+395
+00:36:01,220 --> 00:36:06,500
+首先是双重的，因为很难治疗它实际上是一个相当
+well twofold first of all because it's
+hard to treat it's actually a rather
+
+396
+00:36:06,500 --> 00:36:12,350
+复杂的计算来处理多少电子弯曲以及
+complicated calculation to deal with how
+much the electrons curved and what that
+
+397
+00:36:12,350 --> 00:36:16,520
+确实对磁化强度有影响，但是将其省略的更好原因是因为
+does to the magnetization but the better
+reason to leave it out is because the
+
+398
+00:36:16,520 --> 00:36:21,380
+此EA术语的影响实际上小于
+influence of this term this EA term is
+actually less than the influence of the
+
+399
+00:36:21,380 --> 00:36:24,860
+与自旋耦合与自旋耦合实际上比
+coupling to the spin the coupling to the
+spin is actually more important than the
+
+400
+00:36:24,860 --> 00:36:29,030
+耦合到电子的实际物理运动，所以我们将要处理
+coupling to the actual physical motion
+of the electron so we're going to treat
+
+401
+00:36:29,030 --> 00:36:33,110
+这个学期，如果您真的想知道
+this term we're going to throw out this
+term ok if you really want to know the
+
+402
+00:36:33,110 --> 00:36:37,370
+实际上，这个词会做什么，它将使答案改变三分之一。 
+answer in fact what this term will do is
+it will change the answer by a third in
+
+403
+00:36:37,370 --> 00:36:40,910
+如果把它放进去，另一个会得到相反的结果
+the other its own will get if you put
+this in it actually has the opposite
+
+404
+00:36:40,910 --> 00:36:44,480
+结果我们将到达这里，只有三分之一很大，所以它将使
+sign as the result we'll get here and
+it's only a third is big so it will make
+
+405
+00:36:44,480 --> 00:36:48,950
+ 2/3的最终结果最终结果并不重要，我们将忽略
+the final result of 2/3 the final result
+it's not important we're going to ignore
+
+406
+00:36:48,950 --> 00:36:55,070
+目前，我们将保持此状态，因此忽略EA术语
+this for now we're going to keep this
+alright so ignoring the EA term just
+
+407
+00:36:55,070 --> 00:36:59,570
+保持旋转项在这里，我们拥有的是
+keeping the
+the spin term here what we have is that
+
+408
+00:36:59,570 --> 00:37:09,740
+波矢量为K且自旋向上的电子的能量为零
+the energy for an electron with wave
+vector K and spin up is ek naught plus
+
+409
+00:37:09,740 --> 00:37:20,600
+ mu BB，而能量下降则为零，而mu BB的能量为H 
+mu B B whereas energy spin down is ek
+naught minus mu B B where ek naught is H
+
+410
+00:37:20,600 --> 00:37:27,620
+ bar平方K平方超过2m的自由电子能，所以这个想法是
+bar squared K squared over 2m the usual
+free electron energy so the idea is that
+
+411
+00:37:27,620 --> 00:37:32,090
+当您施加磁场时，自旋电子变得更昂贵
+when you apply a magnetic field the up
+spin electrons become more expensive the
+
+412
+00:37:32,090 --> 00:37:35,300
+向下旋转的电子变得越来越便宜，所以将会发生什么
+down spin electrons become less
+expensive and so what's going to happen
+
+413
+00:37:35,300 --> 00:37:38,000
+是一些向上自旋的电子会翻转过来试图变得向下
+is some of the up spin electrons are
+going to flip over to try to become down
+
+414
+00:37:38,000 --> 00:37:41,540
+自旋电子，因为这会降低其能量，但是它们不能全部翻转
+spin electrons because that would lower
+their energy however they can't all flip
+
+415
+00:37:41,540 --> 00:37:45,380
+结束，因为许多州已经满员，他们无法翻身
+over because a lot of the states are
+already filled and they can't flip over
+
+416
+00:37:45,380 --> 00:37:47,990
+进入已经充满的状态，所以您将获得其中的一些
+into states that are already filled so
+you're going to get some of them
+
+417
+00:37:47,990 --> 00:37:53,570
+翻过来，但不是很多，所以我要在这里用光
+flipping over but not a lot of them okay
+so I'm going to run out of room here
+
+418
+00:37:53,570 --> 00:37:58,850
+很快，所以让我们从B等于0开始进行整个计算
+pretty quickly so let's start with B
+equals 0 and do the whole calculation
+
+419
+00:37:58,850 --> 00:38:04,070
+我们将在T等于0时进行操作，因为T比TF小得多，所以可以
+we'll do it at T equals 0 that's ok
+because T is much much less than TF so
+
+420
+00:38:04,070 --> 00:38:10,250
+它非常接近T等于0，如果我们计算了旋转次数
+it's pretty close to T equals 0 and if
+we calculated the number of spin up
+
+421
+00:38:10,250 --> 00:38:13,580
+电子或自旋向上的电子密度
+electrons or the density of spin up
+electrons as the number of spin up
+
+422
+00:38:13,580 --> 00:38:17,450
+电子除以B处的体积等于0，它应该与
+electrons divided by the volume at B
+equals 0 it should be the same as the
+
+423
+00:38:17,450 --> 00:38:22,280
+在这种情况下，自旋下降电子的数量上下波动是对称的，我们
+number of spin down electrons ups and
+down are symmetric in that case B and we
+
+424
+00:38:22,280 --> 00:38:32,150
+可以将整数0写入无穷大de，实际上将截止整数
+can write that is integral 0 to infinity
+de actually will cut off the integral at
+
+425
+00:38:32,150 --> 00:38:35,390
+如果我们只计算电子的状态， 
+EF we're going to count only the
+electrons that are the states that are
+
+426
+00:38:35,390 --> 00:38:41,270
+将e的G填满2，然后将其除以2，因为在这里
+filled G of e over 2 and it's I put in
+the divided by 2 because here we're
+
+427
+00:38:41,270 --> 00:38:45,110
+仅针对旋转上升或下降而不是两者都编写表达式
+writing expression for only the spin ups
+or the spin downs not both of them
+
+428
+00:38:45,110 --> 00:38:49,970
+ e的状态密度G是我们计算的状态密度
+G of e the density of states that we
+calculated was the total density of
+
+429
+00:38:49,970 --> 00:38:54,210
+旋转和旋转的状态都可以，所以让我们
+states of both spin ups and spin downs
+okay so let's
+
+430
+00:38:54,210 --> 00:39:04,320
+让我们在这里画出自旋运算的e的状态密度G这里是e，你会
+let's draw here density of states G of e
+for spin ops here this is e and you'll
+
+431
+00:39:04,320 --> 00:39:09,090
+回想一下董事会上的某个地方，我想我已经将其向下滚动到顶部了，也许是
+recall somewhere on the board I think I
+scrolled it off the top well maybe it's
+
+432
+00:39:09,090 --> 00:39:16,890
+是的，这里是E的G与e成正比
+over here yeah here it is
+the G of E is proportional to e to the
+
+433
+00:39:16,890 --> 00:39:22,530
+一半，所以这东西看起来像抛物线，然后我们也可以
+one-half so this thing looks like a
+parabola that way and then we can also
+
+434
+00:39:22,530 --> 00:39:31,380
+画出e的G代表下降， 
+plot G of e for the spin downs it's
+going to look exactly the same for the
+
+435
+00:39:31,380 --> 00:39:39,660
+这样旋转下来，它们都充满了费米能量EF 
+spin downs like this and they both get
+filled up to the Fermi energy EF this
+
+436
+00:39:39,660 --> 00:39:48,000
+是不是零磁场现在添加磁场的方式
+isn't zero magnetic field yes
+now when we add the magnetic field way
+
+437
+00:39:48,000 --> 00:39:52,590
+在那里，旋转的电子将变得更加昂贵，这些家伙
+up there the spin up electrons are going
+to become more expensive these guys are
+
+438
+00:39:52,590 --> 00:39:57,450
+会被mu BB的能量上移，并且向下旋转的电子是
+going to get shifted up in energy by mu
+B B and the spin down electrons are
+
+439
+00:39:57,450 --> 00:40:01,800
+会变得更便宜，所以您将能源消耗降低了
+going to become less expensive so you're
+going to get shifted down in energy by
+
+440
+00:40:01,800 --> 00:40:08,040
+ mu BB实际上也许我应该在这里删除一些内容，以便一些旋转
+mu B B actually maybe I should erased
+some things here so some of the spin ups
+
+441
+00:40:08,040 --> 00:40:12,480
+将要变得翻身成为spin downs以降低
+are going to get going to want to turn
+over to become spin downs to lower the
+
+442
+00:40:12,480 --> 00:40:20,190
+能量，让我们来画一下发生了什么，所以一旦添加
+energy so let's let's draw that what
+happens do this so once we add so this
+
+443
+00:40:20,190 --> 00:40:24,720
+是因为B在这张图片中等于零B在这里等于零，让我们尝试绘制
+is for B equals zero in this picture B
+equals zero over here let's try to draw
+
+444
+00:40:24,720 --> 00:40:31,530
+ B在这里不等于零，所以这里我们有能量这里我们有g用于自旋
+B not equal to zero over here so here we
+have energy here we have g for the spin
+
+445
+00:40:31,530 --> 00:40:41,520
+ E的上升，这里我们有E的下降的G，发生的是
+ups of E and here we have G for the spin
+downs of E and what happens is that
+
+446
+00:40:41,520 --> 00:40:47,910
+这些家伙的能量像这样被移动了，这个距离是亩B倍B 
+these guys got shifted up in energy like
+this this distance here is mu B times B
+
+447
+00:40:47,910 --> 00:40:57,090
+这些家伙被这部如此多的电影所震撼了，好吧，然后我们
+and these guys got shifted down this by
+this much movie be okay and then we fill
+
+448
+00:40:57,090 --> 00:41:04,590
+它们都由EF决定，这里是EF，这是EF，因此您会看到一些
+them both up to EF here this is EF this
+is EF so you see that that some of the
+
+449
+00:41:04,590 --> 00:41:13,010
+那些旋转起来的家伙在这里清空，并在这里填充这些状态
+ones that were spin up these guys here
+emptied out and fill these states here
+
+450
+00:41:13,010 --> 00:41:18,390
+清楚这是怎么发生的，所以这里的这些状态被推高了
+is that clear how that happened
+so these states here got pushed up in
+
+451
+00:41:18,390 --> 00:41:24,650
+费米表面以上的能量，所以它们清空了，而这些状态在这里
+energy above the Fermi surface so they
+emptied out whereas these states here
+
+452
+00:41:24,650 --> 00:41:29,010
+精力充沛，所以他们充满了好吗
+got pulled down in energy so they filled
+up okay
+
+453
+00:41:29,010 --> 00:41:36,300
+是不是很清楚我知道这让我有点困惑
+is that clear I know this this gets a
+little bit confusing bear with me
+
+454
+00:41:36,300 --> 00:41:42,410
+因此，如果我们要为自旋密度写一个表达式，我们可以写
+so if we want to write an expression for
+the spin up density we can write
+
+455
+00:41:42,410 --> 00:41:53,610
+从零到EF减去mu BB的整数，因为实际上我们只想
+integral from zero to EF minus mu B B
+because actually we only want to
+
+456
+00:41:53,610 --> 00:41:59,010
+整合到此处，因为在仅查找此区域时，此处没有此区域
+integrate up to here because in finding
+only this region not this region here
+
+457
+00:41:59,010 --> 00:42:02,610
+因为一旦我们加了磁场，这里就只有这个区域
+because once we add magnetic field it's
+only this region here it's only the
+
+458
+00:42:02,610 --> 00:42:08,820
+这些人已经被清空了
+smaller region here that's filled up
+these guys have now emptied de of G of e
+
+459
+00:42:08,820 --> 00:42:15,570
+我猜超过两个，而下降的次数是从零到EF的整数倍
+I guess over two whereas the number of
+spin downs is integral from zero to EF
+
+460
+00:42:15,570 --> 00:42:23,550
+再加上两个以上的g bb de g，因为我们要一直整合到
+plus mu b b de g of e over two because
+we want to integrate all the way up to
+
+461
+00:42:23,550 --> 00:42:27,290
+在这里，既然那些人的精力都下降了
+here since those have been pulled down
+in energy is that clear
+
+462
+00:42:27,290 --> 00:42:33,630
+好了，所以我们快到了，所以现在我要计算的是n 
+alright so we're almost there so now
+what I want is I want to calculate n
+
+463
+00:42:33,630 --> 00:42:44,790
+ down减去n up，它是EF减去mu B到EF加mu BB的整数倍
+down minus n up which is integral de
+from EF minus mu B be to EF plus mu B B
+
+464
+00:42:44,790 --> 00:42:51,990
+ EE的G超过2，那么我们就可以了
+of G of EE over 2 and then we can just
+since this is over over only a little
+
+465
+00:42:51,990 --> 00:42:55,950
+一小部分能量，我们可以使用矩形规则来计算
+small sliver of energy we can use the
+rectangular rule to calculate that
+
+466
+00:42:55,950 --> 00:43:06,630
+积分，我们得到1/2 G的EF x-mu BB um如果需要的话，取消二
+integral and we get 1/2 G of EF x - mu
+BB um cancel the twos if we want ok
+
+467
+00:43:06,630 --> 00:43:14,119
+让我们写出EF的G乘以mu B是B然后
+let's write out G of EF times mu B is B
+and then
+
+468
+00:43:14,119 --> 00:43:19,609
+最后，我们要寻找的磁化强度是
+finally the magnetization which is what
+we're looking for the magnetization is
+
+469
+00:43:19,609 --> 00:43:25,859
+ Mubi每个电子的磁化强度为1，磁矩为1 
+Mubi each electron has a magnetization
+of one it has a magnetic moment of one
+
+470
+00:43:25,859 --> 00:43:29,670
+ Bohr Magneton，然后我们得到了旋转下降的密度减去密度
+Bohr Magneton and then we have the
+density of spin downs minus the density
+
+471
+00:43:29,670 --> 00:43:32,729
+旋转会给您磁化强度，如果您想知道
+of spin ups will give you the
+magnetization and if you want to know
+
+472
+00:43:32,729 --> 00:43:37,440
+为什么以这种方式出现标志，为什么它跌宕-起伏不是起伏-跌倒是因为
+why the sign comes out this way why it's
+downs - ups not ups - downs it's because
+
+473
+00:43:37,440 --> 00:43:40,319
+电子上的电荷为负，表示电子自旋
+the charge on the electron is negative
+meaning the spin of the electron
+
+474
+00:43:40,319 --> 00:43:45,259
+实际上与它的磁化相反，这很令人困惑
+actually points opposite its
+magnetization which is pretty confusing
+
+475
+00:43:45,259 --> 00:43:49,890
+但这是我们必须处理的，因为电子的符号是
+but that's what we have to deal with
+because the sign of the electron is is
+
+476
+00:43:49,890 --> 00:43:53,969
+否定，所以我们要插上电源-n向下插
+negative
+okay so we'll plug in and up - n down so
+
+477
+00:43:53,969 --> 00:44:02,969
+我们将得到G ef mu b乘以磁场的平方，然后将其称为
+we'll get G e f mu b squared times the
+magnetic field and you would call the
+
+478
+00:44:02,969 --> 00:44:09,690
+在磁场而非磁场下磁化率chi的定义，因此我们确定
+definition of susceptibility chi over mu
+not magnetic field so we identify the
+
+479
+00:44:09,690 --> 00:44:15,180
+保利功率磁化率是μB平方μn 
+susceptibility the Pauli power magnetic
+susceptibility is mu B squared mu naught
+
+480
+00:44:15,180 --> 00:44:23,369
+ G TF，这又是我们的最终结果，我们可以将其与
+G a TF and that's our final result again
+we can take this result compared it to
+
+481
+00:44:23,369 --> 00:44:30,809
+理论胜于Chi的实验，并且可以做各种不同的事情
+the theory Theory over Chi experiment
+and do it for various different things
+
+482
+00:44:30,809 --> 00:44:39,359
+锂的比例约为2.5钠的比例为1.8钾的比例为1.6 
+for lithium that ratio is about 2.5 for
+sodium is 1.8 for potassium is 1.6 which
+
+483
+00:44:39,359 --> 00:44:44,099
+如果我们正在考虑经典粒子，那么这是一个很好的协议
+is pretty good agreement now if we were
+thinking about classical particles
+
+484
+00:44:44,099 --> 00:44:51,630
+古典单原子气体然后实际上当您施加磁场时
+classical monatomic gas then in fact
+when you apply to magnetic field nothing
+
+485
+00:44:51,630 --> 00:44:54,809
+会阻止他们全部翻身他们会直接进入你的身边
+would stop them all from flipping over
+they would just go right into there you
+
+486
+00:44:54,809 --> 00:44:59,099
+知道翻转状态，因为那将是较低的能量，并且是唯一
+know the the flip down state because
+that would be lower energy and the only
+
+487
+00:44:59,099 --> 00:45:02,609
+之所以不能全部翻身是因为费米的统计费米
+reason they don't all flip over is
+because of Fermi statistics Fermi
+
+488
+00:45:02,609 --> 00:45:05,640
+统计数据阻止它们全部翻转，因为某些状态
+statistics prevents them all from
+flipping over because some of the states
+
+489
+00:45:05,640 --> 00:45:08,759
+已经充满了，因此您具有有限的磁化率，而经典
+already filled and so you get a finite
+susceptibility whereas the classical
+
+490
+00:45:08,759 --> 00:45:13,289
+计算将预测出无限的敏感性，所以这是
+calculation would would predict an
+infinite susceptibility so this is
+
+491
+00:45:13,289 --> 00:45:16,589
+非常好，我们在两到三倍的范围内就收到了结果
+pretty good we're getting results there
+you know within a factor of two or three
+
+492
+00:45:16,589 --> 00:45:22,109
+实际的实验，所以这或多或少是我们不得不说的
+of the actual experiments so this is a
+more or less all we have to say about
+
+493
+00:45:22,109 --> 00:45:27,520
+ Sommerfeld理论，让我们总结几件成功的事
+Sommerfeld theory so let's summarize a
+couple things successes
+
+494
+00:45:27,520 --> 00:45:35,930
+自由电子理论理论的成功，这意味着德鲁德再加上
+successes of free electron free electron
+theory theory which means Drude up plus
+
+495
+00:45:35,930 --> 00:45:48,350
+ Sommerfeld Garuda和Sommerfeld嗯，好吧，我们取得了一些成功
+Sommerfeld Garuda plus Sommerfeld um
+well okay a couple successes we got the
+
+496
+00:45:48,350 --> 00:45:52,730
+正确的热容量我们得到了良好的导热性
+heat capacity right we got the
+conductivity good the thermal
+
+497
+00:45:52,730 --> 00:45:56,750
+电导率好这两者之比都很好帕尔贴系数在
+conductivity good the ratio of those two
+are good the Peltier coefficient is in
+
+498
+00:45:56,750 --> 00:45:59,720
+正确的球场易感性，实际上还有许多其他
+the right ballpark the susceptibility
+and there's actually many many other
+
+499
+00:45:59,720 --> 00:46:04,580
+你可以计算出你会得到正确的东西，所以自由电子
+things that you can calculate that
+you'll get right so the free electron
+
+500
+00:46:04,580 --> 00:46:12,050
+图片实际上还不错，但是仍然存在一些问题
+picture is actually pretty good however
+there are still some problems that we're
+
+501
+00:46:12,050 --> 00:46:16,720
+必须要处理的是，正如我在本讲座前面提到的
+going to have to deal with one is that
+as I mentioned earlier in this lecture
+
+502
+00:46:16,720 --> 00:46:25,190
+ lambda似乎太大太大了，这是一个大问题，因为
+lambda seems too big too big that's a
+big problem having a mean free path of a
+
+503
+00:46:25,190 --> 00:46:29,540
+毫米，这似乎完全不合理，因为我们使用了
+millimeter it just seems completely
+unreasonable we used that the density of
+
+504
+00:46:29,540 --> 00:46:33,950
+电子应该是每个原子一个电子，我们有一些直觉，为什么我们
+electrons should be one electron per
+atom and we had some intuition why we
+
+505
+00:46:33,950 --> 00:46:37,790
+应该这样做，因为好吧，你知道有一堆电子
+should do that because well you know
+there's a bunch of the electrons are
+
+506
+00:46:37,790 --> 00:46:41,450
+束缚在核心轨道上，也许他们不算他们没有绕着他们跑
+bound in core orbitals and maybe they
+didn't count they don't run around they
+
+507
+00:46:41,450 --> 00:46:45,080
+只是保持固定不动，但还有其他一些你知道有效的原子
+just stay stay fixed but there's some
+other atoms you know that works
+
+508
+00:46:45,080 --> 00:46:48,410
+钠和钾都很好，但是碳呢
+perfectly well for sodium and for
+potassium but what about for carbon
+
+509
+00:46:48,410 --> 00:46:53,090
+碳使钻石在价态轨道上具有四个电子，如果
+carbon makes Diamond it has four
+electrons in its valence orbitals if
+
+510
+00:46:53,090 --> 00:46:56,540
+在最外层的外壳中有四个电子，实际上它是一个绝缘体
+four electrons in its outermost shell
+and in fact it's an insulator there are
+
+511
+00:46:56,540 --> 00:47:00,170
+没有电子自由运行，为什么不在那里发生什么，为什么我们
+no electrons running around free so why
+not what's going on there why do we
+
+512
+00:47:00,170 --> 00:47:03,920
+每个原子计数一个电子为什么你根本不计算一些电子
+count one electron per atom why do you
+not count some electrons at all so what
+
+513
+00:47:03,920 --> 00:47:08,960
+那些其他电子发生了什么，霍尔效应符号的符号呢
+happened to those other electrons what
+about the sign of the Hall effect sign
+
+514
+00:47:08,960 --> 00:47:13,940
+ Rh我们的霍尔的霍尔系数总是应该具有相同的符号
+of Rh our Hall the hall coefficient it's
+always supposed to have the same sign in
+
+515
+00:47:13,940 --> 00:47:17,330
+在索默费尔德理论中，犹大理论也总是被认为具有相同的符号，我们
+Judah theory also in Sommerfeld theories
+always supposed to the same sign and we
+
+516
+00:47:17,330 --> 00:47:20,540
+实验测量了我们没有测量的东西，但是它被测量了
+measured experimentally what we didn't
+measure but it was measured
+
+517
+00:47:20,540 --> 00:47:25,460
+从实验上看，实际上迹象出了错，有时又是另一回事
+experimentally that in fact the sign
+comes out wrong sometimes another thing
+
+518
+00:47:25,460 --> 00:47:32,300
+我没提到光学特性之前就很有趣
+that's kind of interesting I didn't
+mention before optical properties are
+
+519
+00:47:32,300 --> 00:47:38,070
+不同或者也许为什么不同为什么不同
+different or maybe why different why
+different
+
+520
+00:47:38,070 --> 00:47:42,720
+我的意思是，不同的金属看起来不同，所以您知道黄金
+what I mean by this is that different
+metals look different so you know gold
+
+521
+00:47:42,720 --> 00:47:45,660
+看起来有点像金色的银色看起来有点像银色的铜
+looks kind of goldish silver looks kind
+of silverish copper look kind of
+
+522
+00:47:45,660 --> 00:47:49,650
+铜色，因此您知道这个名字，但锡看起来有点像您所知道的
+copperish hence the name you know but
+tin looks kind of you know lighter and
+
+523
+00:47:49,650 --> 00:47:52,950
+酵素看起来更暗，它们看起来不同，它们具有不同的光学效果
+leaven looks kind of darker they look
+differently they have different optical
+
+524
+00:47:52,950 --> 00:47:56,880
+它们反射不同颜色的特性为什么在自由电子理论中
+properties they reflect different colors
+why is that in the free electron Theory
+
+525
+00:47:56,880 --> 00:48:01,380
+他们都应该看起来完全一样我们没有提到的另一件事是
+they should all look exactly the same
+another thing we didn't address is
+
+526
+00:48:01,380 --> 00:48:09,800
+磁性磁性，例如铁， 
+magnetism magnetism um
+particular things like iron are
+
+527
+00:48:09,800 --> 00:48:15,570
+铁磁性来自铁的名称，您可能会磁化
+ferromagnetic coming from the name for
+iron that you could have magnetization
+
+528
+00:48:15,570 --> 00:48:21,290
+即使B等于零，也不等于零，您可能在
+not equal to zero even when even when B
+equals zero you probably studied this in
+
+529
+00:48:21,290 --> 00:48:26,640
+你的电磁过程为什么自由电子图永远不会得到
+your electromagnetism course why is that
+free electron picture would never get
+
+530
+00:48:26,640 --> 00:48:38,430
+最后，库仑相互作用如何？ 
+that finally what about Coulomb
+interactions Coulomb interactions when
+
+531
+00:48:38,430 --> 00:48:42,000
+我们考虑到电子在固体中运转，你知道他们
+we think about the electrons running
+around in a solid you know that they
+
+532
+00:48:42,000 --> 00:48:45,390
+有巨大的费米能量，你知道八万开尔文，但是如果你考虑一下
+have a huge Fermi energy you know eighty
+thousand Kelvin but if you think about
+
+533
+00:48:45,390 --> 00:48:48,780
+库仑相互作用的能量规模也一样大
+the the energy scale of the Coulomb
+interaction it's just as big the
+
+534
+00:48:48,780 --> 00:48:52,560
+电子与原子核的相互作用也接近八十
+interaction of the electron with the
+nucleus nuclei close by also eighty
+
+535
+00:48:52,560 --> 00:48:55,830
+千开尔文也有大量的电子与其他相互作用
+thousand Kelvin also a huge number the
+interaction of the electron with other
+
+536
+00:48:55,830 --> 00:48:59,490
+通过它运行的电子也有八万开尔文，我们把它扔掉了
+electrons that are running by it also
+eighty thousand Kelvin we threw it out
+
+537
+00:48:59,490 --> 00:49:03,780
+完全我们只是将这些电子当作自由气体对待
+completely we just treated these
+electrons as if there are a free gas no
+
+538
+00:49:03,780 --> 00:49:07,980
+相互作用，我们只将它们具有费米统计量的事实视为
+interactions whatsoever we only treated
+the fact they have Fermi statistics to a
+
+539
+00:49:07,980 --> 00:49:12,210
+在很大程度上，所有这些问题都来自我们同一件事
+large extent all of these problems come
+from the same thing that we're
+
+540
+00:49:12,210 --> 00:49:16,110
+一遍又一遍地忽略同一件事，我们将不得不
+neglecting the same thing over and over
+and over again and we're going to have
+
+541
+00:49:16,110 --> 00:49:20,370
+更认真地对待一个特定的项目，而那个特定的项目是
+to take more seriously one particular
+item and that one particular item is
+
+542
+00:49:20,370 --> 00:49:25,140
+材料具有微观结构详细的微观
+that materials have microscopic
+structures detailed microscopic
+
+543
+00:49:25,140 --> 00:49:28,710
+结构原子通常以特定方式以特定方式粘在一起
+structures atoms are stuck together in a
+particular way frequently a particular
+
+544
+00:49:28,710 --> 00:49:32,370
+周期性的方式，完全改变了属性，这就是我们
+periodic way and that completely changes
+that properties and that's what we're
+
+545
+00:49:32,370 --> 00:49:35,700
+剩下的大部分时间都需要处理
+going to have to deal with for much of
+the remainder of the term all of these
+
+546
+00:49:35,700 --> 00:49:41,670
+一旦我们诚实地处理了这一事实，大部分事情都会得到解决。 
+things to a large extent will be sorted
+out once we deal honestly with the fact
+
+547
+00:49:41,670 --> 00:49:45,690
+原子以某种特定方式排列首先，我们是
+that the atoms are arranged in some
+particular way the first thing we're
+
+548
+00:49:45,690 --> 00:49:48,420
+要做的是，我们必须了解为什么这是
+going to have to do is we're going to
+have to understand why it is that the
+
+549
+00:49:48,420 --> 00:49:51,960
+原子实际上粘在一起开始，所以开始下一个
+atoms actually stick together to begin
+with and so starting the next
+
+550
+00:49:51,960 --> 00:49:56,430
+所以我们将讨论一些化学和化学键
+so we're going to discuss a bit of
+chemistry and chemical bonding just a
+
+551
+00:49:56,430 --> 00:50:02,250
+真的很快，多少人有化学反应哦，这很好
+really quick thing how many people had a
+level chemistry oh that's pretty good
+
+552
+00:50:02,250 --> 00:50:07,530
+有多少人不好，你是幸运者，因为你不得不
+how many did not okay you're the lucky
+ones because you're gonna have to
+
+553
+00:50:07,530 --> 00:50:10,320
+取消学习很多您可能不知道的事情， 
+unlearn a lot of the things that you
+know maybe not like it's always good to
+
+554
+00:50:10,320 --> 00:50:16,110
+学习学习甚至化学的东西，但是您可能不得不学一些
+learn learn things even chemistry but
+but you may have to unlearn some of the
+
+555
+00:50:16,110 --> 00:50:18,570
+您之前学到的东西，因为我们将从一个
+things that you learned previously
+because we're going to look at it from a
+
+556
+00:50:18,570 --> 00:50:24,090
+更多的物理观点，我将在星期四，星期四，星期四见
+more physics perspective and I will see
+you Thursday Thursday Thursday
+
+557
+00:50:24,090 --> 00:50:28,579
+好，星期四[鼓掌] 
+okay Thursday
+[Applause]
+

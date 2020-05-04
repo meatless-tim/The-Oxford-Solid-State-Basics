@@ -1,0 +1,3721 @@
+1
+00:00:00,060 --> 00:00:04,350
+欢迎大家回来，这是聚和态物理的二十一讲
+welcome back everyone this is the
+twenty-first lecture of the condensed
+
+2
+00:00:04,350 --> 00:00:08,189
+当我们上次离开时​​，我们谈论的是
+matter course when we left off last time
+we were talking about magnetism in
+
+3
+00:00:08,189 --> 00:00:15,450
+特别是我们在谈论铁磁性
+particular we were talking about Ferro
+magnetism Ferro magnetism and everything
+
+4
+00:00:15,450 --> 00:00:19,199
+我们所说的关于磁性的重点实际上是理解
+that we said about magnetism was really
+focused on understanding what happens at
+
+5
+00:00:19,199 --> 00:00:23,970
+零温度所有时刻彼此对齐，但通常
+zero temperature all of the moments
+aligning with each other but generally
+
+6
+00:00:23,970 --> 00:00:26,490
+您可以问一个问题，当您抬高铁磁磁铁时会发生什么
+you can ask the question what happens to
+a Ferro magnet as you raise the
+
+7
+00:00:26,490 --> 00:00:30,539
+温度，我们对费罗发生的事情有一些直觉
+temperature and we have a little bit of
+an intuition about what happens in Ferro
+
+8
+00:00:30,539 --> 00:00:38,040
+有限T的磁性将是您今天的大部分演讲的主题
+magnetism at finite T which will be the
+subject of much of today's lecture you
+
+9
+00:00:38,040 --> 00:00:42,030
+知道在零温度下所有时刻都对齐，但是当您打开
+know at zero temperature all the moments
+align but then when you turn on the
+
+10
+00:00:42,030 --> 00:00:45,809
+温度会有一些热波动和瞬间
+temperature there's going to be some
+thermal fluctuations and the moments
+
+11
+00:00:45,809 --> 00:00:49,260
+将不再完全对齐，在某些时候我们可能没有费罗
+won't be completely aligned anymore and
+at some point we might not have Ferro
+
+12
+00:00:49,260 --> 00:00:53,190
+磁性，所以总的来说，我们想知道的是
+magnetism at all so in general what we
+want to know is we'd like to know as a
+
+13
+00:00:53,190 --> 00:00:56,940
+温度的函数什么是磁化强度
+function of temperature what is the
+magnetization some sort of equation of
+
+14
+00:00:56,940 --> 00:01:01,980
+状态，也许我们也将允许外部施加磁场
+state and maybe we'll also allow for an
+externally applied magnetic field so
+
+15
+00:01:01,980 --> 00:01:06,119
+这就是我们有兴趣发现的内容，我应该先介绍一下
+this is what we're interested in finding
+out now I should start with a bit of a
+
+16
+00:01:06,119 --> 00:01:11,070
+请注意，在上一讲中，我们花了很多时间思考
+caveat in the last lecture we spent a
+lot of time thinking about the idea of
+
+17
+00:01:11,070 --> 00:01:16,049
+由于长距离偶极相互作用而产生的磁畴和
+magnetic domains which are created due
+to long-range dipolar interactions and
+
+18
+00:01:16,049 --> 00:01:20,130
+即使本地物理学是要对齐铁磁磁体中的所有矩
+even though the local physics is to
+align all the moments in a Ferro magnet
+
+19
+00:01:20,130 --> 00:01:23,280
+在低温下会有一些全球物理学
+at low temperature there will be some
+global physics which will make some
+
+20
+00:01:23,280 --> 00:01:26,549
+区域朝上，某些区域朝下，以最小化全局磁场
+regions point up in some regions point
+down to minimize the global magnetic
+
+21
+00:01:26,549 --> 00:01:29,850
+能量，所以我们今天不打算考虑那种物理学
+energy so we're not going to think about
+that kind of physics today we're only
+
+22
+00:01:29,850 --> 00:01:34,439
+会局部地思考，所以对我们来说，零温度的铁磁体会
+going to think sort of locally so for us
+a Ferro magnet at zero temperature would
+
+23
+00:01:34,439 --> 00:01:38,460
+至少为了今天的目的使他们的所有时刻保持一致，然后我们
+have all their moments aligned at least
+for for the purpose of today and then we
+
+24
+00:01:38,460 --> 00:01:41,939
+如果我们感兴趣的话，可以稍后再进行远距离的偶极相互作用
+can put back in the long range dipolar
+interactions later if we're interested
+
+25
+00:01:41,939 --> 00:01:46,890
+所以我们将使用一个非常简单的模型来尝试了解发生了什么
+so we're going to use a very simple
+model to try to understand what happens
+
+26
+00:01:46,890 --> 00:01:51,390
+到有限温度下的磁化强度，我们使用自旋1/2缓和
+to the magnetization at finite
+temperature we use the spin 1/2 easing
+
+27
+00:01:51,390 --> 00:01:58,259
+通过旋转1/2缓和模型1/2缓和我们的意思是每个站点上的旋转
+model 1/2 easing by spin 1/2 easing what
+we mean is that the spin on each site
+
+28
+00:01:58,259 --> 00:02:04,590
+将是一些Sigma I指向Z方向，其中Sigma I等于加号或
+will be some Sigma I pointing the Z
+direction where Sigma I equals plus or
+
+29
+00:02:04,590 --> 00:02:10,080
+减1/2，我们将写之前见过的哈密顿量
+minus 1/2 and we'll write the
+Hamiltonian which we've seen before
+
+30
+00:02:10,080 --> 00:02:17,570
+所有部位的总和将与外部磁场耦合
+there will be a coupling to the external
+magnetic field the sum over all sites
+
+31
+00:02:17,570 --> 00:02:24,550
+ Sigma I和这里我将外部磁场放在Z方向上
+Sigma I and here I've put the external
+magnetic field in the Z direction and
+
+32
+00:02:24,550 --> 00:02:31,720
+那么我们将相邻自旋之间的耦合减去1/2 J总和
+then we have the coupling between
+neighbor spins minus 1/2 J sum over
+
+33
+00:02:31,720 --> 00:02:38,840
+相邻的旋转I和J Sigma I Sigma J，所以括号表示法也是
+neighboring spins I and J Sigma I Sigma
+J so again the bracket notation means
+
+34
+00:02:38,840 --> 00:02:42,740
+我和J是邻居，在这里我们关心的是铁磁体，所以我们
+that I and J are neighbors and here
+we're concerned with a ferromagnet so we
+
+35
+00:02:42,740 --> 00:02:50,900
+将J设置为大于零好吧，这就是缓动模型
+set J greater than zero alright so this
+is the easing model a fairly simple
+
+36
+00:02:50,900 --> 00:02:54,650
+模型写下来，但正如我之前提到的，实际上很难
+model to write down but as I mentioned
+before it's actually quite difficult to
+
+37
+00:02:54,650 --> 00:02:58,760
+解决它在一维可解决的二维问题
+solve it is solvable in one dimension in
+two dimensions it's solvable without the
+
+38
+00:02:58,760 --> 00:03:02,720
+磁场，除此之外，它根本无法解决，这意味着我们
+magnetic field and beyond that it's not
+solvable at all so that means we're
+
+39
+00:03:02,720 --> 00:03:06,290
+将不得不诉诸某种近似方法来获得某种
+going to have to resort to some sort of
+approximation method to get some sort of
+
+40
+00:03:06,290 --> 00:03:09,650
+了解磁化缓动模型的有限状态
+understanding of what happens to the
+magnetization the easing model at finite
+
+41
+00:03:09,650 --> 00:03:14,780
+现在有很多可以使用的近似方法，但是
+temperature now there's lots of
+approximation methods one can use but
+
+42
+00:03:14,780 --> 00:03:19,370
+理论家的首选或流氓的首选是
+the first resort of theorists or first
+resort of scoundrels is what's known as
+
+43
+00:03:19,370 --> 00:03:25,850
+平均场理论平均场理论，我们将使用它来尝试
+mean field theory mean field theory
+which we're going to use to try to
+
+44
+00:03:25,850 --> 00:03:31,520
+估计在有限温度下哈密顿量会发生什么
+estimate what happens to this
+Hamiltonian at finite temperature so
+
+45
+00:03:31,520 --> 00:03:40,630
+平均场理论可以近似定义为： 
+mean field theory can be approximately
+defined as whenever you approximate some
+
+46
+00:03:40,630 --> 00:03:54,830
+运算符或数量
+operator or quantity some operator or
+quantity with an expectation with an
+
+47
+00:03:54,830 --> 00:03:58,390
+平均或均值
+average or a mean
+
+48
+00:03:59,620 --> 00:04:03,520
+这不仅在凝聚态物理中非常普遍
+and this is used very very commonly not
+only in condensed matter physics but
+
+49
+00:04:03,520 --> 00:04:07,060
+也在凝聚态物理之外，这是一个非常普遍的
+also outside of condensed matter physics
+and this is sort of a very general
+
+50
+00:04:07,060 --> 00:04:10,060
+语句，所以有很多事情可以作为一个近似值开始
+statement so there are many things that
+you can start approximating as a
+
+51
+00:04:10,060 --> 00:04:14,200
+期望值是平均值，因此我们将使用特定的
+expectation are an average so we're
+going to use a particular variety of
+
+52
+00:04:14,200 --> 00:04:26,680
+平均场理论被称为分子场理论或也被称为
+mean field theory known as molecular
+field theory theory or also it's known
+
+53
+00:04:26,680 --> 00:04:33,490
+作为副均场理论副均场理论MFT这是同一个人
+as vice mean field theory vice mean
+field theory MFT this is the same guy
+
+54
+00:04:33,490 --> 00:04:40,180
+副教授，他发现了磁铁中的畴的概念，并讨论了他
+vice who was discovered the idea of
+domains in magnets as well discussed him
+
+55
+00:04:40,180 --> 00:04:43,960
+上次，我不得不承认我不知道是在E之前还是在E之前
+last time and I have to admit I don't
+know if it's I before E or E before I
+
+56
+00:04:43,960 --> 00:04:49,270
+抱歉，我的拼写不是很好，所以
+there so apologize about that my
+spelling is not very good so the idea of
+
+57
+00:04:49,270 --> 00:04:55,450
+分子场论它基本上有两个非常简单的步骤，您可以
+molecular field theory it has basically
+two very simple steps that you can
+
+58
+00:04:55,450 --> 00:04:59,830
+始终遵循第一步是您应该对待系统的一部分
+always follow step one is that you
+should treat one piece of the system
+
+59
+00:04:59,830 --> 00:05:04,300
+确切地说，您隔离了系统的一小部分，它可能是一个单元
+exactly you isolate one little piece of
+the system it might be a single unit
+
+60
+00:05:04,300 --> 00:05:08,890
+单元格，或者它可能只是一个站点，您将要对其进行精确处理
+cell or it might be just a single site
+and you're going to treat that exactly
+
+61
+00:05:08,890 --> 00:05:20,970
+所以精确地对待一个系统正确地对待一个系统
+so treat one piece of system exactly
+treat one piece of system exactly
+
+62
+00:05:23,669 --> 00:05:35,889
+其他所有的东西都应该平均，所以我们实际上已经看到
+everything else should be averaged all
+else is averaged so we've actually seen
+
+63
+00:05:35,889 --> 00:05:39,580
+在我们研究固体的爱因斯坦模型之前
+something like this before when we study
+the Einstein model of the solid we
+
+64
+00:05:39,580 --> 00:05:43,930
+正确地处理了一个原子，我们正确地将其视为量子力学，但是我们
+treated one atom exactly we treated as
+quantum mechanics correctly but we
+
+65
+00:05:43,930 --> 00:05:48,280
+将所有其他原子的电势平均化，使之变得粗糙
+average the potential from all the other
+atoms we sort of made it into some rough
+
+66
+00:05:48,280 --> 00:05:52,840
+平均，一个原子刚好成为这个近似势
+average and it just became this
+approximate potential well that one atom
+
+67
+00:05:52,840 --> 00:05:57,490
+即使是非常粗略的近似，也存在一个原子
+is living in so even though it was very
+crude approximation is that one atom we
+
+68
+00:05:57,490 --> 00:06:00,760
+说实话，这是所有邻居的全部影响
+treated very honestly it was all the
+effect of all the neighbors that we
+
+69
+00:06:00,760 --> 00:06:04,830
+近似维塞处理手段的第二步理论
+approximated the second step of vyse
+means to deal theory
+
+70
+00:06:04,830 --> 00:06:11,760
+第二步是自洽自洽
+step two is self-consistency
+self-consistency
+
+71
+00:06:12,160 --> 00:06:19,550
+这意味着所有作品的所有作品都应该相同，并且在
+which means all pieces all pieces should
+be the same should look the same in the
+
+72
+00:06:19,550 --> 00:06:28,190
+末尾应该看起来一样，所以不管是哪一部分
+end should look same at the end and so
+it shouldn't matter which part of the
+
+73
+00:06:28,190 --> 00:06:32,960
+我们专注于对整个系统进行精确处理的系统
+system we focus on to treat exactly at
+the end of the day the whole system
+
+74
+00:06:32,960 --> 00:06:36,200
+应该再次看起来均匀，关于一件应该没什么特别的
+should look homogeneous again shouldn't
+be anything special about the one piece
+
+75
+00:06:36,200 --> 00:06:39,910
+我们要看一下，对我们来说，我们要对待宽松政策
+we're going to look at so for us we're
+going to we're going to treat the easing
+
+76
+00:06:39,910 --> 00:06:44,120
+铁磁体，我们将只关注一个站点中的一个单元电池
+ferromagnet and we're going to focus in
+on just one site a one unit cell in this
+
+77
+00:06:44,120 --> 00:06:51,440
+如果缓动铁磁体的晶胞是一个单一的站点，那么我们
+case the easing ferromagnet the unit
+cell is a single site so the we so we
+
+78
+00:06:51,440 --> 00:06:59,330
+专注于好，所以第一步看一个站点看一个站点我
+focus on okay so step one look at one
+site look at one site site I for the
+
+79
+00:06:59,330 --> 00:07:03,440
+缓和铁磁体我只为站点写下哈密顿量
+easing ferromagnet I'll write down the
+Hamiltonian for site I only so
+
+80
+00:07:03,440 --> 00:07:10,280
+站点I的哈密顿量是GμBB乘以Sigma I，即与
+Hamiltonian for site I is G mu B B times
+Sigma I that's the coupling to the
+
+81
+00:07:10,280 --> 00:07:15,590
+外部施加的磁场，然后将耦合到所有
+externally applied magnetic field then
+there's going to be the coupling to all
+
+82
+00:07:15,590 --> 00:07:25,990
+杰伊（Jay）是我的邻居I I Sigma J 
+of its neighbors which I'll write this
+this way jay is neighbor of i I Sigma J
+
+83
+00:07:25,990 --> 00:07:30,860
+然后乘上西格玛一世，所以我写出了哈密顿量的所有术语
+and then times Sigma I so I've written
+out all the terms in the Hamiltonian
+
+84
+00:07:30,860 --> 00:07:38,510
+包含自旋Sigma I的代码现在您可能已经在这里想了一秒钟
+that contain the spin Sigma I right now
+you may have thought here for a second
+
+85
+00:07:38,510 --> 00:07:42,590
+我可能会降低写在上面的1/2的因数，但我没有
+that I may have dropped the factor of
+1/2 that's written up top but I haven't
+
+86
+00:07:42,590 --> 00:07:47,780
+然后记住顶部的1/2的因数在那里，因为
+then remember that the factor of 1/2 of
+top is there because in that sum
+
+87
+00:07:47,780 --> 00:07:51,740
+严格来说，有Sigma 1 Sigma 2但也有Sigma 2 Sigma 1 
+strictly speaking there's Sigma 1 Sigma
+2 but there's also Sigma 2 Sigma 1 in
+
+88
+00:07:51,740 --> 00:07:57,080
+如果Sigma I是Sigma 1，那么这个总和不会反过来发生
+this sum if Sigma I is Sigma 1 it
+doesn't occur the other way around it
+
+89
+00:07:57,080 --> 00:07:59,990
+仅发生一次，因此Sigma 2 Sigma 1在此仅代表一次
+only occurs once so Sigma 2 Sigma 1
+would just be represented once in this
+
+90
+00:07:59,990 --> 00:08:04,520
+哈密​​顿量，这样写时就不需要1/2的因数
+Hamiltonian so you don't need the factor
+of 1/2 when you write it this way all
+
+91
+00:08:04,520 --> 00:08:09,770
+对，所以看起来有点复杂，让我们看看是否可以简化一下
+right so this looks a little complicated
+let's see if we can simplify it a little
+
+92
+00:08:09,770 --> 00:08:19,040
+位将写入将定义定义有效磁场是有效的
+bit will write will define define an
+effective magnetic field be effective be
+
+93
+00:08:19,040 --> 00:08:23,320
+通过以下方程式有效
+effective via the following equation G
+mu B
+
+94
+00:08:23,320 --> 00:08:31,360
+有效等于GM是外部磁场的实际磁场或
+be effective equals GM you be the actual
+magnetic field the external plus or
+
+95
+00:08:31,360 --> 00:08:38,409
+减去邻居J的影响乘以小J的总和是的邻居
+minus the influence of the neighbors J
+times sum over small J is a neighbor of
+
+96
+00:08:38,409 --> 00:08:48,040
+我是Sigma J的成员，所以我们正在做的是
+I of I Sigma J so what we're doing is
+we're wrapping up the interaction with
+
+97
+00:08:48,040 --> 00:08:54,400
+邻居，我们称它为有效磁场的一部分
+the neighbors and we're calling it part
+of the effective magnetic field okay in
+
+98
+00:08:54,400 --> 00:09:00,400
+我们可以将站点I的哈密顿量重写为G 
+terms of this quantity we can rewrite
+the Hamiltonian for site I as just G
+
+99
+00:09:00,400 --> 00:09:08,230
+可能是有效时间Sigma I，它看起来非常简单
+maybe be effective times Sigma I which
+looks extremely simple it just looks
+
+100
+00:09:08,230 --> 00:09:13,690
+像单自旋Sigma I耦合到外部有效磁场
+like a single spin Sigma I coupled to an
+external effective magnetic field be
+
+101
+00:09:13,690 --> 00:09:16,720
+有效，我们知道如何解决，我们解决了之前
+effective and we know how to solve that
+we solved that before which is have a
+
+102
+00:09:16,720 --> 00:09:20,890
+磁场中的单自旋应该很容易吧，好吧
+single spin in a magnetic field it
+should be easy right well okay that's a
+
+103
+00:09:20,890 --> 00:09:25,030
+有点欺骗性，因为我们在这里撒谎是有效的，而不仅仅是
+little deceptive because we've sort of
+lied here be effective is not just a
+
+104
+00:09:25,030 --> 00:09:28,480
+这里的数字不是常数它实际上具有一定的自由度
+number here it's not a constant it
+actually has some degrees of freedom a
+
+105
+00:09:28,480 --> 00:09:31,780
+隐藏在其中，您应该将其视为具有所有这些Sigma J的运算符
+hidden in it you should think of it as
+an operator it has all these Sigma J's
+
+106
+00:09:31,780 --> 00:09:35,470
+它使生活变得复杂，这会使一切变得非常复杂，因此
+in it and that complicates life is going
+to make everything really complicated so
+
+107
+00:09:35,470 --> 00:09:40,900
+我们真的不能简单地将其视为与恒定磁场耦合的自旋
+we can't really treat this simply as a
+spin coupled to a constant magnetic
+
+108
+00:09:40,900 --> 00:09:45,610
+场好吧，这就是我的意思场论派上用场了
+field okay so that's what I mean field
+theory comes in handy the rule of mean
+
+109
+00:09:45,610 --> 00:09:49,240
+场论认为，除了这一点之外，您应该近似一切
+field theory is that you should
+approximate everything except this one
+
+110
+00:09:49,240 --> 00:09:58,060
+按照平均值旋转，因此第一步近似是有效的
+spin in terms of an average so step one
+step one is approximate be effective by
+
+111
+00:09:58,060 --> 00:10:03,820
+有效平均值的总和将是有效的
+sum average of the effective average
+would be effective okay by taking this
+
+112
+00:10:03,820 --> 00:10:07,360
+平均而不是运算符，现在只是一个数字，因此
+average instead of being an operator
+it's now just a number so the
+
+113
+00:10:07,360 --> 00:10:14,160
+哈密​​顿量成为系统一哈密顿量成为HI是G mu B 
+Hamiltonian becomes system one the
+Hamiltonian becomes H I is G mu B
+
+114
+00:10:14,160 --> 00:10:17,110
+对有效的期望，现在只是一些
+expectation of the effective which is
+now just a number
+
+115
+00:10:17,110 --> 00:10:23,260
+耦合到Sigma I，而实际上只是一个自旋耦合到一个常数
+coupled to Sigma I and that really is
+just a single spin coupled to a constant
+
+116
+00:10:23,260 --> 00:10:26,440
+磁场，所以我们知道如何解决这个问题
+magnetic field so we know how to solve
+this we've done it before
+
+117
+00:10:26,440 --> 00:10:31,720
+我们做到了，您去年做到了，我们在上一讲中做到了，所以我只是
+we did it you've done it last year we
+did it in the last lecture so I'll just
+
+118
+00:10:31,720 --> 00:10:35,630
+写下第一步，写下分区函数
+write down the first step you write down
+the partition function its
+
+119
+00:10:35,630 --> 00:10:45,710
+您-βG mu B期望值，并且对我的有效x加上1/2加上e 
+you the - beta G mu B expectation and be
+effective x plus 1/2 plus e to the my
+
+120
+00:10:45,710 --> 00:10:54,140
+ G mu beta G me B期望有效倍数1/2 
+G mu beta G me B expectation be
+effective times 1/2
+
+121
+00:10:54,140 --> 00:11:00,260
+我希望这看起来很熟悉，然后我们可以在
+I hope this looks familiar then we can
+differentiate this partition function in
+
+122
+00:11:00,260 --> 00:11:06,050
+为了获得对Sigma I的期望，然后对Sigma I的期望变为
+order to get expectation of Sigma I and
+the expectation of Sigma I then becomes
+
+123
+00:11:06,050 --> 00:11:17,260
+ βG mu B期望的负1/2双曲正切值和有效时间
+minus 1/2 hyperbolic tangent of beta G
+mu B expectation and be effective times
+
+124
+00:11:17,260 --> 00:11:25,010
+ 1/2好，现在我们有了Sigma I的表达式
+1/2 okay so now we have an expression
+for Sigma I for the expectation of Sigma
+
+125
+00:11:25,010 --> 00:11:31,520
+ I在外部有效磁场方面的温度和Gμ 
+I in terms of the external the effective
+magnetic field the temperature and G mu
+
+126
+00:11:31,520 --> 00:11:36,440
+ B到目前为止对这个好东西感到满意，所以现在
+B so far so good
+happy with this alright good so now the
+
+127
+00:11:36,440 --> 00:11:40,430
+最后一步是我们必须弄清楚有效的期望是什么
+last step is we have to figure out what
+this expectation of the effective is
+
+128
+00:11:40,430 --> 00:11:48,620
+好，这样期望就这样G mu B有效的期望就是G 
+okay so expectation right this way G mu
+B expectation of the effective is just G
+
+129
+00:11:48,620 --> 00:11:59,450
+ mu B是外部磁场减去J加上J的总和不是
+mu B be the external magnetic field
+minus J sum over J isn't is neighbor of
+
+130
+00:11:59,450 --> 00:12:11,840
+我对Sigma J的期望倍，所以我只取了
+I of I times expectation of Sigma J okay
+so I just took the average of of the
+
+131
+00:12:11,840 --> 00:12:18,860
+在这里有效，平均场理论的最后一步是最后
+effective here and the the final step of
+the mean field theory is that at the end
+
+132
+00:12:18,860 --> 00:12:24,220
+当天所有站点的外观应该相同，因此站点I的Sigma平均值
+of the day all sites should look the
+same so the average of Sigma on site I
+
+133
+00:12:24,220 --> 00:12:29,500
+应该与平均值相同，所以这是第二步自洽
+should be the same as the average of so
+this is step two self-consistency
+
+134
+00:12:29,500 --> 00:12:33,860
+ I站点Sigma的平均值应与J站点的Sigma平均值相同
+average of Sigma on site I should be the
+same as the average of Sigma on site J
+
+135
+00:12:33,860 --> 00:12:37,130
+我和网站Jane的网站并没有什么特别之处，我们称之为
+there's nothing special about site I
+versus site Jane we'll just call it
+
+136
+00:12:37,130 --> 00:12:42,290
+西格玛好吧，所以我们只是将西格玛的平均值设置为每个
+Sigma okay so we're just setting the
+average of Sigma the same on every every
+
+137
+00:12:42,290 --> 00:12:48,130
+站点，所以如果我们这样做，那么我们的方程式就是
+site so if we do that then our equation
+here with the tange
+
+138
+00:12:48,130 --> 00:12:56,470
+双曲正切可以写成Sigma等于负1/2双曲
+the hyperbolic tangent can be written as
+Sigma equals minus 1/2 hyperbolic
+
+139
+00:12:56,470 --> 00:13:03,759
+切线，现在我将在有效的地方插入B的表达式
+tangent and now I'll plug in our
+expression for B effective where well
+
+140
+00:13:03,759 --> 00:13:12,519
+实际上好吧，好吧，我想这是一笔总和
+actually all right well okay up here
+this sum here I suppose
+
+141
+00:13:12,519 --> 00:13:18,850
+这里的和可以是Z乘以Sigma，其中Z是邻居的数量
+this sum here it can be Z times Sigma
+where Z is the number of neighbors sorry
+
+142
+00:13:18,850 --> 00:13:28,810
+自从我们将Sigma J的Sigma期望设置为正好是这个以来的邻居数量
+number of neighbors since we set Sigma
+expectation of Sigma J to be just this
+
+143
+00:13:28,810 --> 00:13:34,060
+数字Sigma，总和中有J个项，总和中有D个项很清楚
+number Sigma and there's J terms in the
+sum D terms in the sum is that clear
+
+144
+00:13:34,060 --> 00:13:37,449
+我只是对不起，有点混乱
+what I just did
+sorry it was a little messy okay all
+
+145
+00:13:37,449 --> 00:13:45,279
+对，所以最终结果是有形的减去beta JZ超过2倍
+right so this ends up coming out
+tangible minus beta J Z over 2 times
+
+146
+00:13:45,279 --> 00:13:54,370
+ Sigma加beta G mu BB超过2，所以这只是对
+Sigma plus beta G mu B B over 2 so this
+is just a rewriting of this of the
+
+147
+00:13:54,370 --> 00:13:59,740
+我插入的双曲正切的等式在那里有效
+equation up there with the hyperbolic
+tangent I plugged in be effective and I
+
+148
+00:13:59,740 --> 00:14:07,389
+插入了J倍Z 4，其中我有J倍期望J倍Z倍Sigma 
+plugged in J times Z 4 where I had J
+times expectation J times Z times Sigma
+
+149
+00:14:07,389 --> 00:14:12,190
+是我的J倍于邻居的总和乘以Sigma J的期望值的地方
+is where I had J times sum over
+neighbors times expectation of Sigma J
+
+150
+00:14:12,190 --> 00:14:18,160
+好是好好的好的好的好的，这是我们的最终结果
+good yes good all right all right all
+right so this is our our final result
+
+151
+00:14:18,160 --> 00:14:23,380
+这是Sigma幅度的某种自洽方程
+and it's some sort of self-consistent
+equation for the magnitude of Sigma
+
+152
+00:14:23,380 --> 00:14:28,660
+这是在站点I上旋转的期望，因此原则上我们现在有了
+which is the expectation that's spin on
+site I and so in principle we now have
+
+153
+00:14:28,660 --> 00:14:34,329
+我们针对Sigma的解决方案是耦合温度的函数
+our solution for what Sigma is as a
+function of the temperature the coupling
+
+154
+00:14:34,329 --> 00:14:38,050
+到邻居的数量邻居外部磁场的数量
+to the neighbors the number of neighbors
+external magnetic field okay it's a
+
+155
+00:14:38,050 --> 00:14:42,189
+复杂的方程式，但至少在原则上我们可以立即解决
+complicated equation but at least in
+principle we could solve it the moment
+
+156
+00:14:42,189 --> 00:14:49,360
+那么每个站点将减去GμB乘以Sigma，此处的标记就可以了
+per site would then be minus G mu B
+times Sigma where the sign so okay this
+
+157
+00:14:49,360 --> 00:14:55,480
+是每个自旋的时刻，负号来自电子
+is the moment per for spin this minus
+sign comes from the fact that electrons
+
+158
+00:14:55,480 --> 00:14:58,420
+带有负电荷，因此磁矩指向相反的方向
+have negative charge so the magnetic
+moment points in the opposite direction
+
+159
+00:14:58,420 --> 00:15:02,270
+的旋转，所以原则上我们现在已经解决了
+of the spin
+so in principle we've now solved our
+
+160
+00:15:02,270 --> 00:15:07,760
+问题，但这是一个复杂的先验方程， 
+problem however this is sort of a
+complicated transcendental equation and
+
+161
+00:15:07,760 --> 00:15:14,870
+它的解决方案不是很明显，我们已经看到了Sigma的一些方程式，所以我们
+it's not so obvious what its solution is
+we've seen some equation for Sigma so we
+
+162
+00:15:14,870 --> 00:15:21,440
+必须弄清楚如何解决它，让我们先简化为一个简单的案例
+have to figure out how to solve it and
+let's simplify to a easy case first so
+
+163
+00:15:21,440 --> 00:15:26,930
+情况情况1r只是将情况设为零，外部磁场为0 
+case case 1r just set the case to be
+equal zero external magnetic field is 0
+
+164
+00:15:26,930 --> 00:15:34,420
+在这种情况下，简化这个方程式，使符号向内移动，我们得到的Sigma为1/2 
+in which case simplifying this equation
+moving a sign inside we get Sigma is 1/2
+
+165
+00:15:34,420 --> 00:15:44,840
+ βJZ Sigma超过2的双曲正切值对
+hyperbolic tangent of beta J Z Sigma
+over 2 good still a hard equation to
+
+166
+00:15:44,840 --> 00:15:50,360
+解决，因为它仍然是Sigma的超越方程，但
+solve because it's still a
+transcendental equation for Sigma but
+
+167
+00:15:50,360 --> 00:15:55,460
+有一个很好的图形方法可以解决这个方程，即绘制y等于
+there's a nice graphical way to solve
+this equation which is to plot y equals
+
+168
+00:15:55,460 --> 00:16:06,050
+ Sigma和y等于在同一图上的2上超过2的1/2 tange beta JZ Sigma 
+Sigma and y equals 1/2 tange beta J Z
+Sigma over 2 on the same plot and where
+
+169
+00:16:06,050 --> 00:16:09,920
+他们相交是这个方程的解好，所以这就是我们要
+they intersect is the solution of this
+equation ok so that's what we're gonna
+
+170
+00:16:09,920 --> 00:16:12,410
+这样做就是我们要解决这个问题的方式，每个人都还在我身边
+do that's how we're going to solve this
+equation is everyone still with me
+
+171
+00:16:12,410 --> 00:16:22,490
+任何人都可以，是的，所以很好，所以我们首先要决定并移交
+anyone happy yeah ok good so so here we
+go first we have to decide and put over
+
+172
+00:16:22,490 --> 00:16:30,920
+这里好吧，我们在这里Y西格玛在这里啊温度西格玛吧
+here ok let's all right here Y Sigma
+over here ah temperature Sigma right
+
+173
+00:16:30,920 --> 00:16:34,820
+ Sigma在这里，然后我们绘制第一个曲线y等于Sigma 
+Sigma over here then we'll plot the
+first curve which is y equals Sigma like
+
+174
+00:16:34,820 --> 00:16:42,980
+这个y等于Sigma ok，这是我们要绘制的第一条曲线，然后
+this y equals Sigma ok that's the first
+curve that we want to plot and then the
+
+175
+00:16:42,980 --> 00:16:49,370
+第二条曲线是该双曲正切，渐近于1/2和负1/2 
+second curve is this hyperbolic tangent
+which asymptotes at 1/2 and at minus 1/2
+
+176
+00:16:49,370 --> 00:16:55,880
+所以我们在这里渐近动物渐近线但是有两个
+so we'll asymptote here animal
+asymptotes down here but there's two
+
+177
+00:16:55,880 --> 00:17:01,600
+夸张哎呀这个图看起来是什么样的可能性
+possibilities as to what this plot looks
+like with the hyperbole oops and
+
+178
+00:17:01,600 --> 00:17:09,859
+双曲正切双曲正切看起来像什么
+hyperbolic hyperbolic tangent what this
+hyperbolic tangent looks like one
+
+179
+00:17:09,859 --> 00:17:13,999
+可能是低温发生什么情况低温
+
+180
+00:17:14,000 --> 00:17:19,819
+没开抱歉先做高温高温高温
+not open sorry let's do high temperature
+first high temperature high temperature
+
+181
+00:17:19,819 --> 00:17:25,189
+是第一种可能性，因此在高温下β很小，因此棕褐色
+is the first possibility so in high
+temperature beta is small and so the tan
+
+182
+00:17:25,189 --> 00:17:32,179
+ CH是一个非常柔和的功能，因此看起来像这样，所以这是
+CH is a very gentle function so it looks
+kind of like this okay so this is the
+
+183
+00:17:32,179 --> 00:17:36,309
+低温高温
+low high temperature high temperature
+
+184
+00:17:38,049 --> 00:17:42,950
+好人对此感到满意，那就是双曲线正切曲线
+good people happy with that that's a
+hyperbolic tangent curve and it
+
+185
+00:17:42,950 --> 00:17:48,799
+渐近线到这条虚线，所以我们看到的是这两条曲线
+asymptotes to this dotted line so what
+we see is these two curves the
+
+186
+00:17:48,799 --> 00:17:53,210
+双曲正切且y等于Sigma曲线仅在一个点处相交
+hyperbolic tangent and the y equals
+Sigma curve intersect only at one point
+
+187
+00:17:53,210 --> 00:18:00,500
+ Sigma等于0，所以唯一的唯一解决方案是Sigma等于
+at Sigma equals zero so the only
+solution only solution is Sigma equals
+
+188
+00:18:00,500 --> 00:18:04,640
+零，这告诉我们您在高温下没有铁磁性
+zero and that tells us that you don't
+have ferromagnetism in high temperature
+
+189
+00:18:04,640 --> 00:18:11,450
+实际上，您得到的M等于磁化强度等于零或顺磁性，而不是
+you in fact get M equals magnetization
+equals zero or paramagnetism rather than
+
+190
+00:18:11,450 --> 00:18:22,520
+亚铁磁性顺磁性不是高温下的铁磁性
+ferrimagnetism paramagnetism not
+ferromagnetism at high temperature high
+
+191
+00:18:22,520 --> 00:18:29,870
+温度，这实际上比任何坚固的磁铁都更为典型
+temperature and this is actually quite
+typical than any firm magnet if you
+
+192
+00:18:29,870 --> 00:18:34,340
+在某个时候升高温度，顺磁性就会消失，您
+raise it in temperature at some point
+the pro magnetism will go away and you
+
+193
+00:18:34,340 --> 00:18:37,669
+有这样的直觉，这就是
+have this sort of intuition that what's
+that's coming from is that the the
+
+194
+00:18:37,669 --> 00:18:41,780
+瞬间的温度波动很大，以至于最终停止
+moments are fluctuating thermally around
+so much that they eventually stop
+
+195
+00:18:41,780 --> 00:18:45,770
+指向任何特定方向，如果不指向，则不指向任何方向
+pointing in any particular direction and
+they don't point in any if they're not
+
+196
+00:18:45,770 --> 00:18:48,559
+指向任何特定的方向，它不再是铁磁体，并且
+pointing in any particular direction
+it's not a ferromagnet anymore and in
+
+197
+00:18:48,559 --> 00:18:53,000
+事实上，这将在几分钟内成为一个顺磁性小表演，现在其他
+fact it will be a paramagnet a little
+show in a few moments okay now the other
+
+198
+00:18:53,000 --> 00:18:56,900
+可能是因为我们处于低温状态，所以请考虑一下
+possibility is it we're at low
+temperature so think about that
+
+199
+00:18:56,900 --> 00:19:03,950
+可能低温，在这种情况下双曲正切
+possibility low temperature in which
+case the hyperbolic tangent is a much
+
+200
+00:19:03,950 --> 00:19:09,919
+这样的曲线比较陡，因为双曲正切的参数是
+steeper curve like this because the
+argument of the hyperbolic tangent is
+
+201
+00:19:09,919 --> 00:19:14,659
+较大，因为在低温下β较大，因此实际上有三个
+larger because beta is larger at low
+temperature and so in fact there's three
+
+202
+00:19:14,659 --> 00:19:19,640
+解决方案，所以这是低温曲线，低温，所以我们有一个
+solutions so this is the low temperature
+curve low temperature so we have a
+
+203
+00:19:19,640 --> 00:19:24,620
+这里的解叫Sigma N等于T，在0处有一个解
+solution here call that Sigma naught of
+T there's a solution at 0 and then
+
+204
+00:19:24,620 --> 00:19:27,490
+这里有一个解决方案，我们称其为负Sigma naught 
+there's a solution here which we'll call
+minus Sigma naught
+
+205
+00:19:27,490 --> 00:19:36,880
+茶，所以我们得到三到三个解决方案，三个解决方案分别是Sigma等于
+tea so we get three to three solutions
+three solutions which are Sigma equals
+
+206
+00:19:36,880 --> 00:19:43,000
+零，然后加上或减去T的Sigma零就将事实设为零
+zero and then plus or minus Sigma naught
+of T turn on zero the fact that we have
+
+207
+00:19:43,000 --> 00:19:48,040
+ Sigma的非零解告诉我们我们有一个铁磁体， 
+nonzero solutions for Sigma it's telling
+us that we have a ferromagnet and
+
+208
+00:19:48,040 --> 00:19:51,870
+铁磁体自然可以使其向上旋转或可以使其旋转
+naturally the ferromagnet can have it
+spins pointing up or it can have its
+
+209
+00:19:51,870 --> 00:19:58,059
+向下旋转，所以这些是铁磁解决方案，这不是
+spins pointing down so these are the
+ferromagnetic solutions and this is not
+
+210
+00:19:58,059 --> 00:20:01,780
+令人惊讶，因为我们知道如果您将温度降至零
+surprising because we know that if you
+go down to zero temperature this curve
+
+211
+00:20:01,780 --> 00:20:06,400
+事实上，它将变得非常陡峭
+will be extremely steep it will
+intersect right here as a matter of fact
+
+212
+00:20:06,400 --> 00:20:09,790
+然后您将完全意识到西格玛对西格玛的期望是
+and you'll get complete polarization
+that Sigma the expectation of Sigma is
+
+213
+00:20:09,790 --> 00:20:13,929
+ 1/2表示所有旋转都指向完全相同的方向，这样
+1/2 meaning all the spins point in
+exactly the same direction okay so that
+
+214
+00:20:13,929 --> 00:20:18,010
+将是您在零温度和更高温度下得到的
+would be what you get at zero
+temperature at higher temperature the
+
+215
+00:20:18,010 --> 00:20:22,620
+交点向下移动到稍低的点，您会变小
+intersection moves down to a slightly
+lower point and you get slightly smaller
+
+216
+00:20:22,620 --> 00:20:26,530
+ Sigma的T值没有，所以磁化强度略小，但不为零
+Sigma naught of T so you get slightly
+smaller magnetization but not zero
+
+217
+00:20:26,530 --> 00:20:31,780
+磁化现在我们可能想知道这个家伙呢，我们还有另一个
+magnetization now we might wonder what
+about this guy here we have another
+
+218
+00:20:31,780 --> 00:20:36,460
+告诉我们我们期望Sigma为0的解决方案
+solution which tells us we have an
+expectation of Sigma being 0 and this
+
+219
+00:20:36,460 --> 00:20:40,830
+一个人实际上是有点困惑，事实证明这不是一个物理解决方案
+one actually is a little puzzling it
+turns out it's a not a physical solution
+
+220
+00:20:40,830 --> 00:20:45,640
+不是身体上的，您实际上会证明这是您的一项作业
+not physical and you'll actually show
+that for one of your homework
+
+221
+00:20:45,640 --> 00:20:50,800
+作业，所以事实证明您要做的作业是
+assignments so it turns out what you'll
+show for your homework is that this
+
+222
+00:20:50,800 --> 00:20:56,110
+我们求解的自洽方程实际上与x Extra相同
+self-consistent equation that we solve
+is actually the same thing as x extra
+
+223
+00:20:56,110 --> 00:21:01,120
+玉米释放出一种自由能，正如您所知，当您额外将一些玉米化时，您可以
+maizing a free energy and as you know
+when you extra Mize something you can
+
+224
+00:21:01,120 --> 00:21:04,750
+要么得到最大值，要么得到最小值，所以我们得到了-我们得到了一个最大值
+either get a maximum or a minimum so
+we're get-- we're getting one maximum
+
+225
+00:21:04,750 --> 00:21:08,590
+而自由能的两个最小值，最小值是自由能
+and two minima of the free energies the
+minimum are the free energies are the
+
+226
+00:21:08,590 --> 00:21:12,250
+物理上实现的东西和最大的自由能是排序的
+things that are realized physically and
+the maximum of the free energy is sort
+
+227
+00:21:12,250 --> 00:21:16,150
+会从方程式中得出错误，但这在物理上还不行， 
+of a mistake it comes out of the
+equations but it's not physical okay and
+
+228
+00:21:16,150 --> 00:21:19,000
+当您实际写下自由能时，它会更加清晰
+it's much clearer when you actually
+write down the free energy which you'll
+
+229
+00:21:19,000 --> 00:21:22,480
+做功课，您会明白为什么我们不保留该解决方案，所以这
+do for homework and you'll see why it is
+that we don't keep that solution so this
+
+230
+00:21:22,480 --> 00:21:27,429
+我们有点忽略，我们只跟踪这些铁磁解决方案
+one we sort of ignore and we only keep
+track of these ferromagnetic solutions
+
+231
+00:21:27,429 --> 00:21:31,960
+好吧，我们想知道在什么温度下
+okay
+so we'd like to know at what temperature
+
+232
+00:21:31,960 --> 00:21:36,550
+从做强磁铁变成做费罗磁铁，我们这样写
+do we go from being a power magnet to
+being a Ferro magnet let's write that
+
+233
+00:21:36,550 --> 00:21:51,730
+在什么茶下喝什么铁
+down at what T
+at what tea do we get ferromagnetism
+
+234
+00:21:51,910 --> 00:21:59,600
+嗯，实际上有一个TC的名称比您得到的TC小/ T 
+well there's actually a name for that TC
+is known as a / T less than TC you get
+
+235
+00:21:59,600 --> 00:22:06,620
+铁磁性farrell mag和TC被称为居里温度Curie tam 
+ferromagnetism farrell mag and TC is
+known as the curie temperature curie tam
+
+236
+00:22:06,620 --> 00:22:14,210
+或临界温度临界温度，低于此温度则为Ferro 
+or the critical temperature critical
+temp below which you have Ferro
+
+237
+00:22:14,210 --> 00:22:20,420
+磁性，所以我们想知道什么时候获得TC或何时获得
+magnetism so we'd like to know when do
+we get what is TC or when do we get this
+
+238
+00:22:20,420 --> 00:22:25,310
+铁磁磁性在什么温度以下都可以看到
+Ferro magnetism below what temperature
+well the way to see that again looking
+
+239
+00:22:25,310 --> 00:22:29,780
+图形化地认识到拥有一个解决方案之间的过渡
+graphically is to realize that the
+transition between having one solution
+
+240
+00:22:29,780 --> 00:22:34,760
+当双曲正切函数为
+having three solutions occurs when the
+hyperbolic tangent the function is
+
+241
+00:22:34,760 --> 00:22:40,310
+与y完全相切的Sigma线与
+exactly tangent to the y equals Sigma
+line where it lines up just exactly with
+
+242
+00:22:40,310 --> 00:22:45,830
+相同的斜率，这就是重点所在的原因
+the same slope and the reason that
+that's the important point where where
+
+243
+00:22:45,830 --> 00:22:49,940
+从顺磁性到铁磁性的转变是
+the where you have the transition from
+paramagnetism to Ferro magnetism is
+
+244
+00:22:49,940 --> 00:22:53,930
+因为如果双曲正切不那么陡峭，您将只有一个
+because if the hyperbolic tangent were
+any less steep you'd have only one
+
+245
+00:22:53,930 --> 00:22:58,100
+解决方案，如果还有更多解决方案，您可以采用三种解决方案，因此我们必须
+solution and if it were any more steep
+you have three solutions so we have to
+
+246
+00:22:58,100 --> 00:23:01,940
+寻找双曲正切具有完全相同的情况
+look for the for the situation where the
+hyperbolic tangent has exactly the same
+
+247
+00:23:01,940 --> 00:23:24,260
+斜率y等于Sigma，所以TC从找到切线X的切线斜率开始
+slope is y equals Sigma okay so TC from
+finding slope of tangent of tangent X
+
+248
+00:23:24,260 --> 00:23:33,140
+在此处平移y等于切线tantra设置等于1的斜率是beta jay-z 
+pand the y equals tangent here the slope
+of tantra set equal to one is beta jay-z
+
+249
+00:23:33,140 --> 00:23:42,490
+超过四个或只是重新排列一点，我们得到KB TC等于四个以上的JZ 
+over four or just rearranging a little
+bit we get KB T C equals JZ over four
+
+250
+00:23:42,490 --> 00:23:46,640
+这是温度的关键值，还可以吗？ 
+which is the critical value of
+temperature okay is everyone still with
+
+251
+00:23:46,640 --> 00:23:55,460
+我还算开心，不，是的，嗯，也许好吧，让我暂停一下
+me fairly fairly happy no yes maybe okay
+um maybe alright so let me just pause
+
+252
+00:23:55,460 --> 00:24:04,550
+好一秒钟，现在是时候喝巧克力了
+for a second to sort of okay well it's
+time for chocolate actually so um so for
+
+253
+00:24:04,550 --> 00:24:11,870
+对于一块巧克力棒，杰伊-z认为什么至关重要？ 
+for one chocolate bar what's the what's
+the critical importance of jay-z think
+
+254
+00:24:11,870 --> 00:24:15,530
+开箱即用，真的很好，谁说我
+outside the box
+well it's really good who said that I
+
+255
+00:24:15,530 --> 00:24:18,110
+会说他已经嫁给了碧昂丝，但已经足够亲密了
+was gonna say he's married to Beyonce
+but it's close enough
+
+256
+00:24:18,110 --> 00:24:27,290
+是的，所以很好，是的，没有，杰伊-z除了我之外，碧昂丝阿姨
+yeah so yeah very good yeah okay no did
+jay-z is besides me auntie Beyonce the
+
+257
+00:24:27,290 --> 00:24:31,700
+ Jay-z的重要性在这里，实际上是在告诉您， 
+importance of jay-z here is that it's in
+fact it's telling you that okay one
+
+258
+00:24:31,700 --> 00:24:37,070
+母亲花花公子知道碧昂斯的中间名，你知道那是她的最后一次
+mother dudes anyone know beyoncé's
+middle name do you know that's her last
+
+259
+00:24:37,070 --> 00:24:44,390
+名字不，不，那是你姐姐的名字，是的，不，不，甚至都不知道， 
+name no no that's your sister's name
+yeah come on no no didn't even know and
+
+260
+00:24:44,390 --> 00:24:50,960
+碧昂斯（Beyonce）的宝宝的名字，是的，有人在那边买了，是的，我有一个
+Beyonce's baby's name yeah someone got
+it over there yes yeah okay I have one
+
+261
+00:24:50,960 --> 00:24:57,680
+对你来说还好吧，所以好吧，jay-z的重要之处是
+for you also alright okay so does okay
+um the important of jay-z here is
+
+262
+00:24:57,680 --> 00:25:02,270
+实际上，这是自旋与其邻居耦合的总能量
+actually it's a total amount of energy
+of coupling of the spin to its neighbors
+
+263
+00:25:02,270 --> 00:25:09,260
+所以我们这里有Z个邻居，J是
+and so we have Z neighbors here and J is
+the amount of the coupling strength from
+
+264
+00:25:09,260 --> 00:25:13,220
+旋转到它的每个邻居，所以当温度高于
+the spin to each of its neighbors so
+when the temperature gets above the
+
+265
+00:25:13,220 --> 00:25:17,390
+与其邻居的耦合强度总量，热波动
+total amount of coupling strength to its
+neighbors the fluctuation in the thermal
+
+266
+00:25:17,390 --> 00:25:22,070
+这种旋转的波动使它想要停留在
+fluctuations of that spin so overwhelm
+the amount that it wants to stay in the
+
+267
+00:25:22,070 --> 00:25:26,120
+与邻居的方向相同，这就是它想要的铁磁体的原因
+same direction as its neighbors which is
+what's keeping it a ferromagnet it wants
+
+268
+00:25:26,120 --> 00:25:29,270
+与邻居有相同的方向，当能量
+to have the same direction as its
+neighbors and when the energy of the
+
+269
+00:25:29,270 --> 00:25:32,480
+热能刚好大于将其保持在原位的能量
+thermal energy is just greater than the
+energy holding it in place
+
+270
+00:25:32,480 --> 00:25:36,980
+你会失去铁磁性，好吧，这就是这张照片背后的直觉
+you lose ferromagnetism okay that's the
+intuition behind this picture here
+
+271
+00:25:36,980 --> 00:25:44,480
+好吧，好吧，至少可以在图形上拍摄这张照片， 
+alright alright anyway so at least
+graphically we can take this picture and
+
+272
+00:25:44,480 --> 00:25:50,090
+我们可以将Sigma作为T的函数进行求解，只需找出
+we can solve for Sigma as a function of
+T you just have to figure out where
+
+273
+00:25:50,090 --> 00:25:54,920
+当我们改变T时，有两条曲线交叉，我们将得到一张图片， 
+where there's two curves cross as we
+change T and we'll get a picture that
+
+274
+00:25:54,920 --> 00:25:56,870
+看起来有点像这里的温度
+looks kind of like this here's
+temperature
+
+275
+00:25:56,870 --> 00:26:03,470
+这是零温度下的Sigma Sigma实际上是一半，因为所有
+here's Sigma at zero temperature Sigma
+is actually a half because all all the
+
+276
+00:26:03,470 --> 00:26:07,700
+自旋对齐，然后在TCC处变为零， 
+spins are aligned
+and then at TCC it goes to zero and
+
+277
+00:26:07,700 --> 00:26:14,440
+高于TC，则完全为零，但随后下降到这样的水平
+above above TC it's exactly zero but
+then it comes down kind of like this at
+
+278
+00:26:14,440 --> 00:26:18,320
+改变T的温度是有限的，所以实际上
+finite temperature as you've changed T
+so this is actually gives you the
+
+279
+00:26:18,320 --> 00:26:21,640
+所得到的魔力是多少的状态方程是一个函数
+equation of state of how much Magn is a
+ssin you get is a function of
+
+280
+00:26:21,640 --> 00:26:26,990
+温度，您可以从这个平均场近似中得到它，这并不精确
+temperature and you can get it from this
+mean field approximation it's not exact
+
+281
+00:26:26,990 --> 00:26:32,480
+但这是相当不错的，所以最后一步是我向你保证
+but it's it's fairly good okay all right
+so the last step is that I promised you
+
+282
+00:26:32,480 --> 00:26:38,510
+在这个地区，我们有一个顺磁性，所以我们应该拒绝
+that up in this region here we have a
+paramagnet so we should reject and
+
+283
+00:26:38,510 --> 00:26:41,330
+说服自己这确实是一个顺磁性，而做到这一点的一种方法是
+convince ourselves it really is a
+paramagnet and one way to do that is to
+
+284
+00:26:41,330 --> 00:26:45,890
+计算磁化率，以便我们知道的事情就在该区域
+calculate susceptibility so things that
+we know is up in this region if you
+
+285
+00:26:45,890 --> 00:26:50,150
+如果不施加磁场，则不施加磁场sigma为0 
+don't apply a magnetic field sigma is 0
+if you apply a small magnetic field then
+
+286
+00:26:50,150 --> 00:26:53,450
+ sigma可能接近0，所以我们可以做的就是
+sigma is probably gonna be close to 0 so
+what we can do is we can take our
+
+287
+00:26:53,450 --> 00:26:58,580
+原始的自洽方程，我们可以将其扩展为
+original self-consistency equation and
+we can expand it for small argument of
+
+288
+00:26:58,580 --> 00:27:02,210
+双曲正切，因为里面的所有东西都是根据定义
+the hyperbolic tangent because
+everything inside there is by definition
+
+289
+00:27:02,210 --> 00:27:08,420
+小C西格玛小B小小一切都小，所以我们可以写
+small C the Sigma is smaller B is small
+everything is small so we can write
+
+290
+00:27:08,420 --> 00:27:13,460
+西格玛等于，她只是把这全部写下来，我要吸收一些
+Sigma equals and she's just writing this
+all out I'm going to absorb a couple of
+
+291
+00:27:13,460 --> 00:27:23,900
+此处的负号beta超过2的JC Sigma负值超过2磁场的beta G mu B 
+minus signs here beta J C Sigma over 2
+minus beta G mu B over 2 magnetic field
+
+292
+00:27:23,900 --> 00:27:32,000
+好的，然后我们重新安排它，以便我们将Sigma作为
+ok and then we just rearrange this in so
+we solve for Sigma as a function of
+
+293
+00:27:32,000 --> 00:27:41,630
+磁场，这样我们就可以得到Sigma IPL，即1减去JZ超过4个beta等于
+magnetic field we get Sigma IPL right
+this way 1 minus JZ over 4 beta equals
+
+294
+00:27:41,630 --> 00:27:49,040
+减去βGμB超过4倍的磁场，这一点是
+minus beta G mu B over 4 times the
+magnetic field and this notice this
+
+295
+00:27:49,040 --> 00:27:55,430
+这里的数量实际上是TC，是KBT，因此我们进行了一些重新排列
+quantity here is actually TC is KBT see
+so with a little bit more rearranging we
+
+296
+00:27:55,430 --> 00:28:07,150
+得到的西格玛等于负1/4 GμB磁场B除以KBT减去KB 
+get Sigma equals minus 1/4 G mu B
+magnetic field B divided by KBT minus KB
+
+297
+00:28:07,150 --> 00:28:14,810
+ TC，然后我们实际上希望将其转换为某种敏感性
+TC and then we want to actually convert
+this into some sort of susceptibility so
+
+298
+00:28:14,810 --> 00:28:22,640
+磁矩为负G mu B Sigma和磁化强度，所以这是
+the magnetic moment is minus G mu B
+Sigma and magnetization so this is a
+
+299
+00:28:22,640 --> 00:28:27,050
+可见时刻，磁化强度是每个站点的时间乘以Rho 
+moment for sight the magnetization is
+the moment per site times Rho the
+
+300
+00:28:27,050 --> 00:28:36,860
+旋转密度旋转密度然后是
+density of spins density of spins and
+then the susceptibility will be mu
+
+301
+00:28:36,860 --> 00:28:47,300
+根据定义，dm DB在b处等于零，这只是插入了一对
+naught by definition d m DB at b equals
+zero which just plugging in a couple
+
+302
+00:28:47,300 --> 00:28:58,450
+在这里排队，然后得到KBT的1/4 rhg g b平方平方
+lines up here we get then get 1/4 rho g
+mu b squared mu naught over KBT
+
+303
+00:28:58,450 --> 00:29:08,300
+ 1乘以1减去TC乘以t，这整个数量实际上是
+times 1 over 1 minus TC over t and this
+whole quantity here is actually the
+
+304
+00:29:08,300 --> 00:29:14,780
+居里磁化率居里自旋1/2，换句话说就是我们的磁化率
+Curie susceptibility curie for a spin
+1/2 in other words its susceptibility we
+
+305
+00:29:14,780 --> 00:29:19,309
+本来可以计算出我们只是自由旋转1/2，实际上这正是我们
+would have calculated we've just a free
+spin 1/2 in fact it is exactly what we
+
+306
+00:29:19,309 --> 00:29:23,300
+当我们计算自旋1/2 in的磁化率时计算
+calculated when we calculated the
+magnetic susceptibility of a spin 1/2 in
+
+307
+00:29:23,300 --> 00:29:28,040
+最后一堂课，然后整个结果乘以1减去1 
+the last lecture but then this whole
+thing gets multiplied by 1 over 1 minus
+
+308
+00:29:28,040 --> 00:29:34,240
+ TC超过t，所以我们的权力巨头对TC的敏感性是
+TC over t so the susceptibility of our
+power magnate above TC is a
+
+309
+00:29:34,240 --> 00:29:38,900
+只是一个与每个都不耦合的自由旋转1/2系统的磁化率
+susceptibility of just a system of free
+spin 1/2 which aren't coupled to each
+
+310
+00:29:38,900 --> 00:29:43,460
+其他和至少在免疫中耦合在缓和模型中的作用
+other and the effect of the coupling in
+the easing model at least with immune
+
+311
+00:29:43,460 --> 00:29:49,130
+场论就是将它乘以T的1减去TC 
+field theory is to multiply it by this
+factor of 1 minus TC over T ok now you
+
+312
+00:29:49,130 --> 00:29:52,730
+可能会注意到在临界温度或居里温度下
+may notice that at the critical
+temperature or the Curie temperature
+
+313
+00:29:52,730 --> 00:29:58,640
+这个因素有所不同，实际上是物理上的，这是真实的，其原因
+this factor diverges and that actually
+is physical it's real and the reason
+
+314
+00:29:58,640 --> 00:30:02,840
+是因为存在，因为我们必须记住，这种敏感性
+it's it's there is because we have to
+remember that that the susceptibility
+
+315
+00:30:02,840 --> 00:30:07,070
+告诉你打开一点点的磁化强度
+tells you how much magnetization you get
+when you turn on a little bit of
+
+316
+00:30:07,070 --> 00:30:11,330
+磁场的定义，但当您低于临界点时
+magnetic field by its definition but
+when you go below the critical
+
+317
+00:30:11,330 --> 00:30:15,110
+温度即使在0磁场下也会磁化，因此
+temperature you get magnetization even
+for 0 magnetic fields so the
+
+318
+00:30:15,110 --> 00:30:17,750
+易感性一定已经使无穷大了
+susceptibility must have gotten the
+infinite somewhere along a little on the
+
+319
+00:30:17,750 --> 00:30:23,809
+行，这就是这个词在这里所做的，好吧，所以这是
+line so that's what this term is doing
+there ok all right so this is the
+
+320
+00:30:23,809 --> 00:30:28,690
+平均场理论的一般方案及其工作原理
+general scheme of a mean field theory
+and how it works
+
+321
+00:30:28,690 --> 00:30:32,340
+平均场论在哪里，是的平均场论
+mean field theory where was it yeah mean
+field theory
+
+322
+00:30:32,340 --> 00:30:37,970
+通常如何以平均方式近似某个算子
+how it works where we generally
+approximate some operator by an average
+
+323
+00:30:37,970 --> 00:30:42,450
+并且这种平均场理论技术可以更广泛地使用
+and this technique of mean field theory
+can be used much much more generally
+
+324
+00:30:42,450 --> 00:30:45,330
+比我们在这里做作业所要讲的平均场论
+than what we did here for homework
+you'll do a mean field theory
+
+325
+00:30:45,330 --> 00:30:48,990
+反铁磁体的计算以及轮渡磁体的计算
+calculation for an antiferromagnet as
+well you could do it for a ferry magnet
+
+326
+00:30:48,990 --> 00:30:52,980
+您可以将其旋转不到一半的事实
+you could do it for spins that aren't
+spin one-half the fact that we got a
+
+327
+00:30:52,980 --> 00:30:58,350
+整个故事中的双曲线正切来自于这样一个事实： 
+hyperbolic tangent in this in this whole
+story came from the fact that we were
+
+328
+00:30:58,350 --> 00:31:01,679
+考虑它旋转一半，所以如果我们旋转，它只会旋转向上和向下旋转
+thinking about it spin one-half so it
+had only spin up and spin down if we
+
+329
+00:31:01,679 --> 00:31:05,580
+在考虑自旋一时，我们将使自旋s D等于1 SZ等于0在Z 
+were thinking about spin one we would
+have spin s D equals 1 SZ equals 0 at Z
+
+330
+00:31:05,580 --> 00:31:08,700
+等于负1，我们会得到比双曲正切更复杂的东西
+equals minus 1 we'd get something more
+complicated than a hyperbolic tangent
+
+331
+00:31:08,700 --> 00:31:13,140
+我们会得到一个所谓的Brewin函数，但是关于您如何使用的一般主题
+we'd get a so called Brewin function but
+the general themes of how you how you
+
+332
+00:31:13,140 --> 00:31:17,630
+使其准确地对待系统的一部分，然后坚持
+approach it treat one piece of the
+system exactly and then insist on
+
+333
+00:31:17,630 --> 00:31:22,409
+自我一致性保持不变，并且该技术在外部使用
+self-consistency that remains the same
+and the technique is used outside of
+
+334
+00:31:22,409 --> 00:31:27,360
+凝聚态的磁性用于理解液晶
+magnetism in condensed matter it's used
+for understanding liquid crystals it's
+
+335
+00:31:27,360 --> 00:31:30,600
+用于了解流感动力学，用于天体物理学，用于
+used for understanding flu dynamics is
+used in astrophysics it's used in
+
+336
+00:31:30,600 --> 00:31:34,529
+大气物理学平均场理论只是一种非常普遍的技术
+atmospheric physics mean field theory is
+just a very general technique that's
+
+337
+00:31:34,529 --> 00:31:38,779
+用于许多事情，对您有好处，可以将其思想内部化
+used for many many things and it's good
+to you know internalize the ideas of it
+
+338
+00:31:38,779 --> 00:31:44,970
+好吧，我们将使用均值场理论来做另一件事
+alright we were going to use mean field
+theory for one more thing which is to
+
+339
+00:31:44,970 --> 00:31:51,659
+了解流动铁磁性流动剂是下一个主题
+understand itinerant ferromagnetism
+itinerant which is the next subject an
+
+340
+00:31:51,659 --> 00:32:00,270
+流动磁力和“流动”一词的意思是基本上漂泊
+itinerant magnetism and the word the
+word itinerant means wandering basically
+
+341
+00:32:00,270 --> 00:32:05,760
+或有时它意味着迷失，但眼睛真正的意思是
+or sometimes it means lost but the eye
+what it really means is that the
+
+342
+00:32:05,760 --> 00:32:16,549
+磁矩由移动电子携带
+magnetic moment moments are carried are
+carried by mobile electrons by mobile
+
+343
+00:32:16,549 --> 00:32:24,390
+自从几年前我们开始谈论磁性以来，我们现在的电子
+electrons now since we started talking
+about magnetism a couple lectures ago we
+
+344
+00:32:24,390 --> 00:32:29,039
+考虑将磁矩放在站点上，磁矩可以
+thought about putting magnetic moments
+on sites and the magnetic moments could
+
+345
+00:32:29,039 --> 00:32:32,970
+向不同的方向移动，但我们没有考虑这种可能性
+move in point in different directions
+but we didn't consider the possibility
+
+346
+00:32:32,970 --> 00:32:37,380
+瞬间实际上可以从一个站点跳到另一个站点，但实际上
+that the moments could actually hop from
+one site to another site but in real
+
+347
+00:32:37,380 --> 00:32:42,570
+像铁这样的磁铁是非常典型的， 
+magnets like an iron for example is
+quite typical that the same things that
+
+348
+00:32:42,570 --> 00:32:46,520
+这些电子实际上也在四处移动
+are giving you a magnetization these
+electrons are actually moving around too
+
+349
+00:32:46,520 --> 00:32:53,270
+乐队，但他们设法给我们铁磁性，就像其他类型的
+in bands and yet they managed to give us
+ferromagnetism so as with other types of
+
+350
+00:32:53,270 --> 00:32:58,340
+磁力流动磁力是由相互作用产生的
+magnetism itinerant magnetism is driven
+by interactions it comes from the
+
+351
+00:32:58,340 --> 00:33:08,210
+电子之间的相互作用来自相互作用，所以我们必须以某种方式
+interaction between electrons from from
+interactions so somehow we have to
+
+352
+00:33:08,210 --> 00:33:11,360
+引入互动并至少在一定的平均范围内对待他们
+introduce interactions and treat them at
+least within some mean field
+
+353
+00:33:11,360 --> 00:33:17,270
+为了了解迭代磁，现在当然要进行一次近似
+approximation in order to understand
+itinerant magnetism now of course once
+
+354
+00:33:17,270 --> 00:33:21,260
+您开始介绍电子之间的相互作用事情变得复杂
+you start introducing interactions
+between electrons things get complicated
+
+355
+00:33:21,260 --> 00:33:26,420
+很快，所以我们需要一个非常简化的模型
+very quickly so we need a very
+simplified model which will represent
+
+356
+00:33:26,420 --> 00:33:30,590
+电子之间的相互作用，仍然赋予我们正确的权利
+the interaction between electrons and
+still give us the right the right
+
+357
+00:33:30,590 --> 00:33:36,980
+物理学，所以我们要使用的模型就是所谓的Hubbard模型Hubbard 
+physics so the model we're going to use
+is the so-called Hubbard model Hubbard
+
+358
+00:33:36,980 --> 00:33:44,360
+于1963年写下此书以试图了解流动磁场
+wrote this down in 1963 to try to
+understand itinerant magnetism and since
+
+359
+00:33:44,360 --> 00:33:49,040
+他写下来的话哈伯德模型拥有自己的巨大生命
+he wrote this down the Hubbard model has
+taken on a huge life of its own
+
+360
+00:33:49,040 --> 00:33:54,020
+它可能是相互作用电子的最重要模型
+it's potentially it is probably the most
+important model of interacting electrons
+
+361
+00:33:54,020 --> 00:33:58,190
+在所有物理学中都可能毫不夸张地说
+in all of physics there have been
+probably without exaggeration a hundred
+
+362
+00:33:58,190 --> 00:34:01,940
+关于Hubbard模型主题的数千篇论文是如此重要
+thousand papers written on the subject
+of the Hubbard model it's that important
+
+363
+00:34:01,940 --> 00:34:05,660
+之所以如此重要，是因为它异常出色
+to the field and the reason it's so
+important is because it's exceptionally
+
+364
+00:34:05,660 --> 00:34:11,540
+很简单，但是它的物理却非常复杂，所以哈伯德的方式
+simple and yet its physics is quite
+complex so but the way Hubbard
+
+365
+00:34:11,540 --> 00:34:14,210
+您知道在均值领域理论中对它的处理方法
+you know treated it in mean field
+theories what we're going to do here
+
+366
+00:34:14,210 --> 00:34:17,000
+这很简单，您可以获得很好的结果，这有助于您理解
+it's fairly simple you get out a good
+result which helps you understand
+
+367
+00:34:17,000 --> 00:34:20,859
+流动铁磁性，这就是我们要在模型中要做的
+itinerant ferromagnetism which is what
+we're going to do in the model it's
+
+368
+00:34:20,859 --> 00:34:25,510
+很简单，我们要做的是写一个哈密顿量
+pretty straightforward what we do is we
+start by writing a Hamiltonian that is
+
+369
+00:34:25,510 --> 00:34:38,000
+紧密结合紧密结合电子与一些跳跃
+tight binding tight binding tight
+binding electrons with hopping with some
+
+370
+00:34:38,000 --> 00:34:42,679
+跳变T和紧密结合电子的哈密顿量的这一部分
+hopping T and this part of the
+Hamiltonian of tight binding electrons
+
+371
+00:34:42,679 --> 00:34:47,210
+经过一些跳跃，我们已经解决了这个问题，然后才在
+with some hopping we've solved this
+before we looked at this earlier in the
+
+372
+00:34:47,210 --> 00:34:51,139
+术语，我们得到了这些余弦形带，您可以填充余弦形带
+term we got these cosine shaped bands
+you can fill up the cosine shaped bands
+
+373
+00:34:51,139 --> 00:34:53,899
+如果是半满的乐队，你会得到一个金属，如果是一个完整的乐队，你会得到一个
+if it's a half filled band you get a
+metal if it's a full band you get an
+
+374
+00:34:53,899 --> 00:34:58,130
+绝缘体，但绝不仅仅具有这种类型的结合电子
+insulator but never in just this model
+here with just type binding electrons
+
+375
+00:34:58,130 --> 00:35:00,080
+跳就可以得到铁磁体
+with hopping would you ever get
+ferromagnets
+
+376
+00:35:00,080 --> 00:35:05,330
+如果只有这种紧密的绑定结构，您将永远不会遇到任何情况
+ism you'd never get a situation if you
+only have this tight binding structure
+
+377
+00:35:05,330 --> 00:35:09,650
+你从哪里下来会有不同数量的上升时刻
+you where you would ever have a
+different number of up moments from down
+
+378
+00:35:09,650 --> 00:35:13,070
+时刻他们总是会出来的，所以我们必须添加一些东西
+moments they would always come out even
+so we have to add something to it which
+
+379
+00:35:13,070 --> 00:35:15,800
+将会改变故事以及我们要添加的内容
+is going to change the story and what
+we're adding to it
+
+380
+00:35:15,800 --> 00:35:22,940
+是我指定您使用的某些总体网站的互动条件大于
+is the interaction term some overall
+sites I parameter you use greater than
+
+381
+00:35:22,940 --> 00:35:28,400
+零倍于站点上的电子数量，我们自旋向上乘以
+zero times the number of electrons on
+site I we spin up times the number of
+
+382
+00:35:28,400 --> 00:35:34,780
+我们旋转的站点上的电子，然后写下这是电子的数量
+electrons on site I we spin down then
+write this this is number of electrons
+
+383
+00:35:34,780 --> 00:35:48,200
+在现场，我向下旋转就可以了，所以这是在告诉我
+on site I with spin up down down okay so
+what this is doing is this just telling
+
+384
+00:35:48,200 --> 00:35:53,240
+你，每当两个电子坐在你身上，你就会受到能量的惩罚
+you that you get an energy penalty of
+you whenever two electrons sit on the
+
+385
+00:35:53,240 --> 00:35:56,780
+同一站点上的相同原子好吧，我们实际上已经讨论过了
+same atom on the same site okay and
+we've actually discussed this
+
+386
+00:35:56,780 --> 00:36:00,950
+哈密​​顿量，我们没有使用“哈伯德模型”一词，但提醒您何时
+Hamiltonian before we didn't use the
+word Hubbard model but remind you when
+
+387
+00:36:00,950 --> 00:36:08,450
+我们讨论了Mod绝缘子Mod绝缘子我们讨论了一种情况
+we talked about mod insulators mod
+insulators we discussed a situation
+
+388
+00:36:08,450 --> 00:36:11,990
+电子之间的相互作用是如此强烈，以至于你只能将一个
+where the interaction between electrons
+was so strong that you can only put a
+
+389
+00:36:11,990 --> 00:36:15,650
+该站点上的单个电子，然后您会得到一个情况
+single electron on the site and then you
+get you can get a situation if there's a
+
+390
+00:36:15,650 --> 00:36:19,250
+现场只有一个电子，然后一切都冻结在交通堵塞中，因为没有
+single electron on site then everything
+gets frozen in a traffic jam because no
+
+391
+00:36:19,250 --> 00:36:21,920
+可以跳到附近的站点，因为已经有人坐在
+one can hop to the neighboring site
+because there's already someone sitting
+
+392
+00:36:21,920 --> 00:36:24,620
+在那里，即使您有一个看起来像应该是
+there and even though you have a
+something that looks like it should be a
+
+393
+00:36:24,620 --> 00:36:28,460
+半填充禁令您仍然拥有称为Mott绝缘子的绝缘子
+half-filled ban you still have an
+insulator known as a Mott insulator so
+
+394
+00:36:28,460 --> 00:36:31,190
+这与我们将要允许自己打开的物理学完全相同
+this is exactly the same physics we're
+just going to allow ourselves to turn on
+
+395
+00:36:31,190 --> 00:36:34,760
+然后通过这种互动，您可以使它像我们想要的那样强大或像我们想要的那样脆弱
+and off that interaction you make it as
+strong as we want or as weak as we want
+
+396
+00:36:34,760 --> 00:36:39,770
+好吧，所以不太复杂看起来像一个非常简单的模型，但这又是其中之一
+okay so not too complicated looks like a
+very simple model but again it's one of
+
+397
+00:36:39,770 --> 00:36:43,190
+这些模型看起来很简单，但不是一维可解决的， 
+these models it looks simple but it
+isn't it's solvable in one dimension and
+
+398
+00:36:43,190 --> 00:36:46,100
+尽管有十万篇论文，对此一无所知
+absolutely nothing is known about it
+despite a hundred thousand papers
+
+399
+00:36:46,100 --> 00:36:51,650
+以更高的尺寸写在上面，好吧，也许不是绝对，但是，但是
+written on it in higher dimensions okay
+maybe not absolutely nothing but but but
+
+400
+00:36:51,650 --> 00:36:54,530
+没有我们想要的那么多，这就是为什么人们不断写论文的原因
+not as much as we would like which is
+why people keep writing papers about it
+
+401
+00:36:54,530 --> 00:36:59,870
+好吧，那么我们该如何对待这个第一件事呢？ 
+okay so how do we treat this well first
+thing we're going to do we're going to
+
+402
+00:36:59,870 --> 00:37:07,040
+按照以下形式编写此交互项，将其写为u over 
+write this interaction term as in the
+following form will write it as u over
+
+403
+00:37:07,040 --> 00:37:12,970
+四个，上下加减四个
+four and up plus and down minus u over
+four
+
+404
+00:37:12,970 --> 00:37:20,890
+和向上平方负n向上负n负平方，所以这只是一个标识
+and up up squared minus n up minus n
+down squared so that's just an identity
+
+405
+00:37:20,890 --> 00:37:26,349
+这很容易，我们没有做任何不同的事情
+that's easy we haven't done anything
+different here what we're going to do
+
+406
+00:37:26,349 --> 00:37:31,300
+现在是我们要使均值场近似均值场
+now is we're going to make the mean
+field approximation mean field which
+
+407
+00:37:31,300 --> 00:37:35,859
+表示字段总是以某种方式或其他方式表示您所处位置的平均值
+mean field always somehow or other means
+take something's average where you're
+
+408
+00:37:35,859 --> 00:37:39,430
+不允许通过取平均值和什么来做不正确的事情
+not allowed to do something that's
+incorrect by taking an average and what
+
+409
+00:37:39,430 --> 00:37:42,280
+我们要做的是，这是不正确的，因为我们要采取
+we're going to do which is not quite
+correct is we're going to take an
+
+410
+00:37:42,280 --> 00:37:46,359
+这些项的平均值，因此我们将取n的平均值加上n的最小值和
+average of these terms so we're going to
+take average of n up plus n down and
+
+411
+00:37:46,359 --> 00:37:54,310
+将其减去您的平方，平均得到n减去n的平均值，然后平方就可以了
+square it minus you over for average of
+n up minus n down and square it okay so
+
+412
+00:37:54,310 --> 00:37:56,740
+这是平均场近似值，或者是平均场的一种类型
+that's the mean field approximation or
+it's one type of mean field
+
+413
+00:37:56,740 --> 00:38:00,010
+我们将要使用的近似值，我们需要先查看它给我们带来的好处
+approximation we're going to use and we
+need to see what it gives us well first
+
+414
+00:38:00,010 --> 00:38:04,119
+在这所有学期中，平均n个提出请求的发送总数
+of all this term here average of n up
+put send down that's just a total
+
+415
+00:38:04,119 --> 00:38:13,000
+密度电子的总密度总密度是固定的
+density total number of electrons total
+density and that's fixed probably fixed
+
+416
+00:38:13,000 --> 00:38:16,090
+在一天的开始，根据您所拥有的条件， 
+at the beginning of the day by the
+conditions that you have so that's just
+
+417
+00:38:16,090 --> 00:38:19,060
+要给第一个名词要给我们一个常数
+going to give that first term is going
+to give us a constant the interesting
+
+418
+00:38:19,060 --> 00:38:25,230
+这是这个名词的意思-结束实际上是每个站点的时刻
+thing is this term here that ennop - end
+down is actually the moment per site
+
+419
+00:38:25,230 --> 00:38:31,150
+除以玻尔磁子，然后取平方，所以减去u 
+divided by the Bohr Magneton and then
+it's gets squared so minus u over for a
+
+420
+00:38:31,150 --> 00:38:34,150
+瞬间除以Bohr Magneton平方，因为
+moment divided by the Bohr Magneton
+square right because the number of
+
+421
+00:38:34,150 --> 00:38:39,640
+分拆产生的旋转可能是网站上的磁矩，所以我们
+spin-offs might have spin downs is the
+magnetic moment on the site okay so we
+
+422
+00:38:39,640 --> 00:38:42,880
+可以重写这个交互项是一些我们不感兴趣的常数
+can rewrite this interaction term is
+some constant which we're not interested
+
+423
+00:38:42,880 --> 00:38:48,010
+减去你的四分之一，然后我将这一刻重写为磁化强度
+in minus u over four and then I'm going
+to rewrite this moment as magnetization
+
+424
+00:38:48,010 --> 00:38:55,119
+乘以单位B的面积乘以mu B平方，因此V等于单位体积
+times the volume of the unit cell over
+mu B squared so V equals volume of unit
+
+425
+00:38:55,119 --> 00:39:00,940
+单元格，之所以这样重写，是因为我想拥有
+cell and the reason I'm rewriting it
+that way is because I'd like to have
+
+426
+00:39:00,940 --> 00:39:05,170
+这东西作为磁化和磁化具有矩量
+this thing as a magnetization and
+magnetization has dimensions of moment
+
+427
+00:39:05,170 --> 00:39:08,830
+每单位体积，所以我必须放入单位体积的体积
+per unit volume so I have to put in a
+the volume of unit cell to have the
+
+428
+00:39:08,830 --> 00:39:13,450
+尺寸出来正确没关系，需要注意的是
+dimensions come out right okay and the
+thing to notice about this is that the
+
+429
+00:39:13,450 --> 00:39:19,530
+能量随着磁化强度变大，相互作用能变小
+energy the interaction energy gets
+smaller as the magnetization gets larger
+
+430
+00:39:19,530 --> 00:39:23,320
+为什么那么直觉实际上
+why is that
+well the intuition for that actually
+
+431
+00:39:23,320 --> 00:39:28,869
+如果所有自旋都在其他位置对齐，则来自保利排除原则
+comes from the Pauli exclusion principle
+if all the spins were aligned in other
+
+432
+00:39:28,869 --> 00:39:32,290
+如果磁化强度最大，那么就不会有相互作用
+words if the magnetization were maximum
+then there would be no interaction
+
+433
+00:39:32,290 --> 00:39:36,220
+能量，因为你永远不会有两个电子坐着的情况
+energy whatsoever because you can never
+have a situation where two electrons sat
+
+434
+00:39:36,220 --> 00:39:39,460
+在同一站点上，您仅需在有
+on the same site and you only have to
+pay this energy penalty when there are
+
+435
+00:39:39,460 --> 00:39:43,420
+同一位置上的两个电子，因此，如果您在同一位置极化所有自旋
+two electrons on the same site so if you
+polarize all your spins in the same
+
+436
+00:39:43,420 --> 00:39:47,530
+方向，您将获得尽可能小的交互能量，这就是为什么
+direction you get the minimum possible
+interaction energy and that's why it is
+
+437
+00:39:47,530 --> 00:39:51,760
+如果增加磁化强度，则下降的相互作用能是
+if you increase the magnetization you
+drop the interaction energy is that
+
+438
+00:39:51,760 --> 00:39:56,320
+清除好，好吧，从这张照片来看
+clear
+good all right so from this picture it
+
+439
+00:39:56,320 --> 00:40:00,460
+让您认为然后就可以了，一旦您打开了所有自旋的互动
+makes you think then okay once you turn
+on the interaction all the spins want to
+
+440
+00:40:00,460 --> 00:40:04,150
+对齐，但这并不容易，因为对齐旋转会降低您的动力
+align but it's not so easy because
+aligning the spins cost you kinetic
+
+441
+00:40:04,150 --> 00:40:08,470
+能量，你必须要让这两件事与之抗争
+energy and you have to you have to sort
+of let these two things fight it out
+
+442
+00:40:08,470 --> 00:40:12,160
+彼此，所以让我们提醒自己动力学发生了什么
+with each other so let's remind
+ourselves what happens to the kinetic
+
+443
+00:40:12,160 --> 00:40:19,000
+能量随着您改变系统的磁体而变化我们现在已经研究过了
+energy as you change the magnet of a
+system now we studied this before so if
+
+444
+00:40:19,000 --> 00:40:33,060
+您还记得我们在第一周保利·帕拉磁铁所做的保罗顺磁性
+you recall pauli paramagnetism which we
+did in the first week Pauli para magnet
+
+445
+00:40:33,060 --> 00:40:37,060
+旋转状态与能量状态的关系，看起来像这样，然后我们有
+of states of spin up versus energy it
+kind of looks like this and then we have
+
+446
+00:40:37,060 --> 00:40:42,609
+我们向下旋转的状态密度与能量的关系， 
+the density of states we spin down
+versus energy and it looks exactly the
+
+447
+00:40:42,609 --> 00:40:49,000
+一样，如果没有磁化，则将它们填充到同一水平
+same and if there's no magnetization you
+fill them both up to the same level this
+
+448
+00:40:49,000 --> 00:40:50,950
+听起来对Polly磁力很熟悉
+sounds familiar from Polly power
+magnetism
+
+449
+00:40:50,950 --> 00:40:55,390
+现在，如果您想使它们看起来应该相同，如果您想
+now if you want to make those are
+supposed to look identical if you want
+
+450
+00:40:55,390 --> 00:40:59,349
+拥有非零磁化强度，您需要做的是
+to have a nonzero magnetization what you
+have to do is you have to take some of
+
+451
+00:40:59,349 --> 00:41:03,190
+旋转并使其旋转，为此，我们将其中的一小部分
+the spin downs and make them spin ups so
+to do that let's take a sliver of these
+
+452
+00:41:03,190 --> 00:41:08,770
+旋转下来，我们必须将它们向上移动到更高的能量，所以这会花费您
+spin downs and we have to move them up
+to higher energy up here so it costs you
+
+453
+00:41:08,770 --> 00:41:14,440
+能量，所以这些应该对齐，所以要花费您精力
+energy so these were supposed to be
+aligned that so it costs you energy to
+
+454
+00:41:14,440 --> 00:41:17,349
+磁化强度不为零，动能消耗为非零
+have a non zero magnetization it cost
+you kinetic energy to have a non zero
+
+455
+00:41:17,349 --> 00:41:22,810
+磁化还可以，所以我们节省了一些相互作用能，但是却消耗了动力学
+magnetization alright so we saved some
+interaction energy but it cost kinetic
+
+456
+00:41:22,810 --> 00:41:26,050
+能量，所以我们必须权衡这些，以便计算
+energy so we have to trade those off
+against each other so in order to figure
+
+457
+00:41:26,050 --> 00:41:30,310
+要弄清楚这些是如何相互对抗的，我们必须弄清楚它们之间有多少
+out how those are battle against each
+other we have to figure out how much
+
+458
+00:41:30,310 --> 00:41:33,880
+能量实际上会花费您一些非零磁化强度，所以让我们
+energy it actually costs you to have
+some nonzero magnetization so let's do
+
+459
+00:41:33,880 --> 00:41:38,020
+所以首先我们要回到保利
+that
+so first we'll go back to the Pauli
+
+460
+00:41:38,020 --> 00:41:40,270
+功率磁计算，我们将为您设置
+power magnetic calculation so we're
+going to set you
+
+461
+00:41:40,270 --> 00:41:43,840
+零秒，所以现在我们回到非相互作用的电子，我是
+to zero for a second so now we're back
+to non-interacting electrons and I'm
+
+462
+00:41:43,840 --> 00:41:48,070
+将要写出的自由能是磁化强度的函数
+going to write the free energy as a
+function of magnetization as a function
+
+463
+00:41:48,070 --> 00:41:54,340
+单位体积的磁化强度，那么负m点BI会认为
+magnetization per unit volume and that
+will then the minus m dot B I think
+
+464
+00:41:54,340 --> 00:41:58,030
+每个人都可能会接受应该有一个这样的术语
+everyone's probably will accept that
+that's there should be a term like that
+
+465
+00:41:58,030 --> 00:42:02,140
+想要使磁化强度与自由能减m点B一致
+in the free energy minus m dot B that
+wants the magnetization to align with
+
+466
+00:42:02,140 --> 00:42:06,550
+与外部磁场，但第二项不那么明显，但
+the with the external magnetic field but
+then the second term is less obvious but
+
+467
+00:42:06,550 --> 00:42:13,120
+它采用M Squared mu形式，比Pauli磁化率高2倍
+it takes the form M Squared mu naught
+over 2 times the Pauli susceptibility
+
+468
+00:42:13,120 --> 00:42:18,100
+保利强力磁化率，我只想提醒您我们已经计算了
+Pauli power magnetic susceptibility and
+I'll just remind you we calculated this
+
+469
+00:42:18,100 --> 00:42:26,110
+在科德·保利（Paul Paul）嗨的学期的第一周，波莉（Polly）是喵
+in the in the first week of the term
+that cod Pauli was hi Polly is Mew
+
+470
+00:42:26,110 --> 00:42:31,900
+零μB平方乘以费米能量处的态密度就可以做到
+naught mu B squared times the density of
+states at the Fermi energy does that
+
+471
+00:42:31,900 --> 00:42:36,040
+听起来有点熟悉，现在我为什么写下来
+kind of sound familiar
+ok now why is it that I wrote down this
+
+472
+00:42:36,040 --> 00:42:40,660
+这里的术语比较复杂，为什么我认为这首先是正确的
+complicated terms here why do I think
+this is correct well first of all this
+
+473
+00:42:40,660 --> 00:42:44,530
+是磁化过程中的泰勒膨胀，所以在
+is sort of a Taylor expansion in the
+magnetization so this is linear in
+
+474
+00:42:44,530 --> 00:42:47,560
+磁化原理上存在二次方
+magnetization there's a quadratic in
+magnetization in principle there would
+
+475
+00:42:47,560 --> 00:42:50,320
+以及更高的术语，我们将忽略，因为我们有兴趣
+be higher terms as well which we're
+going to ignore because we're interested
+
+476
+00:42:50,320 --> 00:42:55,180
+通常以小磁化强度x'表示，但是为什么我不给这个名词
+in small magnetization x' in general but
+why would I give it this term mu naught
+
+477
+00:42:55,180 --> 00:43:00,460
+超过2个奇保利井，事实证明，它实际上必须具有这种形式，并且
+over 2 Chi Pauli well it turns out that
+it actually has to have this form and to
+
+478
+00:43:00,460 --> 00:43:03,730
+看到它必须具有这种形式，我们知道自由能应该是
+see that it has to have this form we
+know that the free energy should be
+
+479
+00:43:03,730 --> 00:43:09,340
+应该最小化，以便FDM必须等于零，并且
+should be minimized
+so the FDM has to equal zero and that
+
+480
+00:43:09,340 --> 00:43:17,170
+告诉我在R Chi Polly上减去的负B加M mu必须等于零，并且
+tells me that minus B plus M mu naught
+over R Chi Polly has to equal zero and
+
+481
+00:43:17,170 --> 00:43:24,160
+如果您只是重新排列，那就告诉我磁化作用是奇保利
+if you just rearrange that that tells me
+that the magnetization is Chi Pauli over
+
+482
+00:43:24,160 --> 00:43:29,470
+零倍磁场定义了奇保利
+mu naught times the magnetic field which
+is what defines Chi Pauli
+
+483
+00:43:29,470 --> 00:43:33,190
+保利对我们的自由电子气的敏感性的定义
+the definition of the Pauli
+susceptibility for our free electron gas
+
+484
+00:43:33,190 --> 00:43:37,390
+磁化强度应该是Kuip oli乘以磁场，从而表明
+is the magnetization should be Kuip oli
+times the magnetic field so that tells
+
+485
+00:43:37,390 --> 00:43:40,960
+我的自由能量必须具有我刚刚写下的形式
+me the free energy has to have that form
+that I just wrote down ok
+
+486
+00:43:40,960 --> 00:43:45,970
+这可能是您可能会经历的痛苦中的一招
+it's a little bit of a trick you could
+go through the agony of trying to
+
+487
+00:43:45,970 --> 00:43:49,720
+实际计算磁化强度能量是磁化强度的函数
+actually calculate the magnetization the
+energy is a function of magnetization
+
+488
+00:43:49,720 --> 00:43:53,380
+您会得到相同的结果，您会发现它必须以这种方式出现
+you get the same result you would
+discover it has to come out this way
+
+489
+00:43:53,380 --> 00:44:01,270
+好的，所以让我们关闭set set，将外部字段set B设为零
+okay so so then let's turn off set set
+the external field set B equal to zero
+
+490
+00:44:01,270 --> 00:44:09,000
+然后打开你不等于零的能量，那么我们得到的自由能是
+and turn turn you on you not equal to
+zero and then the free energy we get is
+
+491
+00:44:09,000 --> 00:44:14,050
+将是我们刚刚计算出的两个条件的组合
+going to be a combination of the two
+terms that we just calculated so free
+
+492
+00:44:14,050 --> 00:44:20,650
+那么每单位体积的能量就可以了，我们在这里将其关闭B，所以我
+energy per volume is then well okay we
+have this term here it turned off B so I
+
+493
+00:44:20,650 --> 00:44:29,800
+只是让M平方数变成了CAI poly的零，然后也要滚动
+just get M squared nu naught over to CAI
+poly but then also just about to scroll
+
+494
+00:44:29,800 --> 00:44:35,620
+顶上的减号是您的四倍
+off the top
+there's minus u over four times well
+
+495
+00:44:35,620 --> 00:44:43,690
+好的d覆盖在mu b平方的DZ平方的子像素上，我将得到
+okay d squared over mu b squared DZ
+squared of subdennis I'm going to get
+
+496
+00:44:43,690 --> 00:44:47,350
+除去V磁化强度的平方好，什么是V平方，但现在它将
+rid of a V magnetization squared okay
+what is V squared but now it's going to
+
+497
+00:44:47,350 --> 00:44:51,250
+是V，因为我写的是每单位体积的自由能，而不是
+be V because I'm writing the free energy
+per unit volume not the free energy in
+
+498
+00:44:51,250 --> 00:44:55,900
+这种情况好吧，所以我掉了一个体积的因子，所以这些正方形不他妈的
+this case okay so I dropped a factor of
+a volume so it's not these squares
+
+499
+00:44:55,900 --> 00:45:03,220
+是V好吧，我想这是可以排除M的原因，所以我们有M 
+is V alright so what this is I guess we
+can factor out the M so we have M
+
+500
+00:45:03,220 --> 00:45:13,560
+平方，然后超过2个chi poly-您通过mu B平方超过4 V 
+squared and then u naught over 2 chi
+poly - you over 4 V over mu B squared
+
+501
+00:45:13,560 --> 00:45:19,090
+这告诉我们，会有更高的术语两个术语是
+and this tells us and there will be
+higher terms two terms which are
+
+502
+00:45:19,090 --> 00:45:23,440
+四分之一的磁化强度，等等
+quartered akin in magnetization and so
+forth which are not interested in but
+
+503
+00:45:23,440 --> 00:45:27,790
+这里要意识到的关键是括号中的这个值是否小于0 
+the key thing to realize here is if this
+thing in the brackets is less than 0
+
+504
+00:45:27,790 --> 00:45:30,340
+那么磁化强度就想不为零
+then the magnetization wants to be
+nonzero
+
+505
+00:45:30,340 --> 00:45:33,700
+如果方括号中的东西大于0，那么磁化强度在哪里
+where is if the thing in the brackets is
+greater than 0 then the magnetization
+
+506
+00:45:33,700 --> 00:45:44,920
+想要设为0还好，那么这个准则就是法罗铁磁性的准则
+wants to be 0 okay so the criterion so
+criterion for ferromagnetism for farro
+
+507
+00:45:44,920 --> 00:45:57,430
+被称为斯托纳准则斯托纳准则是
+which is known as the stoner criterion
+stoner criterion is that this mu naught
+
+508
+00:45:57,430 --> 00:46:04,990
+超过2个Chi Poli-您的单位晶胞体积超过
+over 2 Chi Poli - you volume of the unit
+cell over
+
+509
+00:46:04,990 --> 00:46:09,580
+或玻尔磁子平方应小于零，因此当您打开
+or bohr magneton squared should be less
+than zero so when you turn on the
+
+510
+00:46:09,580 --> 00:46:13,960
+相互作用强度足够强，则相互作用强度就可以胜出
+interaction strength strong enough then
+the interaction strength wins and it
+
+511
+00:46:13,960 --> 00:46:18,400
+想要使自旋极化两极分化，而如果相互作用不强
+wants to have this the spins polarize
+whereas if the interaction is not strong
+
+512
+00:46:18,400 --> 00:46:22,810
+足够多，那么实际上具有相同数量的旋转和
+enough then in fact it's more beneficial
+to have an equal number of spin ups and
+
+513
+00:46:22,810 --> 00:46:26,020
+降低转速，因为您实际上可以这样节省动能
+spin downs because you save kinetic
+energy that way way actually we can
+
+514
+00:46:26,020 --> 00:46:29,680
+只需在Kai Poly的定义中将其重写即可
+rewrite this in a just putting in the
+definition of Kai poly we can write this
+
+515
+00:46:29,680 --> 00:46:37,440
+因为单位单元的体积乘以u乘以G的TF应该大于2 
+as volume of the unit cell times u times
+G a TF should be greater than two
+
+516
+00:46:37,440 --> 00:46:44,619
+等价的好，所以这就是我们从
+equivalent okay so that's what we get
+out of this mean field approximation for
+
+517
+00:46:44,619 --> 00:46:48,730
+弄清楚什么时候我们有铁磁性，但是有趣的事情之一
+figuring out when we have ferromagnetism
+but one of the things that's interesting
+
+518
+00:46:48,730 --> 00:46:54,369
+关于哈伯模型，您还可以获得哈伯反铁磁性哈伯
+about the hubbard model is you can also
+get a hubbard antiferromagnetism hubbard
+
+519
+00:46:54,369 --> 00:47:07,780
+反铁磁性反铁磁性，当我们使用大的U 
+anti ferromagnetism anti ferromagnetism
+and this occurs when we have use large u
+
+520
+00:47:07,780 --> 00:47:15,430
+每个位点有一个大的电子，因此处于Mott绝缘体状态Mott 
+large and one electron per site so this
+is in the Mott insulator regime Mott
+
+521
+00:47:15,430 --> 00:47:21,270
+绝缘体，因此，如果u大，则可以防止每个位置有两个电子
+insulator so if u is large it prevents
+you from having two electrons per site
+
+522
+00:47:21,270 --> 00:47:27,550
+或基本上可以防止这种情况，然后由于每个位点只有一个电子，因此
+or mostly prevents that and then since
+it's one electron per site you have this
+
+523
+00:47:27,550 --> 00:47:31,690
+电子的交通阻塞，您在每个位置上只有一个电子
+traffic jam of electrons where you have
+exactly one electron on every site and
+
+524
+00:47:31,690 --> 00:47:35,050
+说服自己这件事将成为我们阿姨的方式
+the way to convince yourself that this
+thing is going to be an auntie for our
+
+525
+00:47:35,050 --> 00:47:39,940
+磁铁是要尝试两种可能性，因此一种情况是考虑使用铁磁体
+magnet is to try the two possibilities
+so case one it is consider a ferromagnet
+
+526
+00:47:39,940 --> 00:47:47,550
+情况一被认为是铁磁体达拉磁体，所以我们有很多自旋
+case one is considered a ferromagnet
+daraa magnet so we have a bunch of spins
+
+527
+00:47:47,550 --> 00:47:51,880
+每个电子都带有自旋，它们位于每个位置，它们都对齐，并且
+electrons each with their spin sitting
+on each site they're all aligned and the
+
+528
+00:47:51,880 --> 00:47:56,740
+这种情况下的能量实际上为零基态的能量为
+energy of this situation is actually
+zero the energy of the ground state is
+
+529
+00:47:56,740 --> 00:48:02,560
+正好为零，而零为零的原因则是您永远无需支付任何互动
+is exactly zero and the reason it's zero
+is well you never pay any interaction
+
+530
+00:48:02,560 --> 00:48:06,580
+能量，因为根据泡利原理，没有电子坐在同一位置
+energy because due to the Pauli
+principle no electrons sit on the same
+
+531
+00:48:06,580 --> 00:48:11,560
+网站，所以您永远不必支付多晶硅价格，也不必支付u能源
+site ever so you don't ever pay the poly
+price you don't ever pay the u energy
+
+532
+00:48:11,560 --> 00:48:16,510
+而且电子根本不能从一个位置跳到另一个位置，因为
+and also the electrons can't hop from
+one site to the other at all because
+
+533
+00:48:16,510 --> 00:48:19,560
+交通堵塞，所以他们不能跳，所以
+there's in the
+traffic jam so they can't hop so the
+
+534
+00:48:19,560 --> 00:48:23,790
+跳跃的总能量现在也为零第二种可能性是
+total energy of hopping is also zero
+now the second possibility is that you
+
+535
+00:48:23,790 --> 00:48:29,460
+有一个反铁磁体的盒子可以放我们的磁体，这还多了一点
+have an antiferromagnet case to ante for
+our magnet and this is a little more
+
+536
+00:48:29,460 --> 00:48:36,410
+之所以复杂，是因为我们已经降低了速度，降低了速度，等等
+complicated because we have spin up spin
+down spin up spin down and so forth and
+
+537
+00:48:36,410 --> 00:48:39,990
+在这里，电子可以跳到
+here
+well an electron can hop to the
+
+538
+00:48:39,990 --> 00:48:44,910
+相邻站点，但必须为此付出一定的代价，这样您就可以旋转
+neighboring site but it has to it has to
+pay a price to do so so you'll get spin
+
+539
+00:48:44,910 --> 00:48:48,450
+向上旋转，您在这一侧将有0，然后在此侧，您将具有上下
+up spin down you'll have 0 on this side
+and then you have up-down on this side
+
+540
+00:48:48,450 --> 00:48:53,460
+它消耗了你的能量U，然后又在这边上升，所以这是一个兴奋的状态
+which cost you energy U and then up on
+this side so this is an excited state
+
+541
+00:48:53,460 --> 00:48:57,720
+这是一个有效的兴奋状态，可能会消耗一些能量，因此您可能会很大
+which is a valid excited state it costs
+you some energy you you might be large
+
+542
+00:48:57,720 --> 00:49:01,680
+但至少实际上你可以做这样的事情，所以二阶
+but at least virtually you can make such
+a thing and so in second-order
+
+543
+00:49:01,680 --> 00:49:06,000
+扰动理论由于这种跳跃过程，您在
+perturbation Theory due to this sort of
+hopping process you get a shift in the
+
+544
+00:49:06,000 --> 00:49:10,770
+所有可能的激发x'激发跳变之和的能量
+energy which is sum over all possible
+excitation x' excitation hopping
+
+545
+00:49:10,770 --> 00:49:18,870
+哈密​​尔顿基态平方于能量0减去能量激发态
+hamiltonian ground state squared over
+energy 0 minus energy excited state and
+
+546
+00:49:18,870 --> 00:49:24,560
+这小于0，所以实际上能量变化小于0，所以
+this is less than 0 so in fact the
+change in energy is less than 0 so
+
+547
+00:49:24,560 --> 00:49:31,410
+反铁磁的反铁磁能量小于一个
+antiferromagnetic energy for
+antiferromagnet is less than energy of a
+
+548
+00:49:31,410 --> 00:49:38,750
+当您在此莫特绝缘子中每个位点有一个电子时，铁磁体
+ferromagnet when you have one electron
+per site in this in this Mott insulator
+
+549
+00:49:38,750 --> 00:49:43,020
+现在限制，这似乎有点复杂，但让我改写一下
+limit now this might seem a little
+complicated but let me rephrase what we
+
+550
+00:49:43,020 --> 00:49:48,900
+如果您有铁磁体，那么就做，所以在铁磁体的情况下，每个电子
+just did if you have a ferromagnet so in
+the case of a ferromagnet each electron
+
+551
+00:49:48,900 --> 00:49:53,310
+基本上坐在一个无限高的井里，你不能跳到左边
+is basically sitting in an infinitely
+tall well you can't hop to the left it
+
+552
+00:49:53,310 --> 00:49:56,040
+不能跳到Pauli排除绝对禁止的右边
+can't hop to the right that's absolutely
+forbidden by the Pauli exclusion
+
+553
+00:49:56,040 --> 00:49:59,190
+原理，所以您应该将其视为无限地存在的电子
+principle so you should think of it as
+an electron sitting in the infinitely
+
+554
+00:49:59,190 --> 00:50:08,550
+高的井，而对于反铁磁体，您在有限的井中有一个电子
+tall well whereas for an antiferromagnet
+you have an electron in a finite well so
+
+555
+00:50:08,550 --> 00:50:12,690
+井的高度只有您自己，它可以跳至所需的邻近站点
+the height of the well is only you it
+can hop to the neighboring site it costs
+
+556
+00:50:12,690 --> 00:50:17,790
+能量u但它可以做到，但Pauli和
+an energy u but it can do it it's not
+forbidden by Pauli and the energy of the
+
+557
+00:50:17,790 --> 00:50:21,930
+具有有限势垒的反铁磁体比铁磁体的能量低
+antiferromagnet with a finite barrier is
+lower than the energy of the ferromagnet
+
+558
+00:50:21,930 --> 00:50:26,310
+具有无限的障碍，因此反铁磁体受到青睐，所以这是
+with the infinite barrier so the
+antiferromagnet is favored so this is
+
+559
+00:50:26,310 --> 00:50:30,810
+某种原因使反铁磁性有点，所以它使
+sort of one of the things that makes the
+anti ferromagnetism a little so it makes
+
+560
+00:50:30,810 --> 00:50:33,200
+哈伯德模型很有趣，它可以给你
+the hubbard model
+quite interesting that it can give you
+
+561
+00:50:33,200 --> 00:50:36,469
+反铁磁性它可以给您铁磁性它可以给您很多
+anti ferromagnetism it can give you
+ferrimagnetism it can give you lots of
+
+562
+00:50:36,469 --> 00:50:39,380
+其他物理学，包括超导电荷密度波
+other physics as well including
+superconductivity charge density waves
+
+563
+00:50:39,380 --> 00:50:42,410
+还有各种各样的其他事情，这就是为什么有十万
+and all sorts of other things which is
+why there's been a hundred thousand
+
+564
+00:50:42,410 --> 00:50:46,549
+用这种哈伯德模型写的论文，你不为我所有的一切负责
+papers written on this hubbard model
+you're not responsible for all of that i
+
+565
+00:50:46,549 --> 00:50:49,489
+保证您应该了解流动铁磁性
+promise you're supposed to know
+something about itinerant ferromagnetism
+
+566
+00:50:49,489 --> 00:50:55,880
+但是没关系，所以请坐着不动，我们将继续本讲座，因为我们
+but that's all okay so sit still we're
+gonna go over on this lecture because we
+
+567
+00:50:55,880 --> 00:50:58,430
+实际上已经结束了课程，所以我只想包装所有内容
+actually have come to the end of the
+course so I just want to wrap everything
+
+568
+00:50:58,430 --> 00:51:03,049
+我们要取消明天的讲座这实际上是按计划进行的
+up we're gonna cancel tomorrow's lecture
+this is this is actually on schedule we
+
+569
+00:51:03,049 --> 00:51:06,049
+实际上是计划要举行的二十一次讲座，但我会多留一点
+is it's actually planned to be twenty
+one lectures but I leave an extra
+
+570
+00:51:06,049 --> 00:51:09,890
+在发生灾难或落后时进行演讲，我们没有落后，我们做了
+lecture in case of disasters or running
+behind and we didn't run behind we did
+
+571
+00:51:09,890 --> 00:51:14,569
+一切都按计划进行，因此我们实际上已经完成了该课程，或者
+everything exactly as planned so we have
+actually finished the course more or
+
+572
+00:51:14,569 --> 00:51:19,700
+在结束之前，少一些组织评论
+less a couple of sort of organizational
+comments before before the closing
+
+573
+00:51:19,700 --> 00:51:22,519
+首先显然没有演讲
+remarks
+first of all obviously no lecture
+
+574
+00:51:22,519 --> 00:51:28,160
+明天，这是第一条评论，第二条评论是您知道还是不知道
+tomorrow that's the first comment the
+second comment is you know one or not
+
+575
+00:51:28,160 --> 00:51:31,249
+知道一个，但很少有人实际使用此留言板
+know one but very few people actually
+use the message board heavily this this
+
+576
+00:51:31,249 --> 00:51:35,479
+这个词没关系，我不知道为什么这是人们不喜欢的，那没关系
+term that's okay I don't know why it is
+people didn't like it that's that's fine
+
+577
+00:51:35,479 --> 00:51:39,829
+但您知道此留言板仍在运行，我想随着它的到来
+but you know this message board is still
+up and running and I think as it gets
+
+578
+00:51:39,829 --> 00:51:42,979
+靠近考试的人们会更热衷于使用它并询问
+closer to exams people will get more
+enthusiastic about using it and asking
+
+579
+00:51:42,979 --> 00:51:46,130
+很好的问题就是要在那里存在，所以不要
+questions that's fine that's what it's
+meant that to be there for so don't
+
+580
+00:51:46,130 --> 00:51:49,549
+犹豫使用它向您的心脏的内容提出问题，我将尝试回答
+hesitate to use it ask questions to your
+heart's content I will try to answer as
+
+581
+00:51:49,549 --> 00:51:54,170
+当您为考试修改时，我会尽可能多地选择我想要的另一件事
+many of them as I can as you revise for
+your exams the other thing that I want
+
+582
+00:51:54,170 --> 00:52:00,049
+问您要做的是让我知道您想要的修订讲座内容
+to ask you to do is let me know what you
+want to have for the revision lectures
+
+583
+00:52:00,049 --> 00:52:04,009
+我们必须在三位一体任期的第四周修订讲座， 
+we have to revision lectures in the
+fourth week of Trinity term and I'm
+
+584
+00:52:04,009 --> 00:52:07,640
+最无聊的事情总是完全不知所措
+always completely at a loss as to what
+the most useful thing to talk about is
+
+585
+00:52:07,640 --> 00:52:11,569
+如果您认为我应该尝试给出一个概述，那么您可以
+if you think I should try to just give
+an overview to do that if you there are
+
+586
+00:52:11,569 --> 00:52:14,930
+您想从上一年的考试中得到的特定问题
+particular questions from that from
+previous year's exams that you want to
+
+587
+00:52:14,930 --> 00:52:19,209
+走过去，让我知道我会尝试组装一些人们会觉得有用的东西
+go over let me know I'll try to assemble
+something that people will find useful
+
+588
+00:52:19,209 --> 00:52:24,319
+好了，所以当我们开始的时候，课程的一些总结性想法
+alright so just a couple of closing
+ideas for the course when we started
+
+589
+00:52:24,319 --> 00:52:29,150
+七个半星期前，我向我保证，到课程结束时
+seven and a half weeks ago I promised
+that that by the end of the course we'd
+
+590
+00:52:29,150 --> 00:52:32,329
+其实对我们周围的世界了解得更多，我认为我们
+actually know something more about the
+the world around us and I think we
+
+591
+00:52:32,329 --> 00:52:36,289
+我们真的知道像您这样的事情吗，为什么钻石透明并且
+genuinely do we know things like you
+know why diamonds transparent and and
+
+592
+00:52:36,289 --> 00:52:40,969
+为什么要熨磁铁，为什么固体会在较高温度下膨胀，还有很多
+why irons a magnet and why solids expand
+at higher temperature and and many many
+
+593
+00:52:40,969 --> 00:52:44,359
+更多的东西，其中有些非常深奥，而有些则不那么深奥
+more things and some of them very
+esoteric and some of them less esoteric
+
+594
+00:52:44,359 --> 00:52:47,789
+诸如量子量子效应之类的东西对热很重要
+things like quantum
+quantum effects are important for heat
+
+595
+00:52:47,789 --> 00:52:51,839
+容量或晶体管的工作方式，以及如何确定晶体
+capacity or how it transistor works and
+and how you determine the crystal
+
+596
+00:52:51,839 --> 00:52:56,009
+我希望为从事科学工作的人们提供X射线材料的结构
+structure of a material in x-ray for
+those of you who go on in science I hope
+
+597
+00:52:56,009 --> 00:53:00,239
+这为将来的学习和发现更多内容奠定了良好的基础
+this forms a good foundation for for
+future learning and discovering more
+
+598
+00:53:00,239 --> 00:53:03,989
+沿着相同的路线，甚至在其他领域中的事物， 
+things along the same lines or even in
+other fields for those of you don't go
+
+599
+00:53:03,989 --> 00:53:08,219
+进入科学领域，你知道那也很好，我希望至少是
+on into science that's you know that's
+fine too I hope that's at least been a
+
+600
+00:53:08,219 --> 00:53:12,930
+对自然世界的美好而有趣的探索，我希望它能使您离开
+good and entertaining exploration of the
+natural world and I hope it leaves you
+
+601
+00:53:12,930 --> 00:53:17,549
+至少我对主题有了更好的理解
+with a better appreciation for the
+subject at the very least I do realize
+
+602
+00:53:17,549 --> 00:53:20,969
+本课程内容很多，对此我深表歉意
+that there's an awful lot of material in
+this course and I apologize about that
+
+603
+00:53:20,969 --> 00:53:26,039
+考试或多或少地固定了一定数量的材料
+it was more or less a fixed amount of
+material fixed by the exams the exam
+
+604
+00:53:26,039 --> 00:53:30,150
+委员会和课程提纲，所以我们实际上没有那么多的自由删除权
+committee and the syllabus so we don't
+really have that much freedom to remove
+
+605
+00:53:30,150 --> 00:53:34,140
+因此我意识到很多人认为这是从
+material so I realized that a lot of
+people view this as drinking from a
+
+606
+00:53:34,140 --> 00:53:37,710
+你知道，只有这么多的信息才会来袭你
+firehose you know it's just so much
+information coming you coming at you at
+
+607
+00:53:37,710 --> 00:53:42,930
+同时很难吸收，但具有讽刺意味的是，最大的问题是
+the same time it's hard to absorb but
+ironically the the biggest problem with
+
+608
+00:53:42,930 --> 00:53:46,499
+当然，实际上里面没有足够的东西，我不是说
+the course is that there's actually not
+enough in it and not I don't say that
+
+609
+00:53:46,499 --> 00:53:49,469
+因为我觉得您需要为考试学习更多的知识，所以我说是因为
+because I feel like you need to learn
+more for your exams I say that because
+
+610
+00:53:49,469 --> 00:53:53,369
+凝聚态物质是一个巨大的主题，以至于我们和我们几乎都没有
+condensed matter is such an enormous
+subject that it we and we've hardly
+
+611
+00:53:53,369 --> 00:53:57,180
+划伤表面似乎把它留在这里真可惜，但这就是全部
+scratched the surface it seems such a
+shame to leave it here but this is all
+
+612
+00:53:57,180 --> 00:54:02,670
+我们有时间可以轻松地进行为期一年或更长时间的材料讲座
+we have time for we could easily do a
+year of lectures or more on material
+
+613
+00:54:02,670 --> 00:54:06,719
+物理或量子效应或统计效应或设备物理或
+physics or quantum effects or
+statistical effects or device physics or
+
+614
+00:54:06,719 --> 00:54:12,119
+我们根本没有提到的十几种事物中的任何一种
+any one of a dozen types of things that
+we just barely mentioned at all and as
+
+615
+00:54:12,119 --> 00:54:15,479
+以及许多我们甚至没有涉及到的超导体超流体
+well as many many things that we didn't
+even get to superconductors superfluids
+
+616
+00:54:15,479 --> 00:54:19,829
+等等，我希望我真的希望你们中的许多人有
+fractionalized particles so forth and so
+on I hope I really hope many of you have
+
+617
+00:54:19,829 --> 00:54:24,359
+将来有机会继续学习这些东西的机会
+the opportunity to go on and learn about
+those things in the future and hopefully
+
+618
+00:54:24,359 --> 00:54:27,539
+它将会像您学到的一样有趣，甚至更有趣
+it will be as entertaining or even more
+entertaining as what you've learned so
+
+619
+00:54:27,539 --> 00:54:31,890
+最后，我只想感谢大家参加讲座和
+far finally I just want to thank you all
+for having come to lectures and having
+
+620
+00:54:31,890 --> 00:54:36,559
+整个学期看起来都很热情，非常感谢
+looked enthusiastic throughout the term
+thank you very much
+
+621
+00:54:41,260 --> 00:54:43,320
+您
+you
+

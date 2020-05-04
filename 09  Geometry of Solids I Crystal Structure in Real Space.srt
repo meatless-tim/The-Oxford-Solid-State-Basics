@@ -1,0 +1,3546 @@
+1
+00:00:00,030 --> 00:00:04,740
+好吧，让我们开始吧，欢迎回到这是第九次演讲
+okay let's uh let's get going welcome
+back this is a ninth lecture of the
+
+2
+00:00:04,740 --> 00:00:08,730
+浓缩当然是几个视频中的一些快速事项
+condensed matter of course a couple of
+quick things first of all the the videos
+
+3
+00:00:08,730 --> 00:00:11,250
+从他们开始在线上的讲座中可以找到他们
+from the lectures they're starting to
+appear online you can get to them
+
+4
+00:00:11,250 --> 00:00:15,929
+如果您想尝试一下，它们已从我的网页链接了，请再次观看
+they're linked from my web page if you
+want to try them out watch them again if
+
+5
+00:00:15,929 --> 00:00:19,430
+您发现它很有用，如果您对该技术有任何疑问，请告诉我
+you find it's useful let me know if you
+have any trouble with the technology
+
+6
+00:00:19,430 --> 00:00:24,300
+到目前为止，它仍在故障排除中，还有留言板
+where it's still troubleshooting some
+things also the message board so far
+
+7
+00:00:24,300 --> 00:00:28,380
+人们没有那么多地使用它，请不要害羞，我保证你会
+people haven't used it all that much
+please don't be shy I promise you'll
+
+8
+00:00:28,380 --> 00:00:33,180
+觉得它很有帮助，所以在这一点上，我们大约是课程的三分之一
+find it helpful so at this point we're
+about a third the way through the course
+
+9
+00:00:33,180 --> 00:00:38,070
+所以值得停下来一秒钟，盘点一下我们在哪里
+so it's it's worth sort of stopping for
+a second and taking stock of where we
+
+10
+00:00:38,070 --> 00:00:42,180
+到目前为止，我们去过的地方和去过的地方，我们一直在寻找
+are and where we've been and where we're
+going so far we've really been looking
+
+11
+00:00:42,180 --> 00:00:46,260
+试图建立某种微观的理解
+at trying to build up some sort of
+microscopic understanding of the
+
+12
+00:00:46,260 --> 00:00:49,950
+材料的宏观特性我们从几个比较粗糙的材料开始
+macroscopic properties of materials we
+started with a couple of rather crude
+
+13
+00:00:49,950 --> 00:00:53,610
+材料的图片，然后我们开始查看更详细的信息
+pictures of materials and then we
+started looking at more detailed
+
+14
+00:00:53,610 --> 00:00:57,149
+材料，但只在一个维度上，所以最终我们希望有一些
+materials but only in one dimension so
+eventually we'd like to have some
+
+15
+00:00:57,149 --> 00:01:00,870
+材料的详细图片，但是在三个维度上，我们将转向
+detailed pictures of materials but in
+three dimensions so we're going to turn
+
+16
+00:01:00,870 --> 00:01:04,589
+我们现在关注三个维度，这实际上使我们的生活
+our attention to three dimensions now
+and this actually makes our life a
+
+17
+00:01:04,589 --> 00:01:08,790
+有点困难，有点复杂，但这是
+little bit more difficult a little bit
+more complicated but but this is the
+
+18
+00:01:08,790 --> 00:01:12,479
+描述真实材料的最终目标，在这一点上值得
+eventual objective to describe real
+materials and at this point it's worth
+
+19
+00:01:12,479 --> 00:01:15,689
+回想我在第一次演讲中说的一件事
+thinking back to one of the things that
+I said in the very first lecture that
+
+20
+00:01:15,689 --> 00:01:19,140
+凝聚态物理世界极为广阔而多样，一旦我们
+the world of condensed matter physics is
+extremely broad and diverse and once we
+
+21
+00:01:19,140 --> 00:01:23,729
+了解原子之间如何相互键合，您知道离子共价
+understand how it is that atoms bond to
+each other you know an ionic covalent
+
+22
+00:01:23,729 --> 00:01:27,960
+氢金属或范德华力键可以开始建立巨大的
+hydrogen metallic or Vander Waals bonds
+you can start building up an enormous
+
+23
+00:01:27,960 --> 00:01:33,060
+各种不同的材料进行研究，因此似乎我们应该进行
+variety of different materials to study
+and so it seems appropriate that we do a
+
+24
+00:01:33,060 --> 00:01:36,750
+某些类型的凝结物质的强制性游览
+little bit of an obligatory tour of some
+of the types of condensed matter that
+
+25
+00:01:36,750 --> 00:01:40,650
+我们实际上并不会专注于此，但是值得一提
+we're not actually going to focus on but
+that are out there and are worth knowing
+
+26
+00:01:40,650 --> 00:01:45,420
+至少它们存在，所以这里只是一些浓缩的例子
+that at least that they exist so here
+are just a few examples of condensed
+
+27
+00:01:45,420 --> 00:01:49,680
+物质物理学这是我们要去的一种凝聚态物理学
+matter physics this is the one type of
+condensed matter physics we are going to
+
+28
+00:01:49,680 --> 00:01:52,649
+研究结晶固体，我还有很多要说的
+study the crystalline solids and I'll
+have a whole lot more to say about
+
+29
+00:01:52,649 --> 00:01:56,310
+后来关于结晶固体的一般概念，是否有些
+crystalline solids later on the general
+idea of a crystalline solid is it some
+
+30
+00:01:56,310 --> 00:02:00,180
+原子的周期性排列，通常是宏观的
+sort of periodic arrangement of atoms
+and very frequently the macroscopic
+
+31
+00:02:00,180 --> 00:02:05,280
+晶体的形态反映了您的基础结构
+morphology of the of the crystal
+reflects its underlying structure as you
+
+32
+00:02:05,280 --> 00:02:10,709
+可以在这张图片中看到这张水晶的特定图片是
+can sort of see in this in this picture
+this particular picture of crystal is is
+
+33
+00:02:10,709 --> 00:02:14,640
+石英二氧化硅在美丽的faul晶体中，您可以看到它
+quartz silicon dioxide in a beauty
+faul crystal and you can see that its
+
+34
+00:02:14,640 --> 00:02:22,890
+结构以某种方式反映了原子如何被组合在一起
+structure somehow is reflecting how the
+atoms are put together one can also have
+
+35
+00:02:22,890 --> 00:02:26,940
+晶体类型稍微复杂一些，而在大多数晶体中
+slightly more complicated types of
+crystals whereas in most crystals in
+
+36
+00:02:26,940 --> 00:02:31,710
+这些晶体原子可以通过离子或共价键结合在一起
+these crystals atoms are held together
+in ionic or covalent bonds you can have
+
+37
+00:02:31,710 --> 00:02:35,460
+ Vander Waals键非常重要的情况，所以在此图中
+situations where Vander Waals bonds are
+extremely important so in this picture
+
+38
+00:02:35,460 --> 00:02:38,730
+这就是所谓的分子晶体，这里发生的是你有很多
+this is known as a molecular crystal
+what happens here is you have a lot of
+
+39
+00:02:38,730 --> 00:02:42,570
+原子聚在一起形成一个分子，它们牢固地结合在分子中
+atoms coming together to form a molecule
+they're strongly bonded in the molecule
+
+40
+00:02:42,570 --> 00:02:46,350
+通过共价键或离子键，然后分子聚在一起形成一个
+via covalent or ionic bonds but then the
+molecules come together to form a
+
+41
+00:02:46,350 --> 00:02:49,860
+晶体在这种情况下分子之间的键非常弱
+crystal where the it's very weak bonding
+between the molecules in this case
+
+42
+00:02:49,860 --> 00:02:54,690
+范德华勒斯（Vander Waals）粘合了这张特殊的照片，描绘了C 60 60碳
+Vander Waals bonds this particular
+picture is a depiction of C 60 60 carbon
+
+43
+00:02:54,690 --> 00:02:57,720
+原子聚在一起形成足球形状，或者如果您位于
+atoms coming together to make a soccer
+ball shape or if you're on this side of
+
+44
+00:02:57,720 --> 00:03:00,810
+海洋，这是一种足球形状，我想在足球的另一面是
+the ocean it's a football shape I guess
+on the other side of football is a
+
+45
+00:03:00,810 --> 00:03:06,930
+无论如何，它们的形状都不同，所以它们聚在一起形成这些C 60分子
+different shape anyway so they come
+together to make these C 60 molecules
+
+46
+00:03:06,930 --> 00:03:10,530
+和C 60分子是非常不活泼的物种，但它们仍然可以结合
+and the C 60 molecules they're very
+inactive species but they can still bond
+
+47
+00:03:10,530 --> 00:03:16,500
+可以通过范德华力结合在一起形成晶体
+together forming to form a crystal via
+Vander Waals bonding one can have
+
+48
+00:03:16,500 --> 00:03:21,270
+情况有些不那么井井有条的情况
+situations where you have a something
+where it's not so organized a little bit
+
+49
+00:03:21,270 --> 00:03:25,410
+更无序的是无定形固体
+more disordered this is what's known as
+an amorphous solid the word amorphous
+
+50
+00:03:25,410 --> 00:03:30,300
+来自希腊语，没有形式，显然该对象具有某种形式
+comes from Greek meaning without form
+obviously the object has form of some
+
+51
+00:03:30,300 --> 00:03:35,130
+排序，但它是无序形式，这是二氧化硅的另一种描述，但
+sort but it's a disordered form this is
+another depiction of silicon dioxide but
+
+52
+00:03:35,130 --> 00:03:39,350
+是无定形二氧化硅，这里的微观结构是蓝色
+it's amorphis silicon dioxide the
+microscopic structure here the blue
+
+53
+00:03:39,350 --> 00:03:45,690
+物体应该是硅，红色物体是氧气
+objects are supposed to be silicon and
+the and the red objects are oxygen every
+
+54
+00:03:45,690 --> 00:03:50,160
+硅与四个氧键合每个氧与两个硅键合
+silicon is bonded to four oxygen every
+oxygen is bonded to two silicon's and
+
+55
+00:03:50,160 --> 00:03:55,650
+通常我们熟悉这种无定形二氧化硅作为窗口
+generally we are familiar with this
+silicon dioxide amorphous as window
+
+56
+00:03:55,650 --> 00:04:00,630
+玻璃具有与其晶体表弟石英相同的许多特性，但它
+glass has a lot of the same properties
+as its crystalline cousin quartz but it
+
+57
+00:04:00,630 --> 00:04:06,960
+是一种略有不同的材料，我们也可以具有无序的结构，例如
+is a slightly different material we can
+also have disordered structures such as
+
+58
+00:04:06,960 --> 00:04:12,150
+这里的液体和液体之间原子之间的吸引力
+liquids there here and in liquids
+there's attraction between atoms or
+
+59
+00:04:12,150 --> 00:04:17,370
+分子，但是将其保持在永久配置中并不是那么牢固
+molecules but it's not so strong to keep
+it held in a permanent configuration the
+
+60
+00:04:17,370 --> 00:04:21,899
+原子仍然可以有足够的热能来回移动，这使得
+the atoms can still have enough thermal
+energy to move around and that gives the
+
+61
+00:04:21,899 --> 00:04:26,910
+流动它可以流动的属性，您可能会遇到一些情况
+liquid its property that it can flow you
+can have situations where you
+
+62
+00:04:26,910 --> 00:04:30,360
+具有一定流动性和一定结晶度的部分顺序
+a partial order with a some amount of
+flowing in some amount of crystallinity
+
+63
+00:04:30,360 --> 00:04:34,410
+或剩余的订单数量，因此这张图片被称为
+or some amount of order that remains so
+this picture is known as what's known as
+
+64
+00:04:34,410 --> 00:04:38,070
+液晶剩下的顺序是所有这些分子
+a liquid crystal the order that remains
+is that all of these molecules these
+
+65
+00:04:38,070 --> 00:04:42,840
+看起来像鱼雷或Orzo的东西都保持了方向
+things that look like torpedoes or orzo
+are they all retain their orientation
+
+66
+00:04:42,840 --> 00:04:46,980
+它们都朝着相同的方向倾斜，并且都排成一排，但是
+they're all angled to the same direction
+and they all line up in stacks but
+
+67
+00:04:46,980 --> 00:04:50,700
+在每个堆栈中它们都是无序的，它们实际上可以在堆栈中流动
+within each stack they're disordered and
+they can actually flow within the stack
+
+68
+00:04:50,700 --> 00:04:53,340
+这就是使它们成为液晶的原因，并且种类繁多
+and that's what makes them a liquid
+crystal and there's a huge variety of
+
+69
+00:04:53,340 --> 00:04:57,450
+液晶取决于您保留的订单类型和类型
+liquid crystals depending on what type
+of order you retain and what type of
+
+70
+00:04:57,450 --> 00:05:03,300
+秩序在混乱和混乱之间被抛弃了一半
+order gets thrown away halfway between
+the disorder and disorder is also the
+
+71
+00:05:03,300 --> 00:05:06,630
+准晶体的想法这个特殊的图片就是所谓的
+idea of the quasi crystal this
+particular picture is what's known as a
+
+72
+00:05:06,630 --> 00:05:10,950
+彭罗斯（Penrose）瓷砖以罗杰·彭罗斯（Roger Penrose）最著名的数学家之一的名字命名
+Penrose tile named after Roger Penrose
+one of the most famous mathematicians
+
+73
+00:05:10,950 --> 00:05:14,180
+在牛津，这里是世界上最著名的数学家之一
+here at Oxford one of the most famous
+mathematicians in the world actually
+
+74
+00:05:14,180 --> 00:05:19,650
+无论如何，这是由两种不同类型的瓷砖组成的，这些蓝色的小蓝
+anyway this is made up of two different
+types of tiles these little blue blue
+
+75
+00:05:19,650 --> 00:05:22,500
+对象和这些绿色的小对象，它们堆叠在一起适合
+objects and these little green objects
+and they stack together they fit
+
+76
+00:05:22,500 --> 00:05:27,120
+完美地结合在一起，这是一些非常有序的安排，但实际上
+perfectly together and it's some very
+ordered arrangement but in fact all the
+
+77
+00:05:27,120 --> 00:05:31,260
+通往无限的方式，模式从不重复，它是有序的但不重复
+way out to infinity the pattern never
+repeats it's a ordered but non repeating
+
+78
+00:05:31,260 --> 00:05:34,620
+图案，有些具有这种特性的材料被称为
+pattern and there are materials that
+have this property that are known as
+
+79
+00:05:34,620 --> 00:05:38,580
+准晶体存在时间相当长，引起很大争议
+quasi crystals it was very controversial
+that they existed for quite some time it
+
+80
+00:05:38,580 --> 00:05:42,630
+实际上已经确定它们确实存在，并且获得了诺贝尔奖
+has actually been determined that yes
+indeed they do exist and the Nobel Prize
+
+81
+00:05:42,630 --> 00:05:47,160
+就在几年前被授予奖项的还有聚合物的想法
+was awarded for it just a couple years
+ago there's also the idea of a polymer
+
+82
+00:05:47,160 --> 00:05:51,840
+这是一维长而长的分子DNA， 
+which is sort of a one-dimensional long
+very long molecule DNA is one that
+
+83
+00:05:51,840 --> 00:05:55,080
+您可能很熟悉，但是有很多聚合物，例如聚乙烯
+you're probably familiar with but
+there's many polymers like polyethylene
+
+84
+00:05:55,080 --> 00:05:59,160
+例如，聚合物具有许多其他特性
+for example and polymers have a lot of
+properties that are unlike other
+
+85
+00:05:59,160 --> 00:06:03,870
+我们可能会在一件事中熟悉的材料知道它们的流动性
+materials that we might be familiar with
+for one thing in you know their fluid
+
+86
+00:06:03,870 --> 00:06:07,530
+在那里，就像一碗意大利面，很多这样的串
+phase there and sort of like a bowl of
+spaghetti a lot of these strands sort of
+
+87
+00:06:07,530 --> 00:06:11,880
+全部混合在一起，就其而言，它们具有非常非牛顿的行为
+all mixed in together and they have a
+very non Newtonian behavior in terms of
+
+88
+00:06:11,880 --> 00:06:15,180
+他们的流体动力学，其粘度非常依赖于
+their fluid dynamics that their
+viscosity depends very strongly on the
+
+89
+00:06:15,180 --> 00:06:18,570
+您正在考虑的时间范围，因此如果您从未用过
+timescales that you're considering so if
+you've never done this experiment with
+
+90
+00:06:18,570 --> 00:06:22,500
+玉米淀粉和水，你可以混合一些玉米淀粉和水， 
+cornstarch and water you can sort of mix
+up a goop of cornstarch and water that
+
+91
+00:06:22,500 --> 00:06:26,220
+会像液体一样倒，您可以像液体一样将手放在其中，但是如果您碰到
+will pour like a fluid you can put your
+hands in it like a fluid but if you hit
+
+92
+00:06:26,220 --> 00:06:31,140
+用锤子敲它会破裂，这真令人印象深刻，您知道问题是
+it with a hammer it will crack it's
+really impressive you know the issue is
+
+93
+00:06:31,140 --> 00:06:36,270
+那些长的绳子需要一些时间才能纠缠，所以如果您尝试
+that that the the long strands they take
+some time to unentangled so if you try
+
+94
+00:06:36,270 --> 00:06:39,870
+快速移动它们，他们会感觉很扎实，但是如果您给他们一些时间
+to move them very quickly they'll feel
+like a solid but if you give them time
+
+95
+00:06:39,870 --> 00:06:42,990
+放松一下，他们会彼此经过的，所以这只是一个
+to relax they'll
+past each other okay so that's just a
+
+96
+00:06:42,990 --> 00:06:47,220
+非常简短地浏览了凝聚态中的一些主题，我们可以
+very brief tour through some of the
+topics in condensed matter that we could
+
+97
+00:06:47,220 --> 00:06:58,290
+学习他们中的大多数，我们主要是不会学习的
+study most of them we're not going to
+study mainly we're gonna guess um ice is
+
+98
+00:06:58,290 --> 00:07:02,010
+冰是一种晶体，是真正的晶体，它是晶体的顺序。大多数形式的冰
+ice is a crystal a genuine crystal it's
+an order of crystal most forms of ice
+
+99
+00:07:02,010 --> 00:07:04,980
+大约有20种冰，其中大多数实际上是熟悉的
+there's like 20 forms of ice most of
+them are actually the ones were familiar
+
+100
+00:07:04,980 --> 00:07:10,020
+通常是结晶固体，它是有序的，但实际上
+with is is generally a crystalline solid
+it's all it's ordered but they actually
+
+101
+00:07:10,020 --> 00:07:14,190
+哦好吧，你的观点是，冰有点不同，因为
+oh well okay there's you make a point
+ice is a little bit different because
+
+102
+00:07:14,190 --> 00:07:18,960
+氢原子上的氢原子有一些重排
+there's some slight rearrangement of the
+of the oxygen hydrogen atoms on a
+
+103
+00:07:18,960 --> 00:07:22,410
+在微观层面上，它并非一直都是完美的周期性，而是
+microscopic level it makes it not
+perfectly periodic all the time but uh
+
+104
+00:07:22,410 --> 00:07:28,170
+但这主要是水晶，我们可以讨论一下微妙之处
+but it's it's mainly a crystal we can we
+can discuss the the the slight subtlety
+
+105
+00:07:28,170 --> 00:07:33,480
+与冰有关，使其略有不同是的，可以
+associated with ice that makes it
+slightly different yes okay
+
+106
+00:07:33,480 --> 00:07:37,440
+我们主要要研究的是晶体结构，结晶固体和
+mainly what we're going to study is
+crystal structure crystalline solids and
+
+107
+00:07:37,440 --> 00:07:44,250
+在我们出发之前，我先道歉一些，首先道歉的是
+here before we get going I have a couple
+of apologies the first apology is that
+
+108
+00:07:44,250 --> 00:07:48,000
+我将不得不使用很多PowerPoint幻灯片，而且我知道PowerPoint 
+I'm going to have to use a lot of
+PowerPoint slides and I know PowerPoint
+
+109
+00:07:48,000 --> 00:07:51,420
+幻灯片很烦人，很难从PowerPoint幻灯片中学习，但是
+slides are annoying it's difficult to
+learn from PowerPoint slides but
+
+110
+00:07:51,420 --> 00:07:57,720
+不幸的是，我无法绘制出我要发布的所有幻灯片
+unfortunately I can't draw this all the
+slides that I post are going to be on
+
+111
+00:07:57,720 --> 00:08:01,670
+网页中的大多数以一种或另一种形式出现在书中
+the web page most of them are in the
+book in one one form or another
+
+112
+00:08:01,670 --> 00:08:05,310
+希望不是贝丝，而且讲座也将在网上进行
+hopefully that wasn't Beth and the
+lectures will be on online as well
+
+113
+00:08:05,310 --> 00:08:08,580
+希望这会给您足够的信息，以便能够学习
+hopefully that will give you enough
+information to be able to learn the
+
+114
+00:08:08,580 --> 00:08:12,000
+材料，这是第二个道歉
+material
+so that's the first apology the second
+
+115
+00:08:12,000 --> 00:08:16,020
+道歉在本讲课中尤其如此，我们将在下一讲中
+apology is particularly in this lecture
+and the next lecture we're going to have
+
+116
+00:08:16,020 --> 00:08:19,530
+遭受很多定义的困扰，这有点乏味，但是
+to suffer through a lot of definitions
+and that's a little bit tedious but
+
+117
+00:08:19,530 --> 00:08:24,030
+不幸的是，我们需要一种语言才能描述
+unfortunately we need to have a language
+in order to be able to describe the
+
+118
+00:08:24,030 --> 00:08:28,410
+我们正在谈论的事情，我们需要能够说出我们在这张照片中是什么
+things we're talking about we need to be
+able to say what is this picture we're
+
+119
+00:08:28,410 --> 00:08:32,130
+看原子坐在哪里，我们需要一些词汇来
+looking at where are the atoms sitting
+we need some sort of vocabulary in order
+
+120
+00:08:32,130 --> 00:08:36,030
+交流，所以我们将不得不忍受和遭受
+to communicate so that's we're gonna
+have to just bear with that and suffer
+
+121
+00:08:36,030 --> 00:08:39,000
+直到我们了解所有单词是什么，然后我们才能开始
+until we until we understand what all
+the words are and then we can start
+
+122
+00:08:39,000 --> 00:08:42,990
+再次向物理学进发第三道歉的第二个道理是
+moving on with the physics again the
+second of the third apology is that
+
+123
+00:08:42,990 --> 00:08:47,760
+不幸的是，并不是所有的书都对术语的正确定义达成一致
+unfortunately not all books agree on
+what the proper definitions of terms are
+
+124
+00:08:47,760 --> 00:08:52,110
+因此，您会发现有些书叫狗猫，有些书叫猫， 
+so you will find some books that call a
+dog a cat and some that call it cat and
+
+125
+00:08:52,110 --> 00:08:57,839
+猴子，所以有点混乱我所用的术语是
+a monkey so it's kind of a mess
+the terms that I use are the ones that
+
+126
+00:08:57,839 --> 00:09:01,200
+是公认的牛津大学，它们实际上可能是最常用的
+are generally accepted Oxford they're
+actually probably the most commonly used
+
+127
+00:09:01,200 --> 00:09:05,430
+对于某些事物的术语，我将尝试指出存在某些情况的情况
+terms for for certain things I will try
+to point out cases where there is some
+
+128
+00:09:05,430 --> 00:09:09,360
+关于术语的含义或应使用的术语存在分歧，只是
+disagreement as to what the terms mean
+or what terms should be used but just be
+
+129
+00:09:09,360 --> 00:09:13,350
+警告您如果再看其他书，那么内部也有一些警告
+warned if you look in other books then
+and there's also caveats within within
+
+130
+00:09:13,350 --> 00:09:18,570
+我的教科书中有哪些术语存在争议，因此请注意
+my textbook as so which terms are
+controversial so just be warned of that
+
+131
+00:09:18,570 --> 00:09:22,050
+那是我们必须处理的问题之一，所以我们要
+that that is one of the issues we have
+to deal with okay so we're going to
+
+132
+00:09:22,050 --> 00:09:32,339
+从晶体的周期的第一个定义开始
+start with the first definition of the
+day a crystal crystal is a periodic
+
+133
+00:09:32,339 --> 00:09:49,589
+排列周期性排列通常是原子的含义，例如哎呀。 
+arrangement periodic arrangement usually
+meaning of atoms so for example oops
+
+134
+00:09:49,589 --> 00:09:54,389
+这是一个水晶，所以这是左侧的一个简单水晶，然后您
+that's a crystal so this is a simple
+crystal over on the left and then you
+
+135
+00:09:54,389 --> 00:09:56,579
+右边有更复杂的晶体他们可以有很多不同的晶体
+have more complicated crystals over on
+the right they can have many different
+
+136
+00:09:56,579 --> 00:10:00,660
+原子的类型原子可以处于非常复杂的排列中，但只要
+types of atoms the atoms can be in very
+complicated Arrangements but as long as
+
+137
+00:10:00,660 --> 00:10:05,910
+它是周期性的，是晶体我实际上要去定义一个非常重要的定义
+it's periodic is a crystal a very
+important definition I'm actually going
+
+138
+00:10:05,910 --> 00:10:11,220
+给出这个词的几个定义，都等同于一个晶格
+to give several definitions of this word
+which are all equivalent a lattice so
+
+139
+00:10:11,220 --> 00:10:25,019
+定义a可能是最有用的，因为它是定义的一组点
+definition a may be the most useful is
+it's a set of points defined as defined
+
+140
+00:10:25,019 --> 00:10:27,410
+如
+as
+
+141
+00:10:27,870 --> 00:10:40,920
+整数诗篇总和um这是另一个词原始格
+integer Psalms sums um
+here's another word primitive lattice
+
+142
+00:10:40,920 --> 00:10:51,150
+向量点阵向量好吧，现在这是一个案例，我将解释什么原始
+vectors lattice vectors okay now here's
+a case I'll explain what primitive
+
+143
+00:10:51,150 --> 00:10:54,089
+晶格向量在瞬间，但是在这种情况下，有一个词
+lattice vectors are in a second but
+here's a case where there's a word that
+
+144
+00:10:54,089 --> 00:10:58,440
+人们不同意原始语言，有时人们完全放弃这个词，他们
+people disagree on primitive sometimes
+people drop the word altogether and they
+
+145
+00:10:58,440 --> 00:11:06,120
+不要说有时候它的原理原理格子有时会被替换
+don't say it sometimes it's principle
+principle lattice is sometimes replaced
+
+146
+00:11:06,120 --> 00:11:13,560
+通过翻译，有时被单词基础代替
+by translation and it's sometimes
+replaced by the word basis that's a
+
+147
+00:11:13,560 --> 00:11:16,920
+特别不方便，因为我们完全使用词基这个词
+particularly inconvenient because we use
+the word basis for something completely
+
+148
+00:11:16,920 --> 00:11:20,910
+不同，使一个真正的混乱向量总是向量，另一个
+different so that makes a real mess
+vectors is always vector and the other
+
+149
+00:11:20,910 --> 00:11:25,140
+事实是，有些书会称其为brav而不是格子
+thing is that some some books will call
+lattice brav a lattice instead of
+
+150
+00:11:25,140 --> 00:11:29,430
+保留真正意义上的晶体的晶格，从而使晶格完整
+lattice reserving lattice for really
+meaning crystal so that makes a complete
+
+151
+00:11:29,430 --> 00:11:32,390
+一些人称其为晶格，而Bravo的晶格为晶格
+mass some people call a crystal lattice
+and the lattice of Bravo a lattice
+
+152
+00:11:32,390 --> 00:11:37,740
+请忽略那只是我的意思，这使所有事情都令人困惑
+please ignore that that's just I mean it
+makes everything incredibly confusing
+
+153
+00:11:37,740 --> 00:11:41,790
+无论如何，这是一套很好的定义，我们将在牛津考试中使用
+anyway this is a good set of definitions
+that we will use here at Oxford the exam
+
+154
+00:11:41,790 --> 00:11:45,150
+委员会同意这些定义，因此希望不会太过
+committee agrees with these definitions
+so hopefully it won't get too
+
+155
+00:11:45,150 --> 00:11:47,880
+复杂，我们只需要处理它，因为这就是世界的方式
+complicated we just have to deal with it
+because that's the way the world is
+
+156
+00:11:47,880 --> 00:11:52,709
+好吧，让我们让我实际定义这些晶体的例子
+okay so let's let me actually define
+give examples of what these crystals
+
+157
+00:11:52,709 --> 00:11:56,580
+这些晶格是什么，所以我们在一维中进行了此操作，您有一排点
+what these lattices are so we did this
+in 1d you have a bunch of points lined
+
+158
+00:11:56,580 --> 00:12:06,060
+在1d内它们之间的距离为a，这样我们就可以写出
+up in 1d with a distance a between them
+so then we can write the positions are
+
+159
+00:12:06,060 --> 00:12:13,589
+点阵中n的整数倍，aa是a，这里是
+of the points in the lattice as n an
+integer times a a is the a here is the
+
+160
+00:12:13,589 --> 00:12:19,860
+原始晶格因子prim lat BEC实际上我会经常称其为plv 
+primitive lattice factor prim lat BEC
+actually I'll frequently call that plv
+
+161
+00:12:19,860 --> 00:12:26,970
+原始晶格向量，然后n是整数，所以这是我们
+primitive lattice vector and then n is
+an integer so this is something we've
+
+162
+00:12:26,970 --> 00:12:30,089
+在我们有整数倍原始格之前看到
+seen before
+we have integer times primitive lattice
+
+163
+00:12:30,089 --> 00:12:35,190
+因素给了我们点阵的点对不起，我在二维中赢了一点
+factor it gives us the points in the
+lattice sorry I won in 2d a little bit
+
+164
+00:12:35,190 --> 00:12:41,400
+比较复杂，所以晶格点最后的向量是整数
+more complicated so the lattice points
+the last vectors here are integer
+
+165
+00:12:41,400 --> 00:12:45,590
+基本格向量a 1加一个整数，2有时是另一个
+a primitive lattice vector a 1 plus an
+integer and 2 sometimes another
+
+166
+00:12:45,590 --> 00:12:53,060
+原始晶格矢量a 1 A是PL v的原始晶格矢量
+primitive lattice vector a 1 the A's are
+the primitive lattice vectors the PL v's
+
+167
+00:12:53,060 --> 00:13:01,140
+ A应该是a应该是非共线的非共线的，所以我们有
+the A's should be a should be non
+collinear non collinear so that we have
+
+168
+00:13:01,140 --> 00:13:06,270
+真正是二维的，末端是整数，我们
+something that's really two-dimensional
+and the ends are integers and our
+
+169
+00:13:06,270 --> 00:13:12,990
+整数元素一些整数可以，所以让我们展示一个这样的例子
+integers element some integers
+okay so let's show an example of this so
+
+170
+00:13:12,990 --> 00:13:17,940
+这里我们有一个晶格，我们可以1和2是原始晶格
+here we have a lattice and we can a 1
+and a 2 are the primitive lattice
+
+171
+00:13:17,940 --> 00:13:22,020
+向量，如果我们认为中心点是每个点零
+vectors if we think of this point in the
+center as being the point zero every
+
+172
+00:13:22,020 --> 00:13:27,000
+该晶格中的点是一个整数，该整数是1加上一个的整数
+point in this lattice is an integer
+that's an integer times a 1 plus an
+
+173
+00:13:27,000 --> 00:13:33,420
+整数乘以2，例如，这里的点是1加1等于2，然后
+integer times a 2 for example this point
+here is to a 1 plus 1 a 2 okay and
+
+174
+00:13:33,420 --> 00:13:42,570
+通常，我们会在方括号中将R等于n 1逗号n 2表示为
+frequently we will notate R equals n 1
+comma n 2 in square brackets to indicate
+
+175
+00:13:42,570 --> 00:13:48,810
+ n 1乘以1加n 2乘以2就像这里所示2逗号1到
+n 1 times a 1 plus n 2 times a 2 like
+it's indicated up here 2 comma 1 to
+
+176
+00:13:48,810 --> 00:13:54,810
+如果现在将此点视为原点，请指出这一点
+indicate this point if this point here
+is taken to be the origin now I should
+
+177
+00:13:54,810 --> 00:13:59,400
+还评论说这种符号经常被滥用，有时人们
+also comment that this notation is
+frequently abused that sometimes people
+
+178
+00:13:59,400 --> 00:14:05,280
+会说点1/2逗号0或类似的意思是一个点
+will say the point 1/2 comma 0 or
+something like that to mean a point
+
+179
+00:14:05,280 --> 00:14:09,570
+这不是晶格点晶格点之间的点
+which is not a lattice point the point
+which is in between lattice points so if
+
+180
+00:14:09,570 --> 00:14:13,260
+您想在此处指定此点，您会说走距离的一半
+you want to specify this point here you
+would say go a half the distance of the
+
+181
+00:14:13,260 --> 00:14:17,010
+原始晶格矢量a 1更重要的是它们是正方形
+primitive lattice vector a 1 the more
+important thing is that they're square
+
+182
+00:14:17,010 --> 00:14:23,060
+方括号表示空间中的一个点，如果此处为整数系数，则表示
+brackets mean a point in space and if
+integers coefficients here then you mean
+
+183
+00:14:23,060 --> 00:14:27,150
+一个晶格点，如果它不是整数系数，那么它不是晶格
+a lattice point if it's not integer
+coefficient then it's not a lattice
+
+184
+00:14:27,150 --> 00:14:34,200
+到目前为止，还可以，很好，很简单，我们可以做同样的事情
+point okay so far so good all right so
+far pretty easy we can do the same thing
+
+185
+00:14:34,200 --> 00:14:49,430
+在3d 3d中，我们将R等于N 1 a 1加n 2 a 2加n 3 a 3，而A等于
+in 3d 3d we would write R equals N 1 a 1
+plus n 2 a 2 plus n 3 a 3 and the A's
+
+186
+00:14:49,430 --> 00:14:52,230
+应该是非共面的
+should be non coplanar
+non
+
+187
+00:14:52,230 --> 00:14:57,270
+共面的，所以我们谈论的是三维的
+coplanar so that we're talking about it
+something that's three-dimensional and
+
+188
+00:14:57,270 --> 00:15:09,060
+我们可以将其记为R，因为R等于方括号，而一，二和三等于那个
+we can notate it as R equals brackets
+and one and two and three like that one
+
+189
+00:15:09,060 --> 00:15:13,560
+您应该知道的是原始晶格的选择
+thing that you should be aware of is
+that the choice of primitive lattice
+
+190
+00:15:13,560 --> 00:15:24,830
+ POV的向量原始格向量不是唯一的，因此您可以选择
+vectors of POVs primitive lattice
+vectors is not unique so you can choose
+
+191
+00:15:24,830 --> 00:15:29,160
+不同的原始晶格矢量集，它们完全可以
+different sets of primitive lattice
+vectors and they're perfectly okay for
+
+192
+00:15:29,160 --> 00:15:32,670
+例如，您可以选择这两件事作为原始晶格矢量
+example you could choose these two
+things as primitive lattice vectors you
+
+193
+00:15:32,670 --> 00:15:34,680
+可以选择这两件事作为原始晶格矢量
+could choose these two things as
+primitive lattice vectors you could
+
+194
+00:15:34,680 --> 00:15:37,620
+选择这两件事作为原始晶格向量，重要的是
+choose these two things as primitive
+lattice vectors the important thing is
+
+195
+00:15:37,620 --> 00:15:42,900
+晶格上的任何点都应表示为整数
+that any point on the lattice should be
+expressible as an integer some of the
+
+196
+00:15:42,900 --> 00:15:49,560
+原始晶格向量还可以，到目前为止一切都很好，首先有机会获胜
+primitive lattice vectors okay so far so
+good all right first chance to win
+
+197
+00:15:49,560 --> 00:15:54,300
+神话般的奖赏是这些原始晶格矢量，好吧，谁是第一个
+fabulous prizes are these primitive
+lattice vectors okay who is the first
+
+198
+00:15:54,300 --> 00:15:57,060
+有人说我听说还可以，不，不，你不是别人吗？ 
+one to say I heard it's okay no no you
+weren't someone someone someone else
+
+199
+00:15:57,060 --> 00:16:06,990
+在这里，你还好，你们这样的骗子，好吧，所以我有些声音
+over here it was you okay you guys such
+liars so all right so I was some voice
+
+200
+00:16:06,990 --> 00:16:09,570
+在这里我听到了，但是我不知道是谁把它给你的
+over here I heard it over here but I
+don't know who gave it to you all right
+
+201
+00:16:09,570 --> 00:16:12,690
+再有一个机会好吧，是的，这些是原始晶格向量
+one more chance okay yes these are
+primitive lattice vectors it's its
+
+202
+00:16:12,690 --> 00:16:17,310
+晶格矢量，因为您可以通过某种方式到达晶格中的任何点
+lattice vectors because you can get to
+any point in the lattice by some sort of
+
+203
+00:16:17,310 --> 00:16:21,930
+整数一些原始晶格向量，好吧，这些
+integer some of those primitive lattice
+vectors okay how about these so these
+
+204
+00:16:21,930 --> 00:16:29,730
+原始晶格向量不，它们不是，所以不是，因为如果添加它们
+primitive lattice vectors no they're not
+so they're not because if you add them
+
+205
+00:16:29,730 --> 00:16:34,560
+以所有整数组合在一起，他们会错过所有其他晶格点
+together in all integer combinations
+they miss every other lattice point okay
+
+206
+00:16:34,560 --> 00:16:38,310
+如果我拿走了一半，它们将是这个晶格的原始晶格矢量。 
+they would be primitive lattice vectors
+for this lattice if I took away half the
+
+207
+00:16:38,310 --> 00:16:44,220
+晶格点，那么你就拥有杰出的廖的向量，好吧，大家
+lattice points then you have preeminence
+Liao's vectors okay all right everyone
+
+208
+00:16:44,220 --> 00:16:51,480
+总是错过每年一个可以的状态，所以第二个定义晶格
+always misses that one okay every year
+okay so a second definition of a lattice
+
+209
+00:16:51,480 --> 00:16:59,960
+晶格的等价定义的晶格种类这是B是它是a 
+a lattice sort of equivalent definition
+of a lattice this is B is that it is a
+
+210
+00:16:59,960 --> 00:17:03,470
+还可以
+okay addition
+
+211
+00:17:03,620 --> 00:17:15,640
+哦，让我们看看，也许它会改变它是一组向量
+oh let's see uh maybe change it it's a
+set of vectors set of vectors such that
+
+212
+00:17:16,990 --> 00:17:26,140
+两个中的两个相加得到第三个
+addition of two of two gives a third
+
+213
+00:17:28,569 --> 00:17:34,100
+好的，这实际上很容易看出，这等同于
+okay and this actually it's pretty easy
+to see that this is equivalent to the
+
+214
+00:17:34,100 --> 00:17:38,809
+如果您对两个都是整数的n1个逗号N有一个先前的定义，则为
+prior definition if you have n1 comma N
+to both of those being integers so it's
+
+215
+00:17:38,809 --> 00:17:43,040
+晶格的元素，然后将它们添加到n 3逗号n中
+an element of the lattice and you add it
+to n 3 comma n for both of those being
+
+216
+00:17:43,040 --> 00:17:46,940
+整数，所以它是ibadis的元素，得到n 5和6，然后是
+integer so it's an element of ibadis you
+get n 5 and 6 and those are then
+
+217
+00:17:46,940 --> 00:17:52,360
+那里的整数也代表晶格的元素以及第三个定义
+integers also in there for an element of
+the lattice as well a third definition
+
+218
+00:17:52,360 --> 00:18:11,980
+看到的是，从观看到观看，格子看起来都一样
+see is that a lattice looks the same
+looks the same from viewed from viewed
+
+219
+00:18:11,980 --> 00:18:27,770
+从任何晶格角度来看都可以，例如，如果我坐在这里
+from any lattice point okay so for
+example if I sit myself here so this
+
+220
+00:18:27,770 --> 00:18:31,640
+如果我坐在这里，然后观察环境，现在的事情就成了格子
+thing is now is a lattice if I sit
+myself here and I view the environment
+
+221
+00:18:31,640 --> 00:18:35,150
+我周围我说好吧，我左边有一个点，这个距离有一个
+around me I say okay there's a there's a
+point to my left this distance has a
+
+222
+00:18:35,150 --> 00:18:39,650
+指向右边的距离与指向上点的距离相同右上左下右下
+point to the right the same distance as
+a point up right up left down right down
+
+223
+00:18:39,650 --> 00:18:43,220
+左边，我可以测量距离，我可以测量角度，如果我坐下
+the left and I can measure the distances
+I can measure the angles and if I sit
+
+224
+00:18:43,220 --> 00:18:47,330
+这里的另一个晶格点具有完全相同的环境
+here another lattice point over here it
+has exactly the same environment to
+
+225
+00:18:47,330 --> 00:18:50,270
+指向右指向左指向右上右上左下右
+point to the right to point to the left
+point to the up right up left down right
+
+226
+00:18:50,270 --> 00:18:53,929
+左下完全相同的距离完全相同的晶格
+down left exactly the same distance is
+exactly the same lattice it's exactly
+
+227
+00:18:53,929 --> 00:18:57,470
+如果对于这些点中的每一个都是对的，则每个角度相同
+the same angles if every if this is true
+for every one of these points then what
+
+228
+00:18:57,470 --> 00:19:05,929
+你有一个格子好吧，例如，这个格子知道谁是谁
+you have is a lattice okay so for
+example is this a lattice know who's who
+
+229
+00:19:05,929 --> 00:19:11,350
+我听说那是谁在那边，但是那是你哦，好吧，好吧
+that I heard that it's over here who is
+it but it was a you oh okay all right
+
+230
+00:19:11,350 --> 00:19:16,010
+争取一切都好吧，所以我必须放弃其中一些，我已经像六个
+fight for all right okay so um I have to
+give up some of these I have like six
+
+231
+00:19:16,010 --> 00:19:19,710
+好的，这不是格子， 
+over here all right
+so okay this is not a lattice and
+
+232
+00:19:19,710 --> 00:19:24,240
+有几种方法可以查看为什么它不是晶格，所以首先
+there's several ways to see why it's not
+a lattice so first of all from the first
+
+233
+00:19:24,240 --> 00:19:28,379
+定义是原始格向量，我们可以将它们加起来
+definition are they're primitive lattice
+vectors which we can add up in all
+
+234
+00:19:28,379 --> 00:19:32,039
+整数组合，它们将恰好给出这些点，并且仅给出这些点
+integer combinations which would give
+exactly these points and only these
+
+235
+00:19:32,039 --> 00:19:36,059
+指出当某些与整数系数在一起时不是，但是
+points when some together with integer
+coefficients well they're aren't but it
+
+236
+00:19:36,059 --> 00:19:39,539
+可能不太明显，以至于您可以尝试提出两个
+may not be so obvious to see that that's
+true that you can try coming up with two
+
+237
+00:19:39,539 --> 00:19:42,000
+您想要的原始晶格矢量，看看我们是否可以提出
+primitive lattice vectors that you want
+to may to and seeing if we can come up
+
+238
+00:19:42,000 --> 00:19:45,210
+这些点，只有这些点，你做不到，但是要容易得多
+with these points and only these points
+you can't do it but it's much easier to
+
+239
+00:19:45,210 --> 00:19:48,139
+使用其他一些这样的定义
+use some of the other definitions like
+this one
+
+240
+00:19:48,139 --> 00:19:52,860
+如果我们认为这里的这一点为零，我们应该有
+we should have if we sort of think of
+this point here as being zero then we
+
+241
+00:19:52,860 --> 00:19:56,190
+对它们求和时，在此晶格矢量中具有此晶格因子
+have this lattice factor here in this
+lattice vector here when you sum them
+
+242
+00:19:56,190 --> 00:19:59,220
+他们在一起应该给出第三个晶格向量，但是如果将这两个相加
+together they should give a third
+lattice vector but if you sum these two
+
+243
+00:19:59,220 --> 00:20:02,639
+在一起，您会在此六角形的中间得到一个点，但它不在那里
+together you get a point in the middle
+of this hexagon and it's not there
+
+244
+00:20:02,639 --> 00:20:05,669
+这不是我们集合中的要点之一，所以这不是晶格，因为您
+that's not one of the points in our set
+so this is not a lattice because you
+
+245
+00:20:05,669 --> 00:20:09,750
+不能将两件事加在一起，总是得到第三点，第三个定义是
+can't sum two things together and always
+get a third the third definition is that
+
+246
+00:20:09,750 --> 00:20:13,200
+如果我们所有的环境都应该是
+the environment of our if the
+environment of all points should be the
+
+247
+00:20:13,200 --> 00:20:16,889
+和我们的环境不一样，因为公关的环境
+same and the environment of our is not
+the same as the environment of P R has a
+
+248
+00:20:16,889 --> 00:20:21,809
+有一个指向南方的点，而P指向它的南方而不是它的南方
+has another point to it South whereas P
+has a point not to its South but to its
+
+249
+00:20:21,809 --> 00:20:28,649
+北，所以等价点P和Q中的P n R等价，所以即使在
+North so P n R in equivalent points P
+and Q are equivalent okay so even among
+
+250
+00:20:28,649 --> 00:20:31,559
+专业文学界人士将这个东西称为六角形
+the professional literature people will
+refer to this thing is the hexagonal
+
+251
+00:20:31,559 --> 00:20:34,799
+格子，这是错误的，它不是格子，您不应该将其称为
+lattice and that's just wrong it's not a
+lattice you shouldn't call it the
+
+252
+00:20:34,799 --> 00:20:39,690
+六角形的格子，尽管人们总是这样做，但我对此有所警惕
+hexagonal lattice although people always
+do so be warned about that I know this
+
+253
+00:20:39,690 --> 00:20:43,350
+令人震惊的是，您知道给人所有这些警告，而人们却说这些
+is horrible to be you know giving you
+all these caveats that people say these
+
+254
+00:20:43,350 --> 00:20:50,909
+事情总是出错，但是确实如此，所以让我们继续吧
+things wrong all the time but it's just
+true they do okay so let's go on fact
+
+255
+00:20:50,909 --> 00:21:04,879
+任何周期性结构都是
+any periodic structure is a lattice of
+
+256
+00:21:05,629 --> 00:21:17,700
+重复的图案好吧，任何周期性的，这仅仅是事实，任何周期性的结构都是
+repeating motifs okay any periodic this
+is just a fact any periodic structure is
+
+257
+00:21:17,700 --> 00:21:21,659
+重复图案的格子，所以这是我在书中的同一幅画
+a lattice of repeating motifs so here's
+my business same picture in the book I
+
+258
+00:21:21,659 --> 00:21:25,769
+就像这些东西一样，它们就是犰狳，所以你有这个
+just like these these things they're
+armadillos I guess so this you have this
+
+259
+00:21:25,769 --> 00:21:31,230
+犰狳的周期性结构，实际上，如果在这里取一个格子
+periodic structure of armadillos and in
+fact if you take a lattice here the
+
+260
+00:21:31,230 --> 00:21:33,960
+试图由一堆三角形组成，这是一个
+trying
+made up of a bunch of triangles it's a
+
+261
+00:21:33,960 --> 00:21:37,800
+漂亮的格子，您用犰狳替换了所有这些点
+nice lattice and you replaced each of
+these points with an armadillo you get
+
+262
+00:21:37,800 --> 00:21:42,840
+整个周期结构，所以我将其绘制为晶格乘以重复
+the whole periodic structure so I've
+drawn it as lattice times the repeating
+
+263
+00:21:42,840 --> 00:21:46,710
+这是犰狳的结构，这当然是一个
+structure which is the armadillo well
+what about this this is certainly a
+
+264
+00:21:46,710 --> 00:21:52,040
+周期性结构，所以我们可以看到这东西实际上是
+periodic structure so can we see how
+this thing is actually a lattice of
+
+265
+00:21:52,040 --> 00:21:57,780
+重复图案，好吧，我声称这是一个三角形的格子
+repeating motifs okay I claim that it's
+a triangular lattice this triangular
+
+266
+00:21:57,780 --> 00:22:01,950
+带有蓝色圆点的晶格乘以这个重复的图案，而事实并非如此
+lattice with blue dots times this
+repeating motif and that might not be so
+
+267
+00:22:01,950 --> 00:22:04,980
+显而易见，但让我们看看是否可以使其变得明显，所以首先我要做什么
+obvious to see but let's see if we can
+make it obvious so first what I'm going
+
+268
+00:22:04,980 --> 00:22:11,970
+要做的是，我将在每个垂直边缘的中间放置一个大红点
+to do is I'm going to put a big red dot
+in the middle of each vertical edge okay
+
+269
+00:22:11,970 --> 00:22:16,140
+所以这是一个大红点这里是大红点，现在看起来有点
+so here's a big red dot here are big red
+dots and now it's looking a little bit
+
+270
+00:22:16,140 --> 00:22:20,160
+首先，这些大红色点很可能明显形成了
+more likely that first of all these big
+red dots are clearly forming a
+
+271
+00:22:20,160 --> 00:22:24,630
+像这个三角形格子一样，现在让我们
+triangular lattice just like this
+triangle lattice down here now let's
+
+272
+00:22:24,630 --> 00:22:29,190
+通过在其周围放置绿色菱形使其更明显
+make it a little bit more obvious by
+putting a green diamond around this
+
+273
+00:22:29,190 --> 00:22:33,330
+重复的主题，您可以看到，实际上，如果我将这些绿色堆叠在一起
+repeating motif and you can see that in
+fact if I stack together these green
+
+274
+00:22:33,330 --> 00:22:37,470
+钻石中的每一个都集中在这些大红色点上，它将重建
+diamonds each one of them centered on
+these big red dots it will reconstruct
+
+275
+00:22:37,470 --> 00:22:42,840
+整个蜂窝这个东西，人们称之为六角形格子， 
+the entire honeycombs this thing that
+people call the hexagonal lattice that
+
+276
+00:22:42,840 --> 00:22:47,220
+不是格子，所以应该叫做蜂窝，我想是
+isn't a lattice so it should be called
+the honeycomb I guess all right is that
+
+277
+00:22:47,220 --> 00:22:52,860
+显然还可以，很好，到目前为止，很好，使我们进入了另一个非常有用的状态
+that clear okay good good so far so good
+so that brings us to another very useful
+
+278
+00:22:52,860 --> 00:23:01,260
+定义是单位晶胞单位晶胞等于它的空间区域
+definition which is a unit cell unit
+cell equals a region of space it
+
+279
+00:23:01,260 --> 00:23:11,510
+基本上，这是重复的图案，是空间与空间之间的区域
+basically it's the repeating motif it's
+the region of space from space which
+
+280
+00:23:12,170 --> 00:23:16,520
+当重复
+when repeated
+
+281
+00:23:18,750 --> 00:23:23,480
+并堆叠在一起
+and stacked and stacked together
+
+282
+00:23:26,659 --> 00:23:32,039
+有时我们使用平铺一词来表示重复，平铺是指重复， 
+sometimes we use the word tiled meaning
+repeated tiled means repeated and
+
+283
+00:23:32,039 --> 00:23:48,510
+堆叠在一起重建了我们使用的这个完整的完整周期结构
+stacked together reconstructs the full
+full periodic structure we use this term
+
+284
+00:23:48,510 --> 00:23:52,559
+以前在一维的晶胞现在我们可以
+unit cell
+previously in one dimension now we can
+
+285
+00:23:52,559 --> 00:23:58,049
+只需在一般尺寸上使用它，这样绿色的钻石就会成为单位
+just use it in general dimensions so
+this green diamond would be the unit
+
+286
+00:23:58,049 --> 00:24:02,880
+这个重复结构的单元格好，让我们看看是否可以做另外一个
+cell for this repeating structure okay
+and let's see if we can do another one
+
+287
+00:24:02,880 --> 00:24:08,210
+这是我们的犰狳，所以我们有一个单元格，其中包含一个犰狳
+here's our armadillos again so we have a
+unit cell which contains one armadillo
+
+288
+00:24:08,210 --> 00:24:12,120
+我们可以将它们堆叠在一起对于晶胞重要的是
+we can stack them together what's
+important about unit cells is they have
+
+289
+00:24:12,120 --> 00:24:15,179
+没有空间堆叠在一起，它们应该像浴室瓷砖一样
+to stack together with no space they
+should be like bathroom tiles they
+
+290
+00:24:15,179 --> 00:24:20,070
+应该完全放在一起，彼此之间没有空格。 
+should fit together exactly with no
+space between them another definition
+
+291
+00:24:20,070 --> 00:24:24,380
+这是一个有用的原始单元格
+which is useful is a primitive unit cell
+
+292
+00:24:25,159 --> 00:24:37,309
+晶胞等于包含
+unit cell equals a unit cell containing
+
+293
+00:24:38,000 --> 00:24:51,809
+正好一个晶格点正好一个晶格点
+exactly one lattice point exactly one
+lattice point so for example in this
+
+294
+00:24:51,809 --> 00:24:56,159
+图片，这将是一个基本单位晶胞，因为它包含一个大红点
+picture this would be a primitive unit
+cell because it contains one big red dot
+
+295
+00:24:56,159 --> 00:24:59,970
+那是晶格点，好吧，所以我们在这里看不到晶格点
+and that's the lattice point and okay so
+we can't see the lattice points in here
+
+296
+00:24:59,970 --> 00:25:03,809
+但是，如果您还记得它们的位置以及那些蓝色图片， 
+but if you remember where they were and
+those those blue pictures the the
+
+297
+00:25:03,809 --> 00:25:07,260
+犰狳位于晶格点的顶部，因此每个晶胞都包含
+armadillo is sitting on top of the
+lattice point so each unit cell contains
+
+298
+00:25:07,260 --> 00:25:13,080
+我猜这恰好是一个晶格点这是另一种情况
+exactly one lattice point I guess here's
+here's another case here's a nice
+
+299
+00:25:13,080 --> 00:25:17,820
+晶格中有一个原始的晶胞，因为如果不能，我将全部
+lattice there's a primitive unit cell
+because it's if you can't I'll hole all
+
+300
+00:25:17,820 --> 00:25:22,230
+您将它们放在一起的所有空间都平铺在一起，每个单元格包含
+space with it you put them together tile
+all spaced and each unit cell contains
+
+301
+00:25:22,230 --> 00:25:27,590
+一个晶格点，但是如果原始晶胞会被警告
+one lattice point however one should be
+warned if the primitive unit cell
+
+302
+00:25:27,590 --> 00:25:30,830
+基本单位单元
+primitive unit cell
+
+303
+00:25:32,120 --> 00:25:42,660
+单元格不是唯一的，您要使用的内容有不同的选择
+cell is not unique you have different
+choices as to what you want to use for
+
+304
+00:25:42,660 --> 00:25:47,220
+例如，您的原始晶胞是这样写的，您知道四个
+your primitive unit cell for example
+here's the lattice written you know four
+
+305
+00:25:47,220 --> 00:25:51,090
+不同的时间，您可以选择原始单位晶胞为任意形状
+different times and you can choose
+primitive unit cells to be any shape so
+
+306
+00:25:51,090 --> 00:25:53,880
+您可以选择他们，这个形状，这个形状，这个形状，只要
+you can choose them this shape this
+shape this shape this shape as long as
+
+307
+00:25:53,880 --> 00:25:58,860
+它们可以放在一起并平铺所有空间，您拥有一个非常漂亮的原始单位像元
+they fit together and tile all of space
+you have a very nice primitive unit cell
+
+308
+00:25:58,860 --> 00:26:03,960
+好吧，其中一些比其他更方便
+okay some of them are more convenient
+than others one should be warned that
+
+309
+00:26:03,960 --> 00:26:08,970
+像这样的东西也是一个很好的原始晶胞，这有点
+something like this is also a good
+primitive unit cell and that's a little
+
+310
+00:26:08,970 --> 00:26:12,750
+不太明显，它仅包含一个晶格点，但您必须考虑
+less obvious that that contains exactly
+one lattice point but you have to think
+
+311
+00:26:12,750 --> 00:26:16,320
+关于像这个家伙一样被部分封闭在单元格中的东西
+about the the things that are partially
+enclosed in the unit cell like this guy
+
+312
+00:26:16,320 --> 00:26:21,750
+因为仅计为整个圆的theta的theta，而这个计为
+as only counting as theta of this the of
+the full circle and this one counts as
+
+313
+00:26:21,750 --> 00:26:24,540
+整个圆的theta是pi减去的圆的theta是
+theta of the full circle this one is pi
+minus theta of the full circle this is
+
+314
+00:26:24,540 --> 00:26:28,650
+ PI减去完整theta整个圆，如果您收集了所有这些
+PI minus full theta the full circle and
+if you collect all those pieces of the
+
+315
+00:26:28,650 --> 00:26:32,340
+将它们放在一起的晶格点，您将获得完整的两个pi，所以
+the lattice point you put them together
+you'll get the full two pi okay so it's
+
+316
+00:26:32,340 --> 00:26:36,540
+一个晶格点，但它分成四个部分，好吧，这是一个晶格
+one lattice point but it's broken up
+into four pieces okay it's one lattice
+
+317
+00:26:36,540 --> 00:26:40,470
+点分为四部分，也许这是一个很好的原始单元
+point broken into four pieces maybe this
+one this is also a good primitive unit
+
+318
+00:26:40,470 --> 00:26:44,790
+单元格，这是一个晶格点，更明显地分为两部分
+cell this is a lattice point more
+obviously broken into two pieces you
+
+319
+00:26:44,790 --> 00:26:48,390
+将它们组装在一起，您会得到一个晶格点，而这是一个
+assemble them together you get the one
+lattice point back and this one is a is
+
+320
+00:26:48,390 --> 00:26:52,470
+一个更简单的晶胞，可能更容易看到它包含
+a simpler unit cell which is maybe
+easier to see that that contains exactly
+
+321
+00:26:52,470 --> 00:26:57,630
+一个格子点另一个定义，我知道我们有很多
+one one lattice point
+another definition I know we have a lot
+
+322
+00:26:57,630 --> 00:27:08,880
+这些常规单位单元中的“我等于1”等于
+of these conventional unit cell
+I mean it's l equals conventional is
+
+323
+00:27:08,880 --> 00:27:20,419
+方便的单位晶格非原始单位晶格非原始单位晶格
+convenient a unit cell a non primitive
+unit cell non primitive unit cell that
+
+324
+00:27:20,419 --> 00:27:36,409
+很方便，通常意味着通常会遇到正交轴
+is convenient which usually means
+usually meeting orthogonal axes
+
+325
+00:27:36,409 --> 00:27:48,090
+正交正交轴就这么认为，例如，在这里，我们有一个
+orthogonal orthogonal axes right think
+so so for example here we have a
+
+326
+00:27:48,090 --> 00:27:55,830
+三角形晶格和具有正交轴的常规单位晶胞
+triangular lattice and a conventional
+unit cell here with orthogonal axes
+
+327
+00:27:55,830 --> 00:27:59,510
+而不是原始的晶胞，所以其中可以有多少个晶格点
+rather than primitive unit cell so how
+many lattice points are in that can
+
+328
+00:27:59,510 --> 00:28:03,630
+那里有人吗有人回来吗好吧，是的，我相信
+someone up there who is it someone way
+back there all right oh yeah I believe
+
+329
+00:28:03,630 --> 00:28:10,380
+你可以看起来诚实吗，是的，好的
+you
+could you look honest okay so yes okay
+
+330
+00:28:10,380 --> 00:28:20,100
+另一个另外一个定义啊，先生，这是葡萄酒商Seitz牢房里的大Nur Seitz 
+another another definition ah sir over
+here a vintner Seitz cell big nur Seitz
+
+331
+00:28:20,100 --> 00:28:26,580
+如果您还没有碰到细胞大神经元，他就是一位非常重要的物理学家
+cell big nur was a very important
+physicist if you haven't run into his
+
+332
+00:28:26,580 --> 00:28:35,450
+塞兹（Seitz）的名字已经不那么重要了，但在该地区也很重要
+name already Seitz was less important
+but also important the region the region
+
+333
+00:28:35,450 --> 00:28:42,230
+围绕晶格点
+around a lattice point
+
+334
+00:28:44,760 --> 00:29:06,370
+更接近那个格子点，然后再指向其他任何点，所以你就是你
+closer to that lattice point that point
+then to any other okay so you're you
+
+335
+00:29:06,370 --> 00:29:09,880
+有很多格子点，您想找到一个周围的原因
+have a whole bunch of lattice points you
+would like to find the reason around one
+
+336
+00:29:09,880 --> 00:29:13,060
+比任何其他晶格更靠近该晶格点的晶格点
+lattice point that is closer to that
+lattice point than to any other lattice
+
+337
+00:29:13,060 --> 00:29:18,400
+点，有一种方法可以做到这一点，那就是Vigna网站建设Vigenere 
+point and there's a way to do this which
+is the Vigna sites construction Vigenere
+
+338
+00:29:18,400 --> 00:29:26,830
+网站，您如何找到该区域施工说明，我将
+sites how you find that region
+construction instruction which I will
+
+339
+00:29:26,830 --> 00:29:30,640
+解释这种结构，描述它比写出来要容易，但是
+explain this construction it's easier to
+describe it than to write it out but
+
+340
+00:29:30,640 --> 00:29:43,210
+我将使用垂直的垂直二等分线写下来，让我们看看
+I'll write down use perpendicular
+perpendicular bisectors so let's see how
+
+341
+00:29:43,210 --> 00:29:48,040
+我们这样做很好，所以这是格子，我标记了其中的点之一
+we do this okay so here's the lattice
+and I've labeled one of the points of
+
+342
+00:29:48,040 --> 00:29:52,240
+我们想找到那个格子的维格护士Seitz细胞
+the lattice black we'd like to find the
+Vig nurse Seitz cell of that lattice
+
+343
+00:29:52,240 --> 00:29:55,960
+换句话说，更接近黑色的空间区域是什么
+point in other words what is the region
+of space which is closer to that black
+
+344
+00:29:55,960 --> 00:29:59,560
+点阵比任何蓝色点阵都好，我们该怎么办
+lattice point than is to any of the the
+blue lattice points okay how do we do
+
+345
+00:29:59,560 --> 00:30:04,240
+好吧，你在这里选择一个相邻的点，然后把
+that well you pick a neighboring point
+like this one point up here and you put
+
+346
+00:30:04,240 --> 00:30:08,380
+沿垂直平分线向下，这条红线现在可以了
+down a perpendicular bisector this red
+line okay now everything on the lower
+
+347
+00:30:08,380 --> 00:30:13,000
+红线的一侧比蓝点更靠近黑点
+side of that red line is closer to the
+black point than it is to the blue point
+
+348
+00:30:13,000 --> 00:30:19,330
+标记了垂直等分线的一个正确定义现在让我们这样做
+labeled one right definition of
+perpendicular bisector now let's do that
+
+349
+00:30:19,330 --> 00:30:23,080
+在这一点上还有另一点，现在我们有了这个垂直
+with another point over here this point
+too and now we have this vertical
+
+350
+00:30:23,080 --> 00:30:29,830
+垂直等分线和的的左侧的所有内容
+perpendicular bisector and everything on
+the left hand side of the of the of the
+
+351
+00:30:29,830 --> 00:30:34,570
+垂直线比蓝点标签更靠近黑点
+vertical line is closer to the black
+point than it is to the blue point label
+
+352
+00:30:34,570 --> 00:30:38,380
+两个，而您对三个，四个，五个和六个以及所有
+two and you do the same thing for three
+and four and five and six and all the
+
+353
+00:30:38,380 --> 00:30:42,790
+进入您的墙的区域以及我在该区域中的所有内容
+way around into you wall offer region
+and everything in that region which I've
+
+354
+00:30:42,790 --> 00:30:46,690
+现在绿色比其他任何一个都更接近黑点
+now colored green is closer to the black
+point than it is to any of the other
+
+355
+00:30:46,690 --> 00:30:50,890
+蓝点好吧，那就是清楚它是如何工作的，好吧，那么你就有了
+blue points okay is that clear how that
+works okay good so then you have this
+
+356
+00:30:50,890 --> 00:30:58,889
+一个不错的区域，是一个维格纳·塞茨（Vigna Seitz）的牢房
+nice region which is a Vigna Seitz cell
+turns out that the big nurse sitesell is
+
+357
+00:30:58,889 --> 00:31:06,629
+首先，他的原始单位细胞框架甚至本身也很好
+primitive his primitive unit cell frame
+even itself well first of all it
+
+358
+00:31:06,629 --> 00:31:10,409
+显然只包含一个晶格点，因此非常适合平铺空间
+obviously contains only one lattice
+point so that's good at tiles space
+
+359
+00:31:10,409 --> 00:31:14,009
+因为您可以在空间的每个点周围放置一个大型的nur站点单元， 
+because you can put a big nur site cell
+around every point in space and
+
+360
+00:31:14,009 --> 00:31:18,089
+显然，空间的每个点都是在vinner视觉单元中
+obviously every point of space is the
+bigness is in the vinner sight cell of
+
+361
+00:31:18,089 --> 00:31:22,499
+ Vigna中的某个晶格点，无论最后一个点与您最接近
+some lattice point whichever last points
+is closest to you you're in that Vigna
+
+362
+00:31:22,499 --> 00:31:26,249
+视单元等等，在瓷砖空间，您可以关闭这一晶格点， 
+sight cell and so at tile space and you
+can close this one lattice point and
+
+363
+00:31:26,249 --> 00:31:30,659
+这些中的每一个都具有相同的形状，所以它是一个很好的原始单元格
+each one of these has the same shape so
+it's a nice primitive unit cell okay
+
+364
+00:31:30,659 --> 00:31:36,419
+好，每个人到目前为止都开心，好吧，嗯，我要说的，我想这是
+good everyone happy so far okay now um
+I'm gonna this I think I think this is
+
+365
+00:31:36,419 --> 00:31:39,899
+不在课程提纲上，所以您真的不需要学习它，但是它很酷
+not on the syllabus so you don't really
+need to learn it but it's pretty cool
+
+366
+00:31:39,899 --> 00:31:45,389
+我卖的是borin吗？我可以正确地拼写胸罩吗？Noi Voronoi cell Voronoi 
+known as a borin do I sell to spell it
+right bra Noi Voronoi cell Voronoi
+
+367
+00:31:45,389 --> 00:31:59,059
+ Voronoi细胞是非晶格的大护士位点细胞
+Voronoi cell which is a big nurse site
+cell for a non lattice for a non lattice
+
+368
+00:32:00,259 --> 00:32:09,899
+点集的集合，因此，假设您在一个点中说了一堆点
+collection of points points so imagine
+you just have a bunch of points say in a
+
+369
+00:32:09,899 --> 00:32:14,909
+平面，并且您将区域隔离到比这些点更靠近点之一的区域
+plane and you wall off the region which
+is closer to one of the points than to
+
+370
+00:32:14,909 --> 00:32:19,529
+其他任何点Voronoi细胞的概念不仅在
+any other other points this concept of a
+Voronoi cell shows up not only in
+
+371
+00:32:19,529 --> 00:32:24,029
+物理在化学生物学中流行
+physics it shows up in chemistry biology
+epidemiology it shows up very heavily in
+
+372
+00:32:24,029 --> 00:32:28,499
+计算机图形显示在整个地方，包括比萨饼
+computer graphics it shows up in just
+all over the place including pizza
+
+373
+00:32:28,499 --> 00:32:32,639
+外送，所以我将向您解释为什么这对披萨外送很重要
+delivery so I'm going to explain to you
+why it's important for pizza delivery
+
+374
+00:32:32,639 --> 00:32:37,259
+您会发现为什么Voronoi单元是如此令人难以置信
+and you will you'll realize why the
+Voronoi cell is such an incredible thing
+
+375
+00:32:37,259 --> 00:32:41,219
+好吧，这就是这个程序，您可以单击它，知道它已链接到
+so okay so this is this program you can
+click you know it's linked to on my
+
+376
+00:32:41,219 --> 00:32:47,249
+网站，所以想象一下这张空白纸是牛津的地图，您一无所知
+website so imagine this blank sheet here
+is a map of Oxford you know nothing's
+
+377
+00:32:47,249 --> 00:32:51,749
+上面写着，您还拥有两家披萨店，其中一家在北部
+written on it yet and you own two pizza
+shops okay and one of them's in North
+
+378
+00:32:51,749 --> 00:32:55,409
+牛津，我们把它放在这里，其中一个在卡利外面，在这里，所以
+Oxford we'll put it here and one of them
+is out in Cali it's over here so that
+
+379
+00:32:55,409 --> 00:33:00,209
+蓝线是这两个之间的垂直等分线
+blue line is the perpendicular bisector
+between those two okay now if someone
+
+380
+00:33:00,209 --> 00:33:03,329
+打电话给你，说如果他们在这个地区附近，我要披萨
+calls you up and says I want a pizza if
+they're in this region they're closer to
+
+381
+00:33:03,329 --> 00:33:06,779
+这个红点，所以您在北牛津有个送货员，而如果
+this red point so you have the guy in
+North Oxford a deliverer whereas if it's
+
+382
+00:33:06,779 --> 00:33:10,559
+如果这个地区的情况很好
+in if
+it's down in this region well it's
+
+383
+00:33:10,559 --> 00:33:13,710
+接近这一点，所以您现在可以让那个家伙完成任务， 
+closer to this point so you have that
+guy deliver now you're making a lot of
+
+384
+00:33:13,710 --> 00:33:17,100
+钱，所以您又买了几个披萨店，所以又放了几个
+money so you buy a couple more pizza
+shops so it's put in a couple more one
+
+385
+00:33:17,100 --> 00:33:21,690
+两个三个好吧，您有一堆披萨店，现在是Voronoi 
+two three okay you have a bunch of pizza
+shops and now these are the Voronoi
+
+386
+00:33:21,690 --> 00:33:26,039
+每个红色点的单元格，所以这个区域在这里
+cells of each of these red points so
+this region here everything inside this
+
+387
+00:33:26,039 --> 00:33:31,080
+这里的区域最接近这个红色点，即它的Voronoi单元格，因此，如果有人
+region here is closest to this red point
+that's its Voronoi cell so if someone
+
+388
+00:33:31,080 --> 00:33:35,850
+呼叫此区域内最靠近他们的那个人为其服务，并且
+calls within this region its serviced by
+this this guy who's closest to them and
+
+389
+00:33:35,850 --> 00:33:39,360
+依此类推，依此类推，您可以继续进行下去，并添加点和
+so forth and so on you can keep going on
+and on and on and adding points and
+
+390
+00:33:39,360 --> 00:33:44,340
+这些单元格表明它的单元格始终围在
+these cells indicate that it cells
+always wall off the area which is
+
+391
+00:33:44,340 --> 00:33:47,429
+最接近那个红点，您可以猜测会有一个
+closest to that red point and you can
+kind of guess that there's going to be a
+
+392
+00:33:47,429 --> 00:33:51,799
+ Voronoi细胞概念在数百万种不同的应用中有数百万个应用
+millions of applications of the idea of
+the Voronoi cell in lots of different
+
+393
+00:33:51,799 --> 00:33:57,210
+科学领域，包括披萨外送，这应该是一门科学
+areas of science including pizza
+delivery which should be a science by
+
+394
+00:33:57,210 --> 00:34:05,730
+现在好吧，这就是我们要说的关于Voronoi细胞的全部内容，所以接下来
+now okay all right so that's all we have
+to say about Voronoi cells so next the
+
+395
+00:34:05,730 --> 00:34:10,379
+词基，不应与我们在使用词基时混淆
+word basis this should not be confused
+with the word basis that we had when we
+
+396
+00:34:10,379 --> 00:34:14,250
+谈到原始格向量，有人称它们为原始
+talked about primitive lattice vectors
+and some people call them primitive
+
+397
+00:34:14,250 --> 00:34:17,790
+基向量不是这个，这就是为什么我们在我们不使用单词base的原因
+basis vectors that's not this this is
+why we do not use the word basis when we
+
+398
+00:34:17,790 --> 00:34:20,580
+谈论原始格向量，我们不称它们为原始基向量
+talk about primitive lattice vectors we
+don't call them primitive basis vectors
+
+399
+00:34:20,580 --> 00:34:26,280
+因为我们在此使用鸟形基准，对此混淆表示抱歉，所以基准是
+because we use the bird basis here sorry
+about that confusion okay so a basis is
+
+400
+00:34:26,280 --> 00:34:40,770
+相对于单元格中单元格中对象的描述
+a description of objects in the unit
+cell in unit cell with respect with
+
+401
+00:34:40,770 --> 00:34:54,589
+尊重RESP ECG尊重我们的参考晶格点
+respect RESP ECG respect to our
+reference lattice point
+
+402
+00:34:57,300 --> 00:35:04,570
+好吧，例如，哎呀，好吧，所以在这里我们有一个周期结构
+okay so for example oops okay there so
+here we have a periodic structure I've
+
+403
+00:35:04,570 --> 00:35:08,080
+将晶格作为参考晶格点，我在每个晶格中将其绘制为蓝色
+put the lattice the reference lattice
+point I've drawn it blue in each of
+
+404
+00:35:08,080 --> 00:35:11,440
+这些单元格，然后您必须描述单元中的所有内容
+these unit cells and then you'd have to
+describe everything that's in the unit
+
+405
+00:35:11,440 --> 00:35:15,190
+单元格指向那个晶格点，所以您会说有一个犰狳
+cell reference to that one lattice point
+so you would say there is an armadillo
+
+406
+00:35:15,190 --> 00:35:18,790
+坐在你的蓝点上面好吧，也许那不是那么有用，让我去做
+sitting on top of your blue dot okay
+maybe that's not so so useful let me do
+
+407
+00:35:18,790 --> 00:35:24,370
+一个更注重物理的晶体，所以这里是一个由两个晶体组成的晶体
+a more more physics oriented one so
+here's a crystal here made up of two
+
+408
+00:35:24,370 --> 00:35:29,350
+不同类型的原子，大的浅灰色原子和小的深灰色原子
+different types of atoms the large light
+gray atom and the small dark gray atom
+
+409
+00:35:29,350 --> 00:35:34,480
+好吧，参考点的黑点给了我
+okay the black points of reference
+points that give me the corners of the
+
+410
+00:35:34,480 --> 00:35:37,840
+单位单元，所以这里是单位单元，这里只是炸了一点，所以
+unit cell so here's a unit cell and here
+it's just been blown up a little bit so
+
+411
+00:35:37,840 --> 00:35:41,080
+您会看到更好的一点，所以在这里，我们在下一个单位单元中有一个单位单元， 
+you can see a little bit better so here
+we have a unit cell next unit cell and
+
+412
+00:35:41,080 --> 00:35:43,900
+如果您将单位单元堆叠在一起，您将重建整个整体
+if you stack the unit cells together you
+would reconstruct the whole the whole
+
+413
+00:35:43,900 --> 00:35:50,560
+水晶现在的基础是我们应该列出该单元中的所有对象
+crystal now a basis is that we should
+list off all of the objects in the unit
+
+414
+00:35:50,560 --> 00:35:55,540
+参照参考晶格点的单元格，我们称其为零零
+cell referenced to the reference lattice
+point which we call coordinate zero zero
+
+415
+00:35:55,540 --> 00:36:00,880
+所以我们说，例如，在位置a上方有一个很大的浅灰色原子
+so we would say for example there's a
+large light gray atom at position a over
+
+416
+00:36:00,880 --> 00:36:05,620
+ 2a到这里关于这个点零零然后有小
+2a over to here with respect to this
+point zero zero then there are small
+
+417
+00:36:05,620 --> 00:36:10,360
+位置2的深灰色原子a over 4 over 4 3 over 4 over 4 3 3 over 4 3 over 4 
+dark gray atoms at position two a over 4
+over 4 3 over 4 over 4 3 over 4 3 over 4
+
+418
+00:36:10,360 --> 00:36:15,280
+还有4分以上4分3分4分所以一旦我给你所有这些清单
+and a over 4 over 4 so 3 over 4 so once
+I've given you all of this list of where
+
+419
+00:36:15,280 --> 00:36:19,230
+所有对象都在单元格中什么是对象及其对象
+all the objects are in the unit cell
+what the objects are and what their
+
+420
+00:36:19,230 --> 00:36:23,320
+相对矢量相对于参考晶格点I然后给出
+relative vector is with respect to the
+reference lattice point I then giving
+
+421
+00:36:23,320 --> 00:36:27,220
+你的晶体基础很清楚，所以如果我告诉你晶格，我
+you a basis for the crystal is that
+clear so if I tell you the lattice and I
+
+422
+00:36:27,220 --> 00:36:30,490
+告诉你我告诉过你整个晶体的基础，所以这是我们使用的语言
+tell you the basis I've told you the
+whole crystal so this is the language we
+
+423
+00:36:30,490 --> 00:36:36,760
+现在需要描述整个晶体有时很有用，所以
+need in order to describe the whole
+crystal now sometimes it is useful ok so
+
+424
+00:36:36,760 --> 00:36:41,260
+在这里，使参考晶格与某些原子重合非常有用
+here it's useful to take the reference
+lattice to be coincident with some atoms
+
+425
+00:36:41,260 --> 00:36:46,420
+所以这是由红色和蓝色物体，红色和蓝色原子组成的晶体
+so here's here's a crystal made up of
+red and blue objects red and blue atoms
+
+426
+00:36:46,420 --> 00:36:49,750
+你知道你可以拿一个像这样的晶胞，它包含一个红色原子
+you know you can take a unit cell that
+looks like this it contains one red atom
+
+427
+00:36:49,750 --> 00:36:55,330
+在一个蓝色原子中，但是人们做得更多的是，他们将晶胞与
+in one blue atom but what people do more
+often is they put the unit cell with
+
+428
+00:36:55,330 --> 00:37:00,310
+红色原子的角，否则他们可能会选择蓝色，但在这种情况下，我们
+corners on the red atom or they could
+have chosen blue but in this case we're
+
+429
+00:37:00,310 --> 00:37:04,540
+要选择选择红色，然后我们会说我们的依据是红色原子在
+gonna choose choose red then we would
+say our basis is the red atom is at the
+
+430
+00:37:04,540 --> 00:37:08,660
+零晶胞的零位置，蓝色原子是
+zero zero position
+of the unit cell and the blue atom is a
+
+431
+00:37:08,660 --> 00:37:13,789
+与红色原子在a1方向上相距一半，因此它的位置为1/2 
+distance one-half in the a1 direction
+from the red atom so it's a position 1/2
+
+432
+00:37:13,789 --> 00:37:19,039
+现在请注意逗号为零，请务必注意不要过度计数红色原子
+comma zero now note it's really
+important not to over count the red atom
+
+433
+00:37:19,039 --> 00:37:23,059
+所以你不要说零为零的红色原子，而1为另一个红色原子
+so you don't say that there's a red atom
+at zero zero and another red atom at 1
+
+434
+00:37:23,059 --> 00:37:27,950
+在1 1处将另一个红色原子清零在0 1处将要计数的另一个红色原子
+zero another red atom at 1 1 another red
+atom at at 0 1 that would be counting
+
+435
+00:37:27,950 --> 00:37:31,220
+四个红色原子，并且在该晶胞中只有一个红色原子被分割
+four red atoms and there's only one red
+atom in that unit cell it's divided up
+
+436
+00:37:31,220 --> 00:37:35,119
+分为四个部分，但是如果您只需要列出它一次为零零然后
+into four pieces but if you only have to
+list it once it's at zero zero and then
+
+437
+00:37:35,119 --> 00:37:39,349
+这意味着如果它为零零，那么所有其他部分也都是
+it's implied that if it's at zero zero
+it's also at all the other pieces it's
+
+438
+00:37:39,349 --> 00:37:43,759
+其他你知道它是四分之一的方式，如果它是它的一部分
+other you know it's quarters the way
+it's divided up if it's one piece of it
+
+439
+00:37:43,759 --> 00:37:46,700
+只是这里的其他部分会在那里，所以您不会超出列表
+just here the other pieces of it are
+going to be there so you don't over list
+
+440
+00:37:46,700 --> 00:37:51,499
+这是一个清晰的清单，它只是人们经常做出的事情
+it is that clear list it just once it's
+something people frequently make
+
+441
+00:37:51,499 --> 00:37:57,069
+好的错误，所以现在我们可以继续进行我们最终要建立的
+mistakes on alright so now we can move
+on to what we're finally building up to
+
+442
+00:37:57,069 --> 00:38:06,559
+ 3d晶格所以这是3d晶格最重要的说法
+3d lattices 3d lattices so this is an
+important statement may be the most
+
+443
+00:38:06,559 --> 00:38:19,220
+重要的声明，我将整天不让您知道
+important statement I will make all day
+you will not need to know to know by the
+
+444
+00:38:19,220 --> 00:38:27,319
+您无需了解3D网格中的考试委员会的法令
+decrees of the exam committee you will
+not need to know about lattices in 3d in
+
+445
+00:38:27,319 --> 00:38:44,539
+轴与轴不正交的3d原因何在？ 
+3d where axes axes are not not
+orthogonal why well because then you
+
+446
+00:38:44,539 --> 00:38:48,079
+明年没有什么要学习的，不，我的意思是，这只是
+wouldn't have anything to learn next
+year no I mean the reason is it's just
+
+447
+00:38:48,079 --> 00:38:50,989
+因为它在代数上变得更加复杂，而且这仅仅是
+because it gets a lot algebraically more
+complicated and it was sort of just
+
+448
+00:38:50,989 --> 00:38:56,299
+考试委员会同意，第三年我们可以使用所有3D晶格
+agreed upon by the exam committee that
+in third year we can all the 3d lattices
+
+449
+00:38:56,299 --> 00:39:00,140
+只是为了防止我们陷入各种代数的
+just to prevent us from getting just
+knee-deep in all sorts of algebra of
+
+450
+00:39:00,140 --> 00:39:04,970
+我们只需要在三个维度上保持正交轴的角度， 
+angles we're just going to stick with
+orthogonal axes in three dimensions and
+
+451
+00:39:04,970 --> 00:39:10,130
+据我所知，该规则从未被打破，所以我
+and I think that that rule has never
+been broken as far as I know so I've
+
+452
+00:39:10,130 --> 00:39:14,329
+有人告诉我这是一条艰难而快速的规则，所以您可以坚持下去，我希望它能继续存在
+been told this is a hard and fast rule
+so you can stick with it I hope it stays
+
+453
+00:39:14,329 --> 00:39:23,820
+是的，所以3D立方晶格中最简单的晶格我们通俗地称为
+true so the simplest lattice in 3d
+cubic lattice we colloquially call it a
+
+454
+00:39:23,820 --> 00:39:28,110
+立方晶格，但它可能更恰当地称为简单立方简单
+cubic lattice but it's probably more
+properly called simple cubic simple
+
+455
+00:39:28,110 --> 00:39:41,430
+三次或原始三次或三次-P表示原始，您可能知道
+cubic or primitive cubic or cubic - P
+for primitive and you probably know what
+
+456
+00:39:41,430 --> 00:39:47,910
+这个单元格看起来像这个单元格
+this looks like it looks kind of like
+this this unit cell for this unit cell
+
+457
+00:39:47,910 --> 00:39:57,030
+等于一个立方体单位晶胞等于一个立方体，看起来像这样有多少原子
+equals a cube unit cell equals a cube
+and it looks like this how many atoms
+
+458
+00:39:57,030 --> 00:40:02,250
+在那个单元格中有多少个最后点1好的，我想每个人都
+are in that how many last points are in
+that unit cell 1 ok I'd everyone's
+
+459
+00:40:02,250 --> 00:40:06,330
+大喊大叫，所以我不知道如何让这种巧克力让我自己开心
+yelling out so I don't know how to give
+this chocolate all happy to myself all
+
+460
+00:40:06,330 --> 00:40:10,800
+对，是的，这是一个一格点
+right
+so yes it's one one lattice point in
+
+461
+00:40:10,800 --> 00:40:15,180
+在那个晶胞中，这是一个原始晶胞，是它的1/8倍
+that in that unit cell so that's a
+primitive unit cell and it's 1/8 times
+
+462
+00:40:15,180 --> 00:40:20,910
+所有八个角中的每个角在单位单元格内可写为1/8 
+all of the eight corners each corner is
+1/8 inside the unit cell we can write
+
+463
+00:40:20,910 --> 00:40:28,650
+以更合适的方式降低晶格点，使我们等于UV W乘以
+down the lattice points in more proper
+way that our equals UV W times the
+
+464
+00:40:28,650 --> 00:40:41,070
+网格边缘长度ay，其中UV和w UV W都是整数，现在我们可以
+lattice the edge length ay where UV and
+w UV W are all integers okay now we were
+
+465
+00:40:41,070 --> 00:40:44,280
+在一开始就告诉我们应该能够将晶格点写为
+told at the beginning that we should be
+able to write the lattice points as
+
+466
+00:40:44,280 --> 00:40:49,560
+基本晶格矢量的整数和，因此我们可以选择一个等于a 
+integer sums of primitive lattice
+vectors so we can choose a one equals a
+
+467
+00:40:49,560 --> 00:41:01,410
+ 1 0 0 a 2等于0 1 0和a 3等于1 0 0 1 
+times 1 0 0 a 2 equals a 0 1 0 and a 3
+equals a 1 0 0 1 and these are the
+
+468
+00:41:01,410 --> 00:41:07,260
+原始晶格向量P LVS好的
+primitive lattice vectors P LVS okay
+good
+
+469
+00:41:07,260 --> 00:41:12,660
+还有一个词很有用，那就是协调的想法
+there is yet another word it's useful to
+know is the idea of a coordination
+
+470
+00:41:12,660 --> 00:41:25,500
+数字通常称为Z的数字，它是最接近的数字
+number number number which is usually
+called Z which is the number of nearest
+
+471
+00:41:25,500 --> 00:41:28,040
+邻居
+neighbors
+
+472
+00:41:32,170 --> 00:41:38,180
+那么这个立方晶格的协调数是多少？有人说六个
+so what's the coordination number of
+this cubic lattice someone said six who
+
+473
+00:41:38,180 --> 00:41:43,430
+是第一个说六个在这里的人哦，好吧，我相信你，我相信你
+is the first person to say six it's over
+here oh okay I trust you I believe you
+
+474
+00:41:43,430 --> 00:41:51,589
+是这四种啤酒中的一种，它仍然味道很好，是很好的巧克力，所以
+one of these four beers yeah it still
+tastes good it's good chocolate so
+
+475
+00:41:51,589 --> 00:41:55,279
+其实你知道那个活着最古老的人类寿命基因的女人
+actually you know the woman who lived
+the oldest recorded human lifespan gene
+
+476
+00:41:55,279 --> 00:41:58,219
+盾牌同志一百二十四岁半她吃了一公斤
+comrade shield one hundred twenty four
+and a half years old she ate a kilogram
+
+477
+00:41:58,219 --> 00:42:04,369
+一周有两杯巧克力，维基百科上有两杯，所以好吧，实际上
+of chocolate a week it's two it's on
+Wikipedia so all right so actually the
+
+478
+00:42:04,369 --> 00:42:09,440
+简单立方简单立方晶格虽然它是
+simple cubic simple cubic lattice
+although it's um this is what it would
+
+479
+00:42:09,440 --> 00:42:12,589
+如果您将原子放在每个晶格点的位置上， 
+look like if you put atoms on the
+position of each of the lattice points
+
+480
+00:42:12,589 --> 00:42:17,690
+虽然这是一个非常简单的格子来描述它，但它显然是一个立方体
+it's a a cube obviously although this is
+a very simple lattice to describe it's
+
+481
+00:42:17,690 --> 00:42:23,539
+实际上所有材料上所有原子的性质都极为不同寻常
+actually extremely unusual in nature of
+all the materials all the atoms on the
+
+482
+00:42:23,539 --> 00:42:29,329
+元素周期表只有一个元素实际上需要一个简单的三次方
+periodic table only one only one element
+actually takes a simple cubic
+
+483
+00:42:29,329 --> 00:42:34,900
+元素是po，还有一个发现discovered的人
+arrangement the element is polonium and
+for one more who discovered polonium
+
+484
+00:42:34,900 --> 00:42:41,680
+有人相信这是你的好，那是他的，是玛丽居里
+some one over here was believed you okay
+it was his it was Mary Curie and
+
+485
+00:42:41,680 --> 00:42:47,180
+ lon以她的祖国波兰而得名
+polonium was named after her home
+country of Poland have to mention that
+
+486
+00:42:47,180 --> 00:42:53,809
+因为居里夫人是我的英雄之一，所以原因之所以
+because Mary Curie is one of my heroes
+all right so the reason the reason why
+
+487
+00:42:53,809 --> 00:42:57,739
+这是如此不寻常，您必须考虑一下堆叠到第二秒
+this is so unusual you have to sort of
+think about stacking to that second
+
+488
+00:42:57,739 --> 00:43:00,380
+球，如果您尝试将网球像放在盒子一样的东西中
+spheres if you ever try to put like
+tennis balls in a box or something
+
+489
+00:43:00,380 --> 00:43:04,160
+您会意识到他们真的不喜欢保持他们真正想要的位置
+you'll realize they really don't like to
+stay in this position they really want
+
+490
+00:43:04,160 --> 00:43:08,239
+填补中间的那个洞，在那个洞里有很多额外的空间
+to fill that hole in the middle there's
+a lot of extra space in that hole in the
+
+491
+00:43:08,239 --> 00:43:11,960
+中间的人会掉进那个额外的洞，另一种思考的方式是
+middle and someone will fall into that
+extra hole another way to think about is
+
+492
+00:43:11,960 --> 00:43:15,440
+是你知道有一种结合力想要真正获得这些原子
+is that you know there's a bonding force
+that wants to get these atoms really
+
+493
+00:43:15,440 --> 00:43:19,249
+彼此接近或相当接近，您认为很难
+close to each other or fairly close to
+each other you sort of think of as hard
+
+494
+00:43:19,249 --> 00:43:23,809
+试图吸引彼此的球，这不是真的想要
+spheres that are trying to attract each
+other that it's not really gonna like to
+
+495
+00:43:23,809 --> 00:43:26,660
+在中间留下一个很大的大洞，这是要填补的东西
+leave that great big hole in the middle
+something's going to want to fill that
+
+496
+00:43:26,660 --> 00:43:32,749
+孔，这就是为什么简单的立方晶格在纯净中非常不寻常的原因
+hole so that's why the simple cubic
+lattice is is very unusual among pure
+
+497
+00:43:32,749 --> 00:43:36,950
+元素，因此我们需要在简单立方晶格上存在一些差异
+elements so there's some variance on the
+simple cubic lattice that we need to
+
+498
+00:43:36,950 --> 00:43:43,210
+知道四方格子
+know tetragonal lattice
+
+499
+00:43:43,569 --> 00:43:57,259
+这意味着垂直于边缘的垂直轴的轴相等，因此
+which means axes perpendicular axes
+perpendicular to edges equal equal so
+
+500
+00:43:57,259 --> 00:44:01,039
+画一幅画，所以这是简单的立方，在边缘处是四阶
+draw a picture of that so here's simple
+cubic here's tetr-a g''l to the edges
+
+501
+00:44:01,039 --> 00:44:08,410
+相等，一条边是不同的，另一条我们需要知道的是正交的
+are equal one edge is different and the
+other we need to know is orthorhombic
+
+502
+00:44:10,690 --> 00:44:23,499
+这是垂直于轴线的轴，没有边是相等的，所以我们走了
+which is axis perpendicular no edge is
+equal okay so there we go
+
+503
+00:44:23,499 --> 00:44:28,700
+简单正交的所有边长不同，但至少全部正交
+simple orthorhombic all edge lengths
+different but at least all orthogonal
+
+504
+00:44:28,700 --> 00:44:36,349
+现在，尽管简单三次在本质上是非常不寻常的，但有些事情
+now although simple cubic is a very
+unusual in nature there are things that
+
+505
+00:44:36,349 --> 00:44:40,519
+基于非常普遍的简单三次方，因此您需要了解
+are based on simple cubic that are quite
+common so you do need to know about the
+
+506
+00:44:40,519 --> 00:44:46,309
+简单的立方晶格，让我们回到这张图片，这里要记住这一点
+simple cubic lattice so let's go back to
+this picture here remember this very
+
+507
+00:44:46,309 --> 00:44:52,099
+如果您要引用多个原子类型，则非常方便
+convenient if you have more than one
+type of an atom to put the reference
+
+508
+00:44:52,099 --> 00:44:56,479
+晶格作为晶格点上的参考原子，然后是另一个原子
+lattice as the reference atom at the
+lattice point and then another atom you
+
+509
+00:44:56,479 --> 00:44:59,299
+可以引用它，但是您可以通过给出其位置来提供依据
+can reference its but you can give a
+basis by giving its position with
+
+510
+00:44:59,299 --> 00:45:04,160
+相对于参考点，参考点格非常重要
+respect to the reference the reference
+lattice point so a very important
+
+511
+00:45:04,160 --> 00:45:10,369
+结构就是所谓的氯化铯结构
+structure is the so-called caesium
+chloride structure named that way
+
+512
+00:45:10,369 --> 00:45:15,259
+因为氯化铯的材料明显具有这种结构
+because the material cesium chloride
+takes that structure obviously cesium
+
+513
+00:45:15,259 --> 00:45:20,299
+氯化物是一种非常离子化的物质铯放弃了它的电子
+chloride it's extremely ionic material
+cesium gives up it's an electron very
+
+514
+00:45:20,299 --> 00:45:23,869
+很好，而且氯极具负电性，所以它想
+nicely and and chlorine is extremely
+electronegative so it wants to take that
+
+515
+00:45:23,869 --> 00:45:29,599
+电子，所以你得到了很好的离子键，所以铯的定义
+electron and so you get a nice ionic
+bonding so the definition of cesium
+
+516
+00:45:29,599 --> 00:45:37,219
+氯化物结构是具有基本立方晶格或豌豆的立方晶格
+chloride structure is cubic lattice with
+the basis simple cubic lattice or a pea
+
+517
+00:45:37,219 --> 00:45:45,039
+具有基础的立方原始立方晶格，我们将铯放在
+cubic primitive cubic lattice with basis
+basis where we put the cesium at
+
+518
+00:45:45,039 --> 00:45:53,299
+晶格点的位置0 0 0和氯的位置1/2 1/2 1/2 
+position 0 0 0 on the lattice point and
+the chlorine at position 1/2 1/2 1/2
+
+519
+00:45:53,299 --> 00:45:59,539
+那是我们在这张照片上的洞的中间，所以这
+that's in the middle of the hole
+that we had in this picture here so this
+
+520
+00:45:59,539 --> 00:46:03,170
+氯会填满那个孔，所以我们得到的看起来像
+the chlorine is gonna fill that hole so
+what we get is something that looks like
+
+521
+00:46:03,170 --> 00:46:09,259
+这是铯在晶胞和氯的角上
+this we get the cesium's on the corner
+of the unit cell and the chlorine
+
+522
+00:46:09,259 --> 00:46:13,099
+坐在晶胞的中央好
+sitting in the center of the unit cell
+okay
+
+523
+00:46:13,099 --> 00:46:18,499
+现在您可能会这样认为，铯的角上有铯
+now you might think of it this way as
+having cesium's on the corners of the
+
+524
+00:46:18,499 --> 00:46:21,470
+晶胞和在晶胞中心的氯，但这是
+unit cell and the chlorine in the center
+of unit cell but that's kind of
+
+525
+00:46:21,470 --> 00:46:25,519
+我们以这种方式选择它是任意的，因为如果您愿意，这是另一张图片
+arbitrary that we chose it that way
+because if you so here's another picture
+
+526
+00:46:25,519 --> 00:46:29,089
+具有相同结构的铯为白色，氯和氯为
+of the same structure the cesium's are
+white and the and the chlorines are
+
+527
+00:46:29,089 --> 00:46:33,650
+这里是绿色，这是我们刚刚在讨论铯的晶胞
+green here so here's the unit cell we
+were just discussing the cesium's on the
+
+528
+00:46:33,650 --> 00:46:38,930
+角落处有clora，中间有氯，但也有可能
+clora on the corners and chlorine in the
+center but one could just as well have
+
+529
+00:46:38,930 --> 00:46:43,730
+选择它作为角上有氯和铯的晶胞
+chosen this as the unit cell with the
+chlorines on the corner and the cesium
+
+530
+00:46:43,730 --> 00:46:48,079
+在中心，所以我们真正拥有的是两个互锁的简单立方晶格
+in the center so what we really have is
+two interlocking simple cubic lattices
+
+531
+00:46:48,079 --> 00:46:51,650
+其中之一是由铯组成的其中之一是由氯组成的
+one of them is made up of the cesium's
+one of them is made up of the chlorines
+
+532
+00:46:51,650 --> 00:46:55,730
+好的，这是一个动画，应该显示出来，所以
+okay and here's a here's an animation
+that's supposed to show that so that's
+
+533
+00:46:55,730 --> 00:47:00,230
+氯化铯这里是铯，这里又是氯化铯，还有
+cesium chloride there's the cesium's
+here's cesium chloride again and there's
+
+534
+00:47:00,230 --> 00:47:03,380
+那里的氯每个都是一个简单的立方晶格，它们有点像
+there's the chlorines each of them is a
+simple cubic lattice and they're sort of
+
+535
+00:47:03,380 --> 00:47:05,630
+粘在一起，所以这种结构的铯
+stuck together
+so this type of structure the cesium
+
+536
+00:47:05,630 --> 00:47:12,470
+氯化物结构实际上是自然界中很常见的结构
+chloride structure is actually quite a
+common structure in nature now we can do
+
+537
+00:47:12,470 --> 00:47:18,140
+还有一些事情要考虑纯铯纯铯
+something else which is to consider pure
+caesium pure cesium which is a very
+
+538
+00:47:18,140 --> 00:47:26,809
+相似的结构纯铯结构，所以我们有立方p晶格p 
+similar structure pure cesium structure
+so we have so it's a cubic p lattice p
+
+539
+00:47:26,809 --> 00:47:34,069
+格，但我们可能要把它放在括号中，因为我们要
+lattice but we may be may I'm gonna put
+this in parenthesis because we're gonna
+
+540
+00:47:34,069 --> 00:47:39,289
+说这是铯的隐居时刻，我们将铯置于零零
+say that's a lie-in moment cesium we're
+going to put the cesium at zero zero
+
+541
+00:47:39,289 --> 00:47:47,329
+零，然后再以一半1/2 1/2的另一个铯，那么我们要做的就是
+zero and then another cesium at one half
+1/2 1/2 okay so all we're going to do is
+
+542
+00:47:47,329 --> 00:47:51,049
+我们将服用氯化铯，并摆脱
+we're going to take that cesium chloride
+and we're going to get rid of the
+
+543
+00:47:51,049 --> 00:47:56,539
+中间的氯，再用另一种铯代替，所以我们可以考虑
+chlorine in the middle and replace it
+with another cesium okay so we can think
+
+544
+00:47:56,539 --> 00:48:00,259
+它是简单的三次方，其基础是铯为零零
+of it as simple cubic with the basis
+where the basis is a cesium at zero zero
+
+545
+00:48:00,259 --> 00:48:07,309
+零和铯的一半1/2 1/2现在这实际上本身就是一个不同
+zero and a cesium at one half 1/2 1/2
+now this is actually itself a different
+
+546
+00:48:07,309 --> 00:48:09,920
+晶格的类型这是我们重要的晶格类型
+type of lattice this is
+important type of lattice that we're
+
+547
+00:48:09,920 --> 00:48:16,640
+将要研究的那个叫做体心立方晶格
+going to be studying which well it's
+known as the body centered cubic lattice
+
+548
+00:48:16,640 --> 00:48:27,230
+确保我不会错过任何以身体为中心的立方晶格
+make sure I don't miss anything body
+centered cubic lattice lattice also
+
+549
+00:48:27,230 --> 00:48:34,970
+被称为立方-我所以这个词居中居然不是听起来像
+known as cubic - I so the word body
+centered it's not it sounds like
+
+550
+00:48:34,970 --> 00:48:38,780
+瑜伽之类的东西，但是实际上你知道这个主意是
+something out of yoga or something but
+it's it's actually you know the idea is
+
+551
+00:48:38,780 --> 00:48:43,670
+那就是你在那个立方体的中心放了另一个点
+that is that you've put a another point
+in the center of the body of that cube I
+
+552
+00:48:43,670 --> 00:48:48,860
+来自德国内心的进入，这一定意味着任何德国学者
+is from German inner is entry which must
+mean something any German scholar it's
+
+553
+00:48:48,860 --> 00:48:52,670
+诸如此类的意思是在身体中心或某种形式
+something like it means in the center of
+the body or something kind of it anyway
+
+554
+00:48:52,670 --> 00:48:58,520
+所以我要声明所有这些点的所有环境都是
+so I'm going to claim that all the
+environment of all of these points is
+
+555
+00:48:58,520 --> 00:49:03,620
+完全一样，所以实际上它本身就是一个格子，让我们看看
+exactly the same so this is actually
+itself a lattice so let's see how this
+
+556
+00:49:03,620 --> 00:49:07,670
+这是如何工作的，这是体心立方晶格的晶胞
+how this works this is the unit cell of
+the body centered cubic lattice
+
+557
+00:49:07,670 --> 00:49:15,290
+在以人体为中心的立方晶格中有多少个晶格点-是的
+how many lattice points are in the body
+centered cubic lattice okay it's - this
+
+558
+00:49:15,290 --> 00:49:18,410
+是体心立方晶格的常规单位晶胞
+is a conventional unit cell of the body
+centered cubic lattice we take the
+
+559
+00:49:18,410 --> 00:49:22,640
+常规单位电池再次成为立方体，只是因为它更方便
+conventional unit cell to be the cube
+again just because it's more convenient
+
+560
+00:49:22,640 --> 00:49:27,860
+为此，显然在中心有一个，然后我们有一个
+to do so there's one in the center
+obviously and then we have the one which
+
+561
+00:49:27,860 --> 00:49:31,580
+在角落里分为八个部分，有一个方便的地方
+is divided into eight pieces in the
+corners now there's there's a convenient
+
+562
+00:49:31,580 --> 00:49:36,920
+描述这些三维结构的方法是使用已知的
+way to describe these three-dimensional
+structures which is to use what's known
+
+563
+00:49:36,920 --> 00:49:41,510
+作为平面图，平面图是来自某种建筑术语，其中
+as a plan view a plan view is it comes
+from a sort of architectural term where
+
+564
+00:49:41,510 --> 00:49:45,740
+您从顶部往下看，然后画出所指示的高度
+you look down on the thing from the top
+and you draw the heights you indicate
+
+565
+00:49:45,740 --> 00:49:48,860
+您所看到的所有事物的高度，因此，如果您身处其中，就知道
+the heights of all the things that you
+see so if you're up in a you know a
+
+566
+00:49:48,860 --> 00:49:52,670
+直升机，而您正在看不起这个常规的单元格
+helicopter and you're looking down on
+this conventional unit cell you would
+
+567
+00:49:52,670 --> 00:49:55,820
+在角落看到四件事，然后在中心看到一件事，然后
+see four things in the corners and you
+would see one in the center and then you
+
+568
+00:49:55,820 --> 00:49:59,360
+标记高度，因此将这一高度标记为a超过2，然后降低
+label the heights so this one is labeled
+with height a over two and then down
+
+569
+00:49:59,360 --> 00:50:03,050
+在这里它说未标记的点的高度为零，所以这个为零
+here it says unlabeled points are at
+height zero and a so this one's at zero
+
+570
+00:50:03,050 --> 00:50:05,810
+一个这个为零，这个一个为零，一个这个坐在这里
+and a this one's at zero and a this
+one's at zero and a this one sits here
+
+571
+00:50:05,810 --> 00:50:11,120
+在一个上，这个在一个高处--好的
+on a and this one here is at height a /
+- okay
+
+572
+00:50:11,120 --> 00:50:19,220
+如果将原子放到这个以身体为中心的立方结构中，它们将
+if you put put atoms together in this
+body centered cubic structure they would
+
+573
+00:50:19,220 --> 00:50:22,070
+看起来更像这样，实际上是
+look more like this and and it's
+actually it's
+
+574
+00:50:22,070 --> 00:50:25,760
+显然，它以这种方式填充了更多的晶格孔
+it's clearly it's filling up much more
+of the holes of the lattice this way
+
+575
+00:50:25,760 --> 00:50:29,750
+这是更有效的球体填充，并且有很多材料
+it's much more efficient sphere packing
+and there's quite a few materials that
+
+576
+00:50:29,750 --> 00:50:34,490
+实际上以这种以人体为中心的形式钠锂铁钾
+actually take this body-centered form
+sodium lithium iron potassium is many
+
+577
+00:50:34,490 --> 00:50:44,810
+还有很多，那么协调八号结束了
+many many more so what is the
+coordination number eight who's over
+
+578
+00:50:44,810 --> 00:50:49,340
+好的，好的，八点八点，所以如果你想到的话
+there okay yeah okay eight it's eight so
+if you think of it if you think it
+
+579
+00:50:49,340 --> 00:50:52,970
+假装你是中间的那个家伙，那么每个人都有八个邻居
+pretend you're the guy in the middle
+here then you have eight neighbors each
+
+580
+00:50:52,970 --> 00:50:57,050
+这八个邻居之一是不太明显的是，如果你碰巧是其中之一
+one of those eight neighbors what's less
+obvious is if you happen to be one of
+
+581
+00:50:57,050 --> 00:51:02,020
+这些在角落的家伙，你也有八个邻居，好吧，这里的每一点都是
+these guys in the corners you also have
+eight neighbors okay every point here is
+
+582
+00:51:02,020 --> 00:51:08,900
+完全相同，也许我会在这里展示，所以这是常规的单元格
+identical maybe I'll show it here so
+here's the conventional unit cell like
+
+583
+00:51:08,900 --> 00:51:13,150
+这就是中心点，现在您也可以选择
+this and here's the point in the center
+now you could just as well have chosen
+
+584
+00:51:13,150 --> 00:51:18,320
+这个点是一个立方体的中心，然后我们将这个立方体与
+this point to be the center of a cube
+and then we would have this cube with
+
+585
+00:51:18,320 --> 00:51:22,520
+这一点在中心还可以，所以请再次记住，这实际上是两个
+this point in the center okay so again
+remember that this is really two
+
+586
+00:51:22,520 --> 00:51:25,910
+当我们考虑它时，将简单的立方晶格互锁
+interlocking simple cubic lattices when
+we were thinking about it is being
+
+587
+00:51:25,910 --> 00:51:30,260
+氯化铯有两个互锁的简单立方晶格，所以如果
+cesium chloride there were two
+interlocking simple cubic lattices so if
+
+588
+00:51:30,260 --> 00:51:34,220
+我们选择该点作为中心，然后黄色的点围绕它
+we choose this point as the center then
+the yellow ones make the cube around it
+
+589
+00:51:34,220 --> 00:51:37,490
+如果我们选择一个作为中心，那么红色将围绕它
+if we choose this one as a center then
+the red ones make the cube around it
+
+590
+00:51:37,490 --> 00:51:43,640
+无论哪种方式，它总是有八个最近的邻居，好吧，我想的最后一件事
+either way it always has eight nearest
+neighbors okay the last thing I think
+
+591
+00:51:43,640 --> 00:51:46,760
+我们有时间我们下次再接，我们将证明这件事是
+we're have time we'll pick up next time
+and we'll prove that this thing is
+
+592
+00:51:46,760 --> 00:51:50,630
+实际上是根据我们在开始时给出的晶格定义得出的晶格
+actually a lattice by the definitions of
+lattice that we gave at the beginning of
+
+593
+00:51:50,630 --> 00:51:57,690
+好的一天，明天我再见[鼓掌] 
+the day all right I'll see you tomorrow
+[Applause]
+

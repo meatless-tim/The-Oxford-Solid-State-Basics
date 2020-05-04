@@ -1,0 +1,3422 @@
+1
+00:00:00,350 --> 00:00:05,759
+欢迎大家，这是凝聚态课程的第十九讲
+welcome back everyone it's a nineteenth
+lecture of the condensed matter course
+
+2
+00:00:05,759 --> 00:00:11,490
+快到第六周结束了，我知道很难继续下去了，是你
+nearing the end of sixth week I know
+it's hard to keep keep going on it's you
+
+3
+00:00:11,490 --> 00:00:14,130
+知道六周结束时每个人都很累，但是我们真的越来越
+know the end of six week everyone gets
+pretty tired but we're really getting
+
+4
+00:00:14,130 --> 00:00:18,570
+现在已经接近本课程的结尾了，所以您可以通过打开电源知道
+pretty close to the end of this course
+now so it's you know power on through so
+
+5
+00:00:18,570 --> 00:00:22,230
+当我们上次离开讨论磁学时，我们决定
+when we left off last time we were
+talking about magnetism we decided a
+
+6
+00:00:22,230 --> 00:00:25,830
+一次开始思考磁性的好地方是一次原子
+good place to start thinking about
+magnetism was one atom at a time so
+
+7
+00:00:25,830 --> 00:00:29,359
+真正考虑原子磁性
+really thinking about atomic magnetism
+
+8
+00:00:29,929 --> 00:00:37,020
+磁性，我们已经写下哈密顿量，实际上是
+magnetism and we had written down the
+Hamiltonian actually the Hamiltonian for
+
+9
+00:00:37,020 --> 00:00:41,670
+一个磁场中的一个原子中有一个电子，我们决定将其写入
+one electron in one atom in a magnetic
+field and we decided we would write it
+
+10
+00:00:41,670 --> 00:00:46,800
+作为零磁场下电子的哈密顿量
+as the Hamiltonian for that electron in
+zero magnetic field that's just the
+
+11
+00:00:46,800 --> 00:00:51,350
+吸引原子核的动能加上两个项，第一个项是
+kinetic energy in the attraction to the
+nucleus plus two terms the first term is
+
+12
+00:00:51,350 --> 00:00:57,750
+玻尔磁子磁场点成轨道角动量加G自旋
+Bohr Magneton magnetic field dotted into
+orbital angular momentum plus G spin
+
+13
+00:00:57,750 --> 00:01:06,119
+角动量和第二项平方超过2m平方，其中a是
+angular momentum and the second term a
+squared over 2m a squared where a is the
+
+14
+00:01:06,119 --> 00:01:15,000
+向量势，其del cross a等于B现在，这两个术语都具有名称
+vector potential its del cross a equals
+B okay now these two terms have names
+
+15
+00:01:15,000 --> 00:01:24,630
+这里的第一个术语称为顺磁术语，这里的这个术语
+this first term over here is known as
+the paramagnetic term and this term here
+
+16
+00:01:24,630 --> 00:01:31,740
+被称为反磁性术语，您可能会猜到这是
+is known as the diamagnetic term and as
+you might guess it's this term that's
+
+17
+00:01:31,740 --> 00:01:34,590
+这个术语通常负责修复磁性
+typically responsible repairing
+magnetism in this term which is
+
+18
+00:01:34,590 --> 00:01:38,250
+通常负责反磁性，这个术语实际上是相当
+typically responsible for diamagnetism
+and this term it's actually fairly
+
+19
+00:01:38,250 --> 00:01:41,430
+很明显为什么这个词要负责权力
+obvious why it is that this term is
+going to be responsible for power
+
+20
+00:01:41,430 --> 00:01:44,790
+磁场通常只是磁场与磁场的耦合
+magnetism generally this is just
+coupling of the magnetic field to the
+
+21
+00:01:44,790 --> 00:01:50,729
+旋转或覆盖电子的动量，现在可以了
+spin or overlying the mentum of the
+electron and the okay now it's a little
+
+22
+00:01:50,729 --> 00:01:53,579
+由于减号而复杂，但自旋要订购
+complicated because of the minus signs
+but the spin wants to order the
+
+23
+00:01:53,579 --> 00:01:57,899
+上覆动量都想指向B相对，使得B的负能量
+overlying momentum both want to point
+opposite B such that the neg energy of
+
+24
+00:01:57,899 --> 00:02:02,340
+这将变为负数，如果自旋Orval动量与B相反， 
+this becomes negative and if the spin
+Orval a momentum is opposite B that
+
+25
+00:02:02,340 --> 00:02:05,340
+表示磁矩与B方向相同，因为
+means the magnetic moment is the same
+direction as B because the charge of
+
+26
+00:02:05,340 --> 00:02:08,758
+电子为负，所以力矩指向与角动量相反的方向
+electron is negative so the moment
+points opposite of the angular momentum
+
+27
+00:02:08,758 --> 00:02:12,310
+所以无论如何还是为了降低能量
+so anyway to or in order to lower the
+energy the
+
+28
+00:02:12,310 --> 00:02:17,380
+ B相对的B线和/或Belanger精神相对的B线旋转，因此
+spins line up opposite B and/or Belanger
+mentum lines up opposite B and therefore
+
+29
+00:02:17,380 --> 00:02:20,700
+当所有在同一方向上排列的那一刻是B并且你有
+the moment all lines up in the same
+direction is B and you have
+
+30
+00:02:20,700 --> 00:02:25,360
+现在您可能会注意到这两个术语的顺磁性是
+paramagnetism now one thing you may
+notice about these two terms is this
+
+31
+00:02:25,360 --> 00:02:34,230
+功率磁铁的磁项在B中是线性的，而该项在b中是二次的
+power magnet magnetic term is linear in
+B whereas this term is quadratic in b
+
+32
+00:02:34,769 --> 00:02:41,470
+和b，因此一般来说，小的是线性的，反过来是功率的磁
+and b and so generally for small be the
+linear in turn be the power magnetic
+
+33
+00:02:41,470 --> 00:02:45,670
+只要没有特别好的理由，这个术语将占主导地位
+term is going to dominate as long as
+there is not a particularly good reason
+
+34
+00:02:45,670 --> 00:02:51,010
+为什么功率磁项将被抑制或以某种方式甚至为零，那么
+why the power magnetic term is going to
+be suppressed or somehow even zero then
+
+35
+00:02:51,010 --> 00:02:53,830
+反磁术语是无关紧要的，我们只需要担心功率
+the diamagnetic term is irrelevant and
+we just have to worry about the power
+
+36
+00:02:53,830 --> 00:02:58,239
+具有磁性的术语，我们会发现该术语为0或被抑制的情况
+magnetic term we will find occasions
+where this term is 0 or is suppressed
+
+37
+00:02:58,239 --> 00:03:02,380
+然后反磁项将有机会主导物理学，但我们
+and then a diamagnetic term will have a
+chance to dominate the physics but we're
+
+38
+00:03:02,380 --> 00:03:06,489
+首先要专注于这一点，它将变得更加重要
+going to focus on this one first
+figuring it's going to be more important
+
+39
+00:03:06,489 --> 00:03:11,860
+所以让我们用这个学期，我们要做的就是
+so let's a take this term and what we're
+going to want to do is we're going to
+
+40
+00:03:11,860 --> 00:03:14,620
+现在想稍微简化一下，我们可以做的一件事就是可以将它们加在一起
+want to simplify it a little bit now one
+thing we can do is we can add together
+
+41
+00:03:14,620 --> 00:03:20,230
+轨道角动量的角动量求和
+the angular momentum of the orbital
+angular momentum to get the total
+
+42
+00:03:20,230 --> 00:03:25,060
+角动量J是L加Sigma，但您会注意到，这不是我们
+angular momentum J is L plus Sigma but
+you'll notice that's not what we
+
+43
+00:03:25,060 --> 00:03:29,709
+实际上在哈密顿方程式中，我们有L加G Sigma现在您可能已经了解到
+actually have in the Hamiltonian we have
+L plus G Sigma now you may have learned
+
+44
+00:03:29,709 --> 00:03:33,220
+在您或您应该已经在原子物理学课程中学习到
+in your or you should have learned in
+your atomic physics course that under
+
+45
+00:03:33,220 --> 00:03:36,880
+您知道J的大小L的大小
+conditions where you know the magnitude
+of J the magnitude of L the magnitude of
+
+46
+00:03:36,880 --> 00:03:43,180
+ Sigma您可以用一些有效的G因子G重写整个术语
+Sigma you can rewrite that entire term
+in terms of some effective G factor G
+
+47
+00:03:43,180 --> 00:03:48,190
+有效的称为Al和AG因子，通常用上标j 
+effective known as Al and AG factor
+usually written with a superscript j mu
+
+48
+00:03:48,190 --> 00:03:55,209
+ B BJ并且有一些公式可以让您获得G为有效G 
+B BJ and there's some formula that
+allows you to get the G the effective G
+
+49
+00:03:55,209 --> 00:03:59,200
+从G和J的量级到L的量级的因子
+factor from G and the magnitude of J and
+the magnitude of L in the magnitude
+
+50
+00:03:59,200 --> 00:04:02,889
+西格玛（Sigma），如果您知道这些，则该公式不是本课程的一部分，但我相信
+Sigma if you know these that formula is
+not part of this course but I believe
+
+51
+00:04:02,889 --> 00:04:05,950
+这是您另一门课程的一部分，所以如果您要参加，您可能应该知道
+it's part of your other course so you
+probably should know it if you're taking
+
+52
+00:04:05,950 --> 00:04:09,609
+您将不会被要求在原子物理学课程中推导它
+the atomic physics course you won't be
+asked to derive it in this course you
+
+53
+00:04:09,609 --> 00:04:12,730
+在其他过程中，可能会被要求以任何比率得出道德是您
+may be asked to derive in the other
+course any rate the moral is that you
+
+54
+00:04:12,730 --> 00:04:16,630
+可以总结一下，您可以将轨道和自旋角动量加在一起
+can just sum you can put together the
+orbital and spin angular momenta and
+
+55
+00:04:16,630 --> 00:04:20,019
+在您知道JL和Sigma是什么的情况下，您只需想到
+under the conditions that you know what
+JL and Sigma are you can just think of
+
+56
+00:04:20,019 --> 00:04:24,490
+这是一个在磁场中重新定向的单个角动量矢量， 
+this as a single angular momentum vector
+that reorients in a magnetic field and
+
+57
+00:04:24,490 --> 00:04:27,280
+我们的条款可以重置可以总结
+the
+our term can be reset can be summarized
+
+58
+00:04:27,280 --> 00:04:31,780
+正因为如此，这是哈密顿主义下的一个相当简单的术语
+as as this so it's a fairly simple term
+in the Hamiltonian under those
+
+59
+00:04:31,780 --> 00:04:36,130
+我们可以将其视为单个总角动量的条件
+conditions where we can just think of it
+as a single total angular momentum being
+
+60
+00:04:36,130 --> 00:04:39,789
+通过磁场重新定向，但实际上这个故事要多一些
+reoriented by the magnetic field but in
+fact the story is a little more
+
+61
+00:04:39,789 --> 00:04:43,810
+比这复杂，比这更复杂，因为我们有
+complicated than this and it's more
+complicated than this because we have
+
+62
+00:04:43,810 --> 00:04:48,520
+原子中有很多电子原子中不仅有单个电子
+many electrons in an atom many an
+electrons in atom not just a single
+
+63
+00:04:48,520 --> 00:04:54,069
+电子，这意味着我们必须跟踪整个角动量
+electron and that means we have to keep
+track of the entire angular momentum
+
+64
+00:04:54,069 --> 00:04:58,060
+大写L是轨道角的所有电子的总和
+capital L that's the sum over all the
+electrons of the orbital angular
+
+65
+00:04:58,060 --> 00:05:04,720
+每个电子的动量，然后是每个电子的总自旋角动量
+momentum of each electron and then the
+total spin angular momentum of each of
+
+66
+00:05:04,720 --> 00:05:09,190
+电子，当然总的角动量就是总的
+the electrons and of course the total
+angular momentum altogether is the total
+
+67
+00:05:09,190 --> 00:05:13,960
+轨道加上总旋转，您可能会从冒险中获悉
+orbital plus the total spin and as you
+probably learned from your adventures in
+
+68
+00:05:13,960 --> 00:05:19,000
+ clebsch-gordon系数，您可以使用非常复杂的方法进行相加
+clebsch-gordon coefficients that you can
+have very complicated ways of adding
+
+69
+00:05:19,000 --> 00:05:23,139
+将角动量（例如两个自旋1/2扫描）相加在一起
+together angular momenta for example to
+two spin 1/2 scan add together to make a
+
+70
+00:05:23,139 --> 00:05:26,650
+单重态或三重态，然后事情会变得非常混乱，如果您有20 
+singlet or triplet and then things get
+really messy and if you have 20
+
+71
+00:05:26,650 --> 00:05:30,340
+您原子中的电子可以加在一起，也可以通过两种疯狂的方式加在一起
+electrons in your atom they can add
+together and also two crazy ways and so
+
+72
+00:05:30,340 --> 00:05:34,449
+我们需要一些东西来指导我们弄清楚这些电子是怎么回事
+we need something to guide us to figure
+out how it is that these electron
+
+73
+00:05:34,449 --> 00:05:39,759
+角矩将要加起来，我们必须指导我们的第一件事是
+angular momenta are going to add up
+first thing that we have to guide us is
+
+74
+00:05:39,759 --> 00:05:44,289
+原子的壳结构，所以让我们回想起
+the shell structure of the atom so let's
+remember back to the beginning of the
+
+75
+00:05:44,289 --> 00:05:51,820
+术语壳结构，我们有两个定律帮助我们解决了第一个问题： 
+term shell structure we had two laws
+that helped us out the first was the
+
+76
+00:05:51,820 --> 00:05:57,460
+ Aufbau原理，基本上是弓形，我相信在德国意味着建筑
+Aufbau principle which basically a bow
+which in german i believe means building
+
+77
+00:05:57,460 --> 00:06:01,389
+或构造它意味着您一次填充一次炮弹，然后第二次填充
+up or construction it means you fill up
+shells one at a time and the second
+
+78
+00:06:01,389 --> 00:06:06,759
+我们所遵循的原则是玛德隆的玛德隆规则，该规则告诉我们
+principle we had was madelung's
+madelung's rule which told us in which
+
+79
+00:06:06,759 --> 00:06:11,349
+我们应该开始填充填充壳，这样可以帮助我们
+order we should start filling filling
+shells so that's going to help us out a
+
+80
+00:06:11,349 --> 00:06:16,090
+很多，对我们有很大帮助的原因是， 
+lot and the reason that's going to help
+us out a lot is because there's an
+
+81
+00:06:16,090 --> 00:06:20,460
+填充壳的重要原理
+important principle that a filled shell
+
+82
+00:06:20,880 --> 00:06:29,500
+ l等于s等于j等于零填充时完全没有角动量
+has l equals s equals j equals zero no
+angular momentum at all in a filled
+
+83
+00:06:29,500 --> 00:06:33,909
+壳为什么这么好，我们使每个轨道都充满了自旋和每个轨道
+shell why is that well we filled every
+orbital with a spin up and every orbital
+
+84
+00:06:33,909 --> 00:06:37,990
+向下旋转，则总旋转为零，向上旋转的次数等于
+with spin down so the total spin is zero
+the number of ups is equal to the number
+
+85
+00:06:37,990 --> 00:06:40,909
+关于ELL的表现如何，我们进行了自旋
+of down
+how about ELLs well we spin we've filled
+
+86
+00:06:40,909 --> 00:06:47,779
+所有lz +状态，我们将所有lz-状态均等地填充到填充的外壳中
+all the lz+ states and we equally filled
+all the lz- states in in a filled shell
+
+87
+00:06:47,779 --> 00:06:52,069
+所以L Z彼此抵消，Lu最终退出的总数为零
+so the L Z's all cancel each other and
+the total Lu end up getting out is zero
+
+88
+00:06:52,069 --> 00:06:56,919
+所以填充的壳根本没有角动量，这意味着我们仅
+so a filled shell is has no angular
+momentum at all and that means we only
+
+89
+00:06:56,919 --> 00:07:09,650
+只看填充壳的部分好看填充壳的部分
+only look at part filled shells look at
+part filled shells okay so that's going
+
+90
+00:07:09,650 --> 00:07:13,669
+对我们有很大帮助，但您仍然可以将一部分装满三个
+to help us out a lot but still you can
+have a part filled shell with three four
+
+91
+00:07:13,669 --> 00:07:18,139
+里面有五个六七个电子和一个部分充满的劳特壳（如果是） 
+five six seven electrons in it and a
+partially filled laut shell if it's a
+
+92
+00:07:18,139 --> 00:07:22,039
+大壳，您可以知道部分填充的壳中有13 14个电子，因此
+big shell you can have you know 13 14
+electrons in a partially filled shell so
+
+93
+00:07:22,039 --> 00:07:26,749
+幸运的是，这仍然可能非常复杂。 
+this could still be pretty complicated
+fortunately we have a set of rules that
+
+94
+00:07:26,749 --> 00:07:31,580
+帮助我们弄清楚这些有角度的Mendte是如何相加的，这些是已知的
+helps us figure out how these angular
+Mendte add together and these are known
+
+95
+00:07:31,580 --> 00:07:37,370
+匈奴继弗雷德里克·洪德之后匈奴的统治
+as huns rules
+Hun's rules after frederique hund and he
+
+96
+00:07:37,370 --> 00:07:41,569
+早在1925年的第一年就将它们写下来了
+wrote them down actually first 1925 a
+very long time ago back in the early
+
+97
+00:07:41,569 --> 00:07:44,990
+量子力学的日子，人们正在学习
+days of quantum mechanics just when
+people were learning about shells of
+
+98
+00:07:44,990 --> 00:07:49,430
+现在我可能不知道Zots上的原子在德语中是什么意思
+atoms now I may not know what on Zots
+means in German I may not know what
+
+99
+00:07:49,430 --> 00:07:53,180
+ alpha在德语中是指，但我知道引擎盖在德语中是指狗，所以无论如何
+alpha means in German but I know that a
+hood means dog in German so whatever
+
+100
+00:07:53,180 --> 00:08:04,120
+这是值得的，这是狗的规则，但嗯，所以规则1规则1电子自旋
+that's worth these are the dogs rules
+but um so rule 1 rule 1 electron spins
+
+101
+00:08:04,120 --> 00:08:20,539
+如果可以的话，将一条直线旋转一条直线，换句话说，您可以最大化所有
+spins a line a line if they can if they
+can in other words you maximize s all
+
+102
+00:08:20,539 --> 00:08:25,249
+对，所以这实际上是一个非常好的规则，因为它有点像是
+right so this is actually a very nice
+rule because it's kind of like being a
+
+103
+00:08:25,249 --> 00:08:29,659
+铁磁体中的所有自旋线都可以使您最大化
+ferromagnet in a ferromagnet you get all
+your spins to a line and you maximize
+
+104
+00:08:29,659 --> 00:08:33,860
+总的自旋不是铁磁体，因为我们只是在说
+the total spin it's not really a
+ferromagnet because we're just talking
+
+105
+00:08:33,860 --> 00:08:37,429
+这里只有一个原子，所以它只是有限数量的电子，而不是整个
+about a single atom here so it's just a
+finite number of electrons not a whole
+
+106
+00:08:37,429 --> 00:08:41,749
+你知道整个固体电子很大，但至少具有相同的定性
+
+107
+00:08:41,750 --> 00:08:45,740
+物理学所以你能理解为什么电子自旋会想要
+physics so can you understand why it is
+that the electron spins would want to
+
+108
+00:08:45,740 --> 00:08:54,839
+好吧，好吧，为什么为什么要把规则1做好第一件事不是因为
+align well ok so why why rule 1
+well the first thing it is not because
+
+109
+00:08:54,839 --> 00:08:59,069
+波兰pol相互作用的偶极-偶极相互作用
+of Dai Poland i pol interactions
+dipole-dipole interactions between the
+
+110
+00:08:59,069 --> 00:09:07,199
+自旋为什么不可以呢自旋确实有偶极矩和偶极矩
+spins why not yes the spins do have
+dipole moment and the dipole moments
+
+111
+00:09:07,199 --> 00:09:10,949
+会相互作用，但如果您尝试计算偶极子相互作用
+will interact but if you try to
+calculate the dipole dipole interaction
+
+112
+00:09:10,949 --> 00:09:15,990
+两个偶极子之间的强度，其偶极矩为玻尔磁子
+strength between two dipoles whose
+dipole moment is a Bohr Magneton in a
+
+113
+00:09:15,990 --> 00:09:20,130
+单个原子太小了，它是如此之小，您可以完全将其扔掉
+single atom it's insanely small it's so
+small you can just completely throw it
+
+114
+00:09:20,130 --> 00:09:26,040
+完全无关紧要，因此保持它重要不是因为这个
+out totally irrelevant so it's not
+because of this that's important to keep
+
+115
+00:09:26,040 --> 00:09:33,060
+请记住，这是由于库仑相互作用所致。 
+in mind what it is due to is due to
+Coulomb interaction due to Coulomb let's
+
+116
+00:09:33,060 --> 00:09:39,149
+看看我们是否能弄清楚为什么库仑相互作用会关心电子
+see if we can figure out why Coulomb
+interaction would care if the electron
+
+117
+00:09:39,149 --> 00:09:45,060
+自旋对齐或对齐不正确，因此如果打开大多数固态
+spins were aligned or not aligned well
+so if you open up most solid state
+
+118
+00:09:45,060 --> 00:09:49,139
+物理书籍或大多数形式的物理书籍，通常会告诉您一些
+physics books or most physics books of
+any sort they usually tell you some
+
+119
+00:09:49,139 --> 00:09:53,730
+关于为什么电子自旋想要对准以及为什么是这样的故事
+story about why it is that electron
+spins want to align and why it is that
+
+120
+00:09:53,730 --> 00:09:58,920
+在这方面服从人的角色，故事在质量上是对的
+one's role is obeyed in this respect and
+the story is sort of qualitatively right
+
+121
+00:09:58,920 --> 00:10:03,240
+但这有很多问题，所以这是一个警告，我想我给了
+but it has a lot of things wrong with it
+so this is a warning I think I gave a
+
+122
+00:10:03,240 --> 00:10:07,050
+本书中的行为有很多警告，因此您可以阅读我们将要详细介绍的内容。 
+lot of caveats in the act in the in the
+book so you can read the details we'll
+
+123
+00:10:07,050 --> 00:10:10,589
+先讲讲这个故事我先讲童话
+go through this a little bit tell the
+story first I'll tell the fairy tale
+
+124
+00:10:10,589 --> 00:10:14,040
+首先，我将向您解释为什么童话故事不完全正确
+first then I'll explain to you why the
+fairy tale isn't exactly right to have a
+
+125
+00:10:14,040 --> 00:10:17,970
+更好地了解实际发生的事情，以便弄清楚为什么会这样
+better idea of what actually is going on
+so in order to figure out why it is that
+
+126
+00:10:17,970 --> 00:10:21,839
+库仑相互作用很重要，让我们回想一下您是否具有两个波函数
+Coulomb interaction cares let's recall
+if you have a wavefunction for two
+
+127
+00:10:21,839 --> 00:10:27,180
+波动函数的电子应分解成轨道部分
+electrons that wave function should be
+decomposed into the orbital part which
+
+128
+00:10:27,180 --> 00:10:32,839
+取决于两个原子的位置对不起两个电子和自旋部分
+depends on the position of the two atoms
+sorry two electrons and the spin part
+
+129
+00:10:32,839 --> 00:10:38,550
+现在取决于两个电子的自旋
+which depends on the spins of the two
+electrons now the overall wave function
+
+130
+00:10:38,550 --> 00:10:46,319
+必须是反对称的，因为电子是费米子，所以这告诉我们
+must be anti symmetric because electrons
+are fermions and so that tells us that
+
+131
+00:10:46,319 --> 00:10:53,550
+如果Chi自旋等于使两个自旋指向相同的方向（如向上） 
+if Chi spin equals having both spins
+pointing in the same direction like up
+
+132
+00:10:53,550 --> 00:10:58,829
+如果自旋对齐，则上下或同时指向侧面，这是
+up down down or both pointing sideways
+if the spins are aligned then this is
+
+133
+00:10:58,829 --> 00:11:04,440
+这是对称的然后是轨道部分
+this is then symmetric symmetric then
+the orbital part
+
+134
+00:11:04,440 --> 00:11:13,350
+叹息球是反对称的，这意味着如果我们将叹息轨道写为a 
+sigh orb is anti-symmetric what that
+means is if we write sigh orbital as a
+
+135
+00:11:13,350 --> 00:11:22,680
+ R 1减去R 2的函数，我们取R 1至R 2，波动函数必须为0 
+function of R 1 minus R 2 we take R 1 to
+R 2 the wave function has to go to 0
+
+136
+00:11:22,680 --> 00:11:27,810
+因为如果采用反对称函数，然后采用
+because the if you take an
+anti-symmetric function and you take its
+
+137
+00:11:27,810 --> 00:11:31,620
+函数的参数必须为0，反对称必须为0 
+argument to 0 the function must go to 0
+anything anti-symmetric has to go
+
+138
+00:11:31,620 --> 00:11:39,060
+在0处通过0表示什么，这意味着电子不能
+through 0 at 0 so what does that mean
+what that means is that electrons cannot
+
+139
+00:11:39,060 --> 00:11:44,630
+彼此靠近不能靠近
+get close to each other cannot get close
+
+140
+00:11:46,040 --> 00:11:54,390
+彼此靠近，您可能会认为库仑相互作用会在乎
+close to each other and you might think
+that the Coulomb interaction would care
+
+141
+00:11:54,390 --> 00:11:57,630
+关于这一点，的确是通常讲的故事，所以这个故事
+about that and indeed that's the story
+that's usually told so the story goes
+
+142
+00:11:57,630 --> 00:12:01,980
+如果自旋对齐，则有点像这样，因为
+kind of like this if the spins are
+aligned then because of the symmetry of
+
+143
+00:12:01,980 --> 00:12:06,060
+波函数使电子无法彼此靠近，这使得
+the wave function the electrons can't
+get close to each other and that makes
+
+144
+00:12:06,060 --> 00:12:09,180
+库仑互动很高兴，因为库仑互动不希望
+the Coulomb interaction happy because
+the Coulomb interaction doesn't want the
+
+145
+00:12:09,180 --> 00:12:12,570
+电子彼此靠近，因此能量自然降低
+electrons to get close to each other
+either so the energy is naturally lower
+
+146
+00:12:12,570 --> 00:12:17,130
+因为电子彼此之间保持更远的距离，所以
+because the electrons are staying
+farther apart from each other ok it's
+
+147
+00:12:17,130 --> 00:12:21,320
+几乎是正确的，但是它不是真的正确，并且它不是真的正确的原因是
+almost right but it's not really right
+and the reason it's not really right is
+
+148
+00:12:21,320 --> 00:12:34,190
+因为更重要更重要的是电子原子核
+because really more important more
+important is the electron nucleus
+
+149
+00:12:34,190 --> 00:12:42,030
+原子核原子核不是电子，而是一种非常
+nucleus nucleus not the electron
+electron and it's it's sort of a very
+
+150
+00:12:42,030 --> 00:12:46,680
+电子核与电子之间的细微差异是因为
+subtle difference between electron
+nucleus and electron electron because
+
+151
+00:12:46,680 --> 00:12:50,490
+到最后都是库仑的互动，但让我尝试解释一下
+it's all Coulomb interaction at the end
+of the day but let me try to explain
+
+152
+00:12:50,490 --> 00:12:58,380
+我的意思是，所以让我们想象一下，我们在这里有一个核，然后我们有两个
+what I mean by this so let's imagine we
+have a nucleus here and then we have two
+
+153
+00:12:58,380 --> 00:13:02,610
+自旋的自旋是反对齐的，所以因为自旋是反对齐的，所以它们
+spins who spins are anti aligned so
+because the spins are anti aligned they
+
+154
+00:13:02,610 --> 00:13:07,200
+可以彼此靠近，特别是一个电子可以进入
+can get close to each other and in
+particular one electron can get in
+
+155
+00:13:07,200 --> 00:13:11,520
+原子核中另一个电子之间的关系现在可以记得我们去的时候
+between the other electron in the
+nucleus ok now remember when we went
+
+156
+00:13:11,520 --> 00:13:15,240
+回来，我们谈到了电负性和电离能
+back and we talked about
+electronegativity and ionization energy
+
+157
+00:13:15,240 --> 00:13:18,209
+当一个电子可以进入
+when one electron can get inside the
+orbit of the
+
+158
+00:13:18,209 --> 00:13:23,459
+其他的它可以屏蔽核，可以屏蔽来自核的电子， 
+other it can screen the nucleus it can
+screen the electron from the nucleus and
+
+159
+00:13:23,459 --> 00:13:28,079
+使有效核电荷看起来更小，结果是
+make the effective nuclear charge look
+smaller as a result the electron on the
+
+160
+00:13:28,079 --> 00:13:37,170
+外面的约束力弱，因为它看到的有效核电荷较小
+outside is weakly bound because it sees
+a smaller effective nuclear charge on
+
+161
+00:13:37,170 --> 00:13:41,759
+另一方面，如果对齐电子的自旋，则电子将无法
+the other hand if you align the spins of
+the electrons then the electrons can't
+
+162
+00:13:41,759 --> 00:13:45,119
+彼此靠近，尤其是这个电子不能
+get close to each other and in
+particular this electron cannot get
+
+163
+00:13:45,119 --> 00:13:51,689
+在这个电子轨道内部，它无法从原子核中屏蔽掉这个电子
+inside this electrons orbit and it can't
+screen this electron from the nucleus so
+
+164
+00:13:51,689 --> 00:14:01,949
+结果，电子被牢固地束缚，这是更多的原因
+as a result the electrons are strongly
+bound and this is a more of the reason
+
+165
+00:14:01,949 --> 00:14:08,220
+为什么将两个电子自旋对齐会降低能量
+of why it is that the it's lower energy
+to have the two electron spins aligned
+
+166
+00:14:08,220 --> 00:14:11,249
+因为然后两个电子牢固地结合到原子核上
+because then the two electrons are
+strongly bound to the nucleus and that
+
+167
+00:14:11,249 --> 00:14:16,889
+降低他们的精力，所以这是hons第一个统治的诚实原因
+lowers their energy okay so that's more
+of the honest reason why hons first rule
+
+168
+00:14:16,889 --> 00:14:22,769
+适用，所以我们甚至可以概括匈奴
+applies okay
+so let's we can even generalize huns
+
+169
+00:14:22,769 --> 00:14:27,139
+如果我们想要的话，可以从原子到分子滚动，假设我们有一个分子
+roll-up from atoms to molecules if we
+want so suppose we have a molecule
+
+170
+00:14:27,139 --> 00:14:35,249
+分子假设我们有一个带有两个正核的分子，说两个
+molecules suppose we have a molecule
+with two positive nuclei and say two
+
+171
+00:14:35,249 --> 00:14:41,160
+如果两个电子自旋对齐，则这里的电子完全相同。 
+electrons up here it's exactly the same
+physics if the two electron spins align
+
+172
+00:14:41,160 --> 00:14:45,480
+那么电子必须彼此分开而不能屏蔽
+then the electrons have to stay apart
+from each other and they can't screen
+
+173
+00:14:45,480 --> 00:14:50,369
+互相从核中旋转，而自旋反对齐，则它们可以
+each other from the nucleus whereas the
+spins are anti aligned then they can get
+
+174
+00:14:50,369 --> 00:14:54,809
+彼此之间，他们可以筛选核，最后结合
+inside of each other and they can screen
+the nucleus and in the end the binding
+
+175
+00:14:54,809 --> 00:15:01,709
+较弱，因此洪德法则希望旋转是反对齐洪德法则仍然
+is weaker so hund's rule wants the spins
+to be anti align the hund rule still
+
+176
+00:15:01,709 --> 00:15:06,470
+想要旋转甚至在分子中对齐
+wants spins to align even in a molecule
+
+177
+00:15:07,519 --> 00:15:12,809
+但这必须与其他事物竞争，而另一事物必须
+but that has to compete with something
+else and the other thing that has to
+
+178
+00:15:12,809 --> 00:15:23,670
+与之竞争的是共价键，债券希望事前对齐，事前对齐
+compete with is a covalent bonding bond
+wants ante aligned ante aligned what's
+
+179
+00:15:23,670 --> 00:15:27,749
+我们称我们在两个轨道上拥有共价键时学到的东西
+we call what we learned about covalent
+bonding when we had orbitals on two
+
+180
+00:15:27,749 --> 00:15:32,010
+原子都具有能量e而不是当原子彼此靠近时它们形成
+atoms both with energy e not when the
+atoms come close together they form
+
+181
+00:15:32,010 --> 00:15:36,270
+一个键合和反键合的轨道，我们想将两个电子都放入
+a bonding and anti-bonding orbital and
+we want to put both electrons in the
+
+182
+00:15:36,270 --> 00:15:40,710
+反结合轨道，我们必须反对准它们的自旋以形成单线态， 
+anti-bonding orbital we have to anti
+align their spins to make a singlet and
+
+183
+00:15:40,710 --> 00:15:44,850
+使它们都处于较低的能量状态，因此Hunza和
+put them both in a lower energy state so
+there's a competition between Hunza and
+
+184
+00:15:44,850 --> 00:15:49,110
+分子是共价键物理与洪德规则之间的竞争
+molecules is a competition between
+covalent bonding physics and hunds rules
+
+185
+00:15:49,110 --> 00:15:52,950
+物理学中的一个想要旋转以对齐其中一个想要旋转以
+physics one of them wants the spins to
+align one of them wants to spins to
+
+186
+00:15:52,950 --> 00:15:56,010
+反对齐，所以要弄清楚一个分子要复杂得多
+anti-align so it's a lot more
+complicated in a molecule to figure out
+
+187
+00:15:56,010 --> 00:16:00,330
+如果旋转对齐，或者如果不对齐，那么您应该知道那两个
+if spins align or if they don't so when
+you should just be aware that those two
+
+188
+00:16:00,330 --> 00:16:05,280
+互相竞争好吧，这是一个人的第一法则
+are competing with each other okay all
+right so that's one's first rule it
+
+189
+00:16:05,280 --> 00:16:08,940
+告诉我们，如果有壳的话，自旋会尽量对齐
+tells us as the spins will try to align
+if they can so if you have a shell
+
+190
+00:16:08,940 --> 00:16:13,680
+小于1/2填充，您可以将所有电子指向相同
+that's less than 1/2 filled you can put
+all of the electrons pointing the same
+
+191
+00:16:13,680 --> 00:16:17,280
+方向当您充满时，您必须开始将电子放入
+direction when you get to have filled
+you have to start putting electrons in
+
+192
+00:16:17,280 --> 00:16:20,490
+向相反的方向，因为您已经用所有
+in the opposite direction because you've
+filled all the states with all the
+
+193
+00:16:20,490 --> 00:16:23,970
+电子方向相同，但在一定程度上可以
+electrons in the same direction but to
+the extent that they can the electrons
+
+194
+00:16:23,970 --> 00:16:29,550
+现在我们将始终尝试统一，说我们仍然必须弄清楚会发生什么
+will always try to align now that said
+we still have to figure out what happens
+
+195
+00:16:29,550 --> 00:16:36,270
+到轨道的自由度，所以规则2非常相似，基本上是L 
+to the orbital degree of freedom so rule
+2 is very similar which is basically L
+
+196
+00:16:36,270 --> 00:16:49,500
+被最大化以服从规则1到规则1，这更重要，所以让我们
+is maximized to subject to rule 1 to
+rule 1 which is more important so let's
+
+197
+00:16:49,500 --> 00:16:53,670
+看看我们是否可以举一个例子，这可能是解释这个问题的最简单方法
+see if we can do an example of this
+probably the easiest way to explain this
+
+198
+00:16:53,670 --> 00:16:59,130
+是为了展示它是如何工作的，所以让我们考虑一个亚当的舞台
+is to show how it works so let's
+consider a proscenium Adam this is
+
+199
+00:16:59,130 --> 00:17:08,190
+原子数原子数是59邪恶的59，在56中等于填充
+atomic number atomic number is 59
+evil's 59 which in 56 equals filled
+
+200
+00:17:08,190 --> 00:17:12,150
+炮弹，我认为它充满了炮弹，持续了6秒
+shells
+I think it's filled shells up to 6 s
+
+201
+00:17:12,150 --> 00:17:21,660
+实际上，这意味着我们已经充满了炮弹加上3个电子，所以59等于
+actually so that means we have filled
+shells plus 3 electrons ok so 59 equals
+
+202
+00:17:21,660 --> 00:17:32,820
+充满的壳加上F中的3个电子壳中的4f中只有3个电子
+filled shells plus 3 electrons in the F
+shell 3 electrons in 4f in well just F
+
+203
+00:17:32,820 --> 00:17:45,690
+外壳F为l等于3记住s PDFG，所以f在0 1 2 3 F为l等于3 
+shell F is l equals 3 remember s P D F G
+so f at 0 1 2 3 F is l equals 3
+
+204
+00:17:45,690 --> 00:17:52,710
+所以我们可以写出所有赢得FL座位等于3的轨道2 
+so we can write out all the orbitals won
+the seat for F L equals 3 there's 2 L
+
+205
+00:17:52,710 --> 00:17:58,140
+从负3 LZ到正1的轨道等于负3到正3，所以我们写
+plus 1 orbitals going from minus 3 LZ
+equals minus 3 to plus 3 so let's write
+
+206
+00:17:58,140 --> 00:18:05,880
+他们全部出来，所以LZ等于我们有负3负2负1 0 1 2 3负3负
+them all out so LZ equals we have minus
+3 minus 2 minus 1 0 1 2 3 minus 3 minus
+
+207
+00:18:05,880 --> 00:18:13,950
+ 2减1为0 1 2 3，我们现在必须在这些轨道中放入3个电子
+2 minus 1 is 0 1 2 3 and we have to put
+3 electrons in those orbitals now the
+
+208
+00:18:13,950 --> 00:18:17,910
+第一法则hons第一法则说，我们放入的电子必须有它们的
+first rule hons first rule says that the
+electrons we put in have to have their
+
+209
+00:18:17,910 --> 00:18:22,380
+旋转对齐，所以我们知道我们必须对齐旋转，然后
+spins aligned so that's so we know we
+have to have aligned spins and then what
+
+210
+00:18:22,380 --> 00:18:26,400
+我们想要做的就是我们要最大化l在满足所有
+we want to do is we want to maximize l
+subject to the condition that all the
+
+211
+00:18:26,400 --> 00:18:31,020
+自旋是对齐的，所以我们可以考虑让我们尝试最大化LZ，我们会做
+spins are aligned so we can think well
+let's try to maximize LZ and we would do
+
+212
+00:18:31,020 --> 00:18:35,610
+通过将电子尽可能地移到最右边，我们将得到
+that by putting the electrons as far to
+the right as possible and we would get
+
+213
+00:18:35,610 --> 00:18:40,350
+ LZ等于6 3加2加1现在我们也可以尝试将它们放到最左边
+LZ equals 6 3 plus 2 plus 1 now we can
+also try to put them as far to the left
+
+214
+00:18:40,350 --> 00:18:44,400
+尽可能得到LZ的最小值
+as possible and we get the smallest
+value of LZ possible which would be
+
+215
+00:18:44,400 --> 00:18:49,950
+减6减3减2减1好的，所以如果我们能得到的最大LZ是
+minus 6 minus 3 minus 2 minus 1 okay so
+this if the largest LZ we can get is
+
+216
+00:18:49,950 --> 00:18:56,450
+加6，我们可以得到的最小LZ为负6，这意味着我们有L 
+plus 6 and the smallest LZ we can get is
+minus 6 it means that the L we have l
+
+217
+00:18:56,450 --> 00:19:03,150
+在这种情况下等于6好吧，现在我们也可以
+equals 6
+in this case ok good now we can also
+
+218
+00:19:03,150 --> 00:19:08,900
+立即写下s是三分之二3旋转所有对齐的s等于
+write down s immediately is three-halves
+3 spins all aligned is s equals
+
+219
+00:19:08,900 --> 00:19:13,140
+三半，这就是洪德定律和洪德定律的运作方式
+three-halves so that's how hund's rule
+works and hund's rule
+
+220
+00:19:13,140 --> 00:19:16,560
+第二条规则也是由库仑相互作用驱动的，但是没有
+second rule here is also driven by
+Coulomb interaction but there aren't
+
+221
+00:19:16,560 --> 00:19:22,200
+很好的卡通图片来解释为什么在HoN中L最大化
+very good cartoon pictures to explain
+why it is that L is maximized in HoN
+
+222
+00:19:22,200 --> 00:19:26,730
+第二个角色，所以我很抱歉，这只是一个观察结果
+second role so I apologize about that
+it's just a you know it's an observation
+
+223
+00:19:26,730 --> 00:19:30,780
+那个引擎盖造了，没有人真正提出许多非常简单的解释
+that hood made and no one's really come
+up with many very simple explanations
+
+224
+00:19:30,780 --> 00:19:35,940
+在这一点上，嗯，所以这告诉了我们几乎所有我们需要知道的内容，但是
+for it at this point um ok so this tells
+us almost everything we need to know but
+
+225
+00:19:35,940 --> 00:19:42,000
+我们仍然有一个问题，即L如何与s对齐或反对齐，所以我们有
+we still have the question of how does L
+align or anti align with s so we have
+
+226
+00:19:42,000 --> 00:19:56,940
+规则3第三个规则上的规则3，L平行于s或L减去
+rule 3 rule 3 on this third rule which
+is either L is parallel to s or L minus
+
+227
+00:19:56,940 --> 00:20:02,370
+ L与s um和平行
+L is parallel to s
+um and the way it goes is that J
+
+228
+00:20:02,370 --> 00:20:11,190
+ J的绝对值是绝对L加上或减去绝对s（如果选择）-如果
+absolute value of J is absolute L plus
+or minus absolute s where we choose - if
+
+229
+00:20:11,190 --> 00:20:21,270
+我们有少于一半的填充壳少于一半的填充壳，这意味着
+we have if less than half filled shell
+less than half filled meaning that the
+
+230
+00:20:21,270 --> 00:20:25,620
+以其角动量和轨道角反旋转
+spins anti aligned with their angular
+momentum and with their orbital angular
+
+231
+00:20:25,620 --> 00:20:42,390
+一半，一半以上就可以了，所以这是第三个规则
+man half it's more than half filled okay
+so that's one's third rule which tells
+
+232
+00:20:42,390 --> 00:20:46,590
+您如何了解轨道和旋转角度Mendte如何彼此对齐或
+you how the orbital and spin angular
+Mendte either aligned with each other or
+
+233
+00:20:46,590 --> 00:20:52,170
+现在彼此反对齐，所以在这种情况下，例如我们这里的主席团
+anti aligned with each other now so for
+example in this case here Presidium we
+
+234
+00:20:52,170 --> 00:20:57,510
+壳的填充少于一半，所以J等于6减去我们选择的三分之二
+have less than a half filled shell so J
+equals 6 minus three-halves we choose
+
+235
+00:20:57,510 --> 00:21:01,230
+负号，因为它小于填充的一半，这使我们的J等于9 
+the minus sign because it's less than
+half filled and that gives us J equals 9
+
+236
+00:21:01,230 --> 00:21:05,340
+一半，所以我们知道关于主席团的所有信息，我们知道
+halves okay so we know everything there
+is to know about Presidium we know what
+
+237
+00:21:05,340 --> 00:21:10,500
+ L是我们知道s在哪里，我们知道从狩猎卷中知道J是什么，所以为什么它是
+it L is we know where s is we know what
+J is from hunt rolls okay so why it's
+
+238
+00:21:10,500 --> 00:21:15,930
+狩猎第三条法则是正确的狩猎第三条法则实际上与
+hunts third rule true well hunts third
+rule is actually a little bit unlike the
+
+239
+00:21:15,930 --> 00:21:20,580
+另外两个是因为它不是由交互驱动的，而是由驱动的
+other two because it's not driven by
+interactions it's actually driven by
+
+240
+00:21:20,580 --> 00:21:28,020
+它是由规则三驱动的，它来自自旋轨道的规则三
+something else it's driven by rule three
+is from rule three from spin orbit
+
+241
+00:21:28,020 --> 00:21:33,210
+耦合自旋轨道实际上是相对论效应自旋轨道耦合
+coupling spin orbit which is actually a
+relativistic effect spin orbit coupling
+
+242
+00:21:33,210 --> 00:21:38,190
+实际上，基本上就是当我们写下哈密顿量时
+and in fact it is just it's basically
+that when we wrote down the Hamiltonian
+
+243
+00:21:38,190 --> 00:21:43,380
+我们省略了一个小术语，即自旋轨道项，它取下一个项，因此
+we left out a small term the spin orbit
+term which takes the following term so
+
+244
+00:21:43,380 --> 00:21:47,100
+我将其写为Delta EIJ，这是我们忽略的哈密顿量的一小部分， 
+I'll write it as Delta EIJ a small piece
+of the Hamiltonian we left out which we
+
+245
+00:21:47,100 --> 00:21:52,470
+可以写成所有电子轨道角动量的α和
+can write as alpha sum over all the
+electrons orbital angular momentum of
+
+246
+00:21:52,470 --> 00:21:57,180
+电子点缀着电子的自旋角动量就可以了
+the electron dotted with the spin
+angular momentum of the electron okay
+
+247
+00:21:57,180 --> 00:22:03,540
+现在汉密尔顿方程中的alpha大于零，所以我的意思是
+now in this Hamiltonian alpha is greater
+than zero and so I mean you can sort of
+
+248
+00:22:03,540 --> 00:22:07,110
+看到这将使轨道角动量和自旋
+see that this is going to make the
+orbital angular momentum and the spin
+
+249
+00:22:07,110 --> 00:22:11,940
+角动量计数器对齐以使其尽可能负
+angular momentum counter align to make
+this as negative as possible you're
+
+250
+00:22:11,940 --> 00:22:14,010
+要旋转的是贝尔兰加精神
+going to have to
+the spin is up the or Berlanga mentum
+
+251
+00:22:14,010 --> 00:22:17,429
+想下来等等，但您可能会很好奇
+wants to be down and so forth but you
+might wonder well what about this
+
+252
+00:22:17,429 --> 00:22:20,429
+业务大约一半装满了贝壳，不到一半超过一半
+business about half filled shells in
+less than a half thousand more than half
+
+253
+00:22:20,429 --> 00:22:24,090
+充满贝壳，似乎有点奇怪，事实证明那一点
+filled shells that seems a little bit
+strange it turns out that that little
+
+254
+00:22:24,090 --> 00:22:27,390
+奇怪的清单实际上只是来自簿记，您只需要小心
+strange list is actually just from
+bookkeeping you just have to be careful
+
+255
+00:22:27,390 --> 00:22:31,620
+关于簿记，每个进入的电子总是跟随
+about the bookkeeping every electron
+that goes in is always following the
+
+256
+00:22:31,620 --> 00:22:35,910
+同样的规则遵循hunds规则1遵循hunds规则2，然后尝试使其
+same rule follow hunds rule 1 follow
+hunds rule 2 and then try to make this
+
+257
+00:22:35,910 --> 00:22:40,049
+尽可能小，如果您遵循该规则，您将始终得到
+as small as possible and if you if you
+follow that rule you will always get
+
+258
+00:22:40,049 --> 00:22:46,380
+洪德法则3让我们一秒钟看看它是如何工作的
+hund's rule 3 let's see how that works
+for a second let's consider a case where
+
+259
+00:22:46,380 --> 00:22:52,950
+我们不知道D外壳，所以在广告外壳中，我们的LZ等于-2减1， 
+we have I don't know a D shell so in a d
+shell we have L Z equals -2 minus 1 and
+
+260
+00:22:52,950 --> 00:23:00,000
+ 1 2 3 LZ等于-2减去1 0 1 2这些就是可能性
+1 2 3 L Z equals -2 minus 1 0 1 2 those
+are the possibilities let's put one
+
+261
+00:23:00,000 --> 00:23:04,530
+如果你在里面放一个电子的话，它就很简单
+electron in if you put one electron in
+it while ok it's pretty simple it wants
+
+262
+00:23:04,530 --> 00:23:09,360
+最大化其自旋角动量，因此自旋井只有一种选择
+to maximize its spin angular momentum so
+the spin well it only has one choice you
+
+263
+00:23:09,360 --> 00:23:15,900
+旋转1/2，这样很容易，并且它想最大化其轨道角动量为
+spin 1/2 so that's easy and it wants to
+maximize its orbital angular momentum as
+
+264
+00:23:15,900 --> 00:23:21,690
+好，所以我们可以把它放在这里或现在的电子路径上
+well so we can put this the the electron
+way over here or way over here now if
+
+265
+00:23:21,690 --> 00:23:28,980
+如果要使旋转降低，则希望将ll点Sigma最小化
+you want to minimize the ll dot Sigma if
+we put it if we make the spin spin down
+
+266
+00:23:28,980 --> 00:23:34,890
+那么您将其放在此处，以使Sigma Sigma Z等于负1/2 
+then you would put it over here so that
+Sigma Sigma Z equals minus 1/2
+
+267
+00:23:34,890 --> 00:23:40,799
+但LZ等于加1/2，所以Sigma点L的乘积为负，这就是我们
+but LZ equals plus 1/2 so the product of
+Sigma dot L is negative which is what we
+
+268
+00:23:40,799 --> 00:23:44,549
+希望我们希望使该术语尽可能地否定，然后确定
+want we want to make that term as
+negative as possible ok and then sure
+
+269
+00:23:44,549 --> 00:23:53,160
+这两个JZ的总和是LZ减去Sigma Z，对不起LZ加Sigma Z是
+enough the sum of these two JZ is L Z
+minus Sigma Z sorry LZ plus Sigma Z is
+
+270
+00:23:53,160 --> 00:23:58,500
+三分之二，并声称Weesa的壳不到一半，所以J 
+three-halves and as claimed
+Weesa less than a half filled shell so J
+
+271
+00:23:58,500 --> 00:24:06,480
+是2和1/2的差额，所以基本上可以告诉你
+is the difference of 2 and 1/2 okay so
+that works basically just telling you
+
+272
+00:24:06,480 --> 00:24:12,780
+这样，当您添加时，可能有1/2小于一半的填充壳旋转
+that when you add you might have 1/2
+less than half filled shell the spin and
+
+273
+00:24:12,780 --> 00:24:16,500
+轨道指向相反的方向，所以自旋轨道是
+the orbit went to be pointing the
+opposite direction so spin orbit is
+
+274
+00:24:16,500 --> 00:24:20,820
+负面的，这很容易，现在当我们进入半填充的外壳时会发生什么
+negative that's easy ok now what happens
+when we get to a half-filled shell when
+
+275
+00:24:20,820 --> 00:24:25,810
+我们得到一个半满的壳LZ，我们等于负
+we get to a half-filled shell LZ we have
+equals minus
+
+276
+00:24:25,810 --> 00:24:32,560
+二减一零一二当我们半满时，我们现在拥有这五个状态
+two minus one zero one two we have these
+five states now once we're a half-filled
+
+277
+00:24:32,560 --> 00:24:38,050
+外壳，我们必须将所有五个旋转对齐，因为我们要对齐所有
+shell we have to put in all five spins
+aligned because we want to align all the
+
+278
+00:24:38,050 --> 00:24:43,780
+自旋，所以在这里，我们等于五个一半，五个自旋都指向
+spins so here we have s equals five
+halves five spins all pointed in the
+
+279
+00:24:43,780 --> 00:24:49,960
+方向相同，但L等于零，因为我们已经填补了所有负数
+same direction but L here equals zero
+because we've filled all the negative
+
+280
+00:24:49,960 --> 00:24:54,340
+状态和所有加号状态都还好，所以这没问题
+states and all the plus states as well
+okay so here it's no problem
+
+281
+00:24:54,340 --> 00:24:59,740
+我的意思是，匈奴人第三卷甚至都不适用，因为L为零，所以旋转
+I mean Huns third roll doesn't even
+apply because because L is zero so spin
+
+282
+00:24:59,740 --> 00:25:08,830
+就是你的绝对J，只是旋转角度，所以我们
+is just your absolute J's it's just it's
+just that it's just a spin angular so we
+
+283
+00:25:08,830 --> 00:25:14,020
+现在不必担心L，我们再添加一个电子，这样当您
+don't have to worry about about L now
+let's add one more electron so when you
+
+284
+00:25:14,020 --> 00:25:23,140
+再加上一个电子LZ等于5减1减2减1 0 1 2 
+add one more electron LZ equals go minus
+1 out of 5 minus 2 minus 1 0 1 2 we put
+
+285
+00:25:23,140 --> 00:25:28,210
+所有这些家伙都旋转下来，我们再增加一个电子，那一个电子会去哪里
+all these guys spin down we add one more
+electron where does that one electron go
+
+286
+00:25:28,210 --> 00:25:33,220
+好吧，它仍然想要满足这个条件，它想要自己旋转
+well ok it still wants to satisfy this
+condition that it wants its own spin
+
+287
+00:25:33,220 --> 00:25:37,870
+角动量指向其轨道角动量的相反方向，因此它必须走
+angular momentum to point opposite its
+orbital angular momentum so it has to go
+
+288
+00:25:37,870 --> 00:25:42,940
+然后旋转起来，所以我们必须把它放在这里，所以我们放入的最后一个电子
+and spin up so we have to put it over
+here so this last electron we put in has
+
+289
+00:25:42,940 --> 00:25:48,970
+ Sigma Z等于正负1/2，但LZ等于负2，这仍然让它高兴
+Sigma Z equals plus 1/2 but LZ equals
+minus 2 and that still makes it happy
+
+290
+00:25:48,970 --> 00:25:54,070
+因为Sigma Z指向LZ的对面，但现在注意这里发生了什么
+because Sigma Z is pointing opposite LZ
+but now notice what's going on here the
+
+291
+00:25:54,070 --> 00:26:01,150
+总SZ总SZ实际上仍然是负数实际上是负数
+total SZ the total SZ is actually still
+negative is actually negative what it's
+
+292
+00:26:01,150 --> 00:26:07,480
+负2对，所以我放入的最后一个电子指向总数
+negative 2 right so the last electron
+that I put in was pointing up the total
+
+293
+00:26:07,480 --> 00:26:15,010
+自旋实际上仍然指向下方，即使l LZ在这里
+spin is actually still pointing down so
+and even though the l LZ is here is
+
+294
+00:26:15,010 --> 00:26:19,840
+减去2，因为一半填充的半壳的LZ总数等于0 
+minus 2 the total because the half the
+half filled shell had LZ total equals 0
+
+295
+00:26:19,840 --> 00:26:24,160
+我们添加了一个电子，该电子朝上，但总自旋角
+we added one electron that electron is
+pointing up but the total spin angular
+
+296
+00:26:24,160 --> 00:26:28,720
+动量仍然指向下方，因此总旋转角度
+momentum is still pointing down
+so here the the total spin angular
+
+297
+00:26:28,720 --> 00:26:31,480
+总轨道角动量中的动量现在指向相同
+mentum in the total orbital angular
+momentum are now pointing the same
+
+298
+00:26:31,480 --> 00:26:34,540
+方向，我们仍然遵循相同的规则
+direction and we were still just
+following the same rule that each
+
+299
+00:26:34,540 --> 00:26:39,309
+电子想要抵消其自旋和轨道角动量的对准
+electron wants to counter align his spin
+and his orbital angular momentum
+
+300
+00:26:39,309 --> 00:26:42,460
+彼此，换句话说，我们来的原因是我们来到簿记
+each other so in other words the reason
+we came we came to this bookkeeping
+
+301
+00:26:42,460 --> 00:26:46,899
+问题是因为当我们有一个半满的外壳时，我们有s，它不是
+problem is because when we have a
+half-filled shell we have s which is non
+
+302
+00:26:46,899 --> 00:26:53,259
+零，但是当我们再增加一个电子时，L就是零
+zero but L is zero when we add one more
+electron the net spin of the whole
+
+303
+00:26:53,259 --> 00:26:57,190
+系统指向那个旋转的相反方向
+system is pointing in the opposite
+direction of the spin of that one
+
+304
+00:26:57,190 --> 00:27:01,299
+我们添加的电子，所以这就是为什么第三个规则在
+electron we added so that's why one's
+third rule has this complication at
+
+305
+00:27:01,299 --> 00:27:07,600
+一半的外壳是透明的，希望可以，好吧，对不起，我的意思是我
+half-filled shell is that clear yeah
+hopefully okay all right sorry I mean I
+
+306
+00:27:07,600 --> 00:27:11,980
+知道这很令人困惑，但是生活有时就是这样，所以我们必须处理
+know it's confusing but but that's the
+way life is sometimes so we have to deal
+
+307
+00:27:11,980 --> 00:27:19,990
+这样就可以了，所以鉴于我们知道LS和J，我们可以写下我们的
+with it okay so given that we know LS
+and J we can then write down our
+
+308
+00:27:19,990 --> 00:27:25,600
+哈密​​顿量，我们能做的第一件事是我们可以做L加GS做同样的事情
+Hamiltonian well first thing we can do
+is we can take L plus GS do the same
+
+309
+00:27:25,600 --> 00:27:32,320
+ λG因子技巧，并将其重写为一些G有效时间J，其中J为L 
+lambda G factor trick and rewrite that
+as some G effective times J where J is L
+
+310
+00:27:32,320 --> 00:27:39,039
+再加上其他，然后我们可以针对这些角度写下有效的哈密顿量
+Plus else and then we can write down our
+effective Hamiltonian for these angular
+
+311
+00:27:39,039 --> 00:27:49,480
+ Momenta是G有效的J mu B BJ，我们可以用
+momenta which is G effective J mu B BJ
+and we can do statistical mechanics with
+
+312
+00:27:49,480 --> 00:27:54,549
+这种汉密尔顿式的，所以提醒您这是如何工作的
+this kind of Hamiltonian so to remind
+you how this works this is something
+
+313
+00:27:54,549 --> 00:28:01,960
+您去年所做的，所以举一个非常简单的例子，让我们举J 
+that you did last year so example take a
+really simple example let's take J
+
+314
+00:28:01,960 --> 00:28:09,070
+等于1/2且G因子为2，因此自旋可以指向整体
+equals 1/2 and a G factor of 2 so a spin
+can point up with this this overall
+
+315
+00:28:09,070 --> 00:28:13,509
+角质子能指向上或指向下，两种可能的能量是
+angle mentum can point up or can point
+down and the two possible energies are
+
+316
+00:28:13,509 --> 00:28:19,990
+然后加上和减去玻尔磁子乘以磁场，我们可以写出
+then plus and minus Bohr Magneton times
+magnetic field we can then write the
+
+317
+00:28:19,990 --> 00:28:23,830
+此系统的分区函数，是的两个状态的总和
+partition function for this system which
+is the sum over the two states of the of
+
+318
+00:28:23,830 --> 00:28:31,269
+角动量，即使是负beta u也等于B加e等于正beta mu D等于
+the angular momentum even the minus beta
+u be B plus e to the plus beta mu D be
+
+319
+00:28:31,269 --> 00:28:34,869
+从分区功能，我希望这一切看起来都很熟悉，我们可以编写免费的
+from the partition function I hope this
+all looks familiar we can write the free
+
+320
+00:28:34,869 --> 00:28:44,139
+能量KBT log Z我们可以写出磁矩磁矩是猜测
+energy KBT log Z we can write the
+magnetic moment magnetic moment is guess
+
+321
+00:28:44,139 --> 00:28:46,809
+带有减号的地方在这个地方加入这个减号，我得到一个减号
+with the minus sign join this minus sign
+here somewhere I get there's a minus
+
+322
+00:28:46,809 --> 00:28:51,649
+缺少能量的迹象，我们可以写磁
+sign missing
+energy we can then write the magnetic
+
+323
+00:28:51,649 --> 00:28:59,510
+现在的DF DB，我相信您去年就这样做了，如果没有，您会
+moment DF DB which I believe you did
+this last year and if you didn't you'll
+
+324
+00:28:59,510 --> 00:29:08,330
+今年再做一次beta UVB，它具有针对小B小B的转换
+do it this year again beta UVB it has
+this transform for small B small B this
+
+325
+00:29:08,330 --> 00:29:16,720
+变成βμB B平方乘以磁场，然后磁化
+becomes just beta mu B squared times
+magnetic field then the magnetization
+
+326
+00:29:16,720 --> 00:29:26,090
+大写m是每体积的力矩每体积的力矩是每次旋转的力矩
+Capital m which is moment per volume
+moment per volume is the moment per spin
+
+327
+00:29:26,090 --> 00:29:32,139
+ M小M乘Rho自旋密度
+M small M times Rho the density of spins
+
+328
+00:29:32,409 --> 00:29:41,929
+旋转的密度，然后我们可以得到磁化率Chi 
+density of spins and then we can get the
+susceptibility Chi which is by
+
+329
+00:29:41,929 --> 00:29:48,919
+定义mu而不是DM D在B等于零时取，如果通过
+definition mu not DM D be taken at B
+equals zero and if you go through that
+
+330
+00:29:48,919 --> 00:29:56,529
+达到这个极限，您将得到Rho mu naught mu B平方超过KBT 
+take that limit you get Rho mu naught mu
+B squared over KBT
+
+331
+00:29:56,529 --> 00:30:01,970
+希望从去年开始看起来很熟悉，这就是居里的
+which hopefully maybe looks familiar
+from last year this is known as Curie's
+
+332
+00:30:01,970 --> 00:30:07,940
+居里定律实际上，居里定律是任何时候
+law Curie law in fact more generally
+Curie's law is any time when the
+
+333
+00:30:07,940 --> 00:30:13,730
+磁化率在T上是一个常数，这确实很重要
+susceptibility is some constant over T
+which indeed this is so the important
+
+334
+00:30:13,730 --> 00:30:18,380
+关于居里定律的敏感性要注意的是
+thing to notice about this Curie law
+susceptibility is that it diverges at
+
+335
+00:30:18,380 --> 00:30:22,100
+低温，随着温度的升高，磁化率会发散
+low temperature you have a divergent
+susceptibility as temperature goes to
+
+336
+00:30:22,100 --> 00:30:25,250
+零，这实际上是正确的，也很有意义
+zero and this is actually correct and
+it's meaningful
+
+337
+00:30:25,250 --> 00:30:29,299
+磁化率在零温度下发散的原因是
+the reason the susceptibility diverges
+it to at zero temperature is because
+
+338
+00:30:29,299 --> 00:30:33,769
+温度为零，系统始终处于最低能量状态，因此如果
+it's zero temperature the system is
+always in the lowest energy State so if
+
+339
+00:30:33,769 --> 00:30:38,149
+你有一束自旋，无论磁场有多小，磁场都很小
+you have a bunch of spins and you have a
+tiny magnetic field no matter how tiny
+
+340
+00:30:38,149 --> 00:30:42,200
+磁场是一个最低能级
+that magnetic field there's a lowest
+energy state where the moment is aligned
+
+341
+00:30:42,200 --> 00:30:47,029
+磁场，所以即使磁场很小
+with the magnetic field so even with an
+arbitrarily small magnetic field the
+
+342
+00:30:47,029 --> 00:30:49,880
+时刻都对齐并指向该方向，这意味着您随后
+moments all align and point that
+direction which means you then have an
+
+343
+00:30:49,880 --> 00:30:55,039
+无限的磁化率，因为它只需要一个极小的磁场即可
+infinite susceptibility because it takes
+only an infinitesimal magnetic field to
+
+344
+00:30:55,039 --> 00:30:58,940
+将所有旋转方向定为相同方向，这样实际上
+orient all the spins in the same
+direction set clear so this is actually
+
+345
+00:30:58,940 --> 00:31:02,690
+当温度升高时，有意义的陈述开始旋转
+a meaningful statement when you
+the temperature then the spins start
+
+346
+00:31:02,690 --> 00:31:05,750
+整个地方都在波动，它们并没有全部指向
+fluctuating all over the place and they
+don't all point in the direction of the
+
+347
+00:31:05,750 --> 00:31:09,110
+磁场，我的意思是，它的方向可能有点模糊
+magnetic field I mean it may be point
+sort of vaguely in the back direction of
+
+348
+00:31:09,110 --> 00:31:12,650
+磁场，但并非完全沿磁场方向
+magnetic field but not all exactly in
+the direction of the magnetic field so
+
+349
+00:31:12,650 --> 00:31:16,640
+现在，随着温度的升高，磁化率下降
+the susceptibility drops as you go to
+higher temperature now more generally
+
+350
+00:31:16,640 --> 00:31:22,880
+比这个简单的旋转1/2计算首先暴饮四转
+than this this simple spin 1/2
+calculation for first binge a four spin
+
+351
+00:31:22,880 --> 00:31:29,870
+一般而言，J遵循相同的故事，只是我们从分区开始
+J in general we follow the same same
+story except we start with a partition
+
+352
+00:31:29,870 --> 00:31:38,360
+在JZ上求和的函数等于负J 2加J e至负beta 
+function which is sum over J Z equals
+minus J 2 plus J e to the minus beta the
+
+353
+00:31:38,360 --> 00:31:51,020
+我认为状态J的自旋能量是J G，对J有效，然后是mu bb jz 
+energy of the spin in state J which is J
+G effective for J then mu b b jz i think
+
+354
+00:31:51,020 --> 00:31:57,080
+我在这里暗示而没有指出b指向Z 
+i implied here without without stating
+it that that b is pointing in the Z
+
+355
+00:31:57,080 --> 00:32:01,400
+应用于Z方向，否则我们将使用
+direction that we apply to be in the Z
+direction otherwise we would use a
+
+356
+00:32:01,400 --> 00:32:04,730
+不同的轴，如果我们将B放在X方向上，它将是J， 
+different axis and it would be J if we
+put B in the X direction we would just
+
+357
+00:32:04,730 --> 00:32:10,120
+使用不同的基础，我们将JX减去J来计算-J对此感到抱歉
+use a different basis where we count J X
+from minus J - J sorry about that
+
+358
+00:32:10,120 --> 00:32:14,720
+好的，那么您要进行完全相同的操作，代数是一点
+ok then you go through exactly the same
+manipulations the algebra is a little
+
+359
+00:32:14,720 --> 00:32:19,610
+比起其他一些困难，您获得的功能比
+bit more different difficult you get out
+some more complicated functioning than
+
+360
+00:32:19,610 --> 00:32:23,870
+在ang上，这是一个称为Bruin函数的函数，我认为这有些混乱
+at ang it's a function known as a Bruin
+function it's some messy thing I think
+
+361
+00:32:23,870 --> 00:32:27,800
+您去年在统计机修课程中计算出它有一些双曲线正弦
+you calculated last year in your stat
+mech course it has some hyperbolic sines
+
+362
+00:32:27,800 --> 00:32:31,790
+和其中的双曲余弦比较混乱，但是出现了相同的故事
+and hyperbolic cosines in it a little
+more messy but the same story comes out
+
+363
+00:32:31,790 --> 00:32:34,580
+在一天结束时在一天结束时，您仍然会得到居里定律
+at the end of the day at the end of the
+day you still get a Curie law in the
+
+364
+00:32:34,580 --> 00:32:38,060
+出于相同的原因，它是一个常数除以T 
+sense that it's a constant divided by T
+for exactly the same reason an
+
+365
+00:32:38,060 --> 00:32:43,580
+现在，无穷小场将所有矩定向在同一方向上
+infinitesimal field will orient all the
+moments in the same direction okay now
+
+366
+00:32:43,580 --> 00:32:48,020
+一路上实际上要注意的一件事是非常重要的一点
+one thing actually to note along the way
+which is quite important it's a little
+
+367
+00:32:48,020 --> 00:32:53,270
+顺便说一句是，该分区函数是B的函数
+bit of an aside is to note that this
+partition function is a function of B
+
+368
+00:32:53,270 --> 00:32:57,440
+仅在T上它不是b NT的功能可以
+over T only it's not a function of b NT
+separately ok
+
+369
+00:32:57,440 --> 00:33:04,970
+这实际上很重要，因为这意味着熵也将是
+and that's actually important because it
+means that the the entropy will also be
+
+370
+00:33:04,970 --> 00:33:11,360
+ b相对于t的函数，并且它在我不知道的时候就被注意到了
+a function of b over t only and that it
+was noticed way back in I don't know
+
+371
+00:33:11,360 --> 00:33:15,140
+ 1900年代初期，我们的英雄之一是彼得·德拜（Peter Debye） 
+early 1900s by one of our hero is Peter
+Debye
+
+372
+00:33:15,140 --> 00:33:19,550
+在这个课程中已经出现了几次，他注意到
+has shown up several times already in
+this course and he noticed that that
+
+373
+00:33:19,550 --> 00:33:23,510
+表示您可以使用系统进行以下实验
+would mean that you could do the
+following experiment you take a system
+
+374
+00:33:23,510 --> 00:33:27,200
+在给定温度下的磁场中，如果绝热地减少
+in a magnetic field at a given
+temperature if you adiabatically reduce
+
+375
+00:33:27,200 --> 00:33:32,390
+磁场绝热意味着熵必须保持固定
+the magnetic field adiabatic means that
+the entropy has to stay fixed the
+
+376
+00:33:32,390 --> 00:33:36,380
+绝热降低磁场温度必须成比例变化
+adiabatically reduce the magnetic field
+the temperature must change proportional
+
+377
+00:33:36,380 --> 00:33:41,110
+对磁场，这就是所谓的绝热退磁
+to magnetic field this is what's known
+as adiabatic demagnetization
+
+378
+00:33:44,440 --> 00:33:54,680
+去磁，这实际上是制作冰箱的好方法
+demagnetization and it's actually a
+really good way to make a refrigerator a
+
+379
+00:33:54,680 --> 00:33:59,180
+非常强大的冰箱，您需要在某些温度下使用系统
+very powerful refrigerator you take a
+system at some temperature in some
+
+380
+00:33:59,180 --> 00:34:02,690
+磁场，您可以减小磁场并保持熵
+magnetic field you reduce the magnetic
+field and in order to keep the entropy
+
+381
+00:34:02,690 --> 00:34:07,460
+固定绝热地改变事物，温度必须成比例地降低
+fixed changing things adiabatically the
+temperature must reduce proportionally
+
+382
+00:34:07,460 --> 00:34:10,940
+到磁场，这就是人们建立世界上一些最
+to the magnetic field this is the way
+people build some of the world's most
+
+383
+00:34:10,940 --> 00:34:14,659
+功能强大的冰箱可降到Millikelvin甚至Micro Kelvin 
+powerful refrigerators that get down to
+millikelvin or even micro Kelvin
+
+384
+00:34:14,659 --> 00:34:20,270
+温度，因此了解和最终掌握技术是一件好事
+temperature so it's a good thing to know
+about and eventually the technique
+
+385
+00:34:20,270 --> 00:34:25,280
+当我们简单的近似于
+breaks down and it basically breaks down
+when our simple approximation of just
+
+386
+00:34:25,280 --> 00:34:28,790
+独立旋转，此分区功能最终会中断
+independent spins and this partition
+function being right eventually breaks
+
+387
+00:34:28,790 --> 00:34:33,110
+在非常低的温度下，我们将继续讨论下一个
+down at very low temperatures we'll come
+to that and next lecture the one after I
+
+388
+00:34:33,110 --> 00:34:40,070
+想一想，所以这基本上就是关于功率磁化的故事
+think all right so this is basically the
+story of power magnetism one atom at a
+
+389
+00:34:40,070 --> 00:34:44,300
+时间，但是当您一次开始将许多原子放在一起时，事情可能会发生
+time but when you start putting together
+many atoms at a time things can be
+
+390
+00:34:44,300 --> 00:34:47,690
+不同的是，这个词在浓缩物质界周围
+different there's this phrase that goes
+around the condensed matter community
+
+391
+00:34:47,690 --> 00:34:51,080
+每当您将很多东西放到一起时，更多的就是不同的
+more is different whenever you put lots
+of things together you can get different
+
+392
+00:34:51,080 --> 00:34:56,630
+物理学，所以我仍然会思考一次或一次旋转
+physics so I'm still going to think what
+in some sense one spin at a time or one
+
+393
+00:34:56,630 --> 00:35:00,560
+电子一次一次一个原子，但是当我们开始将其放入
+electron at a time one atom at a time
+but when we start putting it in the
+
+394
+00:35:00,560 --> 00:35:05,120
+一堆其他原子的环境事物可以开始改变，所以可以
+environment of a bunch of other atoms
+things can start changing so what can be
+
+395
+00:35:05,120 --> 00:35:11,270
+不同的地方出了什么问题，固体的不同之处
+different what goes wrong and what is
+different in the solid what different in
+
+396
+00:35:11,270 --> 00:35:17,420
+我们可以写下几件事
+a solid different in a solid okay a
+couple things we can write down
+
+397
+00:35:17,420 --> 00:35:24,800
+立即我们可以进行电子跳跃电子跳跃，如果
+immediately one we can have electron
+hopping electron hopping and if
+
+398
+00:35:24,800 --> 00:35:29,079
+电子从一个原子跳到另一个原子，我们期望得到
+electrons hop from one atom to the next
+we expect to get
+
+399
+00:35:29,079 --> 00:35:34,839
+带物理，我们希望获得电子带物理带，如果您有一个
+band physics we expect to get electron
+band physics bands and if you have a
+
+400
+00:35:34,839 --> 00:35:39,660
+部分填充的乐队，你有一个金属管和物理，你可以得到一个金属， 
+partially filled band you have a metal
+tube and physics you can get a metal and
+
+401
+00:35:39,660 --> 00:35:45,520
+如果您在金属中，则期望具有多顺磁性，因此会产生包利
+if you're in metal you expect to have
+poly paramagnetism and therefore pauli
+
+402
+00:35:45,520 --> 00:35:52,990
+顺磁性，你会得到费米表面，部分顺磁性，如果你有
+paramagnetism you get a Fermi surface
+and partly paramagnetism and if you have
+
+403
+00:35:52,990 --> 00:35:57,880
+功率功率磁化率九倍能力减小了一倍。 
+power power magnetism the susceptibility
+Sept ability is smaller by a factor of
+
+404
+00:35:57,880 --> 00:36:04,450
+大约超过EF的KBT，其原因是您仍然尝试翻转
+roughly KBT over EF and the reason for
+this is that you you still try to flip
+
+405
+00:36:04,450 --> 00:36:08,619
+施加磁场时会过度旋转，但必须服从宝力
+over spins when you apply a magnetic
+field but you have to obey the Pauli
+
+406
+00:36:08,619 --> 00:36:12,309
+排他性原则，这可以防止您将其中的大部分
+exclusion principle and that prevents
+you from flipping over a lot of them
+
+407
+00:36:12,309 --> 00:36:15,849
+只有一小部分会在磁场中翻转，所以
+it's only a small number of them will
+flip over in a magnetic field okay so
+
+408
+00:36:15,849 --> 00:36:19,390
+如果电子从一个跳到另一个，那可能是不同的一件事
+that's one thing that can be different
+if the electrons are hopping from one
+
+409
+00:36:19,390 --> 00:36:22,869
+原子到另一个原子，那么您可能会期望具有金属和pauli顺磁性
+atom to another then you might expect to
+have a metal and pauli paramagnetism
+
+410
+00:36:22,869 --> 00:36:30,309
+磁化率小得多，所以您可能会问我们什么时候不跳频
+much smaller susceptibility so you might
+ask well when when do we have no hopping
+
+411
+00:36:30,309 --> 00:36:40,240
+什么时候没有跳就没有跳，因为你知道为什么会
+when is there no hopping is there no
+hopping because you know why why would
+
+412
+00:36:40,240 --> 00:36:44,200
+他们从来没有跳过，为什么电子不会从一个原子跳到
+they ever not hop why would the
+electrons ever not hop from one atom to
+
+413
+00:36:44,200 --> 00:36:48,970
+下一口井基本上来自于当我们
+the next well basically this comes from
+interactions us when there's strong
+
+414
+00:36:48,970 --> 00:36:56,260
+互动，我们在谈论mod之前就已经讨论过了
+interactions and we discussed this
+before when we talked about mod
+
+415
+00:36:56,260 --> 00:37:03,400
+绝缘子我会提醒您，什么是Mod绝缘子？ 
+insulators I'll remind you what a mod
+insulators is Mott insulator is when you
+
+416
+00:37:03,400 --> 00:37:07,839
+每个位点只有一个电子，由于库仑相互作用，它可以防止
+have one electron in each site and due
+to the Coulomb interaction it prevents
+
+417
+00:37:07,839 --> 00:37:10,750
+您不会在该站点上拥有两个电子，那么您就有了
+you from ever having two electrons on
+the site and then you have this idea of
+
+418
+00:37:10,750 --> 00:37:15,130
+电子的交通阻塞，每个原子上有一个电子，没有人能
+a traffic jam of electrons where there's
+one electron on each atom and no one can
+
+419
+00:37:15,130 --> 00:37:17,440
+跳到他的邻居，因为他们都是因为已经有人
+jump to his neighbors because they're
+all because there's already someone
+
+420
+00:37:17,440 --> 00:37:21,490
+坐在那里，每个人都冻结了，但是只有一个电子在冻结
+sitting there so everyone's frozen but
+it's frozen with only one electron on
+
+421
+00:37:21,490 --> 00:37:25,210
+每个位点，因此您可以担心电子自旋或磁极以下
+each site and so you can worry about
+that electron spin or or below mag
+
+422
+00:37:25,210 --> 00:37:28,720
+角动量，可以重新定向，它非常好
+angular momentum and that can be
+reoriented and it makes a very nice
+
+423
+00:37:28,720 --> 00:37:32,920
+这样的功率磁铁，使这些绝缘子的高度至少在
+power magnet that way so these menthe
+insulators at height well at least at a
+
+424
+00:37:32,920 --> 00:37:36,250
+高温，我们将在下一个讲座中在低温下讨论它们
+high temperature we'll talk about them
+at low temperature in the next lecture
+
+425
+00:37:36,250 --> 00:37:40,360
+不久后，Magnus产生了相当不错的力量
+long after make a fairly good power
+Magnus
+
+426
+00:37:40,360 --> 00:37:46,560
+这就是第一点和第二点的不同点
+so that's point one what can be
+different in a solid point two of what
+
+427
+00:37:46,560 --> 00:37:51,790
+固然可以说环境可以事关环境可以
+can be different as a solid is that the
+environment can matter environment can
+
+428
+00:37:51,790 --> 00:38:01,420
+问题，并举例说明为什么可以假设您有
+matter and to give you an example of why
+that can be let's imagine that you have
+
+429
+00:38:01,420 --> 00:38:08,320
+长的四分之一晶胞中的一个原子，比它的宽高得多，并且
+an atom in a long tetr-a g''l unit cell
+which is much taller than it is wide and
+
+430
+00:38:08,320 --> 00:38:12,730
+您可能会想到，由于
+you might imagine that in tetragonal
+unit cell like this due to the
+
+431
+00:38:12,730 --> 00:38:19,660
+轨道角动量可能想要向上或指向的环境
+environment the orbital angular momentum
+might want to be pointing up or pointing
+
+432
+00:38:19,660 --> 00:38:30,910
+直接向下可能需要L指向上方或L指向下方而不是
+down directly might want want L pointing
+up or L pointing down and not in the
+
+433
+00:38:30,910 --> 00:38:35,230
+所以即使它是F电子，可能指向LZ也等于
+middle so even if it was an F electron
+which could point in LZ equals you know
+
+434
+00:38:35,230 --> 00:38:40,180
+从负3到正3一直是因为环境
+all the way from minus 3 to plus 3 it's
+still because of the environment it
+
+435
+00:38:40,180 --> 00:38:44,380
+可能更喜欢直接指向上方或下方，而不是指向
+might prefer to point directly up or
+directly down and not anywhere in the
+
+436
+00:38:44,380 --> 00:38:47,650
+中间，这可以改变整个故事，这就是所谓的
+middle and that can change the story
+quite a bit this is what's known as
+
+437
+00:38:47,650 --> 00:38:56,040
+晶体场分裂场分裂
+crystal field splitting field splitting
+
+438
+00:38:56,460 --> 00:39:02,770
+原子环境倾向于确定允许的角矩的位置
+where the environment of an atom tends
+to fix which angular momenta are allowed
+
+439
+00:39:02,770 --> 00:39:09,070
+哪些不被允许，以及在这种情况下发生的一件事
+and which ones are not allowed ok and
+one thing that happens in this case
+
+440
+00:39:09,070 --> 00:39:13,360
+尤其重要的是有时候您会遇到这样的情况
+which is particularly important is
+sometimes you can get a situation where
+
+441
+00:39:13,360 --> 00:39:23,530
+晶体场实际上是相当普遍的力L基本上为0 
+a crystal field it's actually quite
+common forces L to basically be 0 make
+
+442
+00:39:23,530 --> 00:39:29,260
+ L的某种叠加，迫使它们为0，在这种情况下， 
+some sort of superposition of L's that
+force them to be 0 in which case which
+
+443
+00:39:29,260 --> 00:39:35,230
+意味着总的J就是自旋s，而L没有贡献，所以
+implies that the total J is just then
+the spin s and L doesn't contribute so
+
+444
+00:39:35,230 --> 00:39:39,250
+即使您有F电子或部分填充的F壳，其中有很多
+even if you had F electrons or partially
+filled F shell where there's lots of
+
+445
+00:39:39,250 --> 00:39:43,150
+电子，您可能会想像它会因休斯角色而具有非零的L 
+electrons and you might imagine that it
+would have a nonzero L by huns role
+
+446
+00:39:43,150 --> 00:39:47,950
+由于原子L的环境，可以强迫其为零，然后您
+because of the environment of the atom L
+can be forced to be zero and then you
+
+447
+00:39:47,950 --> 00:39:50,560
+只会获得自旋角动量，而不会获得轨道角动量
+would only get the spin angular momentum
+and not the orbital angular momentum
+
+448
+00:39:50,560 --> 00:39:58,000
+这是典型的过渡金属，她告诉您所谓的过渡
+this is typical of transition metals
+she tell you what's called of transition
+
+449
+00:39:58,000 --> 00:40:09,520
+金属，例如铬um，这就是众所周知的名字
+metals things like chromium um this is
+known as give it a name it's known as
+
+450
+00:40:09,520 --> 00:40:18,069
+当L基本上由于环境而从问题中除去时淬灭ml 
+quenching ml when L is basically removed
+from the problem due to the environment
+
+451
+00:40:18,069 --> 00:40:26,789
+原子，这是过渡金属的典型特征，但不会发生不会发生
+of the atom it's typical of transition
+metals but does not occur does not occur
+
+452
+00:40:26,789 --> 00:40:34,020
+稀土元素会发生稀土元素或镧系元素和act系元素
+occur for rare earths for rare earth
+rare earth or lanthanides and actinides
+
+453
+00:40:34,020 --> 00:40:42,220
+地球原子，其原因有些微妙，但实际上并非如此
+earth atoms and the reason for this is a
+little subtle but actually not not that
+
+454
+00:40:42,220 --> 00:40:47,020
+复杂的原因是，在过渡金属中，部分
+complicated the reason for this is that
+in a transition metal the partially
+
+455
+00:40:47,020 --> 00:40:54,549
+填充的外壳是3D外壳，所以在这里我们有一个原子，可能是
+filled shell is say the 3d shell so here
+we have an atom and it's maybe the
+
+456
+00:40:54,549 --> 00:40:59,380
+填充最远的外壳是4s，部分填充的外壳是3d外壳
+farthest out shell that's filled is 4s
+the partially filled shell is a 3d shell
+
+457
+00:40:59,380 --> 00:41:04,390
+像这样的3d外壳，而3d外壳非常靠近
+like this 3d shell like this and the 3d
+shell is very close to the outer edge of
+
+458
+00:41:04,390 --> 00:41:14,890
+过渡金属中的原子是过渡金属，因此部分
+the atom in the transition metal this is
+transition metal and so the partially
+
+459
+00:41:14,890 --> 00:41:18,819
+填充的外壳强烈看到原子的环境，因为
+filled shell sees the environment of the
+atom quite strongly because the
+
+460
+00:41:18,819 --> 00:41:23,099
+电子非常靠近原子的边界，而在稀土中
+electrons are very close to the boundary
+of the atom whereas in the rare earths
+
+461
+00:41:23,099 --> 00:41:30,579
+地球在哪里，你可以拥有最外壳的东西
+where our Earth's you can have something
+where the outermost shell is something
+
+462
+00:41:30,579 --> 00:41:36,220
+像是6s，部分填充的外壳是4f，因此非常容易受到保护
+like 6s and the partially filled shell
+is 4f and so it's very protected from
+
+463
+00:41:36,220 --> 00:41:39,579
+环境，因为部分填充的壳半径要小得多
+the environment because the partially
+filled shell it's a much smaller radius
+
+464
+00:41:39,579 --> 00:41:44,230
+而不是整个原子，所以基本上对于部分填充的壳
+than the atom as a whole so basically
+the for the partially filled shell
+
+465
+00:41:44,230 --> 00:41:48,130
+甚至看不到环境，因为它与环境隔离开来
+doesn't even see the environment because
+it's so shielded from the environment by
+
+466
+00:41:48,130 --> 00:41:53,970
+原子中较大的轨道，所以或多或少地解释了为什么它是
+the larger orbitals in the atom so it's
+more or less explains why it is that the
+
+467
+00:41:53,970 --> 00:42:00,160
+稀土没有角质素的淬灭，而过渡
+rare earths don't have quenching of
+angular mentum whereas the transition
+
+468
+00:42:00,160 --> 00:42:04,059
+金属做的很好，这就是我们或多或少要说的一切
+metals do all right so this is
+everything we have to say more or less
+
+469
+00:42:04,059 --> 00:42:09,550
+关于力量'而不是ISM回到第一个方程式
+about power
+'not ISM back up to the first equation
+
+470
+00:42:09,550 --> 00:42:13,300
+我们今天在此处写在板上，并担心反磁性
+we wrote on the board here today and
+worried a little bit about diamagnetism
+
+471
+00:42:13,300 --> 00:42:26,290
+所以什么时候可以得到抗磁性，哪里有抗磁性
+so when can we get diamagnetism when is
+there diamagnetism well there a couple
+
+472
+00:42:26,290 --> 00:42:31,900
+您如何获得反磁性的第一种经典案例
+ways that you can get diamagnetism the
+first sort of classic case of when you
+
+473
+00:42:31,900 --> 00:42:36,550
+当您恰好有一个
+get diamagnetism is when j equals zero
+when you just so happen to have a
+
+474
+00:42:36,550 --> 00:42:39,310
+没有角动量来重新定向的情况
+situation where there's no angular
+momentum to reorient there's no
+
+475
+00:42:39,310 --> 00:42:44,680
+顺磁性，因为没有J，例如，如果您有一个
+paramagnetism because there's no no J
+and for example example if you have a
+
+476
+00:42:44,680 --> 00:42:51,609
+填充的壳，像稀有气体，L等于s等于J等于零， 
+filled shell like a noble gas that would
+have L equals s equals J equals zero and
+
+477
+00:42:51,609 --> 00:42:55,150
+您无法重新定向任何磁矩，因为没有磁矩
+you can't reorient any magnetic moment
+because there is no magnetic moment to
+
+478
+00:42:55,150 --> 00:42:58,390
+重新定向，这样，在这种情况下，您基本上可以在
+reorient so in that case you can
+basically just throw out this term in
+
+479
+00:42:58,390 --> 00:43:01,750
+哈密​​顿量剩下的唯一东西就是哈密顿量的反磁项
+the Hamiltonian the only thing left is
+the diamagnetic term of the hamiltonian
+
+480
+00:43:01,750 --> 00:43:08,260
+还有可能导致反磁性的情况，我还应该提到
+another case where you can get
+diamagnetism I should also mention that
+
+481
+00:43:08,260 --> 00:43:12,490
+不仅可以填充壳，还可以填充分子轨道
+not only you can have filled shell you
+can also have filled molecular orbitals
+
+482
+00:43:12,490 --> 00:43:20,589
+您知道类似的分子轨道，就像我在我们
+molecular orbitals which you know
+similar like I mentioned this when we
+
+483
+00:43:20,589 --> 00:43:24,670
+谈到范德华键时，您有一个惰性原子如氮- 
+talked about van der Waals bonding you
+have an inert atom like a nitrogen -
+
+484
+00:43:24,670 --> 00:43:29,020
+对不起像氮气这样的惰性分子-您可以将其视为
+sorry an inert molecule like a nitrogen
+- molecule which you can think of as
+
+485
+00:43:29,020 --> 00:43:34,030
+只是一堆填充的分子轨道，所以它的净J等于0 
+being just a bunch of a filled molecular
+orbitals so it has a net J equals 0 at
+
+486
+00:43:34,030 --> 00:43:38,589
+分子水平，因此在这种情况下，实际上没有任何方向可以调整
+the molecular level and so there's
+really nothing to reorient in the case
+
+487
+00:43:38,589 --> 00:43:44,230
+氮转化为分子，因为所有分子轨道都被填充
+of a nitrogen to molecule because all
+the molecular orbitals are filled sort
+
+488
+00:43:44,230 --> 00:43:49,150
+类似于具有一个轨道壳的较大原子， 
+of analogous to to a larger atom with
+orbitals that are orbital shells that
+
+489
+00:43:49,150 --> 00:43:53,980
+充满了另一种情况，你可以得到反磁性
+are filled there's another situation
+where you can get diamagnetism which is
+
+490
+00:43:53,980 --> 00:44:05,560
+当您患有肺泡炎时，您的顺磁性一直很弱
+when you have when when you have pauli
+paramagnetism is weak it's always weak
+
+491
+00:44:05,560 --> 00:44:13,839
+因为它的Chi较小，是KBT在EF上面写下的， 
+because it's Chi is smaller by wrote
+this down above by KBT over EF which is
+
+492
+00:44:13,839 --> 00:44:20,110
+这是一个很大的因素，因此，如果您有铜之类的金属
+a pretty big factor so if you have a
+metal like copper or something like that
+
+493
+00:44:20,110 --> 00:44:25,000
+您会期望它是一个顺磁体，因为它具有旋转的方向，但是
+you would expect it to be a paramagnet
+because it has spins to reorient but
+
+494
+00:44:25,000 --> 00:44:28,630
+由于多排除原则，它们的方向不太理想，您
+because of the poly exclusion principle
+they don't reorient very well and you
+
+495
+00:44:28,630 --> 00:44:32,380
+在这种情况下，反磁性项具有
+only get a very small susceptibility in
+which case the diamagnetic term has a
+
+496
+00:44:32,380 --> 00:44:37,120
+有机会与顺磁性术语竞争，所以这是一个挑战
+chance to compete with the paramagnetic
+term and so here's a challenge you
+
+497
+00:44:37,120 --> 00:44:43,300
+应该问你的导师是铜的反磁铁还是顺磁性，除非
+should ask your tutors is copper a
+diamagnet or a para magnet and unless
+
+498
+00:44:43,300 --> 00:44:46,570
+他们去年我们在辅导这门课，在这种情况下，学生问他们
+they we're tutoring this course last
+year in which case students asked them
+
+499
+00:44:46,570 --> 00:44:50,170
+去年是同样的问题，所以四个新导师大多数都会把它弄错
+the same question last year so four new
+tutors most of them will get it wrong
+
+500
+00:44:50,170 --> 00:44:54,010
+大多数人会说它是金属，所以它是多对位磁铁， 
+most people will say that well it's a
+metal so it's a poly para magnet and
+
+501
+00:44:54,010 --> 00:44:58,870
+的确具有泡利顺磁性物理学，但是它是如此的弱以至于
+indeed it has the pauli paramagnetism
+physics but that's so weak that the
+
+502
+00:44:58,870 --> 00:45:02,680
+反磁术语实际上有机会与之竞争，实际上
+diamagnetic term here actually has a
+chance to compete with it and in fact
+
+503
+00:45:02,680 --> 00:45:07,510
+对于铜，反磁性反而足够令人惊讶，所以您
+for copper it turns out to be
+diamagnetic surprisingly enough so you
+
+504
+00:45:07,510 --> 00:45:11,740
+当仅具有功率磁性的金属可以得到时
+can with when metals which have only
+power power magnetism you can get
+
+505
+00:45:11,740 --> 00:45:16,330
+反磁性赢得了挑战，也挑战了您的导师，看看有多少人
+diamagnetism winning over also challenge
+your tutors with that see how many get
+
+506
+00:45:16,330 --> 00:45:21,130
+很好，很快，我想我们可以在五分钟内完成
+it right all right so very quickly I
+think we can do this in five minutes we
+
+507
+00:45:21,130 --> 00:45:24,550
+可以计算出该反磁性项的影响，因此
+can calculate the effect of this
+diamagnetic term so the part of the
+
+508
+00:45:24,550 --> 00:45:31,600
+我们感兴趣的哈密顿量是e平方超过2m的平方，我们将
+Hamiltonian we're interested in is e
+squared over 2m a squared and we'll put
+
+509
+00:45:31,600 --> 00:45:39,970
+ V在Z方向上，所以B等于BZ hat，所以我们可以写一个矢量势
+V in the Z direction so B equals B Z hat
+and so we can write a vector potential
+
+510
+00:45:39,970 --> 00:45:48,310
+一半的V越过R，这样del越过a等于B，则B越过2 
+one-half V cross R so that del cross a
+equals B and that will then be B over 2
+
+511
+00:45:48,310 --> 00:45:55,330
+我想我们会写Y帽子X减去X帽子Y 
+I guess we'll write Y hat X minus X hat
+Y you need enough so this term in the
+
+512
+00:45:55,330 --> 00:46:01,060
+然后，我们感兴趣的哈密顿量在8 m B上平方e×B平方x平方
+Hamiltonian we're interested in is then
+e squared over 8 m B squared x squared
+
+513
+00:46:01,060 --> 00:46:07,930
+加y平方，则该项在哈密顿量中的期望能量
+plus y squared then the expectation
+energy of this term in the Hamiltonian
+
+514
+00:46:07,930 --> 00:46:12,010
+我们在零温度下这样做很方便
+which we're doing this at zero
+temperature which is convenient to do
+
+515
+00:46:12,010 --> 00:46:15,400
+那就是能量的变化与自由能的变化相同
+that's the change in the energy is the
+same as the change in the free energy a
+
+516
+00:46:15,400 --> 00:46:21,970
+平方超过8 MB平方期望x平方加上y平方
+squared over 8 M B squared
+expectation of x squared plus y squared
+
+517
+00:46:21,970 --> 00:46:31,870
+因此磁矩为D减去预期能量DV 
+and so the magnetic moment is then minus
+D expectation of energy DV
+
+518
+00:46:31,870 --> 00:46:38,800
+然后-B e在x平方加y平方的4m上平方
+which is then - B e squared over 4m
+expectation of x squared plus y squared
+
+519
+00:46:38,800 --> 00:46:42,480
+现在记得在上次演讲中我提到的那个
+now remember in the last lecture I
+mentioned to you that
+
+520
+00:46:42,480 --> 00:46:47,560
+反磁性有点像镜片定律，就像一圈电线，如果你
+diamagnetism is a little bit like lenses
+law it's like a loop of wire and if you
+
+521
+00:46:47,560 --> 00:46:50,440
+只有一圈电线，你从电流中得到的磁矩量
+only have a loop of wire the amount of
+magnetic moment you get from a current
+
+522
+00:46:50,440 --> 00:46:54,940
+绕过那圈电线与它的面积成正比，实际上
+going around that loop of wire is
+proportional to its area and indeed this
+
+523
+00:46:54,940 --> 00:46:59,920
+ x平方加y平方的期望值是
+expectation of x squared plus y squared
+is the area enclosed by the orbital of
+
+524
+00:46:59,920 --> 00:47:03,940
+电子，因此非常类似于镜头定律，它实际上是在测量
+the electron so it's quite analogous to
+lenses law it's really measuring the
+
+525
+00:47:03,940 --> 00:47:09,790
+电流以与绕射定律给您的方式相同的方式绕过原子
+currents going around the the atom in
+the same way that lenses law gives you a
+
+526
+00:47:09,790 --> 00:47:14,400
+与绕线环流动的电流相关的磁铁
+magnet associated with the current
+running around the loop of wire
+
+527
+00:47:14,400 --> 00:47:19,480
+在球形原子中，计算x平方加y平方并不难
+calculating x squared plus y squared
+isn't so difficult in a spherical atom
+
+528
+00:47:19,480 --> 00:47:25,840
+因此，如果我们有一个球形原子，那么这些天大多数原子都是球形的，我们
+so if we have a spherical atom most
+atoms are spherical these days atom we
+
+529
+00:47:25,840 --> 00:47:30,130
+可以这样写：x平方加y平方的期望的三分之二
+can write that as then two-thirds of
+expectation of x squared plus y squared
+
+530
+00:47:30,130 --> 00:47:37,060
+再加上Z平方或R平方期望值的三分之二，因此我们可以
+plus Z squared or two-thirds of
+expectation of R squared and so we can
+
+531
+00:47:37,060 --> 00:47:44,110
+然后重写每个原子的磁矩，这里减去-6 m的平方
+then rewrite the magnetic moment per
+atom here is minus b e squared over 6 m
+
+532
+00:47:44,110 --> 00:47:48,880
+那6是因为将三分之二与1/4的时间相加
+that 6 comes from putting together the
+two-thirds with the 1/4 their times
+
+533
+00:47:48,880 --> 00:47:55,870
+ R的平方期望，然后磁化强度是Rho的M倍，其中Rho 
+expectation of R squared and then the
+magnetization is M times Rho where Rho
+
+534
+00:47:55,870 --> 00:48:04,480
+是整个系统中电子的电子密度， 
+is the density of electrons of electrons
+in in the entire system and that gives
+
+535
+00:48:04,480 --> 00:48:08,350
+我们很好，就磁场而言， 
+us well we differentiate that with that
+with respect to the magnetic field
+
+536
+00:48:08,350 --> 00:48:19,900
+我们将在此处获得等于M的零，然后减去M的零。 
+we'll get here chi equals nu nought the
+M DB which is then minus mu naught e
+
+537
+00:48:19,900 --> 00:48:27,400
+ R平方的原子期望值的Rho平方除以质量的6倍
+squared Rho size of the atom expectation
+of R squared divided by 6 times the mass
+
+538
+00:48:27,400 --> 00:48:33,520
+电子，这就是所谓的拉莫尔结果拉莫尔结果拉莫尔或
+of the electron and this is known as the
+larmor result larmor result larmor or
+
+539
+00:48:33,520 --> 00:48:38,250
+有时拉莫尔较大的面包车长沙板
+sometimes larmor larger van long Shaban
+
+540
+00:48:38,580 --> 00:48:43,710
+反磁性的对不起，这是拉莫尔或朗伊人
+diamagnetic
+sorry this is larmor or Longy man
+
+541
+00:48:43,710 --> 00:48:49,680
+反磁性，剩下的两分钟就是现在的期望
+diamagnetism and that's the expectation
+of this now in the remaining two minutes
+
+542
+00:48:49,680 --> 00:48:54,240
+我要告诉你一些不可考量的东西，这个计算是
+I'm going to tell you something that's
+not examinable this this calculation is
+
+543
+00:48:54,240 --> 00:48:59,790
+考试的非常标准的方法是计算原子或某些系统的反磁性
+very standard for exams calculate the
+diamagnetism of an atom or some system
+
+544
+00:48:59,790 --> 00:49:04,380
+原子有不可检验的东西，那就是我们是
+of atoms there's something that's non
+examinable which is that we were a
+
+545
+00:49:04,380 --> 00:49:09,210
+抛弃顺磁性这个词有点太快了
+little bit too fast in throwing away the
+paramagnetic term the reason we were too
+
+546
+00:49:09,210 --> 00:49:13,920
+很快，我们就知道了，我们最初说的很清楚，功率磁项是
+fast you know we were we we initially
+said well the power magnetic term is
+
+547
+00:49:13,920 --> 00:49:18,720
+ in的线性是B的二次方，因此我们将处理该项
+linear in in be the diamagnet term is
+quadratic in B so we'll treat this term
+
+548
+00:49:18,720 --> 00:49:22,860
+首先，然后仅当此术语碰巧很小但要处理此问题时
+first and then only treat this one if
+this term happens to be small but
+
+549
+00:49:22,860 --> 00:49:25,800
+实际上，我们应该多加注意，不要担心
+actually we should be a little more
+careful that we shouldn't worry about
+
+550
+00:49:25,800 --> 00:49:31,290
+这个词也是二阶的，如果我们对它仔细的话
+this term at second order as well that
+if we were careful about it we would
+
+551
+00:49:31,290 --> 00:49:36,300
+还必须写一些看起来像二阶扰动的术语
+have to also write some term that looked
+like this second order perturbation
+
+552
+00:49:36,300 --> 00:49:48,780
+结果且不等于n亩BB点L的0加GS 0的平方，这也是
+result and not equal to 0 of n mu B B
+dot L plus GS 0 squared this is also
+
+553
+00:49:48,780 --> 00:49:57,480
+磁场E的二次方-这个术语显然是负的
+quadratic in magnetic field E - e n this
+term is manifestly negative the sign of
+
+554
+00:49:57,480 --> 00:50:02,880
+二阶摄动理论显然是负的，所以它将
+the second order perturbation theory is
+manifestly negative and so it would
+
+555
+00:50:02,880 --> 00:50:10,640
+实际上给了我们顺磁性的贡献
+actually give us a paramagnetic
+contribution power mag contribution
+
+556
+00:50:10,640 --> 00:50:19,140
+在诺贝尔奖获得者之后，被称为范·弗莱克（Van Vleck）的强磁力范·弗莱克（Van Vleck） 
+known as Van Vleck power magnetism
+Van Vleck after Nobel laureate who
+
+557
+00:50:19,140 --> 00:50:27,239
+发现它往往很小，但尤其是在以下情况下会发生
+discovered it it tends to be small but
+it can occur in particular in cases when
+
+558
+00:50:27,239 --> 00:50:37,170
+ J等于零，但l和s不等于零，所以我们有J或L等于s但J 
+J equals zero but l and s are not equal
+to zero so we have J or L equals s but J
+
+559
+00:50:37,170 --> 00:50:42,690
+等于L减去s等于零，它可能发生的原因是，如果您
+equals L minus s equals zero and the
+reason it can occur is because if you
+
+560
+00:50:42,690 --> 00:50:48,390
+记得当我们回到这里时，我们说过我们可以在
+remember when we went back here and we
+said that we could replace this term in
+
+561
+00:50:48,390 --> 00:50:55,079
+哈密​​顿量与J这两个项之和实际上是我们预先设定的
+the Hamiltonian with J the sum of these
+two terms we were actually presupposing
+
+562
+00:50:55,079 --> 00:50:59,609
+ L的大小，s的大小和J的大小是固定的，但是
+that the magnitude of L the magnitude of
+s and the magnitude of J were fixed but
+
+563
+00:50:59,609 --> 00:51:05,549
+实际上，虽然旋转L＆S的位置不固定，但您可以在x'处获得激励x' 
+in fact you can have excitation x' where
+you unfix though is where you rotate L&S
+
+564
+00:51:05,549 --> 00:51:09,809
+彼此远离并改变激发态下j的值
+away from each other and change the
+value of j in the excited states and you
+
+565
+00:51:09,809 --> 00:51:13,859
+可以得到这个的非零贡献，这样就不会发生
+can get a nonzero contribution of this
+then so this it doesn't tend to happen
+
+566
+00:51:13,859 --> 00:51:19,019
+对于稀有气体，因为稀有气体的L和s均为0，但存在
+for noble gases because noble gases you
+have L and s both being 0 but there are
+
+567
+00:51:19,019 --> 00:51:22,739
+元素周期表中的一些元素，我认为它少于1/2 
+some elements on the periodic table
+which are I think it's one less than 1/2
+
+568
+00:51:22,739 --> 00:51:26,789
+根据洪德定律，在组合中L恰好等于s的填充壳为
+a filled shell where L happens to equal
+s in the combination by hund's rule is
+
+569
+00:51:26,789 --> 00:51:31,019
+零，这个项实际上可以出来，给你一个顺磁性的贡献
+zero and this term can actually come out
+and give you a paramagnetic contribution
+
+570
+00:51:31,019 --> 00:51:34,680
+也是不可考的，不用担心，这只适合您
+as well that's not examinable don't
+worry about it it's just for your
+
+571
+00:51:34,680 --> 00:51:40,430
+一般的教育，我们明天再谈磁性
+general edification we'll talk more
+about magnetism tomorrow see you then
+
+572
+00:51:41,609 --> 00:51:43,670
+您
+you
+

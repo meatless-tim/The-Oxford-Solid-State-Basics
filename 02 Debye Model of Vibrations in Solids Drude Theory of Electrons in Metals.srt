@@ -1,0 +1,3200 @@
+1
+00:00:00,030 --> 00:00:03,950
+好的，这是凝聚态课程的第二讲欢迎回来
+okay this is the second lecture of the
+condensed matter course welcome back
+
+2
+00:00:03,950 --> 00:00:07,560
+在第一次演讲后我们开始一群人之前的三件事
+three quick things before we start a
+bunch of people after the first lecture
+
+3
+00:00:07,560 --> 00:00:10,769
+问我这本书的标题是什么，以便他们可以在书店找到它
+asked me what's the title of the book so
+they can find it in the bookstore it's
+
+4
+00:00:10,769 --> 00:00:15,240
+牛津固态基础知识现在您可以找到它，这是我想要的第二件事
+the Oxford solid state basics now you
+can find it the second thing I want to
+
+5
+00:00:15,240 --> 00:00:19,470
+鼓励您使用留言板没人用过但还是有人勇敢
+encourage you to use the message board
+no one's used it yet someone be brave
+
+6
+00:00:19,470 --> 00:00:22,289
+发布第一条消息后，我保证您会发现它有用
+post the first message once you get
+going I promise you'll find it useful
+
+7
+00:00:22,289 --> 00:00:26,519
+第三件事，如果有任何问题，我上次强调的不够
+the third thing I didn't emphasize this
+enough last time if there's any problems
+
+8
+00:00:26,519 --> 00:00:30,689
+与课程中的任何错误错别字和作业设置书中的错别字
+with the course any sort of error typos
+and the homework sets typos in the book
+
+9
+00:00:30,689 --> 00:00:33,870
+我说的话如果在演讲中有误，请立即来找我
+anything I say if it seems wrong in
+lecture please come to me immediately
+
+10
+00:00:33,870 --> 00:00:37,860
+我可以发布更正，因此无法让所有人知道
+and I can issue corrections and
+therefore not get everyone is you know
+
+11
+00:00:37,860 --> 00:00:41,219
+尽可能让我们感到困惑，所以您只知道在
+confused as much as we can so just you
+know either post a message on the
+
+12
+00:00:41,219 --> 00:00:45,030
+留言板发送电子邮件演讲后抓住我，是的，我知道这很疯狂
+message board send the email catch me
+after lecture or yeah I know it's crazy
+
+13
+00:00:45,030 --> 00:00:54,480
+但你还是可以打给我，所以上次我们停下来谈话时
+but you can call me maybe yeah anyway so
+last time we we left off we were talking
+
+14
+00:00:54,480 --> 00:01:05,220
+关于固体的热容量，我们从玻尔兹曼图片开始
+about heat capacity of solids and we
+started with the Boltzmann picture of a
+
+15
+00:01:05,220 --> 00:01:11,760
+固体和Volta Mons图片两个月的图片都是固体中的原子
+solid and Volta Mons picture both month
+picture was that an atom in a solid
+
+16
+00:01:11,760 --> 00:01:14,159
+应该被认为是坐在谐波振荡器的底部
+should be thought of as sitting in the
+bottom of a harmonic oscillator
+
+17
+00:01:14,159 --> 00:01:19,380
+来回摆动，他能够从中得出定律
+oscillating back and forth and from that
+picture he was able to derive the law of
+
+18
+00:01:19,380 --> 00:01:25,290
+做一个小原子的小热容量是3 Kb，除了
+do long petit heat capacity per atom is
+3 Kb it's pretty good result except it
+
+19
+00:01:25,290 --> 00:01:28,400
+在低温下固体热容下降的情况不一致
+didn't agree at low temperature where
+the heat capacity of solids drops
+
+20
+00:01:28,400 --> 00:01:34,979
+爱因斯坦弄清楚发生了什么，他增加了量子力学，并且由于
+Einstein figured out what was going on
+he added quantum mechanics and due to
+
+21
+00:01:34,979 --> 00:01:38,970
+量子力学谐波振荡器的能级得到量化
+quantum mechanics the energy levels of
+the harmonic oscillator to get quantized
+
+22
+00:01:38,970 --> 00:01:43,799
+当温度降至量化能量以下时，振荡器得到
+and when the temperature drops below the
+quantization energy the oscillator gets
+
+23
+00:01:43,799 --> 00:01:48,299
+冻结了基态，热容下降了C 
+frozen his ground state and the heat
+capacity drops C drops at low
+
+24
+00:01:48,299 --> 00:01:54,990
+温度在低T下下降，他的预测是温度应该下降
+temperature drops at low T and his
+prediction was it should drop
+
+25
+00:01:54,990 --> 00:02:03,210
+他的热容量理论成指数地拟合数据
+exponentially exponentially his theory
+of heat capacity fit the data pretty
+
+26
+00:02:03,210 --> 00:02:07,799
+很好，的确可以预测低温下的热容下降，但是
+well and indeed it predicted this drop
+of heat capacity at low temperature but
+
+27
+00:02:07,799 --> 00:02:14,320
+不幸的是实验说实验说低温
+unfortunately experiment said experiment
+said that at low temperature the heat
+
+28
+00:02:14,320 --> 00:02:20,020
+容量与T的立方成正比，且不呈指数下降，因此
+capacities are proportional to T cubed
+not dropping exponentially so that
+
+29
+00:02:20,020 --> 00:02:27,400
+带我们到今天的主题，如果我是1912年，那就是鸿沟
+brings us to the subject of today which
+is the divide if I was 1912 and the
+
+30
+00:02:27,400 --> 00:02:32,050
+直觉是你不能把固体看作是一堆原子
+devised intuition was that you cannot
+think of a solid as a bunch of atoms in
+
+31
+00:02:32,050 --> 00:02:36,400
+我们心脏的底部谐波很好，因为当一个原子移动时，它确实会
+the bottom of our heart harmonic well
+because when one atom moves it does get
+
+32
+00:02:36,400 --> 00:02:39,520
+被邻居推回原来的位置，但在此过程中
+pushed back to its original position by
+its neighbor but in the process it
+
+33
+00:02:39,520 --> 00:02:41,830
+推它的邻居，然后他的邻居推它的邻居，所以
+pushes its neighbor and then his
+neighbors pushes its neighbor and so
+
+34
+00:02:41,830 --> 00:02:44,800
+等等等等，实际上我们应该在想什么
+forth and so on
+so in fact what we should be thinking
+
+35
+00:02:44,800 --> 00:02:53,430
+固体中的振动实际上是波，尤其是
+about is the vibration in a solid is
+actually a wave and in particular
+
+36
+00:02:53,430 --> 00:03:00,730
+振动波已经响起，现在已经知道了如何
+vibrational waves are sound now
+something was already known about how
+
+37
+00:03:00,730 --> 00:03:04,930
+波一直在量子力学的影响下一直返回
+waves behave under the influence of
+quantum mechanics all the way back in
+
+38
+00:03:04,930 --> 00:03:09,820
+ 1899年，马克斯·普朗克（Max Planck）完成了黑体辐射的计算， 
+1899 Max Planck had done this black body
+radiation calculation and when when Max
+
+39
+00:03:09,820 --> 00:03:12,940
+普朗克做了这个计算，他实际上不知道自己在做什么，他没有
+Planck did this calculation he actually
+had no idea what he was doing he didn't
+
+40
+00:03:12,940 --> 00:03:16,600
+甚至就像他在做什么一样，他说那是完全绝望的行为
+even like what he was doing he said it
+was a act of complete despair never
+
+41
+00:03:16,600 --> 00:03:20,320
+我真的很喜欢这个计算，但是十三年后，人们开始
+really liked the calculation very much
+but thirteen years later people started
+
+42
+00:03:20,320 --> 00:03:23,800
+了解有关量子力学和小子的一点点知识
+to understand little bits and pieces
+about quantum mechanics and plunks
+
+43
+00:03:23,800 --> 00:03:26,890
+原始的计算似乎更有意义
+original calculations seem to make a lot
+more sense
+
+44
+00:03:26,890 --> 00:03:30,760
+所以德拜认为我们应该做的就是量化声波
+so Debye thought that what we should do
+is we should quantize the sound waves
+
+45
+00:03:30,760 --> 00:03:41,830
+就像光一样，一般的想法是你知道这是现代的
+just like light like light the general
+idea is you know this is in modern
+
+46
+00:03:41,830 --> 00:03:44,709
+你知道朋克的语言不明白这一点，但我们明白
+language you know plunk didn't
+understand this but but we understand
+
+47
+00:03:44,709 --> 00:03:49,540
+现在来自爱因斯坦的工作，我们知道给定振荡器的能量
+this now is from Einsteins work we know
+that the energy of a given oscillator
+
+48
+00:03:49,540 --> 00:03:57,040
+将是H bar Omega乘以玻色系数βH bar Omega加上零
+would be H bar Omega times the bose
+factor beta H bar Omega plus the zero
+
+49
+00:03:57,040 --> 00:04:03,370
+点能量加上一半，所以如果我们有你知道的图片
+point energy plus one half and so if we
+have the the picture that the you know
+
+50
+00:04:03,370 --> 00:04:08,890
+我们现在解释普朗克，而我们所理解的是每个波动模式
+of we interpret Planck as now and what
+do by understood is that each wave mode
+
+51
+00:04:08,890 --> 00:04:11,950
+在米特尼克（Mitnick）的盒子里，将材料放在盒子里
+in a box in a Mitnick you put your
+material in a box
+
+52
+00:04:11,950 --> 00:04:16,540
+那个盒子里的每一波都应该当作振荡器，所以总的
+each wave one in that box should be
+treated as an oscillator so the total
+
+53
+00:04:16,540 --> 00:04:22,550
+盒子内的总能量e是所有波动模式的总和
+energy e total inside your box is the
+sum over all wave modes
+
+54
+00:04:22,550 --> 00:04:32,289
+该模式下的H-bar Omega乘以Lois factor beta H-bar的Omega 
+of h-bar Omega for that mode times Lois
+factor beta H bar Omega for the mode
+
+55
+00:04:32,289 --> 00:04:37,639
+加1/2，您要做的就是对框中所有模式求和
+plus 1/2 and all you have to do is sum
+over all the modes in the box now the
+
+56
+00:04:37,639 --> 00:04:39,979
+原因这会给你带来不同于爱因斯坦的东西
+reason this is going to give you
+something different from what Einstein
+
+57
+00:04:39,979 --> 00:04:44,180
+曾经是因为每当您在框中有很多模式时，其中一些
+had was because whenever you have a
+bunch of modes in the box some of those
+
+58
+00:04:44,180 --> 00:04:48,409
+模式将是低温低能耗模式或低频模式
+modes are going to be low temperature
+low energy modes or low frequency modes
+
+59
+00:04:48,409 --> 00:04:53,720
+因此在爱因斯坦的计算中，当温度降至低于频率
+so in Einstein's calculation when the
+temperature dropped below the frequency
+
+60
+00:04:53,720 --> 00:04:58,099
+振荡器的热容量下降，但这里的想法是我们有一个
+of the oscillator then the heat capacity
+dropped but the idea here is we have a
+
+61
+00:04:58,099 --> 00:05:01,879
+框内模式中频率的整体分布，因此当降低
+whole distribution of frequencies in the
+modes in our box and so as we lower the
+
+62
+00:05:01,879 --> 00:05:06,590
+温度总是会有一些频率足够低的模式
+temperature there will always be some
+modes of low enough frequency that will
+
+63
+00:05:06,590 --> 00:05:10,129
+仍然有一些热容量，所以热容量不会下降
+still have some heat capacity left so
+the heat capacity won't drop
+
+64
+00:05:10,129 --> 00:05:15,259
+我们在低温下呈指数增长，这就是现在的直觉
+exponentially as we go to low
+temperature so that's the intuition now
+
+65
+00:05:15,259 --> 00:05:20,120
+朋克的所作所为和德拜的所作所为之间会有一些差异
+there's going to be some differences
+between what plunk did and what Debye
+
+66
+00:05:20,120 --> 00:05:24,860
+这样做是因为光在许多方面明显不同于声音，一种方式是
+did because light is obviously different
+from sound in many ways one way is that
+
+67
+00:05:24,860 --> 00:05:26,930
+光比声音快很多
+light is of course a lot faster than
+sound
+
+68
+00:05:26,930 --> 00:05:31,909
+但这只是数量上的差异，还有一些定性
+but that's only sort of a quantitative
+difference there's some more qualitative
+
+69
+00:05:31,909 --> 00:05:35,060
+我们将要处理的差异，特别是其中之一
+differences that we're going to have to
+deal with and one in particular
+
+70
+00:05:35,060 --> 00:05:46,699
+光与声音的区别在于光具有两种极化
+light versus sound is that light has two
+polarizations polarizations and sound
+
+71
+00:05:46,699 --> 00:05:54,889
+现在有三极分化，您会从enm记住，如果有一盏灯
+has three polarizations now you'll
+remember from your enm that if a light
+
+72
+00:05:54,889 --> 00:05:58,909
+是x方向的电磁波或电磁波
+wave is or an electromagnetic wave of
+any sort is going in the x direction the
+
+73
+00:05:58,909 --> 00:06:03,199
+电场必须在Y方向或Z方向上
+electric field has to be in the Y
+direction or the Z direction it can't be
+
+74
+00:06:03,199 --> 00:06:07,460
+如果在X方向上有声波，则X方向的声音就不会像
+in the X direction sound is not like
+that if a sound wave is going in the X
+
+75
+00:06:07,460 --> 00:06:11,449
+声波的极化方向可以是任何方向
+direction the polarization of the sound
+wave can be in any direction let me show
+
+76
+00:06:11,449 --> 00:06:15,529
+您可能最容易用电影解释这一点，所以让我向您展示
+you it's probably easiest to explain
+this with a movie so let me show you the
+
+77
+00:06:15,529 --> 00:06:20,139
+我所说的电影，这就是所谓的纵波
+movie of what I mean by this this is
+what's known as a longitudinal wave
+
+78
+00:06:20,139 --> 00:06:25,009
+这意味着原子在相同方向上来回运动
+which means that the atoms are moving
+back and forth in the same direction
+
+79
+00:06:25,009 --> 00:06:29,509
+波浪实际上正在前进，因此波浪正在X方向运动，并且
+that the wave is actually going so the
+wave is going the X direction and the
+
+80
+00:06:29,509 --> 00:06:34,729
+原子在X方向上来回移动，因此不会发生
+atoms are moving back and forth in the X
+direction so this doesn't occur for
+
+81
+00:06:34,729 --> 00:06:38,089
+光为光波在x方向上移动
+light for light
+the wave is going the x-direction the
+
+82
+00:06:38,089 --> 00:06:40,989
+电磁场始终指向z方向的y方向
+electromagnetic field is always pointing
+in the y direction of the z direction
+
+83
+00:06:40,989 --> 00:06:46,309
+与光更相似的是所谓的横波，其中光是
+more similar to light is what's known as
+a transverse wave where the light is
+
+84
+00:06:46,309 --> 00:06:50,149
+好在波向X方向传播的地方，但是原子实际上是
+good where the wave is going in the X
+direction but the atoms are actually
+
+85
+00:06:50,149 --> 00:06:55,699
+可以在Y方向或Z方向上来回移动
+moving back and forth in the Y direction
+or the Z direction okay so with sound
+
+86
+00:06:55,699 --> 00:06:58,459
+实际上，原子可以移动三个极化
+you can actually have three
+polarizations the atoms can be moving in
+
+87
+00:06:58,459 --> 00:07:02,899
+任意方向，而光只能指向两个方向
+any direction whereas light the electric
+field has to point in only two possible
+
+88
+00:07:02,899 --> 00:07:09,169
+方向是明确的，是的，很好，所以我们必须跟踪
+directions is that clear yeah okay good
+so we're gonna have to keep track of the
+
+89
+00:07:09,169 --> 00:07:15,289
+事实上，我们对光有三种极化，而对树液只有两种极化
+fact that we have three polarizations
+for light and only two for sap the way
+
+90
+00:07:15,289 --> 00:07:19,309
+声音的三个极化，光的只有两个极化
+around three polarization for sound and
+only two for light there's a couple of
+
+91
+00:07:19,309 --> 00:07:23,569
+我们还将做的事情将是近似的
+things we're gonna also do which are
+going to be approximations which are
+
+92
+00:07:23,569 --> 00:07:29,989
+使我们的生活更简单的一个是，我们将假设速度
+going to make our life simpler one is
+that we're going to assume the velocity
+
+93
+00:07:29,989 --> 00:07:38,749
+声音V的声音与拉深的极化无关，这是
+of sound V sound is independent of
+polarization in depth of pull this is
+
+94
+00:07:38,749 --> 00:07:44,539
+实际上并非如此，几乎总是横向模式会更慢
+not actually true in reality almost
+always the transverse mode is slower it
+
+95
+00:07:44,539 --> 00:07:49,399
+速度比纵向模式低，但实际上不是
+has a lower velocity than the
+longitudinal mode but it's actually not
+
+96
+00:07:49,399 --> 00:07:53,239
+要正确地处理它要复杂得多，但是您不会学到很多东西
+so much more complicated to treat this
+properly but you don't learn a whole lot
+
+97
+00:07:53,239 --> 00:07:56,360
+做得更好，我认为本书中有一项练习
+more from doing it more properly I think
+there's an exercise in the book that
+
+98
+00:07:56,360 --> 00:07:59,419
+要求您做得更正确，但我们将假设所有声音
+asks you to do it more properly but
+we're just going to assume all sound
+
+99
+00:07:59,419 --> 00:08:02,559
+波浪具有相同的速度，而与它们是否
+waves have the same same velocity
+independent of whether they're
+
+100
+00:08:02,559 --> 00:08:08,149
+纵向或横向，只要我们假设不是
+longitudinal or transverse as long as
+we're assuming things which are not
+
+101
+00:08:08,149 --> 00:08:14,469
+真的正确，我们还可以假设V声音与方向无关
+really correct we might as well assume V
+sound is independent of direction of
+
+102
+00:08:14,469 --> 00:08:19,159
+经常不正确的方向也经常
+direction
+which is often not true also frequently
+
+103
+00:08:19,159 --> 00:08:22,939
+当您拥有真正的固体时，声音的速度取决于
+when you have a real solid the speed of
+sound depends on which direction the
+
+104
+00:08:22,939 --> 00:08:27,219
+当然，我们将在本学期稍后再讨论这一点，但
+solid you're going we'll discuss that a
+little bit more later on in the term but
+
+105
+00:08:27,219 --> 00:08:30,679
+再说一遍，如果您更正确地对待它，那不是很多
+again it's something that if you treat
+it more properly it's not that much
+
+106
+00:08:30,679 --> 00:08:34,729
+更努力，您不会从中学到很多东西，所以我们不会做
+harder and you don't learn so much more
+from doing it so we're not going to do
+
+107
+00:08:34,729 --> 00:08:38,958
+它更合适，但请记住，我们正在做出这些近似值
+it more properly but just keep in mind
+that we are making these approximations
+
+108
+00:08:38,958 --> 00:08:44,569
+现在，如果您还记得去年所做的小节计算
+now if you remember back to plunks
+calculation which you did last year
+
+109
+00:08:44,569 --> 00:08:48,920
+您要担心的第一件事是计算一个盒子中的所有模式
+the first thing you had to worry about
+was counting all of the modes in a box
+
+110
+00:08:48,920 --> 00:08:52,040
+听起来有点熟悉，我们会去吗
+does that sound familiar
+a little bit familiar we're gonna go
+
+111
+00:08:52,040 --> 00:08:54,770
+再次通过它，因为它很重要，我们将使用很多
+through that again because it's
+important and we're gonna use a lot of
+
+112
+00:08:54,770 --> 00:08:59,210
+这个机制很多是今年要做很多其他事情，所以值得
+the a lot of the mechanism is to do many
+other things this year so it's worth
+
+113
+00:08:59,210 --> 00:09:04,910
+通过，所以这在计数盒子中的波浪数上有点
+going through so this is a little aside
+on counting waves in a box counting
+
+114
+00:09:04,910 --> 00:09:14,660
+波浪模式我猜框模式，所以这很难从一维开始
+waves modes I guess modes in box so this
+is hard to start with a one dimensional
+
+115
+00:09:14,660 --> 00:09:20,660
+ box 1d box，让我们在这里画一个一维的盒子
+box 1d box so let's draw the one
+dimensional box here it is it has some
+
+116
+00:09:20,660 --> 00:09:27,140
+长度L，我们可以在硬壁边界的盒子中写下波浪
+length L we can write down a wave in
+that box with hard wall boundary
+
+117
+00:09:27,140 --> 00:09:33,260
+您知道，L的条件和PI x在两端都变为0，这是因为
+conditions and PI x over L as you know
+comes to 0 at both ends because of the
+
+118
+00:09:33,260 --> 00:09:36,770
+硬壁边界条件，这是写下来的完美好方法
+hard wall boundary conditions and this
+is a perfectly good way to write down
+
+119
+00:09:36,770 --> 00:09:39,980
+框中每个不同的正整数n的波动n都不同
+the waves in the box for every different
+positive integer n you have a different
+
+120
+00:09:39,980 --> 00:09:44,330
+ wave模式还可以，但不是我们要做的是我们要做的
+wave mode that's okay but it's not not
+what we're gonna do what we're gonna do
+
+121
+00:09:44,330 --> 00:09:50,570
+相反，我们将使用所谓的周期性边界条件
+is instead we're going to use what's
+known as periodic boundary conditions
+
+122
+00:09:50,570 --> 00:09:56,589
+您可能在去年讨论了周期性边界条件
+you may have discussed this last year
+periodic boundary conditions boundaries
+
+123
+00:09:56,589 --> 00:10:05,440
+也称为天生冯卡门边界条件天生冯卡曼卡门卡门
+also known as born von-karman boundary
+conditions born von Karman Carmen Carmen
+
+124
+00:10:05,440 --> 00:10:11,210
+出生是马克思的其中之一出生是量子力学的创造者之一
+born was one of the Max born was one of
+the creators of quantum mechanics and
+
+125
+00:10:11,210 --> 00:10:15,680
+西奥多·冯·卡曼曾是非常重要的数学家，马克斯·博恩也很
+Theodore von Karman was a very important
+mathematician Max Born is also very
+
+126
+00:10:15,680 --> 00:10:18,589
+很重要，因为他是奥利维亚·牛顿·约翰的祖父，她是
+significant because he was Olivia
+newton-john's grandfather she's an
+
+127
+00:10:18,589 --> 00:10:22,010
+重要的流行歌星，如果您不认识她，她对我这一代人很重要
+important pop star if you don't know her
+she was important for my generation at
+
+128
+00:10:22,010 --> 00:10:27,950
+无论如何，这样的话人们对我的印象并不足够深刻
+any rate so anyway people don't see me
+sufficiently impressed by that statement
+
+129
+00:10:27,950 --> 00:10:31,940
+是的，实际上还是可以的，所以周期性边界条件的想法是
+it's it's actually it's anyway ok so the
+idea of a periodic boundary condition is
+
+130
+00:10:31,940 --> 00:10:36,530
+我们要取长为L的盒子，然后将其包裹成一个圆圈
+we're gonna take our box of length L and
+we're going to wrap it up into a circle
+
+131
+00:10:36,530 --> 00:10:42,110
+ L的周长，然后我们将测量X 
+of circumference L then we're gonna
+measure X going around the box in this
+
+132
+00:10:42,110 --> 00:10:47,510
+这样的方式，我们之所以这样做，是因为一旦我们这样做， 
+way like that and the reason we're doing
+this is because once we do this the
+
+133
+00:10:47,510 --> 00:10:52,430
+波浪可以采用e到ikx的形式，我们不必处理正弦波， 
+waves can take the form e to the ikx we
+don't have to work with sines and
+
+134
+00:10:52,430 --> 00:10:57,740
+余弦如果我们在一个圆上有一个周期框，则可以使用指数的
+cosines if we have a periodic box in a
+circle we can use Exponential's and if
+
+135
+00:10:57,740 --> 00:11:01,459
+到现在为止，您还没有学过指数只是
+you haven't learned already by this time
+in your career Exponential's are just a
+
+136
+00:11:01,459 --> 00:11:05,850
+现在，当我们编写一个符号时，使用符号和共同符号要容易得多
+lot easier to work with
+signs and co-signs now when we write a
+
+137
+00:11:05,850 --> 00:11:12,510
+向ikx挥动e，我们必须要小心一点，因为坐标X和
+wave e to the ikx we have to be a little
+bit careful because the coordinate X and
+
+138
+00:11:12,510 --> 00:11:18,180
+ X到L的坐标实际上是相同的坐标（如果走了L的距离） 
+the coordinate X plus L are actually the
+same coordinate if you go a distance L
+
+139
+00:11:18,180 --> 00:11:23,460
+在盒子周围，您会回到完全相同的点，因此该波形
+around the the box you get back to
+exactly the same point so this wave form
+
+140
+00:11:23,460 --> 00:11:30,570
+无论是插入X还是x加L都必须完全相同，所以我们最好有您
+must be exactly the same whether we plug
+in X or x plus L so we better have you
+
+141
+00:11:30,570 --> 00:11:34,560
+知道这是否有意义，我们最好让ikx的e等于e 
+know if this is going to make sense we
+better have e to the ikx equal to e to
+
+142
+00:11:34,560 --> 00:11:45,810
+ IKX加L ok，否则i KS的e等于1或K必须为2 PI 
+the I K X plus L ok or otherwise e to
+the i KS to equal 1 or K has to be 2 PI
+
+143
+00:11:45,810 --> 00:11:51,090
+在L上乘以整数N，该整数可以是正数或负数，或者
+over L times an integer N and that
+integer can be positive or negative or
+
+144
+00:11:51,090 --> 00:11:56,970
+是我们喜欢的东西，到目前为止，每个人都满意
+is whatever we like ok
+everyone happy with that so far so good
+
+145
+00:11:56,970 --> 00:12:05,460
+好的，这意味着允许之间的间隔
+ok so this means that the spacing
+between allowed between between allowed
+
+146
+00:12:05,460 --> 00:12:15,360
+允许的国际象棋国际象棋是2 PI，超过L ll是我们循环的周长， 
+allowed Ches Ches is 2 PI over L ll
+being the circumference of our loop and
+
+147
+00:12:15,360 --> 00:12:20,910
+特别是如果我们必须对所有k求和，我们可以替换该总和
+in particular if we ever have to sum
+over all the k's we can replace that sum
+
+148
+00:12:20,910 --> 00:12:27,360
+通过积分衰减乘以2 pi的L倍，您是否经历过
+by an integral decay times a factor of L
+over 2 pi did you go through this
+
+149
+00:12:27,360 --> 00:12:32,490
+去年的争论有点不错，好吧，我们将大量使用它
+argument last year a little bit yes well
+ok we're going to use it an awful lot
+
+150
+00:12:32,490 --> 00:12:35,220
+今年，这就是为什么我要再次经历它，因为它很重要
+this year so that's why I'm going
+through it again because it's important
+
+151
+00:12:35,220 --> 00:12:42,300
+现在我们当然不是生活在一个维度中，所以我们必须考虑
+now we of course don't live in one
+dimension so we have to think as
+
+152
+00:12:42,300 --> 00:12:47,120
+多维的人，我们必须在多个维度进行思考，因此在3D中
+multi-dimensional people we have to
+think in multiple dimensions so in 3d
+
+153
+00:12:47,120 --> 00:12:56,580
+我们要乘L乘L乘L乘L 
+we're gonna take an L by L by L periodic
+box photic box and at this point you
+
+154
+00:12:56,580 --> 00:13:01,470
+可能会开始有点不高兴，因为没有L 
+might start to be a little bit upset
+because there's no such thing as an L by
+
+155
+00:13:01,470 --> 00:13:06,060
+在现实世界中，L到L的周期性盒子必须有一个盒子
+L by L periodic box in the real world
+you would have to have a box for which
+
+156
+00:13:06,060 --> 00:13:09,720
+如果您在任何方向上走了L距离，您都会回到正确的位置
+if you went a distance L in any
+direction you came back to exactly where
+
+157
+00:13:09,720 --> 00:13:12,870
+您从三个维度入手，您无法构建这样的东西，他们只是没有
+you started in three dimensions you
+can't build such a thing they just don't
+
+158
+00:13:12,870 --> 00:13:16,889
+存在，所以为什么要这样做，尽管重点是
+exist so why is it we're going to do
+this though the point is
+
+159
+00:13:16,889 --> 00:13:20,850
+实际上，对于系统边界几乎做什么都不重要
+doesn't actually matter what you do with
+the boundaries of your system for almost
+
+160
+00:13:20,850 --> 00:13:24,809
+您实际上对计算感兴趣的任何数量，例如热容量
+any quantity you're actually interested
+in calculating such as the heat capacity
+
+161
+00:13:24,809 --> 00:13:28,769
+您可以在一个很小的区域内进行本地测量
+it's something that you could measure
+locally just in a small region of the
+
+162
+00:13:28,769 --> 00:13:31,709
+实际的物理系统，所以对
+actual physical system so it doesn't
+matter what you would do with the
+
+163
+00:13:31,709 --> 00:13:35,850
+边界可能非常远，因此您可以使用硬墙边界
+boundaries which could be very very far
+away so you can use hard wall boundary
+
+164
+00:13:35,850 --> 00:13:38,699
+您可以使用周期性边界条件您可以使用任何其他类型的条件
+conditions you can use periodic boundary
+conditions you can use any other type of
+
+165
+00:13:38,699 --> 00:13:42,480
+边界条件对我们来说很方便，使用它们很方便
+boundary condition which is convenient
+and for us it's convenient to use these
+
+166
+00:13:42,480 --> 00:13:46,199
+周期性边界条件，我们将摆脱它的原因是
+periodic boundary conditions and we're
+going to get away with it the reason we
+
+167
+00:13:46,199 --> 00:13:48,749
+想要使用这些周期性边界条件是因为
+want to use these periodic boundary
+conditions is because then the waves
+
+168
+00:13:48,749 --> 00:13:54,600
+看起来像Evi K矢量点X矢量，它是指数的
+will look like Evi K vector dot X vector
+it's an exponential Exponential's are
+
+169
+00:13:54,600 --> 00:13:58,259
+易于合作，这就是为什么我们在每个仍然开心的人中都这样做
+easy to work with and that's why we're
+doing it everyone that's still happy
+
+170
+00:13:58,259 --> 00:14:05,069
+很好，所以在三个维度上，K必须是L倍的2 PI 
+with that okay good so in three
+dimensions K has to be 2 PI over L times
+
+171
+00:14:05,069 --> 00:14:13,949
+整数和x + y + Z，因此，如果我们对K个向量求和，则可以替换
+integers and x + y + Z and so if we ever
+have a sum over K vectors we can replace
+
+172
+00:14:13,949 --> 00:14:22,980
+ L与2 PI乘以积分DK X积分DK y积分的总和
+that sum with L over 2 PI cubed times
+the integral DK X integral DK y integral
+
+173
+00:14:22,980 --> 00:14:28,139
+ DK Z或我们通常会写的另一种方式将写为
+DK Z or another way that we will most
+usually write this will write this as
+
+174
+00:14:28,139 --> 00:14:37,559
+系统的体积乘以2个PI立方上的积分d 3k，我们将得到
+the volume of the system times the
+integral d 3k over 2 PI cubed and we'll
+
+175
+00:14:37,559 --> 00:14:43,169
+看到这个因子体积积分D 3k超过2 PI的立方，可能会看到它a 
+see this factored volume integral D 3k
+over 2 PI cubed probably see it a
+
+176
+00:14:43,169 --> 00:14:47,279
+在我们还没做好之前，今年有一百次，所以我们要做的是
+hundred times this year before we're
+done okay so what we're going to do is
+
+177
+00:14:47,279 --> 00:14:51,959
+我们将使用刚刚学到的关于对盒中的波进行计数的知识来应用
+we're going to use what we just learned
+about counting waves in a box to apply
+
+178
+00:14:51,959 --> 00:14:56,429
+这里的方程式，所以这里有一些超模
+to this equation here so there's some
+over modes here I then write sum over
+
+179
+00:14:56,429 --> 00:15:04,019
+模式将成为我们模式中所有可能的K向量的总和，但是
+modes is going to become the sum over
+all possible K vectors for our modes but
+
+180
+00:15:04,019 --> 00:15:08,579
+然后乘以因子3，因子3来自三个极化
+then times a factor of 3 and the factor
+of 3 is from the three polarizations we
+
+181
+00:15:08,579 --> 00:15:13,199
+可以有一个纵向或两个横向极化，然后这个
+can have one longitudinal or two
+transverse polarizations and then this
+
+182
+00:15:13,199 --> 00:15:17,789
+总而言之，我们将在这里使用该定律将其转换为整数，所以现在我们
+sum we're going to use this law here to
+convert it into an integral so now we
+
+183
+00:15:17,789 --> 00:15:28,829
+自从我们有了3个2 PI的体积积分后，体积积分d 3k的三个因子
+have three factor of the volume integral
+d 3k over 2 PI cubed now since we've
+
+184
+00:15:28,829 --> 00:15:33,090
+在这里假设一切都是各向同性的
+assumed over here
+everything is isotropic and in other
+
+185
+00:15:33,090 --> 00:15:37,410
+单词速度与方向无关，我们可以采用这三个
+words velocities are independent of
+direction we can then take this three
+
+186
+00:15:37,410 --> 00:15:42,660
+维笛卡尔积分并将其转换为球极积分，所以我们
+dimensional Cartesian integral and turn
+it into a spherical polar integral so we
+
+187
+00:15:42,660 --> 00:15:49,410
+有三倍的体积，让我们在这里拉出2个PI立方体，然后
+have three times the volume let's pull
+out the 2 PI cubed here and then we have
+
+188
+00:15:49,410 --> 00:15:57,420
+熟悉的从0到无穷大的整数4 pi K平方DK 
+integral 4 pi K squared
+DK from 0 to infinity as this familiar
+
+189
+00:15:57,420 --> 00:16:02,310
+ 4 pi是球形方向上的积分是3 aqua极性
+the 4 pi is the integral over the
+spherical directions yes 3 aqua polar
+
+190
+00:16:02,310 --> 00:16:06,900
+因为我们正在考虑声音，所以最终协调每个人对此感到满意
+coordinates everyone's happy with that
+finally since we're thinking about sound
+
+191
+00:16:06,900 --> 00:16:10,650
+您去年或去年在流体课程中可能学到的声音
+for sound you've probably learned in
+your fluids course last year or last
+
+192
+00:16:10,650 --> 00:16:16,440
+最后一项频率与波矢成正比
+last term frequency is proportional to
+the wave vector and the proportionality
+
+193
+00:16:16,440 --> 00:16:24,540
+常数是声音的速度，所以我们只需要改变积分
+constant is the velocity velocity of the
+sound so let's just change that integral
+
+194
+00:16:24,540 --> 00:16:29,100
+变成一个积分的超频率，而不是积分的超波矢量，这样
+into an integral over frequency instead
+of an integral over wave vector so that
+
+195
+00:16:29,100 --> 00:16:34,200
+成为一些因素，让我们在楼上将4 pi取出
+becomes a pull out some factors here
+let's pull out a 4 pi upstairs we have a
+
+196
+00:16:34,200 --> 00:16:40,110
+ 2 PI楼下立方体我想我们楼下有速度立方体，然后我们
+2 PI cubed downstairs I guess we have
+velocity cubed downstairs and then we
+
+197
+00:16:40,110 --> 00:16:46,410
+有一个整数0到无穷大的Omega平方D Omega，我要写
+have an integral 0 to infinity Omega
+squared D Omega and I'm going to write
+
+198
+00:16:46,410 --> 00:16:55,980
+那就是定义一个Omega D Omega 0到无穷大的数量G而这个G 
+that as just defining a quantity G of
+Omega D Omega 0 to infinity and this G
+
+199
+00:16:55,980 --> 00:17:01,320
+欧米茄（Omega）只是这些常数中的一小部分，我将坚持在一起
+of Omega is just a bunch of those
+constants I'm going to stick together so
+
+200
+00:17:01,320 --> 00:17:08,910
+我想我楼上有12 12 pi，楼下有2 PI我想我
+I guess I have 12 12 pi upstairs and I
+have 2 PI cubed downstairs I guess I
+
+201
+00:17:08,910 --> 00:17:14,040
+楼下有一个速度立方体，然后楼上有一个体积，我要
+have a velocity cube downstairs and then
+I have a volume upstairs and I'm gonna
+
+202
+00:17:14,040 --> 00:17:17,760
+以一种棘手的方式将音量写在楼上，我将其写为
+write the volume upstairs in sort of a
+tricky way I'm gonna write it as the
+
+203
+00:17:17,760 --> 00:17:22,890
+原子数除以楼下体积即密度，然后
+number of atoms divided by the volume
+downstairs that's the density and then
+
+204
+00:17:22,890 --> 00:17:26,880
+楼上的原子数会很方便，然后我需要
+the number of atoms upstairs that's
+going to be convenient and then I need
+
+205
+00:17:26,880 --> 00:17:36,150
+欧米茄平方欧米茄平方，所以这里的这个量称为
+also that Omega squared Omega squared so
+this quantity here is known as which I
+
+206
+00:17:36,150 --> 00:17:40,890
+把它放在这里欧米茄G被称为欧米茄G 
+put it over here G of Omega is known as
+G of Omega is
+
+207
+00:17:40,890 --> 00:17:45,299
+被称为国家密度，我认为您去年遇到了
+known as the density of states and I
+think you ran into this last year when
+
+208
+00:17:45,299 --> 00:17:52,220
+你做了黑体辐射，国家密度的想法是
+you did blackbody radiation the idea of
+a density of states is that it is
+
+209
+00:17:52,220 --> 00:17:57,870
+基本上，您在给定频率下有多少种这些模式
+basically how many of these modes you
+have at a given frequency in particular
+
+210
+00:17:57,870 --> 00:18:12,770
+ G Omega D Omega等于频率介于
+G Omega D Omega equals number of modes
+with frequency frequency between between
+
+211
+00:18:12,770 --> 00:18:21,299
+欧米茄（Omega）和欧米茄（Omega）加D欧米茄（Omega），因此，如果您想对
+Omega and Omega plus D Omega so if you
+want to sum over all the modes in the
+
+212
+00:18:21,299 --> 00:18:25,080
+系统，而不是仅汇总所有模式，而是集成
+system instead of just summing all the
+modes what you do is you integrate over
+
+213
+00:18:25,080 --> 00:18:29,840
+所有频率乘以每个频率下的模式数量
+all frequencies times the number of
+modes at each frequency okay sort of a
+
+214
+00:18:29,840 --> 00:18:35,340
+方便的做事方式实际上我也将简化一点
+convenient way to do things I'm actually
+also going to simplify this a little bit
+
+215
+00:18:35,340 --> 00:18:40,470
+通过定义另一个方便的数量，我将重写
+further by defining another convenient
+quantity I'm gonna rewrite this G of
+
+216
+00:18:40,470 --> 00:18:47,730
+欧米茄的Omega G，因为我要写出N个原子然后
+Omega G of Omega as I'm gonna write it
+as pull out the N number of atoms then
+
+217
+00:18:47,730 --> 00:18:54,870
+九个欧米茄平方超过欧米茄D立方，所以我将欧米茄D定义为立方
+nine Omega squared over Omega D cubed so
+I'm defining Omega D cubed here to be a
+
+218
+00:18:54,870 --> 00:19:00,960
+那些常数在一起的一堆Omega D立方是六倍平方平方倍
+bunch of those constants stuck together
+Omega D cubed is six pi squared times
+
+219
+00:19:00,960 --> 00:19:08,250
+体积密度乘以声音速度的密度，这称为
+the density number over volume times
+velocity of sound cubed this is known as
+
+220
+00:19:08,250 --> 00:19:16,230
+至少在目前，按频率划分的德比频率
+the Debye frequency after mister du by
+frequency and at least for now
+
+221
+00:19:16,230 --> 00:19:19,260
+我们只是将其视为我们拥有的一堆常数
+we're just going to think of it as this
+bunch of constants that we've
+
+222
+00:19:19,260 --> 00:19:22,919
+方便定义，因此写GI的意思会更容易
+conveniently defined so it's easier to
+write G I mean in a moment will give it
+
+223
+00:19:22,919 --> 00:19:27,330
+一个更重要的含义，但现在只是那些常数
+a more important meaning but for now
+it's just those bunch of constants okay
+
+224
+00:19:27,330 --> 00:19:33,330
+因此，完成所有这些操作之后，我们可以在顶部
+so having done all of that we can then
+weigh up there at the very top of the
+
+225
+00:19:33,330 --> 00:19:39,360
+板上，我们将能量表示为所有模式的总和
+board we have the expression for the
+energy as a sum over all of the modes so
+
+226
+00:19:39,360 --> 00:19:43,919
+实际上，也许我会把它放在这里，所以我不必将其滚动到
+I'm actually maybe I'll put it over here
+so I don't have to scroll that off the
+
+227
+00:19:43,919 --> 00:19:48,510
+最重要的一点，所以我们现在将能量总计
+top of the board
+so we'll now write the energy the total
+
+228
+00:19:48,510 --> 00:19:53,100
+在给定温度下的能量，而不是将其写为所有模式的总和
+energy at a given temperature instead of
+writing it as a sum over all the modes
+
+229
+00:19:53,100 --> 00:19:57,200
+我将把它写成等于频率的整数
+I'm going to write it as an
+integral over frequencies equals
+
+230
+00:19:57,200 --> 00:20:03,410
+从零到无穷大的积分D欧米茄G欧米茄是所有模式下的总和
+integral D Omega from zero to infinity
+G Omega that's the sum over all modes by
+
+231
+00:20:03,410 --> 00:20:07,720
+频率积分，我们想要积分的是H bar Omega 
+integrating over frequency and the thing
+that we want to integrate is H bar Omega
+
+232
+00:20:07,720 --> 00:20:15,740
+弓箭因子beta H栏欧米茄加一半好吧人们对此感到满意
+bows factor beta H bar Omega plus
+one-half okay people happy with that
+
+233
+00:20:15,740 --> 00:20:23,030
+我们正在做什么是是也许是好的好吧好吧，这就是表达
+what we're doing yes yes maybe yeah okay
+good all right so this is the expression
+
+234
+00:20:23,030 --> 00:20:26,530
+我们将尝试评估，如果您真的非常关注
+that we're gonna try to evaluate and if
+you're paying really close attention
+
+235
+00:20:26,530 --> 00:20:31,610
+你已经对我不高兴了，因为它实际上是无限的
+you'll be upset with me
+already because it's actually infinite
+
+236
+00:20:31,610 --> 00:20:36,950
+盒子中的总能量是无限的，之所以无限，是因为
+this total energy in the box is infinite
+and the reason it's infinite is because
+
+237
+00:20:36,950 --> 00:20:42,140
+加上一半的乘积，再看乘以一半的乘积
+of this plus one-half look at what the
+plus one-half multiplies it multiplies
+
+238
+00:20:42,140 --> 00:20:46,400
+欧米茄的Omega G因子与Omega平方成正比，所以它是
+the factor Omega G of Omega is
+proportional to Omega squared so it's
+
+239
+00:20:46,400 --> 00:20:48,650
+欧米茄从零到无穷大的立方积分
+the integral of Omega cubed from zero to
+infinity
+
+240
+00:20:48,650 --> 00:20:52,900
+那是无限的，所以你可能会认为这是一个问题
+that's infinite so that's kind of it you
+might think that's kind of a problem
+
+241
+00:20:52,900 --> 00:20:56,120
+实际上，它并没有因为他们不知道而去买或买东西
+actually it didn't bother to buy or
+plunk because they didn't know about
+
+242
+00:20:56,120 --> 00:20:59,300
+零点能量，所以他们从不写下这个加一半，但不是
+zero-point energy so they never wrote
+down this plus one-half but it's not
+
+243
+00:20:59,300 --> 00:21:02,510
+出于多种原因会困扰我们，这主要是因为它不会继续
+gonna bother us either for a number of
+reasons the main reason it's not going
+
+244
+00:21:02,510 --> 00:21:06,920
+困扰我们是因为它给了我们无限的数量，但这是无限的
+to bother us is because it gives us an
+infinite quantity but it's an infinite
+
+245
+00:21:06,920 --> 00:21:10,280
+与温度无关的数量是唯一的位置
+quantity that's independent of
+temperature the only place in this
+
+246
+00:21:10,280 --> 00:21:14,240
+我们要在一天结束时在此处表达温度的表达式
+expression where temperature occurs is
+right here at the end of the day we want
+
+247
+00:21:14,240 --> 00:21:17,240
+热容，是能量相对于温度的导数
+heat capacity which is the derivative of
+the energy with respect to temperature
+
+248
+00:21:17,240 --> 00:21:20,570
+所以我们将不得不根据温度来区分这件事
+so we're gonna have to differentiate
+this thing with respect to temperature
+
+249
+00:21:20,570 --> 00:21:24,110
+而1/​​2将会消失，因为它与温度无关，所以
+and the 1/2 is going to go away because
+it's temperature independent so it's
+
+250
+00:21:24,110 --> 00:21:27,740
+给我们无限但与温度无关的贡献，所以我们不会
+giving us an infinite but temperature
+independent contribution so we don't
+
+251
+00:21:27,740 --> 00:21:31,310
+稍等一下，我们会看到另一个原因
+care about it actually in a few moments
+we're gonna see another reason why we're
+
+252
+00:21:31,310 --> 00:21:35,720
+不会在意那1/2，但现在我们只知道它不会
+not gonna care about that 1/2 but for
+now we'll just realize it's not going to
+
+253
+00:21:35,720 --> 00:21:39,530
+改变我们对热容的表达吧
+change our expression for the heat
+capacity all right
+
+254
+00:21:39,530 --> 00:21:45,050
+所以现在我们可以将状态密度插入此方程式中，所以让我们
+so now we can plug in the density of
+states into this equation here so let's
+
+255
+00:21:45,050 --> 00:21:48,260
+这样做，我们得到9，我将拉起H栏
+do that
+so we get 9 and I'll pull up the H bar
+
+256
+00:21:48,260 --> 00:21:52,460
+从那边经过立方体的Omega 2 
+from over there
+there's Omega 2 by cubed here cubed
+
+257
+00:21:52,460 --> 00:21:57,800
+楼下，然后剩下的东西整合了来自
+downstairs and then the thing we have
+left to integrate integral D Omega from
+
+258
+00:21:57,800 --> 00:22:01,340
+ 0到无穷大，楼上有一个欧米茄立方体，然后
+0 to infinity
+there's Omega cubed upstairs and then
+
+259
+00:22:01,340 --> 00:22:04,420
+ βH bar欧米茄的玻色因子e 
+the bose factor e to the beta H bar
+Omega
+
+260
+00:22:04,420 --> 00:22:10,690
+ -剩下的看起来有点丑陋，但是我们可以将其取整
+- one is left that looks a little bit
+ugly but we can take this integral we
+
+261
+00:22:10,690 --> 00:22:16,060
+可以通过写x等于beta H bar Omega来简化它，然后
+can simplify it a little bit by writing
+x equals beta H bar Omega and then the
+
+262
+00:22:16,060 --> 00:22:23,710
+积分在beta H条上变为1，是该积分的第四倍
+integral turns into 1 over beta H bar to
+the fourth times this integral integral
+
+263
+00:22:23,710 --> 00:22:31,630
+ DX从0到X的无穷大，将e立方化为X减1，我保证你没有人
+DX from 0 to infinity of X cubed e to
+the X minus 1 and I promise you no one
+
+264
+00:22:31,630 --> 00:22:35,650
+曾经要你评估这个积分，只是一些数字
+is ever going to ask you to evaluate
+this integral it's just some number the
+
+265
+00:22:35,650 --> 00:22:40,570
+这个数字恰好是PI到15的第四个，如果您真的想知道
+number happens to be PI to the fourth
+over 15 and if you really want to know
+
+266
+00:22:40,570 --> 00:22:44,800
+该数字来自您，它位于您知道的其中之一的附录中
+where that number comes from you it's in
+the you know appendix of one of the
+
+267
+00:22:44,800 --> 00:22:48,160
+本书的各个章节，当有人说您可以阅读本书的内容时，您是否讨厌它？ 
+chapters of the book and don't you hate
+it when someone says you can go read the
+
+268
+00:22:48,160 --> 00:22:51,160
+本书，但实际上并不是那么重要，它只是给了我们一些重要的信息
+book but in fact it's not so important
+it just gives us a number the important
+
+269
+00:22:51,160 --> 00:22:57,160
+事情是它给了我们一些已知的数字，因此我们可以将该数字放入并获得
+thing is it gives us some known number
+so we can put that number in and get the
+
+270
+00:22:57,160 --> 00:23:04,990
+最终结果是，盒子中的总能量为9，KBT为
+end result that the energy the total
+energy in the box is 9 and KBT to the
+
+271
+00:23:04,990 --> 00:23:12,490
+第四部分除以H bar欧米茄Debye立方倍乘以该因子部分的第四部分
+fourth here divided by H bar Omega Debye
+cubed times this factor part of the 4th
+
+272
+00:23:12,490 --> 00:23:21,430
+超过15很好，然后我们当然可以将其区分以获得热量
+over 15 okay good and then of course we
+can differentiate this to get the heat
+
+273
+00:23:21,430 --> 00:23:34,110
+热容量是DT，没关系，所以在H bar Omega 2 bi上为n KB KB T 
+capacity heat capacity is de DT and ok
+so it's n KB KB T over H bar Omega 2 bi
+
+274
+00:23:34,110 --> 00:23:41,740
+立方，然后我想12 PI到5的第四个PI让我们开始吧
+cubed and then I guess 12 PI to the
+fourth over 5 let's so that's the heat
+
+275
+00:23:41,740 --> 00:23:45,460
+能力，因此有几件事对此做出评论，这使得
+capacity and so a couple of things to
+comment about this it makes this
+
+276
+00:23:45,460 --> 00:23:50,230
+首先令人兴奋，它与T的立方成正比，就像by想要的
+exciting first of all it's proportional
+to T cubed just like the by wanted you
+
+277
+00:23:50,230 --> 00:23:55,120
+如预期那样获得热容量的T立方依赖关系
+get the T cubed dependence of the heat
+capacity as expected it shouldn't be
+
+278
+00:23:55,120 --> 00:23:58,930
+令人惊讶的是，您获得了T立方热容，因为您从
+surprising that you get this T cubed
+heat capacity because you remember from
+
+279
+00:23:58,930 --> 00:24:02,860
+您去年做的黑体辐射计算表明
+the blackbody radiation calculation you
+did last year that the energy of
+
+280
+00:24:02,860 --> 00:24:07,690
+辐射您计算的盒子中的波能量与T成正比
+radiation the energy of waves in a box
+that you calculated is proportional to T
+
+281
+00:24:07,690 --> 00:24:10,840
+到第四，你应该期望能量是第四的T 
+to the fourth you should have expected
+the energy to be T to the fourth and
+
+282
+00:24:10,840 --> 00:24:14,350
+然后您将其微分一次，就得到T的立方，这就是为什么Debye 
+then you differentiate it once and you
+get T cubed so this is why Debye
+
+283
+00:24:14,350 --> 00:24:16,540
+期望以相同的方式对待海浪
+expected that by treating the waves the
+same way
+
+284
+00:24:16,540 --> 00:24:23,740
+我们处理了辐射我们将得到T立方定律
+we treated radiation we would get the T
+cubed law furthermore there's something
+
+285
+00:24:23,740 --> 00:24:27,820
+这个公式真的很令人兴奋，那就是没有免费的
+really exciting about this formula here
+and that is that there's no free
+
+286
+00:24:27,820 --> 00:24:31,240
+参数记得当爱因斯坦进行计算时，他有这个频率
+parameters remember when Einstein did
+his calculation he had this frequency
+
+287
+00:24:31,240 --> 00:24:35,680
+这个爱因斯坦频率他不知道如何振荡的频率
+this Einstein frequency the oscillator
+frequency which he didn't know how to
+
+288
+00:24:35,680 --> 00:24:38,890
+提出这个频率，他只是将其适合实验以尝试使其达到目标
+come up with this frequency he just fit
+it to the experiment to try to make it
+
+289
+00:24:38,890 --> 00:24:44,530
+一切看起来都很不错，这里没有免费参数Omega Debye，这里的问题由
+all look nice here there's no free
+parameter Omega Debye here is fixed by
+
+290
+00:24:44,530 --> 00:24:48,700
+密度和声速，所以一切都固定在这里
+the density and the sound velocity so
+everything is fixed here and if and if
+
+291
+00:24:48,700 --> 00:24:52,180
+计算这个量，然后将其与低温热量进行比较
+you calculate this quantity and you
+compare it to low temperature heat
+
+292
+00:24:52,180 --> 00:24:58,060
+实际上大多数材料的容量都非常一致，但是
+capacity of most materials it actually
+actually agrees extremely well but
+
+293
+00:24:58,060 --> 00:25:03,460
+不幸的是，就像您知道您永远不会免费得到任何东西一样，我们仍然有
+unfortunately like you know you never
+get anything for free so we still have a
+
+294
+00:25:03,460 --> 00:25:15,610
+高T时的问题我们希望在N上做长C的定律是3 KB 
+problem problem at high T we want the
+law of do long Petite C over N is 3 KB
+
+295
+00:25:15,610 --> 00:25:20,500
+我们没有得到在所有温度下都得到T的立方，这就是
+and we didn't get that we got T cubed at
+all temperatures here and this is where
+
+296
+00:25:20,500 --> 00:25:24,340
+ BI不得不稍微挠一下脑袋，然后想我好吗
+the BI had to actually scratch his head
+a little bit and think okay what did I
+
+297
+00:25:24,340 --> 00:25:27,190
+如果您进行此计算，会偶然出错
+do wrong
+incidentally if you do this calculation
+
+298
+00:25:27,190 --> 00:25:32,890
+对于电磁辐射，真的是一直到第四能量的T 
+for electromagnetic radiation it really
+is T to the fourth energy all the way up
+
+299
+00:25:32,890 --> 00:25:37,390
+到任意高温，如您所知，我们知道
+to arbitrarily high temperature where as
+you know in a solid we know that the
+
+300
+00:25:37,390 --> 00:25:40,510
+固体在某些高温下的热容会给我们
+heat capacity of the solid at some high
+temperature is going to give us just
+
+301
+00:25:40,510 --> 00:25:47,260
+三个KB不会被T切丁，所以在这里我们必须偏离塞子
+three KB it's not going to be T cubed so
+here we have to deviate from plunks
+
+302
+00:25:47,260 --> 00:25:51,040
+计算中，我们必须做些不同于那次沉思的事情
+calculation we have to do something
+different from what it was that plunk
+
+303
+00:25:51,040 --> 00:25:57,610
+做到了，然后就明白了他错在哪里
+did and plunk and the by understood that
+where he was going wrong where he was
+
+304
+00:25:57,610 --> 00:26:00,970
+出问题了，您知道他必须考虑这3来自何处
+going wrong you know he has to think
+about where this 3 comes from where is
+
+305
+00:26:00,970 --> 00:26:05,350
+ 3中的3来自原子可以在3中移动的事实
+this 3 from the 3 comes from the fact
+that the atom can move in three
+
+306
+00:26:05,350 --> 00:26:08,950
+每个原子向三个可能方向移动的方向
+directions each atom moves in three
+possible directions you can figure this
+
+307
+00:26:08,950 --> 00:26:14,740
+原子具有的3个自由度以及他有多少个自由度
+3 degrees of freedom that the atom has
+and how many degrees of freedom did he
+
+308
+00:26:14,740 --> 00:26:20,460
+在他的盒子里算好模式总数他算出的模式数
+count in his box well the total number
+of modes number of modes that he counted
+
+309
+00:26:20,460 --> 00:26:26,980
+他的从0到无穷大的积分G Omega D Omega和Omega G都和Omega一样
+his integral from 0 to infinity G Omega
+D Omega and G of Omega goes as Omega
+
+310
+00:26:26,980 --> 00:26:31,460
+平方，您将其集成到其中，并给您无限，所以他
+squared you integrate that into
+and that gives you infinity so he
+
+311
+00:26:31,460 --> 00:26:35,390
+数了无数的自由度，他说好吧，我是
+counted an infinite number of degrees of
+freedom and he said well wait I'm I
+
+312
+00:26:35,390 --> 00:26:38,450
+在盒子里计算了无数种模式，但是有有限数量的
+counted an infinite number of modes in
+the box but there's a finite number of
+
+313
+00:26:38,450 --> 00:26:42,049
+每个原子可以在三个方向上移动的自由度，不应有
+degrees of freedom each atom can move in
+three directions and there shouldn't be
+
+314
+00:26:42,049 --> 00:26:46,160
+盒子里的自由度远不止这些，所以我必须以某种方式解决这个问题
+more than that many degrees of freedom
+in my box so somehow I have to fix that
+
+315
+00:26:46,160 --> 00:26:50,600
+问题，使Box仅具有固定数量的自由度
+problem and make the Box have only a
+fixed number of degrees of freedom not
+
+316
+00:26:50,600 --> 00:26:58,820
+无限的自由度，所以他是怎么做到的
+an infinite number of degrees of freedom
+so how did he do that impose a cutoff so
+
+317
+00:26:58,820 --> 00:27:03,650
+他要做的是宣布一些截止频率的欧米茄
+what he's going to do is he's going to
+declare some frequency cutoff Omega
+
+318
+00:27:03,650 --> 00:27:13,940
+截止G Omega D Omega这样盒子里现在正好有三种n模式
+cutoff G Omega D Omega such that there
+are exactly three n modes in the box now
+
+319
+00:27:13,940 --> 00:27:19,820
+这是一个临时解决方案，有点怪异，所以他正在做的是
+this is an ad-hoc solution and it's kind
+of a little weird so what he's doing is
+
+320
+00:27:19,820 --> 00:27:23,330
+他是说我们将所有这些波动模式都放在一个盒子里，当您到达某个
+he's saying we have all these wave modes
+in a box and when you get to some a
+
+321
+00:27:23,330 --> 00:27:28,040
+称为截止频率的频率，高于该频率就没有波模
+frequency known as the cutoff frequency
+above that there are no more wave modes
+
+322
+00:27:28,040 --> 00:27:32,210
+离开时，您没有声音移动到高于该频率的位置，似乎不再是
+left you have no sound moves above this
+above this frequency anymore seems a
+
+323
+00:27:32,210 --> 00:27:34,910
+学期后期有点奇怪，我们会发现它可能不像
+little strange later in the term we're
+gonna see it's maybe not as strange as
+
+324
+00:27:34,910 --> 00:27:38,750
+我们以为是在那时，也许看起来有些奇怪，但他
+we thought but at then at that time
+maybe it seems a little odd but he's
+
+325
+00:27:38,750 --> 00:27:41,450
+无论如何都会这样做，所以无论如何我们都会跟随他， 
+gonna do it anyway so we're gonna do
+this anyway we're gonna follow him and
+
+326
+00:27:41,450 --> 00:27:45,110
+看看会发生什么我们要做的第一件事就是我们必须弄清楚这是什么
+see what happens first thing we need to
+do is we have to figure out what this
+
+327
+00:27:45,110 --> 00:27:49,820
+截止频率将是这样，它将恰好给我们三个n 
+cutoff frequency is going to be such
+it's going to give us exactly three n
+
+328
+00:27:49,820 --> 00:27:56,210
+模式，所以让我们很好地计算一下这个东西，然后将其插入Omega的G中
+modes so let's calculate this thing well
+plug in G of Omega so plug in G of Omega
+
+329
+00:27:56,210 --> 00:28:03,130
+在这里，有一个9，还有一个欧米茄2，由立方积分0到欧米茄截止
+here so there's a nine and there's Omega
+two by cubed integral 0 to Omega cutoff
+
+330
+00:28:03,130 --> 00:28:08,990
+欧米茄（Omega）平方D欧米茄（Omega），所以我只是在那儿插入了Omega的G，然后开始
+Omega squared D Omega so I just plugged
+in G of Omega there and then let's do
+
+331
+00:28:08,990 --> 00:28:18,200
+该积分，我们得到3，Omega切割成立方体，而Omega Debye切割成立方体，再见
+that integral and we get 3 and Omega cut
+off cubed over Omega Debye cubed goodbye
+
+332
+00:28:18,200 --> 00:28:24,860
+立方，我们希望它等于3 N，为了使它成为真，我们更好
+cubed and we want this to equal 3 N and
+in order for that to be true we better
+
+333
+00:28:24,860 --> 00:28:34,460
+选择欧米茄截止值等于欧米茄2双，这就是为什么我碰巧选择那些
+choose Omega cutoff equal to Omega 2 bi
+okay that's why I happen to choose those
+
+334
+00:28:34,460 --> 00:28:39,799
+如果Omega 2乘以Omega 2，则特定的常数是截止频率，如果
+particular constants as being Omega 2 by
+Omega 2 by is the cutoff frequency if
+
+335
+00:28:39,799 --> 00:28:42,600
+您以德拜频率切断模式
+you cut off your modes at the Debye
+frequency
+
+336
+00:28:42,600 --> 00:28:45,809
+仅计数比您拥有的德拜频率更低的频率的模式
+only count modes at lower frequencies
+than the Debye frequency you have
+
+337
+00:28:45,809 --> 00:28:52,260
+精确的3n模式好吧，所以现在我们要回到这个方程式
+exactly 3n modes okay all right so now
+we're gonna go back to this equation
+
+338
+00:28:52,260 --> 00:28:58,890
+在这里，我们现在将框内的总能量重写为
+over here and we're going to rewrite the
+total energy in the box now as the
+
+339
+00:28:58,890 --> 00:29:05,039
+积分计数模式从无穷大到现在只有Omega D by G 
+integral counting up modes not to
+infinity now up only up to Omega D by G
+
+340
+00:29:05,039 --> 00:29:12,120
+欧米茄，然后是玻色系数βH吧，欧米茄，然后再加上1/2零点
+Omega and then the bose factor beta H
+bar Omega and then plus 1/2 zero-point
+
+341
+00:29:12,120 --> 00:29:17,159
+能量，您会注意到，因为我们已经切断了许多模式
+energy and you'll notice now because
+we've cut off our number of modes this
+
+342
+00:29:17,159 --> 00:29:21,690
+项不再发散，它是一个有限的零点能量项，这使我们
+term no longer diverges it's a finite
+zero-point energy term and that makes us
+
+343
+00:29:21,690 --> 00:29:25,740
+有点快乐，但是我们实际上可以忽略它
+a little bit happier but again we can
+actually ignore it
+
+344
+00:29:25,740 --> 00:29:30,630
+删除它，因为它与温度无关，是温度
+drop this because it's temperature
+independent it's a temperature
+
+345
+00:29:30,630 --> 00:29:34,200
+独立的零点能量，我们还是要区分事物
+independent zero-point energy we're
+going to differentiate the thing anyway
+
+346
+00:29:34,200 --> 00:29:36,659
+所以我们真的不在乎它只是为了给我们一些整体
+so we don't really care about it it's
+just going to give us some overall
+
+347
+00:29:36,659 --> 00:29:40,500
+不断变化的能量不是很有趣，所以我们要
+constant shift and the energy which
+isn't very interesting so we're gonna
+
+348
+00:29:40,500 --> 00:29:45,120
+放下它，然后这个表达应该给我们能量
+drop that anyway ok and then this
+expression should give us the energy in
+
+349
+00:29:45,120 --> 00:29:48,059
+盒子或盒子中的热容量
+the box or the heat capacity in the box
+once we differentiate it at any
+
+350
+00:29:48,059 --> 00:29:51,929
+我们只是通过在此处插入温度来选择温度，但这很有用
+temperature we choose just by plugging
+the temperature in here but it's useful
+
+351
+00:29:51,929 --> 00:29:57,600
+查看各种限制，因此第一个限制是低温限制， 
+to look at various limits so the first
+limit is low temperature limit and by
+
+352
+00:29:57,600 --> 00:30:05,100
+我的意思是说KBT比H-bar Omega Debye少得多，在这个限制下，我们得到了
+that I mean KBT much less than h-bar
+omega Debye and in this limit we get the
+
+353
+00:30:05,100 --> 00:30:10,080
+与之前的结果相同
+same result
+same result as we had before this result
+
+354
+00:30:10,080 --> 00:30:15,419
+正是在这里，这什么都没有改变，为什么那是原因，什么都没有
+here exactly this nothing changes
+why is that well the reason nothing
+
+355
+00:30:15,419 --> 00:30:20,820
+变化是因为在低温下，玻色系数很快消失
+changes is because at low temperature
+this Bose factor vanishes very quickly
+
+356
+00:30:20,820 --> 00:30:25,500
+在您接近Debye频率时的频率Bose系数
+with frequency by the time you're up
+near the Debye frequency the Bose factor
+
+357
+00:30:25,500 --> 00:30:28,679
+基本上是零，所以在Debye切断它并不重要
+is essentially zero anyway so it doesn't
+matter if you cut it off at the Debye
+
+358
+00:30:28,679 --> 00:30:31,980
+频率或分频的两倍或分频的一半
+frequency or twice the divide frequency
+or half the divided frequency the
+
+359
+00:30:31,980 --> 00:30:36,030
+那时那个时候被积数是零，所以你不必担心
+integrand is zero anyway by that time so
+you just you don't have to worry about
+
+360
+00:30:36,030 --> 00:30:39,659
+截止温度在低温下根本没有任何作用，因此您仍然
+the cutoff at all at low temperature the
+cutoff isn't doing anything so you still
+
+361
+00:30:39,659 --> 00:30:45,360
+得到我们想要的T立方热容，但是在高温下
+get the T cubed heat capacity which is
+what we want but at high temperature at
+
+362
+00:30:45,360 --> 00:30:49,830
+高温，我们会有一些不同的感觉，好吧，让我们看一下
+high temperature we have something
+different well okay so let's look at the
+
+363
+00:30:49,830 --> 00:30:55,740
+高温下的玻色系数beta H bar欧米茄很小
+Bose factor at high temperature at high
+temperature beta H bar Omega is a small
+
+364
+00:30:55,740 --> 00:30:58,630
+我们可以扩展指数，所以我们得到
+number
+we can expand the exponential so we get
+
+365
+00:30:58,630 --> 00:31:06,130
+ 1加beta H吧Omega加婴儿床减去1，所以取消的那些使我们比beta H高1 
+1 plus beta H bar Omega plus cot minus 1
+so the ones cancel we get 1 over beta H
+
+366
+00:31:06,130 --> 00:31:14,679
+ bar Omega或我们得到Bo的因数被替换，Bo的KB超过H bar 
+bar Omega or we get the Bo's factor is
+replaced and Bo's becomes KBT over H bar
+
+367
+00:31:14,679 --> 00:31:20,559
+欧米茄，所以如果我们考虑这个Bo因子并将其插入该能量中
+Omega so if we then take this Bo's
+factor and plug it into that energy
+
+368
+00:31:20,559 --> 00:31:26,530
+表达式再次降低零点能量现在能量为整数零
+expression again dropping the zero point
+energy the energy is now integral zero
+
+369
+00:31:26,530 --> 00:31:33,010
+对不起，我要截止到截止日D Omega G Omega然后我们有H 
+to sorry to I'll make it to by up to the
+cutoff D Omega G Omega then we have H
+
+370
+00:31:33,010 --> 00:31:38,409
+ bar Omega，然后我们得到的Bose系数是H bar Omega的KBT 
+bar Omega and then we have the bose
+factor which is KBT over H bar Omega the
+
+371
+00:31:38,409 --> 00:31:44,159
+ H bar欧米茄（Omega）被取消，我们通过拉出KBT获得能量
+H bar Omega is cancel and we get the
+energy being given by pull out the KBT
+
+372
+00:31:44,159 --> 00:31:52,630
+ D Omega G Omega对Omega D的积分是0，这里的积分是
+and integral 0 to Omega D by D Omega G
+Omega and this integral here has been
+
+373
+00:31:52,630 --> 00:32:01,240
+设计为正好为3 n，所以我们得到的能量为3，KBT 
+designed to give us exactly 3 n so we
+get the energy in the box is 3 and KBT
+
+374
+00:32:01,240 --> 00:32:10,960
+或热容量为3 km KB 
+or the heat capacity is 3 km KB the law
+of do long petite so by implementing
+
+375
+00:32:10,960 --> 00:32:16,179
+这个截止德拜设法获得负载温度热容为T 
+this cutoff Debye managed to get the
+loads temperatures heat capacity is T
+
+376
+00:32:16,179 --> 00:32:20,890
+立方高温热容仍是做长娇小法则
+cubed the high temperature heat capacity
+is still the law of do long petite so
+
+377
+00:32:20,890 --> 00:32:28,570
+很好，让我们看一些实际数据，这就是热量
+that's pretty good let's look at some
+actual data so this is the heat capacity
+
+378
+00:32:28,570 --> 00:32:32,530
+在很宽的温度范围内以及高温下的银
+of silver over a broad range of
+temperature and up at high temperature
+
+379
+00:32:32,530 --> 00:32:37,960
+您会发现这符合长时间做娇小且低温的定律
+you see it's it's converging to the law
+of do long petite and at low temperature
+
+380
+00:32:37,960 --> 00:32:43,720
+它大约是T立方体，德拜理论与实验相符
+it's roughly T cubed and the Debye
+Theory agrees with the experiment
+
+381
+00:32:43,720 --> 00:32:47,500
+非常非常好，您可以在同一地块的同一幅画上看到
+extremely extremely well you can see on
+the same on the same plot there's the
+
+382
+00:32:47,500 --> 00:32:51,190
+爱因斯坦理论非常适合，但不如
+Einstein theory which fits pretty good
+but not quite as well as to by
+
+383
+00:32:51,190 --> 00:32:55,450
+特别是在低温下，但在其他方面确实很重要
+particularly at low temperature and but
+on additional really important
+
+384
+00:32:55,450 --> 00:33:00,580
+从爱因斯坦到迪拜的改进是，德拜没有免费参数
+improvement from Einstein to Dubai is
+that Debye has no free parameters then
+
+385
+00:33:00,580 --> 00:33:04,510
+在德拜理论中，一切都是通过声速来固定的
+everything is fixed in the Debye theory
+by just the velocity of sound in the
+
+386
+00:33:04,510 --> 00:33:08,200
+密度，所以不知道你不能乱扔东西，你不能调整它
+density so there's no knowing you can't
+muck around you can't adjust things it
+
+387
+00:33:08,200 --> 00:33:12,670
+只是适合自己，所以这是一个真正的结果，似乎非常同意
+just fits by itself so it's a really
+result and seems to agree extremely well
+
+388
+00:33:12,670 --> 00:33:18,970
+通过实验，但我们仍然遇到问题，仍然是错误的或仍然可以
+with the experiment but we still have
+problems still wrong or still well okay
+
+389
+00:33:18,970 --> 00:33:26,470
+仍然错误的一件事是截断实际上是临时的临时特别是我们
+things that are still wrong one is the
+cutoff is really ad hoc cutoff ad hoc we
+
+390
+00:33:26,470 --> 00:33:31,480
+只是弥补了这一点，我的意思是这是有动机的， 
+just sort of made this up I mean it was
+a motivated it was a motivated thing to
+
+391
+00:33:31,480 --> 00:33:34,630
+这是一件很明智的事情，但我们没有做到这一点
+do it was an intelligent thing to do but
+we didn't it wasn't really justified
+
+392
+00:33:34,630 --> 00:33:42,880
+另一件事是错误的是我们使用与波成比例的Omega 
+another thing that's kind of wrong is
+that we used Omega proportional to wave
+
+393
+00:33:42,880 --> 00:33:48,550
+向量声音定律这里的频率将与波向量成比例，但是
+vector the sound law here the frequency
+will be proportional to wave vector but
+
+394
+00:33:48,550 --> 00:33:53,890
+我们在高K下使用它，这不是真的
+we use this at high K and that's not
+true
+
+395
+00:33:53,890 --> 00:33:58,470
+声音很小K到很小的时候就会出现长波长现象
+sound is a small K a long wavelength
+phenomenon when you go to very small
+
+396
+00:33:58,470 --> 00:34:04,090
+波长或非常高的波矢，这不再是真的，所以这很合理
+wavelengths or very high wave vector
+this is no longer true so this was sort
+
+397
+00:34:04,090 --> 00:34:07,630
+一个问题，我们在地毯下刷了什么，顺便说一句
+of a problem that we brushed under the
+rug and what and incidentally the the
+
+398
+00:34:07,630 --> 00:34:11,168
+当您在Debye频率附近起床时，我们正在谈论的波长
+wavelengths we're talking about when you
+get up near the Debye frequency the
+
+399
+00:34:11,168 --> 00:34:14,139
+波长接近原子间的间距，所以我们在谈论
+wavelengths are close to the inter
+atomic spacing so we're talking about
+
+400
+00:34:14,139 --> 00:34:17,739
+非常小的波长或非常高的波矢，我们不能
+really really small wavelengths or
+really high wave vectors and we can't
+
+401
+00:34:17,739 --> 00:34:22,209
+真的再考虑那种情况下的声音，所以这是一个问题
+
+402
+00:34:22,210 --> 00:34:28,480
+在地毯下刷另一件事是，德拜是不正确的，这是不正确的
+brushed under the rug another thing is
+that Debye is not exact it's not exact
+
+403
+00:34:28,480 --> 00:34:33,460
+对于任何材料，虽然从该图可以明显看出它非常好， 
+for any material although it's pretty
+good as is obvious from that plot and
+
+404
+00:34:33,460 --> 00:34:41,649
+第三或第四种金属是不同的金属对于我们的金属也是不同的
+third or fourth metals are different
+metals are different well for metals we
+
+405
+00:34:41,649 --> 00:34:52,050
+正如我上次提到的，金属具有低温比热C 
+have for metals as I mentioned last time
+we have low temperature specific heat C
+
+406
+00:34:52,050 --> 00:34:59,890
+正比于立方的alpha t加gamma T，其中debye预测了alpha，因此
+proportional to alpha t cubed plus gamma
+T where alpha is predicted by Debye so
+
+407
+00:34:59,890 --> 00:35:03,670
+如果您进行了德拜理论，则系数α正确，但是
+if you did the Debye Theory you would
+get the coefficient alpha correct but
+
+408
+00:35:03,670 --> 00:35:07,120
+您根本不会得到伽马，所以这只是一个大问题，我们现在不
+you wouldn't get gamma at all so this is
+just a big question right now we don't
+
+409
+00:35:07,120 --> 00:35:12,400
+知道那是哪里来的，所以我们必须弄清楚
+know where that's where that's coming
+from so we have to figure that out and
+
+410
+00:35:12,400 --> 00:35:16,810
+在几节课中，我们将很好地知道这是从哪里来的，但是对于
+in a few lectures time we'll have a good
+idea where that's coming from but for
+
+411
+00:35:16,810 --> 00:35:21,220
+现在，这可能是个谜，您现在可以对我说，但请稍候
+now it's it's a bit of a mystery now you
+might say to me at this point but wait a
+
+412
+00:35:21,220 --> 00:35:23,990
+第二不是银不应该是金属
+second isn't silver a metal shouldn't I
+see
+
+413
+00:35:23,990 --> 00:35:28,400
+低温下的线性热容确实银是金属， 
+a linear heat capacity at low
+temperature indeed silver is a metal and
+
+414
+00:35:28,400 --> 00:35:32,180
+您应该会在低温下看到线性热容量，但必须注意
+you should see a linear heat capacity at
+low temperature but you have to look at
+
+415
+00:35:32,180 --> 00:35:36,520
+很难看到它，所以它被炸得非常低
+it pretty hard to see it so this is
+blown up the very very low temperature
+
+416
+00:35:36,520 --> 00:35:41,600
+一二四或五开尔文或类似一二的政权
+regime sort of one two four or five
+Kelvin or something like that one two
+
+417
+00:35:41,600 --> 00:35:45,110
+你知道凯尔文（Kelvin）我猜，这里绘制的是热容
+you know for Kelvin I guess and what's
+plotted here is the heat capacity
+
+418
+00:35:45,110 --> 00:35:49,400
+除以温度作为温度平方的函数，如果是
+divided by the temperature as a function
+of temperature squared if it was a
+
+419
+00:35:49,400 --> 00:35:54,619
+纯净立方定律，那么这条线将是一条直线并且将相交
+purity cube law then this line would be
+a straight line and it would intersect
+
+420
+00:35:54,619 --> 00:35:59,810
+零它显然不相交零它与有限截距相交
+zero it obviously doesn't intersect zero
+it intersects a finite intercept which
+
+421
+00:35:59,810 --> 00:36:04,610
+实际上是伽玛，所以有一个非常小的术语伽玛这个术语是
+is in fact gamma so there's a very very
+small term gamma this term gamma is
+
+422
+00:36:04,610 --> 00:36:08,330
+很小，但显然必须仔细测量才能看到
+pretty small but it's clearly there you
+have to measure pretty carefully to see
+
+423
+00:36:08,330 --> 00:36:16,070
+它，但是没关系，所以在这一点上，我们已经说完了
+it but it's there okay all right so at
+this point we're sort of done talking
+
+424
+00:36:16,070 --> 00:36:19,190
+关于固体的振动一会儿，我们稍后再回来讨论
+about vibrations in solids for a little
+while we'll come back to them later in
+
+425
+00:36:19,190 --> 00:36:22,250
+当我们尝试更好地理解这些术语时
+the term when we do a little bit of a
+better job trying to understand these
+
+426
+00:36:22,250 --> 00:36:27,320
+事情，但是现在我们把它放在一边，我们将要换档
+things but for now we've putting this
+aside and we're going to switch gears
+
+427
+00:36:27,320 --> 00:36:31,490
+然后开始谈论金属，因为金属在以下方面明显不同
+and start talking about metals because
+metals are obviously different in
+
+428
+00:36:31,490 --> 00:36:34,640
+这是一种与众不同但又与众不同的方式
+several ways this is one way that
+they're different but they're different
+
+429
+00:36:34,640 --> 00:36:38,480
+还有很多其他方式，这就是众所周知的
+in many other ways as well and this is
+something that was this was known to
+
+430
+00:36:38,480 --> 00:36:42,710
+古代人都知道，甚至您可能在穴居人时代就知道了
+known to the ancients even you know
+probably in caveman days they they knew
+
+431
+00:36:42,710 --> 00:36:44,930
+他们发现在地面上发现的一些材料
+that there were some materials they
+found on the ground that just looked
+
+432
+00:36:44,930 --> 00:36:48,680
+与其他材料不同，到公元前4000年， 
+different from other materials and by
+4000 BC people were able to work with
+
+433
+00:36:48,680 --> 00:36:52,369
+某些金属之类的东西，例如铜，然后几千年后
+certain metals things like like copper
+and then a couple thousand years later
+
+434
+00:36:52,369 --> 00:36:55,400
+他们能够使用铁，每次能够指挥
+they were able to work with iron and
+each time they were able to command a
+
+435
+00:36:55,400 --> 00:36:58,910
+特殊的金属并与之合作，他们能够使新事物做新
+particular metal and work with it they
+were able to make new things do new
+
+436
+00:36:58,910 --> 00:37:03,680
+使用新技术并真正改变人类的历史，因此您
+devices new technologies and really
+change the history of humankind so you
+
+437
+00:37:03,680 --> 00:37:08,630
+知道从金属犁开始金属剑金属盔甲金属战
+know starting with metal plows metal
+swords metal armor metal warfare of all
+
+438
+00:37:08,630 --> 00:37:13,520
+然后在金属机器上进行排序，您就会拥有金属摩天大楼， 
+sorts then later on metal machines you
+have metal skyscrapers you know the
+
+439
+00:37:13,520 --> 00:37:18,050
+核时代是由重金属和重金属音乐带来的
+nuclear age was brought in by you know
+heavy metals and heavy metal music very
+
+440
+00:37:18,050 --> 00:37:21,740
+也很重要，但您知道金属的历史
+important also
+but metals you know the history of
+
+441
+00:37:21,740 --> 00:37:27,859
+金属以某种方式追溯了人类的历史，您知道直到
+metals in some way traces the history of
+mankind and you know it wasn't until
+
+442
+00:37:27,859 --> 00:37:32,300
+确实在1800年代后期，有人最遥远的主意是什么导致金属
+really the late 1800s that anyone had
+the remotest idea what causes metals to
+
+443
+00:37:32,300 --> 00:37:37,490
+与众不同，在2000年代之前，我们才真正了解
+be different and really in 2000's before
+we really understood the properties of
+
+444
+00:37:37,490 --> 00:37:39,710
+重要的是，您必须记住您对我们了解
+matter
+you have to remember you know for us the
+
+445
+00:37:39,710 --> 00:37:43,250
+金属的定义属性将是导电
+the defining property of a metal is
+going to be that it conducts electricity
+
+446
+00:37:43,250 --> 00:37:48,440
+非金属则不知道，但我们什至不知道什么是电
+and nonmetals don't but we didn't even
+know what what electricity was until the
+
+447
+00:37:48,440 --> 00:37:53,570
+ 1800年代末，JJ汤普森（JJ Thompson）发现电子或
+late 1800s it was 1897 before JJ
+Thompson discovered the electron or what
+
+448
+00:37:53,570 --> 00:37:57,980
+他称那小小的电荷小球可以在
+he called the small corpuscle of charge
+that can move around freely in the
+
+449
+00:37:57,980 --> 00:38:03,500
+金属，并可能通过足够高的电压从金属中弹出，并且
+metals and could be ejected out of the
+metal by a sufficiently high voltage and
+
+450
+00:38:03,500 --> 00:38:07,940
+这张金属的照片实际上是所有这些的容器
+with this picture of the metal really
+being sort of a container for all these
+
+451
+00:38:07,940 --> 00:38:12,260
+电子在周围跑来跑去成为人们的自然选择
+electrons running around there became a
+natural thing for people to do which was
+
+452
+00:38:12,260 --> 00:38:16,400
+考虑将这些电子作为一种气体围绕着电子而流动
+to consider these electrons running
+around as a gas a gas of electrons and
+
+453
+00:38:16,400 --> 00:38:23,690
+这就是保罗·德鲁德（Paul drew de）做的，被称为德鲁德（Drude）一种金属金属理论
+this is what Paul drew de did was known
+as Drude a theory of metals of metals
+
+454
+00:38:23,690 --> 00:38:27,440
+ Arjuna的运输理论适用于金属，实际上特别是
+well Arjuna theory of transport applies
+to metals and it's actually particularly
+
+455
+00:38:27,440 --> 00:38:33,670
+很好，它起作用了，这引起了理论，这是一个非常粗糙的经典动力学理论
+good it works this drew the theory it's
+a very crude classical kinetic theory
+
+456
+00:38:33,670 --> 00:38:41,780
+电子的电子动力学原理与电子的电子动力学原理非常相似
+kinetic theory of electrons of electrons
+very much like the kinetic theory of
+
+457
+00:38:41,780 --> 00:38:46,580
+您去年在热物理课程中研究的气体有效
+gases that you studied last year in your
+thermal physics course it works
+
+458
+00:38:46,580 --> 00:38:49,940
+尽管它非常粗糙，但效果非常好
+extremely well despite the fact that
+it's very crude it works extremely well
+
+459
+00:38:49,940 --> 00:38:53,900
+在很多方面对半导体特别有利，所以我们将
+for a lot of things particularly well
+for semiconductors and so we're going to
+
+460
+00:38:53,900 --> 00:39:00,260
+首先使用这种美容理论攻击您知道金属中的电子传输
+attack you know electron transport in in
+metals using this beauty Theory first
+
+461
+00:39:00,260 --> 00:39:06,740
+然后我们会在以后进行改进，例如您去年的动力学理论
+and then we'll improve on it later so as
+with your last year's kinetic theory we
+
+462
+00:39:06,740 --> 00:39:13,310
+为了使动力学理论可行，有两个假设
+have a couple of assumptions assume in
+order to get kinetic theory going one
+
+463
+00:39:13,310 --> 00:39:21,740
+从头到尾都有一个散射时间tau应该看起来很熟悉
+there's a scattering time scattering
+time tau should look familiar from last
+
+464
+00:39:21,740 --> 00:39:26,120
+的年份，我们的意思是
+year by which we mean that the
+probability of scattering probability of
+
+465
+00:39:26,120 --> 00:39:37,070
+时间T或时间DT上的scat等于tau上的DT 
+scat in time T or in time DT is equal to
+DT over tau now this probably looks
+
+466
+00:39:37,070 --> 00:39:41,270
+从去年开始熟悉气体动力学理论以来，我们
+familiar from last year when you did
+kinetic theory of gases last year we
+
+467
+00:39:41,270 --> 00:39:45,080
+需要连接它们的气体，您甚至可以预测散射时间tau是多少
+need to connect their gases you can even
+predict what the scattering time tau is
+
+468
+00:39:45,080 --> 00:39:48,500
+根据原子的大小以及它们移动的速度以及类似的东西
+based on the size of the atoms and how
+fast they're moving and things like that
+
+469
+00:39:48,500 --> 00:39:53,339
+首先，由于几个原因，今年我们不会那么幸运
+this year we're not going to be so lucky
+for a couple reasons first of all it
+
+470
+00:39:53,339 --> 00:39:56,339
+不清楚电子的散射截面应该是多少
+isn't clear what the scattering
+cross-section of the electron should be
+
+471
+00:39:56,339 --> 00:39:59,339
+因为电子通过远距离库仑与事物相互作用
+because the electrons interact with
+things via long-range Coulomb
+
+472
+00:39:59,339 --> 00:40:02,190
+互动，使他们可以从很远的地方分散开来
+interaction so they could they could
+scatter from things very far away
+
+473
+00:40:02,190 --> 00:40:05,819
+可能会导致很难弄清楚是什么的另一件事
+potentially another thing that's going
+to make it difficult to figure out what
+
+474
+00:40:05,819 --> 00:40:09,450
+ tau的意思是电子除了可以散布其他很多东西
+tau is is that the electron can scatter
+off of lots of other things besides just
+
+475
+00:40:09,450 --> 00:40:13,109
+它们可以从质子中散射出来的其他电子，也可以从杂质中散射出来
+other electrons they can scatter off of
+protons it can scatter off of impurities
+
+476
+00:40:13,109 --> 00:40:17,609
+它可以散布在金属中的任何东西，所以对我们来说
+it can scatter off of anything in it
+happens to be in the metal so for us
+
+477
+00:40:17,609 --> 00:40:22,380
+这个散射时间tau只是一个现象学参数， 
+this scattering time tau is just gonna
+be a phenomenological parameter the
+
+478
+00:40:22,380 --> 00:40:27,509
+我们要假设的第二件事是在散射之后
+second thing we're going to assume is
+after scattering after a scattering
+
+479
+00:40:27,509 --> 00:40:35,309
+分散后的事件，我们会将最终动量设置为零，因此您
+event after scatter we will set the
+final momentum equal to zero so you
+
+480
+00:40:35,309 --> 00:40:38,789
+想像一下，您知道某事沿其移动，然后散布
+imagine something you know something
+moving along it scatters and then its
+
+481
+00:40:38,789 --> 00:40:41,309
+最终动量为零，现在不正确
+final momentum is zero now that's not
+right
+
+482
+00:40:41,309 --> 00:40:44,940
+通常，当某物散布时，其最终动量在某些情况下会随机消失
+generally when something scatters its
+final momentum goes off randomly in some
+
+483
+00:40:44,940 --> 00:40:50,609
+随机方向，但作为矢量的平均值
+random direction but on average as a
+vector the average of the vector after
+
+484
+00:40:50,609 --> 00:40:54,029
+散射几乎接近零，因为它可能会消失
+the scattering is pretty close to zero
+because it can go off in any possible
+
+485
+00:40:54,029 --> 00:40:57,569
+方向，这将足以使我们能够做出
+direction and that's going to be good
+enough for us to be able to make
+
+486
+00:40:57,569 --> 00:41:02,609
+进展您去年可能没有的第三点是
+progress the Third Point which you
+probably didn't have last year is that
+
+487
+00:41:02,609 --> 00:41:13,940
+电子之间的散射之间的散射事件之间应看到E 
+between scattering events between
+scatters the electron should see sees E
+
+488
+00:41:13,940 --> 00:41:19,890
+和B场（如果它们恰好在那），所以如果您要施加电场
+and B field if they happen to be there
+so if you're applying an electric field
+
+489
+00:41:19,890 --> 00:41:23,009
+电子会由于电场而加速到您的金属或
+to your metal the electron will
+accelerate due to the electric field or
+
+490
+00:41:23,009 --> 00:41:26,700
+它会由于似乎很自然的磁场而弯曲，就像
+it will curve due to the magnetic field
+which seems rather natural just like the
+
+491
+00:41:26,700 --> 00:41:33,059
+电子，我们生活在真空中，所以考虑到这三个假设，我们可以
+electron we're living in a vacuum okay
+so given these three assumptions we can
+
+492
+00:41:33,059 --> 00:41:38,549
+想象我们从在时间T具有动量P的电子开始，所以T为P 
+imagine that we start with an electron
+that has momentum P at time T so P of T
+
+493
+00:41:38,549 --> 00:41:46,890
+动量很好，在时间T时间T很明显，然后我们想
+is momentum well okay that's obvious at
+time T time T and then we'd like to
+
+494
+00:41:46,890 --> 00:41:53,190
+计算在时间T和DT时的动量是什么意思
+calculate what is the momentum at time T
+plus DT I mean in some ways we're asking
+
+495
+00:41:53,190 --> 00:41:57,779
+在T加上DT时对动量的期望是什么，但我们将其视为
+what the expectation of the momentum at
+time T plus DT but we'll treat it as the
+
+496
+00:41:57,779 --> 00:42:03,509
+在时间T和DT时的实际动量
+actual momentum at time T plus DT well
+there's two things that can happen in
+
+497
+00:42:03,509 --> 00:42:08,310
+在时间T时间T加DT之间，可能约为负1 
+between time T
+time T plus DT with probably one minus
+
+498
+00:42:08,310 --> 00:42:13,830
+ DT超过tau的概率，这是不散射概率的概率
+DT over tau this is the probability this
+is probability of not scattering prob of
+
+499
+00:42:13,830 --> 00:42:20,100
+不分散如果不分散，就不分散，然后发生什么好
+not scattering not scattering if it does
+not scatter then what happens well then
+
+500
+00:42:20,100 --> 00:42:26,040
+它具有区域动量加上对其施加的力乘以DT和
+it has a regional momentum plus whatever
+force is applied to it times DT and
+
+501
+00:42:26,040 --> 00:42:32,730
+没关系，这就是说DP DT（如果不分散）是F 
+that's just okay this is just saying
+that DP DT if it doesn't scatter is F
+
+502
+00:42:32,730 --> 00:42:40,770
+牛顿定律很好，但除此之外， 
+Newton's law good but in addition to
+this there's also the probability a
+
+503
+00:42:40,770 --> 00:42:45,870
+ DT相对于T的分散概率，如果分散，我们给出
+probability DT over T that it does
+scatter and if it does scatter we give
+
+504
+00:42:45,870 --> 00:42:52,440
+动量为零，所以这是不分散它的可能性
+it momentum zero okay so this is a
+probability of not scattering it
+
+505
+00:42:52,440 --> 00:42:56,850
+由于施加在其上的力，其照常加速，如果它确实散开，我们
+accelerates as usual due to the force
+applied to it and if it does scatter we
+
+506
+00:42:56,850 --> 00:43:00,990
+散射好之后，将其动量设为零，那么我们可以做一点
+give it momentum zero at after the
+scattering okay then we can do a little
+
+507
+00:43:00,990 --> 00:43:04,740
+稍微重新排列一下，实际上也许我们先将其相乘
+bit of rearrangement here well actually
+maybe let's multiply this out first so
+
+508
+00:43:04,740 --> 00:43:17,970
+这是T的P加F DT减去tau上的P，然后是DT，然后
+this is then P of T plus F DT minus P
+over tau and then there's DT and then
+
+509
+00:43:17,970 --> 00:43:23,490
+有加号DT的平方，加上一些重新排列，我们可以写
+there's plus order DT squared and with a
+little bit of rearrangement we can write
+
+510
+00:43:23,490 --> 00:43:38,010
+ DP DT应该是T处的P + DT减去DT上的T的P，如果我对我大吼
+DP DT which should be P at T plus DT
+minus P of T over DT yell at me if I
+
+511
+00:43:38,010 --> 00:43:41,730
+开始难以理解的写作，你知道它是否真的太痛苦了
+start writing incomprehensibly
+you know if it really gets too painful
+
+512
+00:43:41,730 --> 00:43:45,240
+只是对那边的方程式进行了一些重排
+and just doing a little bit of a
+rearrangement on that equation up there
+
+513
+00:43:45,240 --> 00:43:52,350
+并将这个组合放在一起，我们得到F但在tau上减去P，所以让我
+and putting together this combination we
+get F but minus P over tau so let me
+
+514
+00:43:52,350 --> 00:43:59,040
+重写它，因为这是一个重要的方程DP DT等于力
+rewrite this because this is an
+important equation DP DT equals force
+
+515
+00:43:59,040 --> 00:44:08,070
+在tau上减去T，这就是juda传输方程，以及什么力
+minus T over tau this is known as the
+juda transport equation and what force
+
+516
+00:44:08,070 --> 00:44:11,970
+你应该很好地使用它的力量是通常的洛伦兹力量吗
+are you supposed to use in it well the
+force is the usual Lorentz force force
+
+517
+00:44:11,970 --> 00:44:19,600
+是负e e加V叉B，所以无论用什么力
+is a minus e
+e plus V cross B so whatever force the
+
+518
+00:44:19,600 --> 00:44:24,760
+电子感觉进入那个方程，所以看起来很像
+electron feels goes into that that
+equation so this looks a lot like
+
+519
+00:44:24,760 --> 00:44:28,300
+ DP DT中的牛顿方程等于F是牛顿方程，但我们有
+Newton's equation in DP DT equals F is
+Newton's equation but we have this
+
+520
+00:44:28,300 --> 00:44:32,680
+右边的附加术语，看起来像是阻力，是
+additional term on the right hand side
+which looks like a drag force it's a
+
+521
+00:44:32,680 --> 00:44:36,850
+与当前动量相反的力
+force going in the opposite direction
+from its current momentum so whichever
+
+522
+00:44:36,850 --> 00:44:40,150
+方向，力朝相反的方向拉，所以
+direction it's going the force is
+pulling in the opposite direction so
+
+523
+00:44:40,150 --> 00:44:45,160
+让我们实际上在这里做一个非常快速的计算让我们考虑一下
+let's actually do a really quick
+calculation here let's consider consider
+
+524
+00:44:45,160 --> 00:44:52,930
+在系统中没有电场或磁场的情况下， 
+the case where there's no no electric or
+magnetic fields in your system so you're
+
+525
+00:44:52,930 --> 00:44:59,250
+不施加任何电场或磁场，则DP DT为负
+not applying any electric or magnetic
+field then you just have DP DT is minus
+
+526
+00:44:59,250 --> 00:45:06,760
+ P over tau可以解决，方法是说T的P是一些花生
+P over tau which you can solve by saying
+P of T is some peanuts some initial
+
+527
+00:45:06,760 --> 00:45:13,900
+动量e减去tau的负T，所以告诉我们，如果我
+momentum e to the minus T over tau so
+that tells us that the momentum if I
+
+528
+00:45:13,900 --> 00:45:17,980
+有一个电子和一些初始动量一起运动，这个散射项
+have an electron moving along with some
+initial momentum this scattering term
+
+529
+00:45:17,980 --> 00:45:25,210
+在这里，它随着时间刻度tau呈指数下降到零动量，所以它是
+here slows it down exponentially to zero
+momentum with a time scale tau so it's
+
+530
+00:45:25,210 --> 00:45:29,560
+就像是阻力，所以理论上的直觉想法是您对待散射
+like a drag so that the idea of the dru
+to theory is that you treat scattering
+
+531
+00:45:29,560 --> 00:45:33,520
+作为拖延力量，试图减慢一切或阻碍一切
+as a drag force that tries to slow
+everything down or hinder it's it's
+
+532
+00:45:33,520 --> 00:45:36,550
+运动，我想我们会停在那儿，然后我们将撤回理论
+motion and I guess we will stop there
+and we'll pick up withdrew the theory
+
+533
+00:45:36,550 --> 00:45:40,080
+下次我明天见
+next time I'll see you tomorrow
+
+534
+00:45:40,150 --> 00:45:46,289
+ [掌声] 
+[Applause]
+

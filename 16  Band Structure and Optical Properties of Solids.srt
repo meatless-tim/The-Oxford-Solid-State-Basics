@@ -1,0 +1,3747 @@
+1
+00:00:00,460 --> 00:00:06,550
+欢迎回来，现在是上届凝聚态课程的第16讲
+welcome back it's now the 16th lecture
+of the condensed matter course when last
+
+2
+00:00:06,550 --> 00:00:11,169
+我们不再讨论固体的能带结构，特别是
+we left off we were talking about band
+structure of solids and in particular we
+
+3
+00:00:11,169 --> 00:00:14,589
+正在考虑将近自由电子模型作为一种理解方法
+were thinking about the nearly free
+electron model as a way of understanding
+
+4
+00:00:14,589 --> 00:00:19,660
+乐队结构总结了我们学到的最重要的东西
+the band structure a summary of the most
+important things we learned is really
+
+5
+00:00:19,660 --> 00:00:26,199
+这张图片给出的这里，所以你有自由电子抛物线
+given by this one picture here so you
+have the free electron parabola and due
+
+6
+00:00:26,199 --> 00:00:29,829
+到周期性的潜能，您可以从布劳恩自身的边界散布到
+to the periodic potential you can
+scatter from Braun's own boundary to
+
+7
+00:00:29,829 --> 00:00:33,700
+ Burroughs自己的边界，您可以在Brauns自己的边界上打开一个空隙
+Burroughs own boundary and you open up a
+gap at the Brauns own boundary you can
+
+8
+00:00:33,700 --> 00:00:38,560
+如果您现在喜欢一件事，也可以在缩小区域方案中查看它
+also view it in reduced zone scheme if
+you prefer now one thing that's really
+
+9
+00:00:38,560 --> 00:00:43,270
+在这张图片中重要的是要意识到处于扩展状态的状态
+important in this picture is to realize
+that states that are in the extended
+
+10
+00:00:43,270 --> 00:00:48,340
+在第一个青铜器内部的区域方案状态被下推，而
+zone scheme states that are inside the
+first bronze own are pushed down whereas
+
+11
+00:00:48,340 --> 00:00:52,930
+第一个铜牌之外的州被推高，所以也许我会写
+states that are outside the first bronze
+own are pushed up so maybe I'll write
+
+12
+00:00:52,930 --> 00:01:03,720
+通常在BZ边界内的状态
+that generally States
+inside inside BZ boundary BZ boundary
+
+13
+00:01:04,739 --> 00:01:18,190
+下推式推杆和外推式推杆，外推式推杆，离您越近
+pushdown and outside are pushed up
+outside pushed up and the closer you are
+
+14
+00:01:18,190 --> 00:01:21,760
+到边界上的青铜，您的能量从自由变为更多
+to the bronze on boundary the more your
+energy has changed from the free
+
+15
+00:01:21,760 --> 00:01:25,690
+电子模型，所以让我们看看是否可以采用此原理并了解
+electron model so let's see if we can
+take this principle and understand what
+
+16
+00:01:25,690 --> 00:01:30,310
+当我们使用更高的尺寸时，会发生在各种费米表面上
+happens to various Fermi surfaces when
+we go to higher dimensions so let's
+
+17
+00:01:30,310 --> 00:01:35,790
+考虑二维正方形格
+consider two dimensions a square lattice
+
+18
+00:01:37,260 --> 00:01:42,909
+所以我们有一个正方形的青铜色自己的正方形熊，我会画一个正方形的青铜色自己的
+so we have a square bronze own square
+Bruins own I'll draw a square bronze own
+
+19
+00:01:42,909 --> 00:01:49,390
+这里是平方K等于零在中间这一点是PI 
+here it is square K equals zero is in
+the middle this point over here is PI
+
+20
+00:01:49,390 --> 00:01:56,500
+在拐角处的PI上方，让我们首先考虑一个电子的情况
+over a PI over a at the corner and let's
+consider first the case of one electron
+
+21
+00:01:56,500 --> 00:02:03,340
+每个晶胞，所以这意味着我们应该有一个一半充满青铜自己的一半
+per unit cell so that means we should
+have a one half filled bronze own half
+
+22
+00:02:03,340 --> 00:02:08,229
+充满路易斯的乐队或一半充满青铜的乐队，所以在
+filled Louis band or a half filled
+bronze own so what happens well in the
+
+23
+00:02:08,229 --> 00:02:13,459
+没有散​​射的潜力，你只有一个不错的费米圆环或费米
+absence of scattering potential you just
+have a nice Fermi Circle or Fermi
+
+24
+00:02:13,459 --> 00:02:18,170
+对我来说，在两个维度上都是长矛，我猜它是光盘
+for me spear on two dimensions it's a
+disc I guess and this is actually a
+
+25
+00:02:18,170 --> 00:02:23,659
+相当好地表示了许多具有一个的单价材料
+fairly good representation of many mono
+valent materials materials that have one
+
+26
+00:02:23,659 --> 00:02:27,890
+每个晶胞中的电子，例如钠，所以这里是二维
+electron per unit cell for example
+sodium so here's the 2 dimensional
+
+27
+00:02:27,890 --> 00:02:33,349
+模拟，您只有一块磁盘，正好填满青铜面积的一半
+analog you just have a disk filling
+exactly half of the area of the bronze
+
+28
+00:02:33,349 --> 00:02:37,579
+自己的，所以这个圈子应该恰好感觉到那个区域的一半
+own so this circle is supposed to feel
+exactly half of the area of of that
+
+29
+00:02:37,579 --> 00:02:44,780
+方形钠是一种BCC材料，因此它是青铜色的，是这种有趣的有线形状
+square sodium is a BCC material so it's
+bronze own is this funny wired shape
+
+30
+00:02:44,780 --> 00:02:52,310
+它是树干菱形十二面体或类似的形状，但是
+it's a trunk rhombohedral dodecahedron
+or some strange shape like that but
+
+31
+00:02:52,310 --> 00:02:57,079
+里面感觉正好是体积的一半是球形费米表面
+inside it feeling exactly half of the
+volume is a spherical Fermi surface
+
+32
+00:02:57,079 --> 00:03:02,060
+告诉我们钠几乎是一个自由电子系统，因为它是费米
+which tells us that sodium is nearly a
+free electron system because it's Fermi
+
+33
+00:03:02,060 --> 00:03:07,400
+现在，表面几乎是完美的球形当我们添加更强的表面时会发生什么
+surface is almost perfectly spherical
+now what happens when we add a stronger
+
+34
+00:03:07,400 --> 00:03:11,629
+周期性势，我们让周期性势开始移动
+periodic potential where we let the
+periodic potential start moving around
+
+35
+00:03:11,629 --> 00:03:16,370
+青铜器中某些州的能量本身很好
+the energy of certain states in the
+bronz own well what happens is the
+
+36
+00:03:16,370 --> 00:03:19,879
+在青铜自己的边界附近但青铜自己的边界内的状态得到
+states near the bronze own boundary but
+inside the bronze own boundary get
+
+37
+00:03:19,879 --> 00:03:23,150
+降低能量和最接近棕色区域的状态
+pushed down in energy and the states
+that are closest to the brown zone
+
+38
+00:03:23,150 --> 00:03:29,150
+边界被压得最大，所以如果您考虑这里的状态，这是
+boundary get pushed down the most so if
+you consider a state around here this is
+
+39
+00:03:29,150 --> 00:03:32,930
+非常接近青铜的边界，所以能量被降低了
+pretty close to the bronze own boundary
+so it's energy is getting pushed down
+
+40
+00:03:32,930 --> 00:03:37,549
+比这里的状态更多，其能量因此减少得更少
+more than this state here whose energy
+is getting pushed down less as a result
+
+41
+00:03:37,549 --> 00:03:42,259
+费米表面要变形，以至于周围有更多状态
+the Fermi surface wants to deform in
+such a way that more states around here
+
+42
+00:03:42,259 --> 00:03:48,079
+将要填充，所以它会像这样变形，使得更多的状态
+are going to fill so it's gonna sort of
+deform like this such that more states
+
+43
+00:03:48,079 --> 00:03:51,290
+靠近青铜器自身边界的地方正在填充，因为它们被进一步压低
+near the bronze own boundary are filling
+because they're getting pushed down more
+
+44
+00:03:51,290 --> 00:03:54,109
+在能量上比那些远离青铜本国边界的州
+in energy than the states which are
+farther from the bronze own boundary
+
+45
+00:03:54,109 --> 00:03:59,180
+在这里得到一个费米表面，看起来有点像这样
+here so get a Fermi surface that kind of
+looks a little bit more like this a
+
+46
+00:03:59,180 --> 00:04:01,849
+一点点的变形是由于
+little bit deformed
+due to the shifting around of the
+
+47
+00:04:01,849 --> 00:04:06,590
+在青铜器中的国家的能量，实际上这就是我们
+energies of the states in in the in the
+bronze own and in fact that's what we
+
+48
+00:04:06,590 --> 00:04:10,790
+获得锂，锂又是单价材料，所以它是费米表面
+get for lithium which is again a mono
+valent material so it's Fermi surface
+
+49
+00:04:10,790 --> 00:04:14,930
+应该真的填满第一个青铜器本身一半的形状
+should really fill half of the first
+bronze own again the same shape of the
+
+50
+00:04:14,930 --> 00:04:19,190
+古铜色本身是一种BCC材料，您可以看到这里的2D模拟画了一点
+bronze own is a BCC material and you can
+see here's the 2d analog drawn a little
+
+51
+00:04:19,190 --> 00:04:23,120
+比我在板上画的要好，您可以看到发生了什么事
+bit better than I drew on the board and
+you can see that what's happened is
+
+52
+00:04:23,120 --> 00:04:26,960
+基本上是球形的费米表面接近于
+where the Fermi surface which is
+basically spherical comes close to the
+
+53
+00:04:26,960 --> 00:04:29,660
+青铜，被拉向青铜
+bronze
+it's pulled out towards the bronzong
+
+54
+00:04:29,660 --> 00:04:32,750
+边界，因为那些将接近棕色区域边界的状态具有
+boundary because those states which will
+close to the brown zone boundary have
+
+55
+00:04:32,750 --> 00:04:36,560
+比从青铜器走得更远的州，他们的能量下降得更多
+been pushed down more in energy than the
+states which are further from the bronze
+
+56
+00:04:36,560 --> 00:04:41,060
+自己的边界，如果周期性的
+own boundary it's okay that makes sense
+all right now in fact if the periodic
+
+57
+00:04:41,060 --> 00:04:44,930
+潜力变得非常强大，会发生什么事
+potential becomes extremely strong what
+can happen is the states right at the
+
+58
+00:04:44,930 --> 00:04:48,230
+青铜器自身的边界可以被压低到足以使它们降到费米之下
+bronze own boundary can be pushed down
+so much that they go below the Fermi
+
+59
+00:04:48,230 --> 00:04:53,120
+在这种情况下，费米表面会变形直到实际接触到
+surface in which case the Fermi surface
+deforms until it actually touches the
+
+60
+00:04:53,120 --> 00:04:56,440
+青铜色的边界，您会得到更像这样的东西
+bronze own boundary and you get
+something that looks more like this and
+
+61
+00:04:56,440 --> 00:05:00,680
+填充该形状内部的状态，填充该形状外部的状态
+the states inside that shape are filled
+and the states outside that shape are
+
+62
+00:05:00,680 --> 00:05:05,180
+空的，这正是材料铜也会发生的情况
+empty and that's exactly what happens
+with the material copper also a
+
+63
+00:05:05,180 --> 00:05:09,560
+一价材料实际上是FCC材料，所以它的形状是青铜
+monovalent material is actually an FCC
+material so the shape of it's a bronze
+
+64
+00:05:09,560 --> 00:05:14,270
+区域不同，这是我们之前看到的截头八面体形状
+zone is different it's this a truncated
+octahedral shape that we've seen before
+
+65
+00:05:14,270 --> 00:05:18,890
+您会看到哦，这是2D图片，比
+and you can see that the oh here's the
+picture in 2d which is drawn better than
+
+66
+00:05:18,890 --> 00:05:23,420
+我已经能够在板上绘制，您可以看到费米表面是
+I've been able to drawn on the board you
+can see that the Fermi surface is
+
+67
+00:05:23,420 --> 00:05:28,430
+基本球形，大致球形，但正好填满男爵的一半
+basically spherical roughly spherical
+but and fills exactly half of the barone
+
+68
+00:05:28,430 --> 00:05:31,670
+区域，因为它是单价的，每个单元电池一个电子应填充一半
+zone because it's mono valent and one
+electron per unit cell should fill half
+
+69
+00:05:31,670 --> 00:05:37,310
+第一个棕色区域的区域，但是球体靠近柏林区域的区域
+of the first brown zone but where the
+sphere comes close to the Berlin zone
+
+70
+00:05:37,310 --> 00:05:41,060
+边界靠近青铜区边界的状态的能量降低
+boundary the states near the bronze zone
+boundary get pushed down in energy and
+
+71
+00:05:41,060 --> 00:05:44,540
+与其他州相比，那些州优先填充
+those states preferentially fill
+compared to the other states which are
+
+72
+00:05:44,540 --> 00:05:47,690
+离柏林区域边界更远的地方，在这里被推动
+farther from the Berlin zone boundary
+which are over here which are pushed
+
+73
+00:05:47,690 --> 00:05:51,620
+下降得少，这些状态就变成空的，这样就清楚了
+down less and those states become empty
+so is that clear how the shape of the
+
+74
+00:05:51,620 --> 00:05:54,650
+费米表面正在变形，所以那是一个
+Fermi surface is getting deformed all
+right so that's an that's one
+
+75
+00:05:54,650 --> 00:05:58,520
+让我们考虑另一个有趣的情况，我们有两个
+interesting case let's consider another
+interesting case where we have two
+
+76
+00:05:58,520 --> 00:06:05,180
+每个晶胞的电子，所以这里每个晶胞又有两个电子
+electrons per unit cell so here two
+electrons per unit cell again we have
+
+77
+00:06:05,180 --> 00:06:10,070
+在没有铜的情况下，这里的青铜拥有者的K现在中间等于零
+the bronze own here's K equals zero in
+the middle now in the absence of a
+
+78
+00:06:10,070 --> 00:06:14,810
+周期性的电位，我们应该只将一个费米圆盘作为费米圆盘I 
+periodic potential again we should just
+have a Fermi Circle our Fermi disk I
+
+79
+00:06:14,810 --> 00:06:21,650
+猜猜它的体积与第一个青铜器本身的体积完全相同
+guess whose volume is exactly the same
+as the first bronze own so area in this
+
+80
+00:06:21,650 --> 00:06:31,940
+如果没有周期性电势，则情况与青铜拥有的VZ区域相同
+case equals the same as bronze own VZ
+area if there's no periodic potential
+
+81
+00:06:31,940 --> 00:06:35,210
+那当然青铜区也没关系没有时间看
+then of course the bronze zone doesn't
+doesn't matter there's no period to see
+
+82
+00:06:35,210 --> 00:06:38,140
+根本不需要注意青铜区，您将获得一个完美的
+at all you don't have to pay attention
+to bronze zone you just get a perfect a
+
+83
+00:06:38,140 --> 00:06:43,110
+完美圆如果周期性势很强，那么
+perfect circle how
+if the periodic potential is strong then
+
+84
+00:06:43,110 --> 00:06:46,800
+发生的情况是第一个青铜器内部的所有状态都被下推
+what happens is all the states inside
+the first bronze own are all pushed down
+
+85
+00:06:46,800 --> 00:06:50,940
+在能源方面，第一个铜牌之外的州的能源被推高， 
+in energy the states outside the first
+bronze own are pushed up in energy and
+
+86
+00:06:50,940 --> 00:06:54,750
+而不是拥有一个费米圆环，您将获得整个第一
+instead of having a Fermi Circle what
+you get is you fill the entire first
+
+87
+00:06:54,750 --> 00:06:58,800
+拥有自己的青铜器，并且清空整个第二个拥有的青铜器，您会得到一个满满的乐队
+bronze own and you empty the entire
+second bronze own you get a filled band
+
+88
+00:06:58,800 --> 00:07:03,630
+以及一个空白和一个空白带，空白被打开得如此之多，以至于所有州
+and a gap and an empty band the gap
+opens up so much that all the states in
+
+89
+00:07:03,630 --> 00:07:07,200
+第一个青铜器的所有权低于第二个青铜器的所有州
+the first bronze own are lower than all
+the states in the second bronze own you
+
+90
+00:07:07,200 --> 00:07:11,100
+得到一个填充带，一个间隙，一个空带，然后得到一个绝缘体，所以这些是
+get a filled band a gap an empty band
+and you get an insulator so these are
+
+91
+00:07:11,100 --> 00:07:15,240
+这两种可能性没有周期性的潜力，这是一个完美的循环
+the two possibilities with no periodic
+potential it's a perfect circle which
+
+92
+00:07:15,240 --> 00:07:19,770
+您可以查看是否愿意填充其中的第一个青铜器
+you can view if you like as filling part
+of the first bronze own that's inside
+
+93
+00:07:19,770 --> 00:07:23,610
+广场和第二个青铜器的一部分在广场外面，带有一个
+the square and part of the second bronze
+own that's outside of the square with a
+
+94
+00:07:23,610 --> 00:07:26,370
+强大的周期性潜力青铜器本身的一切能量都被压低
+strong periodic potential everything in
+the bronze own is pushed down in energy
+
+95
+00:07:26,370 --> 00:07:30,720
+所以所有的东西都填满了自己的第一个青铜色乐队，然后有一个空白
+so everything fills in the first bronze
+own filled band then there's a gap
+
+96
+00:07:30,720 --> 00:07:34,169
+第二个青铜器拥有的一切能量都被推高，因此存在差距
+everything the second bronze own is
+pushed up in energy so there's a gap
+
+97
+00:07:34,169 --> 00:07:39,180
+在填充带和空带之间，所以我们有一个绝缘子
+between the filled band and the empty
+band and so we have an insulator okay so
+
+98
+00:07:39,180 --> 00:07:42,900
+那是它的最简单的部分，它所发生的更复杂的部分
+that's the simple part of it the more
+complicated part of it is what happens
+
+99
+00:07:42,900 --> 00:07:48,060
+当周期性势弱的势或您知道
+when the potential where the periodic
+potential is weak or you know
+
+100
+00:07:48,060 --> 00:07:51,900
+在这种情况下，中间中等强
+intermediate intermediate ly strong in
+that case what happens is it's some of
+
+101
+00:07:51,900 --> 00:07:55,500
+布里渊（Brillouin）第一区的州或能源消耗下降的地区
+the states in the first Brillouin zone
+or pushed down in energy and some of the
+
+102
+00:07:55,500 --> 00:07:57,900
+州和井，它们都被压低了，但是它们只被压低了
+states and the well they're all pushed
+down but they're only pushed down a
+
+103
+00:07:57,900 --> 00:08:03,150
+一点点，所以只有一些其他填充，所以那些是最低的
+little bit so only some additional ones
+fill so the ones that are sort of lowest
+
+104
+00:08:03,150 --> 00:08:07,290
+能量尚未充满其状态，因此这些状态将开始
+in energy that haven't been filled their
+states here so these states will start
+
+105
+00:08:07,290 --> 00:08:10,350
+除了已经填充的州之外，还包括其他一些州
+to fill in addition to the states that
+were already filled and some of these
+
+106
+00:08:10,350 --> 00:08:14,130
+除了已经填充的状态外，其他州也将开始填充
+states will start to fill in addition to
+the states that were already filled some
+
+107
+00:08:14,130 --> 00:08:18,180
+这些状态在这里等等，将开始填充角落， 
+of these states up here and so forth and
+will start filling in the corners that
+
+108
+00:08:18,180 --> 00:08:24,300
+我们还没有填写，但如果潜力不足够怎么办
+we haven't filled in already but not
+what if the potential isn't sufficiently
+
+109
+00:08:24,300 --> 00:08:28,710
+坚强，我们不会填写整个第一个青铜器，我们会留下几个
+strong we won't fill in the entire first
+bronze own we'll leave a couple of
+
+110
+00:08:28,710 --> 00:08:34,409
+角落里的状态是空的，他仍然是空的，仍然是空的， 
+states in the corners which are empty he
+are still empty still empty and the
+
+111
+00:08:34,409 --> 00:08:37,559
+这些角落里的状态仍然是空的
+reason these states in the corners are
+the ones that are still empty are
+
+112
+00:08:37,559 --> 00:08:41,489
+因为这些实际上是第一个中的最高动能状态
+
+113
+00:08:41,490 --> 00:08:45,300
+仅距离K最远的青铜等于零，因此应该是最后一个
+bronze only the farthest from K equals
+zero so those should be the last ones to
+
+114
+00:08:45,300 --> 00:08:48,240
+补充一下，因为它们具有最高的动能，所以必须
+fill that because they have a highest
+kinetic energy they would have to be
+
+115
+00:08:48,240 --> 00:08:52,950
+在它们进入费米表面以下之前，最大程度地向下推
+pushed down the most before they go
+below the Fermi surface similarly in the
+
+116
+00:08:52,950 --> 00:08:56,300
+第二名青铜器，所有州的能源都被推高
+second bronze
+all the states are pushed up in energy
+
+117
+00:08:56,300 --> 00:09:01,339
+保持充满的是那些动能最低的
+the ones that remain filled are the ones
+with the lowest kinetic energy these
+
+118
+00:09:01,339 --> 00:09:06,410
+小碎片在这里，其他所有人都倒空，但这些小碎片仍然存在
+little slivers here everyone else
+empties but these little slivers remains
+
+119
+00:09:06,410 --> 00:09:10,209
+填充好了，所以现在我有一张图片，它比我能画的更好
+filled okay so now I have a picture of
+it which is better drawn than I can draw
+
+120
+00:09:10,209 --> 00:09:15,709
+因此，看起来像这样的东西最早拥有的第一批青铜是
+so it will look something like this that
+the most of the first bronze own is
+
+121
+00:09:15,709 --> 00:09:18,829
+填满角落是空的，因为它们是最高的动能
+filled the corners are empty because
+those are the highest kinetic energy
+
+122
+00:09:18,829 --> 00:09:23,060
+第一个青铜器拥有的州，第二个青铜器拥有的州大部分是空的，除了
+states in the first bronze own most of
+the second bronze own is empty except
+
+123
+00:09:23,060 --> 00:09:26,720
+这些小条仍保留填充，因为它们的动力学最低
+these little slivers here which remain
+fill because those are lowest kinetic
+
+124
+00:09:26,720 --> 00:09:32,149
+能量状态，因此最接近K的第二个青铜拥有量等于0，因此
+energy states so the closest to K equals
+0 in the second bronze own so the this
+
+125
+00:09:32,149 --> 00:09:36,410
+仍然是金属它仍然具有费米表面这是空的点
+is still a metal it still has a Fermi
+surface it's a point where the empty
+
+126
+00:09:36,410 --> 00:09:40,790
+州与青铜器内部的填充状态相遇，所以这里仍然是金属
+states meet the filled States within the
+bronze own so it's still a metal here
+
+127
+00:09:40,790 --> 00:09:45,350
+您现在可以进行低能量激发，通常的绘制方法是
+you can have low energy excitations now
+the way this is typically drawn is to
+
+128
+00:09:45,350 --> 00:09:49,550
+一次查看每个乐队，或一次查看每个贝林区。 
+view each band one at a time or each
+berlín zone one at a time so you just
+
+129
+00:09:49,550 --> 00:09:53,420
+画自己的第一个青铜器，你在这里有这张照片，大部分是
+draw the first bronze own you have this
+picture here it's mostly filled with
+
+130
+00:09:53,420 --> 00:09:58,399
+只是一些角落仍然空着，第二个青铜器很好，我们将其绘制
+just some corners which remain empty and
+the second bronze own well we draw it in
+
+131
+00:09:58,399 --> 00:10:02,389
+缩小区域方案，我们可以将所有内容转换回一个
+reduced zone scheme we can sort of
+translate everything back to within a
+
+132
+00:10:02,389 --> 00:10:06,920
+一块青铜，所以这件作品在这里被2 pi转换为在这里
+single bronze own so this piece here
+gets translated to over here by 2 pi
+
+133
+00:10:06,920 --> 00:10:10,550
+在这里的这件作品上，并通过2 pi转换到这里
+over a this piece here and it's
+translated to here by 2 pi over a this
+
+134
+00:10:10,550 --> 00:10:13,910
+这里的一块被翻译成下面这里的一块被翻译成上面
+piece here is translated to down here
+this piece here is translated to up
+
+135
+00:10:13,910 --> 00:10:17,720
+这是通常的缩小区域皮肤，您将所有内容移至
+there this is the usual reduced zone
+skin you move everything over until it's
+
+136
+00:10:17,720 --> 00:10:23,300
+都在一个单一的方肌区域内，而且只有这些小部分
+all within a single square brawn zone
+and it would be only these little
+
+137
+00:10:23,300 --> 00:10:28,550
+现在可以保留在第二个乐队或第二个青铜乐队中的口袋了
+pockets that remain filled in the second
+band or the second bronze own ok now
+
+138
+00:10:28,550 --> 00:10:32,300
+这看起来可能有点不自然，但实际上这正是发生在
+this may look a little bit unnatural but
+this is in fact exactly what happens in
+
+139
+00:10:32,300 --> 00:10:36,019
+例如，许多二价材料在每个晶胞中带有两个电子
+many divalent materials with two
+electrons per unit cell for example
+
+140
+00:10:36,019 --> 00:10:39,439
+钙，看起来可能有点复杂，但让我一窥
+calcium this may look a little
+complicated but let me walk you through
+
+141
+00:10:39,439 --> 00:10:43,129
+这是第二波段中钙的实际费米表面，所以这是
+it this is the actual Fermi surface of
+calcium in the second band so here's the
+
+142
+00:10:43,129 --> 00:10:48,050
+这是一种FCC材料，所以它具有截短的八面体形状
+it's an FCC material so it has this
+truncated octahedral shape here's the
+
+143
+00:10:48,050 --> 00:10:52,250
+第二本青铜，以简化的石材图样书写，因此看起来完全像
+second bronze own written in reduced
+stone scheme so it looks exactly like
+
+144
+00:10:52,250 --> 00:10:56,180
+第一个青铜器自己，你可以看到发生了什么事， 
+the first bronze own and you can see
+that what's going on is there's just
+
+145
+00:10:56,180 --> 00:11:01,550
+这些仍然充满电子的黄色小区域
+these little yellow regions where
+electrons are still filled do you be
+
+146
+00:11:01,550 --> 00:11:06,079
+就像这些小东西偷偷进入第二区一样
+there just like these little pieces here
+peeking into the the second zone just
+
+147
+00:11:06,079 --> 00:11:08,899
+小小的帽子将仍然不是很
+little little caps will
+regions which still haven't quite been
+
+148
+00:11:08,899 --> 00:11:14,480
+清空后，这些碎片实际上是
+emptied and these pieces are actually
+the lowest kinetic energy points in the
+
+149
+00:11:14,480 --> 00:11:18,140
+像这里的这些铜牌一样，第二铜牌实际上是最低的动力学
+second bronze own just like these pieces
+here were actually the lowest kinetic
+
+150
+00:11:18,140 --> 00:11:21,740
+第二个青铜拥有的能量点最接近K等于零
+energy points in the second bronze own
+they were closest to K equals zero
+
+151
+00:11:21,740 --> 00:11:26,060
+他们处于这些阶段的中心，现在这张照片要难一些
+they're in the center of these phases
+now this picture is a little bit harder
+
+152
+00:11:26,060 --> 00:11:31,040
+进行解析，但要查看此处发生的情况透明的地方
+to to parse but to see what's going on
+here the places which are transparent
+
+153
+00:11:31,040 --> 00:11:37,790
+费米表面实际上碰到了熊自己边界的地方， 
+are where the where the Fermi surface is
+actually hit the Bruins own boundary and
+
+154
+00:11:37,790 --> 00:11:41,720
+那是没有画出来，所以这个大孔就是费米表面
+then it's it's not drawn so this great
+big hole here is where the Fermi surface
+
+155
+00:11:41,720 --> 00:11:46,010
+电子一直充满直到到达青铜边界
+where the electrons fill all the way
+until they hit the bronze own boundary
+
+156
+00:11:46,010 --> 00:11:50,060
+一直没有到青铜器边界的地方
+and the places where it's not filled all
+the way up to the bronze own boundaries
+
+157
+00:11:50,060 --> 00:11:53,660
+它被绘制为黄色的位置，所以您在这里看到的这些小角落类似于这些
+where it's drawn yellow so you see these
+little corners here similar to these
+
+158
+00:11:53,660 --> 00:11:57,770
+这些边沿的拐角处这些边是最远的点
+corners here along these edges these
+edges are the points which are farthest
+
+159
+00:11:57,770 --> 00:12:03,080
+在第一个青铜器中，从K等于零开始，因此如果K等于零，则
+from K equals zero in the in the first
+bronze own so if K equals zero is in the
+
+160
+00:12:03,080 --> 00:12:07,850
+中心最靠近的地方都被填满，就像这些被填满
+center the places closest are all filled
+up just like these are filled up all the
+
+161
+00:12:07,850 --> 00:12:10,760
+指向最远的青铜边界的方法是沿着这些点
+way to the bronze own boundary that
+points farthest are the points along
+
+162
+00:12:10,760 --> 00:12:14,570
+这些边缘，那就是它被涂成黄色的地方
+these edges and that's where it's
+painted in yellow where the brought
+
+163
+00:12:14,570 --> 00:12:18,500
+费米表面还没有碰到青铜的边界，让我画一个
+where the Fermi surface has not yet hit
+the bronze own boundary let me draw it a
+
+164
+00:12:18,500 --> 00:12:23,839
+那里有点大，实际上含钙，即使它
+little bit bigger there there it is so
+in fact with calcium even though it's
+
+165
+00:12:23,839 --> 00:12:30,470
+二价它每个晶胞有两个电子它实际上有两个两个能带
+divalent it has two electrons per unit
+cell it actually has two two bands which
+
+166
+00:12:30,470 --> 00:12:34,250
+被部分填充，第一条带被部分填充或大部分被填充
+are partially filled the first band is
+partially filled or mostly filled in the
+
+167
+00:12:34,250 --> 00:12:37,940
+第二个带子虽然大部分是空的，但里面仍然有几个电子，所以
+second band although mostly empty still
+has a couple of electrons in it so it's
+
+168
+00:12:37,940 --> 00:12:42,160
+实际上是金属的，所以这些都是很多的一般结构
+actually metallic okay so these are sort
+of the general structure of a lot of
+
+169
+00:12:42,160 --> 00:12:48,050
+乐队使用了许多材料，因此在本次演讲中
+bands in in many many materials so for
+the next for this lecture and for a
+
+170
+00:12:48,050 --> 00:12:51,380
+在接下来的几期讲座中，我们将大量讨论带理论
+couple of the next lectures we're going
+to talk an awful lot about band theory
+
+171
+00:12:51,380 --> 00:12:54,470
+以及带理论的后果以及可以推论的物理事物
+and the ramifications of band theory and
+the physical things that you can deduce
+
+172
+00:12:54,470 --> 00:12:58,940
+通过考虑带理论来讨论实际材料，并记住我们
+about actual materials by thinking about
+band theory and remember that what we're
+
+173
+00:12:58,940 --> 00:13:03,320
+在乐队理论中所做的是我们是否在为每个人都分配能量
+doing in band theory is were we're
+categorize giving energies to every
+
+174
+00:13:03,320 --> 00:13:07,430
+青铜器中的晶体波向量本身，我们知道这些晶体波向量
+crystal wave vector in the bronz own and
+we know that these crystal wave vectors
+
+175
+00:13:07,430 --> 00:13:11,540
+实际上对应于修改后的平面波或称为Bloch波
+actually correspond to modified plane
+waves or when a known as Bloch wave
+
+176
+00:13:11,540 --> 00:13:16,160
+在块定理中起作用，这是描述物理的一个很好的方法
+functions in blocks theorem and this is
+a very good way to describe the physics
+
+177
+00:13:16,160 --> 00:13:20,000
+这些材料中的许多都是根据这些修改后的平面波来思考的，但是
+and many of these materials thinking in
+terms of these modified plane waves but
+
+178
+00:13:20,000 --> 00:13:23,650
+确实应该警告我们
+at
+really we should be warned that there
+
+179
+00:13:23,650 --> 00:13:28,540
+是乐队理论的一些失败，我们现在就讨论其中一些
+are some failures of band theory and
+we'll discuss some of them now and just
+
+180
+00:13:28,540 --> 00:13:32,650
+简短地讲一下，然后在这个学期的最后两节课中
+briefly and then sort of in the last
+couple lectures of the term we'll come
+
+181
+00:13:32,650 --> 00:13:38,380
+返回并再次讨论其中的一些乐队理论，只是要知道这些
+back and talk about some of them again
+band theory just to be aware that these
+
+182
+00:13:38,380 --> 00:13:46,050
+乐队理论的主要失败之一是，尽管有时甚至很少
+exist one major failure of band theory
+is that sometimes although maybe rarely
+
+183
+00:13:46,050 --> 00:14:02,320
+单价单价材料单价单元可以是绝缘体
+mono valent mono valent materials valent
+unit cells can be insulators and
+
+184
+00:14:02,320 --> 00:14:05,410
+根据乐队理论，这永远不会发生，因为如果你有单声道
+according to band theory that should
+never happen because if you have a mono
+
+185
+00:14:05,410 --> 00:14:09,700
+价或三价晶胞，如果每个电子中有奇数个电子
+valent or a trivalent unit cell if you
+ever have an odd number of electrons per
+
+186
+00:14:09,700 --> 00:14:15,130
+晶胞也许我应该说一般的奇价中的奇价是任何奇价
+unit cell maybe I should say odd valent
+in general odd valence any odd valent
+
+187
+00:14:15,130 --> 00:14:20,290
+一般来讲，在带理论中，单位电池可以是绝缘体
+unit cell can be can be insulators in
+general in band theory this should never
+
+188
+00:14:20,290 --> 00:14:23,470
+如果您有一个奇数的单位晶胞，您应该有一个部分充满
+happen if you have an odd valent unit
+cell you should have a partially filled
+
+189
+00:14:23,470 --> 00:14:27,460
+乐队，所以应该是金属的，所以我们必须问自己，我们离开了什么
+band and so it should be metal so we
+have to ask ourselves what did we leave
+
+190
+00:14:27,460 --> 00:14:35,410
+好了，我们遗漏的是电子之间的相互作用，为什么我的意思是
+out well what we left out is interaction
+between electrons interaction why i mean
+
+191
+00:14:35,410 --> 00:14:45,660
+为什么为什么因为我们忽略了而忽略了电子与电子的相互作用
+why why because we left out we left out
+out electron-electron interaction
+
+192
+00:14:45,660 --> 00:14:53,410
+电子电子互动如果这些互动很强大，它们可以使
+electronic electronic interactions if
+these are strong they can make the
+
+193
+00:14:53,410 --> 00:14:57,310
+即使算上电子，您也会认为绝缘子是绝缘子
+material an insulator even though by
+counting electrons you would think that
+
+194
+00:14:57,310 --> 00:15:01,090
+这是一种金属，让我们尝试大致了解为什么会这样，想象一下您拥有
+it's a metal let's try to understand
+roughly why that is so imagine you have
+
+195
+00:15:01,090 --> 00:15:07,060
+一排这样排列的原子，并假设它是单价单原子
+a bunch of atoms lined up in a row like
+this and assume it's mono valent mono
+
+196
+00:15:07,060 --> 00:15:14,590
+价，所以它是每单位细胞一个电子，但假设相互作用非常
+valent so it's one electron per unit
+cell but suppose the interaction is very
+
+197
+00:15:14,590 --> 00:15:22,260
+强假设V库仑B库仑，非常强
+strong suppose V Coulomb B Coulomb and
+very strong strong
+
+198
+00:15:22,260 --> 00:15:28,200
+如果库仑的相互作用非常强烈，那么您可能会遇到这种情况
+if the Coulomb interaction is extremely
+strong then you might have a situation
+
+199
+00:15:28,200 --> 00:15:36,000
+其中一个原子上不应有两个电子一对一原子上一个原子
+where there should be no two electrons
+on one atom on one on one atom one atom
+
+200
+00:15:36,000 --> 00:15:40,530
+所以永远不要在一个原子上找到两个电子，因为库仑
+so never should you find two electrons
+on one atom because the Coulomb
+
+201
+00:15:40,530 --> 00:15:45,360
+相互作用会使该能量非常高且非常不利，因此
+interaction would make that energy
+extremely high and very unfavorable so
+
+202
+00:15:45,360 --> 00:15:48,930
+如果那是真的，那么你所需要的就是你所拥有的
+if that's true
+then what you have to have is you have
+
+203
+00:15:48,930 --> 00:15:56,340
+出现这样的情况，因为每个位置上都有一个电子就可以一个电子
+to have a situation where as there's one
+electron on every site okay one electron
+
+204
+00:15:56,340 --> 00:16:00,120
+每个位置一个电子一个电子，那么你问这些
+one electron one electron on every
+single site then you ask can these
+
+205
+00:16:00,120 --> 00:16:04,740
+电子会四处移动吗？他们可以从一个位置跳到另一个位置吗？ 
+electrons move around can they hop from
+one site to the other well imagine this
+
+206
+00:16:04,740 --> 00:16:08,310
+试图用一些跳跃矩阵元素T跳到他的邻居肯尼的家伙
+guy trying to hop with some hopping
+matrix element T to his neighbor Kenny
+
+207
+00:16:08,310 --> 00:16:11,280
+跳到他的邻居，他不能，因为已经有人坐在那里
+hop to his neighbor he can't because
+there's someone already sitting there
+
+208
+00:16:11,280 --> 00:16:14,850
+库仑相互作用阻止您拥有两个电子
+and the Coulomb interaction is
+preventing you from having two electrons
+
+209
+00:16:14,850 --> 00:16:18,480
+在一个位置上，由于一个位置上有两个电子，因此具有高能量
+on one site high energy from having two
+electrons on one site because of the
+
+210
+00:16:18,480 --> 00:16:23,970
+库仑相互作用，因此您无法跳动，因此有时获得的收益是有效的
+Coulomb interaction so you can't hop so
+what you get is effectively sometimes
+
+211
+00:16:23,970 --> 00:16:31,350
+被称为电子交通阻塞，是电子的一种，通常被称为
+called a traffic jam of electrons yeah
+of electrons more frequently known as a
+
+212
+00:16:31,350 --> 00:16:38,700
+莫韦尔绝缘体是Nevel Mott的传统蝴蝶结获奖者，他描述了
+Mott insulator after Nevel Mott a
+traditional bow laureate who described
+
+213
+00:16:38,700 --> 00:16:43,650
+第一次，大概是为了得到Mott绝缘子
+it for the first time and roughly in
+order to get a Mott insulator you have
+
+214
+00:16:43,650 --> 00:16:50,190
+使库仑比跳跃和某种理解更强大
+to have the Coulomb much stronger than
+the hopping and sort of understanding
+
+215
+00:16:50,190 --> 00:16:54,330
+为什么还记得电子以形式声明方式跳跃的原因是
+what why this is remember the reason
+electrons hop in form claim ways is
+
+216
+00:16:54,330 --> 00:16:58,260
+因为他们可以通过散布波来降低动能
+because they can lower their kinetic
+energy by spreading out their wave
+
+217
+00:16:58,260 --> 00:17:02,280
+从一个站点到另一个站点的功能，这是通常的海森堡不确定性，如果
+function from one site to another this
+is the usual Heisenberg uncertainty if
+
+218
+00:17:02,280 --> 00:17:06,480
+您可以散布波动函数，您可以知道Delta X Delta P 
+you can spread out your wave function
+you can you know Delta X Delta P you can
+
+219
+00:17:06,480 --> 00:17:14,099
+降低Delta P，然后可以降低动能，但如果这样
+make Delta P lower and then you can make
+your kinetic energy lower but if the so
+
+220
+00:17:14,099 --> 00:17:16,979
+一旦电子由于其扩散而想要形成它
+
+221
+00:17:16,980 --> 00:17:21,450
+跳到多少能量会降低它在T上的能量
+hopping how much does its energy it
+lowers its energy about T if it hops
+
+222
+00:17:21,450 --> 00:17:25,500
+从一个站点到另一个站点（如果允许扩展其波动功能），但是
+from one site to another if it's allowed
+to spread out its wave wave function but
+
+223
+00:17:25,500 --> 00:17:29,940
+如果库仑相互作用比跳变强得多，则
+if the Coulomb interaction is much much
+stronger than the hopping then the
+
+224
+00:17:29,940 --> 00:17:34,020
+电子会很乐意牺牲它所获得的动能
+electron would gladly sacrifice the
+amount of kinetic energy it's gaining by
+
+225
+00:17:34,020 --> 00:17:37,380
+形成波浪以防止自身
+forming a
+plain wave in order to prevent itself
+
+226
+00:17:37,380 --> 00:17:40,290
+从坐在一个已经有另一个电子的地方开始
+from ever sitting on a site where
+there's already another electron in
+
+227
+00:17:40,290 --> 00:17:44,490
+在这种情况下，您将设置其中之一，这是一张非常经典的照片
+which case you'll it will set up one of
+these it's a very classical picture of
+
+228
+00:17:44,490 --> 00:17:47,670
+每个位置只有一个电子，你知道没有量子
+just one electron sitting on each site
+and you know there's no quantum
+
+229
+00:17:47,670 --> 00:17:51,060
+必须要考虑力学，它说每个位点都有一个电子， 
+mechanics has to be considered at all it
+says one electron in each site and it's
+
+230
+00:17:51,060 --> 00:17:54,060
+绝缘子，因为没有人能动，因为没人愿意坐在
+an insulator because no one can move
+because no one wants to sit on the
+
+231
+00:17:54,060 --> 00:17:58,560
+邻近站点，因为那里已经有电子，所以这种效应是
+neighboring site because there's already
+an electron there okay so this effect is
+
+232
+00:17:58,560 --> 00:18:03,000
+完全没有带理论，所以这是带理论的失败
+completely left out of band theory and
+so it's kind of a failure of band theory
+
+233
+00:18:03,000 --> 00:18:07,470
+在课程的最后，我们将再次进行分析
+at the very end of the course we'll come
+back and analyze this again a second
+
+234
+00:18:07,470 --> 00:18:19,260
+失败的乐队理论失败到失败的第二个原因是磁性
+failure a band Theory failure to failure
+number two is magnetism magnetism such
+
+235
+00:18:19,260 --> 00:18:24,930
+或许我会说我们尚未定义的铁磁
+as or maybe I'll say Ferro magnetism
+which we haven't defined yet materials
+
+236
+00:18:24,930 --> 00:18:31,020
+例如铁，其中自旋电子的数量大于
+such as iron where the number of up spin
+electrons is greater than the number of
+
+237
+00:18:31,020 --> 00:18:33,630
+电子向下旋转，或者她不等于电子向下旋转的次数
+down spin electrons or maybe she's not
+equal to the number of down spin
+
+238
+00:18:33,630 --> 00:18:36,600
+电子可以有不同数量的向上旋转和向下旋转
+electrons you can have a different
+number of up spin and down spin
+
+239
+00:18:36,600 --> 00:18:42,270
+电子即使在没有外部磁场的情况下也具有非零磁化强度
+electrons a nonzero magnetization even
+in the absence of external magnetic
+
+240
+00:18:42,270 --> 00:18:48,620
+即使当B等于零时
+field even when even when B equals zero
+
+241
+00:18:49,190 --> 00:18:57,450
+外部等于零外部，这永远是不应该的
+the external equals zero the external
+and this is something that should never
+
+242
+00:18:57,450 --> 00:19:02,370
+发生在带理论中在带理论中，您应该同时填充向上的电子和
+happen in band theory in band theory you
+should fill up both the up electrons and
+
+243
+00:19:02,370 --> 00:19:05,280
+如果电子被充满，则下降的电子将具有相同的费米能
+the down electrons to the same fermi
+energy if they were filled up
+
+244
+00:19:05,280 --> 00:19:09,300
+不同地，您可以通过翻转总电子来节省能量， 
+differently you could save energy by
+flipping over sum up electrons and
+
+245
+00:19:09,300 --> 00:19:12,990
+将它们转变为电子，并平整两个费米表面
+turning them into a Down electrons and
+leveling out the two Fermi surfaces it
+
+246
+00:19:12,990 --> 00:19:16,530
+这样做可以节省您动能，原因是
+would save you kinetic energy to do this
+the reason this happens is something
+
+247
+00:19:16,530 --> 00:19:21,650
+我们将在课程结束时返回，这也是由于交互作用
+we'll come back to at the end of the
+course this is also due to interactions
+
+248
+00:19:21,650 --> 00:19:29,820
+相互作用加上量子力学再加上量子，这完全超出了
+interactions plus quantum mechanics plus
+quantum and it's totally outside of what
+
+249
+00:19:29,820 --> 00:19:34,950
+在传统频段理论的基础上，我们将只撤消平面波状态， 
+will on of traditional band Theory we're
+retreating only plane wave States and
+
+250
+00:19:34,950 --> 00:19:39,870
+向上电子和向下电子的能量应均匀地处理
+energies of up electrons and down
+electrons should be treated on even
+
+251
+00:19:39,870 --> 00:19:43,200
+立足好吧，这些就是我们应该放在脑后的事情
+footing okay so these are things we
+should just keep in the back of our head
+
+252
+00:19:43,200 --> 00:19:48,290
+乐队理论将失败的地方，但是对于大多数材料， 
+the places where band theory is going to
+fail okay but for most materials we're
+
+253
+00:19:48,290 --> 00:19:51,260
+考虑禁令理论是思考它的一种很好的方法，所以我们将
+think about ban theory is a very good
+way to think about it so we're going to
+
+254
+00:19:51,260 --> 00:19:55,610
+继续使用禁令理论，看看我们能了解多少
+go ahead blazed on with ban theory and
+see how much we can understand about
+
+255
+00:19:55,610 --> 00:20:00,320
+用这种乐队理论语言思考材料，所以我们要做的第一件事
+materials by thinking in this band
+theory language so the first thing we're
+
+256
+00:20:00,320 --> 00:20:05,960
+在禁令理论中会想到的是光学性质
+gonna think about in ban theory is
+optical properties optical properties of
+
+257
+00:20:05,960 --> 00:20:22,010
+固体和固体的结合带理论，所以首先我的意思是
+solids solids and bound area by a band
+theory so first of all what do I mean by
+
+258
+00:20:22,010 --> 00:20:26,900
+光学特性我指的是光学特性光学特性
+by optical properties what I mean by
+optical properties optical properties
+
+259
+00:20:26,900 --> 00:20:38,260
+表示什么波长的光什么是波长的光
+means what wavelengths of light
+what wavelengths of light light is
+
+260
+00:20:38,260 --> 00:20:54,620
+吸收或吸收
+absorbed absorbed transmitted or
+reflected transmitted or reflected in
+
+261
+00:20:54,620 --> 00:20:57,980
+换句话说，如果您将材料置于白光下，这通常是
+other words if you put your material in
+white light which is where we usually
+
+262
+00:20:57,980 --> 00:21:02,480
+说什么经常反射什么波长的光
+put it what is what frequent what
+wavelengths of light actually reflect
+
+263
+00:21:02,480 --> 00:21:06,080
+离开它，进入您的眼睛，给该材料提供您所需要的颜色
+off of it and go into your eye and give
+that material the color that you
+
+264
+00:21:06,080 --> 00:21:11,660
+实际看到是为了提醒自己关于可见光的几件事
+actually see so to remind ourselves a
+couple things about light light visible
+
+265
+00:21:11,660 --> 00:21:20,360
+您可能还记得的可见光范围是波长范围
+light visible light
+you might recall ranges from wavelengths
+
+266
+00:21:20,360 --> 00:21:28,870
+ 749米，我们一直微红到大约400纳米
+of 749 meters which we which is reddish
+all the way up to about 400 nanometers
+
+267
+00:21:28,870 --> 00:21:34,250
+紫罗兰色，这就是您所能看到的或几乎所有人都能以任何速度看到的
+which is violet and this is all you can
+see or almost people can see at any rate
+
+268
+00:21:34,250 --> 00:21:39,770
+如果您考虑光子的能量，则约为1.7电子伏特
+and if you think about energies of
+photons this is about 1.7 electron volt
+
+269
+00:21:39,770 --> 00:21:45,140
+光子，这是大约3.1电子伏特的光子，介于红色和
+photon and this is about 3.1 electron
+volt photon and in between red and
+
+270
+00:21:45,140 --> 00:21:48,700
+紫色是整个彩虹光谱的红色橙色黄色绿色蓝色靛蓝紫色
+violet is the whole rainbow spectrum red
+orange yellow green blue indigo violet
+
+271
+00:21:48,700 --> 00:21:56,330
+现在让我们考虑一下平常的事情
+the usual thing now let's think about
+how it is that light is going to
+
+272
+00:21:56,330 --> 00:22:00,610
+通过一些禁令理论与我们互动这种类型的光将如何
+interact with us with some solid
+ban theory how this type of light will
+
+273
+00:22:00,610 --> 00:22:05,980
+与我们的材料相互作用，所以我们绘制了一些能带图，所以这是一个
+interact with our material so we draw
+some sort of band diagram so here's a
+
+274
+00:22:05,980 --> 00:22:10,560
+这是K我不会画整个棕色区域我只是要画草图
+here's K I'm not going to draw the whole
+brown zone I'm just gonna sort of sketch
+
+275
+00:22:10,560 --> 00:22:16,960
+一些您知道的图，它将朝所有方向和k空间移动， 
+some you know diagram this will go off
+and to all directions and k space and
+
+276
+00:22:16,960 --> 00:22:22,750
+也许像这样的图表好，所以这将是一个填充的填充价带，所以
+maybe diagram like this okay so this
+will be a filled filled valence band so
+
+277
+00:22:22,750 --> 00:22:32,700
+假设您在这里有一个价带，在价带中我们有一个缺口
+imagine you have a filled valence band
+here filled valence band we have a gap
+
+278
+00:22:32,700 --> 00:22:41,370
+间隙II是，然后我们有一个空导带
+gap yeah II yep and then we have an
+empty conduction band
+
+279
+00:22:45,990 --> 00:22:55,960
+也许我应该定义我通常所说的E间隙，所以egapp等于min 
+maybe I should define what I mean by E
+gap generally so egapp equals min
+
+280
+00:22:55,960 --> 00:23:11,920
+导带能量导带能量-最大--最大最大价
+conduction band energy conduction band
+energy - maximum - - max max valence
+
+281
+00:23:11,920 --> 00:23:25,930
+波段和能量所以这里的能量和这里的能量之间的差异
+band and energy so difference between
+this energy here and this energy here so
+
+282
+00:23:25,930 --> 00:23:29,050
+如果这是一个很大的差距，那是一个绝缘体，如果这是一个很小的差距
+if this is a big gap it's an insulator
+if it's small gap
+
+283
+00:23:29,050 --> 00:23:33,700
+这是一种半导体，化学势位于
+it's a semiconductor the chemical
+potential is somewhere in the middle of
+
+284
+00:23:33,700 --> 00:23:40,150
+差距，所以现在让我们问可见光将如何相互作用
+the gap so when now let's ask how is it
+that visible light is going to interact
+
+285
+00:23:40,150 --> 00:23:46,930
+我们的绝缘子在这里，一些光子会带有一些能量H bar Omega H 
+with our insulator here well some photon
+comes in with some energy H bar Omega H
+
+286
+00:23:46,930 --> 00:23:52,780
+欧米茄吧，如果光子能量大于间隙，那么它可以激发
+bar Omega and if that photon energy is
+bigger than the gap then it can excite
+
+287
+00:23:52,780 --> 00:23:58,110
+从填充价带到空导带的电子
+an electron out of the filled valence
+band up to the empty conduction band it
+
+288
+00:23:58,110 --> 00:24:04,150
+吸收电子，并且能量被之间的跃迁吸收
+absorbs the electron and that energy is
+taken up by the transition between the
+
+289
+00:24:04,150 --> 00:24:07,570
+低能量状态和高能量状态抱歉，他们说它吸收了
+low energy state and the high energy
+state sorry they say it absorbs the
+
+290
+00:24:07,570 --> 00:24:12,400
+电子吸收光子，并从中激发电子
+electron absorbs the photon and the
+electron it gets excited from
+
+291
+00:24:12,400 --> 00:24:17,500
+自行车从填充的价带跳到空导
+the bike bike jumping up from the filled
+valence band up to the empty conduction
+
+292
+00:24:17,500 --> 00:24:29,010
+乐队，这意味着汤绝缘子随后会出现绝缘子
+band so what this means is that an
+insulator in soup insulator ensue later
+
+293
+00:24:29,010 --> 00:24:43,559
+与egapp的间隙大于3.1的Evey是透明的，为什么那么透明
+with gap egapp greater then 3.1 evey is
+transparent why is that transparent well
+
+294
+00:24:43,559 --> 00:24:49,210
+如果间隙大于3.1 evey，那么任何光子都可以看到可见光
+if the gap is greater than 3.1 evey then
+any photon you can see any visible
+
+295
+00:24:49,210 --> 00:24:53,890
+光子没有能量将电子激发为
+photon does not have the energy to
+excite an electron to the valent from
+
+296
+00:24:53,890 --> 00:24:58,750
+价带到导带好，这是光子的关键
+the valence band to the conduction band
+okay that's the key point if the photon
+
+297
+00:24:58,750 --> 00:25:03,789
+没有足够的能量来激发两个频带之间的电子
+doesn't have enough energy to excite the
+electron between the two bands then
+
+298
+00:25:03,789 --> 00:25:07,120
+基本上，光子根本不能与电子相互作用
+basically the photon can't interaction
+with the electrons at all the other
+
+299
+00:25:07,120 --> 00:25:11,110
+光子别无选择，只能完全穿过固体而没有
+photon just has no choice but to just go
+completely through the solid without
+
+300
+00:25:11,110 --> 00:25:15,309
+根本不进行交互，因为它无法进行这些转换，因此我们
+interacting at all because it can't make
+any of these transitions so these we
+
+301
+00:25:15,309 --> 00:25:19,510
+知道很多这样的材料，其中间隙大于3.1 
+know plenty of materials like this where
+the where the gap is greater than 3.1
+
+302
+00:25:19,510 --> 00:25:24,880
+令人羡慕，因此尽管它们看起来像透明的钻石石英窗玻璃
+evie and therefore they look transparent
+diamond quartz window glass although
+
+303
+00:25:24,880 --> 00:25:29,440
+这不是结晶氧化铝氮化镓，所有这些材料
+it's not crystalline alumina gallium
+nitride all these materials we which are
+
+304
+00:25:29,440 --> 00:25:36,130
+透明的，如果您有
+transparent they have energy gaps
+greater than 3.1 evie now if you have a
+
+305
+00:25:36,130 --> 00:25:45,159
+较小的带隙较小的间隙较小的egapp然后仅吸收光
+smaller band gap smaller gaps smaller
+egapp then light is absorbed only
+
+306
+00:25:45,159 --> 00:25:57,399
+光子只有H-bar Omega大于e间隙的光子才能被吸收
+photons only photons with h-bar Omega
+greater than e gap can be absorbed can
+
+307
+00:25:57,399 --> 00:26:05,950
+被吸收，所以一些颜色被吸收，而一些颜色不被吸收， 
+be absorbed so some colors are absorbed
+and some colors are not absorbed and
+
+308
+00:26:05,950 --> 00:26:10,419
+这为许多材料提供了我们实际看到的颜色，因此
+this gives many of the many materials
+the colors that we actually see so let
+
+309
+00:26:10,419 --> 00:26:15,460
+我给你看几个例子，所以这里是你知道我们平时的事
+me show you a couple examples so here is
+down here is you know our our usual
+
+310
+00:26:15,460 --> 00:26:21,399
+彩虹，上面写着光子的能量1.7到2.6 
+rainbow with the energies of the photons
+written on them 1.7 evie up to 2.6 that
+
+311
+00:26:21,399 --> 00:26:25,690
+如果您看一下这种朱砂材料，我们得出的结果约为3.1 
+we out here is about 3.1 evey if you
+look at this material cinnabar it
+
+312
+00:26:25,690 --> 00:26:31,480
+硫化汞，它的间隙即将消失，这种材料看起来是红色的，因为
+mercury sulfide it's gap is about to
+evey and this material looks red because
+
+313
+00:26:31,480 --> 00:26:38,680
+除红色之外的所有其他频率红色的频率足够低
+all all frequencies except for red red
+has a low enough frequency that it
+
+314
+00:26:38,680 --> 00:26:44,740
+不能进行任何激发，因此材料是透明的
+cannot make any of these excitation so
+so that the the material is transparent
+
+315
+00:26:44,740 --> 00:26:50,050
+变为红色，其频率低于egapp，因此必须通过
+to red it's frequency is lower than
+egapp so it must go through whereas
+
+316
+00:26:50,050 --> 00:26:54,160
+其他频率只是被吸收，因此材料看起来是红色的，因为光
+other frequencies are just absorbed so
+the material looks red because the light
+
+317
+00:26:54,160 --> 00:26:58,630
+通过该材料是红色所有其他所有其他光
+coming through that material is red all
+the other all the other light
+
+318
+00:26:58,630 --> 00:27:02,440
+如果您看一下这种材料，频率已经被吸收了
+frequencies have been absorbed if you
+look at this material really are it has
+
+319
+00:27:02,440 --> 00:27:09,370
+间隙稍大2.4在这里一直很好，看起来有点
+a slightly larger gap 2.4 evie well all
+the way out here and it looks a little
+
+320
+00:27:09,370 --> 00:27:12,850
+多一点的橙色，因为红色的橙色，黄色的甚至是一些绿色的
+bit more orange because the red orange
+the yellow and even some of the green
+
+321
+00:27:12,850 --> 00:27:16,870
+通过材料和所有更高频率的蓝调和
+gets through the material and all the
+higher frequencies of blues and the
+
+322
+00:27:16,870 --> 00:27:20,800
+紫罗兰不会穿过吸收的物质，因此实际上结束了
+violets do not get through the material
+they get absorbed so this actually ends
+
+323
+00:27:20,800 --> 00:27:24,520
+看起来有点像橙色，现在您可能会说很好，为什么看起来不像
+up looking kind of orange now you might
+say well how come it doesn't look a
+
+324
+00:27:24,520 --> 00:27:28,120
+绿色比橙色稍微多一点，但是您有点复杂
+little bit more green than orange but
+it's a little bit more complicated you
+
+325
+00:27:28,120 --> 00:27:31,870
+必须对通过的所有这些颜色进行平均，以便
+have to sort of average over over all
+these colors that get through so the
+
+326
+00:27:31,870 --> 00:27:35,020
+这些可以穿透的颜色中间大约是橙色，然后
+middle of these colors that get through
+is somewhere around orange and plus then
+
+327
+00:27:35,020 --> 00:27:38,470
+可能还有其他影响，但大致原因是看起来是橙色
+it can be some other effects going on
+but roughly the reason this looks Orange
+
+328
+00:27:38,470 --> 00:27:41,440
+是因为蓝色和紫色被吸收了
+is because the blues and the violets
+have been absorbed and the colors that
+
+329
+00:27:41,440 --> 00:27:45,550
+实际上经历了没有激发和吸收
+actually go through without making any
+excitations and without getting absorbed
+
+330
+00:27:45,550 --> 00:27:50,530
+红人和橙子的硫含量差距更大
+are the Reds and the oranges
+similarly sulphur has an even larger gap
+
+331
+00:27:50,530 --> 00:27:57,850
+仍然是2.6 CV，现在将您看到的颜色推得更远了
+still 2.6 CV and now the the color that
+you see is pushed even farther out it
+
+332
+00:27:57,850 --> 00:28:01,120
+看起来更黄，因为res橙色是黄色，有些绿色和
+looks more yellow because the res the
+orange is yellow some of the greens and
+
+333
+00:28:01,120 --> 00:28:05,170
+甚至一点蓝调都通过了这种材料，所以有点
+even a little bit of the Blues get
+through that material and so it sort of
+
+334
+00:28:05,170 --> 00:28:09,430
+平均看来有点淡黄的紫罗兰还没有通过
+on average looks kind of yellowish the
+violets have not gotten through okay
+
+335
+00:28:09,430 --> 00:28:14,410
+他们已经被吸收了，所以这给许多材料以颜色
+that they've been absorbed so this gives
+many materials their colors this story
+
+336
+00:28:14,410 --> 00:28:19,540
+比我告诉你的要复杂一些，因为
+is a little bit more complicated than
+I've told you because the structure the
+
+337
+00:28:19,540 --> 00:28:23,170
+波段结构的实际细节对于强度有多重要
+actual details of the band structure can
+matter a lot as to how strongly
+
+338
+00:28:23,170 --> 00:28:27,490
+什么东西被吸收或未被吸收，最重要的问题，让我
+something is absorbed or not absorbed
+and the most important issue and let me
+
+339
+00:28:27,490 --> 00:28:34,540
+再次绘制这里是我要绘制随机带结构，所以这是一个填充
+draw again here is I'm going to draw a
+random band structure so here's a filled
+
+340
+00:28:34,540 --> 00:28:38,110
+价带的一部分，现在您可以进行传导
+valence band part of a filled valence
+band now you could have a conduction
+
+341
+00:28:38,110 --> 00:28:43,029
+乐队在这里看起来像这样
+band here
+it looks kind of like this like that and
+
+342
+00:28:43,029 --> 00:28:49,309
+因此，您可能会遇到一个可以过渡的情况
+so you can have a situation where you
+have a where you can make a transition
+
+343
+00:28:49,309 --> 00:28:53,960
+从这里到这里针对不同的情况，这称为间接过渡
+from here to here for different case
+this is known as an indirect transition
+
+344
+00:28:53,960 --> 00:28:59,960
+或间接差距也许我会在这里写下定义，以便
+or an indirect gap gap maybe I'll write
+down the definition over here so an
+
+345
+00:28:59,960 --> 00:29:08,960
+间接差距或间接过渡间接差距等于
+indirect gap or an indirect transition
+indirect gap equals gap between
+
+346
+00:29:08,960 --> 00:29:21,169
+不同的情况，然后您可以像这样直接过渡
+different case and then there you can
+have a direct transition like this this
+
+347
+00:29:21,169 --> 00:29:27,740
+被称为直接间隙直接间隙我也在这里画了直接间隙
+is a known as the direct gap direct gap
+I've also drawn a direct gap over here
+
+348
+00:29:27,740 --> 00:29:39,519
+这是同一案例之间的差距直接差距等于同一案例之间的差距
+which is a gap between the same case
+direct gap equals gap between same case
+
+349
+00:29:41,649 --> 00:29:48,919
+相同的情况，结果对于交互作用至关重要
+same case and it turns out to matter a
+whole lot where it's for its interaction
+
+350
+00:29:48,919 --> 00:29:53,389
+看看差距是直接的还是间接的，让我们思考为什么
+with light whether the gap is direct or
+indirect and let's think about why why
+
+351
+00:29:53,389 --> 00:30:01,309
+很好，让我们回想一下，光的光频率是C乘以K，C是
+this is well let's recall that light
+frequency of light is C times K and C is
+
+352
+00:30:01,309 --> 00:30:06,649
+巨大的，我们之前就遇到过这个问题，所以如果我们想同时保护这两个问题
+huge we've run into this problem before
+so if we're trying to conserve both
+
+353
+00:30:06,649 --> 00:30:12,919
+通过吸收任何合理的光子来吸收光子的能量和动量
+energy and momentum by absorbing a
+photon the photons for any reasonable
+
+354
+00:30:12,919 --> 00:30:18,409
+频率不像任何光线频率的X射线频率
+frequency that's not like x-ray
+frequency for any light frequency if you
+
+355
+00:30:18,409 --> 00:30:24,889
+把光频率放在这里，k很小，所以当吸收光子时
+put in a light frequency here k is tiny
+okay so when when a photon is absorbed
+
+356
+00:30:24,889 --> 00:30:29,539
+如果您要保持动量，请选择电子基本上必须走
+the elect if you're conserving momentum
+the electron basically has to go
+
+357
+00:30:29,539 --> 00:30:35,570
+如果光子不携带大量动量，它就不能直线上升
+straight up it can't if the the photons
+do not carry large amounts of momentum
+
+358
+00:30:35,570 --> 00:30:39,440
+因为光速如此之大，所以它们只带有很小的动量
+they only carry tiny amounts of momentum
+because the speed of light is so large
+
+359
+00:30:39,440 --> 00:30:43,190
+很明显吗？好的，谢谢
+is that clear obvious yes okay good
+thank you
+
+360
+00:30:43,190 --> 00:30:46,850
+谢谢你的回答，甚至应该给你一个巧克力，好吗
+thank you for answering it should even
+give you a chocolate for answering okay
+
+361
+00:30:46,850 --> 00:31:01,850
+因此，我们所拥有的是直接直接的应用转换
+so so what we have is that
+direct direct app transitions have
+
+362
+00:31:01,850 --> 00:31:12,350
+强光吸收强光吸收而间接间隙
+strong light absorption strong light
+absorption whereas indirect gap
+
+363
+00:31:12,350 --> 00:31:24,080
+过渡间接过渡的吸收能力很弱，现在您可能
+transitions indirect transitions are
+very weak absorption now you might
+
+364
+00:31:24,080 --> 00:31:33,230
+想知道为什么吸收很弱，为什么我们间接吸收了全部吸收
+wonder weak absorption why it is we get
+any absorption at all with an indirect
+
+365
+00:31:33,230 --> 00:31:38,360
+差距过渡好吧，您可能会想出一些原因， 
+gap transition okay there's a couple of
+reasons you might think if you have to
+
+366
+00:31:38,360 --> 00:31:42,049
+如果您无法节省能量或动力，则可以节省能量和动力
+conserve energy and momentum if you're
+if you can't conserve energy or momentum
+
+367
+00:31:42,049 --> 00:31:45,350
+根本没有吸收，但实际上有更复杂的方法
+there should be no absorption at all but
+in fact there's more complicated ways
+
+368
+00:31:45,350 --> 00:31:50,899
+例如，您可以在其中节省动量能量
+where you can conserve energy of
+momentum for example you can get one
+
+369
+00:31:50,899 --> 00:32:08,149
+在光子中，光子进入一个电子激发，再加上一个声子激发，如果
+photon in photon in goes to one electron
+excited plus 1 phonon excited and if you
+
+370
+00:32:08,149 --> 00:32:12,710
+这样做，那么电子的动量变化可以抵消电子的动量
+do this then the momentum change of the
+electron can cancel the momentum of the
+
+371
+00:32:12,710 --> 00:32:15,980
+声子，您的电子会单向关闭，声子会从
+phonon you have the electron going off
+one way and the phonon going off the
+
+372
+00:32:15,980 --> 00:32:20,090
+通过其他方式，您仍然可以节省能量和动力，但这是一个
+other way and you can still conserve
+both energy and momentum but this is a
+
+373
+00:32:20,090 --> 00:32:24,139
+流程要复杂得多，发生的情况比平常要少得多
+much more complicated process and occurs
+much more rarely than just the straight
+
+374
+00:32:24,139 --> 00:32:29,139
+直接吸收间隙吸收弱的另一种方法是
+direct gap absorption another way that
+you can get a weak absorption is
+
+375
+00:32:29,139 --> 00:32:37,970
+不完美动量守恒K不守恒现在为什么
+imperfect imperfect momentum
+conservation K conservation now why is
+
+376
+00:32:37,970 --> 00:32:44,750
+您应该保存K只是不完美地记住原因
+it that you should conserve K only
+imperfectly remember that the reason
+
+377
+00:32:44,750 --> 00:32:48,380
+我们首先将这个晶体动量K保守起来
+that we that K this crystal momentum is
+conserved in the first place that all
+
+378
+00:32:48,380 --> 00:32:53,029
+守恒定律来自对称性，它迫使我们
+conservation laws come from symmetries
+and the symmetry that it forces us to
+
+379
+00:32:53,029 --> 00:32:57,740
+有K守恒是由晶格向量平移对称的，因此
+have K conservation is translational
+symmetry by a lattice vector so that
+
+380
+00:32:57,740 --> 00:33:02,330
+假设您拥有完美的晶体，那么在打印完美晶体K时
+assumes that you have a perfect crystal
+so in the printing a perfect crystal K
+
+381
+00:33:02,330 --> 00:33:05,680
+是绝对保守的，但是如果有障碍
+is absolutely conserved but if there's
+disorder
+
+382
+00:33:05,680 --> 00:33:16,780
+来自无序或杂质紊乱或来自无序的杂质，并且
+is from from disorder or impurities
+disorder or impurities from disorder and
+
+383
+00:33:16,780 --> 00:33:19,840
+杂质，那么K不再守恒，因为系统
+impurities then K is not perfectly
+conserved anymore because the system
+
+384
+00:33:19,840 --> 00:33:23,380
+不再是平移不变的，所以K将不是完美的
+isn't translationally invariant anymore
+so the K will be not perfectly
+
+385
+00:33:23,380 --> 00:33:28,750
+保守一点，您会通过间接间隙得到一定程度的吸收，因此
+conservative you'll get some amount of
+of absorption via the indirect gap so
+
+386
+00:33:28,750 --> 00:33:35,500
+实际的物理吸收量是能量的函数，所以此处的h-bar Omega 
+the actual physical absorption as a
+function of energy so h-bar Omega here
+
+387
+00:33:35,500 --> 00:33:45,220
+这里的吸收，这将是一个非常卡通，都像它上的卡通，但
+here's absorption this is gonna be a
+very cartoon all like cartoon on it but
+
+388
+00:33:45,220 --> 00:33:49,390
+当您到达间接频率（如果存在）时
+when you get to the frequency which is
+the indirect frequency if there is an
+
+389
+00:33:49,390 --> 00:33:56,020
+您知道间接转换频率可能是最低的
+indirect transition frequency you know
+it could be the case that the lowest
+
+390
+00:33:56,020 --> 00:34:00,670
+能量激励是直接的，在这种情况下，您知道这只是在您
+energy excitation is direct in which
+case you know this just occurs when you
+
+391
+00:34:00,670 --> 00:34:04,240
+当您达到那个频率或更高的频率时
+when you get up to that up to that
+frequency and at any higher frequency
+
+392
+00:34:04,240 --> 00:34:08,500
+您会得到这个加其他东西，但是如果间接这样的话
+you'll get this plus plus other things
+as well but if the indirect like that
+
+393
+00:34:08,500 --> 00:34:11,139
+如果间接间隙频率较低，请在此处显示
+picture there if the indirect gap
+frequency is lower
+
+394
+00:34:11,139 --> 00:34:17,949
+您将在间接频率弱时获得弱吸收，但是当您获得
+you'll get weak absorption at the
+indirect frequency weak but when you get
+
+395
+00:34:17,949 --> 00:34:23,199
+最高到直接间隙频率低于间接间隙的直接间隙频率
+up to the direct gap frequency direct
+gap frequency below the indirect gap
+
+396
+00:34:23,199 --> 00:34:27,729
+频率，您没有吸收，那么当您达到直接间隙频率时
+
+397
+00:34:27,730 --> 00:34:33,460
+当您超过此直接间隙频率时，您将获得强大的吸收能力
+you get strong absorption when you get
+above the this direct gap frequency okay
+
+398
+00:34:33,460 --> 00:34:38,110
+所以这有点像卡通，吸收是频率的函数
+so this is sort of a cartoon the
+absorption is a function of frequency
+
+399
+00:34:38,110 --> 00:34:42,969
+当存在间接差距和直接差距时，让我们来看一下
+when there's an indirect gap and a
+direct gap so let's actually look at
+
+400
+00:34:42,969 --> 00:34:47,289
+真实数据真实数据不是很好，但是您实际上可以看到
+
+401
+00:34:47,290 --> 00:34:51,159
+硅发生了一些间接的变化
+little bit what's going on this is
+silicon silicon has an indirect gap in a
+
+402
+00:34:51,159 --> 00:34:54,669
+间接频率小于直接频率的直接间隙
+
+403
+00:34:54,670 --> 00:34:59,470
+你会看到我像在那儿画画，随着你去，能量正在增加
+you can see like I've drawn up there and
+the energy is increasing as you go to
+
+404
+00:34:59,470 --> 00:35:02,380
+左侧，波长随着您向左移动而变小
+the left the wavelength is getting
+smaller as you go to the left and you
+
+405
+00:35:02,380 --> 00:35:05,470
+看到随着频率的改变，吸收实际上一直在增加
+see that the absorption actually keeps
+increasing as you change the frequency
+
+406
+00:35:05,470 --> 00:35:09,370
+但是当您达到间接差距时，现在会出现一些故障
+but when you get to the indirect gap
+there's a little bit of a glitch now
+
+407
+00:35:09,370 --> 00:35:12,820
+这看起来像是一个小故障，但这是对数图，所以如果您将其绘制出来
+this looks like a small glitch but it's
+a logarithmic plot so if you plot it
+
+408
+00:35:12,820 --> 00:35:15,370
+线性地，这实际上是一个相当大的一步
+linearly it would actually be a fairly
+big step
+
+409
+00:35:15,370 --> 00:35:18,910
+然后它，但它保持增长不断增加越来越多，但
+then it but it keeps increasing
+increasing increasing increasing but
+
+410
+00:35:18,910 --> 00:35:21,069
+那么当您达到上限频率时， 
+then when you get to the
+cap frequency there's a really big
+
+411
+00:35:21,069 --> 00:35:26,019
+再次出现故障，您知道从这里到这里的距离要少十倍，而您
+glitch again you know this is more less
+a factor of 10 from here to here and you
+
+412
+00:35:26,019 --> 00:35:30,009
+知道，所以当您达到直接间隙频率时，您将迈出一大步
+know so you get a big step when you get
+to the direct gap frequency there's lots
+
+413
+00:35:30,009 --> 00:35:33,940
+其他使您在其他任何地方都难以吸收的过程
+of other processes that give you weak
+absorption everywhere else more
+
+414
+00:35:33,940 --> 00:35:37,720
+涉及声子和凌空其他东西的复杂过程，所以它是
+complicated processes involving phonons
+and volleying other stuff too so it's
+
+415
+00:35:37,720 --> 00:35:41,529
+不像我在这里很形象地画出的那样简单，但至少您能
+not quite as simple as I've drawn here
+very figuratively but at least you get
+
+416
+00:35:41,529 --> 00:35:49,119
+那两个物理的基本概念还可以，所以物理和
+the general idea of the those two pieces
+of physics okay so the physics and in
+
+417
+00:35:49,119 --> 00:35:55,980
+您可能已经在EMM课程中学习过一些金属的金属
+metals you've studied metals a little
+bit before probably in your EMM courses
+
+418
+00:35:55,980 --> 00:36:02,619
+他们显得有光泽和反光，他们害怕出现光泽和反光的原因
+they appear shiny and reflective and the
+reason they fear appear shiny and
+
+419
+00:36:02,619 --> 00:36:09,130
+反射性是因为它们具有高电导率和高电导率
+reflective is because they have high
+conductivity high conductivity and I
+
+420
+00:36:09,130 --> 00:36:13,720
+认为您可能是在电磁学课程中用金属研究的
+think you probably studied this in your
+electromagnetism course by metals
+
+421
+00:36:13,720 --> 00:36:18,460
+反映您是否这样做，是的，是的，希望是的，所以真的
+reflect did you do that yes yes
+hopefully yeah okay so really what
+
+422
+00:36:18,460 --> 00:36:23,319
+您要问的是电导率是Omega的函数，从中
+you're asking about is the conductivity
+as a function of Omega and from that you
+
+423
+00:36:23,319 --> 00:36:32,440
+可以得到光学特性光学特性，但再次您知道我们有
+can get optical properties optical
+properties but again you know we have if
+
+424
+00:36:32,440 --> 00:36:37,420
+让我画一下，这里有一些青铜，这是金属。 
+let me draw you have some bronze on here
+here's here's a metal metal is a
+
+425
+00:36:37,420 --> 00:36:41,799
+半填充带，所以我们现在可能会有这样的金属
+half-filled band so we might have a
+metal like this now the optical
+
+426
+00:36:41,799 --> 00:36:46,990
+高频的特性很大程度上取决于第二个频段的位置
+properties that some high-frequency will
+depend a lot on where the second band is
+
+427
+00:36:46,990 --> 00:36:51,069
+如果您可以过渡到第二个频段，从而改变的西格玛
+if you can make transitions up to a
+second band that will change Sigma of
+
+428
+00:36:51,069 --> 00:36:54,400
+欧米茄（Omega）即使在低频下也可能是很好的金属， 
+Omega even though at low frequency this
+thing may be a very good metal and the
+
+429
+00:36:54,400 --> 00:36:57,789
+如果您正在考虑电子，电子将非常自由地移动
+electrons will move very freely if
+you're thinking about the the
+
+430
+00:36:57,789 --> 00:37:01,390
+高频下的电导率确实要担心
+conductivity at high frequency you do
+have to worry about whether the
+
+431
+00:37:01,390 --> 00:37:05,259
+过渡与带间过渡对齐，或者不与
+transition lines up with an inter band
+transition or it doesn't line up with an
+
+432
+00:37:05,259 --> 00:37:08,470
+带内过渡，无论是否可以进行这些过渡， 
+intra band transition whether you can
+make these transitions or not will
+
+433
+00:37:08,470 --> 00:37:11,859
+影响光学性能，实际上是详细的波段
+affect the optical properties and it's
+it's actually the detailed band
+
+434
+00:37:11,859 --> 00:37:15,609
+使您知道铜看起来像铜或金，金和银的结构
+structure that makes you know copper
+look copper or gold with gold and silver
+
+435
+00:37:15,609 --> 00:37:20,920
+看起来与银色有关，可以在两个频段之间进行过渡
+look silver it has to do with which
+transitions can be made in between bands
+
+436
+00:37:20,920 --> 00:37:27,400
+在这些不同的材料中，现在不再赘述
+in in those different materials won't go
+into that in too much more detail now in
+
+437
+00:37:27,400 --> 00:37:33,430
+这些材料中的任何一个，认识到细节总是很重要的
+any of these materials it's always
+important to realize that details
+
+438
+00:37:33,430 --> 00:37:37,599
+光学性能问题实际上对许多事情都很重要，所以我会
+a matter for optical properties actually
+details matter for many things so I'll
+
+439
+00:37:37,599 --> 00:37:41,530
+只是写下细节很重要，所以是一般原则
+just write that down
+details matter um so a general principle
+
+440
+00:37:41,530 --> 00:37:48,730
+一个人住很重要的细节是当你看着一个表面时
+to live by one one detail that matters a
+lot is the surface when you look at a
+
+441
+00:37:48,730 --> 00:37:52,990
+看到材料的表面，并且经常看到表面
+material you see the surface of the
+material and very frequently the surface
+
+442
+00:37:52,990 --> 00:37:56,440
+由于某种原因，该材料的材料与其他材料不同，或者
+of the material is not like the rest of
+the material for some one reason or
+
+443
+00:37:56,440 --> 00:38:01,990
+另一个非常好的例子是钠这样的材料
+another a really good example of that is
+a material like sodium sodium is a
+
+444
+00:38:01,990 --> 00:38:06,220
+真的是很好的金属，但是如果您看一下它的表面，那是一大块钠
+really good metal but if you look at its
+surface here's a chunk of sodium and the
+
+445
+00:38:06,220 --> 00:38:10,930
+钠的表面看起来是灰色的，不能反射，为什么很好
+surface of sodium looks kind of grey
+it's not reflective why is that well
+
+446
+00:38:10,930 --> 00:38:13,720
+因为你实际上不是在看钠，而是在看氧化钠
+because you're not actually looking at
+sodium you're looking at sodium oxide
+
+447
+00:38:13,720 --> 00:38:18,430
+您将钠放在桌子上约一小时之内
+you put the sodium out on the table
+within about an hour the oxygen in the
+
+448
+00:38:18,430 --> 00:38:21,970
+空气侵蚀了钠的表面，形成氧化钠
+air has attacked the surface of the
+sodium is formed sodium oxide sodium
+
+449
+00:38:21,970 --> 00:38:25,329
+氧化物是绝缘体，所以您实际上看到的是绝缘层
+oxide is an insulator so you're actually
+seeing an insula a thin layer of
+
+450
+00:38:25,329 --> 00:38:29,980
+这张图的表面上的绝缘子钠已被切成两半打开
+insulator on the surface in this picture
+the sodium has been cut in half to open
+
+451
+00:38:29,980 --> 00:38:34,930
+在金属表面上，因此大约一个小时后，该表面看起来会变成金属
+up a metallic surface and so for about
+an hour that surface will look metallic
+
+452
+00:38:34,930 --> 00:38:37,780
+一个小时后，它将再次看起来很棒，因为您正在形成
+and then after an hour it will look
+great again because you're forming an
+
+453
+00:38:37,780 --> 00:38:42,010
+上面有一层氧化层，所以表面经常有很多东西
+oxide layer on top of it so the surface
+is matter an awful lot frequently the
+
+454
+00:38:42,010 --> 00:38:45,520
+表面不像其他材料
+surfaces are not like the rest of the
+material
+
+455
+00:38:45,520 --> 00:38:50,140
+另一个很重要的问题是杂质，我们将讨论
+another thing that matters an awful lot
+is impurities and we'll discuss
+
+456
+00:38:50,140 --> 00:38:53,380
+在下一堂课中也会有很多杂质，我将在本堂课结束时
+impurities a lot in next lecture as well
+I'm gonna be at the end of this lecture
+
+457
+00:38:53,380 --> 00:38:58,690
+如果有时间，但考虑到光学特性，可以想象我们还可以
+if we have time but for the optical
+properties let's imagine we have okay
+
+458
+00:38:58,690 --> 00:39:06,940
+这是一个空的导带空的导带，然后我们有
+here's a empty conduction band empty
+conduction band and then here we have
+
+459
+00:39:06,940 --> 00:39:17,589
+一些填充价带填充价带，这就是我们的
+some filled valence band filled valence
+band and that's what the the our
+
+460
+00:39:17,589 --> 00:39:21,970
+如果没有杂质，绝缘子或半导体看起来就像
+insulator or semiconductor would look
+like in the absence of impurities but if
+
+461
+00:39:21,970 --> 00:39:26,740
+我在材料中添加了一些外来杂质，它实际上可以添加本征态
+I add some foreign impurities into the
+material it can actually add eigenstates
+
+462
+00:39:26,740 --> 00:39:30,130
+在间隙中间的能量在
+in the middle of the gap at energies
+that are somewhere in the middle of the
+
+463
+00:39:30,130 --> 00:39:35,849
+间隙，所以这些是杂质本征态
+gap so these are impurity eigenstates
+
+464
+00:39:36,930 --> 00:39:42,790
+鸡蛋由于杂质的存在而没有那些
+eggs due to the presence of the
+impurities in the absence of those
+
+465
+00:39:42,790 --> 00:39:46,540
+杂质如果间隙较大，该材料可能是透明的，但是当
+impurities this material might be
+transparent if it has a big gap but when
+
+466
+00:39:46,540 --> 00:39:49,520
+杂质就可以使一些
+the impurities are
+then you can make some a number of
+
+467
+00:39:49,520 --> 00:39:53,660
+某个频率的跃迁直至背面的杂质，这样您就可以获得
+transitions of some frequency up to the
+impurity in back so that you can get
+
+468
+00:39:53,660 --> 00:40:00,380
+某些颜色某些颜色有点你知道修改
+certain colors sort of certain colors
+sort of a you know modifying the
+
+469
+00:40:00,380 --> 00:40:04,520
+您材料的透明度，因此即使数量很少， 
+transparency of your of your material so
+even with a weak very small number of
+
+470
+00:40:04,520 --> 00:40:08,120
+杂质会产生很大的不同，所以这是一个经典的例子
+impurities this can make a huge
+difference so here's a classic example
+
+471
+00:40:08,120 --> 00:40:12,110
+作为每个人都熟悉的材料钻石， 
+as the material diamond that everyone's
+familiar with it's the diamonds are a
+
+472
+00:40:12,110 --> 00:40:16,790
+女孩的最好的朋友，或者不是詹姆士·邦德电影或
+girl's best friend or whatever the
+phrases wasn't that James Bond movie or
+
+473
+00:40:16,790 --> 00:40:19,460
+无论如何，钻石永远是球队的蒙大拿州
+something anyway diamonds are forever
+what was the team's Montana in their
+
+474
+00:40:19,460 --> 00:40:29,930
+钱，所以对于钻石来说，纯钻石是完全清楚的，而如果您
+money so so with diamonds pure diamond
+is a is completely clear whereas if you
+
+475
+00:40:29,930 --> 00:40:34,640
+仅添加几个杂质这就是一千万硼杂质
+add just a couple of impurities this is
+one boron impurity for ten million
+
+476
+00:40:34,640 --> 00:40:38,420
+碳原子，使钻石有点蓝，这是一个相当著名的
+carbon atoms and it turns the diamond
+somewhat blue this is a rather famous
+
+477
+00:40:38,420 --> 00:40:43,160
+蓝色钻石，它是希望钻石的估计价值2.5亿美元
+blue diamond it's the Hope Diamond
+estimated value of 250 million dollars
+
+478
+00:40:43,160 --> 00:40:46,670
+它坐在华盛顿的史密森博物馆中
+it's sitting in the Smithsonian Museum
+in Washington it's also supposed to have
+
+479
+00:40:46,670 --> 00:40:49,910
+与之相关的诅咒，所以不要去尝试去窃取，这对你非常不利
+a curse associated with it so don't go
+try to steal it that's very bad for you
+
+480
+00:40:49,910 --> 00:40:55,760
+或者如果您每百万个碳原子增加一个氮原子
+or something anyway if you if you add a
+nitrogen atom per 1 million carbons it
+
+481
+00:40:55,760 --> 00:41:03,230
+使钻石变黄，这是蒂芙尼（Tiffany）钻石
+turns the diamond a rather yellow color
+this is the Tiffany diamond also highly
+
+482
+00:41:03,230 --> 00:41:07,490
+蒂芙尼公司拥有的贵重物品，我相信它在新店里
+valuable owned by the Tiffany company
+and I believe it's in their store in New
+
+483
+00:41:07,490 --> 00:41:11,090
+约克（York）的估计价值很好，现在可能已经超过1200万
+York estimated value well it's probably
+a lot more than 12 million now it's a
+
+484
+00:41:11,090 --> 00:41:14,720
+相当大的美丽钻石，它完全变成了钻石的颜色
+rather large beautiful diamond and it's
+coming entirely the color of the diamond
+
+485
+00:41:14,720 --> 00:41:19,040
+并不完全来自杂质，这些钻石实际上是
+isn't coming entirely from impurities
+now these these diamonds were actually
+
+486
+00:41:19,040 --> 00:41:24,830
+开采他们是从地雷里挖出来的，但实际上
+mined they were done dug out of the
+ground out of out of mines but in fact
+
+487
+00:41:24,830 --> 00:41:30,170
+现代人非常擅长于合成材料
+in the modern era were very good at at
+making materials synthetically in
+
+488
+00:41:30,170 --> 00:41:33,260
+实验室，您可以制造出完美无杂质的钻石
+laboratories you can make a perfectly
+good diamond with no impurities
+
+489
+00:41:33,260 --> 00:41:37,040
+无论您的实验室中有什么被称为合成钻石，它们都是
+whatsoever in your laboratory there's
+known as synthetic diamonds they're a
+
+490
+00:41:37,040 --> 00:41:41,660
+比从地下开采便宜得多，如果您希望它是蓝色的， 
+lot cheaper than mining them out of the
+ground and if you want it to be blue you
+
+491
+00:41:41,660 --> 00:41:45,890
+如果想要变成黄色，只需添加硼，如果想要，则添加氮气
+just add boron if you want it to be
+yellow you add nitrogen if you want to
+
+492
+00:41:45,890 --> 00:41:48,770
+可以是其他一些颜色您可以将其制成粉红色您可以将其制成
+be some other colors you can you can
+make it pink you can make it you make it
+
+493
+00:41:48,770 --> 00:41:52,220
+通过添加适当的杂质将其放入您想要的任何颜色
+whatever color you want by adding the
+appropriate impurities that put it in
+
+494
+00:41:52,220 --> 00:41:56,330
+正确的杂质本征，合成钻石的优点是
+the right impurity eigenstates the
+advantage of the synthetic diamonds are
+
+495
+00:41:56,330 --> 00:42:01,010
+好吧，它们更便宜，实际上它们更多，那里更少
+well they're cheaper they're actually
+more there have fewer
+
+496
+00:42:01,010 --> 00:42:04,460
+您可以设计杂质，可以将所需的任何杂质放入其中
+you can design the impurities you can
+put whatever impurity you want in it you
+
+497
+00:42:04,460 --> 00:42:08,150
+可以将杂质排除在外，因此它可以像您想要的那样纯净，事实上，如果您
+can keep the impurities out so it can be
+as pure as you want and in fact you if
+
+498
+00:42:08,150 --> 00:42:12,470
+您购买人造钻石不支持非洲的任何战争，因此，如果您
+you buy synthetic diamonds you do not
+support any wars in Africa so if you're
+
+499
+00:42:12,470 --> 00:42:15,680
+如果您打算购买钻石，请知道
+out if you're planning on buying
+diamonds you know please you know
+
+500
+00:42:15,680 --> 00:42:17,840
+他们有一些钻石行业希望您相信的
+there's some how they the diamond
+industry wants you to believe that
+
+501
+00:42:17,840 --> 00:42:21,140
+合成钻石在某种程度上不如天然钻石
+somehow the synthetic diamonds are
+inferior to the to the natural diamonds
+
+502
+00:42:21,140 --> 00:42:23,840
+从矿山挖出来完全是不对的，它是相同的碳
+dug out of a mine it's totally not true
+it's the same carbon
+
+503
+00:42:23,840 --> 00:42:26,840
+实际上，您在实验室中生长的碳可能比
+in fact the carbon that you grow in your
+lab is probably a lot purer than the
+
+504
+00:42:26,840 --> 00:42:30,950
+你从地雷里拉出来的东西，所以买人造钻石我
+stuff you pull out of pull out of the
+mines so so buy synthetic diamonds I
+
+505
+00:42:30,950 --> 00:42:36,680
+不拥有股票，并说它在钻石内部，但我没有完全披露
+don't own stock and said it's inside of
+diamonds but full disclosure I don't
+
+506
+00:42:36,680 --> 00:42:45,890
+好吧，让我们继续讨论一下一旦您
+okay so let's go on and start talking
+about what happens once you once you
+
+507
+00:42:45,890 --> 00:42:50,870
+在材料中激发电子，所以这里再次有能量
+make excitations of electrons in
+material so so again here's energy we'll
+
+508
+00:42:50,870 --> 00:42:55,850
+绘制一个顶部这里是价带顶部价带顶部
+draw the top of a here's the top of the
+valence band filled valence band top of
+
+509
+00:42:55,850 --> 00:43:02,570
+价带价带已填充，并且我已绘制了扣除带的底部
+valence band valence band filled and the
+bottom of a deduction band I've drawn
+
+510
+00:43:02,570 --> 00:43:06,770
+这是直接的差距材料，但可能是间接的，并不是那么关键
+this as a direct gap material but it
+could be indirect it's not so so crucial
+
+511
+00:43:06,770 --> 00:43:16,160
+而且它仍然是空传导，所以在其中有一些能隙
+and it's empty conduction anyway okay
+and so there's some gap energy in
+
+512
+00:43:16,160 --> 00:43:21,380
+两者之间，如果我放入光子以激发电子
+between the two and if I put in a photon
+in order to excite an electron out of
+
+513
+00:43:21,380 --> 00:43:25,130
+从价带到导带I的导带然后得到
+the conduction band out of the valence
+band to the conduction band I then get a
+
+514
+00:43:25,130 --> 00:43:30,230
+电子在导带中上升，但是我没有电子下降
+electron up here in the conduction band
+but I get the absence of electron down
+
+515
+00:43:30,230 --> 00:43:36,770
+在价带中，有一个重要的名字
+here in the valence band and that is an
+important thing to have a name for which
+
+516
+00:43:36,770 --> 00:43:44,710
+被称为空穴，也是良好的电子不带电子的名称
+is known as a hole also the name of a
+good rock band absence of of electron
+
+517
+00:43:44,710 --> 00:43:54,610
+电子否则被填充
+electron in otherwise wise filled
+
+518
+00:43:55,220 --> 00:44:06,630
+价带，所以当你把这种能量激发电子到
+valence band so when you're putting this
+energy to excite the electron up to the
+
+519
+00:44:06,630 --> 00:44:11,220
+导带可能是光子，也可能实际上是热能
+conduction band it could be photon or it
+could be actually thermal energy to can
+
+520
+00:44:11,220 --> 00:44:14,819
+如果间隙足够小，那么激发，那么您的温度就足够高了
+excite if the gap is small enough so
+then your temperature is high enough you
+
+521
+00:44:14,819 --> 00:44:18,539
+可以从价带到导带热激发电子
+can thermally excited electron from the
+valence band up to the conduction band
+
+522
+00:44:18,539 --> 00:44:23,220
+然后你要做的是实际上是在一个空穴对中产生了一个电子
+then what you've done is you actually
+pair created an electron in a hole
+
+523
+00:44:23,220 --> 00:44:29,150
+它完全类似于正电子类似拓扑类似
+it's entirely analogous to a positron
+analogous topology analogous analogous
+
+524
+00:44:29,150 --> 00:44:37,230
+正电子，我们在外层空间，你知道在外层空间的真空中，如果你
+to positron we're in outer space you
+know in the vacuum of outer space if you
+
+525
+00:44:37,230 --> 00:44:41,240
+放入足够高频率的光子，您可以配对创建一个
+put in a high enough frequency photon
+you could pair create an
+
+526
+00:44:41,240 --> 00:44:47,069
+您必须将两个MC平方能量放入电子-正电子对中
+electron-positron pair you'd have to put
+in the two MC squared energy the mass
+
+527
+00:44:47,069 --> 00:44:51,450
+电子和正电子的能量，您可以创建它们，并且需要一些时间
+energy of the electron and the positron
+you could create them and is some time
+
+528
+00:44:51,450 --> 00:44:55,170
+以后电子和正电子可以一起回到并pair灭
+later the electron and the positron can
+come back together and pair annihilation
+
+529
+00:44:55,170 --> 00:45:01,289
+发出一个光子是两个光子，可能是同一件事
+emit a photon are two photons is a case
+maybe it's the same thing here you have
+
+530
+00:45:01,289 --> 00:45:07,230
+放入间隙能量，然后配对产生一个电子和一个空穴，这些
+to put in the gap energy and you pair
+create an electron and a hole and these
+
+531
+00:45:07,230 --> 00:45:10,799
+事物在导带或价带中运行， 
+things run around in the in the
+conduction band or the valence band and
+
+532
+00:45:10,799 --> 00:45:15,240
+过了一段时间之后，他们可以聚在一起并散发出能量， 
+it's some time later they can come back
+together and emit their energy and
+
+533
+00:45:15,240 --> 00:45:18,779
+光子或其他方式可以摆脱能量，它们来
+photons or in some other way they can
+get rid of their energy and they come
+
+534
+00:45:18,779 --> 00:45:22,260
+回来，他们走过八巷，所以完全类似于
+back and they rien aisle eight so it's
+entirely analogous to the idea of an
+
+535
+00:45:22,260 --> 00:45:26,250
+实际上，当狄拉克写下他的正电子理论时，电子正电子对
+electron-positron pair in fact when
+Dirac wrote down his theory of positrons
+
+536
+00:45:26,250 --> 00:45:29,819
+他非常了解半导体的发展，并且正在使用它
+he was well aware of what was going on
+in semiconductors and he was using this
+
+537
+00:45:29,819 --> 00:45:35,609
+作为或多或少的正电子模型的模型，所以这是一种方法
+as as more or less a model of the
+picture of positrons so this is one way
+
+538
+00:45:35,609 --> 00:45:39,750
+你可以安排在价带或电子中得到空穴
+you can have you can arrange to get
+holes in the valence band or electrons
+
+539
+00:45:39,750 --> 00:45:44,039
+通过添加光能或
+in the conduction band by adding energy
+either either a light energy or or
+
+540
+00:45:44,039 --> 00:45:47,940
+热能激发某人从价带进入传导
+thermal energy to excite someone up from
+the valence band into the conduction
+
+541
+00:45:47,940 --> 00:45:53,940
+带，还有另一种方法可以使价带和电子中出现空穴
+band there's another way you could get
+holes in your valence band and electrons
+
+542
+00:45:53,940 --> 00:45:58,380
+在您的导带中，使导带重叠，看看我是否画了
+in your conduction band which is to get
+the bands to overlap see if I've drawn
+
+543
+00:45:58,380 --> 00:46:02,579
+这个权利，所以如果这两个价带重叠一个
+this right so here's my otherwise filled
+valence band if the bands overlap by a
+
+544
+00:46:02,579 --> 00:46:08,600
+一点这里的EF，然后这些状态将被填充在价带中
+little bit here's EF then these states
+will be filled in the valence band
+
+545
+00:46:08,600 --> 00:46:14,280
+但价带顶部的状态将不满足并填充最低的
+but the states on the top of the valence
+band will unfill and fill the lowest
+
+546
+00:46:14,280 --> 00:46:18,000
+状态在导带中，这正是我们在
+states in the conduction band and this
+is exactly what we saw in the case of
+
+547
+00:46:18,000 --> 00:46:23,160
+今天早些时候的最低波段的钙还不够
+calcium earlier today that the the
+lowest band sort of is not quite filled
+
+548
+00:46:23,160 --> 00:46:26,850
+第二个频段才刚刚开始填充，所以这变得有点
+and the second band is just starting to
+fill and so this becomes a little bit
+
+549
+00:46:26,850 --> 00:46:32,640
+金属的，因为您在价带中有一些空穴，并且在其中有一些电子
+metallic because you have some holes in
+the valence band and some electrons in
+
+550
+00:46:32,640 --> 00:46:38,640
+导带现在实际上是一些有用的Naaman粘土chur， 
+the conduction band now actually some
+useful Naaman clay chur which is the
+
+551
+00:46:38,640 --> 00:46:44,150
+系统中空穴的密度阱的密度可能是电子的密度
+density of holes in a system density of
+well maybe density of electrons
+
+552
+00:46:44,150 --> 00:46:55,230
+导带中的电子通常称为N和
+electrons in conduction band in
+conduction band is usually called N and
+
+553
+00:46:55,230 --> 00:46:59,940
+它被称为n实际上是因为它不是数字，而是负电荷
+it's called n actually for it not for a
+number but for negative charge and for
+
+554
+00:46:59,940 --> 00:47:04,670
+负是电子带负电荷，而空穴的密度
+negative is the electrons have negative
+charge whereas the density of holes
+
+555
+00:47:04,670 --> 00:47:18,510
+价带中空穴的密度等于通常带正电荷的PP 
+density of holes in valence band equals
+P P for positive charge that's the usual
+
+556
+00:47:18,510 --> 00:47:23,910
+ Naaman klaich ur以及我们是否在导带中产生电子
+Naaman klaich ur and whether we create
+our electrons in the conduction band in
+
+557
+00:47:23,910 --> 00:47:27,870
+通过添加这样的能量或通过重叠
+our holes in our valence band by adding
+energy like this or by overlapping the
+
+558
+00:47:27,870 --> 00:47:32,100
+乐队看起来像N等于P所以也许我们
+band's like that
+it appears that N equals P so maybe we
+
+559
+00:47:32,100 --> 00:47:37,470
+写下n通常等于P，因为它是
+write that down
+does n equal P generally because it's
+
+560
+00:47:37,470 --> 00:47:41,730
+每次我创建电子时，我都会创建一个洞，并在这张照片中
+every time I created an electron I
+created a hole and in that picture up
+
+561
+00:47:41,730 --> 00:47:45,390
+每当我将一个电子从一个带转移到另一个带时， 
+there every time I transferred one
+electron from one band to the other I
+
+562
+00:47:45,390 --> 00:47:49,410
+在导带中产生电子，在价带中产生空穴
+created both electron in the conduction
+band and a hole in the valence band so
+
+563
+00:47:49,410 --> 00:47:54,810
+看起来答案是肯定的，但是有点像合格的
+it looks like the answer is yes but it's
+going to be sort of a qualified yes yes
+
+564
+00:47:54,810 --> 00:48:14,099
+如果是纯材料，否，否，我们有杂质，因此我们必须进行分类
+if in pure material no
+No we have impurities so we have to sort
+
+565
+00:48:14,099 --> 00:48:18,390
+考虑一下杂质如何改变这里的故事，所以让我们考虑
+of think about how it is that impurities
+change the story here so let's consider
+
+566
+00:48:18,390 --> 00:48:25,619
+世界上最重要的半导体硅是所有电子产品
+the world's most important semiconductor
+silicon silicon is what all electronics
+
+567
+00:48:25,619 --> 00:48:28,380
+或多或少是由制成的，所以我将其绘制为方格
+more or less are made out of so I'm
+going to draw it as a square lattice
+
+568
+00:48:28,380 --> 00:48:31,709
+即使它不是正方形晶格，也有FCC晶格，但是
+even though it's not a square lattice is
+an FCC lattice with the basis but this
+
+569
+00:48:31,709 --> 00:48:36,390
+只是出于比喻的目的，在这里将它们绘制为方格
+will just for figurative purposes will
+draw it as a square lattice here these
+
+570
+00:48:36,390 --> 00:48:41,249
+都是硅原子，那么我们将想象一个硅原子
+are all silicon atoms then we're going
+to imagine taking one silicon atom and
+
+571
+00:48:41,249 --> 00:48:44,789
+用另一个原子替换它我们将使用哪个原子
+replacing it with another atom which
+atom are we going to use we'll use
+
+572
+00:48:44,789 --> 00:48:47,130
+元素周期表上硅旁边的东西
+something right next to silicon on the
+periodic table
+
+573
+00:48:47,130 --> 00:48:52,349
+你现在要摄取磷吗，所以我们将这个原子带入这里
+will you take phosphorus now so we'll
+take this atom here and make it into a
+
+574
+00:48:52,349 --> 00:48:57,479
+磷原子化石我要写出化石，以免与P混淆
+phosphorus atom foss I'm gonna write out
+foss so it doesn't get confused with P
+
+575
+00:48:57,479 --> 00:49:03,569
+不幸的是磷的符号是P，P也是符号
+it's unfortunate that the symbol for
+phosphorus is P and P is also the symbol
+
+576
+00:49:03,569 --> 00:49:07,259
+对于不相关的孔的密度，只是随机发生
+for the density of holes that are
+unrelated just sort of random happens to
+
+577
+00:49:07,259 --> 00:49:13,829
+不方便，但是我们必须处理它，因此磷等于
+be inconvenient but we have to deal with
+it so phosphorus equals it's basically
+
+578
+00:49:13,829 --> 00:49:20,099
+它是硅原子加一个质子，在左边，在硅的右边
+it's a silicon atom plus one proton it's
+on the Left it's on the right of silicon
+
+579
+00:49:20,099 --> 00:49:24,869
+在周期表中加一个电子加一个电子，它有一些中子
+in the periodic table plus one electron
+plus one electron it has some neutrons
+
+580
+00:49:24,869 --> 00:49:29,910
+我们不太担心，所以我可以服用这种磷并查看它
+to which we're not so concerned about so
+I can take this phosphorus and view it
+
+581
+00:49:29,910 --> 00:49:36,150
+作为硅加上额外的正电荷加上一个额外的电子就可以了
+as a silicon plus an additional positive
+charge plus one additional electron okay
+
+582
+00:49:36,150 --> 00:49:41,429
+所以它在这里有一个额外的正电荷，那里有一个电子
+so it has an additional positive charge
+here and one electron sitting up there
+
+583
+00:49:41,429 --> 00:49:46,529
+ 1e现在坐在别处，那个电子会发生什么
+1e sitting somewhere else now what
+happens to that one electron this one
+
+584
+00:49:46,529 --> 00:49:51,719
+另外，也许我应该先谈一下质子，以便这个质子转
+addition well maybe I should talk about
+the proton first so this proton turns
+
+585
+00:49:51,719 --> 00:49:56,009
+并在下一堂课中证明这一点，您可以或多或少忽略
+out and will justify this in the next
+lecture you can more or less ignore the
+
+586
+00:49:56,009 --> 00:49:59,640
+那个质子的存在，只是将其视为硅核，是的
+presence of that proton and just think
+of it as a silicon nucleus yes it has a
+
+587
+00:49:59,640 --> 00:50:03,689
+收费，但收费并不重要，重要的是
+charge but that charge is not so
+important what's important is this
+
+588
+00:50:03,689 --> 00:50:08,309
+电子在这里进行的很好，价带已经充满
+electron here where does it go well the
+valence band is already filled we
+
+589
+00:50:08,309 --> 00:50:11,759
+从硅开始，它有一个填充的价带纯硅有一个填充
+started with silicon it had a filled
+valence band pure silicon has a filled
+
+590
+00:50:11,759 --> 00:50:16,019
+价带和一个间隙，然后是一个空的导带，所以这个一个电子
+valence band and a gap and then an empty
+conduction band so this one electron
+
+591
+00:50:16,019 --> 00:50:23,910
+必须进入传导浴，所以在这里
+must go
+into conduction bath so here we have
+
+592
+00:50:23,910 --> 00:50:28,320
+在导带中添加了一个电子，而没有在
+added an electron into the conduction
+band without adding a hole into the
+
+593
+00:50:28,320 --> 00:50:32,310
+价带我让我给你看一个更好的动画片
+valence band let me let me show you a
+better cartoon of this so in this
+
+594
+00:50:32,310 --> 00:50:37,230
+图片中的电子被绘制成围绕硅原子的小圆圈
+picture the electrons are drawn as
+little circles around the silicon atom
+
+595
+00:50:37,230 --> 00:50:41,070
+并且假设有两个电子彼此相邻的事实
+and the fact that there are two
+electrons next to each other is supposed
+
+596
+00:50:41,070 --> 00:50:46,410
+描绘将其与硅原子结合在一起的共价键， 
+to depict a covalent bond that holds it
+to silicon atoms together the fact that
+
+597
+00:50:46,410 --> 00:50:50,520
+除了磷在哪里，所有电子都是
+all you know everywhere except for where
+the phosphorous is all the electrons are
+
+598
+00:50:50,520 --> 00:50:55,710
+绑在这些共价键上的另一种说法是，我们有一个
+tied up in these covalent bonds is
+another way of saying that we have a
+
+599
+00:50:55,710 --> 00:50:59,340
+填充带占所有电子，并且存在一个缺口
+filled band all the electrons are
+accounted for and there's a gap to
+
+600
+00:50:59,340 --> 00:51:03,840
+现在将电子放到磷中时，将电子放到其他地方
+putting the electrons anywhere else now
+when you put it in the phosphorus the
+
+601
+00:51:03,840 --> 00:51:07,320
+磷可以形成四个相同的四个共价键，但其中有一个
+phosphorus can make the four same four
+covalent bonds but then there's one
+
+602
+00:51:07,320 --> 00:51:12,030
+剩下的电子，由于整个价带被填满
+electron left over and since the entire
+valence band is filled the only place
+
+603
+00:51:12,030 --> 00:51:16,530
+电子可以进入到导带中，所以这就是
+that electron can go is up into the
+conduction band okay so that's what
+
+604
+00:51:16,530 --> 00:51:20,610
+碰巧你可以用不同的掺杂剂做相同的游戏
+happens you can do the same play the
+same game you with a different dopant
+
+605
+00:51:20,610 --> 00:51:25,800
+让我们备份到硅另一侧的掺杂剂是铝，我们可以使用
+let's back up to dopants on the other
+side of silicon is aluminum we could use
+
+606
+00:51:25,800 --> 00:51:31,320
+铝铝是硅-一个质子，我们再也不用担心
+aluminum aluminum which is silicon - one
+proton and again we don't have to worry
+
+607
+00:51:31,320 --> 00:51:35,340
+关于质子太多，我们可以忽略这一点，这将证明以后忽略并
+about the proton too much we can ignore
+this will justify that later ignore and
+
+608
+00:51:35,340 --> 00:51:41,430
+那么它是负一电子，所以铝会丢失一个电子
+then it's minus one electron so with
+aluminium we're missing one electron
+
+609
+00:51:41,430 --> 00:51:49,610
+我们需要填充价带，所以这增加了一个整体，增加了一个整体
+that we need to fill the valence band so
+this adds a whole adds whole as a whole
+
+610
+00:51:49,610 --> 00:51:58,260
+实际上让我在这里画得很好，使用硼而不是铝硼是
+and actually let me draw it okay here
+that using boron not aluminum boron is
+
+611
+00:51:58,260 --> 00:52:02,250
+在元素周期表中铝的正上方，因此化学上
+right above aluminum in the periodic
+table so it's chemically exactly the
+
+612
+00:52:02,250 --> 00:52:06,750
+一样的故事硼是三价的，它可以使三价共价
+same so it's the same story boron is
+trivalent it can make three covalent
+
+613
+00:52:06,750 --> 00:52:10,770
+键，但是为了填充整个价带，缺少一个电子
+bonds but there's one electron missing
+in order to fill the entire valence band
+
+614
+00:52:10,770 --> 00:52:16,950
+所以我们缺少一个电子，让我只给出几个名词
+so we're missing one electron let me
+just give a couple terms of nominal
+
+615
+00:52:16,950 --> 00:52:23,460
+艾希尔对不起，我要结束了，所以磷被称为已知
+Eicher I'm sorry I'm going over before
+we end so phosphorus is known as a known
+
+616
+00:52:23,460 --> 00:52:32,950
+作为掺杂物，因为它会增加N姨妈
+as a in dopant
+because it adds an N aunt a negative
+
+617
+00:52:32,950 --> 00:52:42,720
+电荷或施主杂质或施主杂质，因为它提供电子
+charge or a donor impurity or donor
+impurity because it donates an electron
+
+618
+00:52:42,720 --> 00:52:55,840
+而铝或硼被称为P掺杂剂，因为它会增加一个孔或一个
+whereas aluminum or boron is known as as
+P dopant because it adds a hole or an
+
+619
+00:52:55,840 --> 00:53:06,810
+受主杂质，因为它接受或受主杂质SEP额外的电子
+acceptor impurity because it accepts or
+acceptor impurity SEPs an extra electron
+
+620
+00:53:06,810 --> 00:53:14,830
+也许我应该在结束之前定义open一词，所以dopant dopant是
+and maybe I should define the word
+opened before ending so dopant dopant is
+
+621
+00:53:14,830 --> 00:53:25,920
+泛指引入的外国化学品
+a general word which means the a foreign
+chemical foreign chemical introduced
+
+622
+00:53:25,920 --> 00:53:35,310
+引入纯净的化合物中
+introduced into an otherwise pure to
+otherwise pure compound otherwise pure
+
+623
+00:53:35,310 --> 00:53:45,850
+纯物质如此纯净的物质我想改变它的性质来改变
+pure material so a pure substance I
+guess to change its properties to change
+
+624
+00:53:45,850 --> 00:53:55,270
+如今，它的属性相当笼统
+its properties rather general word
+particular importance these days
+
+625
+00:53:55,270 --> 00:54:00,370
+考虑到奥运会正在进行中，所以我想我们会在那儿结束， 
+considering the Olympics are going on
+okay so I guess we'll end there and
+
+626
+00:54:00,370 --> 00:54:04,210
+明天我们会再次开始，抱歉
+we'll start again tomorrow sorry for
+going over
+
+627
+00:54:04,210 --> 00:54:10,159
+ [掌声] 
+[Applause]
+

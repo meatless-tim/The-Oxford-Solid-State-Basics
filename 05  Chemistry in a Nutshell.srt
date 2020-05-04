@@ -1,0 +1,3506 @@
+1
+00:00:00,050 --> 00:00:06,000
+这是第一期浓缩课程的第五讲
+this is now the fifth lecture of the
+condensed matter course in the first
+
+2
+00:00:06,000 --> 00:00:10,559
+在四个讲座中，我们研究了固体中的振动，并研究了固体中的电子
+four lectures we studied vibrations in
+solids and we studied electrons in
+
+3
+00:00:10,559 --> 00:00:15,059
+金属，我们在这些主题上学到了很多东西，但我们也开发了
+metals and we learned quite a bit about
+these topics but we also developed a
+
+4
+00:00:15,059 --> 00:00:19,560
+相当长的我们无法理解的谜题清单，我写了一个清单
+rather long list of puzzles things that
+we couldn't understand I wrote a list of
+
+5
+00:00:19,560 --> 00:00:22,800
+在上一堂课的结尾，他们中有一些是礼堂的正弦
+them at the end of last lecture some of
+them included the sine of the hall
+
+6
+00:00:22,800 --> 00:00:25,410
+系数，我们无法弄清为什么有时会有一个正弦
+coefficient we couldn't figure out why
+it's sometimes there's one sine
+
+7
+00:00:25,410 --> 00:00:30,119
+有时候，这是另一个迹象，我们也抓住了他们不合理的长期
+sometimes is another sign we also had
+grabbed their unreasonably long mean
+
+8
+00:00:30,119 --> 00:00:33,899
+索默菲尔德理论中的自由之路，我们无法理解，如果你回去
+free path in Sommerfeld theory and we
+couldn't understand and if you go back
+
+9
+00:00:33,899 --> 00:00:37,860
+在早期的迪拜理论中，还有一些我们没有想到的难题
+to earlier in dubai theory there are
+also some puzzles there we didn't
+
+10
+00:00:37,860 --> 00:00:41,460
+了解为什么我们引入了一个临时截断我，我的意思是一些
+understand why it was we introduced an
+ad-hoc cutoff me against I mean some
+
+11
+00:00:41,460 --> 00:00:45,750
+动机，但这当然是临时处方，所有这些
+motivation for it but it was certainly
+an ad hoc prescription and all of these
+
+12
+00:00:45,750 --> 00:00:49,140
+问题来自同一地点，同一地点是我们没有采取
+problems stem from the same place and
+the same place is that we're not taking
+
+13
+00:00:49,140 --> 00:00:53,730
+认真对待我们并未真正考虑的材料的微观结构
+seriously the microscopic structure of
+materials we're not really considering
+
+14
+00:00:53,730 --> 00:00:56,850
+它们是由单个原子组成的，这些原子在
+that they're made up of individual atoms
+and the atoms are bonded together in
+
+15
+00:00:56,850 --> 00:01:02,129
+非常特殊且通常是周期性的方式，因此该术语的其余部分大部分是
+very particular and often periodic ways
+so much of the remainder of the term is
+
+16
+00:01:02,129 --> 00:01:06,090
+将致力于了解微观结构材料
+going to be devoted to understanding how
+the microscopic structure materials
+
+17
+00:01:06,090 --> 00:01:09,960
+影响其宏观特性，但在这样做之前可能值得
+affects its macroscopic properties but
+before doing that is probably worth
+
+18
+00:01:09,960 --> 00:01:13,560
+备份并了解为什么原子在原子内粘在一起
+backing up and understanding why it is
+that the atoms stick together in the
+
+19
+00:01:13,560 --> 00:01:18,119
+制作材料的第一位，这使我们进入了以下领域
+first place to make the materials so
+this brings us to the the domain of
+
+20
+00:01:18,119 --> 00:01:23,369
+化学以及我们不愿承认它给我们的朋友和我们的
+chemistry and as much as we hate to
+admit it to both our friends and our
+
+21
+00:01:23,369 --> 00:01:29,070
+敌人的化学反应实际上很有趣，这很重要
+enemies chemistry actually is
+interesting it's a it's an important
+
+22
+00:01:29,070 --> 00:01:34,229
+无论是科学上的问题，还是工业上的技术问题
+subject both scientifically and it's
+certainly industrially technologically
+
+23
+00:01:34,229 --> 00:01:38,369
+而且实际上它也具有一些基本的深度，您可以
+and it's actually has some fundamental
+deepness to it as well and you could
+
+24
+00:01:38,369 --> 00:01:41,610
+当然要花三到四年学习化学甚至更长的时间
+certainly spend three or four years
+studying chemistry or even longer and
+
+25
+00:01:41,610 --> 00:01:45,840
+我们将只研究一两天，这可能就是我们所要做的全部
+we're gonna study it for only a day or
+two and that will probably be all we
+
+26
+00:01:45,840 --> 00:01:49,979
+需要知道以便继续进行下去，如果您之前有化学反应
+need to know in order to go on further
+now if you had chemistry before some of
+
+27
+00:01:49,979 --> 00:01:53,250
+如果您没有化学反应，这些东西可能会有点熟悉
+these things might be a little bit
+familiar if you haven't had chemistry
+
+28
+00:01:53,250 --> 00:01:56,729
+在这之前不是什么大问题，因为我要去的大部分
+before it's maybe not so much of a
+problem because most of what I'm going
+
+29
+00:01:56,729 --> 00:02:01,350
+介绍它是相当基本的，但是主要思想是重新考虑一些
+to introduce it's fairly basic but the
+main idea is to reconsider some of the
+
+30
+00:02:01,350 --> 00:02:04,710
+从物理学的角度看化学，似乎有些事情
+chemistry from a physics perspective
+some of the things that may have seemed
+
+31
+00:02:04,710 --> 00:02:07,619
+奇怪的是，当您第一次学习化学时，也许他们
+strange when you've learned for
+chemistry the first time well maybe they
+
+32
+00:02:07,619 --> 00:02:11,250
+这次似乎更自然一些，这将使我们有所
+seemed a little bit more natural this
+time through and this will give us sort
+
+33
+00:02:11,250 --> 00:02:13,160
+了解大部分内容的基础
+of a foundation for understanding much
+of what
+
+34
+00:02:13,160 --> 00:02:18,500
+来晚了，所以一个好的开始是认识到
+comes comes later so a good place to
+start is to realize that you know
+
+35
+00:02:18,500 --> 00:02:22,250
+化学都是基于薛定inger方程的
+chemistry is all based on the
+Schrodinger equation the Schrodinger
+
+36
+00:02:22,250 --> 00:02:25,550
+您知道的等式可以解决所有问题，并告诉您电子为何粘附
+equation you know solves everything it
+tells you why the electrons stick to
+
+37
+00:02:25,550 --> 00:02:28,490
+原子核，以及为什么原子核互相粘连等等
+nuclei and why nuclei
+stick to each other and so forth it's
+
+38
+00:02:28,490 --> 00:02:31,460
+所有简短的内部方程式，但这实际上并不是思考的一种非常有用的方法
+all the short inner equation but that's
+not actually a very useful way to think
+
+39
+00:02:31,460 --> 00:02:34,070
+因为解决薛定because方程不只一个
+about things because solving the
+Schrodinger equation for more than one
+
+40
+00:02:34,070 --> 00:02:37,970
+或两个粒子变得难以置信，并且您永远无法开发出任何一种
+or two particles becomes impossibly hard
+and you can never develop any sort of
+
+41
+00:02:37,970 --> 00:02:41,240
+直觉发生了什么，所以我们应该做的是我们应该思考
+intuition of what's going on
+so what we should do is we should think
+
+42
+00:02:41,240 --> 00:02:45,680
+关于非常简单的卡通级问题，并尝试找出
+about very very simple cartoon level
+problems and try to figure out what the
+
+43
+00:02:45,680 --> 00:02:52,450
+一般规则是化学反应，从一个好的地方开始是氢
+general rules are of chemistry from that
+a good place to start is with hydrogen
+
+44
+00:02:52,480 --> 00:02:59,480
+氢或更一般地说是氢原子，表示它的原子核为
+hydrogen or more generally a hydrogenic
+atom meaning that it has a nucleus of
+
+45
+00:02:59,480 --> 00:03:10,670
+ G中的一些电荷产生Z和一个电子的原子核， 
+charge in G some generating nucleus
+nucleus of charge Z and one electron and
+
+46
+00:03:10,670 --> 00:03:14,870
+您会从原子物理学课程或量子力学中记住
+you'll remember from your atomic physics
+courses or your quantum mechanics
+
+47
+00:03:14,870 --> 00:03:19,010
+当然，这个电子的本征态被许多
+courses that the eigenstates of this one
+electron are indexed by a number of
+
+48
+00:03:19,010 --> 00:03:22,250
+量子数主量子数n等于一二三，所以
+quantum numbers the principal quantum
+number n equals one two three and so
+
+49
+00:03:22,250 --> 00:03:27,290
+第四角动量量子数
+forth the angular momentum quantum
+number which it takes the number the
+
+50
+00:03:27,290 --> 00:03:34,670
+值0 1 2到n减1，这些角动量量子数为
+values 0 1 2 up to n minus 1 and these
+angular momentum quantum numbers are
+
+51
+00:03:34,670 --> 00:03:43,640
+有时称为s PDFG等，现在来自光谱符号
+sometimes called s P D F G and so forth
+coming from spectroscopic notation now
+
+52
+00:03:43,640 --> 00:03:54,350
+有人知道一个巧克力棒的PD和F代表尖锐的是s 
+for one chocolate bar does anyone know
+that s P D and F stand for sharp is s
+
+53
+00:03:54,350 --> 00:03:58,700
+那让你四分之一d是分散的，是的，你快到了
+that gets you a quarter d is diffuse yes
+you almost there
+
+54
+00:03:58,700 --> 00:04:04,820
+另外两个校长有人说校长有人得到了谁是
+two more principal someone said
+principal someone who got it who was
+
+55
+00:04:04,820 --> 00:04:08,390
+有人在那边说，你还好，所以他明白了
+that someone said it over there it's you
+okay so he gets it so sharp principal
+
+56
+00:04:08,390 --> 00:04:11,989
+从光谱符号上扩散和精细，对不起，您的巧克力
+diffuse and fine from spectroscopic
+notations your chocolate sorry
+
+57
+00:04:11,989 --> 00:04:16,779
+从你下面偷了哎呀，还有人再来一块巧克力吧
+stolen out from under you
+gee does anyone one more chocolate bar
+
+58
+00:04:16,779 --> 00:04:23,980
+甚至告诉我G是什么意思，实际上什么都不是，是因为
+even tell me what G is for it's not for
+anything actually it's it's uh it's for
+
+59
+00:04:23,980 --> 00:04:28,750
+长颈鹿，除了那好吧，他们只需要再写一封信
+giraffe they just need another letter
+after that okay um anyway in addition to
+
+60
+00:04:28,750 --> 00:04:36,640
+角心态量子数M取负L到L的值，然后
+the angular mental quantum numbers M
+takes the values minus L to L and then
+
+61
+00:04:36,640 --> 00:04:41,770
+最重要的是，自旋量子数可以为正负二分之一
+the spin quantum number can be plus or
+minus one-half the most important thing
+
+62
+00:04:41,770 --> 00:04:47,830
+要跟踪的是，如果您具有电子本征态，也许应该
+to keep track of is if you have s
+electrons s eigenstates maybe how should
+
+63
+00:04:47,830 --> 00:04:56,440
+我这样说，所以我认为本征态可以容纳两个有两个
+I say this so in s shell I guess of of
+eigenstates can hold two has two
+
+64
+00:04:56,440 --> 00:05:04,000
+可能的本征态P壳，所以为什么-因为s意味着L等于零，所以
+possible eigenstates P shell so why is
+it - because s means L equals zero that
+
+65
+00:05:04,000 --> 00:05:07,330
+表示M必须等于零，但自旋可以是正负1/2，所以两个
+means M has to be equal zero but the
+spin can be plus or minus 1/2 so two
+
+66
+00:05:07,330 --> 00:05:14,560
+豌豆壳的可能性有六个，因为P表示l等于一个M 
+possibilities with a pea shell there are
+six because P means l equals one M can
+
+67
+00:05:14,560 --> 00:05:19,510
+为负1 0 1为3，则自旋可以取两个值使6d 
+be minus 1 0 1 that's 3 and then the
+spin can take two values that make 6d
+
+68
+00:05:19,510 --> 00:05:25,420
+给你十个，依此类推现在你拥有所有这些本征态
+gives you 10 and so forth now you have
+all these eigenstates in a particular
+
+69
+00:05:25,420 --> 00:05:29,260
+原子，然后您认为自己在其中拥有许多电子
+atom and then you suppose to yourself
+that you have many electrons in that
+
+70
+00:05:29,260 --> 00:05:33,370
+原子不仅仅是一个电子，原子我也应该大概
+atom not just a single electron the atom
+also I should probably should probably
+
+71
+00:05:33,370 --> 00:05:38,830
+给你的能量以及这些本征态的能量是- 
+give you the energies as well the
+energies of these eigenstates are - the
+
+72
+00:05:38,830 --> 00:05:44,620
+如果原子核的电荷更多，则在N平方乘以Z平方摆脱berg 
+rid berg over N squared times Z squared
+if the charge of the nucleus is more
+
+73
+00:05:44,620 --> 00:05:48,760
+大于1加上小改正之类的东西，例如Hyper和Hyper的罚款就好
+than 1 plus small Corrections things
+like fine and Hyper's fine fine
+
+74
+00:05:48,760 --> 00:05:52,990
+结构，但主要能量只是来自于原理量子数，所以
+structure but the main energy just comes
+from the principle quantum number ok so
+
+75
+00:05:52,990 --> 00:05:56,860
+现在你的原子中有一束电子，你需要弄清楚
+now you have a bunch of electrons in
+your atom and you need to figure out
+
+76
+00:05:56,860 --> 00:06:02,470
+这些本征态中的哪些充满电子，而哪些空着
+which of these eigenstates you fill with
+electrons and which ones you leave empty
+
+77
+00:06:02,470 --> 00:06:06,250
+有几个规则可以解决这个问题，第一个规则称为
+and there's several rules for figuring
+this out the first rule is known as the
+
+78
+00:06:06,250 --> 00:06:09,780
+阿尔贝勒原理奥夫鲍原理
+alpha Belle principle Aufbau principle
+
+79
+00:06:10,830 --> 00:06:17,700
+基本上只是被贝壳填充
+which is basically just fill by shells
+
+80
+00:06:18,000 --> 00:06:21,940
+因此，当您向原子中添加第一个电子时，您会在一个壳中开始并保持
+so when you add the first electron to an
+atom you start in one shell and you keep
+
+81
+00:06:21,940 --> 00:06:25,300
+填满该壳，直到填满该壳为止
+filling that shell until it's filled
+when you finish filling that shell you
+
+82
+00:06:25,300 --> 00:06:27,860
+开始填充下一个外壳，然后填充该外壳，直到
+start filling the next shell and you
+fill that one until it's
+
+83
+00:06:27,860 --> 00:06:32,660
+现在您以什么顺序装满炮弹，然后由马德隆的装满炮弹
+now in what order do you fill the shells
+well you fill the shelves by madelung's
+
+84
+00:06:32,660 --> 00:06:40,550
+像这样的肺炎法则，玛德隆氏法则
+rule madelung's rule which has a nice
+pneumonic like this you write out a
+
+85
+00:06:40,550 --> 00:06:53,930
+表1s 2s 2p 3s 3p 3d 4s 4p 4d 4f 5s等
+table 1s 2s 2p 3s 3p 3d 4s 4p 4d 4f 5s
+and so forth
+
+86
+00:06:53,930 --> 00:07:00,140
+ 5P博士thot，然后您以对角线的方式填写，这是第一个，这是
+5p dr. thot and then you fill in this
+diagonal way this one is first this is
+
+87
+00:07:00,140 --> 00:07:09,800
+第二，这是第三，这是第四，依此类推，这将是第五
+second this is third this is fourth and
+so forth and this would be fifth down
+
+88
+00:07:09,800 --> 00:07:15,140
+这样的方式，所以填充壳的顺序就是给您结构的方式
+that way okay so this order of filling
+shells is what gives you the structure
+
+89
+00:07:15,140 --> 00:07:20,860
+我们来看看我们的朋友，元素周期表
+of the periodic table let's take a look
+at our friend the periodic table oops I
+
+90
+00:07:20,860 --> 00:07:25,720
+看不到哦
+don't see the Oh
+
+91
+00:07:33,080 --> 00:07:42,860
+停止停止停止停止停止停止停止停止停止好吧坚持
+stop stop stop stop stop stop stop stop
+stop okay hold on
+
+92
+00:07:45,870 --> 00:07:52,730
+现在没有男孩了，我们有一个真正的问题停下来哦
+no boy now we have a real problem stop
+Oh
+
+93
+00:08:04,130 --> 00:08:10,740
+好吧好吧，所以元素周期表让我们继续看我们是否可以得到这个
+okay well okay so the periodic table
+let's go on and see if we can get this
+
+94
+00:08:10,740 --> 00:08:16,080
+稍后开始，所以每个人都在您的笔记中
+started up a little bit later so
+everyone kind of note you have in your
+
+95
+00:08:16,080 --> 00:08:21,180
+沿着正确的方向前进，因此您首先要填充
+head what it looks like right so you
+start out by filling the the top row of
+
+96
+00:08:21,180 --> 00:08:25,890
+当一个电子充满时，其中含有氢氦的元素周期表充满
+the periodic table which has hydrogen
+helium in it as one electron fills fills
+
+97
+00:08:25,890 --> 00:08:30,660
+氢，下一个充满氦气，然后用锂开始下一行
+hydrogen the next one fills helium then
+you start the next row with with lithium
+
+98
+00:08:30,660 --> 00:08:35,970
+和铍填充第二个弹壳，然后有六个
+and beryllium that fills up the second
+shell then you have the next six
+
+99
+00:08:35,970 --> 00:08:43,070
+元素硼碳氮氧氟和氖让我再试一次
+elements boron carbon nitrogen oxygen
+fluorine and neon let me try this again
+
+100
+00:08:43,070 --> 00:08:50,370
+看看那是否能使硼氮碳Neah氟氖起作用，然后
+see if that's gonna work boron nitrogen
+carbon Neah fluorine neon and then
+
+101
+00:08:50,370 --> 00:08:53,760
+您正在填充2p外壳，依此类推，等等，然后完全填充它们
+you're filling the 2p shell and so forth
+and so on and you fill them at all on
+
+102
+00:08:53,760 --> 00:08:58,320
+所有这些顺序，并为您提供元素周期表的结构，但您
+all this order and that gives you the
+structure of the periodic table but you
+
+103
+00:08:58,320 --> 00:09:00,420
+可能会想知道自己稍等一下
+might wonder to yourself well wait a
+second
+
+104
+00:09:00,420 --> 00:09:05,490
+为什么在3d外壳之前填充4s外壳，因为
+why is it that we're filling the 4s
+shell before the 3d shell because
+
+105
+00:09:05,490 --> 00:09:12,000
+根据上面的公式，三个壳应该有较低的能量
+according to that formula up there the
+three shell should have lower energy
+
+106
+00:09:12,000 --> 00:09:17,640
+而不是四个弹壳，那么是什么赋予了我们在开始之前充满4s的权利
+than the four shell and so what gives us
+the right to fill up 4s before before we
+
+107
+00:09:17,640 --> 00:09:23,810
+填满3d，为此我们为什么要填满周期表哦，感谢上帝
+fill up 3d and for that matter why are
+we filling a periodic table oh thank god
+
+108
+00:09:23,810 --> 00:09:27,840
+所以有周期表，我们按照这个顺序填写第一个
+so there's the periodic table and we
+fill in this order there's a the first
+
+109
+00:09:27,840 --> 00:09:35,930
+给第二个壳加壳2 2's 2p 3s 3p，然后在前面加满4s 
+shell the second shell two 2's 2p 3s 3p
+and there's 4s filling up before the
+
+110
+00:09:35,930 --> 00:09:42,270
+在3d之前，您可能会问得很好，为什么我们要填充2s 
+before the 3d you might ask the question
+well why is it we're filling up 2s
+
+111
+00:09:42,270 --> 00:09:45,510
+在2p之前，因为根据该公式，他们有或多或少的
+before 2p because according to that
+formula up there they have more or less
+
+112
+00:09:45,510 --> 00:09:52,410
+同样的能量，所以这个问题的答案基本上是因为
+the same energy so the the answer to
+this question is basically because V of
+
+113
+00:09:52,410 --> 00:09:56,850
+ R在R上不等于1，它与库仑相互作用不成比例
+R is not equal to 1 over R it's not
+proportional to the Coulomb interaction
+
+114
+00:09:56,850 --> 00:10:02,250
+很好，为什么不那么好，它不只是一个电子和一个原子核，而是一个
+anymore well why not well it's not just
+a single electron and a nucleus it's an
+
+115
+00:10:02,250 --> 00:10:06,450
+电子与原子中所有其他电子相互作用以及
+electron interacting with all of the
+other electrons in the atom as well as
+
+116
+00:10:06,450 --> 00:10:10,410
+原子核，这样电子越靠近原子核，它所看到的越多
+the nucleus so as the electron gets
+closer to the nucleus it sees more
+
+117
+00:10:10,410 --> 00:10:13,500
+原子核和更少的其他电子，它到达的距离越远
+nucleus and less of the other electrons
+and it gets as far as it gets farther
+
+118
+00:10:13,500 --> 00:10:17,459
+离开它会看到更多您可以想到的其他电子，因此拥有某种
+away it sees more of the other electrons
+you can think of so having some sort of
+
+119
+00:10:17,459 --> 00:10:22,410
+有效电位是电子与电子之间的相互作用
+effective potential which is the
+interaction between the electron and
+
+120
+00:10:22,410 --> 00:10:26,130
+其他电子的原子核和云都需要修改
+both the nucleus and the cloud of the
+other electrons so you need to modify
+
+121
+00:10:26,130 --> 00:10:30,810
+这个电位的形状有些许，如果您尝试解决这个问题或径向
+the shape of this potential somewhat and
+if you try to solve this or the radial
+
+122
+00:10:30,810 --> 00:10:34,709
+您解决的量子力学问题知道氢原子，但是您
+quantum mechanics problem that you solve
+you know for the hydrogen atom but you
+
+123
+00:10:34,709 --> 00:10:39,029
+改变这种潜力的形状，您会突然发现
+change the shape of this potential
+you'll all of a sudden discover that all
+
+124
+00:10:39,029 --> 00:10:43,019
+这些弹壳现在具有不同的能量，它们会四处移动，这就是为什么这些
+these shells have different energies now
+they shift around and that's why these
+
+125
+00:10:43,019 --> 00:10:47,699
+这些填充轨道的顺序不是您所期望的
+the ordering of these filling of the
+orbitals is not what you would expect
+
+126
+00:10:47,699 --> 00:10:53,130
+从一个简单的氢原子实际上是我们在
+from just a simple hydrogen atom
+actually was we're on the subject of the
+
+127
+00:10:53,130 --> 00:10:56,279
+与其他电子的相互作用，您可能会感到惊讶，我们可以
+interaction with the other electrons you
+might find it surprising that we can
+
+128
+00:10:56,279 --> 00:11:00,990
+甚至描述了一般电子氢的本征态
+even describe the eigenstates of the
+hydrogen of a general electron the same
+
+129
+00:11:00,990 --> 00:11:05,310
+我们可以像描述原子本征态的方式一样
+way we can a general atom the same way
+we can describe the eigenstates of a
+
+130
+00:11:05,310 --> 00:11:08,910
+氢原子，因为您知道它不仅与原子核相互作用，而且
+hydrogen atom because you know it's not
+just interacting with the nucleus it's
+
+131
+00:11:08,910 --> 00:11:12,389
+也与所有其他电子相互作用，但原因或多或少
+interacting with all the other electrons
+as well but the reason more or less you
+
+132
+00:11:12,389 --> 00:11:15,600
+可以这样做是因为您可以治疗自己以外的所有其他电子
+can do this is because you can treat all
+of the other electrons besides yourself
+
+133
+00:11:15,600 --> 00:11:18,720
+它只是球形的云，所以还是球形的
+it's just some sort of spherical cloud
+so it's still sort of a spherical
+
+134
+00:11:18,720 --> 00:11:23,040
+问题，所以它遵循或多或少相同的规则，您仍然可以枚举
+problem so it follows more or less the
+same rules and you can still enumerate
+
+135
+00:11:23,040 --> 00:11:29,010
+可能的本征态也一样，所以这是一般结构
+the possible eigenstates in the same way
+okay so this is a the general structure
+
+136
+00:11:29,010 --> 00:11:34,829
+元素周期表的内容，现在我们可以继续探讨化学键
+of the periodic table and we can now
+move on to asking about chemical bonds
+
+137
+00:11:34,829 --> 00:11:39,500
+在元素周期表中的原子之间，好了，玛德琳的法则充满了
+between the atoms in the periodic table
+okay there's filling up Madeleine's rule
+
+138
+00:11:39,500 --> 00:11:44,279
+所以有很多不同类型的绑定，有一个图表看起来像
+so there's a bunch of different types of
+bonding there's a chart that looks like
+
+139
+00:11:44,279 --> 00:11:49,170
+这本书中的告诉您五种不同类型的
+this in the in the in the book which
+tells you five different types of
+
+140
+00:11:49,170 --> 00:11:53,670
+键合离子共价金属分子氢及其一些
+bonding ionic covalent metallic
+molecular hydrogen and some of their
+
+141
+00:11:53,670 --> 00:11:56,850
+属性及其原因是值得熟悉的
+properties and what causes them it's
+probably worth familiarizing yourself
+
+142
+00:11:56,850 --> 00:12:00,120
+借助其网上图表，您今天知道我们将尝试涵盖我们的
+with its chart over the net you know
+today we're going to try to cover our
+
+143
+00:12:00,120 --> 00:12:05,370
+离子ik和共价其他类型，我们稍后将在
+ion ik and covalent the other types
+we'll do a little bit later on in the in
+
+144
+00:12:05,370 --> 00:12:10,470
+讲座系列，所以您知道基本的基本事实在您身上
+the lecture series so the the you know
+the basic basic facts are on this you
+
+145
+00:12:10,470 --> 00:12:15,240
+应该知道这些，但是今天我们将从最简单的类型开始
+should probably know these but we will
+just start today with the simplest type
+
+146
+00:12:15,240 --> 00:12:19,339
+离子键的键合
+of bonding which is ionic bonding
+
+147
+00:12:21,500 --> 00:12:25,880
+离子键的原理基本上是电子是
+and the principle of an ionic bond is
+basically that an electron is
+
+148
+00:12:25,880 --> 00:12:38,750
+从一个原子从一个原子转移到另一个原子，然后
+transferred from one atom from one atom
+atom to another to another and then the
+
+149
+00:12:38,750 --> 00:12:51,800
+离子吸引，然后离子吸引，所以这种反应是一种
+ions attract then ions attract so the
+kind of the kind of a sort of reaction
+
+150
+00:12:51,800 --> 00:12:59,510
+我们可以拥有的是一个钠原子加一个氯原子，一个电子是
+that we we can have is a sodium atom
+plus a chlorine atom an electron is
+
+151
+00:12:59,510 --> 00:13:04,850
+从钠转移到氯，所以我们得到钠加
+transferred from the sodium to the
+chlorine so we get sodium plus plus
+
+152
+00:13:04,850 --> 00:13:10,970
+氯减去，然后我有两个带电物种，它们吸引每个
+chlorine minus and then now I have two
+charged species and they attract each
+
+153
+00:13:10,970 --> 00:13:16,520
+其他形式的氯化钠听起来很容易，可能是最简单的方法
+other in the form sodium chloride sounds
+easy enough probably the easiest way to
+
+154
+00:13:16,520 --> 00:13:21,560
+跟踪这种反应或评估这种分析
+keep track of this kind of reaction or
+to evaluate this kind of analyze this
+
+155
+00:13:21,560 --> 00:13:26,420
+反应的类型是考虑与每个步骤相关的能量，因此
+type of reaction is to think about the
+energies associated with each step so
+
+156
+00:13:26,420 --> 00:13:32,780
+一种能量是电离能
+one piece of the energy is the
+ionization energy the ionization which
+
+157
+00:13:32,780 --> 00:13:43,850
+是将电子从钠原子上拉出来以产生钠离子的能量， 
+is the energy to pull the electron off
+the sodium atom to make a sodium ion and
+
+158
+00:13:43,850 --> 00:13:48,140
+一个电子，所以您从钠原子中性开始，将电子拉开
+an electron so you start with the sodium
+atom neutral you pull the electron apart
+
+159
+00:13:48,140 --> 00:13:52,100
+从中取出无穷大，钠离子无限远
+from it and put it out infinity and the
+sodium ion infinitely far away at
+
+160
+00:13:52,100 --> 00:13:56,330
+无穷大，这将是能量上的差异，拉动
+infinity and this will be the difference
+in energies what's required to pull the
+
+161
+00:13:56,330 --> 00:14:02,860
+离开原子的电子还有所谓的电子亲和力
+electron off the atom there's also
+what's known as the electron affinity
+
+162
+00:14:03,610 --> 00:14:11,360
+当您将电子放到
+which is the energy that you get back
+when you put the electron on the
+
+163
+00:14:11,360 --> 00:14:17,060
+氯原子生成氯离子，然后最后一块被称为
+chlorine atom to make a chlorine ion and
+then the last piece is known as the
+
+164
+00:14:17,060 --> 00:14:21,700
+内聚能或键能
+cohesive energy or the bonding energy
+
+165
+00:14:22,900 --> 00:14:31,280
+当您将钠离子和
+which is the energy you get out when you
+put together the sodium ion and the
+
+166
+00:14:31,280 --> 00:14:38,720
+氯离子得到氯化钠还可以吗
+chlorine ion
+to get sodium chloride okay so the total
+
+167
+00:14:38,720 --> 00:14:47,420
+该反应的能量预算是离子，您返回的电离能
+energy budget for this reaction is e ion
+the ionization energy you get back the
+
+168
+00:14:47,420 --> 00:14:52,689
+亲和能与电子的亲和力，则返回内聚能， 
+affinity energy the electron affinity
+and you get back the cohesive energy and
+
+169
+00:14:52,689 --> 00:14:59,990
+如果总Delta e小于零，如果Delta e小于零，则您
+if the total Delta e is less than zero
+if Delta e is less than zero then you
+
+170
+00:14:59,990 --> 00:15:05,540
+得到一个反应，然后它就会反应
+get a reaction then it reacts the
+reaction goes towards now there's a
+
+171
+00:15:05,540 --> 00:15:10,009
+关于这种说法的一些警告，第一个警告是，如果
+couple of caveats about about this kind
+of argument the first caveat is that if
+
+172
+00:15:10,009 --> 00:15:14,449
+你是化学家，你不可避免地在谈论吉布斯自由能，而不是
+you're chemists you are inevitably
+talking about Gibbs free energies rather
+
+173
+00:15:14,449 --> 00:15:17,839
+不仅仅是能量，而吉布斯自由能量的原因是因为你
+than just energies and the reason it's
+Gibbs free energies is because you're
+
+174
+00:15:17,839 --> 00:15:21,680
+在有限的温度（可能是室温）下进行实验
+doing your experiment at finite
+temperature probably room temperature
+
+175
+00:15:21,680 --> 00:15:26,269
+和有限的压力，您的房间压力，我们会认为，就像我们在做
+and finite pressure your room pressure
+we're gonna think just as if we're doing
+
+176
+00:15:26,269 --> 00:15:29,930
+一切都在零温度，零压力下进行，所以我们可以考虑一下
+everything at zero temperature zero
+pressure so we can just think about
+
+177
+00:15:29,930 --> 00:15:34,579
+能量，但第二件事应该或多或少是同一件事
+energies but it's more or less the same
+thing the second thing one should be
+
+178
+00:15:34,579 --> 00:15:39,380
+警告您是否正在读书是凝聚力或粘合一词
+warned about if you're reading books is
+that the word cohesive energy or bonding
+
+179
+00:15:39,380 --> 00:15:42,529
+每个人在不同的书中以不同的方式使用能量
+energy is used in several different
+senses in different books everyone
+
+180
+00:15:42,529 --> 00:15:47,000
+同意凝聚力或键合能量是放两件东西的能量。 
+agrees that a cohesive energy or bonding
+energy is the energy to put two things
+
+181
+00:15:47,000 --> 00:15:50,899
+在一起，但并非所有人都同意这两个东西应该是什么，所以他们会
+together but not everyone agrees what
+those two things should be so they'll
+
+182
+00:15:50,899 --> 00:15:54,319
+谈论氯化钠的内聚能，一些书会告诉你
+talk about the cohesive energy for
+sodium chloride and some books will tell
+
+183
+00:15:54,319 --> 00:15:58,939
+您，整个Delta e是凝聚力，有些书会告诉您
+you that the whole Delta e is the
+cohesive energy and some books will tell
+
+184
+00:15:58,939 --> 00:16:02,899
+您，凝聚力只是将钠放在一起的能量
+you that the cohesive energy is just the
+energy for putting together the sodium
+
+185
+00:16:02,899 --> 00:16:06,649
+离子和氯离子，因此您会得到两个不同的结果
+ion and the chlorine ion so you'll get
+two different results depending on it
+
+186
+00:16:06,649 --> 00:16:09,139
+是否要计算整个Delta e并称其为绑定
+whether you're accounting the whole
+Delta e and calling that the bonding
+
+187
+00:16:09,139 --> 00:16:12,709
+能量，或者您只是在谈论将两个离子放在一起的能量
+energy or if you're just talking about
+the energy to put together the two ions
+
+188
+00:16:12,709 --> 00:16:17,689
+这是另一个警告，最后一个警告是您得到的结果
+so that's another warning the last
+warning is that the results that you get
+
+189
+00:16:17,689 --> 00:16:22,550
+结合能量的方法会截然不同，具体取决于您在说什么
+for bonding energy will be extremely
+different depending if you're talking
+
+190
+00:16:22,550 --> 00:16:27,949
+关于摄取一钠离子和一氯离子
+about taking one ion of sodium and one
+ion than chlorine and putting them
+
+191
+00:16:27,949 --> 00:16:31,189
+一起制成氯化钠分子，或者如果您正在谈论
+together to make a sodium chloride
+molecule or if you're talking about
+
+192
+00:16:31,189 --> 00:16:35,209
+拿很多，把它们放在一起， 
+taking lots of them and putting them
+together to make a whole big chunk of
+
+193
+00:16:35,209 --> 00:16:39,230
+氯化钠，其原因是因为您知道您的钠原子
+sodium chloride and the reason for this
+is because you know your sodium atom if
+
+194
+00:16:39,230 --> 00:16:42,680
+它要么与一种氯结合，要么与许多不同的氯结合
+it's either bonded to one chlorine or
+it's bonded to a lot of different
+
+195
+00:16:42,680 --> 00:16:45,740
+氯将是完全不同的能量，具体取决于多少东西
+chlorines it will be a totally different
+energy depending on how many things
+
+196
+00:16:45,740 --> 00:16:49,570
+您与之紧密相连，这是另一件事
+you're bonded to
+so that's another thing to keep in mind
+
+197
+00:16:49,570 --> 00:16:55,910
+要小心，所以在这组试图追踪的能量中
+to be careful about okay so in this set
+of energies that were try to keep track
+
+198
+00:16:55,910 --> 00:16:59,840
+可能最容易理解的是
+of probably the easiest thing to
+understand is the bonding energy of the
+
+199
+00:16:59,840 --> 00:17:08,800
+内聚能，也称为马德隆能或库仑能
+cohesive energy also known as the
+madelung energy or the Coulomb energy
+
+200
+00:17:08,800 --> 00:17:16,430
+因为这种库仑能量基本上就是库仑
+because this Coulomb energy is basically
+just it's basically just the Coulomb
+
+201
+00:17:16,430 --> 00:17:21,709
+系统中相关离子之间的两个能量之间的关系
+energy between the two between the
+relevant ions in your in your system so
+
+202
+00:17:21,709 --> 00:17:33,140
+在I和J之间的4个PI epsilon零距离上，我不等于j Qi QJ 
+i not equal to j Qi QJ over 4 PI epsilon
+nought distance between the I and J so
+
+203
+00:17:33,140 --> 00:17:41,300
+ Qi是离子上的电荷，这就是离子J，所以如果我有一个
+Qi is the charge on ion
+this is charged ion J so if I have a
+
+204
+00:17:41,300 --> 00:17:49,070
+一堆-如果我-如果我有两个，我在JI上就照常服用库仑
+bunch - if I - I on J I just take its
+usual the usual Coulomb if I have two
+
+205
+00:17:49,070 --> 00:17:52,550
+离子带正电荷的女人带负电荷的我只是总结
+ions one with positive charge woman
+negative charge I'm just summing up the
+
+206
+00:17:52,550 --> 00:17:57,260
+这些离子之间通常的库仑能获得内聚能，这是
+usual Coulomb energy between those ions
+to get the cohesive energy now this is a
+
+207
+00:17:57,260 --> 00:18:02,900
+表达键合能量或获得的能量的绝佳方法
+perfectly good way to express the the
+bonding energy or the energy you get by
+
+208
+00:18:02,900 --> 00:18:06,530
+把这两种电荷带到一起，但是很明显
+taking these two charge species and
+bringing them together but it obviously
+
+209
+00:18:06,530 --> 00:18:10,730
+实际上，对于大多数离子固体它也相当准确
+and actually it's fairly accurate as
+well for most ionic solids gives you a
+
+210
+00:18:10,730 --> 00:18:14,690
+很好地估计了由此获得的内聚能的数量
+very good estimate of the the amount of
+cohesive energy you get by this
+
+211
+00:18:14,690 --> 00:18:19,250
+定义，所以您只需要知道这些离子之间的距离
+definition and so all you need to know
+is how far apart those ions are and you
+
+212
+00:18:19,250 --> 00:18:23,390
+知道你有多少键合能量当然会有一点问题
+know how much bonding energy you got of
+course there's a little bit of a problem
+
+213
+00:18:23,390 --> 00:18:27,440
+这个表达式，如果带上
+with this expression and that is it goes
+to minus infinity if you bring the
+
+214
+00:18:27,440 --> 00:18:30,950
+钠或离子，然后氯离子非常接近，这显然是
+sodium or ion then the chlorine ion
+extremely close and that's obviously
+
+215
+00:18:30,950 --> 00:18:39,260
+没有任何意义，所以这里发生的实际情况是R IJ 
+doesn't make any sense so what's really
+happening here like this this is a R IJ
+
+216
+00:18:39,260 --> 00:18:44,840
+在两个原子之间，这是能量，所以这是R上的1曲线
+for between the two atoms and here's the
+energy so this is the 1 over R curve
+
+217
+00:18:44,840 --> 00:18:50,450
+您期望的库仑相互作用和获得的实际物理能量
+that you expect for Coulomb interaction
+and the actual physical energy you get
+
+218
+00:18:50,450 --> 00:18:54,500
+看起来像是R上方的1看起来像是R上方的1，然后在某个时候它突然射出
+looks like 1 over R looks like 1 over R
+and then at some point it shoots off way
+
+219
+00:18:54,500 --> 00:19:00,740
+直到无穷大，所以这是实际的，所以如果您知道2之间的距离
+up to infinity so this is actual so if
+you know the distance between the the 2
+
+220
+00:19:00,740 --> 00:19:05,450
+亚当斯（Adams）就是您的兽医，只需将这种能量即库仑
+Adams's you have a vet just by taking
+this energy here which is the Coulomb
+
+221
+00:19:05,450 --> 00:19:10,490
+预测它非常接近那里的实际结合能，因为
+prediction it's extremely close to the
+actual bonding energy there because you
+
+222
+00:19:10,490 --> 00:19:14,179
+因为射击非常快，所以是什么原因导致
+because the shoot-off is extremely rapid
+so what's causing this shoot off to
+
+223
+00:19:14,179 --> 00:19:18,740
+当你开始推动两个原子时，无穷远真的非常接近
+infinity well when you start pushing two
+atoms really close really close together
+
+224
+00:19:18,740 --> 00:19:22,070
+你意识到他们不只是点收费了，他们将要开始
+you realize they're not just point
+charges anymore they're gonna start to
+
+225
+00:19:22,070 --> 00:19:25,429
+重叠它们的轨道将开始重叠宝利排除原理是
+overlap their orbitals are gonna start
+to overlap Pauli exclusion principle is
+
+226
+00:19:25,429 --> 00:19:28,700
+将要进入游戏，因为您也尝试放置两个
+going to get into the game because
+you're trying to put two too you know
+
+227
+00:19:28,700 --> 00:19:32,690
+一处电子太多，能量就非常非常猛烈地射出
+too many electrons in one place and the
+energy just shoots right off very very
+
+228
+00:19:32,690 --> 00:19:37,790
+速度非常快，但就目前而言，至少库仑估算值仍然是
+very rapidly but right here by the
+minimum the Coulomb estimate is still a
+
+229
+00:19:37,790 --> 00:19:41,990
+很好地估计了内聚能，因此几乎所有东西
+pretty good estimate of the cohesive
+energy so that's pretty much everything
+
+230
+00:19:41,990 --> 00:19:46,670
+我们现在需要了解内聚能，电离又如何
+we need to know about the cohesive
+energy now what about the ionization
+
+231
+00:19:46,670 --> 00:19:50,330
+能量和电子亲和势能很好地电离能或电子
+energy and electron affinity energies
+well the ionization energy or electron
+
+232
+00:19:50,330 --> 00:19:53,630
+亲和能与原子中的能级有关
+affinity energy have to do with the
+energy levels in the atoms and in order
+
+233
+00:19:53,630 --> 00:19:56,600
+弄清楚我们真的​​需要解决那些的薛定inger方程
+to figure that out we really need to
+solve the Schrodinger equation of those
+
+234
+00:19:56,600 --> 00:20:00,020
+原子，你知道一个电子和一些有效的电势与
+atoms and you know an electron and some
+effective potential which has to do with
+
+235
+00:20:00,020 --> 00:20:03,290
+原子核以及所有其他电子，这是一个难题
+the nucleus and also all of the other
+electrons it's kind of a hard problem
+
+236
+00:20:03,290 --> 00:20:07,790
+但即使我们不打算实际求解较短的方程
+but even though we're not going to
+actually solve the shorter equation
+
+237
+00:20:07,790 --> 00:20:12,350
+有些趋势很容易跟踪，所以您知道
+there's some trends which are pretty
+easy to keep track of so this you know
+
+238
+00:20:12,350 --> 00:20:16,790
+如果您已经完成了化学反应，您可能已经知道了，但是这个图
+if you've done chemistry you probably
+know this already but the this plot this
+
+239
+00:20:16,790 --> 00:20:20,210
+元素周期表的图片向您展示了大的电子亲和力和
+picture of the periodic table shows you
+where the large electron affinities and
+
+240
+00:20:20,210 --> 00:20:24,500
+大电离能还是小电离能
+the large ionization energies or small
+ionization energies are it's also down
+
+241
+00:20:24,500 --> 00:20:28,640
+在这里，小电离能在这个角落被降低了，所以
+here so the small ionization energies
+are sort of down in this corner and so
+
+242
+00:20:28,640 --> 00:20:31,970
+污点的大小是最小的电离能是多少
+the size of the splotch is how big the
+ionization energy the smallest one being
+
+243
+00:20:31,970 --> 00:20:37,160
+你知道铯或在这里，大的电离能在上升
+you know cesium or francium down here
+and the large ionization energies way up
+
+244
+00:20:37,160 --> 00:20:40,940
+在氦气中的稀有气体中，电子亲和力却相反
+here in the noble gases in helium
+electron affinities go the other way
+
+245
+00:20:40,940 --> 00:20:43,940
+除了基本没有电子的稀有气体
+with the exception of the noble gases
+which have essentially no electron
+
+246
+00:20:43,940 --> 00:20:48,020
+亲和力最高的电子亲和力在此角上方
+affinity the highest electron affinities
+are way over here in this corner up by
+
+247
+00:20:48,020 --> 00:20:53,420
+氟，氯和溴在右侧，因此如果您想要
+fluorine and chlorine and bromine over
+on the right-hand side so if you want a
+
+248
+00:20:53,420 --> 00:20:57,830
+好的离子固体，您需要什么，您知道离子反应是您需要
+good ionic solid what you need you know
+an ionic reaction is you need to be able
+
+249
+00:20:57,830 --> 00:21:01,880
+轻松地将电子从一个物种中拉出，然后您想得到一个
+to easily pull the electron off of one
+species and then you want to get out a
+
+250
+00:21:01,880 --> 00:21:05,780
+大量的能量用于其他方面，因此您需要小的电离
+lot of energy for putting it on the
+other so you want a small ionization
+
+251
+00:21:05,780 --> 00:21:11,900
+能量和大的电子亲和力很好很好
+energy and a large electron affinity so
+good so good
+
+252
+00:21:11,900 --> 00:21:16,940
+离子性固体就像是您知道氯是氟化钠things 
+ionic solids are things like you know
+chlorine is sodium fluoride rubidium
+
+253
+00:21:16,940 --> 00:21:21,500
+从这里经过的氯化物与从那里经过的物质捆绑在一起
+chloride things from way over here bound
+together with things from way over there
+
+254
+00:21:21,500 --> 00:21:28,789
+现在化学家对此表示，电子壳是原子的
+now chemists have an expression for this
+that a shell of electrons an atomic
+
+255
+00:21:28,789 --> 00:21:34,460
+壳要被填充，所以如果您有一个被填充的壳加上一个电子，例如
+shell wants to be filled so if you have
+a shell filled plus one electron like
+
+256
+00:21:34,460 --> 00:21:38,240
+您将在第一列中在3秒内钠具有一个电子
+you would have in this first column
+sodium has a one electron in the 3s
+
+257
+00:21:38,240 --> 00:21:43,820
+壳钾在4s壳中有一个电子，壳很容易被拉出
+shell potassium has one electron in the
+4s shell that shell is easily pulled off
+
+258
+00:21:43,820 --> 00:21:46,700
+因为当外壳完全填满时，它是最快乐的
+because the shell is most happy when
+it's exactly filled
+
+259
+00:21:46,700 --> 00:21:51,169
+类似地，氟是一种填充物，因此它具有高电子
+similarly fluorine it's one short of
+being filled so it has a high electron
+
+260
+00:21:51,169 --> 00:21:57,350
+它想被填补的亲和力，所以我们能了解一点他们主要是
+affinity it wants to be filled so can we
+understand a little bit they're mostly
+
+261
+00:21:57,350 --> 00:21:59,990
+右边的填充壳，它们具有很高的电子亲和力， 
+filled shells on the on the right and
+they have high electron affinity and
+
+262
+00:21:59,990 --> 00:22:05,539
+高电离能，左侧则是小电离能
+high ionization energy and on the Left
+it's small ionization energy in small
+
+263
+00:22:05,539 --> 00:22:09,919
+电子亲和力，所以我们可以通过某种物理方式理解为什么
+electron affinities so can we understand
+in some physical way why this is
+
+264
+00:22:09,919 --> 00:22:15,860
+实际上，弄清楚为什么这至少可以使我们粗略了解并不是很困难
+actually it's not too hard to figure out
+why that is at least roughly we can make
+
+265
+00:22:15,860 --> 00:22:20,179
+它的卡通图片，让我们尝试通过观察钠来弄清楚
+a cartoon picture of it so let's try to
+figure it out from looking at sodium so
+
+266
+00:22:20,179 --> 00:22:25,090
+钠它有，如果你在这张桌子上看，它有11个元素周期表
+sodium it has I'll let it's if you look
+on this table a periodic table it has 11
+
+267
+00:22:25,090 --> 00:22:29,630
+电子是它的第11个元素，所以看起来像是具有原子核的是什么
+electrons its 11th element so what is
+what does it look like it has a nucleus
+
+268
+00:22:29,630 --> 00:22:38,899
+的电荷加上11加11的原子核，然后我们得到
+of charged plus 11 plus 11 in the
+nucleus and then then we have what we
+
+269
+00:22:38,899 --> 00:22:44,779
+在1和2的壳中有10个电子，因此我们将绘制1s和
+have 10 electrons in the 1 and 2's
+shells so we'll draw a picture of 1s and
+
+270
+00:22:44,779 --> 00:22:52,130
+ 2s对不起和2p，在1s 2s 2p壳中，我们让10个电子与
+2s sorry and 2p and in the 1s 2s 2p
+shells we have a let 10 electrons with a
+
+271
+00:22:52,130 --> 00:22:57,230
+负负10的电荷，那么我们的3s外壳中有1个电子
+charge of minus minus 10 then we have
+this 1 electron in the 3s shell out here
+
+272
+00:22:57,230 --> 00:23:02,779
+所以这是3s外壳中的1个电子，如果您是1个电子
+so this is 1 electron out here in the 3s
+shell and to that 1 electron if you
+
+273
+00:23:02,779 --> 00:23:06,769
+想象自己是一个电子，你实际上有多少核电荷
+imagine yourself being that one electron
+how much nuclear charge do you actually
+
+274
+00:23:06,769 --> 00:23:15,100
+很好地看到总核电荷，您将看到这个电子看到Z等于1 
+see well the total nuclear charge you
+would see this electron sees Z equals 1
+
+275
+00:23:15,100 --> 00:23:20,450
+为什么好，因为其中的这10个电子或多或少地被屏蔽了
+why well because these 10 electrons
+inside of it are more or less screening
+
+276
+00:23:20,450 --> 00:23:27,380
+那是原子核中的正电荷，所以它看到的电荷只有加1，所以如果我们
+that's positive charge in the nucleus so
+it sees a charge of only plus 1 so if we
+
+277
+00:23:27,380 --> 00:23:30,950
+想用我们的氢天鹰座来找出
+wanted to
+use our hydrogen aquila to figure out
+
+278
+00:23:30,950 --> 00:23:36,080
+束缚能，我们可以说束缚能是burg乘以1 
+the binding energy we would say that the
+binding energy is a rid burg times one
+
+279
+00:23:36,080 --> 00:23:40,880
+在C上平方，这是一个3 s除以三个平方N平方
+squared over the C this is a three s
+divided by three squared N squared
+
+280
+00:23:40,880 --> 00:23:47,870
+现在楼下的这种结合能电离能有点
+downstairs now this binding energy
+ionization energy is a little bit of an
+
+281
+00:23:47,870 --> 00:23:52,430
+低估了3s电子的实际结合结合能
+underestimate of the actual binding
+binding energy of the 3s electron and
+
+282
+00:23:52,430 --> 00:23:56,090
+其原因是因为有时3s电子越来越靠近
+the reason for this is because sometimes
+that 3s electron gets closer to the
+
+283
+00:23:56,090 --> 00:24:00,380
+并意识到实际上这不是+1的电荷，而是一个加号
+nucleus and realizes that in fact it's
+not a charge of +1 it's actually a plus
+
+284
+00:24:00,380 --> 00:24:04,280
+电荷大于+1，因此约束范围比此估算值还要小
+charge bigger than +1 so it's bound a
+little bit tighter than this estimate
+
+285
+00:24:04,280 --> 00:24:08,510
+会告诉我们好的，但是基本上您知道某种程度的近似
+would would tell us okay but basically
+you know at some level of approximation
+
+286
+00:24:08,510 --> 00:24:13,880
+就像1个电子束缚在一个电荷上确实有意义
+it's like 1 electron bound to just one
+charge does that make sense yeah okay
+
+287
+00:24:13,880 --> 00:24:18,280
+现在让我们看一下氟，而不是地板。 
+now let's look at fluorine instead
+floorings a little more complicated
+
+288
+00:24:18,280 --> 00:24:25,040
+氟，这是第九个元素，几乎被填充以显示出什么
+fluorine it's the ninth element right
+over here almost filled to show so what
+
+289
+00:24:25,040 --> 00:24:28,880
+是什么是氟很好吗，所以我们的核带有电荷
+is the what is fluorine see well okay so
+we have the nucleus with a charge of
+
+290
+00:24:28,880 --> 00:24:33,650
+加9，然后我们将1s壳放在此处1s凝胶中，该凝胶可能会充电
+plus nine and then we have the 1s shell
+down here 1s gel which has might charge
+
+291
+00:24:33,650 --> 00:24:40,490
+减去两个，然后在两个壳中，我们有七个电子在这里
+of minus two and then in the two shell
+we have seven electrons out here take it
+
+292
+00:24:40,490 --> 00:24:45,230
+到一二三四五五六七七电子现在假设你是
+to one two three four five six seven
+seven electrons now suppose you're and
+
+293
+00:24:45,230 --> 00:24:50,540
+它们或多或少处于相同的半径，因为它们都在两个壳中，因此
+they're more or less at the same radius
+because they're all in the two shell so
+
+294
+00:24:50,540 --> 00:24:56,840
+假设您是电子，您看到的是Z的电荷等于
+suppose you're this electron what do you
+see you see a charge of Z equals well
+
+295
+00:24:56,840 --> 00:25:01,490
+也许您会看到加上七个，因为这里的这些电子没有屏蔽
+maybe you see plus seven because these
+electrons here aren't screening the
+
+296
+00:25:01,490 --> 00:25:06,380
+核，所以您只看到加9减两个现在加7有点
+nucleus so you only see plus 9 minus two
+now plus seven is a little bit of an
+
+297
+00:25:06,380 --> 00:25:11,870
+高估您，您将获得摆脱困境的能量7 
+over estimate you would you would then
+get a binding energy of a rid burg seven
+
+298
+00:25:11,870 --> 00:25:16,730
+平方，让我们看，这是两个电子，所以超过两个
+squared over let's see so this is a two
+electron out here so it's over two
+
+299
+00:25:16,730 --> 00:25:21,140
+平方这个电子的主量子数平方这是一个巨大的
+squared the principle quantum number
+squared of this electron this is a huge
+
+300
+00:25:21,140 --> 00:25:25,400
+高估了氟中的实际结合能，因为有时
+over estimate of the actual binding
+energy in fluorine because sometimes
+
+301
+00:25:25,400 --> 00:25:30,380
+这些电子确实会进入该电子内部并更好地屏蔽核
+these electrons do get inside of this
+electron and screen the nucleus better
+
+302
+00:25:30,380 --> 00:25:34,730
+比我们在这里估计的要多，但是您仍然看到有一个很好的理由
+than we would estimate here but still
+you see that there's a very good reason
+
+303
+00:25:34,730 --> 00:25:39,710
+为什么它是一个几乎装满的炮弹，看到一个大核弹，一个几乎空
+why it is an almost filled shell sees a
+big nuclear charge and an almost empty
+
+304
+00:25:39,710 --> 00:25:45,090
+炮弹看到一个小的核弹，所以这是为什么
+shell sees a small nuclear charge
+so this is behind the origin of why it
+
+305
+00:25:45,090 --> 00:25:49,320
+是我们有这个卡通短语，一个几乎充满的贝壳想要成为
+is that we have this this cartoon phrase
+that an almost filled shell wants to be
+
+306
+00:25:49,320 --> 00:25:53,280
+填充，几乎要清空的填充壳想要清空，这会使
+filled and an almost empty fill shell
+wants to be emptied does that make some
+
+307
+00:25:53,280 --> 00:25:58,770
+感觉是的是的是的，好吧，所以这基本上是一个问题
+sense yes yes yeah okay all right so
+it's basically an issue of how well
+
+308
+00:25:58,770 --> 00:26:03,120
+屏幕上的核是这样，这给了我们很好的画面
+screen the nucleus is so this gives us a
+pretty good picture of what's going on
+
+309
+00:26:03,120 --> 00:26:08,790
+在离子键内，电子数量多少有差异
+within ionic bonds there a differences
+in how much the electrons are how much
+
+310
+00:26:08,790 --> 00:26:13,440
+原子想要有一个多余的电子或想要放弃另一个电子， 
+the atoms want to have an extra electron
+or want to give up another electron and
+
+311
+00:26:13,440 --> 00:26:17,400
+所以如果你有一个原子如果你有一个原子如钾和一个原子如
+so if you have an atom if you have an
+atom like potassium and an atom like
+
+312
+00:26:17,400 --> 00:26:20,790
+氟钾很乐意放弃其电子氟
+fluorine the potassium is happy to give
+up its electron the fluorine wants to
+
+313
+00:26:20,790 --> 00:26:25,050
+得到一样的额外电子，你得到两个离子，然后离子被吸引，所以它是一个
+get that alike extra electron you get
+two ions the ions then attract so it's a
+
+314
+00:26:25,050 --> 00:26:30,000
+离子键的理想情况，但是您在两个键之间也有键
+great picture of ionic bonding however
+you also have bonding between two
+
+315
+00:26:30,000 --> 00:26:33,720
+在两个原子之间需要电子的电子
+electrons that want between two atoms
+that want the electrons just as much as
+
+316
+00:26:33,720 --> 00:26:38,430
+彼此之间，例如，两个氧原子之间会相互键合
+it each other for example Oh to two
+oxygen atoms will bond with each other
+
+317
+00:26:38,430 --> 00:26:42,120
+当然，他们想要电子彼此一样多，所以这是
+and of course they want the electrons
+just as much as each other so this is
+
+318
+00:26:42,120 --> 00:26:47,720
+给我们带给他们所谓的共价键共价键的图片
+give brings us to the picture of what
+they call covalent bonding covalent
+
+319
+00:26:47,720 --> 00:27:00,390
+没关系，有一个化学家有这张共价键的图片
+bonds which is okay there's a chemists
+have this picture of covalent bonds
+
+320
+00:27:00,390 --> 00:27:05,760
+他们喜欢说原子将共享电子，并且
+which they like to say that the atoms
+will share an electron and because
+
+321
+00:27:05,760 --> 00:27:10,650
+他们正在共享将原子结合在一起的电子，现在我们可以理解
+they're sharing electrons that binds the
+atoms together now can we understand a
+
+322
+00:27:10,650 --> 00:27:15,090
+从物理学上好一点点，这就是共享的意义
+little bit better from physics what it
+is that we mean by this that sharing
+
+323
+00:27:15,090 --> 00:27:19,800
+电子将原子结合在一起，因此有一个很好的画面
+electrons binds atoms together so
+there's a nice picture of this which
+
+324
+00:27:19,800 --> 00:27:23,700
+基本上只来自盒子物理中的粒子，可以放在这里
+basically comes from just particle in a
+box physics all right put it over here
+
+325
+00:27:23,700 --> 00:27:34,020
+盒子中的一个粒子，我们将分析氢，然后氢进入
+particle in a box in box and we're gonna
+analyze hydrogen plus hydrogen goes to
+
+326
+00:27:34,020 --> 00:27:40,410
+氢也只是基于我们对盒子中粒子的了解，我现在是什么
+hydrogen too just based on what we know
+about particle in a box now what am I
+
+327
+00:27:40,410 --> 00:27:43,320
+谈论当我谈论氢原子是粒子盒时，让我们
+talking about when I'm talking about a
+hydrogen atom being a particle box let's
+
+328
+00:27:43,320 --> 00:27:47,760
+在这里画一个小盒子，这个盒子应该代表了
+draw a little box here that box is
+supposed to represent the attraction to
+
+329
+00:27:47,760 --> 00:27:52,920
+原子核，所以氢原子基本上是电子与
+the nucleus so a hydrogen atom is
+basically it's electron bound to the
+
+330
+00:27:52,920 --> 00:27:56,820
+原子核好吧，这不是完全一样，除非我们是盒子，但还是有一定的约束力
+nucleus so okay it's not exactly unis
+we're box but it's still some binding
+
+331
+00:27:56,820 --> 00:28:01,350
+通过原子核，所以我们将电子放到盒子里，给她一个盒子
+through the nucleus so we'll put our
+electron in our box and give her a box a
+
+332
+00:28:01,350 --> 00:28:07,230
+ L和那个盒子中电子的氢的基态能量
+size L and the ground state energy of
+the hydrogen of the electron in that box
+
+333
+00:28:07,230 --> 00:28:14,100
+ L的大小是h-bar平方，pi大于2m，l平方，现在我们有另一个
+of size L is h-bar squared over 2m pi
+over l squared now we have another
+
+334
+00:28:14,100 --> 00:28:20,520
+氢原子在这里，所以我们给他一个盒子L，他的能量H 
+hydrogen atom here so we'll give him a
+box size L and he has the same energy H
+
+335
+00:28:20,520 --> 00:28:27,840
+当我们有H 2时，在2m ah pi上平方的平方根pi在l平方上平方的平方现在在这里
+bar squared over 2m ah pi over l squared
+now over here when we have H 2 we get a
+
+336
+00:28:27,840 --> 00:28:35,070
+更大的盒子，也许是2 L的氢分子，那是什么，所以我们
+bigger box maybe a size 2 L for the
+hydrogen molecule and what are the so we
+
+337
+00:28:35,070 --> 00:28:39,810
+对这里较大的盒子和基态具有基波函数
+have a ground state wave function for
+the bigger box here and the ground state
+
+338
+00:28:39,810 --> 00:28:45,480
+波函数是能量H bar平方2m PI平方2 l平方
+wave function is an energy H bar squared
+over 2m PI over 2 l squared which is
+
+339
+00:28:45,480 --> 00:28:48,480
+当然，我们必须降低2个电子在这个基态波中
+lower of course we have to put 2
+electrons in this ground state wave
+
+340
+00:28:48,480 --> 00:28:54,500
+现在可以运行，但是我们可以这样做，因为有2次旋转，我们发现
+function now but we can do that because
+there are 2 spins and we discover that
+
+341
+00:28:54,500 --> 00:28:59,880
+等式的这一边低于这两个等式的总和，所以
+this side of the equation is lower than
+the sum of these two equations so what's
+
+342
+00:28:59,880 --> 00:29:03,780
+这里发生的是我们允许电子波
+going on here what's going on here is
+that we're allowing the electron wave
+
+343
+00:29:03,780 --> 00:29:08,010
+功能从局限在这里扩展到局限在
+function to spread out from being
+confined here and confined here to being
+
+344
+00:29:08,010 --> 00:29:11,520
+在这里不那么受限制，通过让wave函数展开，我们降低了
+less confined here and by letting the
+wave function spread out we're lowering
+
+345
+00:29:11,520 --> 00:29:16,350
+它的能量，这就是您知道海森堡不确定性而使Delta X 
+its energy this is just you know
+Heisenberg uncertainty you make Delta X
+
+346
+00:29:16,350 --> 00:29:20,250
+ ΔP越大，ΔP越小，动力学就越低
+bigger Delta P gets smaller with smaller
+Delta P you can have a lower kinetic
+
+347
+00:29:20,250 --> 00:29:24,470
+能量，所以通过散布波函数，可以降低动能
+energy so by spreading out the wave
+function you lower the kinetic energy
+
+348
+00:29:24,470 --> 00:29:29,820
+现在我们可以考虑使用氦气做同样的事情，我们将看到
+now we can consider the same thing with
+helium and we'll see that actually
+
+349
+00:29:29,820 --> 00:29:33,990
+氦气有些不同，所以氦气有一个盒子，你有一个
+something is very different about helium
+so helium you have a box you have your
+
+350
+00:29:33,990 --> 00:29:41,660
+基态波函数，这里有两个电子
+ground state wave function and you have
+two electrons in it here again a box
+
+351
+00:29:41,660 --> 00:29:46,620
+基态波函数在其中放了两个电子，然后问题是
+ground state wave function put two
+electrons in it and then the question is
+
+352
+00:29:46,620 --> 00:29:53,880
+现在可以去氦气了吗2现在有一个更大的盒子，我们可以接地
+does it go to helium two okay now here
+we have a bigger box we get a ground
+
+353
+00:29:53,880 --> 00:29:57,450
+状态波函数我们可以在其中放入两个电子然后我们必须开始
+state wave function we can put two
+electrons in it then we have to start
+
+354
+00:29:57,450 --> 00:30:02,130
+也填充了激发波函数，因为我们填充了最低的
+filling up an excited wave function as
+well because we filled the lowest the
+
+355
+00:30:02,130 --> 00:30:06,690
+基波函数我们也必须填补这个家伙，现在我们不
+ground state wave function we have to
+fill this guy as well and now we're not
+
+356
+00:30:06,690 --> 00:30:08,400
+如果我什么都没得到
+gaining so much matter if I'm not
+getting any
+
+357
+00:30:08,400 --> 00:30:12,540
+完全是因为我们不仅必须填充最低能量状态
+at all because we had to as well as
+filling the lowest energy state we have
+
+358
+00:30:12,540 --> 00:30:16,140
+填充较高的能量状态以及较低的能量状态被称为
+to fill a higher energy state as well
+the lower energy state is known as the
+
+359
+00:30:16,140 --> 00:30:23,700
+键合轨道键合轨道和高能态被称为
+bonding orbital bonding orbital and the
+higher energy state was known as the
+
+360
+00:30:23,700 --> 00:30:28,800
+反粘结轨道，所以通常我们的粘结轨道
+antibonding orbital
+so generally bonding orbitals our ones
+
+361
+00:30:28,800 --> 00:30:33,630
+其能量低于原始波函数和反键z'为
+whose energy is lower than the original
+wave functions and anti-bonding z' are
+
+362
+00:30:33,630 --> 00:30:38,850
+高于或等于原始波函数，所以这就是为什么氦非常
+higher or equal to the original wave
+functions so this is why I helium very
+
+363
+00:30:38,850 --> 00:30:44,850
+大概是为什么氦不结合而氢能结合的原因
+roughly why it is that helium doesn't
+bond but hydrogen does now this is
+
+364
+00:30:44,850 --> 00:30:51,170
+显然非常卡通化，但是我们可以通过使用所谓的
+obviously very cartoonish but we can do
+a better job by using what's known as
+
+365
+00:30:51,170 --> 00:30:57,630
+分子轨道理论分子轨道或原子轨道理论原子轨道
+molecular orbital Theory molecular or
+atomic orbital Theory Tomic orbital
+
+366
+00:30:57,630 --> 00:31:12,900
+理论也称为紧密结合理论也称为线性结合
+Theory also known as tight binding
+Theory also known as linear lcao lcao
+
+367
+00:31:12,900 --> 00:31:18,740
+等于
+which equals linear combination of
+
+368
+00:31:19,610 --> 00:31:32,040
+现在我想如果你最后走原子路线的话
+atomic orbitals of atomic orbitals now I
+think if you took the atomic course last
+
+369
+00:31:32,040 --> 00:31:36,300
+学期，您甚至可能已经完成了此计算，我们将再次进行
+term you may have even done this
+calculation and we're gonna do it again
+
+370
+00:31:36,300 --> 00:31:39,450
+但是我们会比上学期做得更简单，我之所以成为
+but we're gonna do it simpler than you
+did it last term and the reason I'm
+
+371
+00:31:39,450 --> 00:31:44,100
+简化它是为了更容易看到潜在的物理原理，我们
+simplifying it is so it's easier to see
+the physics underlying okay and we're
+
+372
+00:31:44,100 --> 00:31:47,400
+我们将在稍后的部分中使用其中一些技术
+going to use sort of we're going to use
+some of these techniques later on in the
+
+373
+00:31:47,400 --> 00:31:51,710
+术语，使它们尽可能简单是一件好事，所以我们要做的第一件事是
+term so it's good to make them as simple
+as possible so the first thing we do is
+
+374
+00:31:51,710 --> 00:31:59,490
+我们假设有两个分别位于r1和r2的原子核，哎呀，所以我
+we imagine having two nuclei of
+positions r1 and r2 and oops okay so I
+
+375
+00:31:59,490 --> 00:32:03,540
+应该告诉您我们正在分析哪个问题，我们将这样做
+should tell you which problem we're
+analyzing right we're gonna do the so
+
+376
+00:32:03,540 --> 00:32:11,790
+我们要看的问题是看h2 plus，所以这是两个质子
+the problem we're gonna look at look at
+look at h2 plus so this is two protons
+
+377
+00:32:11,790 --> 00:32:16,140
+一个电子，两个质子和一个电子，我想你看着这个
+and one electron two protons and one
+electron I think you looked at this
+
+378
+00:32:16,140 --> 00:32:21,870
+上学期前的问题好了，所以我们要去看看
+problem before last term okay so we're
+going to see
+
+379
+00:32:21,870 --> 00:32:27,390
+允许该电子2d定位在两个原子核之间
+allowing this electron 2d localize
+between the two the two nuclei is going
+
+380
+00:32:27,390 --> 00:32:33,000
+降低其能量，从而在两个原子核之间形成一个键
+to lower its energy and therefore form a
+bond between the two nuclei now the
+
+381
+00:32:33,000 --> 00:32:35,010
+我们要做的第一件事就是使用天生的奥本海默
+first thing we're gonna do is we're
+going to use born-oppenheimer
+
+382
+00:32:35,010 --> 00:32:45,270
+近似于天生的奥本海默J罗伯特·奥本海默是
+approximation born-oppenheimer J robert
+Oppenheimer was the father of the
+
+383
+00:32:45,270 --> 00:32:53,550
+美国债券炸弹项目不是债券项目，麦克斯·伯恩（Max Born）我们已经讨论过了
+American bond bomb project not bond
+project and Max Born we've discussed him
+
+384
+00:32:53,550 --> 00:32:56,670
+已经是量子力学和奥利维亚之父之一
+already father one of the fathers of
+quantum mechanics and Olivia
+
+385
+00:32:56,670 --> 00:32:59,760
+牛顿·约翰的祖父只有一块巧克力棒，有人知道吗
+newton-john's grandfather for one
+chocolate bar does anyone know what
+
+386
+00:32:59,760 --> 00:33:04,710
+奥利维亚·牛顿·约翰（Olivia Newton-John）的热门歌曲是我给你的提示
+Olivia newton-john's biggest hit song
+was I'll give you a hint it has
+
+387
+00:33:04,710 --> 00:33:08,610
+与这个问题有关，我们正在研究是的，他说
+something to do with this subject we're
+studying yeah yeah who said that the
+
+388
+00:33:08,610 --> 00:33:12,480
+同样的人好吧，你这个很好，身体很好，十周
+same person okay you get this one all
+right very good physical yeah ten weeks
+
+389
+00:33:12,480 --> 00:33:17,490
+仍然是第一名，所以天生的奥本海默近似是
+at number one okay anyway so the
+born-oppenheimer approximation is
+
+390
+00:33:17,490 --> 00:33:23,550
+基本上固定r1和r2固定原子核的位置并使电子移动
+basically fix r1 and r2 fix the position
+of the nuclei and let the electron move
+
+391
+00:33:23,550 --> 00:33:28,380
+没关系，因为原子核非常重，它们会移动得非常快
+and that's okay because the nuclei are
+extremely heavy and they would move very
+
+392
+00:33:28,380 --> 00:33:32,790
+缓慢地移动，因此电子可以非常快地到达其本征态
+slowly so the electron can come to its
+eigenstate very quickly and you know and
+
+393
+00:33:32,790 --> 00:33:35,970
+那么您可以将所有放置在核子上并寻找
+then you can sort of rece all that
+wherever you put the nuclei and look for
+
+394
+00:33:35,970 --> 00:33:40,470
+只要原子核具有尽可能低的能量，那么我们写一个
+wherever the nuclei have their lowest
+possible energy so then we write a
+
+395
+00:33:40,470 --> 00:33:48,090
+哈密​​顿量哈密顿量为我们的电子P平方超过2m加上相互作用
+Hamiltonian Hamiltonian for our electron
+P squared over 2m plus the interaction
+
+396
+00:33:48,090 --> 00:33:51,690
+与第一个原子核的库仑相互作用加库仑相互作用
+the Coulomb interaction with the first
+nucleus plus the Coulomb interaction
+
+397
+00:33:51,690 --> 00:34:01,440
+第二个核，其中V在这里V是通常的负V平方超过4 PI 
+with the second nucleus where V here V
+is the usual minus V squared over 4 PI
+
+398
+00:34:01,440 --> 00:34:07,830
+ epsilon n等于R减R等等，我将其缩写为
+epsilon naught R minus R one so forth
+I'm going to abbreviate this thing as
+
+399
+00:34:07,830 --> 00:34:12,750
+这个项是K代表动能，这个项是V 1代表与动能相互作用
+this term is K for kinetic energy this
+term is V 1 for interaction with the
+
+400
+00:34:12,750 --> 00:34:18,449
+第一个原子核现在是V 2，用于与第二个原子核相互作用
+first nucleus this term is V 2 for
+interaction with the second nucleus now
+
+401
+00:34:18,449 --> 00:34:21,989
+这是一个很难的问题，因为两个原子核都存在，但这会
+this is a hard problem because there's
+both because of both nuclei but it would
+
+402
+00:34:21,989 --> 00:34:25,439
+如果我们丢掉一个原子核，假装它不存在，那就简单得多
+
+403
+00:34:25,440 --> 00:34:33,359
+好吧，让我们首先解决这个问题，然后我们可以让K加V 1为
+okay so let's solve that that problem
+first so we can then have K plus V 1 as
+
+404
+00:34:33,359 --> 00:34:37,389
+我们的哈密顿量，我们称本征态一
+our Hamiltonian
+and we'll call the eigenstate one
+
+405
+00:34:37,389 --> 00:34:41,709
+ epsilon不是一个，那么这个问题的答案到底是什么？ 
+
+406
+00:34:41,710 --> 00:34:48,380
+你知道它在原子核上或原子核上的氢原子，所以一个是基态
+hydrogen atom you know it's on on or on
+nucleus one so one is the ground state
+
+407
+00:34:48,380 --> 00:34:52,100
+如果您喜欢，原子核上的电子之一就是S壳中的电子
+of the electron on nucleus one the
+electron in the S shell if you like you
+
+408
+00:34:52,100 --> 00:35:01,940
+可以对两个做相同的事情，所以这是如果我们只有两个原子核
+can do the same thing for two so this is
+if we only have nucleus two we would get
+
+409
+00:35:01,940 --> 00:35:06,890
+第二核的本征态，所以我可以画这些，所以这是我们的一个
+an eigenstate on nucleus two so I can
+draw these if I want so here's our one
+
+410
+00:35:06,890 --> 00:35:11,990
+这是我们的两个，那么电子将具有波函数
+here's our two then there would be a
+wave function here of the electron
+
+411
+00:35:11,990 --> 00:35:16,310
+坐在那里，好像这个家伙不在那里，然后会有一波潮
+sitting there as if this guy weren't
+there and then there would be a wave
+
+412
+00:35:16,310 --> 00:35:20,960
+那里有两个人坐在那里，好像这个家伙不在那里一样
+function there two sitting there as if
+this guy weren't there is that clear so
+
+413
+00:35:20,960 --> 00:35:25,310
+这两个状态是我正在考虑的两个原子轨道上的电子
+the two states the two atomic orbitals
+I'm thinking about is the electron on
+
+414
+00:35:25,310 --> 00:35:31,070
+绕一号核运动，好像两个核根本不存在，电子在
+orbit on nucleus one as if nucleus two
+are not there at all and the electron on
+
+415
+00:35:31,070 --> 00:35:38,470
+核2好像核1根本不在那儿很好很好所以
+nucleus two as if a nucleus one we're
+not there at all good good yeah okay so
+
+416
+00:35:38,470 --> 00:35:42,950
+您也可以将一和二视为本征态
+you can also think about one and two as
+being the eigenstates if the two
+
+417
+00:35:42,950 --> 00:35:48,520
+两个原子核的轨道相距很远，在这种情况下， 
+orbitals of the two nuclei taken very
+very far apart in which case you have
+
+418
+00:35:48,520 --> 00:35:54,170
+电子位于两种原子的轨道上的两种可能性
+two possibilities the electron sits on
+orbital one on nucleus one or the
+
+419
+00:35:54,170 --> 00:35:58,250
+电子位于两个原子核上，我们期望发生的是
+electron sits on nucleus two and what we
+expect is going to happen is that when
+
+420
+00:35:58,250 --> 00:36:02,830
+我们将它们结合在一起，将有一个较低的能量状态
+we bring them together there's going to
+be a lower energy state the bonding
+
+421
+00:36:02,830 --> 00:36:09,620
+电子离域在两个原子核之间的状态
+state where the electron delocalized is
+between the two between the two nuclei
+
+422
+00:36:09,620 --> 00:36:18,170
+并且还可能有一个反键态反键，能量更高
+and there may also be an antibonding
+state antibonding which is higher energy
+
+423
+00:36:18,170 --> 00:36:22,190
+当我们将它们组合在一起时，化学家经常使用这种图表
+when we bring them together this kind of
+diagram is used a lot by chemists it's
+
+424
+00:36:22,190 --> 00:36:30,770
+称为分子轨道图分子轨道图
+known as a molecular orbital diagram
+molecular orbital diagram which tries to
+
+425
+00:36:30,770 --> 00:36:34,070
+开始移动物体时跟踪本征态发生了什么
+keep track of what happens to the
+eigenstates when you start moving things
+
+426
+00:36:34,070 --> 00:36:40,100
+一起或分开好吧，我们如何才能很好地解决这个问题， 
+together or apart alright so how are we
+going to solve this problem well we're
+
+427
+00:36:40,100 --> 00:36:43,280
+用试波函数来做它
+going to do it with the trial
+wavefunction a variational trial
+
+428
+00:36:43,280 --> 00:36:49,349
+ wavefunction wavefunction，我相信您已经研究了变分
+wavefunction wavefunction
+and I believe you've studied variational
+
+429
+00:36:49,349 --> 00:36:54,420
+之前的消息，因此我们将要使用的wave函数的形式为Phi 1 
+message before so the wave function
+we're going to use is of the form Phi 1
+
+430
+00:36:54,420 --> 00:37:00,540
+ 1乘Phi 2乘2，我们将尝试找到最佳系数
+times 1 plus Phi 2 times 2 and we're
+gonna try to find the best coefficients
+
+431
+00:37:00,540 --> 00:37:04,440
+ Phi 1和Phi 2会尽可能降低能量，这是
+Phi 1 and Phi 2 which will lower the
+energy as much as possible okay this is
+
+432
+00:37:04,440 --> 00:37:08,460
+您尝试获得最接近地面的变分原理
+the variational principle you try to get
+the best approximation to the ground
+
+433
+00:37:08,460 --> 00:37:13,410
+可以通过任意改变系数来表示状态，现在可以
+state as you can by varying the
+coefficients arbitrarily okay now this
+
+434
+00:37:13,410 --> 00:37:18,329
+实际上将方法的名称命名为方法的线性组合名称
+actually gives the method its name the
+name of the method linear combination of
+
+435
+00:37:18,329 --> 00:37:20,880
+我们正在做的原子轨道就是原子轨道
+atomic orbitals that's exactly what
+we're doing these are the atomic
+
+436
+00:37:20,880 --> 00:37:24,750
+轨道，我们正在对它们进行线性组合，好吧，这也众所周知
+orbitals and we're making a linear
+combination of them okay it's also known
+
+437
+00:37:24,750 --> 00:37:28,680
+紧密结合，因为电子坐在轨道1上，我们认为
+as tight binding because the electron
+sitting on orbital 1 we think of it at
+
+438
+00:37:28,680 --> 00:37:32,670
+我们认为核1与核1紧密结合
+nucleus 1 we think it is tightly bound
+to nucleus 1 and this one is tightly
+
+439
+00:37:32,670 --> 00:37:37,020
+绑定到原子核2，然后我们对两者之一进行线性组合
+bound to nucleus 2 and then we make some
+linear combination of those two one of
+
+440
+00:37:37,020 --> 00:37:41,010
+人们真正喜欢这种分析问题的方法的原因是
+the reasons people really like this
+method of analyzing problems is because
+
+441
+00:37:41,010 --> 00:37:47,010
+您实际上可以通过以下方法使近似值越来越精确
+you can you can actually make the
+approximation more and more accurate by
+
+442
+00:37:47,010 --> 00:37:49,560
+越来越多的东西添加到右侧
+adding more and more things to the
+right-hand side with more and more
+
+443
+00:37:49,560 --> 00:37:53,069
+变化的参数，所以不仅仅是跟踪两种可能性
+variational parameters so instead of
+just keeping track of two possibilities
+
+444
+00:37:53,069 --> 00:37:57,089
+电子在地核1的基态上处于轨道一
+the electron is on orbital one on the
+ground state of nucleus 1 in ground
+
+445
+00:37:57,089 --> 00:38:01,020
+核2的状态您也可以开始添加系数等
+state of nucleus 2 you can start also
+adding coefficients and other possible
+
+446
+00:38:01,020 --> 00:38:05,670
+表示电子可以在原子核1的轨道之一上处于激发态
+states the electron can be in excited
+States on on orbital one of nucleus 1
+
+447
+00:38:05,670 --> 00:38:09,900
+在原子核2上激发态，并且你建立了越来越大的基础
+excited States on nucleus 2 and you make
+a bigger and bigger basis set and as you
+
+448
+00:38:09,900 --> 00:38:13,770
+使右侧的更多可能性越来越多
+make though the more possibilities on
+the right-hand side more and more you
+
+449
+00:38:13,770 --> 00:38:19,680
+越来越接近左侧确定中的确切波动函数，所以现在我们
+get closer and closer to the exact wave
+function on on the left ok so now we
+
+450
+00:38:19,680 --> 00:38:25,560
+必须为此写出有效的较短方程
+have to actually write down our
+effective shorter equation for this
+
+451
+00:38:25,560 --> 00:38:29,819
+试用wavefunction，这实际上是您要做的功课
+trial wavefunction and that's something
+you're actually going to do for homework
+
+452
+00:38:29,819 --> 00:38:35,700
+我会写出答案，它看起来非常像一个较短的方程式
+I'll write out the answer it's it looks
+very much like a shorter equation it's
+
+453
+00:38:35,700 --> 00:38:41,819
+没有太多理由就可以相信的东西
+something to probably believe without
+too much justification it looks entirely
+
+454
+00:38:41,819 --> 00:38:47,040
+像一个更短的方程式，唯一的不同是这个HHIJ是2 
+like a shorter equation the only
+difference is that this H H I J is a 2
+
+455
+00:38:47,040 --> 00:38:53,940
+乘2矩阵IHJI忘了告诉您一些我们假设我们说的内容
+by 2 matrix I H J I forgot to tell you
+something that we're assuming we put it
+
+456
+00:38:53,940 --> 00:39:03,940
+在这里，所以这是一个糟糕的假设糟糕的假设糟糕的假设是
+over here so this is a bad assumption
+bad assumption the bad assumption is
+
+457
+00:39:03,940 --> 00:39:11,980
+ IJ是delta IJ，换句话说1/2等于零
+that I J is delta IJ in other words 1/2
+equals zero okay that one into
+
+458
+00:39:11,980 --> 00:39:17,320
+正交波函数现在是一个很好的近似
+orthogonal wave functions now that's a
+good approximation if the way if the
+
+459
+00:39:17,320 --> 00:39:20,680
+原子核相距很远，但是如果您将原子核真正靠近在一起，那不是
+nuclei are far apart but if you put the
+nuclei really close together it's no
+
+460
+00:39:20,680 --> 00:39:24,940
+再有一个好的假设，就是我们使这个糟糕的原因
+longer a good assumption
+the reason we're making this bad
+
+461
+00:39:24,940 --> 00:39:30,280
+假设是因为它使我们的生活更加轻松，并且在许多情况下
+assumption is because it makes our life
+a lot easier and as in many cases making
+
+462
+00:39:30,280 --> 00:39:33,310
+这个错误的假设不会丢掉关键的物理学，所以我们要
+this bad assumption isn't going to throw
+out the crucial physics so we're gonna
+
+463
+00:39:33,310 --> 00:39:36,670
+保持这个错误的假设，如果您想在书中进行练习
+keep this bad assumption for now there's
+an exercise in the book if you want to
+
+464
+00:39:36,670 --> 00:39:40,360
+通过它并更正确地进行操作，但是正确的关键物理
+go through it and do it more properly
+but you'll get the crucial physics right
+
+465
+00:39:40,360 --> 00:39:43,720
+通过做出这个错误的假设，我们将继续前进
+by making this bad assumption so we're
+gonna go ahead and do it
+
+466
+00:39:43,720 --> 00:39:47,560
+我相信上学期您这样做时并没有使用这个错误的假设
+I believe when you did it last term you
+did not use this bad assumption the
+
+467
+00:39:47,560 --> 00:39:50,800
+代数变得更糟，因此将尝试使代数保持简单
+algebra gets much worse so it's going to
+try to keep the algebra as simple as
+
+468
+00:39:50,800 --> 00:39:55,660
+假设这个错误的假设是
+possible by making that bad assumption
+given that bad assumption this is the
+
+469
+00:39:55,660 --> 00:40:00,730
+需要解决的薛定inger方程，它看起来很像一个
+Schrodinger equation that you have to
+solve and it looks pretty much like a
+
+470
+00:40:00,730 --> 00:40:05,020
+较短的方程式，您知道存在哈密顿波函数能量波
+shorter equation you know there's a
+Hamiltonian wavefunction energy wave
+
+471
+00:40:05,020 --> 00:40:08,500
+功能的唯一区别是，它不是完整的哈密顿量
+function the only difference is it's not
+the full Hamiltonians just the way the
+
+472
+00:40:08,500 --> 00:40:13,570
+哈密​​尔顿投影到我们的受限空间，其中仅包括波浪
+hamiltonian projected to our restricted
+space which includes only the wave
+
+473
+00:40:13,570 --> 00:40:18,430
+函数1和波动函数2，所以它是一个投影的缩短方程，例如
+function 1 and the wave function 2 so
+it's a projected shortener equation like
+
+474
+00:40:18,430 --> 00:40:22,240
+因此，要解决此问题，我们需要做的是2乘2 
+so to solve this all we need to do is we
+need to come up with this is a 2 by 2
+
+475
+00:40:22,240 --> 00:40:26,470
+在我们的例子中，矩阵2乘2我们需要在这里写出矩阵元素
+matrix 2 by 2 in our case we need to
+write out the matrix elements here so
+
+476
+00:40:26,470 --> 00:40:36,340
+让我们做一个H 1是1 K加上V 1我还有汉密尔顿吗
+let's do that one H 1 is 1 K plus V 1 do
+I still have the Hamilton yeah the
+
+477
+00:40:36,340 --> 00:40:38,380
+哈密​​尔顿仍然在那儿，我希望它不会脱离常规
+Hamiltonian is still up there I hope it
+doesn't go off the board
+
+478
+00:40:38,380 --> 00:40:49,660
+ 1加1 V 2 1这个术语很容易，因为1 ket 1是k加V的本征态
+1 plus 1 V 2 1 this term is easy because
+1 the ket 1 is an eigenstate of k plus V
+
+479
+00:40:49,660 --> 00:40:54,700
+ 1这就是我们定义它的方式，因为特征值是epsilon，实际上不是这样
+1 that's how we defined it and as
+eigenvalue is epsilon not so in fact one
+
+480
+00:40:54,700 --> 00:40:58,960
+在一个是1上，您会发现它是一个这样的东西，这给我们
+on one is 1 you can find it to be so
+this pretty piece here just gives us
+
+481
+00:40:58,960 --> 00:41:05,590
+ epsilon不是这部分，我们不知道那是什么，我将其称为V 
+epsilon not this part here we don't know
+what that is I'm going to call it V
+
+482
+00:41:05,590 --> 00:41:12,640
+越过V越过物理上，我们有一个电子坐在轨道上
+cross and physically what is it V cross
+we have an electron sitting on orbital
+
+483
+00:41:12,640 --> 00:41:17,890
+一个在这里，所以这里是电子坐，这是轨道二， 
+one over here and so here's the electron
+sitting and here's orbital two and
+
+484
+00:41:17,890 --> 00:41:21,880
+ v-cross是电子之间的相互作用
+v-cross
+is the interaction between the electron
+
+485
+00:41:21,880 --> 00:41:27,220
+坐在一种状态，坐在一个核上，与两个核相互作用，这是
+sitting on state one sitting on nucleus
+one interacting with nucleus two that's
+
+486
+00:41:27,220 --> 00:41:33,190
+我相信上个名词你可能曾称呼过V-直接互动
+what V crosses I believe last term you
+may have called it - direct interaction
+
+487
+00:41:33,190 --> 00:41:37,900
+我可能已经说过，J从上学期开始听起来很耳熟吗？ 
+I may have called it J does that sound
+familiar from last term yeah okay the
+
+488
+00:41:37,900 --> 00:41:41,650
+我之所以不直接称其为J是因为在凝聚态下
+reason I'm not calling it direct and J
+is because in condensed matter those
+
+489
+00:41:41,650 --> 00:41:45,010
+单词用于某些不同的东西，我试图避免
+words are used for something somewhat
+different and I'm trying to avoid
+
+490
+00:41:45,010 --> 00:41:48,700
+对此感到困惑，所以我将其称为V形交叉，其中有些
+confusion about that so I'm gonna call
+it V cross instead and there's some
+
+491
+00:41:48,700 --> 00:41:51,940
+两把Naumann黏土椅子之间的关系，但不足以值得
+relation between the two Naumann clay
+chairs but not enough that it's worth
+
+492
+00:41:51,940 --> 00:41:58,180
+保持它这样扔掉，我们从现在起将其称为V交叉-H-我们
+keeping it so throw that out we're gonna
+call it V cross from now on - H - we
+
+493
+00:41:58,180 --> 00:42:08,260
+需要它也非常类似于K加B 2 2 + 1 2 V 1 2 
+need that also it's very similar to K
+plus B 2 2 + 1 2 V 1 2 and again this
+
+494
+00:42:08,260 --> 00:42:18,990
+事情是ε零加V交叉，更有趣的是1 H 2这是
+thing is epsilon naught plus V cross the
+more interesting piece is 1 H 2 which is
+
+495
+00:42:18,990 --> 00:42:33,310
+ 1 K + V 2 2 + 1 V 1 2好的，所以这很容易，因为K + V 2 
+1 K plus V 2 2 + 1 V 1 2 okay so this
+thing is easy actually because K + V 2
+
+496
+00:42:33,310 --> 00:42:39,000
+是epsilon naught 2，然后假设2 +1是正交的，所以得到0 
+is epsilon naught 2 and then 2 + 1 have
+been assumed orthogonal so that gives 0
+
+497
+00:42:39,000 --> 00:42:46,620
+好吧，这大大简化了我们的生活，在这里我称之为跳车
+okay so that's simplifies our life a lot
+this one here I'm gonna call hopping
+
+498
+00:42:46,620 --> 00:42:54,420
+跳，通常称为-TI相信您去年致电交易所
+hopping and generally it's called - T I
+believe last year you call the exchange
+
+499
+00:42:54,420 --> 00:43:03,250
+我可能将其称为Kappa之类的东西，所以我不再使用
+and I probably called it Kappa or
+something so again I'm not going to use
+
+500
+00:43:03,250 --> 00:43:09,550
+那南围墙，因为我们现在用交换来交换其他东西，为什么
+that Nam enclosure because we use a
+exchange for something else now why does
+
+501
+00:43:09,550 --> 00:43:14,670
+如果您考虑与时间有关的薛定inger方程，就称其为跳跃
+it call hopping if you think in terms of
+the time-dependent schrodinger equation
+
+502
+00:43:14,670 --> 00:43:20,650
+这种对角线会使您从2变到1，所以
+it's this kind of term that sort of off
+diagonal takes you from 2 to 1 so a
+
+503
+00:43:20,650 --> 00:43:24,040
+跳变项可以给电子罐列表带来动力
+hopping term can give dynamics to an
+electron can list
+
+504
+00:43:24,040 --> 00:43:29,560
+拿起一个从两个原子核开始并着陆在一个原子核上的电子
+take an electron that starts on nucleus
+two and lands it on nucleus one so it
+
+505
+00:43:29,560 --> 00:43:33,430
+允许您从一个原子核跳到另一个原子核
+allows you hop from one nucleus to the
+other hence the name hopping reasonable
+
+506
+00:43:33,430 --> 00:43:36,750
+名字好吧，鉴于此，我们快到了
+name okay so given this we're almost
+there
+
+507
+00:43:36,750 --> 00:43:45,370
+我们有零乘两乘的哈密顿矩阵epsilon加V cross减
+we have our two-by-two Hamiltonian
+matrix epsilon naught plus V cross minus
+
+508
+00:43:45,370 --> 00:43:50,770
+ t减去t如果它很复杂，它将在这里变成星星，然后epsilon 
+t minus t if it's if it's complex it
+would get a t star here then epsilon
+
+509
+00:43:50,770 --> 00:43:56,020
+交叉是一个很好的厄米矩阵，我们可以对角化它
+auspi the cross is a nice little
+hermitian matrix we can diagonalize it
+
+510
+00:43:56,020 --> 00:44:04,260
+我们得到零的特征值heigl epsilon加V叉正负
+we get the eigenvalues heigl epsilon
+naught plus V cross plus or minus
+
+511
+00:44:04,260 --> 00:44:10,060
+ T的绝对值，现在我留下一小块，现在放
+absolute value of T now I left off one
+little piece which I'm now going to put
+
+512
+00:44:10,060 --> 00:44:19,690
+回到我剩下的东西是inu清晰的核，你知道的能量
+back in the thing I left off was the inu
+clear nuclear that the energy you know
+
+513
+00:44:19,690 --> 00:44:22,510
+两个原子核也相互作用，所以如果我改变
+the two nuclei are interacting with each
+other as well so if I change the
+
+514
+00:44:22,510 --> 00:44:26,440
+两个原子核之间的距离会有库仑相互作用，但是
+distance between the two nuclei they
+would have some Coulomb interaction but
+
+515
+00:44:26,440 --> 00:44:29,950
+事实证明，核原子大约等于负V 
+it turns out that a nuclear nuclear is
+very approximately equal to minus V
+
+516
+00:44:29,950 --> 00:44:34,200
+十字架，从您所了解的知识中，这实际上应该很明显
+cross and that actually should be
+obvious from what you know about
+
+517
+00:44:34,200 --> 00:44:39,520
+如果周围有球形电荷云，则产生静电
+electrostatics if you have a spherical
+charge cloud of charge around another
+
+518
+00:44:39,520 --> 00:44:44,290
+球形云电荷云可以考虑整体电荷云
+spherical cloud charge of cloud of
+charge you can considering the whole
+
+519
+00:44:44,290 --> 00:44:48,490
+电荷为原点，整个电荷为原点为零
+charge as being at the origin and the
+whole charge is that the origin is zero
+
+520
+00:44:48,490 --> 00:44:53,980
+ e取消加号，减号1取消加号，所以最终这些
+the e cancels the plus one the minus one
+cancels plus one so this ends up these
+
+521
+00:44:53,980 --> 00:44:58,600
+两块彼此抵消，所以我只想写e正负两点
+two pieces cancel each other so I'm just
+going to write e plus or minus the two
+
+522
+00:44:58,600 --> 00:45:04,420
+可能的能量是Anat加上或减去绝对T，所以这就是X 
+possible energies are Anat plus or minus
+absolute T so this is something that X
+
+523
+00:45:04,420 --> 00:45:10,330
+我们获得或获得或减少的能量数量似乎很自然
+seems fairly natural that the amount of
+gaining or lowering of the energy we get
+
+524
+00:45:10,330 --> 00:45:16,360
+当我们走时，当我们允许电子在两个轨道之间跳跃时，由
+when we go when we allow the electron to
+hop between the two orbitals is given by
+
+525
+00:45:16,360 --> 00:45:19,750
+我们通过散布电子波函数让他们跳多少
+how much we allow them to hop so by
+spreading out the electron wave function
+
+526
+00:45:19,750 --> 00:45:23,560
+您降低它的能量，您越分散波函数，您越降低
+you lower its energy the more you spread
+out the wave function the more you lower
+
+527
+00:45:23,560 --> 00:45:31,990
+能量，所以我们甚至可以在这里做，是的，我们甚至可以写下两个
+the energy um so we can even maybe do it
+here yeah we can even write down the two
+
+528
+00:45:31,990 --> 00:45:36,700
+如果将矩阵定义为对角化，则其本征态
+eigenstates of this if you diagonalize
+that that matrix is defined its eigen
+
+529
+00:45:36,700 --> 00:45:40,570
+向量，您会发现该边加1 
+vectors
+you would find that side plus 1 over
+
+530
+00:45:40,570 --> 00:45:49,810
+根2 1加oops 1减2这是反键高能反键
+root 2 1 plus oops 1 minus 2 this is the
+antibonding the higher energy anti bond
+
+531
+00:45:49,810 --> 00:45:55,300
+较高的能量波函数，然后较低的能量波函数1 over 
+the higher energy wave function and then
+the lower energy wave function 1 over
+
+532
+00:45:55,300 --> 00:46:04,240
+根2 1加2，实际上wave函数的那些形式应该看起来很多
+root 2 1 plus 2 and in fact those forms
+of the wave function should look a lot
+
+533
+00:46:04,240 --> 00:46:08,350
+就像我们在盒子中的粒子中所拥有的一样，在粒子中，但是在盒子中我们拥有
+like what we had in the particle in the
+box so in particle but in the box we had
+
+534
+00:46:08,350 --> 00:46:14,140
+这里有一个键合轨道键，我们这里有一个反键轨道
+a bonding orbital bond here and we have
+an antibonding orbital here and e here
+
+535
+00:46:14,140 --> 00:46:20,410
+中间有一个节点，现在我们有两个原子核键合轨道
+with a node in the middle and now we
+have two nuclei the bonding orbital
+
+536
+00:46:20,410 --> 00:46:29,550
+看起来像是对称的键，而反键看起来像这样
+looks like this it's symmetric a bond
+bond and the anti bond looks like this
+
+537
+00:46:30,090 --> 00:46:38,320
+加抗粘结，所以它与粒子中的粒子非常相似
+plus plus antibonding so it's very
+similar to what we have in the particle
+
+538
+00:46:38,320 --> 00:46:43,390
+在两种情况下的方框中，节点的存在都会提高能量
+in the box in both cases the existence
+of the node raises the energy ok
+
+539
+00:46:43,390 --> 00:46:49,740
+因此，您获得或失去的能量取决于跳跃的数量
+so since the amount of energy you gain
+or lose depends on the amount of hopping
+
+540
+00:46:49,740 --> 00:46:56,110
+作为R 1减去R 2的函数，您可能会
+as a function of R 1 minus R 2 the
+distance between the nuclei you might
+
+541
+00:46:56,110 --> 00:47:00,940
+当您将两个原子核放得更近时，期望跳跃会增加
+expect that the hopping goes up as you
+put the two nuclei closer together so
+
+542
+00:47:00,940 --> 00:47:06,010
+您会期望防粘结看起来像这样，粘结看起来像
+you would expect that the antibonding
+looks like this the bonding looks like
+
+543
+00:47:06,010 --> 00:47:12,430
+这或多或少是对的，但实际上更准确是
+this and that's more or less right but
+actually more accurate is something that
+
+544
+00:47:12,430 --> 00:47:21,880
+ e R 1减R 2看起来像这样
+looks like this e R 1 minus R 2
+antibonding goes like this and bonding
+
+545
+00:47:21,880 --> 00:47:29,470
+当两个原子核彼此靠得太近，以至于所有
+goes like this again when the two nuclei
+get too close together that all of a
+
+546
+00:47:29,470 --> 00:47:32,680
+突然变得非常排斥，而变得排斥的原因是
+sudden becomes extremely repulsive and
+the reason it becomes repulsive is
+
+547
+00:47:32,680 --> 00:47:36,850
+因为我们的许多近似都分解了这个近似分解
+because a lot of our approximations
+break down this approximation breaks
+
+548
+00:47:36,850 --> 00:47:40,810
+下来，两个原子轨道正在使用的两个核不再
+down that the two nuclear the two atomic
+orbitals were using are no longer
+
+549
+00:47:40,810 --> 00:47:45,160
+正交的，进一步说，我就两个电荷做出了陈述
+orthogonal and further that statement I
+made up there about the two charge
+
+550
+00:47:45,160 --> 00:47:50,350
+一旦正电荷进入另一个云层，云消除就会分解
+clouds canceling breaks down once the
+positive charge gets inside the other
+
+551
+00:47:50,350 --> 00:47:53,380
+一旦其他原子核获得，您就会知道电子
+electrons
+you know once the other nucleus gets
+
+552
+00:47:53,380 --> 00:47:57,130
+在电子的电荷云中，那么您将无法再取消您
+inside the charge cloud of the electron
+then you can no longer cancel you
+
+553
+00:47:57,130 --> 00:47:59,890
+记住这条规则，如果您在某些收费之内，则不算，如果
+remember this rule that if you're inside
+some charge you don't count it and if
+
+554
+00:47:59,890 --> 00:48:02,500
+如果您在谈论球形的时候算了算，那么您就不在费用之列
+you're outside the charge if you count
+it when you're talking about a spherical
+
+555
+00:48:02,500 --> 00:48:05,859
+电荷分配，将您体内的任何东西都靠近中心
+charge distribution anything that's
+inside you closer to the center you
+
+556
+00:48:05,859 --> 00:48:09,579
+数，然后将所有内容置于中心，而您认为之外的所有内容
+count and you put all the at the center
+and anything is outside you think you
+
+557
+00:48:09,579 --> 00:48:15,010
+扔掉，所以如果原子核进入电子的电荷云，那么它
+throw away so if the nucleus gets inside
+the charge cloud of the electron then it
+
+558
+00:48:15,010 --> 00:48:18,010
+开始看到另一个核，并开始被另一个核排斥
+starts to see the other nucleus and it
+starts to be repelled by the other
+
+559
+00:48:18,010 --> 00:48:26,559
+原子核，所以键的能量上升了，这里的另一件事
+nucleus so the energy of the bond goes
+goes way up one more thing here before
+
+560
+00:48:26,559 --> 00:48:32,559
+如果我们有两个，我们在结束之前也可以考虑一个非常相似的物理学
+we before we end you can also consider a
+very similar physics if you have two
+
+561
+00:48:32,559 --> 00:48:37,240
+不同的原子，所以我们有氢和氟，在这里我画了一个
+different atoms so we have hydrogen and
+fluorine and here I've drawn one up here
+
+562
+00:48:37,240 --> 00:48:41,289
+还有一个在这里，因为如果你在氢上有一个电子，它们的能量
+and one down here because their energies
+if you just have an electron on hydrogen
+
+563
+00:48:41,289 --> 00:48:45,010
+它的能量比氟上的电子高得多，哦，也许我应该
+it's much higher energy than the
+electron on fluorine oh maybe I should
+
+564
+00:48:45,010 --> 00:48:49,900
+曾经说过氟中的钠和氟钠没关系，只是你知道
+have said sodium and fluorine sodium in
+the florium doesn't matter just you know
+
+565
+00:48:49,900 --> 00:48:53,650
+在低电离能或想要少得多的电子的物体上
+on something that has a low ionization
+energy or wants the electron a lot less
+
+566
+00:48:53,650 --> 00:48:57,549
+还有电子亲和力高或组织性高的东西
+and something with a high electron
+affinity or a high organization and she
+
+567
+00:48:57,549 --> 00:49:01,240
+想要更多电子，您可以允许电子离域
+wants the electron a lot more and you
+can allow an electron to delocalized
+
+568
+00:49:01,240 --> 00:49:05,440
+如果这样做的话，钠和氟之间会发生变化
+between the sodium and the fluorine if
+you do that the only thing that changes
+
+569
+00:49:05,440 --> 00:49:12,720
+这是对角线上的这两个能量变成e钠和氟
+here is that these two energies on the
+diagonal become e sodium and a fluorine
+
+570
+00:49:12,720 --> 00:49:17,079
+这样好，那两个可以彼此不同
+like that okay and those two can be
+different from each other
+
+571
+00:49:17,079 --> 00:49:22,589
+如果将这个矩阵对角化，现在您将再次找到两个不同的能量
+if you diagonalize this matrix now
+you'll find two different energies again
+
+572
+00:49:22,589 --> 00:49:26,550
+所以我们把它画成一个结合和反结合的轨道
+so we'll draw that as a bonding and
+antibonding orbital
+
+573
+00:49:26,550 --> 00:49:32,250
+所以这里又有一个反键，使电子返回并
+so there's antibonding down here again
+allowing the electron to go back and
+
+574
+00:49:32,250 --> 00:49:38,579
+第四改变了总能量，这里是反键，但是这些
+forth changes the total energy and
+here's antibonding up here but these
+
+575
+00:49:38,579 --> 00:49:44,690
+系数将与反粘结轨道的系数不同
+coefficients will not be the same that
+for the antibonding orbital this this
+
+576
+00:49:44,690 --> 00:49:49,829
+系数处于-alpha将更大beta将大于alpha 
+coefficient being in - alpha will be
+bigger beta would be bigger than alpha
+
+577
+00:49:49,829 --> 00:49:53,849
+电子更有可能越过这里
+there'll be a higher probability that
+the electron will be over here for the
+
+578
+00:49:53,849 --> 00:50:00,770
+反结合轨道，而对于像这样的结合轨道beta alpha， 
+antibonding orbital whereas for the
+bonding orbital beta alpha like this the
+
+579
+00:50:00,770 --> 00:50:04,950
+波函数的最大权重将在此处
+the most of the weight of the
+wavefunction will be over here on
+
+580
+00:50:04,950 --> 00:50:09,839
+氟，这是一个简单的二乘二矩阵对角化问题
+fluorine it's sort of a simple two by
+two matrix diagonalization problem
+
+581
+00:50:09,839 --> 00:50:14,460
+这本书中也有一个练习，所以这个想法是，但是
+there's an exercise in the book on this
+as well so the idea is that but just by
+
+582
+00:50:14,460 --> 00:50:18,869
+看看这个二乘二的矩阵，您可以看到如何从共价键形成
+looking at this two-by-two matrix you
+can see how you go from a covalent bond
+
+583
+00:50:18,869 --> 00:50:22,770
+电子在两个原子核之间均等分布
+where the electron is distributed
+equally between the two the two nuclei
+
+584
+00:50:22,770 --> 00:50:27,660
+离子键，我们实际上是较低能量的轨道，使电子几乎
+to an ionic bond we're really the lower
+energy orbital puts the electron almost
+
+585
+00:50:27,660 --> 00:50:33,660
+完全在这里讨论低能物种，好吧，我想我停了下来
+entirely over here on on the lower
+energy species okay I guess I stopped
+
+586
+00:50:33,660 --> 00:50:39,860
+在那里，我明天见[鼓掌] 
+there and I see you tomorrow
+[Applause]
+

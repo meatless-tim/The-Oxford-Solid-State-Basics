@@ -1,0 +1,3430 @@
+1
+00:00:00,000 --> 00:00:05,549
+这是一个让我们重新开始的方法。欢迎回来，现在是该课程的第20讲
+that's a let's get started again welcome
+back this is now the 20th lecture of the
+
+2
+00:00:05,549 --> 00:00:09,120
+我们上次离开时​​的凝聚态过程我们在谈论磁性
+condensed matter course when we last
+left off we were talking about magnetism
+
+3
+00:00:09,120 --> 00:00:13,200
+我们一次要考虑一个原子的磁性，在本讲座中，我们
+and we're thinking about magnetism one
+atom at a time and in this lecture we're
+
+4
+00:00:13,200 --> 00:00:17,520
+要进行某种升级，并开始考虑其他方面的集体磁性
+gonna sort of upgrade and start thinking
+about collective magnetism in other
+
+5
+00:00:17,520 --> 00:00:24,119
+当我们有很多原子时，使用磁
+words magnetism when we have lots of
+atoms collective magnetism using the
+
+6
+00:00:24,119 --> 00:00:29,490
+当您将很多东西放在一起时，更多的是不同的主题
+theme that more is different when you
+put lots of things together you can get
+
+7
+00:00:29,490 --> 00:00:32,759
+新的和不同的物理学现在我们确实开始了一些集体
+new and different physics now we did
+start a little bit of a collective
+
+8
+00:00:32,759 --> 00:00:36,570
+上次我们谈论匈奴规则时的吸引力
+magnetism last time when we were talking
+about huns rules there was the when you
+
+9
+00:00:36,570 --> 00:00:40,320
+谈到匈奴人的规则，一个分子在hoon的作用下具有推动力， 
+talked about huns rules a molecule there
+was the driving force by hoon's role to
+
+10
+00:00:40,320 --> 00:00:44,700
+尝试使分子中原子之间的自旋对齐，但也有共价键
+try to align spins between atoms in a
+molecule but there's also the covalent
+
+11
+00:00:44,700 --> 00:00:47,940
+试图阻止自对准旋转的键合物理，因此您可以
+bonding physics which tried to
+anti-aligned spin so you could make a
+
+12
+00:00:47,940 --> 00:00:51,449
+单重或共价键，而这两个事物相互竞争， 
+singlet or covalent bond and those two
+things compete with each other and
+
+13
+00:00:51,449 --> 00:00:54,660
+正确获取详细信息以找出旋转将对齐还是反旋转
+getting the details right to figure out
+whether the spins will align or anti
+
+14
+00:00:54,660 --> 00:00:59,340
+对齐是一个复杂的过程，我们将要知道
+aligned is sort of a complicated process
+and we're going to you know brush that
+
+15
+00:00:59,340 --> 00:01:04,110
+完全在地毯下，然后尝试退后一步，看看
+entirely under the rug and try to take a
+step back and look at a model that's
+
+16
+00:01:04,110 --> 00:01:07,439
+会给我们带来很多我们感兴趣的物理学
+going to sort of give us much of the
+physics that were interested in without
+
+17
+00:01:07,439 --> 00:01:12,000
+在细节上陷入困境，所以我们有一些近似
+getting too bogged down in the details
+so we have a couple of approximation in
+
+18
+00:01:12,000 --> 00:01:19,229
+我们的模型，所以我们的玩具模型将没有电子跳跃，因此我们不必
+our model so our toy model will have one
+no electron hopping so we don't have to
+
+19
+00:01:19,229 --> 00:01:24,330
+担心任何种类的乐队物理学，我们都不必担心绘制紧密的绑定
+worry about any sort of band physics we
+don't have to worry draw a tight binding
+
+20
+00:01:24,330 --> 00:01:27,060
+模型，我们将不得不担心保利顺磁性所有这些
+model we'd have to worry about pauli
+paramagnetism all of that has been
+
+21
+00:01:27,060 --> 00:01:33,240
+扔掉，所以没有电子跳动，我们可以假设在每个原子上都有
+thrown out so with no electron hopping
+we can assume that on each atom there is
+
+22
+00:01:33,240 --> 00:01:43,049
+每个原子离子原子I上的每个原子上的自旋si 
+a spin spin si on each atom on each atom
+ion atom I and I put spin in quotes
+
+23
+00:01:43,049 --> 00:01:48,180
+因为这个旋转我真正的意思是一个磁矩
+because this spin what I really mean is
+a magnetic moment that magnetic moment
+
+24
+00:01:48,180 --> 00:01:51,990
+可能是由于实际的电子自旋，可能是由于许多电子自旋
+maybe from an actual electron spin it
+may be from many electron spins it may
+
+25
+00:01:51,990 --> 00:01:57,000
+是轨道角动量，可能是轨道和自旋的某种组合，但
+be orbital angular momentum it may be
+some combination of orbital and spin but
+
+26
+00:01:57,000 --> 00:02:00,899
+角动量，但通常在您制作此类玩具时
+an angular momentum but generally when
+you sort of make these sort of toy
+
+27
+00:02:00,899 --> 00:02:05,369
+不管它实际上来自什么，您都称其为自旋模型，然后我们将
+models you just call it spin no matter
+what it's actually from and then we'll
+
+28
+00:02:05,369 --> 00:02:10,830
+写下哈密顿量，所以这是一个哈密顿量，三个H等于
+write down the Hamiltonian so here's a
+Hamiltonian three H equals and then it
+
+29
+00:02:10,830 --> 00:02:13,890
+有两块，第一块应该寻找
+has two pieces the first piece should
+look for
+
+30
+00:02:13,890 --> 00:02:22,860
+ G mu bb点SI只是自旋与外部磁场的耦合
+G mu b b dot SI that's just the coupling
+of the spin to the external magnetic
+
+31
+00:02:22,860 --> 00:02:26,489
+领域，这是赋予我们力量磁性的术语，然后我们将添加
+field this is the term that gave us
+power magnetism then we're going to add
+
+32
+00:02:26,489 --> 00:02:32,670
+为此，我要再加上一个负号和一个1/2的小数
+to it another term sum over oops i'm
+going to put a minus sign and a 1/2 out
+
+33
+00:02:32,670 --> 00:02:46,500
+在i和j / adams的前面加上j的逗号j IJ si点s J，所以这里的术语是
+front some i and j / adams i comma j of
+j IJ s i dot s J so this term here is an
+
+34
+00:02:46,500 --> 00:02:53,910
+交互项，因此j IJ是原子ID i与j之间的交互
+interaction term so j IJ is the
+interaction between atom ID i and j
+
+35
+00:02:53,910 --> 00:03:10,950
+在原子i和j之间，我们将J IJ设为j ji，这也是
+between atoms i and j and we will set J
+IJ equal to j ji and this is also
+
+36
+00:03:10,950 --> 00:03:18,600
+有时也称为等值，在此交换中，交换常数为
+sometimes called also equals and on this
+exchange the exchange constant this is
+
+37
+00:03:18,600 --> 00:03:22,190
+大部分时间如何在凝聚态物理中使用单词交换
+how the word exchange is used in
+condensed matter physics most the time
+
+38
+00:03:22,190 --> 00:03:29,040
+并且在其中放置了1/2的事实以防止计数过度，我们希望J 1 2为
+and the fact of 1/2 is put in there to
+prevent over-counting we want J 1 2 to
+
+39
+00:03:29,040 --> 00:03:33,780
+是原子1和2之间的相互作用，但总和为s 1 
+be the interaction between atom 1 & 2
+but in that sum there will be a term s 1
+
+40
+00:03:33,780 --> 00:03:38,310
+ s 2在另一个术语s 2 s 1中，我们不想过多地计算它们，所以我们只是
+s 2 in another term which is s 2 s 1 we
+don't want to over count them so we just
+
+41
+00:03:38,310 --> 00:03:46,500
+将1/2放在前面，这样这个模型模型3哈密顿量3 3被称为
+put a 1/2 out front ok so this model
+model 3 the Hamiltonian 3 3 is known as
+
+42
+00:03:46,500 --> 00:03:51,440
+哈密​​顿3的3含义在之后被称为海森堡模型
+the 3 meaning of the Hamiltonian 3 is
+known as the Heisenberg model after
+
+43
+00:03:51,440 --> 00:03:58,560
+每个人最喜欢的不确定物理学家海森堡模型都经常研究
+everyone's favorite uncertain physicist
+Heisenberg model very frequently studied
+
+44
+00:03:58,560 --> 00:04:04,019
+凝聚态物理中的模型，并且很好地表示了许多磁体
+model in condensed matter physics and a
+very good representation of many magnets
+
+45
+00:04:04,019 --> 00:04:15,510
+现在我们将j IJ设置为j 
+now we're going to simplify this even
+further simplify by setting j IJ equal
+
+46
+00:04:15,510 --> 00:04:23,070
+如果i和j是j个邻居的邻居，则将其设置为j，我们将其设置为
+to j if i and j are neighbors by j
+neighbors and we're going to set it
+
+47
+00:04:23,070 --> 00:04:27,370
+等于0，否则换句话说，我们将保持
+equal to 0 otherwise
+in other words we're just gonna keep
+
+48
+00:04:27,370 --> 00:04:33,490
+跟踪彼此之间最接近的自旋之间的相互作用
+track of interaction between spins that
+happen to be nearest neighbors with each
+
+49
+00:04:33,490 --> 00:04:37,510
+另外，它是一个很好的近似值，它旋转到接近
+other it's a fairly good approximation
+that spins on atoms that are close to
+
+50
+00:04:37,510 --> 00:04:40,420
+彼此见面，如果彼此相距较远，则看不见
+each other see each other and if they're
+farther from each other they don't see
+
+51
+00:04:40,420 --> 00:04:43,960
+彼此，然后我们也将简化，这是一种简化
+each other and then we're also going to
+simplify so this is simplification one
+
+52
+00:04:43,960 --> 00:04:48,100
+简化二是四现在我们将外部磁场设置为
+and simplification two is four now we're
+gonna set the external magnetic field to
+
+53
+00:04:48,100 --> 00:04:55,570
+零，我们可能稍后再放回去，所以我们的哈密顿量现在采用H的形式
+zero and we may put it back in later
+so our Hamiltonian now takes the form H
+
+54
+00:04:55,570 --> 00:05:03,610
+是IJ的负1/2和，我会这样写，所以这个符号表示I和J 
+is minus 1/2 sum over I J and I'll write
+like this so this notation means I and J
+
+55
+00:05:03,610 --> 00:05:16,270
+或邻居括号符号，所以是标准的J si S，所以我们只求和
+or neighbors bracket notation so a
+standard J si s J so we're only summing
+
+56
+00:05:16,270 --> 00:05:20,530
+当我和J成为邻居时，常量只是一个常量J，在这里知道
+over I and J being neighbors and the
+constant is just a constant J here know
+
+57
+00:05:20,530 --> 00:05:23,770
+您可以从这种情况中获得一些可能性
+there's a couple possibilities of what
+you can get out of this sort of
+
+58
+00:05:23,770 --> 00:05:32,410
+哈密​​顿量，所以可能性一，让我们写下情况一，情况一是J 
+Hamiltonian so possibility one so let's
+write down case one case one is that J
+
+59
+00:05:32,410 --> 00:05:37,960
+大于0在这种情况下为了使哈密顿量成为能量
+is greater than 0 in which case in order
+to make the energy of that Hamiltonian
+
+60
+00:05:37,960 --> 00:05:42,310
+相邻站点的两个自旋应尽可能小，以尝试与
+as small as possible the two spins on
+adjacent sites will try to align with
+
+61
+00:05:42,310 --> 00:05:48,460
+彼此旋转，所以当旋转对齐时，您得到的是
+each other so spins align and when the
+spins align what you get is
+
+62
+00:05:48,460 --> 00:05:57,520
+铁磁性铁磁性磁化强度不等于0 
+ferromagnetism ferromagnetism a
+magnetization which is not equal to 0
+
+63
+00:05:57,520 --> 00:06:03,670
+现在，在这个哈密顿量中，旋转的方向无关紧要
+now it doesn't matter in this
+Hamiltonian which direction the spins
+
+64
+00:06:03,670 --> 00:06:07,360
+只要自旋彼此对齐，所有对齐
+all align in as long as the spins are
+all aligned with each other so they can
+
+65
+00:06:07,360 --> 00:06:09,520
+他们都指向上，他们都可以朝下，他们都可以指向
+all be pointing up they can all be
+pointing down they can all be pointing
+
+66
+00:06:09,520 --> 00:06:12,640
+现在到左边，我将把右边的东西放到相同的位置
+to the left now I'll be putting the
+right same you'll end up with the same
+
+67
+00:06:12,640 --> 00:06:14,890
+能量重要的是所有旋转
+energy
+what's important is all the spins
+
+68
+00:06:14,890 --> 00:06:19,750
+彼此对齐确定，所以这是更容易研究的案例
+aligned with each other ok so this is
+the easy case to study the more
+
+69
+00:06:19,750 --> 00:06:29,200
+要研究的复杂案例是案例二，现在J小于零，而J小于
+complicated case to study is case two is
+J less than zero now with J less than
+
+70
+00:06:29,200 --> 00:06:35,790
+邻居希望事前对齐为零
+zero the neighbors want to ante align
+
+71
+00:06:36,930 --> 00:06:42,550
+为了使哈密顿量尽可能小或使能量尽可能小
+in order to make the Hamiltonian as
+small as possible or the energy as small
+
+72
+00:06:42,550 --> 00:06:47,620
+因此，如果我们有一个让我们在这里看到的东西，那么我们所拥有的就是
+as possible so then what we have is if
+we have a let's see right down here so
+
+73
+00:06:47,620 --> 00:06:53,699
+如果我们有一个像这样的方格，每个格上都有一个自旋
+if we have like a square lattice like
+this each with a spin on it if the first
+
+74
+00:06:53,699 --> 00:06:57,580
+旋转指向上方，然后第二个旋转将要指向
+spin is pointing up
+then the second spin will want to point
+
+75
+00:06:57,580 --> 00:07:01,000
+降低以使能量尽可能小，然后第三次
+down in order to make the energy as
+small as possible and then the third
+
+76
+00:07:01,000 --> 00:07:04,210
+旋转将指向这一点将向下指向这一点将这一点将
+spin will point up this one will point
+down this one point up this one will
+
+77
+00:07:04,210 --> 00:07:09,370
+指向下方等等，我们将交替旋转
+point down and so forth and so on and
+we'll get these alternating spin
+
+78
+00:07:09,370 --> 00:07:19,300
+结构，这就是所谓的反铁磁体，有时也称为
+structures this is what's known as an
+antiferromagnet or sometimes known as a
+
+79
+00:07:19,300 --> 00:07:26,949
+露易·纳塔尔（Louie natal）出生后就意识到了这些
+nail state and he PL nail state after
+Louie natal who realized that these
+
+80
+00:07:26,949 --> 00:07:33,039
+事物实际上存在于自然界中，那么有趣的是
+things actually exist in nature and then
+what's interesting about these is that
+
+81
+00:07:33,039 --> 00:07:41,289
+它们具有磁阶，但没有净磁化强度， 
+they have magnetic order magnetic order
+but they have no net magnetization and
+
+82
+00:07:41,289 --> 00:07:46,000
+等于零，为什么它们没有很好的净磁化强度，因为
+equals zero why they have no net
+magnetization well because you have the
+
+83
+00:07:46,000 --> 00:07:49,060
+向上旋转的次数至少与向下旋转的次数相同
+same number of up pointing spins as you
+have down pointing spins well at least
+
+84
+00:07:49,060 --> 00:07:52,419
+如果我把它们画得更对齐，那看起来就像是一个平等
+if I if I drew them more aligned it
+would look like there was an equal
+
+85
+00:07:52,419 --> 00:07:56,949
+向上旋转的旋转次数向下旋转的旋转我的绘图不太好
+number of up spin pointing spins is down
+pointing spins my drawing isn't so good
+
+86
+00:07:56,949 --> 00:08:03,729
+路易斯现在知道这种情况怎么可能发生
+so how is it that Louie now knew that
+this sort of situation could occur well
+
+87
+00:08:03,729 --> 00:08:07,330
+在其中一项家庭作业中减去您要完成的作业
+on one of the homework assignments less
+homework assignment you're meant to
+
+88
+00:08:07,330 --> 00:08:11,740
+计算像这样的状态的磁化率，实际上
+calculate the magnetic susceptibility of
+a state like this and there's actually
+
+89
+00:08:11,740 --> 00:08:14,320
+您可以寻找的一些特征和磁化率
+some signature and the magnetic
+susceptibility that you can look for
+
+90
+00:08:14,320 --> 00:08:18,009
+这就是Niall在看的东西，是什么让他
+which was a which was the thing that
+Niall is looking at and what made him
+
+91
+00:08:18,009 --> 00:08:21,990
+意识到这些反铁磁状态实际上存在
+realize that these anti ferromagnetic
+states actually exist
+
+92
+00:08:21,990 --> 00:08:28,509
+但在现代时代，实际上有一种非常直接的方式来观察这种
+but in the modern era there's actually a
+very direct way to see this sort of
+
+93
+00:08:28,509 --> 00:08:33,339
+物理是要对其进行中子散射，所以让我确保你
+physics which is to do neutron
+scattering on it so let me make sure you
+
+94
+00:08:33,339 --> 00:08:40,050
+可以写下中子散射所能看到的
+can write that down you can see with
+neutron scattering
+
+95
+00:08:40,979 --> 00:08:49,720
+或中子衍射，我想我们应该称其为基本晶格
+or neutron diffraction I guess we should
+call it so the elementary lattice
+
+96
+00:08:49,720 --> 00:08:56,160
+常数可能是a，但中子实际上看到了晶格常数
+constant here might be a but the
+neutrons actually see a lattice constant
+
+97
+00:08:56,160 --> 00:09:00,940
+这么大，这就是现在的晶胞，因为如果中子是
+which is this big this is the unit cell
+now because the neutrons if a neutron is
+
+98
+00:09:00,940 --> 00:09:05,560
+随着自旋向上而来，它将自旋视为与原子不同的原子
+coming in with spin up it sees an up
+spin as being a different atom from a
+
+99
+00:09:05,560 --> 00:09:08,620
+向下旋转和中子看到向上旋转的原因与
+Down spin and the reason that neutrons
+see an up spin is being different from a
+
+100
+00:09:08,620 --> 00:09:12,639
+向下旋转是中子自身旋转并且相互作用不同
+Down spin is the neutrons themselves
+have spin and they interact differently
+
+101
+00:09:12,639 --> 00:09:16,600
+你知道如果进入的中子是自旋原子，它将相互作用
+with you know if the neutron coming in
+is a spin up atom it will interact
+
+102
+00:09:16,600 --> 00:09:20,079
+与此原子不同，因此与该原子不同，因为它们的自旋为NT 
+differently with this atom then with
+this atom because their spins are NT
+
+103
+00:09:20,079 --> 00:09:24,459
+对齐，因此它会看到一个很大的质数，因此当您执行
+aligned so it sees a unit cell which is
+this big a prime so when you do your
+
+104
+00:09:24,459 --> 00:09:29,259
+中子衍射实验，您会发现它具有不同大小的晶胞
+neutron diffraction experiment you will
+see it a different size of the unit cell
+
+105
+00:09:29,259 --> 00:09:35,110
+当反铁磁性发生时，您会得到一个更大的晶胞，我应该
+when antiferromagnetism occurs you get a
+bigger unit cell I should actually
+
+106
+00:09:35,110 --> 00:09:38,680
+在这里再评论一件事，这有点微妙，但有一项作业
+comment one more thing here which is a
+little subtle but there's a homework
+
+107
+00:09:38,680 --> 00:09:43,600
+还要在这张照片上画作业，否则我应该有
+assignment on it as well then in this
+picture I've drawn or I should have
+
+108
+00:09:43,600 --> 00:09:47,410
+如果我是一个更好的艺术家，就画画。 
+drawn if I was a better artist up spins
+down spins up spin down spin up spin
+
+109
+00:09:47,410 --> 00:09:50,170
+向下旋转，这是一种非常经典的思维方式，我正在思考这些
+down spin and that's a very classical
+way of thinking I'm thinking of these
+
+110
+00:09:50,170 --> 00:09:53,769
+自旋实际上是您的向量，您可以指向任何方向
+spins is actually being your vectors
+that you can point in any direction in
+
+111
+00:09:53,769 --> 00:09:58,449
+如果您在旋转方面有很大的旋转，那么您知道五个半
+space if you have large spins in the
+sense of spin you know five halves or
+
+112
+00:09:58,449 --> 00:10:03,190
+自旋s等于2或s等于9个一半或s等于3或4或类似的值
+spin s equals 2 or s equals 9 halves or
+s equals 3 or 4 or something like that
+
+113
+00:10:03,190 --> 00:10:07,720
+然后把这些图片放在这些自旋的脑海中，只是矢量
+then having this picture in your head of
+these spins is just being vectors that
+
+114
+00:10:07,720 --> 00:10:11,949
+可以指向太空中的任何方向是一张相当不错的古典图画
+can point any direction in space is a
+fairly good classical picture which is
+
+115
+00:10:11,949 --> 00:10:15,970
+相当准确，但是如果您正在谈论旋转1/2则不是很好
+fairly accurate but if you're talking
+about spin 1/2 then it's not so good
+
+116
+00:10:15,970 --> 00:10:19,180
+不再需要真正考虑量子力学了
+anymore you really have to think in
+terms of quantum mechanics and you can't
+
+117
+00:10:19,180 --> 00:10:24,189
+画出这些向上旋转的图片向上旋转向下旋转旋转1/2 T 
+draw these pictures of up spin down spin
+up spin down spin and spin 1/2 an T for
+
+118
+00:10:24,189 --> 00:10:27,939
+我们的磁铁是非常复杂的野兽，想起来是不对的
+our magnet is a very complicated beast
+and it's not really right to think of it
+
+119
+00:10:27,939 --> 00:10:31,060
+这样，这更像是一种经典的直觉，适用于大型
+this way this is sort of more of a
+classical intuition that works for large
+
+120
+00:10:31,060 --> 00:10:35,740
+大旋转但是小旋转不太好，大概可以用
+large spins but not so well for small
+spins and that will be presumably worked
+
+121
+00:10:35,740 --> 00:10:42,610
+可以在家庭作业中完成，所以对此案再发表一则评论
+out in a homework assignment all right
+so one more comment about this this case
+
+122
+00:10:42,610 --> 00:10:47,709
+反铁磁性的原因是您可以拥有反铁磁性
+of antiferromagnetism
+is that you can have antiferromagnets
+
+123
+00:10:47,709 --> 00:10:53,680
+反铁磁耦合磁在三角形晶格上，然后
+anti ferromagnetic coupling
+mag on a triangular lattice and then
+
+124
+00:10:53,680 --> 00:11:01,420
+您会得到一些非常奇怪的三角形格子，让我们想象一下
+you'll get something really strange
+triangular lattice so let's imagine we
+
+125
+00:11:01,420 --> 00:11:06,009
+这里有一个三角形，三角形中有三个原子，如果第一个发生
+have a triangle here three atoms in
+triangle and if the first one happens to
+
+126
+00:11:06,009 --> 00:11:10,569
+有旋转的第二个想要在这里旋转指向
+have is spin up the second one up here
+wants to have spin pointing in the
+
+127
+00:11:10,569 --> 00:11:15,040
+与这个方向相反，所以他指向旋转，然后这个想要
+opposite direction from this one so he
+points spin down and then this one wants
+
+128
+00:11:15,040 --> 00:11:17,769
+对每个邻居都有相反的指向旋转，但是他在
+to have an opposite pointing spin to
+each of his neighbors but he's in
+
+129
+00:11:17,769 --> 00:11:22,329
+麻烦他可以指出，然后使这个家伙相反的方向，但
+trouble he can point up and then make
+the opposite direction of this guy but
+
+130
+00:11:22,329 --> 00:11:25,269
+与这个人相同的方向，否则他可以指向下方，相反
+the same direction as this guy or he can
+point down in which case he's opposite
+
+131
+00:11:25,269 --> 00:11:28,600
+这个人对这个人的方向相同，所以这个人有麻烦，他不能
+this guy the same direction at this guy
+so this guy's in trouble and he can't
+
+132
+00:11:28,600 --> 00:11:35,310
+高兴地指出任一方向，所以这就是你所说的沮丧
+point happily either direction so this
+is what you call frustrated frustrated
+
+133
+00:11:35,310 --> 00:11:46,500
+反铁磁体这几天一切都会引起挫败，所以再多
+antiferromagnet everything causes
+frustration these days okay so one more
+
+134
+00:11:46,500 --> 00:11:51,250
+这种反铁磁性或类似的物理原理
+case in of this anti anti ferromagnetism
+or similar physics to anti
+
+135
+00:11:51,250 --> 00:11:58,000
+我想提及的铁磁性是您有基础或
+ferromagnetism that i want to mention is
+the possibility that you have a basis or
+
+136
+00:11:58,000 --> 00:12:04,810
+让我们以两个原子为基础，我们两个或两个以上或更多，我是
+let's let's consider a two atom basis
+our two two or more or more and i'm
+
+137
+00:12:04,810 --> 00:12:12,130
+是晶格的基础，所以对于晶体，让我们考虑一个大原子
+basis for our lattice so for a crystal
+so let's consider for example a big atom
+
+138
+00:12:12,130 --> 00:12:18,519
+一个小原子一个大原子一个小原子大原子你会把它们变得越来越小
+a small atom a big atom small atom big
+atom you get them small and big out of
+
+139
+00:12:18,519 --> 00:12:27,189
+像这样的小四大，所以这是两个原子的基础，现在想象我们有
+small four big like this so here's a two
+atom basis okay now imagine that we have
+
+140
+00:12:27,189 --> 00:12:33,430
+反铁磁耦合，其中相邻原子要具有点
+anti ferromagnetic coupling where the
+neighboring atoms want to have point
+
+141
+00:12:33,430 --> 00:12:37,990
+它们的旋转方向相反，所以大原子指向上方，小原子指向上方
+their spins in opposite directions so
+the big atom say points up and the small
+
+142
+00:12:37,990 --> 00:12:42,819
+原子点大降低点，点向上点小，员工降低大点
+atom points down big out on points up
+small an employee's down big atom points
+
+143
+00:12:42,819 --> 00:12:51,779
+好的，我们可以继续前进这里，并获得想法，好的
+up okay we can keep going here and get
+the idea and okay up down
+
+144
+00:12:52,980 --> 00:13:01,980
+如果大原子上的自旋不等于小原子上的自旋，那么
+if the spin on the big atom is not equal
+to the spin on the small atom then what
+
+145
+00:13:01,980 --> 00:13:06,930
+我们将拥有的磁化强度将不等于零，因为您将拥有
+we'll have is will have magnetization
+not equal to zero because you'll have
+
+146
+00:13:06,930 --> 00:13:11,100
+磁化强度指向上方，那么您的磁化强度指向下方是
+more magnetization pointing up then you
+have magnetization pointing down is that
+
+147
+00:13:11,100 --> 00:13:14,220
+很清楚这是怎么工作的，即使你有反铁磁性
+is that clear how that works so even
+though you have anti ferromagnetic
+
+148
+00:13:14,220 --> 00:13:18,660
+耦合，每个相邻的自旋都想指向相反的方向，您会得到一个
+coupling and each neighboring spin wants
+to point in opposite direction you get a
+
+149
+00:13:18,660 --> 00:13:23,340
+剩余的净磁化强度，因为某些自旋大于另一个
+net magnetization left over because some
+of the spins are bigger than the other
+
+150
+00:13:23,340 --> 00:13:33,120
+自旋，这就是所谓的仙子磁力仙子磁力，它可能
+spins and this is what is known as fairy
+magnetism fairy magnetism and it may
+
+151
+00:13:33,120 --> 00:13:37,110
+看起来有点奇怪或不寻常，但实际上很常见
+seem like it's it's kind of strange or
+unusual but it's actually quite common
+
+152
+00:13:37,110 --> 00:13:43,830
+事实上，世界上最常见的磁铁是自然界中的铁3氧化物4 
+in fact the world's most common magnet
+occurring in nature it's iron 3 oxide 4
+
+153
+00:13:43,830 --> 00:13:48,060
+您可以在其中找到的磁铁矿或磁铁矿
+otherwise known as magnetite or
+lodestone that you can you'll find in
+
+154
+00:13:48,060 --> 00:13:51,060
+地球有时会被拉出地球并被它磁化
+the earth sometimes and it's magnetized
+when you pull it out of the earth and it
+
+155
+00:13:51,060 --> 00:13:56,310
+会直接粘在冰箱上，实际上是由磁铁组成的
+will stick to your refrigerator directly
+is actually a fairy magnet it's made up
+
+156
+00:13:56,310 --> 00:14:00,870
+一种原子类型上大于一个原子类型上更大的矩
+of more than one type of atom larger
+larger moments on one type of atom
+
+157
+00:14:00,870 --> 00:14:05,730
+彼此之间的力矩较小，彼此反对齐，则存在
+smaller moments on the other and they
+anti align with each other then there's
+
+158
+00:14:05,730 --> 00:14:09,960
+社区中关于您是否应该称呼磁铁的争论
+an argument in the community as to
+whether you should call a fairy magnet a
+
+159
+00:14:09,960 --> 00:14:13,980
+铁磁体的子集，这是您知道人们会争论的地方
+subset of a Ferro magnet and this is
+where you know people will argue with
+
+160
+00:14:13,980 --> 00:14:18,180
+彼此直到脸色发青并且没有实际的好答案
+each other till they're blue in the face
+and there's no actual good answer to
+
+161
+00:14:18,180 --> 00:14:22,890
+这是因为人们都同时使用它，所以有人说仙女磁铁是
+this because people use it both ways so
+some people say that a fairy magnet is a
+
+162
+00:14:22,890 --> 00:14:27,450
+铁磁磁体的子集，因为它的磁化强度非零，因此会坚持
+subset of a Ferro magnet because it has
+nonzero magnetization it will stick to
+
+163
+00:14:27,450 --> 00:14:32,460
+您的冰箱，您知道这是我们认为是磁铁的特性
+your refrigerator you know it's as the
+property that we think of as a magnet on
+
+164
+00:14:32,460 --> 00:14:36,090
+另一方面，有些人认为应该保留“铁磁”一词
+the other hand some people think that
+the word Ferro magnet should be reserved
+
+165
+00:14:36,090 --> 00:14:39,570
+对于所有旋转都指向相同方向的情况，我们应该调用
+for the case where all the spins point
+in the same direction and we should call
+
+166
+00:14:39,570 --> 00:14:42,900
+这是一个神仙的磁铁，有别于所有自旋的情况
+this a fairy magnet to distinguish it
+from the case where all the spins are
+
+167
+00:14:42,900 --> 00:14:45,870
+指向同一方向，所以无论如何，您应该意识到
+pointing in the same direction so anyway
+you should just be aware that that's
+
+168
+00:14:45,870 --> 00:14:50,460
+社区中几乎没有命名冲突，所以如果
+that there's that little conflict of
+nomenclature in the community okay so if
+
+169
+00:14:50,460 --> 00:14:56,580
+我们很好，我们仍然做得不错，所以让我们继续
+we're so good we're doing well still all
+right so let's move on to actually maybe
+
+170
+00:14:56,580 --> 00:14:59,850
+你知道我会再写一遍写下海森堡哈密顿量H 
+you know I'll write it again well write
+down the Heisenberg Hamiltonian H
+
+171
+00:14:59,850 --> 00:15:06,010
+海森堡再减去邻居IJ的1/2和
+Heisenberg again minus 1/2 sum over
+neighbors IJ
+
+172
+00:15:06,010 --> 00:15:13,660
+ J si SJ，正如我提到的，让我们主要关注J 
+J si SJ and as I mentioned and let's
+we're gonna sort of focus mostly on J
+
+173
+00:15:13,660 --> 00:15:19,660
+大于零，换句话说就是铁磁情况
+greater than zero in other words the
+ferromagnetic case and as I mentioned
+
+174
+00:15:19,660 --> 00:15:24,490
+只要这个旋转点，哈密顿量就不会在意
+this Hamiltonian doesn't care which
+direction the spins point as long as
+
+175
+00:15:24,490 --> 00:15:27,699
+不幸的是，他们现在都指向同一方向
+they're all pointing in the same
+direction now unfortunately most
+
+176
+00:15:27,699 --> 00:15:31,660
+材料并不像大多数材料实际上更喜欢旋转
+materials aren't like that most
+materials actually prefer the spins to
+
+177
+00:15:31,660 --> 00:15:36,310
+指向某个特定方向，所以这是为了表示我们
+point in some particular direction and
+so this is in order to represent that we
+
+178
+00:15:36,310 --> 00:15:39,760
+需要在汉密尔顿语中添加另一个术语，它们实际上是首先
+need to add another term to the
+Hamiltonian they're actually first let's
+
+179
+00:15:39,760 --> 00:15:42,550
+这是我在上一堂课中提到的，但我会再次提及
+this is something I mentioned in the
+last lecture but I'll mention it again
+
+180
+00:15:42,550 --> 00:15:46,540
+一件事，很明显，方向不是全部
+one thing that would make it obvious
+that the directions aren't all
+
+181
+00:15:46,540 --> 00:15:51,370
+等效的是，如果您想象有一个非常长的单位晶格， 
+equivalent is if you imagine having a
+very long tetr-a g''l unit cell whether
+
+182
+00:15:51,370 --> 00:15:55,149
+你知道晶体在一个方向上很长很薄，那么你可能
+you know the crystal is very long and
+thin in one direction then you might
+
+183
+00:15:55,149 --> 00:16:00,790
+想象一下，也许旋转想沿着特别长的细线指向
+imagine that maybe the spins want to
+point along particular the long thin
+
+184
+00:16:00,790 --> 00:16:07,750
+轴可能使您可能想要向上或想要向下但不
+axes maybe so you might have s wanting
+to be up or s wanting to be down but not
+
+185
+00:16:07,750 --> 00:16:13,209
+两者之间的任何方向，所以这是您可能会期望的一种情况
+any direction in between so this is sort
+of a case where you might expect this
+
+186
+00:16:13,209 --> 00:16:17,980
+存在某种各向异性，因此为了表示我们写下一个
+sort of anisotropy to exist so in order
+to represent that we write down an
+
+187
+00:16:17,980 --> 00:16:24,699
+哈密​​尔顿DH的附加术语，我看到了Trippy或我看到了Trippy 
+additional term of the Hamiltonian D H
+and I saw trippy or a time I saw trippy
+
+188
+00:16:24,699 --> 00:16:31,170
+不会叫它D我不确定哪个可能在所有原子上采用总和形式
+wouldn't call it D I'm not sure which
+might take the form sum over all atoms
+
+189
+00:16:31,170 --> 00:16:37,899
+在前面放一个减去Kappa的物体，就像在Z方向上保持不变的si 
+put a minus a Kappa out front that's
+like some constant si in the Z Direction
+
+190
+00:16:37,899 --> 00:16:43,570
+平方，这为什么会偏向于具有特定的自旋
+squared so why is this going to prefer
+having the spin in some particular
+
+191
+00:16:43,570 --> 00:16:49,269
+方向很好，它想最大化SZ的大小，因此，如果SC指向
+direction well it wants to maximize the
+magnitude of SZ so if SC is pointing in
+
+192
+00:16:49,269 --> 00:16:53,589
+哈密​​顿量沿向上或向下的方向
+the in the direct up direction or the
+direct down direction this Hamiltonian
+
+193
+00:16:53,589 --> 00:16:57,459
+尽可能地小，与
+is as small as possible it's as negative
+as you possibly can as compared to
+
+194
+00:16:57,459 --> 00:17:01,990
+在SZ上光束中的s点等于零平面
+having s point in the beam on the SZ
+equals zero plane and where this gets
+
+195
+00:17:01,990 --> 00:17:07,449
+负数较少，因此这种各向异性项是我们要使用的
+less negative so this kind of term this
+anisotropy term is one we're going to
+
+196
+00:17:07,449 --> 00:17:17,410
+考虑很多，所以也许我什至会写下来，就像不停下来
+consider a lot so maybe I'll even write
+down like to have s up or s down not
+
+197
+00:17:17,410 --> 00:17:23,800
+现在侧向指向立方晶体时，您可能会想到dh 
+as pointing sideways now for a cubic
+crystal you might expect something d-h
+
+198
+00:17:23,800 --> 00:17:28,600
+立方的，稍微复杂一点，可以使自旋指向
+cubic which is a little more complicated
+that would allow the spin to point along
+
+199
+00:17:28,600 --> 00:17:34,510
+任何晶体和轴，但不在晶体AXYZ之间
+any of the crystal and axes but not in
+between the crystal AXYZ an appropriate
+
+200
+00:17:34,510 --> 00:17:41,650
+哈密​​顿量可能是这样的si X到第四加si Y 
+Hamiltonian for that might be something
+like this si X to the fourth plus si Y
+
+201
+00:17:41,650 --> 00:17:48,580
+到第四个加si Z到第四个，我写这个给
+to the fourth plus si Z to the fourth
+and the reason I wrote this to the
+
+202
+00:17:48,580 --> 00:17:52,300
+第四次幂是因为如果我将它们写为平方次幂，那么你只是
+fourth power is it because if I wrote
+them to the squared power then you just
+
+203
+00:17:52,300 --> 00:17:56,440
+得到sx平方加y平方加Z平方，即s平方，即
+get s x squared plus y squared plus Z
+squared which is just s squared and that
+
+204
+00:17:56,440 --> 00:17:59,770
+不在乎旋转指向哪个方向，因为它只是幅度
+doesn't care which direction the spin is
+pointing because it's just the magnitude
+
+205
+00:17:59,770 --> 00:18:03,400
+旋转，但是如果您将其写为第四至第四，这就是为什么
+of the spin but if you write it as
+fourth s x to the fourth that's why this
+
+206
+00:18:03,400 --> 00:18:06,820
+所需的力量，那么这更倾向于让它一直指向
+force that's needed for it then this
+prefers to have this been pointing along
+
+207
+00:18:06,820 --> 00:18:10,570
+晶轴之一，但不在晶轴之间，因此我们可能
+one of the crystalline axes but not in
+between the crystalline axes so we might
+
+208
+00:18:10,570 --> 00:18:14,080
+也考虑一下这一点，但主要是我们要专注于这一点
+consider this one a little bit as well
+but mainly we're gonna focus on this one
+
+209
+00:18:14,080 --> 00:18:20,830
+只需再给一个评论再发表一次，您就会知道我们在这里写的是
+just one comment comment again for small
+you know the what we've written here is
+
+210
+00:18:20,830 --> 00:18:25,480
+当我们将旋转视为经典时，这是基于我们对旋转的直觉
+sort of based on our intuition for spins
+when we're thinking them as classical
+
+211
+00:18:25,480 --> 00:18:29,650
+向量我们认为它们是小旋转的经典向量
+vector we're thinking of them as
+classical vectors for small spins small
+
+212
+00:18:29,650 --> 00:18:40,360
+这些可能很琐碎，这些术语可能很琐碎，我的意思是
+spins these can be trivial these these
+terms can be trivial what do I mean by
+
+213
+00:18:40,360 --> 00:18:46,570
+好吧，假设我尝试将其写下来旋转1/2 
+that well suppose I try to write this
+down for a spin 1/2
+
+214
+00:18:46,570 --> 00:18:53,290
+记住这个自旋1/2 Polly算子Sigma Z如果是Pauli自旋矩阵
+remember this spin 1/2 Polly operator
+Sigma Z this the Pauli spin matrix if
+
+215
+00:18:53,290 --> 00:18:59,110
+您将其平方为自旋1/2，它是自旋矩阵Sigma Z的1/2 
+you square it for spin 1/2
+it's been 1/2 the spin matrix Sigma Z
+
+216
+00:18:59,110 --> 00:19:03,160
+平方只是1这是一个非常无趣的运算符
+squared is just 1 it's a very
+uninteresting operator it's just gives
+
+217
+00:19:03,160 --> 00:19:06,310
+您是一个常数，因此，如果您尝试写下这样的术语以旋转1/2 
+you a constant so if you try to write
+down a term like this for a spin 1/2
+
+218
+00:19:06,310 --> 00:19:10,780
+旋转它不会执行任何操作，也不会指定此bin想要的方向
+spin it would do nothing it wouldn't
+specify which direction this bin wants
+
+219
+00:19:10,780 --> 00:19:15,370
+要指出的是，如果您进行旋转-或旋转3则将是
+to point in however if you did it for a
+spin - or spin 3 it would it would be an
+
+220
+00:19:15,370 --> 00:19:19,810
+不与1平方的类似自旋矩阵变得不平凡，因此
+analogous spin matrix which it does not
+square to 1 it becomes non trivial so
+
+221
+00:19:19,810 --> 00:19:22,960
+只是要警告您不能写下来，我看到了两个B 
+that's just something to be warned about
+you can't write down and I saw two B
+
+222
+00:19:22,960 --> 00:19:28,960
+足够小旋转的条件好吧，所以我们需要考虑一下
+terms for small enough spins ok alright
+so we need to think about this
+
+223
+00:19:28,960 --> 00:19:33,549
+各向异性，这将使自旋指向某些方向
+anisotropy which will prefer
+the spins to point in some directions
+
+224
+00:19:33,549 --> 00:19:37,179
+在其他方向上，我们需要考虑两种可能性
+over other directions and we need to
+think about two possibilities one
+
+225
+00:19:37,179 --> 00:19:42,309
+可能是各向异性强，另一个可能是
+possibility is that the anisotropy is
+strong and the other possibility is that
+
+226
+00:19:42,309 --> 00:19:47,950
+各向异性很弱，所以也许我会在这里写下弱点
+the anisotropy is weak so maybe I'll
+write down the weak case over here we
+
+227
+00:19:47,950 --> 00:19:55,210
+我可以寻求重复吗，我的意思是这个卡伯这个系数出现了
+can I sought repeat by which I mean that
+this Kappa this coefficient that occurs
+
+228
+00:19:55,210 --> 00:20:00,909
+各向异性项中的远小于j发生的交换常数
+in the anisotropy term is much less than
+the j the exchange constant that occurs
+
+229
+00:20:00,909 --> 00:20:09,039
+在海森堡任期中，在这种情况下，必须要做的就是首先
+in the heisenberg term now in this case
+what one has to do is one has to first
+
+230
+00:20:09,039 --> 00:20:15,369
+或最重要的是首先旋转与邻居旋转对齐
+or most importantly first you spins
+aligned with neighbors it spins aligned
+
+231
+00:20:15,369 --> 00:20:21,100
+和邻居在一起，当我首先说的时候，这是最重要的
+with neighbors and when I say that first
+I mean it's most important to align with
+
+232
+00:20:21,100 --> 00:20:25,389
+您的邻居，因为J是系统中的大能量尺度
+your neighbors because J is the big
+energy scale in the system once you've
+
+233
+00:20:25,389 --> 00:20:34,359
+与邻居对齐，然后沿着具有各向异性的直线对齐
+aligned with your neighbors second you
+align along a line with anisotropy with
+
+234
+00:20:34,359 --> 00:20:45,009
+各向异性轴，所以首先您与邻居对齐，然后每个人都决定
+anisotropy axis so first you align with
+your neighbors and then everyone decides
+
+235
+00:20:45,009 --> 00:20:48,519
+如果现在它们都与反社会的p轴对齐的话，他们的状况会更好
+that they're better off if they all
+align with the antisocial p axis now if
+
+236
+00:20:48,519 --> 00:20:54,580
+您将其与强各向异性的情况进行比较，我寻求
+you compare that to the case over here
+strong anisotropy strong and I sought
+
+237
+00:20:54,580 --> 00:21:02,379
+您的P表示这个Kappa这个各向异性常数Kappa大得多
+your P meaning this kappa this
+anisotropy constant Kappa is much bigger
+
+238
+00:21:02,379 --> 00:21:10,809
+比J大，那么首先要沿着各向异性轴对齐
+than J then first you want to align
+along anisotropy axis aligned along
+
+239
+00:21:10,809 --> 00:21:19,960
+各向异性，例如，如果我们使用的话，所有自旋都将指向上方或下方
+anisotropy for example all spins will
+point either up or down if we're using
+
+240
+00:21:19,960 --> 00:21:23,980
+上下颠簸，然后每个人都必须指向上方或下方
+that up and down on a satrapy then
+everyone has to point either up or down
+
+241
+00:21:23,980 --> 00:21:27,639
+那是你首先要做的，因为那是第二个
+that's what you do first because that's
+the big energy scale in the second in
+
+242
+00:21:27,639 --> 00:21:35,639
+系统，但是第二步，您与邻居对齐与邻居对齐
+the system but then second you align
+with neighbors aligned with neighbors
+
+243
+00:21:36,160 --> 00:21:40,660
+现在看来这是一个微不足道的区别，因为在
+now this may seem like it's a trivial
+distinction because at the end of the
+
+244
+00:21:40,660 --> 00:21:44,500
+当天的地面状态是相同的地面状态是每个人都保持一致
+day the ground state is the same the
+ground state is that everyone's aligned
+
+245
+00:21:44,500 --> 00:21:47,560
+和他们的邻居，每个人都团结一致，现在是诚实的占领轴
+with their neighbors and everyone's
+aligned along now be honest occupy axis
+
+246
+00:21:47,560 --> 00:21:50,710
+所以我为什么要为此做很多事情，这使两者有所不同
+so why did I make a big deal about this
+well it makes a difference the two
+
+247
+00:21:50,710 --> 00:21:54,520
+如果您考虑一下低能量激发，则极限会有所不同
+limits make are different if you think
+about what the low energy excitations
+
+248
+00:21:54,520 --> 00:22:05,020
+在这种情况下，低能量激发就是
+are so in this case the low energy
+excitations energy excitations our small
+
+249
+00:22:05,020 --> 00:22:10,120
+一堆旋转的角旋转，每个人或多或少地停留
+angular rotations of a whole bunch of
+spins that everyone stays more or less
+
+250
+00:22:10,120 --> 00:22:13,960
+与他们的邻居对齐，但他们只旋转了一点
+aligned with their neighbors but they
+rotate just a little bit from the
+
+251
+00:22:13,960 --> 00:22:22,300
+各向异性轴，所以这是一个小旋转小旋转
+anisotropy axis so this is a small
+rotations small rotations staying
+
+252
+00:22:22,300 --> 00:22:37,150
+与邻居对齐排列，而这里的低能量激发是
+aligned aligned with neighbors whereas
+over here the low energy excitations are
+
+253
+00:22:37,150 --> 00:22:48,190
+完全不同的低能量激发在这里
+completely different low energy
+excitations here the thing that's
+
+254
+00:22:48,190 --> 00:22:51,850
+重要的是您必须与各向异性轴保持一致，因此
+important is that you have to stay
+aligned with the anisotropy axis so the
+
+255
+00:22:51,850 --> 00:22:58,420
+低能量激发是使一些自旋翻转，但保持对齐
+low energy excitation is to flip some
+spin flips a spin but keep it aligned
+
+256
+00:22:58,420 --> 00:23:10,390
+与各向异性轴，但保持对齐，但保持在各向异性轴上
+with the anisotropy axis but stay
+aligned but stay on anisotropy axis okay
+
+257
+00:23:10,390 --> 00:23:14,050
+清楚这两者之间有什么区别吗，所以这是
+is it clear what the difference is
+between these two okay so this is an
+
+258
+00:23:14,050 --> 00:23:17,410
+这里有趣的案例，人们对此很有意思
+interesting case here and it's
+sufficiently interesting that people
+
+259
+00:23:17,410 --> 00:23:25,300
+经过大量研究，他们为此模型写下了一个有效的模型
+study in a lot and they write down an
+effective model for this one model which
+
+260
+00:23:25,300 --> 00:23:32,380
+具有以下属性，我们写一些正负i等于或等于s 
+has the following properties we write
+some sigma i which is plus or minus s
+
+261
+00:23:32,380 --> 00:23:40,690
+自旋的大小，然后si是z帽中的σ 
+the magnitude of the spin and then s i
+is as a vector is sigma i in the z hat
+
+262
+00:23:40,690 --> 00:23:45,310
+方向，所以基本上我们只让旋转具有完整的幅度
+direction so basically we're only
+letting the spin have complete magnitude
+
+263
+00:23:45,310 --> 00:23:49,140
+指向正上方或指向正下方的全幅
+pointing exactly up or a full magnitude
+pointing exactly down
+
+264
+00:23:49,140 --> 00:23:56,000
+然后我们可以写出非常类似于海森堡形式的哈密顿量
+and then we can write out a Hamiltonian
+very similar to the Heisenberg form
+
+265
+00:23:56,120 --> 00:24:03,450
+海森堡形式H等于还可以，所以I和J上将有负1/2的和
+Heisenberg form H equals okay so
+there'll be minus 1/2 sum over I and J
+
+266
+00:24:03,450 --> 00:24:10,410
+邻居J Sigma I Sigma J，然后加上好耦合到外部
+neighbors J Sigma I Sigma J and then
+plus well couple it to the external
+
+267
+00:24:10,410 --> 00:24:20,730
+场G mu BB Sigma I这个哈密顿量被称为缓和模型缓和
+field G mu B B Sigma I this Hamiltonian
+is known as the easing model easing
+
+268
+00:24:20,730 --> 00:24:26,910
+的模型，因为它是由伦茨（Lunz）发明的。 
+model because it was invented by Lenz
+not easing easing was the graduate
+
+269
+00:24:26,910 --> 00:24:33,090
+借给这个项目的学生在1925年将其作为一个项目，他为此解决了
+student who lends gave this to as a
+project in 1925 and he solved this for
+
+270
+00:24:33,090 --> 00:24:38,400
+他的博士学位研究项目，现在我要在一维的情况下
+his PhD project and what in one
+dimensional case now I'm gonna make a
+
+271
+00:24:38,400 --> 00:24:43,170
+这个缓动模型很重要，因为这个缓动模型非常简单
+big deal about this easing model because
+this easing model it's extremely simple
+
+272
+00:24:43,170 --> 00:24:47,700
+但是它也非常复杂，很简单，因为在每个站点上只有
+and yet it's also extremely complex it's
+simple because on each site there's only
+
+273
+00:24:47,700 --> 00:24:50,820
+一个自由度，你要么不指向上方，要么指向下方
+one degree of freedom and you don't
+either it points up or it points down
+
+274
+00:24:50,820 --> 00:24:54,360
+没有其他可能性，所以这是非常简单的自由度
+there's no other possibilities so it's
+very simple degrees of freedom and yet
+
+275
+00:24:54,360 --> 00:24:58,590
+它只耦合到它的邻居，但是这个模型的物理原理是
+and it couples only to its neighbor and
+yet the physics of this model are
+
+276
+00:24:58,590 --> 00:25:02,490
+非常复杂，说这个世界可能并不夸张
+extremely complex and it's probably not
+an exaggeration to say the world has
+
+277
+00:25:02,490 --> 00:25:06,960
+从这个模型中学到了更多关于统计力学的知识
+learned more about statistical mechanics
+from this one model than from anything
+
+278
+00:25:06,960 --> 00:25:12,990
+否则我们可能会进行研究，以便在1925年通过一维轻松解决此模型
+else we possibly studied so easing solve
+this model in 1925 in one-dimension
+
+279
+00:25:12,990 --> 00:25:17,550
+在二次世界大战期间，萨加尔非常有名地设法解决了这一难题， 
+during world war ii on sagar very
+famously managed to solve it without
+
+280
+00:25:17,550 --> 00:25:22,410
+二维磁场没有人同时解决过二维模型
+magnetic field in two dimensions no one
+has solved the model either in two
+
+281
+00:25:22,410 --> 00:25:25,920
+具有磁场的尺寸或三维尺寸或更高尺寸
+dimensions with a magnetic field or in
+three dimensions or any higher dimension
+
+282
+00:25:25,920 --> 00:25:30,000
+从那时起，已经有很多研究了成千上万的论文
+since then so it's been a lot of study
+thousands and thousands of papers have
+
+283
+00:25:30,000 --> 00:25:33,600
+从那时起就已经写过关于该模型的文章，我应该在最后一提
+been written about this model since then
+and I should mention just in the last
+
+284
+00:25:33,600 --> 00:25:37,950
+几年来，人们对解决这种模式进行了真正英勇的攻击
+few years there's been a really valiant
+assault against solving this model in
+
+285
+00:25:37,950 --> 00:25:42,030
+三个维度，也许几年之内可能会有解决方案
+three dimensions and maybe within a few
+years there will be a solution maybe not
+
+286
+00:25:42,030 --> 00:25:47,190
+我们可以保持乐观，但是这个模型如此有趣的原因是
+we can be optimistic but the reason that
+this is this model is so interesting is
+
+287
+00:25:47,190 --> 00:25:51,390
+因为它展示了很多有趣的物理学，尤其是关于
+because it shows an awful lot of
+interesting physics particularly about
+
+288
+00:25:51,390 --> 00:25:55,170
+即使在此模型中也只有一个自由度
+phase transitions even in this this
+model it only has one degree of freedom
+
+289
+00:25:55,170 --> 00:26:02,370
+在每个站点上的每个网站上都可以，所以我们将回到实际的
+on each on each site okay so we'll come
+back to the easing model actually in the
+
+290
+00:26:02,370 --> 00:26:05,410
+下节课，然后我们会问
+next
+lecture and then we will ask the
+
+291
+00:26:05,410 --> 00:26:11,350
+问题，我们要把它放在这里，不，我们把它放在这里，好
+question we're going to put it here no
+let's put it over here here okay
+
+292
+00:26:11,350 --> 00:26:15,880
+对于我们写下的任何模型，如果有
+for any model that we write down so
+we're starting here if we have a
+
+293
+00:26:15,880 --> 00:26:25,900
+哈密​​顿量是海森堡形式的H加各向异性形式，如果
+Hamiltonian which is H of the Heisenberg
+form plus the anisotropy form and if the
+
+294
+00:26:25,900 --> 00:26:29,040
+各向异性很强，我们可以用缓动代替组合
+anisotropy is strong we can just replace
+the combination with the easing
+
+295
+00:26:29,040 --> 00:26:39,880
+哈密​​顿量的确使整个系统对准系统将直线对准T 
+Hamiltonian does does the whole system
+align the system align a line at T
+
+296
+00:26:39,880 --> 00:26:46,360
+等于零，在模型中答案是
+equals zero and in the model the answer
+is yes
+
+297
+00:26:46,360 --> 00:27:01,660
+在模型中是，但在实际磁体中不是，在实际磁体中不是，不是所有的自旋
+in model yes but in real magnets no so
+in real magnets not all the spins in the
+
+298
+00:27:01,660 --> 00:27:06,040
+系统实际上确实相互对齐，并且要了解为什么这样做，我们必须
+system actually do align with each other
+and to understand why this is we have to
+
+299
+00:27:06,040 --> 00:27:10,090
+意识到我们实际上在我们的哈密顿量中遗漏了一些重要的东西
+realize that we actually left something
+important out of our Hamiltonian so
+
+300
+00:27:10,090 --> 00:27:14,980
+让我们做一个Gedanken实验让我们假设你有一个很大的
+let's do a little bit of a Gedanken
+experiment let's imagine you have a big
+
+301
+00:27:14,980 --> 00:27:18,760
+一些磁性材料的另一块大一些磁性材料的
+chunk of some magnetic material another
+big chunk of some magnetic material the
+
+302
+00:27:18,760 --> 00:27:22,750
+这一个有一个磁化这里这个一个有一个磁化然后
+this one has a magnetization here this
+one has a magnetization here then you
+
+303
+00:27:22,750 --> 00:27:26,650
+将这两块材料很好地整合在一起
+bring these two chunks of materials
+together well what happens well you've
+
+304
+00:27:26,650 --> 00:27:30,010
+可能是当您还是个孩子的时候，当您带他们去做的时候
+probably done this when you were a kid
+at some point and when you bring them
+
+305
+00:27:30,010 --> 00:27:34,240
+在一起，您意识到他们想要像这样坐着
+together you realize that they want to
+sit like this they want to sit
+
+306
+00:27:34,240 --> 00:27:37,930
+从头到尾，因为它们具有偶极相互作用，所以磁铁想
+head-to-tail because they have a dipolar
+interaction and so the magnets want to
+
+307
+00:27:37,930 --> 00:27:41,650
+并肩而终，他们真的不想在一起
+come together head to tail and they
+really don't want to come together head
+
+308
+00:27:41,650 --> 00:27:46,480
+朝着这样的方向前进，这告诉我们，我们省略了一些重要的内容
+to head like this so this is telling us
+that we we left out some important piece
+
+309
+00:27:46,480 --> 00:27:54,940
+物理和我们遗漏的东西我们遗漏了磁能磁能
+of physics and what we left out we left
+out magnetic energy magnetic energy
+
+310
+00:27:54,940 --> 00:28:02,880
+这是思考它或偶极-偶极相互作用的一种方式
+that's one way of thinking about it or
+dipole-dipole interaction
+
+311
+00:28:08,110 --> 00:28:14,240
+在上一讲中，我提到如果您正在考虑两个旋转
+in the last lecture I mentioned that if
+you are thinking about two spins in a
+
+312
+00:28:14,240 --> 00:28:18,980
+给定原子并询问他们是否要对准偶极-偶极子
+given atom and asking whether they want
+to align or not the dipole-dipole
+
+313
+00:28:18,980 --> 00:28:23,900
+两个自旋和原子之间的相互作用很小，因此您可以忽略它
+interaction between two spins and atom
+is insanely small so you could ignore it
+
+314
+00:28:23,900 --> 00:28:28,130
+是的，但是如果您有很大一部分材料，那么您将拥有巨大的数量
+that's true but if you have a big chunk
+of a material you have an insanely large
+
+315
+00:28:28,130 --> 00:28:34,070
+每个那里的电子数量极少的偶极矩
+number of electrons there each with an
+insanely small amount of dipole moment
+
+316
+00:28:34,070 --> 00:28:37,040
+而你把它们放在一起实际上变成了一个相当大的偶极矩
+and you put them all together actually
+becomes a reasonably big dipole moment
+
+317
+00:28:37,040 --> 00:28:41,720
+而您确实需要担心这种偶极子的能量
+and you do have to worry about this
+dipole dipole energy another way of
+
+318
+00:28:41,720 --> 00:28:48,860
+想一想完全相同的物理学，如果您认为
+thinking about it exactly the same
+physics is to well okay if you think
+
+319
+00:28:48,860 --> 00:28:53,480
+关于这两张图片中的磁力线这里的磁力线
+about the magnetic field lines in these
+two pictures here magnetic field lines
+
+320
+00:28:53,480 --> 00:28:57,650
+在这张照片中看起来像这样，而在这张照片中，磁性
+look kind of like this in this picture
+whereas in this picture the magnetic
+
+321
+00:28:57,650 --> 00:29:01,520
+磁力线看起来像这样，您还记得磁能
+field lines kind of look like this and
+you remember that the magnetic energy
+
+322
+00:29:01,520 --> 00:29:08,450
+总磁能为B的积分D 3 R平方超过2微米， 
+total magnetic energy is integral D 3 R
+of B squared over 2 mu naught and
+
+323
+00:29:08,450 --> 00:29:12,740
+如果您长时间对准偶极子，则总的d平方要小得多
+there's the total d squared is a lot
+smaller if you long align your dipoles
+
+324
+00:29:12,740 --> 00:29:17,930
+从头到尾，所以您通过放置偶极子来减少磁能
+head to tail so you're reducing magnetic
+energy by putting your dipoles
+
+325
+00:29:17,930 --> 00:29:22,730
+以这种方式从头到尾，因此在实际身体中实际发生的情况
+head-to-tail in this way so what
+actually happens in a real physical
+
+326
+00:29:22,730 --> 00:29:30,100
+系统，所以我们现在可以写出h等于H Heisenberg Heisenberg加h各向异性
+system so we can now write h equals H
+Heisenberg Heisenberg plus h anisotropy
+
+327
+00:29:30,100 --> 00:29:36,860
+各向异性加上我们将添加H偶极相互作用或磁性
+anisotropy plus we're gonna add H
+dipolar interaction or magnetic magnetic
+
+328
+00:29:36,860 --> 00:29:44,360
+相互作用的磁能，那么实际发生的是你得到的是你的
+interaction magnetic energy then what
+actually happens is you get here's your
+
+329
+00:29:44,360 --> 00:29:50,240
+大型系统有时系统会分解为所谓的域
+big system the system will break up into
+what are known as domains sometimes
+
+330
+00:29:50,240 --> 00:29:59,330
+所谓的老虎钳域老虎钳域
+called vise domains vise domains where
+some point up some point down some point
+
+331
+00:29:59,330 --> 00:30:03,920
+这样，他们会分解成许多小领域现在发生了什么
+up like this they'll break up into many
+little domains now what's going on here
+
+332
+00:30:03,920 --> 00:30:10,190
+在本材料的这一点上，您将在旁边旋转
+at some point in this in this material
+you will have up spins right next to
+
+333
+00:30:10,190 --> 00:30:14,630
+向下旋转，这使哈密顿语中的海森堡术语非常不愉快
+down spins and that makes the Heisenberg
+term in the Hamiltonian very unhappy
+
+334
+00:30:14,630 --> 00:30:16,909
+因为海森堡超过了汉密尔顿
+because that Heisenberg out term of the
+Hamilton
+
+335
+00:30:16,909 --> 00:30:23,539
+一旦上升旋转成为下一个上升旋转，那么这会产生一些能源成本
+once the up spins to be next up spins so
+there's some energy cost along that that
+
+336
+00:30:23,539 --> 00:30:27,349
+沿着那个过渡，这就是所谓的域墙，也许我什至会
+transition along that what's what's
+known as a domain wall maybe I'll even
+
+337
+00:30:27,349 --> 00:30:30,919
+写下这是一个过渡，称为
+write that down
+this is a the transition is called a
+
+338
+00:30:30,919 --> 00:30:40,489
+两者之间的畴壁，所以有一些海森堡能量来自旋
+domain wall between the two so there's
+some Heisenberg energy to have up spins
+
+339
+00:30:40,489 --> 00:30:45,049
+靠近畴壁上的向下旋转，但您牺牲了海森堡能量
+next to down spins on the domain wall
+but you sacrifice that Heisenberg energy
+
+340
+00:30:45,049 --> 00:30:50,090
+为了节省磁能或偶极能， 
+on the domain wall in order to save
+magnetic energy or dipolar energy for
+
+341
+00:30:50,090 --> 00:30:57,470
+如果您有不同类型的各向异性，整个系统就可以了
+the whole system as a whole okay if if
+you had a different type of anisotropy
+
+342
+00:30:57,470 --> 00:31:03,049
+我寻找你的作品，例如立方各向异性域壁
+and I sought your piece for example
+cubic anisotropy the domain wall
+
+343
+00:31:03,049 --> 00:31:10,899
+结构可能看起来有所不同，您可能会有类似如下的内容
+structure might look different you might
+have something that looks like like this
+
+344
+00:31:11,229 --> 00:31:15,320
+在此指向正确的位置，它像这样向下产生
+where this points up this points right
+it spawns left down down like that and
+
+345
+00:31:15,320 --> 00:31:19,970
+这是将每种偶极子从头到尾与下一个偶极子放在一起
+this was putting each dipole sort of
+head to tail with the next dipole that
+
+346
+00:31:19,970 --> 00:31:28,070
+现在可以更好地提高能量在这种情况下发生的是
+improves the energy even better now what
+happens in this case is that overall the
+
+347
+00:31:28,070 --> 00:31:32,989
+这些磁铁之一的总磁化强度现在又为零，因为您
+total magnetization of one of these
+magnets is now zero again because you
+
+348
+00:31:32,989 --> 00:31:36,649
+上域与下域一样多，却没有
+have just as many up domains as you have
+down domains and you get no
+
+349
+00:31:36,649 --> 00:31:40,549
+完全磁化，然后您可能会知道挠头说好
+magnetization at all and then you might
+you know scratch your head and say well
+
+350
+00:31:40,549 --> 00:31:43,879
+等一下，我知道磁铁存在，你知道，那我们要怎么做
+wait a second I know magnets exist and
+you know so how is it we're gonna get
+
+351
+00:31:43,879 --> 00:31:47,690
+马格努斯是我们磁铁中的罪恶，所以现在我们必须开始思考
+Magnus a ssin out of our magnets and so
+now we have to start thinking a little
+
+352
+00:31:47,690 --> 00:31:50,989
+仔细一点，我们可以做的第一件事实际上我想我有一张幻灯片
+bit carefully the first thing we can do
+in actually I guess I have a slide
+
+353
+00:31:50,989 --> 00:31:54,919
+比再次绘制图片更好，您可以做的第一件事就是
+better than drawing the pictures again
+the first thing you can do is you can
+
+354
+00:31:54,919 --> 00:32:01,399
+想象一下，如果您在系统外部添加磁场，那么
+imagine if you add a magnetic field
+externally to the system the size of the
+
+355
+00:32:01,399 --> 00:32:05,450
+领域，我们会做出反应，布雷特，你知道如果你的磁场
+domains will we react will Breit and you
+know if the magnetic field that you
+
+356
+00:32:05,450 --> 00:32:10,879
+应用指向上，您将获得更多的向上域名，而不是向下的域名，您将获得
+apply is pointing up you'll get more up
+domains than down domains and you'll get
+
+357
+00:32:10,879 --> 00:32:15,889
+再次净磁化，但是如果您去除磁场， 
+a net magnetization again but still if
+you take away the magnetic field the
+
+358
+00:32:15,889 --> 00:32:20,239
+领域回到这里的旧平衡状态，您将一无所有
+domains move back to their old
+equilibrium over here and you'll have no
+
+359
+00:32:20,239 --> 00:32:24,259
+磁化，所以我们认为这应该是费罗
+magnetization so this thing that we
+thought was supposed to be a Ferro
+
+360
+00:32:24,259 --> 00:32:28,580
+磁铁实际上是对位磁铁，它可以是非常好的功率磁铁， 
+magnet is in fact a para magnet it can
+be a very good power magnet which gives
+
+361
+00:32:28,580 --> 00:32:30,990
+您会为非常小的磁铁带来很高的磁化强度
+you a very high magnetization for a very
+small magnet
+
+362
+00:32:30,990 --> 00:32:36,210
+磁场，但不幸的是，它仍然是功率磁铁，所以我们将如何获得
+field but it's still unfortunately a
+power magnet so how are we going to get
+
+363
+00:32:36,210 --> 00:32:41,970
+即使在没有施加磁场的情况下，它也具有磁性
+this thing to be magnetic even in the
+absence of an applied magnetic field so
+
+364
+00:32:41,970 --> 00:32:46,530
+制作真正磁铁的整个技巧就是60冰箱那种东西
+the whole trick to making a real magnet
+the kind of thing that 60 refrigerator
+
+365
+00:32:46,530 --> 00:32:51,570
+是找到一种方法来防止域从此配置退回
+is to find a way to prevent the domains
+from going back from this configuration
+
+366
+00:32:51,570 --> 00:32:56,429
+以此配置为例，您引用在高磁场中训练磁体的方式， 
+to this configuration so you quote train
+a magnet in a high magnetic field so it
+
+367
+00:32:56,429 --> 00:32:59,370
+进入这些配置之一，其中更多的旋转
+gets to one of these configurations
+where there's more up spins the
+
+368
+00:32:59,370 --> 00:33:03,179
+公告是这张图片中的上升时刻和下降时刻，但随后您
+announcements are up moments and down
+moments in this picture but then you
+
+369
+00:33:03,179 --> 00:33:08,240
+找到一种方法来防止域移回，这就是所谓的
+find a way to prevent the domains from
+moving back this is what's called
+
+370
+00:33:08,240 --> 00:33:20,970
+钉住畴壁钉住畴壁以及您的方式
+pinning pinning of domain walls pinning
+domain walls and the way it's you
+
+371
+00:33:20,970 --> 00:33:28,290
+通常会按此顺序固定域墙，以及是否正在尝试
+typically pin a domain wall is with this
+order and whether one is trying to
+
+372
+00:33:28,290 --> 00:33:32,070
+设计一个磁铁，让您知道我们在电动机中的用途，无论您是否尝试
+design a magnet for you know for our use
+in electrical motors whether you trying
+
+373
+00:33:32,070 --> 00:33:34,620
+做一个磁铁，可以粘在冰箱上
+to make a magnet that will stick to your
+refrigerator where they're trying to
+
+374
+00:33:34,620 --> 00:33:39,150
+制作磁盘驱动器的磁铁制作优质磁铁的整个技术是
+make a magnet for a magnetic disk drive
+the whole art to making good magnets is
+
+375
+00:33:39,150 --> 00:33:43,980
+弄清楚如何使无序现象阻止磁畴移动
+to figure out how to make the disorder
+prevent the magnetic domains from moving
+
+376
+00:33:43,980 --> 00:33:46,920
+回到原始配置，磁化强度回到
+back to their original configuration
+where the magnetization goes back to
+
+377
+00:33:46,920 --> 00:33:51,540
+零好吧，为什么这种疾病会帮助您呢，所以这里是
+zero okay so why is it the disorders
+gonna help you alright so here's here's
+
+378
+00:33:51,540 --> 00:33:56,100
+应该在这里显示的图片，所以我提到这很轻松
+the picture that's supposed to show us
+here so this is an easing did I mention
+
+379
+00:33:56,100 --> 00:34:00,030
+关于放宽还是结冰的整个过程我不是说我做到了吗
+the whole business about easing versus
+icing I didn't say that did I did I did
+
+380
+00:34:00,030 --> 00:34:04,620
+我说那好吧，让我告诉你，德国人很放松，显然是这样
+I say that okay so let me tell you so
+easing was German and apparently the way
+
+381
+00:34:04,620 --> 00:34:09,899
+我认为这在德国正在减少，但随后他
+it's pronounced is is is easing in
+Germany I believe but then after he
+
+382
+00:34:09,899 --> 00:34:13,889
+完成他的论文，他去了美国，人们叫他
+finished his dissertation he went to the
+United States and people called him
+
+383
+00:34:13,889 --> 00:34:17,250
+为他的余生锦上添花，所以美国每个人都呼吁
+icing for the rest of his life
+and so everyone the United States calls
+
+384
+00:34:17,250 --> 00:34:20,790
+在欧洲，每个人都将其称为Isaac模型
+it the Isaac model everyone in Europe
+calls it the easing model I'll probably
+
+385
+00:34:20,790 --> 00:34:24,899
+永远不会弄直，但我认为称它为宽松是正确的
+never get it straight but I think it is
+correct to call it to call it easing
+
+386
+00:34:24,899 --> 00:34:30,000
+无论如何，所以这是一个缓和的磁铁，所有旋转都指向上或下
+anyway so this is an easing magnet all
+the spins are pointing either up or down
+
+387
+00:34:30,000 --> 00:34:35,369
+相互作用的高点，自旋之间的相互作用不愉快
+and the highs in the interaction the
+interaction between spins is unhappy
+
+388
+00:34:35,369 --> 00:34:40,530
+沿着域壁，我在此处绘制了所有不愉快的红色旋转
+along the domain wall and I've drawn all
+the unhappy spins in red here where the
+
+389
+00:34:40,530 --> 00:34:45,210
+向上旋转遇到向下旋转好吗，如果您从上到下进行计数
+up spins meet the down spins okay and if
+you count them from top to bottom
+
+390
+00:34:45,210 --> 00:34:52,230
+这些红色债券中有12个存在不愉快的联系
+there are 12 of these red bonds where
+there's an unhappy connection now in
+
+391
+00:34:52,230 --> 00:34:56,730
+这张图片有一个绿色的小原子，应该是缺陷
+this picture there's a little green atom
+there which is supposed to be a defect
+
+392
+00:34:56,730 --> 00:35:01,890
+如果您碰巧在域上移动，则根本不会旋转
+someplace where there's no spin at all
+if you happen to move over the domain
+
+393
+00:35:01,890 --> 00:35:06,570
+墙到这里不同的位置，这样他们就可以通过缺陷
+wall to a different position over here
+so they goes through the defect there's
+
+394
+00:35:06,570 --> 00:35:12,270
+现在只有10个红色债券而不是12个，因此如果
+only 10 red bonds now not 12
+so the energy actually drops if the
+
+395
+00:35:12,270 --> 00:35:17,460
+畴壁经历缺陷，畴壁穿过的能量较低
+domain wall goes through the defect it's
+a lower energy for domain walls to go
+
+396
+00:35:17,460 --> 00:35:22,710
+通过缺陷，以便他们想要坚持缺陷，这就是您固定域的方式
+through defects so they want to stick on
+the defect and that's how you pin domain
+
+397
+00:35:22,710 --> 00:35:28,320
+通过一次在系统中放置缺陷来使墙壁具有某种混乱
+wall with a with some disorder by
+putting defects in the system the once
+
+398
+00:35:28,320 --> 00:35:32,040
+畴壁在这种配置下，您会带走磁性
+the the domain walls are in this
+configuration you take away the magnetic
+
+399
+00:35:32,040 --> 00:35:35,160
+场，但他们不能后退，因为他们不得不放弃一些
+field but then they can't move back
+because they would have to give up some
+
+400
+00:35:35,160 --> 00:35:39,330
+能量回到原来的位置，因为它们被卡在
+energy to move back to their original
+position because they're stuck on the
+
+401
+00:35:39,330 --> 00:35:43,560
+缺陷好吧，这是一般的物理原理。 
+defects okay that's the general the
+general physics of how it is you make a
+
+402
+00:35:43,560 --> 00:35:49,830
+到目前为止M都不为零的真实磁体，所以很好，所以自
+real magnet which has M not equal to
+zero so far so good okay so since the
+
+403
+00:35:49,830 --> 00:35:54,390
+您知道基本物理学确实全部包裹在
+you know the fundamental physics is
+really all wrapped up in the physics of
+
+404
+00:35:54,390 --> 00:35:58,740
+域名墙以及域名墙的移动方式值得思考
+the domain wall and how the domain wall
+moves it's worth thinking about the
+
+405
+00:35:58,740 --> 00:36:02,460
+磁畴壁更仔细一点，结果发现大多数磁铁
+domain wall a little bit more carefully
+and it turns out that most magnets in
+
+406
+00:36:02,460 --> 00:36:06,930
+自然不是各向异性强的发烧型，但有
+nature are not of the eezing type where
+the anisotropy is strong but there are
+
+407
+00:36:06,930 --> 00:36:12,720
+这种类型的各向异性很弱，所以我们必须考虑一下
+this type where the anisotropy is quite
+weak so we have to sort of think about
+
+408
+00:36:12,720 --> 00:36:18,420
+领域壁垒发生的情况不是在宽松限制内，而是在周末我
+what happens in for domain walls in not
+in the easing limit but in the weekend I
+
+409
+00:36:18,420 --> 00:36:22,410
+看到这里是极限，毫无疑问，域名墙看起来是什么
+saw to be limit over here there's no
+question of what a domain wall looks
+
+410
+00:36:22,410 --> 00:36:26,520
+就像放宽限制一样，您只是知道旋转，然后它们相遇
+like for the easing limit you just have
+you know up spins and then they meet
+
+411
+00:36:26,520 --> 00:36:30,660
+向下旋转，中间没有有趣的事情发生，但是在这里
+down spins and nothing interesting
+happens in between but over here where
+
+412
+00:36:30,660 --> 00:36:34,830
+我们有，如果您在这里旋转，而我有，我可以寻求重复
+we have we can I sought repeat if you
+have up spins over here and you have
+
+413
+00:36:34,830 --> 00:36:40,349
+向下旋转的方式请记住，为此要做的最重要的事情
+down spins way over here remember that
+the most important thing to do for this
+
+414
+00:36:40,349 --> 00:36:44,280
+一周的各向异性极限是使每个人尽可能保持一致
+week anisotropy limit is to keep
+everyone as aligned as possible with
+
+415
+00:36:44,280 --> 00:36:48,060
+他们的邻居，所以你从上旋转到下旋转的方法就是
+their neighbor so the way you get from
+up spin to down spin is to just slightly
+
+416
+00:36:48,060 --> 00:36:54,210
+将旋转旋转一次，使其与邻居相邻一点，最终使其旋转
+rotate each spin just a little bit from
+his neighbor and eventually make it from
+
+417
+00:36:54,210 --> 00:36:57,890
+向上指向下方并缓慢旋转
+pointing up to pointing down with a slow
+rotation okay
+
+418
+00:36:57,890 --> 00:37:03,920
+这就是所谓的，说超过n次旋转好吧，我没有
+and this is what's known as let's say
+this goes over n spins okay I didn't
+
+419
+00:37:03,920 --> 00:37:07,450
+画得很好，但是你就明白了，这就是所谓的砌墙
+draw that very well but you get the idea
+and this is what's known as a block wall
+
+420
+00:37:07,450 --> 00:37:16,730
+在Felix阻塞后，阻塞墙或在AL墙中钉墙猫墙
+block wall or or in the AL wall nail
+wall meow wall after Felix block the
+
+421
+00:37:16,730 --> 00:37:20,870
+同样是布洛赫（Bloch）定理的人，而路易安娜（loujain al）是意识到我们应该
+same Bloch's theorem guy and loujain al
+the guy who realized that we should have
+
+422
+00:37:20,870 --> 00:37:25,250
+反铁磁体，所以让我们尝试计算能量和
+antiferromagnets so let's try to
+calculate the energy and the width of
+
+423
+00:37:25,250 --> 00:37:30,710
+这个方块好吧，方块墙和
+this block okay there is a slight
+difference between a block wall and in
+
+424
+00:37:30,710 --> 00:37:36,010
+ AL墙取决于旋转的旋转是否在
+the AL wall it depends on whether the
+rotation of the spin is in the plane of
+
+425
+00:37:36,010 --> 00:37:41,690
+这些原子或者它垂直于原子平面，就知道
+of these atoms or it's transverse to the
+plane of the atoms it's you know it's
+
+426
+00:37:41,690 --> 00:37:44,600
+这是一个细节，您可能不必担心，但是有一点点
+it's a detail that you probably don't
+have to worry about but there's a slight
+
+427
+00:37:44,600 --> 00:37:48,200
+无论如何，两者之间的差异我想我在这里画的实际上是
+difference between the two at any rate I
+think what I've drawn here is actually a
+
+428
+00:37:48,200 --> 00:37:56,480
+堵墙，让我们尝试计算该能量，因此这一能量
+block wall so let's try to calculate the
+energy of this so the energy in this one
+
+429
+00:37:56,480 --> 00:38:04,010
+尺寸图片将是II猜测值减去J si点s I加1的总和
+dimensional picture it's going to be sum
+over I I guess minus J si dot s I plus 1
+
+430
+00:38:04,010 --> 00:38:10,220
+在这里您可能会认为您可能会认为我遗漏了1/2的因数
+and here you might have think you might
+think that I've left out a factor of 1/2
+
+431
+00:38:10,220 --> 00:38:15,310
+但是我没有，因为自从我在这里，我只是在一个维度上进行总结
+but but I haven't because here since I'm
+I'm summing over I only in one dimension
+
+432
+00:38:15,310 --> 00:38:23,090
+ s1 s2现在只在一个学期出现，所以我得到1/2的因数，如果
+s1 s2 only occurs in one term now okay
+so I got the factor of 1/2 right and if
+
+433
+00:38:23,090 --> 00:38:30,470
+我对齐所有对齐的自旋，然后得到II的总和，猜想我等于1到N 
+I align all the spins aligned I then get
+a sum over I I guess I equals 1 to N of
+
+434
+00:38:30,470 --> 00:38:35,150
+每一个负J平方彼此对齐，并且
+minus J s squared
+every one is aligned with each other and
+
+435
+00:38:35,150 --> 00:38:43,850
+如果我每次都扭曲-对齐，那么我将其称为
+if I twist it each twist
+- aligned I'm then gonna let's call that
+
+436
+00:38:43,850 --> 00:38:49,340
+ Δe等于Δe扭转自旋所付出的能量
+Delta e equals Delta e the amount of
+energy you pay to twist the spin from
+
+437
+00:38:49,340 --> 00:38:56,450
+从上到下将在I上求和等于J平方的N乘以1 
+top to to bottom that will be sum over I
+equals 1 to N of J s squared times 1
+
+438
+00:38:56,450 --> 00:39:02,210
+减去theta的余弦值，所以每次您旋转一点自旋时
+minus cosine of theta I so for each time
+you twist the spin a little bit you have
+
+439
+00:39:02,210 --> 00:39:10,839
+今天就向我支付这种余弦能量是可以的，所以如果那是theta我
+to pay this sort of cosine energy today
+to I is is okay so if one that's theta I
+
+440
+00:39:10,839 --> 00:39:15,249
+旋转从一步到另一步的旋转，因此我们假设
+the rotation of the spin from one step
+to the next so let's assume that the
+
+441
+00:39:15,249 --> 00:39:21,909
+ theta很小，如果我们需要从一路走到最左边
+theta is small and if we need to get
+from from all the way to the left all
+
+442
+00:39:21,909 --> 00:39:25,989
+在n次旋转中向右转的方式让我们只声明所有Thetas为n之上的PI 
+the way to right in n spins let's just
+declare all the Thetas to be PI over n
+
+443
+00:39:25,989 --> 00:39:31,179
+所以我们必须旋转pi旋转n步，所以说theta是PI超过N 
+so we have to make a pi rotation and n
+steps so we'll say theta is PI over N so
+
+444
+00:39:31,179 --> 00:39:37,859
+余弦theta余弦theta大约是N的1减去1/2 PI 
+cosine theta cosine theta is then
+approximately 1 minus 1/2 PI over N
+
+445
+00:39:37,859 --> 00:39:45,219
+如果我将其插入此处，则平方，我将得到总共n次旋转
+squared if I plug that into here I'll
+get a total of n spins I'm summing over
+
+446
+00:39:45,219 --> 00:39:54,519
+我有J的平方，N的平方有1/2 PI，然后乘以
+I have J s squared and 1/2 PI over N
+squared I multiply that out I then get
+
+447
+00:39:54,519 --> 00:40:02,979
+ PI在N上平方2 J平方，毫不奇怪，这告诉我
+PI squared over 2 J s squared over N and
+unsurprisingly this tells me that the
+
+448
+00:40:02,979 --> 00:40:08,829
+如果我旋转此能量，则能量会降低，每次旋转所需的旋转会更平滑
+energy is lower if I rotate this the the
+spins more smoothly that each spin wants
+
+449
+00:40:08,829 --> 00:40:12,939
+与他的邻居尽可能保持一致，所以如果我们只是
+to be as aligned as possible with his
+neighbor and so if we were only
+
+450
+00:40:12,939 --> 00:40:16,630
+考虑到哈密顿量的这一部分，如果旋转它们会旋转
+considering this part of the Hamiltonian
+the spins would if they rotated they
+
+451
+00:40:16,630 --> 00:40:20,140
+会无限地缓慢旋转，那样他们会很开心，但是他们
+would rotate infinitely slowly and they
+would be most happy that way but they
+
+452
+00:40:20,140 --> 00:40:24,429
+有，但这必须与各向异性能量竞争，我看到了Trippy 
+had but this has to compete with the
+anisotropy energy and I saw trippy
+
+453
+00:40:24,429 --> 00:40:31,299
+能量和各向同性，希望自旋直接指向上方
+energy and an isotropy which wants the
+spins to be either pointing directly up
+
+454
+00:40:31,299 --> 00:40:36,009
+或直接下降，所以我们必须估计您要消耗多少能量
+or directly down and so we have to
+estimate how much energy you're going to
+
+455
+00:40:36,009 --> 00:40:41,799
+支付在这堵墙中既不向上也不向下的n个旋转，这是
+pay to have n spins in this wall which
+are neither up nor down and okay this is
+
+456
+00:40:41,799 --> 00:40:46,599
+一个非常粗略的近似值，但我们只能说，每次自旋不是
+a rather crude approximation but we'll
+just say that each spin that's not
+
+457
+00:40:46,599 --> 00:40:51,609
+向上和向下指点，您要支付能量K s平方好，我的意思是这个数字是
+pointing up and down you pay an energy K
+s squared ok I mean this this number is
+
+458
+00:40:51,609 --> 00:40:55,209
+可能偏离2倍或PI或类似的数值，但至少会
+probably off by a factor of 2 or PI or
+something like that but at least it will
+
+459
+00:40:55,209 --> 00:41:00,609
+给我们正确的数量级，以便块壁e的总能量
+give us the order of magnitude correctly
+so the total energy of the block wall-e
+
+460
+00:41:00,609 --> 00:41:06,909
+总的是海森堡能量PI的平方与2 J平方的平方之和
+total is the sum of the Heisenberg
+energy PI squared over 2 J s squared
+
+461
+00:41:06,909 --> 00:41:13,809
+超过n加各向异性能量和Kappa平方，则我们必须
+over n plus the anisotropy energy and
+Kappa s squared and then we have to
+
+462
+00:41:13,809 --> 00:41:22,180
+最小化等于0的总DN集，这使我们
+minimize this de total DN set that equal
+to 0 and that gives us
+
+463
+00:41:22,180 --> 00:41:28,970
+区分我们只是得到n等于pi的平方根平方2 J 
+differentiate that we just get n equals
+square root of pi squared over 2 J over
+
+464
+00:41:28,970 --> 00:41:33,920
+ Kappa，所以这告诉我们的是，如果各向异性
+Kappa and so not surprisingly what this
+is telling us is that if the anisotropy
+
+465
+00:41:33,920 --> 00:41:40,100
+极小，而Heisenberg耦合极强
+is extremely small then and the and the
+Heisenberg coupling is extremely strong
+
+466
+00:41:40,100 --> 00:41:43,940
+那么旋转会非常缓慢地旋转，而如果您处于另一个极限
+then the spins rotate extremely slowly
+whereas if you're in the other limit
+
+467
+00:41:43,940 --> 00:41:48,800
+各向异性大而海森堡耦合小则
+where the anisotropy is large and the
+Heisenberg coupling is small then the
+
+468
+00:41:48,800 --> 00:41:54,410
+自旋旋转的次数非常小n甚至可能直接从上到下旋转
+spins rotate in a very small number n
+maybe even directly from up to down in
+
+469
+00:41:54,410 --> 00:42:01,550
+现在，一步一步地制作出真正的磁铁，通常情况下，您可以拥有一个
+one in one step now in real magnets it's
+very often the case often you can have a
+
+470
+00:42:01,550 --> 00:42:09,080
+ n大于或等于100个原子的情况，因此您可以拥有
+case where n is greater than or about
+equal to 100 atoms so you can have these
+
+471
+00:42:09,080 --> 00:42:14,390
+这些砌块墙或这些畴壁或钉子墙实际上相当
+these block walls or these domain walls
+or nail walls be actually quite quite
+
+472
+00:42:14,390 --> 00:42:18,640
+现在，如果您开始考虑，这实际上非常重要
+wide now this is actually quite
+important if you start thinking about
+
+473
+00:42:18,640 --> 00:42:27,700
+多晶材料多晶脆片晶体晶体晶体
+polycrystalline material polycrystalline
+crisps crystal crystalline crystalline
+
+474
+00:42:28,450 --> 00:42:36,350
+磁铁，所以现在我们谈论的是许多与
+magnets so now we're talking about lots
+of little crystal lights separated from
+
+475
+00:42:36,350 --> 00:42:43,040
+磁性材料彼此相互作用，如果晶体的大小轻一些
+each other of magnetic material and if
+the size of the crystal light a number
+
+476
+00:42:43,040 --> 00:42:47,510
+穿过的原子数小于该魔数，即畴壁的大小
+of atoms going across is less than this
+magic number the size of the domain wall
+
+477
+00:42:47,510 --> 00:42:52,880
+然后整个原子必须指向整个晶体光
+then the whole atom the whole crystal
+light has to point have its
+
+478
+00:42:52,880 --> 00:42:56,480
+指向一个方向的磁化只能指向一个方向
+magnetization pointing in just one
+direction has to point in only one
+
+479
+00:42:56,480 --> 00:43:00,140
+方向，您知道每个晶体我都可以指向不同的方向，但是每个
+direction you know each crystal I can
+point in a different direction but each
+
+480
+00:43:00,140 --> 00:43:03,320
+晶体光只能指向一个方向，其原因是
+crystal light has to be pointed only in
+one direction and the reason for this is
+
+481
+00:43:03,320 --> 00:43:07,280
+因为您在一个水晶灯中没有足够的空间来旋转
+because you don't have enough space
+within one crystal light to rotate the
+
+482
+00:43:07,280 --> 00:43:12,050
+从一个方向旋转到另一个方向，它太僵硬了，你不知道
+spin from one direction to another it's
+too stiff you can't you know the the
+
+483
+00:43:12,050 --> 00:43:15,950
+邻居之间的耦合太强，无法旋转
+coupling between neighbors is too strong
+in order to get the spins to rotate
+
+484
+00:43:15,950 --> 00:43:20,300
+在一个水晶光中，您可能会认为这一百个原子相当
+within one crystal light and you might
+think that this hundred atoms is rather
+
+485
+00:43:20,300 --> 00:43:23,960
+之所以小，是因为每个原子只有一个埃或两个埃，或者
+small you know because each atom is only
+an angstrom or two angstroms or
+
+486
+00:43:23,960 --> 00:43:27,380
+但如果您在这个方向上有100个原子，在另一个方向上有100个原子
+something but if you have 100 atoms in
+this direction 100 atoms in another
+
+487
+00:43:27,380 --> 00:43:31,490
+朝着另一个方向的100个原子突然间，你有一百万个原子
+direction 100 atoms in another direction
+all of a sudden you have a million atoms
+
+488
+00:43:31,490 --> 00:43:34,160
+你说的是这些水晶灯实际上可以有很多
+you're talking about so these crystal
+lights can actually have an awful lot of
+
+489
+00:43:34,160 --> 00:43:36,410
+它们中的原子，您仍然可以将它们视为
+atoms in them and you can still think of
+them as
+
+490
+00:43:36,410 --> 00:43:41,600
+微观的单个磁铁指向一个方向还可以
+microscopic individual magnets pointing
+in just one direction okay so so so far
+
+491
+00:43:41,600 --> 00:43:44,450
+太好了，我会忍受开玩笑的冲动
+so good
+I will resist the urge to make jokes
+
+492
+00:43:44,450 --> 00:43:51,800
+关于一个方向好吧，让我们想象一下，我们采取其中一个
+about one direction alright okay so
+let's imagine that we take one of these
+
+493
+00:43:51,800 --> 00:43:58,220
+水晶灯，我们将在此处应用陶瓷水晶灯，并假设
+crystal lights and we are going to apply
+ceramic crystal light here and suppose
+
+494
+00:43:58,220 --> 00:44:02,600
+它在此ray z帽子中有一个防锯齿的P轴，然后它想要指向
+it has an anti saw through P axis in
+this ray z hat then it wants to point
+
+495
+00:44:02,600 --> 00:44:07,040
+它是上下磁铁，为了争辩，我们将磁铁
+it's magnet up or down and let's for the
+sake of argument we'll put the magnetic
+
+496
+00:44:07,040 --> 00:44:12,920
+在那个方向上的磁场以及能量，然后磁矩可以
+field in that direction as well the
+energy and then the magnetic moment can
+
+497
+00:44:12,920 --> 00:44:17,210
+指向任何方向，我们喜欢晶体光的能量
+be pointing in any direction we like the
+energy of that crystal light is some
+
+498
+00:44:17,210 --> 00:44:22,070
+ Enoch将会是负m点B，然后是各向异性能量
+Enoch there's going to be minus m dot B
+and then there's the anisotropy energy
+
+499
+00:44:22,070 --> 00:44:30,680
+减去Kappa MZ的平方，希望磁化强度指向
+minus Kappa MZ squared this that wants
+the the magnetization to point either
+
+500
+00:44:30,680 --> 00:44:38,240
+直接向上或直接向下，所以如果我们确定可以的话，如果
+directly up or directly down so if we
+decide that okay so if the angle between
+
+501
+00:44:38,240 --> 00:44:49,130
+ M和B是Theta，那么我们可以将此能量重写为V naught减去MB余弦
+M and B is Theta then we can rewrite
+this energy as V naught minus M B cosine
+
+502
+00:44:49,130 --> 00:44:56,080
+ theta减去Kappa M平方余弦平方theta，实际上我们甚至可以
+theta minus Kappa M squared cosine
+squared theta and in fact we might even
+
+503
+00:44:56,080 --> 00:45:03,830
+令x等于余弦theta，那么我们得到的是一个零的负M的二次轴
+let x equals cosine theta and then what
+we have is a quadratic ax naught minus M
+
+504
+00:45:03,830 --> 00:45:13,160
+ BX减去K M平方x平方，我们可以画出这个东西啊，我
+B X minus Kappa M squared x squared and
+we can plot this thing ah oops I'm
+
+505
+00:45:13,160 --> 00:45:16,850
+房间快要用完了吗，我们可以将其绘制为theta的函数
+running out of room aren't I okay we can
+plot this thing as a function of theta
+
+506
+00:45:16,850 --> 00:45:21,470
+或作为X的函数，所以这就是能量，让我们从B开始
+or as a function of X so this is the
+energy and let's start in the case of B
+
+507
+00:45:21,470 --> 00:45:25,010
+等于零，所以您拥有晶体光和零磁场，并且您的
+equals zero so you have your crystal
+light and zero magnetic field and your
+
+508
+00:45:25,010 --> 00:45:31,370
+此处的能量x等于减一减一，此处的能量x等于加
+energy over here is x equals minus one
+minus one and over here is x equals plus
+
+509
+00:45:31,370 --> 00:45:38,180
+我们这里拥有的是x等于减1是theta等于pi x等于
+one what we have here is so x equals
+minus one is theta equals pi x equals
+
+510
+00:45:38,180 --> 00:45:43,130
+加一是theta等于零，所以这就是磁化强度
+plus one is theta equals zero so this
+over here is the magnetization pointing
+
+511
+00:45:43,130 --> 00:45:50,180
+向下和上方，我们的晶体光的磁化指向上方
+down and over here we have the crystal
+light with the magnetization pointing up
+
+512
+00:45:50,180 --> 00:45:56,090
+能量是二次方像这样所以有两个稳定的
+and the energy is quadratic looks kind
+of like this so there's two stable
+
+513
+00:45:56,090 --> 00:46:00,080
+点这里的稳定点是使磁化强度指向下方
+points the stable point here is to have
+the magnetization pointing down in the
+
+514
+00:46:00,080 --> 00:46:03,200
+这里的稳定点是使磁化指向上方，这非常重要
+stable point here is to have the
+magnetization pointing up and it's much
+
+515
+00:46:03,200 --> 00:46:06,380
+让磁化指向任何其他方向不太高兴，这是
+less happy to have the magnetization
+pointing in any other direction this is
+
+516
+00:46:06,380 --> 00:46:12,320
+不足为奇，因为它是各向异性轴想要夜晚
+not surprising because it's the
+anisotropy axis wants the the night
+
+517
+00:46:12,320 --> 00:46:18,070
+磁化点向上或向下都好现在让我们添加一个非零磁场
+ization point either up or down okay
+now let's add a non zero magnetic field
+
+518
+00:46:18,070 --> 00:46:25,150
+好吧，现在让我们让V等于零或小于零但不等于零
+okay so now we'll let V naught equal to
+zero or be small but not equal to zero
+
+519
+00:46:25,150 --> 00:46:30,610
+等于零，所以现在又是收获，我们有一个抛物线，它仍然是二次方
+equals zero so now it's Reap lot again
+we have a parabola it's still quadratic
+
+520
+00:46:30,610 --> 00:46:37,340
+但是抛物线现在因为能量中的线性项而移动了
+but the parabola is now shifted because
+of the linear term in that in the energy
+
+521
+00:46:37,340 --> 00:46:42,530
+这样抛物线的峰值将不再位于中心
+so that the peak of the parabola will
+not be in the center anymore will be
+
+522
+00:46:42,530 --> 00:46:47,660
+偏心，所以我们将得到一个像这样的抛物线，在这里我们再次
+off-center so we'll get a parabola looks
+like this and again over here what we
+
+523
+00:46:47,660 --> 00:46:52,040
+即使磁场指向上方，磁化强度仍指向下方
+have is magnetization pointing down even
+though the magnetic field is pointing up
+
+524
+00:46:52,040 --> 00:46:56,750
+在这里，我们的磁化指向上方，磁铁和
+and here we have the magnetization
+pointing up and the magnet and the
+
+525
+00:46:56,750 --> 00:47:01,520
+磁场指向上方，因此此点具有磁化指向
+magnetic field pointing up so this point
+here having the magnetization pointing
+
+526
+00:47:01,520 --> 00:47:07,360
+在相同的磁场方向上，这绝对是稳定的最小值
+in the same direction of magnetic field
+this is definitely the stable minimum
+
+527
+00:47:08,470 --> 00:47:17,660
+而这里的这一点是亚稳态的，以便从
+whereas this point over here is
+metastable in order to get from the
+
+528
+00:47:17,660 --> 00:47:21,380
+磁化的亚稳态情况指向与
+metastable case of the magnetization
+pointing in the opposite direction as a
+
+529
+00:47:21,380 --> 00:47:25,310
+磁场以确保能够下降到此处
+magnetic field in order to secure to get
+down to here where it would rather be it
+
+530
+00:47:25,310 --> 00:47:31,370
+必须克服激活障碍，这意味着您必须承担所有
+has to get over this activation barrier
+and this means you have to take all of
+
+531
+00:47:31,370 --> 00:47:35,110
+您的原子中可能含有一百万个这些原子，并以某种方式将它们全部翻转
+your atoms with maybe a million of these
+atoms and somehow flip them all over
+
+532
+00:47:35,110 --> 00:47:40,640
+同时进行热或量子隧穿，这是一个过程
+simultaneously either thermally or by a
+quantum tunneling and that's a process
+
+533
+00:47:40,640 --> 00:47:44,470
+这是如此的困难，以至于在低温下它可能永远不会发生，所以
+that's so difficult that at low
+temperature it may never happen so the
+
+534
+00:47:44,470 --> 00:47:51,020
+这些你可以拥有这些磁铁的小晶体在
+these you can have these little crystals
+of magnets have their magnetic in the
+
+535
+00:47:51,020 --> 00:47:56,660
+现在方向错误，让我们再加一点磁场
+wrong direction now let's turn up the
+magnetic field a little bit more so now
+
+536
+00:47:56,660 --> 00:48:05,670
+我们又有一个大的磁场B又有一个抛物线
+we have a large magnetic field large B
+again we have a parabola but the met but
+
+537
+00:48:05,670 --> 00:48:09,870
+抛物线的最大值一直移到左侧
+the maximum of the parabola has been
+shifted all the way off to the left this
+
+538
+00:48:09,870 --> 00:48:14,250
+ X是负1，这是x等于加1，抛物线的最大值超过了
+X is minus 1 this is x equals plus 1 and
+the maximum of the parabola is way over
+
+539
+00:48:14,250 --> 00:48:22,380
+在这里离开情节，所以这一点在这里，磁化指向
+here off the plot and so this point here
+with the magnetization pointing in the
+
+540
+00:48:22,380 --> 00:48:27,420
+磁场的相反方向限制现在变得不稳定，而
+opposite direction limit of the magnetic
+field is now unstable and whereas this
+
+541
+00:48:27,420 --> 00:48:32,250
+此处的唯一点是磁化强度指向相同的唯一稳定点
+point over here is the only stable point
+with the magnetization pointing the same
+
+542
+00:48:32,250 --> 00:48:36,960
+磁场方向也可以，所以如果磁场足够大
+direction as a magnetic field ok so if
+the magnetic field is turned up enough
+
+543
+00:48:36,960 --> 00:48:41,880
+然后您可以将所有Magna zatia翻转过来，指向
+then you can flip over all of the Magna
+zatia's to point in the direction of the
+
+544
+00:48:41,880 --> 00:48:48,330
+磁场很清楚是如何运作的，所以这是你的照片
+magnetic field is that clear how that
+works ok so this is a picture you've
+
+545
+00:48:48,330 --> 00:48:52,920
+之前看到的是所谓的硬铁磁体的图片，也许我
+seen before it's a picture of a
+so-called hard Ferro magnet maybe I
+
+546
+00:48:52,920 --> 00:49:02,130
+甚至应该写下这个词，因为它经常用硬铁磁性
+should even write that word down because
+it's used often hard Ferro magnet hard
+
+547
+00:49:02,130 --> 00:49:08,520
+铁磁体是当您实际上B中的M不等于0时， 
+Ferro magnet is when you actually have M
+not equal to 0 in B equals 0 and the way
+
+548
+00:49:08,520 --> 00:49:12,240
+你会得到坚硬的铁磁体，我们知道了如何使你变得坚硬
+you get hard ferromagnets you know we
+explained that how you could get hard
+
+549
+00:49:12,240 --> 00:49:16,290
+通过固定畴壁来获得铁磁体，但您也可以考虑
+ferromagnets by pinning the domain walls
+but you can also think about getting
+
+550
+00:49:16,290 --> 00:49:20,940
+含有很多微晶的硬铁​​磁体，您需要
+hard ferromagnets from having lots of
+little crystallites and they you need to
+
+551
+00:49:20,940 --> 00:49:25,230
+为了推动微晶翻转，你必须给它们一些
+in order to push the crystallites to
+flip over you have to give them some
+
+552
+00:49:25,230 --> 00:49:28,500
+矫顽场，你必须给他们有限的磁场
+coercive field you have to give them a
+finite magnetic field in the wrong
+
+553
+00:49:28,500 --> 00:49:32,520
+方向和相反的方向，以使它们全部翻转
+direction and in the opposite direction
+to get them to all flip over if you just
+
+554
+00:49:32,520 --> 00:49:35,730
+在不翻转的方向上给它一个小的磁场
+give it a small magnetic field in the
+other direction they don't flip over and
+
+555
+00:49:35,730 --> 00:49:39,570
+如果您考虑一下，这就是这些磁铁的磁滞回线的原因
+this is what gives these magnets
+hysteresis loops now if you think about
+
+556
+00:49:39,570 --> 00:49:43,950
+一秒钟，您意识到将图片固定在
+it for a second you realize that this
+picture of pinning domain walls in a
+
+557
+00:49:43,950 --> 00:49:47,580
+水晶磁铁，此图片显示在哪里该图片在哪里
+crystalline magnet this picture oops
+where to go this picture here where the
+
+558
+00:49:47,580 --> 00:49:51,150
+畴壁卡在其位置，因为它具有能量激活
+domain wall is stuck on its position
+because it has an energy activation
+
+559
+00:49:51,150 --> 00:49:57,360
+离开该位置的障碍，在此位置原子使它降低
+barrier to get off of that that position
+here where the atom gives it a lower
+
+560
+00:49:57,360 --> 00:50:01,980
+能量，如果畴壁达到那个点，则与
+energy if the domain wall goes to that
+that point it's extremely similar to
+
+561
+00:50:01,980 --> 00:50:04,980
+我们在这里拥有的所有这些小水晶灯唯一的区别
+what we have here with all these little
+crystal lights the only difference here
+
+562
+00:50:04,980 --> 00:50:09,300
+就是您可以认为，在水晶灯的作用下，畴壁总是
+is that you can think with the crystal
+lights the domain walls are always
+
+563
+00:50:09,300 --> 00:50:12,600
+在微晶之间，如果您想以某种方式思考
+between the crystallites if you want to
+think of it that way that some crystal
+
+564
+00:50:12,600 --> 00:50:14,380
+灯会指向某些方向
+lights will point in one direction in
+some
+
+565
+00:50:14,380 --> 00:50:17,950
+将指向另一个方向并移动域墙，您必须翻转
+will point in the other direction and to
+move the domain wall you have to flip
+
+566
+00:50:17,950 --> 00:50:22,210
+多于一个的微晶，所以它的物理原理极其相似
+over one more crystallite so it's
+extremely similar physics the moral of
+
+567
+00:50:22,210 --> 00:50:26,710
+故事是，为了得到真正的磁铁，硬铁磁铁会以某种方式
+the story is that in order to get a real
+magnet a hard Ferro magnet somehow or
+
+568
+00:50:26,710 --> 00:50:30,070
+其他您是否必须使系统混乱
+other you have to have disorder in your
+system whether it's making the system
+
+569
+00:50:30,070 --> 00:50:34,810
+进入小小的水晶灯或放置障碍物，它会固定
+into small little crystal lights or
+putting disorder and it's going to pin
+
+570
+00:50:34,810 --> 00:50:39,880
+域名墙的位置还可以，今天就完成了
+the position of the domain walls okay
+that's all for today I will see you is
+
+571
+00:50:39,880 --> 00:50:44,060
+是星期四星期四，是的，星期四好，周末愉快
+it Thursday Thursday yeah Thursday okay
+have a good weekend
+
+572
+00:50:44,060 --> 00:50:47,790
+ [掌声] 
+[Applause]
+

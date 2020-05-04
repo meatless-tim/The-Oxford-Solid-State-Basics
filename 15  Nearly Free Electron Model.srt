@@ -1,0 +1,3369 @@
+1
+00:00:00,000 --> 00:00:04,560
+好吧，我想我们可以开始了欢迎回来这是第15场演讲
+all right I guess we can get started
+welcome back it's the 15th lecture of
+
+2
+00:00:04,560 --> 00:00:08,670
+最后一次我们离开的浓缩课程，我们正在谈论试图
+the condensed matter course when last we
+left off we were talking about trying to
+
+3
+00:00:08,670 --> 00:00:12,540
+近似求解固体中电子的薛定inger方程，并且
+approximately solve the Schrodinger
+equation for electrons in solids and the
+
+4
+00:00:12,540 --> 00:00:19,550
+我们正在讨论使用的方法是近乎自由电子模型
+method we were talking about using was
+the nearly free electron model nearly
+
+5
+00:00:19,550 --> 00:00:26,130
+自由电子的基本概念是，我们要写我们的哈密顿量
+free electrons the general idea of being
+that we're gonna write our Hamiltonian
+
+6
+00:00:26,130 --> 00:00:32,579
+就像一些裸露的规则无相互作用的电子平面波
+as some bare just regular non
+interacting electron plane wave
+
+7
+00:00:32,579 --> 00:00:37,680
+哈密​​顿量加上一些势，因此在平面波K中的本征态为
+Hamiltonian plus some potential so the
+eigenstates of this in a plane wave K is
+
+8
+00:00:37,680 --> 00:00:42,750
+ H bar平方K平方超过2m只是常规电子哈密顿量， 
+H bar squared K squared over 2m just
+your regular electron Hamiltonian but
+
+9
+00:00:42,750 --> 00:00:48,390
+那么在这里我们有一些周期性的潜力
+then here we have some periodic
+potential which we're going to
+
+10
+00:00:48,390 --> 00:00:53,850
+最终认为自己是弱者，因此这个名字几乎具有自由潜力和想法
+eventually consider to be weak hence the
+name nearly free potential and the idea
+
+11
+00:00:53,850 --> 00:01:00,989
+我们从散射理论中得出的结论是，一些K之间的矩阵元素
+that we took from scattering theory is
+that the matrix element between some K
+
+12
+00:01:00,989 --> 00:01:07,619
+如果K减去K素数不是一个整数，则该周期性势的K素数必须为0。 
+and K prime from this periodic potential
+has to be 0 if K minus K prime is not an
+
+13
+00:01:07,619 --> 00:01:13,790
+倒数晶格的元素，如果K素数减去K，我们将其称为V sub G 
+element of the reciprocal lattice and
+we'll call it V sub G if K prime minus K
+
+14
+00:01:13,790 --> 00:01:19,710
+互易晶格中是否存在元素，因此我们将
+is there an element in reciprocal
+lattice so then we treated the the
+
+15
+00:01:19,710 --> 00:01:23,630
+势v为弱摄动和二阶摄动理论
+potential v as a weak perturbation and
+in second-order perturbation Theory
+
+16
+00:01:23,630 --> 00:01:31,439
+二阶燃烧我们发现平面波K的能量开始为
+second-order burn we found that the
+energy of the plane wave K starts out as
+
+17
+00:01:31,439 --> 00:01:36,960
+平面波的裸能量K加V sub 0的零阶傅里叶模式
+the bare energy of the plane wave K plus
+V sub 0 the zeroth Fourier mode of the
+
+18
+00:01:36,960 --> 00:01:41,100
+势，这只是所有平面波能量的整体转移
+potential it's just an overall shift of
+all of the plane wave energies that's
+
+19
+00:01:41,100 --> 00:01:44,490
+无趣的人有时只是将它们放在一起，因为它只是一个常数
+uninteresting people sometimes just drop
+it all together cuz it's just a constant
+
+20
+00:01:44,490 --> 00:01:48,720
+但是有趣的是所有倒数晶格向量V的总和
+but the interesting piece is the sum
+over all reciprocal lattice vectors V
+
+21
+00:01:48,720 --> 00:01:57,299
+子G乘以K减去能量而不是K加G的平方，所以这是我们的
+sub G squared over energy of K minus
+energy not of K plus G so this is our
+
+22
+00:01:57,299 --> 00:02:00,899
+二阶摄动理论表达和必须要做的事情
+second order perturbation Theory
+expression and the thing that one has to
+
+23
+00:02:00,899 --> 00:02:05,009
+担心的是分母可以为零或接近零，并且
+worry about is that the denominator can
+be either zero or close to zero and that
+
+24
+00:02:05,009 --> 00:02:15,890
+当我们使K绝对K等于
+happens when so this diverges
+when we have K absolute K being equal to
+
+25
+00:02:15,890 --> 00:02:22,250
+绝对K加G使得K n ng k加G的能量相同，即
+absolute K plus G so that the energy of
+K n ng k plus G are the same and that is
+
+26
+00:02:22,250 --> 00:02:30,320
+等于k和k加G在易边界Braun上的相同条件
+equal to the same condition as k and k
+plus G being on on easy boundary Braun's
+
+27
+00:02:30,320 --> 00:02:38,660
+自己的边界，所以在这种情况下，我们的二阶摄动会出现问题
+own boundary so in that case we have a
+problem our second order perturbation
+
+28
+00:02:38,660 --> 00:02:42,440
+理论由于这种退化以及我们应该做的事情而无法工作
+theory doesn't work because of this
+degeneracy and what we're supposed to do
+
+29
+00:02:42,440 --> 00:02:49,910
+我们应该使用生成扰动理论来简并赫兹吗
+is we're supposed to use the generate
+perturbation theory degenerate Hertz
+
+30
+00:02:49,910 --> 00:02:59,030
+抵制所有关于堕落这个词开玩笑的理论可能有
+theory resisting all urges to make jokes
+about the word degenerate probably have
+
+31
+00:02:59,030 --> 00:03:03,230
+在简并扰动的一般规则之前被做了数百次
+been made hundreds of times before the
+general rules of degenerate perturbation
+
+32
+00:03:03,230 --> 00:03:07,370
+理论上是，您应该采取导致您麻烦的状态
+theory are that you should take the
+states that are causing you trouble the
+
+33
+00:03:07,370 --> 00:03:10,190
+使您与众不同的州将那些与众不同
+states that are giving you the
+divergence separate those out from all
+
+34
+00:03:10,190 --> 00:03:13,220
+系统中的其他州，并以此来困扰汉密尔顿
+the other states in the system and just
+to agonize the hamiltonian with this
+
+35
+00:03:13,220 --> 00:03:18,050
+在那些有问题的国家的空间内，所以对我们来说，我们的国家
+within the space of those problematic
+states so for us ours the states that
+
+36
+00:03:18,050 --> 00:03:26,090
+导致我们麻烦我们的州的K和K加G对于某些特定的G，所以我们会
+are causing us trouble our state's K and
+K plus G for some particular G so we'll
+
+37
+00:03:26,090 --> 00:03:30,500
+写我们的试验波函数，实际上可能会更通用一些
+write our trial wave function actually
+maybe will be a little bit more general
+
+38
+00:03:30,500 --> 00:03:39,220
+并假设K和K加G假设它们在棕色区域边界附近
+and assume assume K and K plus G assume
+these are near a brown zone boundary
+
+39
+00:03:39,220 --> 00:03:46,190
+ mihrab容易划分边界，因此它可能不会出现实际差异，而可能只是一个
+mihrab easy boundary so it may not be in
+an actual divergence it can just be an
+
+40
+00:03:46,190 --> 00:03:52,250
+耳朵发散仍然很严重，足以使我们不信任二阶
+ear divergence it's still bad enough to
+cause us to not trust our second-order
+
+41
+00:03:52,250 --> 00:03:55,940
+摄动理论不再存在，要求我们使用简并摄动理论
+perturbation Theory anymore and require
+us to use degenerate perturbation theory
+
+42
+00:03:55,940 --> 00:03:59,450
+即使不是分母，您也知道分母不是零
+even though it's not a you know it's not
+a zero in the denominator so something
+
+43
+00:03:59,450 --> 00:04:03,470
+分母接近零的一般方案是写一个试验波
+close to zero in the denominator the
+general scheme is to write a trial wave
+
+44
+00:04:03,470 --> 00:04:11,450
+功能，这将是一些有问题的猫，所以K和K加
+function which is going to be some some
+of the problematic cats so K and K plus
+
+45
+00:04:11,450 --> 00:04:18,320
+ G可能会取这两个值的线性和，并且我们通常会尝试
+G will may take some linear sum of these
+two and in the usual way we will try to
+
+46
+00:04:18,320 --> 00:04:22,910
+找到这两只猫的最佳线性组合
+find the best linear combination of
+these two cats
+
+47
+00:04:22,910 --> 00:04:27,380
+为了获得这个空间内的最低能量状态，所以我们做了一个
+in order to get our lowest energy state
+within this space so we've done this a
+
+48
+00:04:27,380 --> 00:04:32,660
+在做某事之前几次是写下哈密顿量
+couple times before the way one does
+that is you write down a Hamiltonian an
+
+49
+00:04:32,660 --> 00:04:40,370
+在m H和M Phi上的有效哈密顿方程总和等于e Phi，并且
+effective Hamiltonian equation sum over
+m H and M Phi M equals e Phi and this
+
+50
+00:04:40,370 --> 00:04:44,150
+从解决紧密绑定模型时所做的事情中应该看起来很熟悉
+should look familiar from what we did
+when we solved the tight binding model
+
+51
+00:04:44,150 --> 00:04:50,360
+对于共价键的共价键，此hmm是一个二乘二矩阵
+for the covalent for the covalent bond
+here this hmm is a two by two matrix
+
+52
+00:04:50,360 --> 00:04:57,740
+从k和k加G中选择N和M，这就是您的操作方式
+where N and M are chosen from k and k
+plus G this is how you how you do the
+
+53
+00:04:57,740 --> 00:05:01,010
+一般微扰理论，您只是将状态空间限制为
+general perturbation Theory you just
+restrict the space of states to the
+
+54
+00:05:01,010 --> 00:05:05,120
+在第二级引起麻烦的退化国家的空间
+space of degenerate States who are
+causing trouble in the second-order
+
+55
+00:05:05,120 --> 00:05:09,110
+摄动理论没事，所以我们现在要做的唯一一件事就是
+perturbation theory all right so the
+only thing we need to do now in order to
+
+56
+00:05:09,110 --> 00:05:15,710
+遵循这个规定是我们需要写出矩阵元素H 
+follow this prescription is we need to
+write out the matrix elements H so for
+
+57
+00:05:15,710 --> 00:05:23,300
+例如，我们有KHK是四个矩阵元素之一，我们可以这样写
+example we have K H K that's one of the
+four matrix elements we can write that
+
+58
+00:05:23,300 --> 00:05:33,440
+作为KH零K加KVK，因为我们的哈密顿量由H零组成
+as K H naught K plus K V K since our
+Hamiltonian is made up of the H naught
+
+59
+00:05:33,440 --> 00:05:40,340
+部分和V部分这部分很容易这只是一个K结
+part and the V part this part is easy
+this is just a knot of K and this part
+
+60
+00:05:40,340 --> 00:05:45,740
+ V是零，只是整体恒定的能量位移，这下标是
+is V naught just the overall constant
+energy shift this together subscript is
+
+61
+00:05:45,740 --> 00:05:58,400
+ 0，因为K减去K素数是0，类似地，k加ghk加G等于e naught 
+0 because K minus K prime is 0 similarly
+k plus g h k plus G is equal to e naught
+
+62
+00:05:58,400 --> 00:06:06,380
+的k加G加V之和再次无效
+of k plus G Plus V naught again the more
+interesting term is the term the off
+
+63
+00:06:06,380 --> 00:06:13,850
+ 2 x 2矩阵k加上GH的对角项，所以让我们写出
+diagonal terms of the 2 by 2 matrix k
+plus G H okay so let's write out the the
+
+64
+00:06:13,850 --> 00:06:22,610
+这部分我们有第一个k加GH没关系，第二个是K 
+pieces of this we have first k plus G H
+naught okay and the second piece is K
+
+65
+00:06:22,610 --> 00:06:32,930
+再加上GV好吧，第一部分很容易，因为这将是H否K 
+plus G V ok well the first part this is
+easy because this would be H naught K is
+
+66
+00:06:32,930 --> 00:06:35,810
+ H的本征态，所以我们可以拉出一个
+an eigenstate of H naught so we can just
+pull out an
+
+67
+00:06:35,810 --> 00:06:42,500
+不是子K并得到K加G好的，但这是零，因为它们是两个正交的
+not sub K and get K plus G okay but this
+is zero because these are two orthogonal
+
+68
+00:06:42,500 --> 00:06:48,590
+平面波，所以它是零，第一项是0第二项是我们定义的
+plane waves so it's zero the first term
+is 0 the second term is we've defined
+
+69
+00:06:48,590 --> 00:06:56,030
+由于它是V sub G，所以我们被允许通过k从k分散到k加G 
+that as being V sub G so we're allowed
+to scatter from k to k plus G via the
+
+70
+00:06:56,030 --> 00:07:02,380
+分散电势G并向上移动到顶部oops我将其滚动到顶部
+scattering potential G and up way up at
+the top oops I scrolled it off the top
+
+71
+00:07:02,380 --> 00:07:07,370
+ [音乐]是的，它在D sub G的顶部
+[Music]
+yeah there it is on the top the D sub G
+
+72
+00:07:07,370 --> 00:07:13,430
+的K减去K的素数是G的元素，所以我们称这个东西为V sub G，所以我们
+of K minus K prime is an element of G so
+we call this thing V sub G so so what we
+
+73
+00:07:13,430 --> 00:07:18,320
+现在也是如此，这件事将是整体，这将是V sub 
+have now is also so this thing is going
+to be overall this is going to be V sub
+
+74
+00:07:18,320 --> 00:07:27,200
+ G，我们可以做另一个最后一个矩阵元素HK加G 
+G and we can do the other last matrix
+element H K plus G which using the same
+
+75
+00:07:27,200 --> 00:07:33,590
+自变量是负G或负G星
+argument is the sub minus G or the sub G
+star
+
+76
+00:07:33,590 --> 00:07:38,030
+这是它的合作伙伴的复杂共轭，所以现在我们有了
+it's a complex conjugate of its of its
+partner up here so now we have our
+
+77
+00:07:38,030 --> 00:07:45,280
+哈密​​顿方程我们的2 x 2矩阵，我们可以记下e结为K + V结
+Hamiltonian our 2 by 2 matrix we can
+write down which is e knot of K + V knot
+
+78
+00:07:45,280 --> 00:07:59,150
+我们从这里开始有V sub G，从这里开始有V sub G，然后没有N + K + G + V 
+we have V sub G here start here V sub G
+down here and e naught K + G + V not so
+
+79
+00:07:59,150 --> 00:08:04,070
+太好了，每个人对此或多或少都感到满意，只是过快了
+far so good everyone happy with this
+more or less just go by too quickly
+
+80
+00:08:04,070 --> 00:08:09,380
+是的，幸福，好，好的，所以对于家庭作业和问题集4我
+yeah happy ok good all right so for
+homework and what's problem set 4 I
+
+81
+00:08:09,380 --> 00:08:13,910
+认为您通常会在地面附近的K上实际解决此问题
+think you're going to actually solve
+this in general for a K near the ground
+
+82
+00:08:13,910 --> 00:08:18,020
+区域边界使代数更加复杂，但是
+zone boundary which makes the algebra a
+little bit more complicated but what
+
+83
+00:08:18,020 --> 00:08:20,590
+我们要在这里做我们要简化我们的代数
+we're gonna do here is we're gonna
+simplify our algebra a little bit and
+
+84
+00:08:20,590 --> 00:08:29,180
+假设K在棕色区域边界上正确假设K和K加G我们在BZ上
+assume K is right on the brown zone
+boundary assume K and K plus G our on BZ
+
+85
+00:08:29,180 --> 00:08:36,860
+ BZ边界上的边界只是使代数更容易一点，所以
+boundary on BZ boundary just to make the
+algebra a little bit easier so that
+
+86
+00:08:36,860 --> 00:08:44,480
+表示II不等于K等于e不等于k加G相同的能量
+means that II not of K equals e not of k
+plus G the same energy so right on the
+
+87
+00:08:44,480 --> 00:08:49,610
+简并点，在这种情况下，这是一个非常简单的矩阵
+degeneres point in which case this is a
+very simple matrix has to
+
+88
+00:08:49,610 --> 00:08:52,670
+沿对角线然后复共轭的元素相同
+elements which are the same along the
+diagonal and then complex conjugate
+
+89
+00:08:52,670 --> 00:09:00,130
+非对角线上的矩阵元素和能量是II而不是K 
+matrices elements on the off diagonal
+and the energies are then II not of K
+
+90
+00:09:00,130 --> 00:09:08,750
+加V而不是加或减绝对VG，这就是我们的答案，那么这是什么
+plus V not plus or minus absolute V G
+and that's our answer so what is this
+
+91
+00:09:08,750 --> 00:09:13,450
+这是什么意思，让我们也许在这里画出来，所以我们有
+what does this mean
+let's maybe draw it here so we have
+
+92
+00:09:13,450 --> 00:09:21,860
+这是K这是能量E，在添加扰动之前，我们有一个很好的
+here's K here's energy E and before we
+add the perturbation we have a nice
+
+93
+00:09:21,860 --> 00:09:30,190
+抛物线我们通常画它，所以这是通常的抛物线
+parabola we have the usual draw it this
+so this is the usual parabola which is a
+
+94
+00:09:30,190 --> 00:09:38,060
+ K的点数等于H bar平方K平方超过2m，所以这是自由电子
+nod of K equals H bar squared K squared
+over 2m so that's the free electron
+
+95
+00:09:38,060 --> 00:09:45,589
+抛物线，那么我们可以放下它具有一定布朗区的周期性势
+parabola then we can put down the
+periodic potential it has some Bron zone
+
+96
+00:09:45,589 --> 00:09:50,000
+边界，所以我在PI上有一些晶格常数柏林区域边界
+boundary for this so I had some lattice
+constant a Berlin zone boundaries at PI
+
+97
+00:09:50,000 --> 00:09:53,899
+在负PI上，除了在a和负2 PI处有更多的*区域边界
+over a minus PI over a except more bran
+zone boundaries at minus 2 PI over a and
+
+98
+00:09:53,899 --> 00:10:02,720
+ 2 PI在此处，因此此处此处的*区域边界减去PI在
+2 PI over a here so here at this point
+there's bran zone boundary minus PI over
+
+99
+00:10:02,720 --> 00:10:07,940
+ a和PI在a上，您可以通过此倒易的晶格矢量G散布在它们之间
+a and PI over a you can scatter between
+them by this reciprocal lattice vector G
+
+100
+00:10:07,940 --> 00:10:14,720
+等于PI超过a可以使您从负PI减去2超过PI的秒数
+equals to PI over a can get you from
+minus PI over a 2 PI over a so in second
+
+101
+00:10:14,720 --> 00:10:18,110
+阶次扰动理论如果您分析了这一点，您会发现
+order perturbation Theory you would
+discover that if you if you analyze this
+
+102
+00:10:18,110 --> 00:10:21,079
+指向此处或指向此处，您将在第二阶出现分歧
+point here or this point here you would
+get divergence in second order
+
+103
+00:10:21,079 --> 00:10:25,310
+扰动理论，我们将不得不使用简并扰动理论
+perturbation Theory and we would have to
+use degenerate perturbation theory in
+
+104
+00:10:25,310 --> 00:10:30,470
+为了弄清楚这些点发生了什么，我们得出的是
+order to figure out what happens to
+these points and what we just derived is
+
+105
+00:10:30,470 --> 00:10:35,899
+事实上，他们在能量上的分裂以及它看起来的方式是
+it in fact they split in energy and the
+way it's going to look is that this is
+
+106
+00:10:35,899 --> 00:10:40,279
+会向下移动，然后会向上移动一点，因此实际上
+going to shift down and then this will
+shift up a little bit so that in fact
+
+107
+00:10:40,279 --> 00:10:44,480
+您会在左侧的东西之间拉开一点缝隙
+you open up a little gap between the
+things coming from the left of the
+
+108
+00:10:44,480 --> 00:10:49,519
+东西从右边进来，它的大小是-绝对VG在这里和相同
+things coming in from the right and it's
+size is - absolute VG here and the same
+
+109
+00:10:49,519 --> 00:10:57,649
+事情在这边发生，像这样扩大了大小的差距-绝对
+thing happens over on this side like
+this opens up a gap of size - absolute
+
+110
+00:10:57,649 --> 00:11:05,850
+ VG和同样的事情会在这里发生，您可以从Braun的身上散开
+VG and the same thing would happen up
+here where you can scatter from Braun's
+
+111
+00:11:05,850 --> 00:11:11,129
+自己的边界布劳恩自己的边界G等于a上的四个PI，这里是一个间隙
+own boundaries Braun's own boundary by G
+equals four PI over a and here a gap
+
+112
+00:11:11,129 --> 00:11:14,940
+会在这里的青铜器边界处打开，而间隙会在
+would open up at the bronze own boundary
+here and the gap would open up at the
+
+113
+00:11:14,940 --> 00:11:22,740
+这里是青铜自己的边界，所以自从我画得很糟以来
+bronze own boundary here okay so since
+I've drawn that fairly badly I was
+
+114
+00:11:22,740 --> 00:11:28,470
+为此做准备，我有一张幻灯片，所以这是同一张照片的扩展区域
+prepared for this and I have a slide so
+here's the same picture an extended zone
+
+115
+00:11:28,470 --> 00:11:34,079
+方案这是从抛物线开始的，漂亮的自由电子
+scheme this is the starts with the bare
+parabola the the nice free electron
+
+116
+00:11:34,079 --> 00:11:38,009
+抛物线，然后当您添加周期性电势时， 
+parabola and then when you add the
+periodic potential the major effect of
+
+117
+00:11:38,009 --> 00:11:41,339
+周期性电势接近其打开的男爵区边界
+the periodic potential is near the
+barone zone boundary where it opens up
+
+118
+00:11:41,339 --> 00:11:44,970
+这个间隙，您会注意到青铜自身边界内的状态
+this gap you notice that the states
+inside the bronze own boundary get
+
+119
+00:11:44,970 --> 00:11:48,029
+降低一点能量，如果
+pushed down in energy by a little bit
+and they get pushed down more if they're
+
+120
+00:11:48,029 --> 00:11:51,300
+更接近青铜器自身的边界，因为当您接近青铜器时
+closer to the bronze own boundary
+because as you're close to the bronze
+
+121
+00:11:51,300 --> 00:11:54,060
+如果您以二阶微扰理论来思考的话，那就是自己的边界
+own boundary if you think in second
+order perturbation theory that's where
+
+122
+00:11:54,060 --> 00:11:56,850
+分歧越来越严重，实际上并没有
+the divergence is getting worse and
+worse and worse it doesn't actually
+
+123
+00:11:56,850 --> 00:12:00,810
+分歧，但随着您的不断变化，扰动变得越来越重要
+diverge but still the perturbation is
+becoming more and more important as you
+
+124
+00:12:00,810 --> 00:12:03,839
+更加接近青铜器自身的边界-间隙使事物被压低
+get closer to the bronze own boundaries
+- the gap opens things get pushed down
+
+125
+00:12:03,839 --> 00:12:07,800
+当您接近青铜器自己的边界时，还有更多，然后如果您就在外面
+more as you get close to the bronze own
+boundary and then if you're just outside
+
+126
+00:12:07,800 --> 00:12:10,680
+青铜器本身的边界物体被推高，而您打开这小块
+the bronze own boundary things get
+pushed up and you open up this little
+
+127
+00:12:10,680 --> 00:12:14,939
+在柏林区域边界的差距现在这里完全相同
+gap at the Berlin zone boundary same
+thing over here now we're perfectly
+
+128
+00:12:14,939 --> 00:12:19,920
+有权在缩小区域方案中查看相同的内容
+entitled to view the same thing in
+reduced zone scheme where we take this
+
+129
+00:12:19,920 --> 00:12:24,899
+频谱，我们将其移了两个pi，所以就在这里
+piece of the spectrum and we shift it
+over by two pi over a so it's over here
+
+130
+00:12:24,899 --> 00:12:28,230
+然后，我们利用这一频谱范围，将两个PI移到一个
+and we take this piece of this spectrum
+we shifted over by two PI over a in the
+
+131
+00:12:28,230 --> 00:12:31,470
+另一个方向，直到它在这里，我们在第一个视图中查看所有内容
+other direction until it's over here and
+we view everything within the first
+
+132
+00:12:31,470 --> 00:12:34,230
+布里渊区，但现在我们在第一个青铜区中有两个乐队
+Brillouin zone but now we have two bands
+within the first bronze zone so we have
+
+133
+00:12:34,230 --> 00:12:38,160
+最低的频段，我们有一个较高的频段，这看起来有点像我们
+a lowest band and we have a higher band
+and this looks a little bit like what we
+
+134
+00:12:38,160 --> 00:12:44,519
+在几周前研究紧束缚模型时发现
+found when we studied the tight binding
+model in a couple weeks back we handle
+
+135
+00:12:44,519 --> 00:12:51,089
+因为当我们每个晶胞有两个轨道时，在两个值处有两个波段
+for when we had two orbitals per unit
+cell there were two bands at two values
+
+136
+00:12:51,089 --> 00:12:55,730
+在每个可能的K值处有两个本征态
+of two eigenstates at each possible
+value of K which is what we have here
+
+137
+00:12:55,730 --> 00:13:01,110
+并且结构看起来或多或少相似，我们有一个低频段，一个高频段，然后一个
+and the structure looks more or less
+similar we have a low band a high then a
+
+138
+00:13:01,110 --> 00:13:05,579
+棕色区域边界处的缝隙开口，但是我们实际上是从
+gap opening at the brown zone boundary
+however we're really coming at this from
+
+139
+00:13:05,579 --> 00:13:09,480
+当我们进行紧密绑定模型时，这是一个非常互补的方向，我们从
+a very complementary direction when we
+did tight binding model we started by
+
+140
+00:13:09,480 --> 00:13:13,380
+取一堆轨道，然后我们将它们弱耦合在一起，并允许
+taking a bunch of orbitals and then we
+weakly coupled them together and allow
+
+141
+00:13:13,380 --> 00:13:15,960
+电子从一个轨道到另一个轨道
+the electrons to
+from one orbital to the next to the next
+
+142
+00:13:15,960 --> 00:13:20,610
+在这里，我们做的是相反的，我们从平面波开始，然后我们对其进行了微弱的扰动。 
+here we did the opposite we started with
+a plane wave and we weakly perturbed it
+
+143
+00:13:20,610 --> 00:13:24,480
+具有周期性的电势，但是无论用哪种方式观察，都可以得到相同的物理场
+with a periodic potential but either way
+you look at it you get the same physics
+
+144
+00:13:24,480 --> 00:13:30,750
+如果您从柏林的边界区域中分离出不同的带隙
+of separate bands gaps at the Berlin
+zone boundary if you look at it from the
+
+145
+00:13:30,750 --> 00:13:34,950
+几乎免费的电子模型，虽然实际上这张图片可以在这张图片中看到
+nearly free electron model though really
+this picture you can see in this picture
+
+146
+00:13:34,950 --> 00:13:40,710
+这实际上是一个自由电子抛物线，在
+it's it's actually just a free electron
+parabola with small perturbations at at
+
+147
+00:13:40,710 --> 00:13:43,620
+柏林地区的边界，所以这种抛物线在
+the Berlin zone boundaries so this
+parabola is sort of continued in the
+
+148
+00:13:43,620 --> 00:13:47,520
+第二个乐队，所以这片抛物线星反射回来， 
+second band so this this piece of the
+parabola star reflected back and
+
+149
+00:13:47,520 --> 00:13:51,030
+继续第二个乐队，因为差距，他们不太感动
+continuing the second band they don't
+quite touch because of the the gap
+
+150
+00:13:51,030 --> 00:13:56,250
+打开，但实际上给出了该带在底部附近的曲率
+opening up but the curvature of this
+band near the bottom is actually given
+
+151
+00:13:56,250 --> 00:14:00,420
+由自由电子质量引起底部弯曲的事物
+by the free electron mass the thing that
+causes the curvature at the bottom of
+
+152
+00:14:00,420 --> 00:14:04,770
+你的抛物线取决于自由电子质量而不是其他任何东西
+your parabola that's dependent on the
+free electron mass not on anything else
+
+153
+00:14:04,770 --> 00:14:08,580
+所以我们真的应该查看乐队的这个底部，看起来像一个
+so we really should view this this
+bottom of the band which looks like a
+
+154
+00:14:08,580 --> 00:14:14,280
+抛物线基本上就是自由电子，所以这个问题是
+parabola is just being essentially free
+electrons okay so a question that's
+
+155
+00:14:14,280 --> 00:14:20,630
+在这一点上相当重要的是，也许我将其放在这里是为什么差距
+fairly important at this point is maybe
+I'll put it over here is why the gap why
+
+156
+00:14:20,630 --> 00:14:28,530
+差距介意差距为何差距还可以，所以才能理解为什么
+the gap mind the gap why the gap okay so
+in order to understand why it is that
+
+157
+00:14:28,530 --> 00:14:31,980
+这种差距正在以另一种语言在柏林地区边界开放
+this gap is opening up at the Berlin
+zone boundary in a different language
+
+158
+00:14:31,980 --> 00:14:39,840
+举个例子很有用，这样可以检查一个特定的潜力
+it's useful to to give an example so
+examine a particular potential I'll
+
+159
+00:14:39,840 --> 00:14:43,170
+选择X的V，我们将在一维中执行此操作实际上这是一个
+choose V of X and we're gonna do this in
+one dimension actually this is one
+
+160
+00:14:43,170 --> 00:14:46,290
+维度我还应该提到，这不是一个维度
+dimension also I should have mentioned
+that this isn't one dimension this is
+
+161
+00:14:46,290 --> 00:14:50,850
+更重要的是，这是一个更通用的方程式
+more this is a more general equation
+which all hold in any dimension we're
+
+162
+00:14:50,850 --> 00:14:55,950
+我们也要在一维上做这个例子，所以X的V我们选择它为2 
+gonna do this example in one dimension
+also so V of X we'll choose it to be two
+
+163
+00:14:55,950 --> 00:15:02,850
+ V旋转余弦2pi超过X倍，这是一个很好的周期性电势
+V twiddle cosine 2pi over a times X
+that's a nice periodic potential maybe
+
+164
+00:15:02,850 --> 00:15:06,570
+我什至会得出每个人可能都知道它看起来什么样的周期性潜力
+I'll even draw that periodic potential
+everyone probably knows what it looks
+
+165
+00:15:06,570 --> 00:15:14,310
+喜欢，但我还是会画它，好吧，这是我们的X是X也许我们会在这里放一个
+like but I'll draw it anyway so okay
+here's our X is X maybe we'll put a here
+
+166
+00:15:14,310 --> 00:15:25,110
+减去这里，余弦势看起来像这样，看起来像这样
+minus a out here and a cosine potential
+looks like this and looks like this
+
+167
+00:15:25,110 --> 00:15:33,390
+因此，这是X的V，晶格常数是a，周期是a和
+so this is V of X and the lattice
+constant is a the periodicity is a and
+
+168
+00:15:33,390 --> 00:15:38,430
+之所以选择这种特殊的简单余弦势，是因为它
+the reason I've chosen this particular
+simple cosine potential is because it
+
+169
+00:15:38,430 --> 00:15:47,220
+具有很好的傅立叶模式v等于V的sub 2pi等于v的负sub 2pi 
+has nice Fourier modes v sub 2pi over a
+equals V sub minus 2pi over a equals V
+
+170
+00:15:47,220 --> 00:15:56,040
+旋转，所有其他所有V sub G等于0，所以它只有两个
+twiddle and all other all other V sub G
+are equal to 0 so it only has two
+
+171
+00:15:56,040 --> 00:16:00,180
+非零的傅立叶模式，它们都由V旋转梗死给定
+Fourier modes which are nonzero and
+they're both given by V twiddle alright
+
+172
+00:16:00,180 --> 00:16:06,300
+所以现在让我们考虑一下这将要做的事
+so now let's think about what this is
+going to do what this can do is it can
+
+173
+00:16:06,300 --> 00:16:12,780
+ V sub G的散射仅对G而言是2 pi，因此在此图片中表示
+scatter by V sub G only for G is 2 pi
+over a so in this picture it means it
+
+174
+00:16:12,780 --> 00:16:17,790
+可以从这个点散布到这个点4到G这是两个点
+can scatter from this point to this
+point 4 by G these are the two points in
+
+175
+00:16:17,790 --> 00:16:21,090
+退化摄动理论，他们可以彼此混合，这就是重点
+degenerative perturbation theory they
+can mix with each other that's point
+
+176
+00:16:21,090 --> 00:16:25,230
+ K等于a的负PI，K等于a的正PI，所以散射
+that K equals minus PI over a and K
+equals plus PI over a so the scattering
+
+177
+00:16:25,230 --> 00:16:33,060
+我们要担心的是k等于a上的PI减去PI，而2 K等于PI上的PI 
+we have to worry about is from k equals
+minus PI over a and 2 K equals plus PI
+
+178
+00:16:33,060 --> 00:16:39,000
+被这个电位来回散布，因此它可以向后散射
+over a being scattered back and forth by
+this potential so it can scatter back
+
+179
+00:16:39,000 --> 00:16:42,990
+在青铜器本身上的两个波矢量之间来回
+and forth between those two wave vectors
+which are right on the bronze own
+
+180
+00:16:42,990 --> 00:16:49,020
+边界，所以在现实空间中，如果我考虑这些的XK表示
+boundary so in in real space if I think
+about X K representations of these of
+
+181
+00:16:49,020 --> 00:16:57,330
+这些猫是X上的I PI，e上是减去I PI的e 
+these cats these things are either the I
+PI over a X and e to the minus I PI over
+
+182
+00:16:57,330 --> 00:17:04,140
+ X，如果我们将这个哈密顿量对角化
+a X and I'll use that notation if we
+then diagonalize this Hamiltonian in
+
+183
+00:17:04,140 --> 00:17:08,930
+那就是在这个空间中，我们将得到两个特征值或
+that and that's in this space what we'll
+get is we'll get our two eigenvalues or
+
+184
+00:17:08,930 --> 00:17:16,560
+我们这边的两个本征函数将是e VI pi over ax加e到负I 
+two eigenfunctions our side plus will be
+e VI pi over a x plus e to the minus I
+
+185
+00:17:16,560 --> 00:17:27,329
+ X上的PI及其能量E Plus在零加V旋转条件下为e sub pi， 
+PI over a X and it's energy E Plus is e
+sub pi over a naught plus V twiddle and
+
+186
+00:17:27,329 --> 00:17:34,560
+另一个本征符号减号是e到I PI，而X减号e是到负I 
+the other eigenstate sign minus is e to
+the I PI over a X minus e to the minus I
+
+187
+00:17:34,560 --> 00:17:40,669
+ PI超过X且其能量为e-PI高于零
+PI over a X
+and it's energy e - is e naught PI over
+
+188
+00:17:40,669 --> 00:17:46,429
+负V旋转，所以这些平面的这些线性组合之一
+a minus V twiddle so one of these linear
+combinations of these of these plane
+
+189
+00:17:46,429 --> 00:17:49,970
+波浪的能量被推高其中之一被能量的推低
+waves is getting pushed up in energy one
+of them is getting pushed down in energy
+
+190
+00:17:49,970 --> 00:17:55,100
+由V旋转，所以我们又有了这两个平面波
+by V twiddle so again we have these two
+plane waves one going left one going
+
+191
+00:17:55,100 --> 00:17:59,299
+正确的是，他们被这种散射的潜力混合在一起
+right they're getting mixed together by
+the by this by this scattering potential
+
+192
+00:17:59,299 --> 00:18:03,860
+通过这种周期性的潜能和两个本征态之一
+by this periodic potential and one of
+the two eigenstates this has been pushed
+
+193
+00:18:03,860 --> 00:18:07,130
+增强能量其中一个被降低了能量为什么我们要
+up an energy one of them has been pushed
+down in energy why is that well let's
+
+194
+00:18:07,130 --> 00:18:13,220
+看看我们是否能弄清楚，让我们将边+平方，然后我们得到
+see if we can figure that out
+let's take side + square it so we get
+
+195
+00:18:13,220 --> 00:18:20,330
+概率密度，所以这是密度，问题概率密度
+the probability density so this is the
+density the problem probability density
+
+196
+00:18:20,330 --> 00:18:26,210
+概率密度sy +平方，建议的部分全部-余弦平方
+prob density sy + squared which is
+proposed portion all - cosine squared of
+
+197
+00:18:26,210 --> 00:18:34,010
+ PI在ax + sy-平方上与PI over的正弦平方成比例
+PI over ax + sy - squared will be
+proportional to sine squared of PI over
+
+198
+00:18:34,010 --> 00:18:42,559
+一个X，让我们在同一图上画出它们，让我们看一下sy +看起来像这样
+a X and let's plot those on this same
+figure so let's see sy + looks like this
+
+199
+00:18:42,559 --> 00:18:59,110
+它的余弦平方为SI +平方，然后为sy-看起来像这叹气-平方
+it's cosine squared of SI + squared and
+then sy - looks like this sigh - squared
+
+200
+00:18:59,110 --> 00:19:03,770
+看起来像这样，所以它们的幅度误差概率密度在
+looks like that so they have their
+amplitude err probability density is in
+
+201
+00:19:03,770 --> 00:19:09,350
+沿着位置空间的不同地方
+different places along the in the
+positional space there different places
+
+202
+00:19:09,350 --> 00:19:16,730
+沿轴，因此侧面加平方的角度使我
+along the axis and because of this the
+side plus squared sees I'm putting that
+
+203
+00:19:16,730 --> 00:19:27,620
+用引号引起来的X大多是正VV，因此您可以看到sy +的优势所在
+in quotes sees mostly positive V V of X
+so you see where where sy + is great
+
+204
+00:19:27,620 --> 00:19:31,610
+ X的V为正且很大的地方
+where it's very large
+that's where V of X is positive and
+
+205
+00:19:31,610 --> 00:19:36,890
+我们在里面+小是X的V为负的地方，这意味着边加E 
+we're inside + is small is where V of X
+is negative so that means side plus E
+
+206
+00:19:36,890 --> 00:19:44,299
+ Plus被推高了，能量被推高了，因为它主要经历了
+Plus is pushed up in energy is pushed up
+because it's experiencing mostly the
+
+207
+00:19:44,299 --> 00:19:50,210
+正电位，而正弦减去平方
+positive potential whereas in comparison
+sine minus squared
+
+208
+00:19:50,210 --> 00:20:04,710
+大部分搜索X的负VV，因为sy-大，而X的V恰好是
+sieze mostly negative V V of X because
+sy- is large where V of X happens to be
+
+209
+00:20:04,710 --> 00:20:15,450
+负数，所以它被降低了u负数的能量被降低了，所以让我们
+negative and so it's pushed down u minus
+is pushed down down in energy so let's
+
+210
+00:20:15,450 --> 00:20:19,350
+仔细考虑一下，这是怎么回事
+think about this a little bit more
+carefully so what's going on is we have
+
+211
+00:20:19,350 --> 00:20:23,429
+这个空间有向左波和向右波，这是
+this space which has a left going wave
+and a right going wave that's the the
+
+212
+00:20:23,429 --> 00:20:27,179
+简并摄动理论的空间
+space of the degenerate perturbation
+theory and you know with the variational
+
+213
+00:20:27,179 --> 00:20:30,120
+原则上我们应该做的是将它们放在一起
+principle what we're supposed to do is
+we're supposed to put them together in a
+
+214
+00:20:30,120 --> 00:20:33,059
+你会知道如何获得基态的方法
+way that will you know to get the ground
+state we're supposed to put them
+
+215
+00:20:33,059 --> 00:20:36,510
+一起以最小化总能量和最小化方式
+together in a way that will minimize the
+total energy and the way you minimize
+
+216
+00:20:36,510 --> 00:20:40,380
+获得基态的总能量是将它们放在一起
+the total energy to get the ground state
+is you put them together such that you
+
+217
+00:20:40,380 --> 00:20:45,720
+得到一个符号-因为符号-在X的V为负且
+get a sign - because sign - has its
+maximum where V of X is negative and
+
+218
+00:20:45,720 --> 00:20:49,290
+降低了能量，因此在其中将其降低了
+that pushes down its energy therefore
+it's in it pushes it down as much as
+
+219
+00:20:49,290 --> 00:20:54,780
+因此，这可能是我可以陈述的基态，反之，sy + 
+possible therefore it's the ground state
+I can state and conversely sy+
+
+220
+00:20:54,780 --> 00:20:58,620
+通过投入尽可能多地提高其能量
+has pushed up its energy as much as
+possible as high as possible by putting
+
+221
+00:20:58,620 --> 00:21:02,970
+势为正的密度，那么为什么
+its density where the potential is
+positive so is that clear what why
+
+222
+00:21:02,970 --> 00:21:10,080
+一切都很好，所以你读过检查员的报告吗
+that's going on alright good so do you
+ever read the examiner reports people
+
+223
+00:21:10,080 --> 00:21:14,940
+阅读考官的报告，您从来没有注意到它真的很讨厌，我认为这是
+read the examiner reports you've never
+notice that really nasty I think it's an
+
+224
+00:21:14,940 --> 00:21:18,660
+书面要求审查员报告必须真的很讨厌
+unwritten requirement the examiner
+reports have to be really nasty I've
+
+225
+00:21:18,660 --> 00:21:22,770
+从来没有参加过考试委员会，但是有一天我会来的，我会
+never been on the examination committee
+yet one day my time will come and I'll
+
+226
+00:21:22,770 --> 00:21:27,270
+可能会在平板电脑上某处读到该规则的未成文规则
+probably read the rule the unwritten
+rule somewhere on some tablet that says
+
+227
+00:21:27,270 --> 00:21:31,620
+你一定很讨厌，所以这几乎引起了一个问题
+you must be nasty okay so there was a
+question that came up about this nearly
+
+228
+00:21:31,620 --> 00:21:35,850
+自由电子模型大约是在四年前出现的，它真的引发了很多
+free electron model came up about four
+years ago and it really threw a lot of
+
+229
+00:21:35,850 --> 00:21:38,669
+人，所以我要经历那里所涉及的物理学
+people so I'm gonna go through the
+physics of what was involved in there
+
+230
+00:21:38,669 --> 00:21:42,270
+这并不比我们做的复杂得多，但是
+which isn't too much more complicated
+than what we did but but it's something
+
+231
+00:21:42,270 --> 00:21:47,299
+你知道很多人都觉得很意外，所以我要
+that you know a lot of people found
+rather unexpected so I'm going to
+
+232
+00:21:47,299 --> 00:21:53,280
+或多或少地解释该问题发生了什么，所以当您遇到
+explain more or less what what was going
+on in that problem so when you run into
+
+233
+00:21:53,280 --> 00:21:56,520
+有一天它不会打扰您，所以我们将考虑一个正方形
+it someday it won't trouble you so we're
+going to consider a square
+
+234
+00:21:56,520 --> 00:22:01,410
+二维晶格，我正在画一个倒数空间，这是倒数
+two-dimensional lattice and I'm drawing
+reciprocal space this is a reciprocal
+
+235
+00:22:01,410 --> 00:22:09,179
+格子2D这个正方形2D格子和
+lattice so Square 2d
+this Square 2d lattice and the
+
+236
+00:22:09,179 --> 00:22:13,110
+正方形格子的倒数空间也是正方形，所以我要画
+reciprocal space of a square lattice is
+also square so I'm going to draw the
+
+237
+00:22:13,110 --> 00:22:17,940
+棕熊拥有，所以这里的K等于零，第一个铜牌拥有
+Bruins own so this is K equals zero here
+in the center and the first bronze own
+
+238
+00:22:17,940 --> 00:22:29,090
+这里是这个广场，拐角处的这个点是PI超过8 pi超过8 ok 
+is this square here and this point here
+in the corner is PI over 8 pi over 8 ok
+
+239
+00:22:29,090 --> 00:22:33,480
+现在，这个问题要求您要做的第一件事就是找出当
+now the first thing this question asked
+you to do is find out what happens when
+
+240
+00:22:33,480 --> 00:22:37,500
+您添加了周期性电势，在青铜板上的某个点会发生什么
+you add a periodic potential what
+happens to a point here on the bronze
+
+241
+00:22:37,500 --> 00:22:41,730
+自己确定边界，所以基本上这就是我们刚才所做的
+own boundary ok so that's basically
+exactly what we just did
+
+242
+00:22:41,730 --> 00:22:45,960
+由于周期性的电位，它可以与该点混合
+that point there due to the periodic
+potential it can mix in with this point
+
+243
+00:22:45,960 --> 00:22:50,520
+在这里，这两个点被倒易的晶格矢量隔开，这是一个
+over here these two points are separated
+by a reciprocal lattice vector this is a
+
+244
+00:22:50,520 --> 00:22:57,059
+倒数晶格矢量2 pi超过a的2 pi，因此这两个可以通过
+reciprocal lattice vector 2 pi over 2 pi
+over a so these two can mix together via
+
+245
+00:22:57,059 --> 00:23:01,169
+散射它们具有相同的能量，因为它们与k的距离相同
+scattering they have the same energy
+because they're the same distance from k
+
+246
+00:23:01,169 --> 00:23:08,250
+等于0，它们具有与k相同的振幅，所以此条件保持EK 
+equals 0 they have the same amplitude of
+their k so so this condition holds EK
+
+247
+00:23:08,250 --> 00:23:13,740
+等于ek加G，所以它们混合在一起，这是我们完全相同的计算
+equals ek plus G so they mix together
+and it's exactly the same calculation we
+
+248
+00:23:13,740 --> 00:23:17,580
+只是做到了，只是您知道这实际上是一个二维模型，但我们只是
+just did it's just you know it's really
+a two dimensional model but we're just
+
+249
+00:23:17,580 --> 00:23:20,640
+考虑到切穿的二维，将会有一个缺口
+considering this cut through two
+dimensions there will be a gap opening
+
+250
+00:23:20,640 --> 00:23:23,610
+在这一点上，在柏林区域边界上
+up at the Berlin zone boundary at this
+point at this point so that much is
+
+251
+00:23:23,610 --> 00:23:26,940
+简单还是应该简单我希望它就像我们两次做的一样
+simple or should be simple I hope it's
+exactly like what we did in two
+
+252
+00:23:26,940 --> 00:23:30,690
+一维和一维，但现在在二维中， 
+dimensions and in one dimension but now
+in two dimensions the thing that was
+
+253
+00:23:30,690 --> 00:23:34,260
+如果您在此处考虑这一点，将会发生复杂的情况
+complicated is what happens if you
+consider this point up here in the
+
+254
+00:23:34,260 --> 00:23:38,669
+拐角处，所以这称为两点一，所以现在我们要做的是
+corner so it's called this point two
+point one so now what we have to do is
+
+255
+00:23:38,669 --> 00:23:42,539
+我们必须问他们在哪里做的分歧在哪里
+we have to ask where do they do where do
+the divergences come in second order
+
+256
+00:23:42,539 --> 00:23:46,830
+扰动理论很好，这一点人们可以被倒易的晶格散射
+perturbation theory well this point one
+can scatter by a reciprocal lattice
+
+257
+00:23:46,830 --> 00:23:50,909
+向量到第二点，但它也可以通过倒数晶格向量进行散布
+vector to this point two but it can also
+scatter by a reciprocal lattice vector
+
+258
+00:23:50,909 --> 00:23:54,990
+至第三点，这也是至此的倒数晶格向量
+to this point three and this is also a
+reciprocal lattice vector to this point
+
+259
+00:23:54,990 --> 00:23:58,740
+四个，实际上是分叉柜分散了两个三四个可以分散到
+four and in fact forking cabinets
+scatter two three four can scatter to
+
+260
+00:23:58,740 --> 00:24:01,799
+两个可以分散到三个，它们都可以通过倒数彼此分散
+two can scatter to three they can all
+scatter to each other by reciprocal
+
+261
+00:24:01,799 --> 00:24:05,130
+格向量那些在k空间中的向量都是倒数格向量
+lattice vectors those vectors in k space
+are all reciprocal lattice vectors and
+
+262
+00:24:05,130 --> 00:24:08,730
+他们都被允许彼此混合，并且在拥有相同能量之前
+they're all allowed to mix to each other
+and they all have the same energy before
+
+263
+00:24:08,730 --> 00:24:12,390
+您添加扰动，所以当您进行简并扰动理论时
+you add the perturbation so when you do
+your degenerate perturbation theory
+
+264
+00:24:12,390 --> 00:24:15,900
+您会发现一堆这些东西，所有这些分母
+you'll find a bunch of these things the
+bunch of these denominators that are all
+
+265
+00:24:15,900 --> 00:24:18,460
+零，如果您正在考虑这一点
+zero
+okay if you're considering this point
+
+266
+00:24:18,460 --> 00:24:21,400
+散射到这里分母为零散射到这里
+scattering to here there'll be a
+denominator zero scattering here
+
+267
+00:24:21,400 --> 00:24:25,720
+零散在这里，所以你要处理的方法是你必须写你的
+scattering here all zero so the way you
+handle this is you have to write your
+
+268
+00:24:25,720 --> 00:24:33,549
+试用波函数，它包括试验，它包括所有这些波向量，所以我
+trial wavefunction it includes trial it
+includes all of these wave vectors so I
+
+269
+00:24:33,549 --> 00:24:44,919
+想要1加披披2 K 2 + 5 3 K 3 + 5 4 K，因为所有这些事情
+want a 1 plus Phi 2 K 2 + 5 3 K 3 + 5 4
+K for all of these things have to be
+
+270
+00:24:44,919 --> 00:24:50,110
+包含在您的试验波函数中，然后您的哈密顿量就是4乘4 
+included in your trial wavefunction and
+then your Hamiltonian is then a 4 by 4
+
+271
+00:24:50,110 --> 00:24:56,320
+矩阵，其中包括您如何来回分散的所有可能性
+matrix which includes all possibilities
+of how you scatter back and forth
+
+272
+00:24:56,320 --> 00:25:01,480
+在所有这四个点之间都可以，所以这就是
+between all those four points okay so
+that was what was what was asked on the
+
+273
+00:25:01,480 --> 00:25:06,010
+在考试中，即使不是
+in the in the exam and a lot of people
+got thrown by it even though it's not
+
+274
+00:25:06,010 --> 00:25:11,169
+真的要复杂得多，好吧，好吧，让我们开始吧
+really that much more complicated okay
+good happy with that all right let's do
+
+275
+00:25:11,169 --> 00:25:18,700
+我们在这里做一个真实的例子，所以在3D真实的例子中，我们有很多东西
+it let's do a real example here so in 3d
+in real example real life we have things
+
+276
+00:25:18,700 --> 00:25:24,279
+就像FCC格子一样，就像我们几天前讨论的那样
+like FCC lattices this is as we
+discussed a couple days ago this is the
+
+277
+00:25:24,279 --> 00:25:28,120
+ FCC晶格的青铜区，伽玛点是K中等于0的点
+bronze zone of the FCC lattice the gamma
+point is a point at K equals zero in the
+
+278
+00:25:28,120 --> 00:25:32,470
+ x点的中间是此正方形中间的柏林区域边界
+middle the x point is at the Berlin zone
+boundary in the middle of this square
+
+279
+00:25:32,470 --> 00:25:37,059
+面对此处，L点位于KX方向，位于柏林区域边界
+face here and the K X direction the L
+point is in the Berlin zone boundary in
+
+280
+00:25:37,059 --> 00:25:40,899
+例如，该六边形表面的中间以及我们要使用的材料
+the middle of this hexagonal face for
+example and the material we're going to
+
+281
+00:25:40,899 --> 00:25:46,390
+考虑一下实际上是材料碳化硅
+think about is the material silicon
+carbide silicon carbide it's actually
+
+282
+00:25:46,390 --> 00:25:50,740
+这是另一种重要的工业材料，它具有这种结构
+it's another important industrial
+material it has this structure here it's
+
+283
+00:25:50,740 --> 00:25:55,270
+ FCC有一个基础，因此黄色是硅的，蓝色是
+FCC with a basis so the yellows are
+silicon's and the and the Blues are
+
+284
+00:25:55,270 --> 00:26:00,520
+碳可以在0 0 0处取，碳可以在1/4 1/4 1/4处取
+carbon the silicon can be taken at 0 0 0
+and the carbon at 1/4 1/4 1/4 we've seen
+
+285
+00:26:00,520 --> 00:26:04,630
+这是之前的这种结构Vinc混合结构硫化锌镓
+this structure before this is this Vinc
+blend structure zinc sulfide gallium
+
+286
+00:26:04,630 --> 00:26:07,720
+砷化物具有相同的结构，因此碳化物具有这种结构
+arsenide takes the same structure
+so looking carbide takes this structure
+
+287
+00:26:07,720 --> 00:26:15,789
+这是非常常见的结构，现在可以了，所以在这里让我们看看是否可以
+it's very common structure ok now all
+right so here let's see if we can we can
+
+288
+00:26:15,789 --> 00:26:19,120
+了解这张照片如何显示所有本征的复杂照片
+understand how this picture this
+complicated picture of all the eigen
+
+289
+00:26:19,120 --> 00:26:23,950
+电子的状态可以来自几乎自由的电子模型，所以让我们
+States for electrons can come out of
+nearly free electron models so let's
+
+290
+00:26:23,950 --> 00:26:27,280
+低头看最低的能量这里的最低能量
+look down at the lowest energy the
+lowest energy here and we have the gamma
+
+291
+00:26:27,280 --> 00:26:31,300
+点在K等于0是，电缆0的另一个名称
+point that's at K equals 0 yeah
+another name for cable zero and as you
+
+292
+00:26:31,300 --> 00:26:34,810
+在柏林地区朝X点走出去，你会看到
+go out in the Berlin zone towards the
+point X you see this thing that looks
+
+293
+00:26:34,810 --> 00:26:38,860
+有点像抛物线，如果你备份，那很糟糕
+kind of like parabola and if you back up
+that's oops back back back back back
+
+294
+00:26:38,860 --> 00:26:46,210
+这里看起来有点像抛物线，这就是
+here so it looks kind of like this
+parabola here and that's exactly what
+
+295
+00:26:46,210 --> 00:26:49,600
+你在这里看到这是从K出来的自由电子抛物线
+you're seeing here this is the free
+electron parabola coming out from K
+
+296
+00:26:49,600 --> 00:26:53,200
+等于零，当您到达青铜自己的边界时，会有一个间隙
+equals zero and when you get to the
+bronze own boundary there's a gap
+
+297
+00:26:53,200 --> 00:26:57,190
+打开，这是抛物线的后半部分在他的背上
+opening up and this is the second half
+of the parabola going up around his back
+
+298
+00:26:57,190 --> 00:27:02,230
+回来不在这里，所以这里是抛物线的后半部分
+back back not there here it is so here's
+the second half of the parabola up here
+
+299
+00:27:02,230 --> 00:27:07,180
+就像抛物线的后半部分在这里一样，您可以进入
+just like the second half of the
+parabola is here and you could go off in
+
+300
+00:27:07,180 --> 00:27:10,870
+另一个方向，所以从伽玛到L点再一次
+another direction so going from gamma
+out to the L point again you have a
+
+301
+00:27:10,870 --> 00:27:15,190
+抛物线，这是L方向的较大缝隙，这是第二个
+parabola and this is slightly bigger gap
+in the L direction and here's the second
+
+302
+00:27:15,190 --> 00:27:19,390
+抛物线的一半在这里还可以，所以基本上是自由电子模型，如果
+half of the parabola here okay so it's
+basically free electron model and if you
+
+303
+00:27:19,390 --> 00:27:24,190
+在波段底部向下测量曲率，您的伽玛等于零， 
+measure the curvature down at the bottom
+of the band your gamma equals zero you
+
+304
+00:27:24,190 --> 00:27:27,790
+基本上得到自由电子的质量，这不完全是
+get basically the mass of the free
+electron it's not exactly the mass of
+
+305
+00:27:27,790 --> 00:27:31,240
+自由电子，但它非常接近自由电子的质量
+the free electron but it's it's pretty
+close to the mass of the free electron
+
+306
+00:27:31,240 --> 00:27:34,960
+在30％或20％之内，所以它确实告诉您
+within 30 percent or 20 percent or
+something so so it really tells you that
+
+307
+00:27:34,960 --> 00:27:38,740
+底部附近发生了什么，基本上是自由平面波物理学
+what's going on near the bottom there is
+basically free plane wave physics just
+
+308
+00:27:38,740 --> 00:27:45,280
+ X点散射您的散射电位使它稍微受到干扰
+perturbed slightly by the scattering
+potential that the X point scatters you
+
+309
+00:27:45,280 --> 00:27:50,970
+跨越Brauns自己并打开了这个缺口
+across the Brauns own and opens up this
+gap is that clear so far all right so
+
+310
+00:27:50,970 --> 00:27:55,450
+大约六年前，我们的考试题目非常讨厌
+we're on the subject of really nasty
+exam questions about six years ago there
+
+311
+00:27:55,450 --> 00:27:58,870
+这是一个考试问题，没有一个学生能正确完成， 
+was an exam question about this that not
+a single student got right and the
+
+312
+00:27:58,870 --> 00:28:03,880
+考官在这方面让您知道了疯子，而您对这可怕的事情感到愤慨
+examiner went you know in berserk on
+that and you've ranted about the awful
+
+313
+00:28:03,880 --> 00:28:08,560
+学生等等，但是嗯，但是你知道这就是你所需要的
+students and so forth but uh but you
+know it's just you know that's required
+
+314
+00:28:08,560 --> 00:28:13,180
+他们要做的，但实际上问题实际上是非常困难的
+of them to do but it actually the
+question was actually quite difficult
+
+315
+00:28:13,180 --> 00:28:18,820
+而且我认为这是我要向您解释问题的根源
+and and I think it was I'm gonna explain
+to you what the question was about it's
+
+316
+00:28:18,820 --> 00:28:21,430
+如果您以前没看过的话，很难
+something that if you hadn't seen it
+before it would be very very hard to
+
+317
+00:28:21,430 --> 00:28:24,370
+弄清楚，但我想期望是你应该
+figure it out but I guess the
+expectation was you were supposed to be
+
+318
+00:28:24,370 --> 00:28:26,770
+教过它，我认为没有人教过，所以现在我要教它
+taught it and I don't think anyone
+taught it so now I'm going to teach it
+
+319
+00:28:26,770 --> 00:28:31,990
+所以如果它出现了，你们都会知道的，所以问题就在于
+so if it comes up you'll all know it so
+the the question was about it's
+
+320
+00:28:31,990 --> 00:28:35,200
+比较像这样的东西和像硅的东西，所以这是
+comparing something like this to
+something like silicon so this is
+
+321
+00:28:35,200 --> 00:28:39,730
+硅看起来完全像碳化硅，唯一的区别是
+silicon here it looks exactly like
+silicon carbide the only difference is
+
+322
+00:28:39,730 --> 00:28:43,120
+而不是四分之一一季度一季度的碳
+instead of carbon at one quarter one
+quarter one quarter you
+
+323
+00:28:43,120 --> 00:28:47,470
+将这些碳与另一个硅放在一起，所以全都是硅硅零零
+place those carbons with another silicon
+so it's all silicon silicon zero zero
+
+324
+00:28:47,470 --> 00:28:50,170
+每季度四分之一的硅含量为零，我们已经看到了这一点
+zero in silicon at one quarter one
+quarter one quarter we've seen this
+
+325
+00:28:50,170 --> 00:28:53,530
+之前的结构这也是与钻石相同的结构
+structure before too
+this is the same structure as diamond
+
+326
+00:28:53,530 --> 00:28:59,590
+硅和金刚石结构等同于相同的晶体结构
+silicon and diamond structure are
+equivalent same same crystal structure
+
+327
+00:28:59,590 --> 00:29:05,110
+实际上，如果您在这里查看K的两个两个能量本征能谱
+and actually if you look at the two two
+energy eigen energy spectra here of K
+
+328
+00:29:05,110 --> 00:29:08,470
+从底部到顶部，它们实际上是硅和硅
+across the bottom and energy up top
+they're actually silicon and silicon
+
+329
+00:29:08,470 --> 00:29:12,940
+碳化物，它们看起来几乎不错，我不会说完全相同，但非常相似
+carbide they look almost well I wouldn't
+say identical but extremely similar a
+
+330
+00:29:12,940 --> 00:29:17,590
+一个中的许多功能都存在于另一个中，所以您知道
+lot of the features in one are there in
+the other as well you know so for
+
+331
+00:29:17,590 --> 00:29:22,150
+例如，在这里您具有相同的抛物线，但您会注意到只有一种
+example here you have the same parabola
+but you'll notice there's one one sort
+
+332
+00:29:22,150 --> 00:29:26,679
+令人震惊的区别是，青铜器自身的边界处没有缝隙
+of shocking difference here that there's
+no gap at at the bronze own boundary
+
+333
+00:29:26,679 --> 00:29:32,110
+在这个X点，在这里X点，抛物线聚在一起，它们
+here at this X point the X points here
+the parabolas come together and they
+
+334
+00:29:32,110 --> 00:29:37,300
+他们不，他们根本不分裂，所以应该推论的是
+they don't they don't split at all and
+so what one is supposed to deduce is in
+
+335
+00:29:37,300 --> 00:29:40,600
+ X点根本没有积雪散布的事实
+fact that there's no snow back
+scattering at the X point at all for
+
+336
+00:29:40,600 --> 00:29:44,710
+硅中的某些原因您不会在X点处散射
+some reason in silicon you do not get
+scattering at the X point okay
+
+337
+00:29:44,710 --> 00:29:50,770
+所以现在我们要设法弄清楚为什么如此首先
+so it's so now we're gonna try to figure
+out why that is so first of all for the
+
+338
+00:29:50,770 --> 00:29:54,400
+巧克力棒，X点的散射从一侧的X点开始
+chocolate bar the scattering at the X
+point goes from an X point on one side
+
+339
+00:29:54,400 --> 00:29:57,670
+拥有的青铜器的另一侧拥有什么是米勒
+of the bronze own to the opposite side
+of the bronze own what are the Miller
+
+340
+00:29:57,670 --> 00:30:08,140
+与该倒易的晶格矢量相关的索引
+indices associated with that reciprocal
+lattice vector what not no one no this
+
+341
+00:30:08,140 --> 00:30:13,150
+真的很好零零一个是一个很好的猜测，但是不正确
+is really good zero zero one is a very
+good guess but it's not right does
+
+342
+00:30:13,150 --> 00:30:23,500
+任何人都想要另一个猜测，不，不，所以零零一个是正确的方向
+anyone want another guess no no no and
+so zero zero one is the right direction
+
+343
+00:30:23,500 --> 00:30:27,940
+或者实际上我想它在X方向上，或者如果您愿意的话，它在一个零零
+or actually I guess it's in in in the X
+direction or one zero zero if you prefer
+
+344
+00:30:27,940 --> 00:30:31,120
+如果您在X方向上进行操作，那将是指向
+if you're doing in the X direction it
+would be if that would point be pointing
+
+345
+00:30:31,120 --> 00:30:34,690
+在正确的方向上，因为X在KX方向上，而负X将是
+in the right direction because X is in
+the K X direction and minus X would be
+
+346
+00:30:34,690 --> 00:30:38,740
+在相反的KX方向上，所以在1 0 0方向上
+in the opposite KX direction so be in
+the 1 0 0 direction that you're
+
+347
+00:30:38,740 --> 00:30:44,260
+散射或0 0 1（如果您采用其他方法），那么这是正确的
+scattering or the 0 0 1 if you're going
+the other way so that's the right
+
+348
+00:30:44,260 --> 00:30:50,200
+方向，但不是1 0 0，而不是1 0 0，是因为1 0 0 
+direction but it's not 1 0 0 and the
+reason it's not 1 0 0 is because 1 0 0
+
+349
+00:30:50,200 --> 00:30:54,310
+不是FCC晶格的倒数晶格矢量，您会记得回到
+is not a reciprocal lattice vector for
+FCC lattice and you'll remember back to
+
+350
+00:30:54,310 --> 00:30:56,820
+这幅画在这里，他们记得那个
+this picture here they remember that
+ones
+
+351
+00:30:56,820 --> 00:31:00,330
+如果您定义零，则是简单立方晶格的倒数晶格
+zero is a reciprocal lattice for the
+simple cubic lattice if you define the
+
+352
+00:31:00,330 --> 00:31:05,279
+一零零米勒指数的飞机，你会在这里得到这些飞机，但FCC 
+planes by the one zero zero Miller index
+you get these planes here but the FCC
+
+353
+00:31:05,279 --> 00:31:08,909
+格在中间有一些额外的格点，所以一个零零是
+lattice has some additional lattice
+points in the middle so one zero zero is
+
+354
+00:31:08,909 --> 00:31:12,480
+没有得到所有的最后点，因此它不是倒数晶格
+does not get all the last points
+therefore it is not a reciprocal lattice
+
+355
+00:31:12,480 --> 00:31:16,980
+ FCC晶格的矢量2零零是最小的倒易晶格
+vector for the FCC lattice two zero zero
+is the smallest reciprocal lattice
+
+356
+00:31:16,980 --> 00:31:21,720
+向量在那个方向上，所以这里是从X 2减去X的散射，我什至
+vector in that direction so here is
+scattering from X 2 minus X I'll even
+
+357
+00:31:21,720 --> 00:31:31,500
+写下来，对于硅阱，X 2减去X散射为2 0 0 
+write that down so X 2 minus X
+scattering is 2 0 0 for silicon well
+
+358
+00:31:31,500 --> 00:31:36,570
+实际上对于任何CC晶格X 2减去X都是2 0 0好的，所以我们得到了
+actually for anything CC lattice X 2
+minus X is 2 0 0 ok so we've gotten that
+
+359
+00:31:36,570 --> 00:31:43,320
+到目前为止，问题是为什么为什么在2 0 0处没有散射
+far now the question is why is it that
+we don't get any scattering at 2 0 0
+
+360
+00:31:43,320 --> 00:31:48,080
+ Miller指数有没有人想过我还剩下这些呢？ 
+Miller index does anyone want to guess
+of that I have one more of these left
+
+361
+00:31:49,039 --> 00:31:58,529
+好吧，我听不见谁是Matt的，是的， 
+well is it
+I can't hear who the the Matt's yeah and
+
+362
+00:31:58,529 --> 00:32:02,750
+虽然它们都是硅，是的，所以那不是对你没有帮助
+while they both silicon's so yeah so so
+that doesn't that doesn't do it for you
+
+363
+00:32:02,750 --> 00:32:16,620
+其他任何FCC晶格都是具有基础的FCC晶格，所以我不会
+any other it is FCC lattice is an FCC
+lattice with a basis so I'm not gonna
+
+364
+00:32:16,620 --> 00:32:19,379
+为此给你，但它已经接近那个，所以也许我会给你
+give you give it to you for that but
+it's close to that so maybe I'd give you
+
+365
+00:32:19,379 --> 00:32:24,240
+它的一半，但我不知道该怎么做，所以它不是纯粹的，不只是
+a half of this but I don't know how to
+do it so so it's not pure it's not just
+
+366
+00:32:24,240 --> 00:32:27,720
+ FCC晶格，这就是必须跟踪
+an FCC lattice and that's the point that
+it's you have to keep track of the
+
+367
+00:32:27,720 --> 00:32:31,200
+在基础中找出是否有散射，所以让我们考虑
+lattice in the basis to find out if
+there's there scattering so let's think
+
+368
+00:32:31,200 --> 00:32:36,720
+回到我的意思是FCC晶格，但如果硅是
+back to I mean is an FCC lattice but it
+allows the silicon if the silicon is a
+
+369
+00:32:36,720 --> 00:32:41,159
+基于八次的点阵加法，所以如果我们考虑我们学到的东西
+lattice plus of eight times a basis so
+if we think about what we learned about
+
+370
+00:32:41,159 --> 00:32:48,149
+来自x射线散射的散射记住s是s晶格乘以s 
+scattering from from x-ray scattering
+remember that s is s lattice times s
+
+371
+00:32:48,149 --> 00:32:54,750
+基本权，S是给您散射权的幅度，如果我们
+basis right and the S is what gives you
+the amplitude of scattering right if we
+
+372
+00:32:54,750 --> 00:32:57,870
+方屁股，您得到的散射幅度适用于X射线，它
+square ass you get the amplitude of
+scattering this worked for x-rays and it
+
+373
+00:32:57,870 --> 00:33:02,399
+也会对电子起作用，因此强制选择规则的晶格
+will work for electrons as well so s
+lattice that enforces selection rules
+
+374
+00:33:02,399 --> 00:33:06,470
+执行选择规则
+enforce selection rules
+
+375
+00:33:08,130 --> 00:33:14,500
+并且0-0实际上满足了FCC晶格的选择规则
+and to 0-0 actually satisfies the
+selection rule for an FCC lattice all
+
+376
+00:33:14,500 --> 00:33:19,299
+对于FCC来说，偶数都是奇数，两个零零都是偶数，所以我们可以接受
+even are all odd for FCC two zero zero
+is all even so we're okay with that so
+
+377
+00:33:19,299 --> 00:33:24,760
+那不会消失，但是让我们看一下基础
+that's not gonna that's not gonna vanish
+but let's look at s basis that's basis
+
+378
+00:33:24,760 --> 00:33:35,230
+您会记得是e的单位格中的Adams alpha与F sub alpha的总和。 
+you'll recall is sum over Adams alpha in
+unit cell of e to the F sub alpha the
+
+379
+00:33:35,230 --> 00:33:44,350
+形状因子e到i gr alpha，如果我们对硅这样做，它将得到F 
+form factor e to the i gr alpha and if
+we do this for silicon will get F
+
+380
+00:33:44,350 --> 00:33:49,330
+硅，然后在零零零处将为1，然后我们将
+silicon and then it'll be one for the
+point at zero zero zero and then we'll
+
+381
+00:33:49,330 --> 00:33:54,520
+将e设为2 pi，然后将散射的米勒指数设为零零
+get e to the 2 pi and then the Miller
+indices of the scattering to zero zero
+
+382
+00:33:54,520 --> 00:34:02,020
+乘以晶格点的位置四分之一，四分之一，四分之一
+times the position of the lattice point
+one quarter one quarter one quarter like
+
+383
+00:34:02,020 --> 00:34:06,929
+从我们的X射线散射历险中看起来很熟悉吗
+that does this look familiar from our
+x-ray scattering adventures yeah ok so
+
+384
+00:34:06,929 --> 00:34:15,879
+您会注意到这里的东西实际上是负1，所以s为零
+you'll notice that this thing here is
+actually minus 1 so s basis is zero so
+
+385
+00:34:15,879 --> 00:34:21,940
+在硅上没有2 0 0方向的反向散射，因为有
+there's no back scattering in silicon in
+the 2 0 0 direction because there's you
+
+386
+00:34:21,940 --> 00:34:26,350
+知道我会给我的，我还是会给你的，因为哎呀，因为我不想
+know I'll give it I'll give this to you
+anyway because oops because I don't want
+
+387
+00:34:26,350 --> 00:34:31,449
+自己保留它，因为我会吃它，而且我的体重一直在增加，所以还可以
+to keep it myself because I'll eat it
+and I've been gaining weight so ok so so
+
+388
+00:34:31,449 --> 00:34:35,529
+这样您就不会在2 0 0中返回散射，但是通过
+
+389
+00:34:35,530 --> 00:34:39,730
+或0，因为这是告诉您的是
+the or 0 because there's it's a what
+this is telling you is that there's
+
+390
+00:34:39,730 --> 00:34:44,918
+两种硅的散射之间的确切破坏性干涉
+exact destructive interference between
+the scattering of the two silicon's in
+
+391
+00:34:44,918 --> 00:34:48,489
+它们都会散布的晶胞，但随后您将遭受破坏
+the unit cell they'll both scatter but
+then you get exact destructive
+
+392
+00:34:48,489 --> 00:34:52,178
+受它们的干扰，因此实际上，在
+
+393
+00:34:52,179 --> 00:34:57,730
+天，这个物理原理实际上是您知道它在X射线中弯曲
+day and this this physics is actually
+it's you know it curves for x-rays in
+
+394
+00:34:57,730 --> 00:35:02,320
+硅在2 0 0方向上没有硅的X射线散射
+silicon there's no scattering of x-rays
+for silicon in the 2 0 0 direction it
+
+395
+00:35:02,320 --> 00:35:06,010
+电子的曲线没有电子X点的反向散射
+curves for electrons there's no back
+scattering of the X point for electrons
+
+396
+00:35:06,010 --> 00:35:10,270
+在硅中，声子也会发生。让我们看一下这是
+in silicon it also occurs for phonons
+let's see here's the phonon spectrum for
+
+397
+00:35:10,270 --> 00:35:13,840
+硅，看起来很像钻石的声子光谱，但不是
+silicon this looks a whole lot like the
+phonon spectrum for diamond but not
+
+398
+00:35:13,840 --> 00:35:19,180
+巧合的是，因为它是相同的晶体结构，所以这里是硅
+coincidentally because it's the same
+crystal structure so here's the silicon
+
+399
+00:35:19,180 --> 00:35:22,510
+来自它的声子，所以我们去了
+phonons
+from it has so we went we had this uh
+
+400
+00:35:22,510 --> 00:35:28,930
+以前每个K向量有六个声子，因为每个K矢量
+previously there's six phonons at every
+K vector because there are two atoms per
+
+401
+00:35:28,930 --> 00:35:32,050
+基本单位单元，每个单元都向三个方向移动，所以有六个
+primitive unit cell and each one moves
+in three directions so there's six
+
+402
+00:35:32,050 --> 00:35:36,520
+光子一二三四五六六
+photons one two three four five six and
+A three of them are acoustic coming down
+
+403
+00:35:36,520 --> 00:35:40,690
+现在，您会注意到，如果您在此处的X点处查看此点
+here now you'll notice if you look at
+this point here at the X point in this
+
+404
+00:35:40,690 --> 00:35:45,460
+图片碳化硅有一个缝隙在此图片中没有缝隙
+picture silicon carbide a gap has opened
+up in this picture a gap has not opened
+
+405
+00:35:45,460 --> 00:35:49,330
+甚至来自声子波
+up and it's coming from essentially the
+same physics even with phonon waves that
+
+406
+00:35:49,330 --> 00:35:52,420
+在两个零零方向上没有反向散射，因此您不会
+in the two zero zero direction there's
+not back scattering therefore you don't
+
+407
+00:35:52,420 --> 00:35:55,690
+有一个缝隙的开口，而在碳化硅II中则没有
+have an opening of a gap whereas in
+silicon carbide II you don't have
+
+408
+00:35:55,690 --> 00:35:59,500
+完美的取消，因为这个词将有F硅这个词会
+perfect cancellation because this term
+would have F silicon this term would
+
+409
+00:35:59,500 --> 00:36:03,099
+碳彼此不相等的碳，所以你仍然会回来
+have F carbon those don't equal each
+other so you would still have back
+
+410
+00:36:03,099 --> 00:36:07,420
+分散，您在Barone自己的边界上会留出空隙，好吧，我
+scattering and you have a gap opening up
+at the Barone's own boundary okay so I
+
+411
+00:36:07,420 --> 00:36:12,040
+意识到这是一个您知道有点复杂的问题，但是
+realized this is this is a you know a
+little bit complicated but it was on an
+
+412
+00:36:12,040 --> 00:36:17,980
+考试，希望您知道如果再次参加考试，人们将能够
+exam and hopefully you know if it comes
+up on an exam again people will be able
+
+413
+00:36:17,980 --> 00:36:20,920
+使它正确，但我确实承认，如果您之前从未见过
+to get it right but but I do admit that
+if you've never seen that before
+
+414
+00:36:20,920 --> 00:36:26,680
+这很难弄清楚，所以好吧
+it's something that's pretty hard to
+figure out so all right so having
+
+415
+00:36:26,680 --> 00:36:29,200
+基本讨论了我们需要了解的几乎所有免费内容
+basically discussed everything that we
+need to know about the nearly free
+
+416
+00:36:29,200 --> 00:36:35,410
+电子模型，我们现在可以继续讨论带理论带
+electron model we can now move on to
+talking about generally band theory band
+
+417
+00:36:35,410 --> 00:36:42,520
+电子的结构带理论，所以这些复杂的图片在这里
+structure band theory of electrons so
+these complicated pictures here they're
+
+418
+00:36:42,520 --> 00:36:45,730
+碳化硅再次具有其所有本征的复杂图景
+silicon carbide again with it's
+complicated picture of all its eigen
+
+419
+00:36:45,730 --> 00:36:52,030
+停留在每一个K中，所以让我们开始谈论UH 
+stays in every every K so let's um we
+started talking about about the UH
+
+420
+00:36:52,030 --> 00:36:55,750
+理论，当我们谈论紧密绑定模型时，也许我们来画一幅画
+theory when we talked about the tight
+binding model maybe let's draw a picture
+
+421
+00:36:55,750 --> 00:36:58,810
+一些乐队在这里，所以这里是能量
+of some bands like over here so here is
+energy
+
+422
+00:36:58,810 --> 00:37:03,640
+这是这个方向上的K，所以我会自己画青铜
+here's K in this direction so I'll draw
+the bronze own there's a bronze own from
+
+423
+00:37:03,640 --> 00:37:08,589
+减去两个PI上的PI，然后您可能会有一些像
+minus PI over a two PI over a and then
+you might have some band that look like
+
+424
+00:37:08,589 --> 00:37:11,530
+然后是一个更高的波段，看起来像这样，也许还有更高的波段
+this and then a higher band that looks
+like this and maybe some higher bands up
+
+425
+00:37:11,530 --> 00:37:16,810
+现在在这里，还有我们提到的一些事情
+here as well
+now some things that we mentioned when
+
+426
+00:37:16,810 --> 00:37:21,490
+我们讨论的紧密绑定模型是，如果您有一个填充带
+we talked about the tight binding model
+is that if you have a filled band filled
+
+427
+00:37:21,490 --> 00:37:29,500
+带和间隙加上间隙，您得到的绝缘子等于绝缘子重复
+band and a gap plus gap you have an
+insulator equals insulator repeating
+
+428
+00:37:29,500 --> 00:37:33,530
+这是因为它非常重要，所以如果我们填充乐队，我们会说
+this because it's fairly important so if
+we fill a band we fill say
+
+429
+00:37:33,530 --> 00:37:40,160
+这个带和下一个带的间隙，我们有一个绝缘体，原因是
+this band and a gap to the next band we
+have an insulator and the reason this is
+
+430
+00:37:40,160 --> 00:37:43,850
+绝缘子是因为基本上没有放置位置的自由
+an insulator is because there's
+basically no freedom of where to put
+
+431
+00:37:43,850 --> 00:37:47,840
+您的电子，除非您克服了下一个能带之间的间隙
+your electrons unless you overcome the
+gap to the next to the next band which
+
+432
+00:37:47,840 --> 00:37:51,260
+上升到下一个频段可能需要很多能量
+could be a lot of a lot of energy
+required to get up to the next band you
+
+433
+00:37:51,260 --> 00:37:54,820
+根本无法重新排列电子，它们无法吸收任何无法吸收的热量
+can't rearrange the electrons at all
+they can't absorb any heat they can't
+
+434
+00:37:54,820 --> 00:37:58,700
+进行更改，他们无法更改其动量，因为所有动量状态
+run change they can't change their
+momentum because all the momentum states
+
+435
+00:37:58,700 --> 00:38:02,270
+已经充满了，所以基本上基本上是惰性的，所以我写
+are already filled so it's basically
+just completely inert so I'll write that
+
+436
+00:38:02,270 --> 00:38:06,800
+向下是惰性的，如果您有两个频段又被完全填充
+down it's inert and if you have two
+bands that are completely filled again
+
+437
+00:38:06,800 --> 00:38:12,080
+您将在下一个频段使用一个应用程序，它也将成为绝缘体
+you'll have an app to the next band it
+will also be an insulator a little bit
+
+438
+00:38:12,080 --> 00:38:18,260
+ Naumann clay Chur有用的是填充最高的乐队
+of Naumann clay Chur which is useful is
+the highest filled band highest filled
+
+439
+00:38:18,260 --> 00:38:30,200
+带通常被称为价带价带，所以在这里这将是一个
+band is usually called the valence band
+valence band so here this would be a
+
+440
+00:38:30,200 --> 00:38:45,200
+价带和最低空下最低空人称为
+valence band and the lowest empty down
+lowest empty man is known as the
+
+441
+00:38:45,200 --> 00:38:54,140
+导带对于摇滚乐队来说也是个好名字
+conduction band which would also be a
+really good name for a rock group so if
+
+442
+00:38:54,140 --> 00:39:03,050
+任何人都可以组成一个摇滚乐队，我建议一个命名的乐队
+anyone makes a rock group I'm suggesting
+a named conduction band okay
+
+443
+00:39:03,050 --> 00:39:12,500
+所以另一个重要的陈述是，绝缘体的间隙很小
+so another important statement that
+insulator with small gap with a small
+
+444
+00:39:12,500 --> 00:39:19,520
+间隙间隙被称为半导体，此处的间隙小于4 
+gap gap is known as a semi conductor and
+small here is sort of less than about 4
+
+445
+00:39:19,520 --> 00:39:25,660
+电子伏特等于它被称为半导体
+electron volts equals this is known as a
+semi conductor
+
+446
+00:39:28,040 --> 00:39:32,850
+而这种命名的原因是，如果间隙足够小
+and the reason for this nomenclature is
+that if the gap is sufficiently small
+
+447
+00:39:32,850 --> 00:39:37,200
+那么在零温度下这仍然是一个非常好的绝缘体，但是在
+then at zero temperature this would
+still be a really good insulator but at
+
+448
+00:39:37,200 --> 00:39:42,060
+如果间隙小于约四个电子伏特，则为室温300开尔文
+room temperature 300 Kelvin if the gap
+is less than about four electron volts
+
+449
+00:39:42,060 --> 00:39:46,470
+那么一些电子仍然可以从填充的电子中获得热激发
+then a few electrons will still be able
+to get thermally excited from the filled
+
+450
+00:39:46,470 --> 00:39:49,800
+带进入空带，所以您将有几个电子自由运行
+band into the empty band so you'll have
+a couple electrons running around free
+
+451
+00:39:49,800 --> 00:39:54,990
+只是热占据了导带，它们将携带一定量的
+just thermally occupying the conduction
+band and they will carry some amount of
+
+452
+00:39:54,990 --> 00:39:58,080
+当前你会得到一些电子在这里跑来跑去
+current that you'll you'll get a couple
+of electrons running around up here and
+
+453
+00:39:58,080 --> 00:40:02,400
+这将使他们能够携带少量的电流
+that will allow them to carry some small
+amount of current some small amount of
+
+454
+00:40:02,400 --> 00:40:07,440
+导电性，所以它是一种半导体，导电性很差，但是
+conductivity so it's a semi conductor
+conduct sort of semi conducts poorly but
+
+455
+00:40:07,440 --> 00:40:12,240
+它的行为类似，可以吸收少量热量，但不会吸收大量热量
+it conducts similarly it can absorb a
+small amounts of heat but not a lot of
+
+456
+00:40:12,240 --> 00:40:16,860
+因为只有极少数的电子可以重新排列，所以这很有意义
+heat because only a very few electrons
+can be rearranged okay that makes sense
+
+457
+00:40:16,860 --> 00:40:25,140
+是的，所以实际上这张碳化硅图片
+yeah okay so actually so this picture of
+silicon carbide silicon carbide these
+
+458
+00:40:25,140 --> 00:40:30,000
+这里所有的谱带都充满了费米能量，或者化学势位于
+bands here all filled the Fermi energy
+or the chemical potential lies in the
+
+459
+00:40:30,000 --> 00:40:34,380
+间隙的中间，所以您可以说它是绝缘体或半导体， 
+middle of this gap so you would say that
+it's an insulator or semiconductor and
+
+460
+00:40:34,380 --> 00:40:37,890
+如果您看一下这点之间的能量差，最低
+if you sort of look at the difference in
+energy between this point the lowest
+
+461
+00:40:37,890 --> 00:40:41,520
+导带的点，这里是最高带
+point of the conduction band and this
+point here which is the highest band
+
+462
+00:40:41,520 --> 00:40:45,480
+指向价带，它小于40 V，所以我们说
+point to the valence band
+it's a little less than 40 V so we say
+
+463
+00:40:45,480 --> 00:40:51,330
+碳化硅是一种半导体，好吧，我们还提到了其他一些东西
+silicon carbide is a semiconductor okay
+there's something else that we mentioned
+
+464
+00:40:51,330 --> 00:40:58,140
+当我们谈论紧密结合模型时，电子在计数
+when we talked about tight binding model
+is that counting electrons is counting
+
+465
+00:40:58,140 --> 00:41:02,070
+电子和状态对于弄清楚是否存在
+electrons and States is rather important
+to figuring out if you have a filled
+
+466
+00:41:02,070 --> 00:41:11,850
+波段或不波段，如果您的系统中有n个单位单元，则您有n个K状态K 
+band or not if you have n unit cells in
+your system then you have n K States K
+
+467
+00:41:11,850 --> 00:41:22,040
+状态，但此时您有两个自旋状态，每K自旋状态就可以了， 
+States but then you have times two spin
+States spin States per K okay means that
+
+468
+00:41:22,040 --> 00:41:32,520
+两个n电子将填充一个能带，将填充能带，得到2 n个电子
+two n electrons will fill a band will
+fill band and this to get 2 n electrons
+
+469
+00:41:32,520 --> 00:41:37,790
+每个晶胞需要两个电子
+you need two electrons per unit cell
+
+470
+00:41:37,849 --> 00:41:44,670
+因此，您期望如果您有任何偶数个偶数个电子
+so that you expect that if you have any
+any even number even number of electrons
+
+471
+00:41:44,670 --> 00:41:53,400
+每晶胞本身的电子数，您会期望
+per unit cell number of electrons per
+unit cell itself you would expect that
+
+472
+00:41:53,400 --> 00:42:06,210
+您可以填充可以填充整数的带数整数带的数，所以让我们
+you can fill can fill integer number of
+bands integer number of bands so let's
+
+473
+00:42:06,210 --> 00:42:11,910
+以碳化硅为例，所以碳化硅
+take the case of silicon carbide for
+example so silicon carbide silicon
+
+474
+00:42:11,910 --> 00:42:21,690
+碳化物，所以碳化硅的化合价都是四价
+carbide so silicon carbide both valence
+four so silicon and carbon both valence
+
+475
+00:42:21,690 --> 00:42:31,200
+形成两个化合价等于四，这意味着我们应该算
+form both valence for valence equals
+four which means we should count for
+
+476
+00:42:31,200 --> 00:42:36,059
+如果每个电子都可以，那么为什么我要
+electrons for each of them okay if you
+wanted to count all of the so why am I
+
+477
+00:42:36,059 --> 00:42:39,869
+只计四个而不是全部电子，原因是
+only counting four instead of all of
+their electrons the reason is because
+
+478
+00:42:39,869 --> 00:42:43,710
+这只是我们实际上通常只计算最外层外壳中的电子
+it's only we really generally only count
+the electrons in the farthest out shell
+
+479
+00:42:43,710 --> 00:42:47,670
+因为任何更远的贝壳都是完全惰性的，它们只是称重而已
+because any of the farther in shells are
+completely inert they just weigh buried
+
+480
+00:42:47,670 --> 00:42:53,490
+能量要低得多，但是如果您想算一下，它们的弹壳就是
+had much much lower energies but if you
+wanted to count they're filled shells as
+
+481
+00:42:53,490 --> 00:42:58,410
+好吧，您会发现它们充满了弹壳，所以也是如此
+well you would discover that they're
+filled shells are all even as well so so
+
+482
+00:42:58,410 --> 00:43:02,609
+对于硅和碳，我们仍然会有偶数个电子
+we would still have an even number of
+electrons both for silicon and carbon so
+
+483
+00:43:02,609 --> 00:43:08,369
+图中的原始晶胞这里的乳脂晶胞有四个
+the primitive unit cell here cream unit
+cell in this picture it has four
+
+484
+00:43:08,369 --> 00:43:15,569
+电子四对八电子共一硅原子一碳
+electrons four sorry eight electrons
+total total one silicon atom one carbon
+
+485
+00:43:15,569 --> 00:43:24,170
+每个载有四个电子的原子，所以我们应该填充四个能带I 
+atom each carrying four electrons so we
+should fill four bands four bands I
+
+486
+00:43:24,170 --> 00:43:30,000
+想想我在一周左右或更早之前就钻石问了同样的问题
+think I asked the same question about
+diamond about a week ago or more and in
+
+487
+00:43:30,000 --> 00:43:32,760
+事实上，如果您计算的是费米能量以下的波段数
+fact if you count the number of bands
+here which are below the Fermi energy
+
+488
+00:43:32,760 --> 00:43:37,319
+一共有四一二三四，他们都满了，我们确实有
+there are four of them one two three
+four and they're all filled we do have
+
+489
+00:43:37,319 --> 00:43:40,980
+这里有些混乱，如果您在这里数，它看起来像
+this little bit of a confusion here that
+if you count here it would look like
+
+490
+00:43:40,980 --> 00:43:44,849
+只有三个，但是如果仔细看，您会注意到这两个向量
+there's only three but if you look more
+carefully you'll notice this vectors two
+
+491
+00:43:44,849 --> 00:43:47,700
+这里的乐队聚集在一起并具有相同的能量，所以这个实际上是
+bands here which come together and have
+the same energy so this one is actually
+
+492
+00:43:47,700 --> 00:43:49,720
+刚好有两个乐队
+two bands it just happened to have the
+same
+
+493
+00:43:49,720 --> 00:43:52,660
+在这里他们有不同的能量，所以你可以算出实际上有四个
+here they have different energies so you
+can count that there's actually four of
+
+494
+00:43:52,660 --> 00:43:56,320
+他们，所以在碳化硅中所有这四个带被填充，所有这些
+them so in silicon carbide all these
+four bands are filled and all these
+
+495
+00:43:56,320 --> 00:44:04,270
+这里的乐队是空的好好是是好好好现在在
+bands up here are empty good good yes
+yes okay good all right now in in
+
+496
+00:44:04,270 --> 00:44:16,630
+相比之下，我们的金属有部分填充带，部分填充带几乎
+contrast we have metals have part filled
+bands part filled bands which is almost
+
+497
+00:44:16,630 --> 00:44:22,150
+永远都是正确的，我可能会写得大多是真实的
+always true
+mostly I may write mostly true either
+
+498
+00:44:22,150 --> 00:44:26,050
+今天或下一次，我们将讨论为什么大多数情况下都是正确的。 
+today or next time we'll discuss about
+why it's only mostly true mostly true
+
+499
+00:44:26,050 --> 00:44:34,960
+对于奇数个电子，为奇数个，每晶胞为
+for odd for odd number of electrons odd
+number electrons per unit cell for
+
+500
+00:44:34,960 --> 00:44:40,860
+例如，如果我们有这样的照片，那么这是青铜器，这是乐队
+example if we had a picture like this so
+here's the bronze own here's a band
+
+501
+00:44:40,860 --> 00:44:44,890
+这是一个带，假设每个单位电池有一个电子
+here's a band suppose we have one
+electron per unit cell if that would be
+
+502
+00:44:44,890 --> 00:44:50,020
+足以填满最低频段的一半，所以我们充满了一颗心
+enough to half fill the lowest band and
+so we have a heart filled down this is
+
+503
+00:44:50,020 --> 00:44:56,350
+每个单位电池部分填充一个电子，这里我们将其称为
+one electron per unit cell part filled
+band here and we would call this thing a
+
+504
+00:44:56,350 --> 00:45:00,400
+金属，因为带子只有部分填充，所以我们可以降低能量
+metal because since the band is only
+part filled we can make low energy
+
+505
+00:45:00,400 --> 00:45:04,060
+通过从填充点到未填充点带走电子来激发
+excitations by taking electron from the
+filled point to the unfilled point
+
+506
+00:45:04,060 --> 00:45:09,340
+任意低的能量我们也可以改变这些充满的动力
+arbitrarily low energy we can also
+change the momentum of these filled
+
+507
+00:45:09,340 --> 00:45:12,640
+通过仅从此处获取一些电子并移动它们来实现状态
+States by just taking some of the
+electrons from over here and moving them
+
+508
+00:45:12,640 --> 00:45:17,260
+以非常低的能源成本在这里转移整个
+over here at very low energy costs are
+just slightly shifting the entire the
+
+509
+00:45:17,260 --> 00:45:20,830
+整个图片稍微向右移动以填充更多状态
+entire picture slightly shifting it to
+the right to fill a couple more states
+
+510
+00:45:20,830 --> 00:45:24,640
+在这里，这里的州少一些，因为您正在更改
+over here and a few less fewer States
+over here and since you're changing the
+
+511
+00:45:24,640 --> 00:45:28,240
+在这种情况下，您实际上是在增加电流，因此通过改变
+momentum you're actually adding current
+in that case so by changing momentum of
+
+512
+00:45:28,240 --> 00:45:31,810
+所有这些电子实际上已经改变了总电流
+all these electrons you've actually
+changed the total electrical current in
+
+513
+00:45:31,810 --> 00:45:36,030
+该系统，因此由于它可以承载电流，我们称其为金属
+that system and so since it can carry
+current we call it a metal
+
+514
+00:45:36,030 --> 00:45:45,130
+但是金属也可能发生金属也以偶数发生
+however metals can also occur metals
+also occur also occur with even number
+
+515
+00:45:45,130 --> 00:45:53,830
+每个单元电池的电子数量是偶数
+with even number of electrons per unit
+cell also something I mentioned a couple
+
+516
+00:45:53,830 --> 00:45:57,760
+几周前，当我们讨论紧密绑定模型时，发生的方式是
+weeks ago when we discussed tight
+binding model the way that happens is
+
+517
+00:45:57,760 --> 00:46:01,120
+如果您的最低乐队看起来像这样，这是您的青铜乐队
+here's your bronze own if you have a
+lowest band that looks kind of like this
+
+518
+00:46:01,120 --> 00:46:04,420
+然后你有一个更高的频段像这样下降
+and then you have a higher band that
+dips down like this
+
+519
+00:46:04,420 --> 00:46:10,090
+你和你曾经说过，每个晶胞有两个电子就足够了
+you and you had say two electrons per
+unit cell that would be just enough
+
+520
+00:46:10,090 --> 00:46:14,890
+电子填充一个带，但你我的意思是你可以选择填充一个
+electrons to fill one band but you I
+mean you could choose to fill this
+
+521
+00:46:14,890 --> 00:46:18,310
+整个频段，如果您想要整个最低频段，那将是
+entire band if you wanted to this entire
+lowest band but that would be
+
+522
+00:46:18,310 --> 00:46:22,750
+与部分填充两个频段相比，在能量上不利
+energetically unfavorable compared to
+partially filling both of the bands so
+
+523
+00:46:22,750 --> 00:46:27,940
+相反，最好是部分填充并部分填充而不是
+instead it's better to partially fill
+this and partially fill this instead of
+
+524
+00:46:27,940 --> 00:46:33,190
+在较低的频带中填充这些较高的能量状态确实有意义
+filling these higher energy states in in
+this lower band does that make sense yes
+
+525
+00:46:33,190 --> 00:46:38,980
+是的，好的，所以在这种情况下，频段重叠，如果频段重叠
+yes okay good so so in this case it
+bands overlap I'll write this if bands
+
+526
+00:46:38,980 --> 00:46:47,530
+重叠重叠，看起来有点像，当我画画时您知道不自然
+overlap overlap and it looks on it looks
+a little you know unnatural when I draw
+
+527
+00:46:47,530 --> 00:46:51,670
+这样，但是如果您回头看一下碳化硅带
+it this way but if you would look back
+to the to the silicon carbide band
+
+528
+00:46:51,670 --> 00:46:55,869
+在这里的结构，您当然可以想象到您的脑袋
+structure here you could certainly
+imagine your head that this minimum just
+
+529
+00:46:55,869 --> 00:47:00,070
+进一步下降一点，这个最大值上升了一点
+dipped down a little bit further and
+this maximum came up just a little bit
+
+530
+00:47:00,070 --> 00:47:04,330
+更进一步，如果那是真的，那么这个最小值就低于这个费米
+further and if that were true so that
+this minimum went below this Fermi
+
+531
+00:47:04,330 --> 00:47:08,170
+能量，它超过了费米能量，然后是一些电子
+energy and this went above the Fermi
+energy then some of the electrons that
+
+532
+00:47:08,170 --> 00:47:12,369
+以前在这个乐队中被填补，然后进入这个乐队
+was previously in this band that was
+filled would then go into this band
+
+533
+00:47:12,369 --> 00:47:18,430
+它是空的，可以降低能量，所以一件事，我们真的
+which was empty to lower the energy okay
+so one thing that we that's really
+
+534
+00:47:18,430 --> 00:47:22,750
+跟踪频段之间的差距有多重要，因此如果
+important to keep track of is how big
+are the gaps between bands so if the
+
+535
+00:47:22,750 --> 00:47:25,869
+乐队之间的差距真的很大，那么您将不会有这个
+gaps between the bands are really huge
+then you're not going to have this
+
+536
+00:47:25,869 --> 00:47:30,700
+曾经发生过这种情况，您知道波段之间的距离足够远
+situation ever occur you know that the
+bands are sufficiently far apart then
+
+537
+00:47:30,700 --> 00:47:37,030
+他们不会重叠，所以我们的差距有多大我们的差距有多大
+they're not going to overlap so how big
+our gaps how big our gaps big our gaps
+
+538
+00:47:37,030 --> 00:47:42,660
+乐队之间的差距
+between bands gaps between bands
+
+539
+00:47:46,800 --> 00:47:53,080
+问题很好，我们用不同的方式来描述我们如何理解乐队
+question well we had different ways of
+describing how we understand the band
+
+540
+00:47:53,080 --> 00:47:57,550
+结构描述它的一种方式是从紧密结合中的紧密结合
+structure one way of describing it was
+from tight binding in the tight binding
+
+541
+00:47:57,550 --> 00:48:04,510
+我们称它为一个带每个带每个带来自一个原子轨道的图片
+picture we called it a band each band
+each band comes from an atomic orbital
+
+542
+00:48:04,510 --> 00:48:16,859
+来自能量为e的原子轨道原子轨道
+is from an atomic orbital
+atomicorbital with energy of energy e
+
+543
+00:48:16,859 --> 00:48:32,430
+能量称为子I，带宽是从跳变到弹出
+with energy it's called a sub I and the
+bandwidth is from hopping from popping a
+
+544
+00:48:36,779 --> 00:48:42,430
+ PT，因此如果原始原子轨道彼此之间的间隔很好
+PT so if the original atomic orbitals
+are very well spaced apart from each
+
+545
+00:48:42,430 --> 00:48:45,819
+其他，跳动很小，那么乐队没有机会重叠
+other and the hopping is small then the
+bands don't have a chance to overlap
+
+546
+00:48:45,819 --> 00:48:49,359
+因为最初彼此之间的距离很远，所以跳动是
+because initially start very far apart
+from each other and the hopping is what
+
+547
+00:48:49,359 --> 00:48:53,529
+将频带从单一能量扩展到频带，因此如果跳跃是
+spreads the band out from a single
+energy into a band so if the hopping is
+
+548
+00:48:53,529 --> 00:48:56,980
+小，能量间隔大，那么谱带不会重叠，所以
+small and the energy spacing is large
+then the bands won't overlap so that's
+
+549
+00:48:56,980 --> 00:49:02,170
+一种理解它的方式，这是理解它为何的一种自然方式
+one way of understanding it that's sort
+of a natural way to understand why it is
+
+550
+00:49:02,170 --> 00:49:06,160
+当它们形成晶体时，有一种稀有气体
+that there's something like noble gases
+when they form crystals there are
+
+551
+00:49:06,160 --> 00:49:10,690
+绝缘子，因为稀有气体之间的跳变基本上为零，所以这些
+insulators because the hopping between
+noble gases is essentially zero so these
+
+552
+00:49:10,690 --> 00:49:15,970
+原子轨道之间的间隔很小，但两者之间的跳跃传播
+atomic orbitals they're spaced a little
+bit but the hopping between that spreads
+
+553
+00:49:15,970 --> 00:49:20,200
+将这些轨道带入带区可以忽略不计，因此它们不会形成很宽的范围
+out these orbitals into bands is
+negligible so they don't form very wide
+
+554
+00:49:20,200 --> 00:49:26,230
+乐队，所以乐队永远不会重叠，所以这是理解它的一种方式
+bands and so the bands never overlap so
+um so that's one way of understanding it
+
+555
+00:49:26,230 --> 00:49:30,750
+但在几乎免费的模型中，几乎免费
+but in a nearly free model nearly free
+
+556
+00:49:30,960 --> 00:49:41,589
+布里渊区边界与BZ边界之间的间隙来自
+the gaps at the Brillouin zone boundary
+ad BZ boundary are from from the
+
+557
+00:49:41,589 --> 00:49:49,509
+ X的电位V的周期电位，所以如果您知道
+periodic potential from potential V of X
+so if you know that the periodic
+
+558
+00:49:49,509 --> 00:49:53,109
+潜力巨大，您应该期待两个巨大的鸿沟
+potential is strong you should expect
+two gaps that are pretty big opening up
+
+559
+00:49:53,109 --> 00:49:57,849
+在青铜的边界处，而如果电势相当弱，那么您
+at the bronze own boundary whereas if
+the potential is fairly weak then you
+
+560
+00:49:57,849 --> 00:50:04,500
+我希望可能不会在俯卧带边界上有很大的差距
+expect not to have big gaps in the prone
+zone boundary all right I think maybe
+
+561
+00:50:04,500 --> 00:50:07,539
+虽然我们还有两分钟，但我想也许我们应该停在那里
+although we have two minutes left I
+think maybe we should stop there and
+
+562
+00:50:07,539 --> 00:50:12,390
+明天我们将进一步讨论乐队理论
+we'll pick up more on band theory
+tomorrow
+
+563
+00:50:12,390 --> 00:50:14,450
+您
+you
+

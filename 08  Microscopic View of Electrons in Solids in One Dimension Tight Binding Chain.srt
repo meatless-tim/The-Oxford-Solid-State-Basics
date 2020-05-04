@@ -1,0 +1,3099 @@
+1
+00:00:00,170 --> 00:00:08,080
+好的，欢迎回来，这是浓缩物质课程的第八讲
+okay welcome back this is now the eighth
+lecture of the condensed matter course
+
+2
+00:00:08,080 --> 00:00:13,160
+量子力学最奇妙的事情之一是粒子是
+one of the more wonderful things about
+quantum mechanics is that particles are
+
+3
+00:00:13,160 --> 00:00:17,150
+波，波或粒子，这意味着我们在学习时所学到的东西
+waves and waves or particles and that
+means that things that we learn when we
+
+4
+00:00:17,150 --> 00:00:21,619
+研究固体中的振动波通常可以应用于其他类型的波
+study vibrational waves in solids can
+often be applied to other types of waves
+
+5
+00:00:21,619 --> 00:00:25,669
+在诸如电子波甚至电磁波之类的固体中，所以今天我们
+in solids such as electron waves or even
+electromagnetic waves so today we're
+
+6
+00:00:25,669 --> 00:00:29,539
+将要研究固体中的电子波，这堂课有点
+going to be studying electron waves in
+solids and this lecture is a little bit
+
+7
+00:00:29,539 --> 00:00:32,870
+不合适，因为在课程的后期，我们将花费几天
+out of place because later on in the
+course we're going to spend several days
+
+8
+00:00:32,870 --> 00:00:36,379
+研究固体中的电子带结构和一些电子波
+studying electron band structure
+electron waves in solids and some amount
+
+9
+00:00:36,379 --> 00:00:40,640
+深度，但我在此插入本讲座的原因是为了指出重点
+of depth but the reason I'm inserting
+this lecture here is to make the point
+
+10
+00:00:40,640 --> 00:00:44,719
+我们是否真的在研究同一件事，无论我们是否在研究振动
+that we're really studying the same
+thing whether we're studying vibrational
+
+11
+00:00:44,719 --> 00:00:48,829
+或我们正在研究电子电子波
+waves or we're studying electron
+electron waves it's really very very
+
+12
+00:00:48,829 --> 00:00:53,149
+类似地，我们还将看到我们今天所做的许多计算是
+similar we're also going to see that
+much of the calculation we do today is
+
+13
+00:00:53,149 --> 00:00:57,469
+类似于我们研究共价键时的行为
+similar to what we did when we study the
+covalent bond which was a wave just
+
+14
+00:00:57,469 --> 00:01:01,309
+在两个原子之间，所以我们今天要看的图片是
+between two atoms so the picture we're
+going to look at today is a
+
+15
+00:01:01,309 --> 00:01:11,509
+一维一维紧密绑定链，这将是非常
+one-dimensional one-dimensional tight
+binding chain and it's going to be very
+
+16
+00:01:11,509 --> 00:01:15,649
+类似于我们研究的一维振动链
+analogous to the one-dimensional
+vibrational chains that we looked at in
+
+17
+00:01:15,649 --> 00:01:20,479
+最后一对讲座也类似于共价键，所以我们要
+the last couple lectures also similar to
+the covalent bond so we're going to
+
+18
+00:01:20,479 --> 00:01:28,159
+想象像这样的链中有一束核，胶水给它们一个
+imagine having a bunch of nuclei in a
+chain like this and the glue give them a
+
+19
+00:01:28,159 --> 00:01:33,200
+晶格常数相同原子核之间的距离，我们将添加
+lattice constant a distance between
+identical nuclei and we're going to add
+
+20
+00:01:33,200 --> 00:01:37,880
+一个电子到这个原子核链，我们将看到当我们发生时会发生什么
+one electron to this chain of nuclei and
+we're going to see what happens as we
+
+21
+00:01:37,880 --> 00:01:43,100
+让电子在不同原子核之间来回跳跃
+allow the electron to hop back and forth
+between the different nuclei so of
+
+22
+00:01:43,100 --> 00:01:47,299
+当然，我们必须从哈密顿量开始，因为通常的P平方
+course we have to start with a
+Hamiltonian as the usual P squared over
+
+23
+00:01:47,299 --> 00:01:56,170
+ 2m任期加上它将与R的所有不同核V相互作用
+2m term plus it will have an interaction
+with all of the different nuclei V of R
+
+24
+00:01:56,170 --> 00:02:05,950
+减去R sub J，其中R sub J是原子核的位置
+minus R sub J where R sub J is position
+position of nucleus
+
+25
+00:02:06,580 --> 00:02:12,410
+ J，就像我研究共价键时所做的那样，我们将简称
+J and as I did when we studied the
+covalent bond we're going to abbreviate
+
+26
+00:02:12,410 --> 00:02:16,760
+为了方便起见，这些术语称为k4动能， 
+these terms for convenience this term
+will be called k4 kinetic energy and
+
+27
+00:02:16,760 --> 00:02:25,220
+这些项现在称为V sub J，用于与j DH核相互作用
+these terms will be called V sub J for
+interaction with the j DH nucleus now
+
+28
+00:02:25,220 --> 00:02:29,450
+类似于我们研究共价键时所做的事情
+similar to what we did when we studied
+the covalent bond it's useful to think
+
+29
+00:02:29,450 --> 00:02:35,210
+首先是关于电子，它仅与单个原子核相互作用，而不与任何原子核相互作用。 
+first about an electron only interacting
+with a single nuclei not with any of the
+
+30
+00:02:35,210 --> 00:02:43,850
+其他原子核，所以我们写Hoop，我们写k加V sub M作为我们的
+other nuclei so we'll write H oops
+we'll write k plus V sub M as our
+
+31
+00:02:43,850 --> 00:02:47,480
+哈密​​顿量，这意味着电子具有其动能，并且
+Hamiltonian and that means that the
+electron has its kinetic energy and it's
+
+32
+00:02:47,480 --> 00:02:53,920
+仅与移情的leus交互，当它与之互动时，我们将为其赋予原子性
+interacting with the empathic leus only
+and we'll give it a atomic when it
+
+33
+00:02:53,920 --> 00:02:58,880
+仅与原子核M相互作用，所以哈密顿量的本征态
+interacts with nucleus M only so the
+eigen state of the Hamiltonian which has
+
+34
+00:02:58,880 --> 00:03:02,959
+与amnok leus进行互动时，我们称其为ket m， 
+an interacting with the amnok leus we'll
+call that the ket m and that will put
+
+35
+00:03:02,959 --> 00:03:07,160
+蒽CLIA上的电子-好像所有其他核都不是
+the electron on the anthony CLIA s-- as
+if all of the other nuclei were not
+
+36
+00:03:07,160 --> 00:03:12,110
+那里有一个标签，如果电子坐在这里就像是它
+there at all so a label this cat one if
+the electron is sitting here as if it
+
+37
+00:03:12,110 --> 00:03:15,380
+并且不与任何其他原子核相互作用我们也称其为
+and not interacting with any of the
+other nuclei we'll call this one too
+
+38
+00:03:15,380 --> 00:03:25,970
+这个一三等等好吧，到目前为止，好吧好吧，就像我们做的那样
+this one three and so forth okay happy
+so far okay all right now as we did when
+
+39
+00:03:25,970 --> 00:03:31,810
+我们研究了共价键，我们将做出一个错误的假设
+we studied the covalent bond we're going
+to make a bad assumption bad assumption
+
+40
+00:03:31,810 --> 00:03:41,510
+这就是说这些猫和M是正交的，如果
+which is that these cats and an M are
+orthonormal this is not too bad if the
+
+41
+00:03:41,510 --> 00:03:45,500
+原子核彼此分开，因为一个电子坐在这里
+nuclei are far apart from each other
+because a electron sitting over here in
+
+42
+00:03:45,500 --> 00:03:49,220
+那里的电子坐姿几乎彼此正交
+electronic sitting way over there are
+pretty much orthogonal to each other
+
+43
+00:03:49,220 --> 00:03:54,980
+但是当原子核彼此靠近时，它们就不再正交了， 
+but when nuclei get close together then
+they're not orthogonal anymore and the
+
+44
+00:03:54,980 --> 00:03:58,340
+我们做出这个近似的原因，即使那些不好的近似是为了
+reason we make this approximation even
+those are bad approximation is for
+
+45
+00:03:58,340 --> 00:04:01,130
+简单性如果我们做到这一点，很多计算就变得容易得多
+simplicity a lot of the calculation just
+gets a lot easier if we make this
+
+46
+00:04:01,130 --> 00:04:04,880
+假设，而做得更好，您不会学到很多东西
+assumption and you don't learn a whole
+lot more from doing more properly it's
+
+47
+00:04:04,880 --> 00:04:08,000
+要做起来并不难，这本书上有一个练习
+not that much harder to do it properly
+there's an exercise on the book that
+
+48
+00:04:08,000 --> 00:04:11,600
+引导您完成操作，并且您知道可以通过它进行操作，但是您会
+walks you through it and you know you
+can go through it if you want but you'll
+
+49
+00:04:11,600 --> 00:04:15,700
+从这个简化的近似中获得大多数有趣的物理学
+get most of the interesting physics out
+of just this simplified approximation
+
+50
+00:04:15,700 --> 00:04:21,320
+好吧，一旦我们做出了这个错误的假设，我们就可以写
+okay so once we
+made this bad assumption we can write
+
+51
+00:04:21,320 --> 00:04:25,520
+向下试波函数试波函数与我们所做的非常相似
+down our trial wavefunction trial
+wavefunction very similar to what we did
+
+52
+00:04:25,520 --> 00:04:37,669
+ sie等于n Phi nna的和的共价键
+with the covalent bond which will have
+the form sie equals sum over n Phi n n a
+
+53
+00:04:37,669 --> 00:04:44,150
+原子轨道的线性组合，这是我们使用的等效词
+linear combination of atomic orbitals
+which is a word we used equivalent to
+
+54
+00:04:44,150 --> 00:04:50,199
+类型绑定线性组合
+type binding linear combination of
+
+55
+00:04:51,699 --> 00:05:03,099
+轨道或lcao的原子轨道
+atomic orbitals of orbitals or lcao
+
+56
+00:05:07,000 --> 00:05:11,060
+我们正在使每个原子轨道上都有一堆电子
+we're making we have a bunch of atomic
+orbitals electrons sitting on each
+
+57
+00:05:11,060 --> 00:05:15,080
+核，我们将使它们与系数v线性组合
+nucleus and we're gonna make a linear
+combination of them with coefficients v
+
+58
+00:05:15,080 --> 00:05:19,970
+人们不喜欢这种近似的原因之一是因为您可以
+sub n the reason people love this type
+of approximation is because you can make
+
+59
+00:05:19,970 --> 00:05:24,229
+通过向右侧添加更多内容，它变得越来越准确
+it more and more accurate by just adding
+more things to the right hand side with
+
+60
+00:05:24,229 --> 00:05:29,870
+变量参数Phi在它们的前面，例如，您可以使用
+variational parameters Phi in front of
+them so for example you can have an
+
+61
+00:05:29,870 --> 00:05:37,820
+电子以激发态α位于位点n上，所以可能是1s 2s 2p，所以
+electron sitting on site n in excited
+state alpha so this could be 1s 2s 2p so
+
+62
+00:05:37,820 --> 00:05:42,229
+等等，我们可以使基础状态越来越大
+forth and so on and we can just make our
+basis state bigger and bigger basis set
+
+63
+00:05:42,229 --> 00:05:45,110
+越来越大，并赋予所有这些系数， 
+bigger and bigger and bigger and give
+all of these coefficients and as we make
+
+64
+00:05:45,110 --> 00:05:47,840
+基础越来越大，我们得到的越来越多
+the basis set bigger and bigger and
+bigger and bigger we get a more and more
+
+65
+00:05:47,840 --> 00:05:52,370
+真正的波函数的精确近似，好吧，这有点
+accurate approximation of the true
+wavefunction ok this is sort of a
+
+66
+00:05:52,370 --> 00:05:56,500
+变分方法，因此我们可以通过找到最佳方法来解决基态
+variational approach so we can solve for
+the ground state by finding the best
+
+67
+00:05:56,500 --> 00:05:59,599
+系数，那么一旦我们有了基态，我们就可以求解第一个
+coefficients then once we have the
+ground state we can solve for the first
+
+68
+00:05:59,599 --> 00:06:02,419
+通过找到最佳系数和最低能量来激发状态
+excited state by finding the best
+coefficients the lowest energy
+
+69
+00:06:02,419 --> 00:06:05,449
+正交于我们刚发现的第一件事的系数
+coefficients subject to being orthogonal
+to the first thing we were just found
+
+70
+00:06:05,449 --> 00:06:11,990
+依此类推，依此类推，所以现在我们要做的就是写下一个
+and so forth and so on so now what we
+have to do is we have to write down a
+
+71
+00:06:11,990 --> 00:06:16,759
+这些系数的内部方程越短，方程又越短
+shorter inner equation for these
+coefficients the shorter equation again
+
+72
+00:06:16,759 --> 00:06:23,780
+您要在作业中解决的问题将采用H的形式
+something that you will solve for in
+your homework will be of the form H and
+
+73
+00:06:23,780 --> 00:06:32,180
+ M Phi M等于e Phi n，它看起来像一个短方程
+M Phi M equals e Phi n it you know it
+looks like a shorter equation
+
+74
+00:06:32,180 --> 00:06:35,419
+像薛定inger方程那样的庸医，可能是它的缩短方程
+quacks like a Schrodinger equation it
+probably is a shortened equation it's
+
+75
+00:06:35,419 --> 00:06:39,139
+不是真正的较短方程，因为真正的较短方程具有一个完整的
+not the real shorter equation because
+the real shorter equation has a full
+
+76
+00:06:39,139 --> 00:06:47,780
+坐在这里的哈密顿量反而我们只有一个矩阵和HM，您可以
+Hamiltonian sitting here here instead we
+just have a matrix and H M and you can
+
+77
+00:06:47,780 --> 00:06:53,030
+认为这是真正的较短方程在基础上的投影
+think of this as being the projection of
+the true shorter equation onto the basis
+
+78
+00:06:53,030 --> 00:06:58,460
+由这些ket组成，并且我们与之合作，这使得
+set made up of these ket's and that we
+that we working with okay that makes
+
+79
+00:06:58,460 --> 00:07:01,550
+感觉它看起来像一个较短的方程，它将像一个较短的方程
+sense it looks like a shorter equation
+it's going to act like a shorter
+
+80
+00:07:01,550 --> 00:07:09,349
+等式，您也可以推导出它，所以在这里给出较短的等式
+equation and you'll derive it also okay
+so given our shorter equation over here
+
+81
+00:07:09,349 --> 00:07:14,990
+我们现在必须计算这些矩阵元素
+we have to now calculate these matrix
+elements that go into our a shorter
+
+82
+00:07:14,990 --> 00:07:20,449
+等式，让我们做，采用我们的哈密顿量并将其除法很有用
+equation so let's do that it's useful to
+take our Hamiltonian and divide it up
+
+83
+00:07:20,449 --> 00:07:26,449
+分成几部分，因此我们首先将删除与
+into pieces so first we'll take we'll
+remove the empty interaction with the
+
+84
+00:07:26,449 --> 00:07:32,210
+与所有其他原子核相互作用产生的空洞，因此这将是J 
+empty leus from the interaction with all
+the other nuclei so this will be J not
+
+85
+00:07:32,210 --> 00:07:39,349
+等于MV sub J之所以这样做，是因为我们可以在H上写H 
+equal to M V sub J the reason we do this
+is because then we can write H on the
+
+86
+00:07:39,349 --> 00:07:48,520
+ ket M等于K加cat M上的VM加上与所有其他元素的交互
+ket M equals K plus VM on the cat M plus
+the interaction with all the other
+
+87
+00:07:48,520 --> 00:07:57,139
+骆驼上的核V sub J好的，现在我们将ket m定义为本征态
+nuclei V sub J on camel okay now we
+defined the ket m to be the eigenstate
+
+88
+00:07:57,139 --> 00:08:05,590
+ K + VM的数据，所以这里的内容只是ket M上的原子
+of K plus VM so this thing here is just
+e atomic on ket M oh good
+
+89
+00:08:05,590 --> 00:08:13,070
+对此感到满意，然后我们可以将内部产品关闭
+happy with that so then we can take the
+inner product close up the inner product
+
+90
+00:08:13,070 --> 00:08:25,460
+在这里有ket n，我们得到e原子Delta和M加和，求和于J 
+with the ket n over here and we get e
+atomic Delta and M plus and sum over J
+
+91
+00:08:25,460 --> 00:08:34,729
+不等于MV sub JM，这是个有趣的名词，所以这个名词
+not equal to M V sub J M and this is the
+interesting term here so this term here
+
+92
+00:08:34,729 --> 00:08:39,860
+只是告诉我们，无论电子位于哪个原子核上
+just tells us that no matter what site
+the electron is sitting on which nucleus
+
+93
+00:08:39,860 --> 00:08:44,390
+坐在它上面的电子具有能量e原子，这就是所有
+the electron sitting sitting on it has
+energy e atomic and this is all the
+
+94
+00:08:44,390 --> 00:08:47,379
+与所有其他原子核的相互作用现在有一个
+interaction with
+all of the other nuclei now there's a
+
+95
+00:08:47,379 --> 00:08:51,339
+这个词可能会发生的几件事一种可能性是N 
+couple of things that could happen with
+this term one possibility is that N
+
+96
+00:08:51,339 --> 00:08:56,829
+等于M，在这种情况下，这就是告诉你有一些
+equals M in which case this is what this
+is telling you is that there's some
+
+97
+00:08:56,829 --> 00:09:02,649
+由于与所有原子核相互作用，位于核M上的能量发生了变化
+change in its energy sitting on nucleus
+M due to its interaction with all of the
+
+98
+00:09:02,649 --> 00:09:08,019
+其他原子不是M好吧，这将给我们带来这种东西和能量
+other atoms not M okay so this would be
+will give this thing and energy we'll
+
+99
+00:09:08,019 --> 00:09:18,519
+称之为V naught等于和某些VGA不II J不等于M，我猜这些
+call it V nought equals and some VGA not
+II J not equal to M and I guess these
+
+100
+00:09:18,519 --> 00:09:24,250
+可能是一团糟，这是与所有原子核相互作用的原因
+can be a mess like that and this is so
+this is interacting with all the nuclei
+
+101
+00:09:24,250 --> 00:09:28,959
+不包括M，这是对能量的期望，所以它只是在改变
+not including M and it's an expectation
+of its energy so it's just shifting its
+
+102
+00:09:28,959 --> 00:09:33,100
+该特定网站上的能量并不是特别有趣
+energy on that particular site that's
+not particularly interesting the more
+
+103
+00:09:33,100 --> 00:09:38,370
+有趣的是发生了什么事并且不等于M，所以在这种情况下
+interesting thing is what happens is and
+not equal to M so in this case you have
+
+104
+00:09:38,370 --> 00:09:43,930
+这个术语也许是我应该先称呼这个术语，这就是我们
+this term is maybe I should call this
+term something first this is what we
+
+105
+00:09:43,930 --> 00:09:49,240
+之前直接打过电话，我想当我们谈到
+call direct before and I guess I call it
+D cross when we talked about the
+
+106
+00:09:49,240 --> 00:09:56,680
+末端的共价键不等于M项，这就是我们之前所说的跳跃
+covalent bond for the end not equal to M
+term this is what we call hopping before
+
+107
+00:09:56,680 --> 00:10:01,360
+我们之所以将其称为“跳跃”是因为，我们将赋予它价值
+and the reason we called it hopping was
+because and we'll give it the value
+
+108
+00:10:01,360 --> 00:10:07,990
+减去t减去T之所以称为跳变，是因为您认为
+minus t minus T the reason we call it
+hopping is if you think in the
+
+109
+00:10:07,990 --> 00:10:13,720
+与时间相关的薛定inger方程类型的电子吸收方式
+time-dependent schrodinger equation
+type of way you can take on electron
+
+110
+00:10:13,720 --> 00:10:19,990
+坐在站点m上，并最终到达站点n上，因此该对角项在
+sitting on site m and have it end up on
+site n so this off diagonal term in the
+
+111
+00:10:19,990 --> 00:10:24,279
+哈密​​顿量允许电子从一个位置移动到另一个位置，因此我们称之为
+Hamiltonian allows an electron to move
+from one site to another hence we call
+
+112
+00:10:24,279 --> 00:10:29,199
+它现在跳了一个近似值，实际上是一个相当不错的近似值
+it hopping now an approximation which is
+actually a fairly good approximation is
+
+113
+00:10:29,199 --> 00:10:37,350
+ n减去m大于1的跳变为0 
+that n minus m greater than 1 hopping is
+0
+
+114
+00:10:37,350 --> 00:10:43,120
+跳变等于0或大约为0，其原因是因为
+hopping equals 0 or is approximately 0
+and the reason for that is because it's
+
+115
+00:10:43,120 --> 00:10:47,860
+如果想一想，电子很难一步一步跳到很远
+very hard for an electron to hop very
+far in one step if you think about it
+
+116
+00:10:47,860 --> 00:10:50,829
+一秒钟，当我们采用这个矩阵时，我们真正计算的是
+for a second what we're really
+calculating when we take this matrix
+
+117
+00:10:50,829 --> 00:10:56,170
+当我们明确写出矩阵元素时，它是某种
+element is some sort of when we write
+out the matrix element explicitly it's
+
+118
+00:10:56,170 --> 00:10:58,889
+像这样的东西
+something like this
+
+119
+00:11:00,809 --> 00:11:06,819
+正确，这就是矩阵元素看起来像是胸罩，ket和交互作用
+right this is what matrix elements look
+like a bra a ket and an interaction now
+
+120
+00:11:06,819 --> 00:11:13,209
+如果phi n如果N和M相距遥远，那么这些波函数会随着
+if phi n if N and M are far apart these
+wave functions decay very quickly as you
+
+121
+00:11:13,209 --> 00:11:17,259
+远离原子核，所以在空间上没有点
+go away from the nucleus so there will
+be no point in space where both this is
+
+122
+00:11:17,259 --> 00:11:21,670
+很大，如果两个原子核相距很远，那么就很大，这就是为什么
+large and this is large if the two
+nuclei are very far apart so that's why
+
+123
+00:11:21,670 --> 00:11:27,459
+我们可以假设这个矩阵元素将为0，除非N 
+we can we can assume that this this
+matrix element is going to be 0 unless N
+
+124
+00:11:27,459 --> 00:11:35,170
+和M本质上是邻居，好吧，所以我们现在拥有的是
+and M are essentially neighbors okay
+good so what we have now is we have this
+
+125
+00:11:35,170 --> 00:11:43,949
+最后，我们可以在J上写n个和，不等于MV sub JM 
+a in the end we have that we can write n
+sum over J not equal to M V sub J M
+
+126
+00:11:43,949 --> 00:11:53,740
+等于直接项V，如果n等于M，则不等于n，如果N等于M，则称其为负T 
+equals the direct term V not if n equals
+M we'll call it minus T if N equals M
+
+127
+00:11:53,740 --> 00:11:59,970
+正负1，因此我们只能跳一个站点，否则跳零
+plus or minus 1 so we can hop one site
+only and zero otherwise
+
+128
+00:12:01,110 --> 00:12:06,749
+好吧，好人对此感到满意
+okay good people happy fairly happy with
+that
+
+129
+00:12:06,749 --> 00:12:13,179
+好是有人点头有人说有人说是谢谢，我发给你另一个
+good yes someone nod someone say someone
+say yes thank you I send you another
+
+130
+00:12:13,179 --> 00:12:18,819
+巧克力，但是我昨天给你一个，很好，好，我们可以拿走
+chocolate but I gave you one yesterday
+so okay good so we can take our
+
+131
+00:12:18,819 --> 00:12:28,059
+哈密​​顿量并将其重写为H，因为它是一个大矩阵H nm等于它是一个
+Hamiltonian and rewrite it as H as a big
+matrix H n m equals what is it it's a
+
+132
+00:12:28,059 --> 00:12:36,759
+原子加上与所有其他原子核（不包括位点本身）的相互作用
+atomic plus the interaction with all the
+other nuclei not including site itself
+
+133
+00:12:36,759 --> 00:12:40,029
+如果您坐在一个网站上，与其他网站互动， 
+if you're sitting on one site
+interacting with all the other ones not
+
+134
+00:12:40,029 --> 00:12:45,699
+包括你自己，还有另一个名词，Delta n M加一个
+including yourself plus there's going to
+be another term which Delta n M plus one
+
+135
+00:12:45,699 --> 00:12:52,689
+加Delta n逗号M减1，所以这里有这个附加项
+plus Delta n comma M minus one so
+there's this additional term here which
+
+136
+00:12:52,689 --> 00:12:58,899
+允许您向左跳一步或向右跳一步
+allows you to hop one step to the left
+or one step to the right with an
+
+137
+00:12:58,899 --> 00:13:08,230
+振幅很好，所以如果我们说我们是一个很大的矩阵
+amplitude a T okay good so this is a
+great big matrix if we have let's say we
+
+138
+00:13:08,230 --> 00:13:14,690
+以nn nu开头，则H为N×n矩阵
+have n n nu
+to begin with then H is an N by n matrix
+
+139
+00:13:14,690 --> 00:13:21,589
+和Aiden乘n哈密顿矩阵，我们需要找到其特征值
+and Aiden n by n Hamiltonian matrix and
+we need to find its eigenvalues so how
+
+140
+00:13:21,589 --> 00:13:25,490
+如果n为a是a，我们这样做看起来像一个复杂的问题吗？ 
+do we do that that looks like a
+complicated problem if n is a is a
+
+141
+00:13:25,490 --> 00:13:30,500
+很好，我们可以解决与我们所做的非常相似的事情
+pretty large number well again we can
+solve this very similar to what we did
+
+142
+00:13:30,500 --> 00:13:37,279
+对于振动链，我们使用非点，这是点上的英文单词
+for the vibrational chains we use a non
+dots which is an English word on dots
+
+143
+00:13:37,279 --> 00:13:46,310
+而我们使用他的文件的圆点是到IK的圆点上的平面波
+and the on dots we use his file is a
+plane wave on dots to the I K and a like
+
+144
+00:13:46,310 --> 00:13:53,360
+现在，对此首先有一些评论，您可能会期待一个e 
+this now a couple comments about this
+first of all you may be expecting an e
+
+145
+00:13:53,360 --> 00:13:57,110
+从我们对振动链所做的事情到I Omega T的原因是
+to the I Omega T from what we did with
+the vibrational chain the reason there's
+
+146
+00:13:57,110 --> 00:14:01,100
+ I Omega T的原因在于我们正在解决与时间无关的薛定inger 
+no e to the I Omega T is because we're
+solving the time-independent schrodinger
+
+147
+00:14:01,100 --> 00:14:05,389
+方程不是时间相关的薛定inger方程
+equation not the time-dependent
+schrodinger equation if we were to solve
+
+148
+00:14:05,389 --> 00:14:08,329
+在时间相关的薛定inger方程中，欧米伽T等于e 
+in the time dependent Schrodinger
+equation there being e to the I Omega T
+
+149
+00:14:08,329 --> 00:14:11,690
+好的，这就是为什么它在这种情况下不存在的原因， 
+as well okay that's why it's not there
+in this case it's just simpler in
+
+150
+00:14:11,690 --> 00:14:14,810
+量子力学要与时间无关的本征态一起工作
+quantum mechanics to work with time
+independent eigen States than it is to
+
+151
+00:14:14,810 --> 00:14:19,310
+使用与时间相关的波动函数，因此这是第一件事
+work with time-dependent wave functions
+so that's that's the first thing second
+
+152
+00:14:19,310 --> 00:14:23,000
+事情是，如果您谨慎点，您可能放下
+thing is that you probably if you're
+careful you put down a square root of
+
+153
+00:14:23,000 --> 00:14:26,600
+楼下的大写n，因此这是归一化的波动函数
+capital n downstairs so that this is a
+normalized wave function the
+
+154
+00:14:26,600 --> 00:14:30,139
+规范化对我们来说并不重要，但严格来说应该
+normalization isn't going to matter much
+for us but strictly speaking it should
+
+155
+00:14:30,139 --> 00:14:36,589
+可能在那里，第三点要注意的是，如果
+probably be there and the third thing to
+note is that this wave is the same if
+
+156
+00:14:36,589 --> 00:14:42,560
+您在a上将k移至k加2pi是我们上次发现的
+you shift k to k plus 2pi over a is
+something we discovered last time the
+
+157
+00:14:42,560 --> 00:14:45,560
+重要的不是动量而是水晶动量
+thing that's important is not the
+momentum but the crystal momentum if
+
+158
+00:14:45,560 --> 00:14:51,459
+你把K移了2 pi，我又回到了同一波
+you're shifted K by 2 pi over a I get
+back exactly the same the same wave ok
+
+159
+00:14:51,459 --> 00:14:58,180
+因此，让我们将点插入汉密尔顿式的其中一个步骤，我们得到
+so let's take our on dots plug it into
+that Hamiltonian one step here we get
+
+160
+00:14:58,180 --> 00:15:08,889
+ ε等于负IK的零，e等于负IK n的负T加1 a 
+epsilon naught e to the minus I K and a
+minus T e to the minus I K n plus 1 a
+
+161
+00:15:08,889 --> 00:15:20,360
+ ee等于负IK，负1 a等于ee等于负IK，因此
+plus e e to the minus I K and minus 1 a
+equals e e to the minus I K and a so
+
+162
+00:15:20,360 --> 00:15:24,290
+只需将on点插入Schrodinger方程
+that's just plug in the on dots into the
+Schrodinger equation
+
+163
+00:15:24,290 --> 00:15:30,410
+使用汉密尔顿式的形式好吧，这就是我没告诉过的
+using that form of the Hamiltonian okay
+so it's this is the oops I didn't tell
+
+164
+00:15:30,410 --> 00:15:34,100
+你这是什么我没告诉你什么我不对这件事感到抱歉
+you what this I didn't tell you what II
+not is sorry about that this thing here
+
+165
+00:15:34,100 --> 00:15:43,880
+我叫他不是，所以这是现场能量，它使您可以跳到左跳
+I called he not so this is the energy on
+site this allows you to hop to left hop
+
+166
+00:15:43,880 --> 00:15:50,690
+在右边，这是另一面的特征能量
+to the right and this is the eigenenergy
+on the other side people happy okay good
+
+167
+00:15:50,690 --> 00:15:57,139
+谢谢你，好，那么你就可以计算出一些因素。 
+thank you good so then you just calc
+cancel out a bunch of factors a bunch of
+
+168
+00:15:57,139 --> 00:16:06,620
+指数因数，您得到e为零减去2t余弦K a，所以让我们
+exponential factors and you get e is e
+naught minus 2t cosine K a so let's
+
+169
+00:16:06,620 --> 00:16:20,449
+实际绘制去，所以这里的PI超过这里的负PI超过这里
+actually plot that go so here's PI over
+a here's minus PI over a here's this is
+
+170
+00:16:20,449 --> 00:16:27,110
+能量在这个轴上消失了，然后我们会有一个很好的余弦
+energy on this axis energy this is e
+naught and then we'll have a nice cosine
+
+171
+00:16:27,110 --> 00:16:32,209
+看起来像这样的表格看起来像这样，如果您想
+form that looks kind like this looks
+kind of like this and if you wanted to
+
+172
+00:16:32,209 --> 00:16:37,190
+您可以定期进一步进行下去，但我们真正感兴趣的是
+you can continue it out periodically
+further but what we're really interested
+
+173
+00:16:37,190 --> 00:16:45,769
+进入的是区域1区域中从此处到此处的冲泡中的波浪，因为一旦我们
+in is the waves within the brew on zone
+1 zone from here to here because once we
+
+174
+00:16:45,769 --> 00:16:48,980
+走到布里渊区之外，我们只是在复制相同的波
+go outside of the Brillouin zone we're
+just reproducing the same waves over and
+
+175
+00:16:48,980 --> 00:16:53,930
+再来一次，如果我们想要不同的波浪，我们可以在
+over again and if we want different
+waves we have we all the ways within the
+
+176
+00:16:53,930 --> 00:16:56,630
+*区彼此不同，但是一旦我们走出布朗斯自己
+bran zone are different from each other
+but once we go outside of the Brauns own
+
+177
+00:16:56,630 --> 00:17:03,079
+我们开始重复我们已经认为可以的事情
+we start repeating things that we've
+already considered ok just a bit of
+
+178
+00:17:03,079 --> 00:17:06,790
+ Naaman仓库非常有用，也许我把它放在这里
+Naaman cloture which is which is fairly
+useful maybe I put it over here an
+
+179
+00:17:06,790 --> 00:17:29,030
+能带能带是指在每个K中一个情况的一个本征态。 
+energy band energy band means one case
+one eigenstate at each each K in the
+
+180
+00:17:29,030 --> 00:17:31,570
+青铜自己
+bronz own
+
+181
+00:17:35,890 --> 00:17:42,380
+所以在这里我们画了一个能带，你会记得这看起来有点
+so here we've drawn an energy band now
+you'll remember this looks a little bit
+
+182
+00:17:42,380 --> 00:17:46,460
+就像我们解决单原子谐波链时得到的一样
+like what we got when we when we solve
+the monatomic harmonic chain the
+
+183
+00:17:46,460 --> 00:17:50,930
+每个原子在每个原子中都完全相同的单链振动
+vibrations of a single chain of where
+every atom is exactly the same in every
+
+184
+00:17:50,930 --> 00:17:54,770
+春天与我上次讲解的完全相同
+spring is exactly the same I last
+lecture when we when we solve the
+
+185
+00:17:54,770 --> 00:17:58,370
+双原子链或交替链，我们发现有两个分支
+diatomic chain or the alternating chain
+we found that there were two branches of
+
+186
+00:17:58,370 --> 00:18:04,210
+激发在这个方向上每个K矢量都有两个正常模式
+excitations there were two normal modes
+at each K vector okay in this direction
+
+187
+00:18:04,210 --> 00:18:08,360
+如果我们在这张图片中有类似的东西，其中有两个本征态
+if we had something similar in this
+picture where there were two eigenstates
+
+188
+00:18:08,360 --> 00:18:12,410
+低能量的和高能量的，我们会说有两种能量
+a low-energy one and a high-energy one
+we would say that there are two energy
+
+189
+00:18:12,410 --> 00:18:16,850
+低能带和高能带我们不使用声波
+bands a low-energy one and a high-energy
+band we do not use the words acoustic
+
+190
+00:18:16,850 --> 00:18:20,690
+当我们谈论电子的原因是光学和光学时
+and optical when we're talking about
+electrons for reasons that will become
+
+191
+00:18:20,690 --> 00:18:27,950
+一会儿就清楚了，但是将这种分散与我们将
+clear in a moment but it is useful to
+compare this this dispersion to what we
+
+192
+00:18:27,950 --> 00:18:38,690
+有了振动振动了单原子链单原子我们有了欧米茄
+got for vibrations vibrations the
+monatomic chain monatomic we had Omega
+
+193
+00:18:38,690 --> 00:18:50,270
+平方等于我猜这是两个Kappa / M减去两个Kappa / M余弦ka 
+squared equals I guess it was two Kappa
+/ M minus two Kappa / M cosine ka I
+
+194
+00:18:50,270 --> 00:18:55,820
+相信这等同于您会看到两种色散看起来
+believe it was equivalent to that you'll
+see that the two dispersions look
+
+195
+00:18:55,820 --> 00:19:00,920
+极为相似，但有显着差异，显着差异是
+awfully similar but there is a notable
+difference and the notable difference is
+
+196
+00:19:00,920 --> 00:19:05,000
+对于较短的方程式，我们在左侧获得e， 
+that with the shorter equation we got e
+on the left-hand side and with the
+
+197
+00:19:05,000 --> 00:19:09,050
+振动链，我们的欧米茄平方在左侧
+vibrational chain we had omega squared
+on the left-hand side the origin of this
+
+198
+00:19:09,050 --> 00:19:12,860
+不同之处在于，如果考虑时间相关性，则较短的方程式
+difference is if the shorter equation if
+you think about the time-dependent
+
+199
+00:19:12,860 --> 00:19:17,240
+薛定inger方程具有一阶导数，而牛顿方程F 
+schrodinger equation it has one time
+derivative whereas newton's equations F
+
+200
+00:19:17,240 --> 00:19:21,050
+等于MA，加速度是两个时间导数，所以这就是为什么
+equals MA the acceleration is two time
+derivatives so that's why we're getting
+
+201
+00:19:21,050 --> 00:19:25,730
+左侧有两个频率，而另一侧只有一个能量
+two frequencies over on the left-hand
+side but one only one energy on the
+
+202
+00:19:25,730 --> 00:19:28,340
+当我们在思考薛定inger的时候
+right-hand side when we're thinking
+about Schrodinger and that actually
+
+203
+00:19:28,340 --> 00:19:32,960
+当我们拥有
+makes a rather important distinction
+between the two when we had the
+
+204
+00:19:32,960 --> 00:19:38,020
+在低能量的振动链中，线性模式降为零
+vibrational chain at low energy we got
+linear modes coming in down to zero
+
+205
+00:19:38,020 --> 00:19:44,700
+此图片中零波矢量处的频率
+frequency at zero wave vector in this
+picture here
+
+206
+00:19:44,700 --> 00:19:51,400
+如果在零波附近扩展，在电子情况下在电子中
+in the in the electrons in the case of
+electrons if you expand near zero wave
+
+207
+00:19:51,400 --> 00:19:58,920
+向量不是负2t然后是小波向量K a的低替代值
+vector it's not minus 2t and then low
+substitute in for small wave vector K a
+
+208
+00:19:58,920 --> 00:20:08,100
+像这样平方两个，我们看到这里得到2t，我们得到的是恒定的
+squared over two like this we see that
+we get 2t here what we get is constant
+
+209
+00:20:08,100 --> 00:20:16,540
+我对加K的平方乘以T不感兴趣
+which I'm not interested in plus K a
+squared times T its quadratic at low
+
+210
+00:20:16,540 --> 00:20:21,760
+余弦所带来的能量，这就是为什么我们不使用这个词
+energy as you would expect from a cosine
+and that's why we do not use the word
+
+211
+00:20:21,760 --> 00:20:25,990
+这些低能量模式的声学振动特性
+acoustic for these low energy modes for
+vibrations acoustic modes by definition
+
+212
+00:20:25,990 --> 00:20:30,880
+声音模式具有线性分散，频率应与
+sound modes have linear dispersion that
+the frequency should be proportional to
+
+213
+00:20:30,880 --> 00:20:36,160
+波矢量是声音的定义，所以这里是二次方，所以我们不
+wave vector that's the definition of
+sound so here is quadratic so we don't
+
+214
+00:20:36,160 --> 00:20:41,020
+称之为声学，如果有更高的能量，我们也不会称之为光学的
+call it acoustic and we don't call it
+optical either if there's higher energy
+
+215
+00:20:41,020 --> 00:20:47,050
+品牌分支，但是这张照片显示的是能量的二次方波动
+brands branches but this this picture of
+the energy being quadratic in wave
+
+216
+00:20:47,050 --> 00:20:53,410
+在其他情况下，vector应该对您相当熟悉，例如，如果您
+vector should be fairly familiar to you
+from other contexts for example if you
+
+217
+00:20:53,410 --> 00:20:59,050
+有自由电子，有自由电子，有外太空中的电子飞来飞去或
+have a free electron free electrons an
+electron in outer space flying around or
+
+218
+00:20:59,050 --> 00:21:09,190
+它的能量是恒定的，加上h bar平方K平方超过2m K 
+something its energy is some constant
+plus h bar squared K squared over 2m K
+
+219
+00:21:09,190 --> 00:21:16,180
+平方超过2m，在MK中也是平方，您可以选择C 
+squared over 2m right it's also
+quadratic in M K you might choose C to
+
+220
+00:21:16,180 --> 00:21:19,960
+如果您愿意，则为0；如果您愿意，则可以选择为MC平方
+be 0 if you wanted to or you could
+choose it to be MC squared if you're
+
+221
+00:21:19,960 --> 00:21:25,090
+在思考其剩余质量能量的同时，重要的是
+thinking about its rest mass energy as
+well the important thing is that it's
+
+222
+00:21:25,090 --> 00:21:30,970
+它是二次方的，并且波矢量与此处的电子相同，因此
+it's quadratic in and wave vector the
+same as this electron over here so it
+
+223
+00:21:30,970 --> 00:21:36,250
+也许对我们有用，以自由电子的方式思考一秒钟
+might be useful for us to sort of think
+in terms of free electrons for a second
+
+224
+00:21:36,250 --> 00:21:44,610
+所以我们要做的是定义一个有效质量有效质量M星
+and so what we do is we define an
+effective mass effective mass M star
+
+225
+00:21:44,610 --> 00:21:55,360
+使得H bar在2 m星上平方等于T的平方乘以
+such that H bar squared over 2 m star
+equals a squared times T with this
+
+226
+00:21:55,360 --> 00:22:00,580
+然后定义我们的能带和我们电子中的能带
+definition then for our energy band
+and for energy band for electrons in our
+
+227
+00:22:00,580 --> 00:22:08,080
+能带能带我们仍然有一个常数等于一个常数。 
+energy band energy band we still have
+energy equals a constant same constant
+
+228
+00:22:08,080 --> 00:22:15,940
+再加上h平方，K平方超过2m星，好吧，它看起来像免费的
+plus h bar squared K squared over 2m
+star okay it looks just like free
+
+229
+00:22:15,940 --> 00:22:21,640
+电子，它仍然是K的二次方，至少是小K，但现在是
+electrons it's still quadratic in K at
+least it's small K but now it's an
+
+230
+00:22:21,640 --> 00:22:26,050
+有效质量M star而不是电子M的实际物理质量
+effective mass M star rather than the
+real physical mass of the electron M
+
+231
+00:22:26,050 --> 00:22:31,780
+好吧，现在您知道应该认真考虑一下
+okay now this you know should really
+think about this for a second the
+
+232
+00:22:31,780 --> 00:22:35,380
+我们在这个紧密的绑定链中到达这里的有效质量
+effective mass that we're getting here
+in this tight binding chain that we're
+
+233
+00:22:35,380 --> 00:22:40,240
+解算与电子的实际质量无关
+solving has nothing to do with the
+actual mass of the electron it actually
+
+234
+00:22:40,240 --> 00:22:45,130
+与原子核之间的跳跃有关，质量得到更大的跳跃
+has to do with the hopping between
+nuclei for greater hopping the mass gets
+
+235
+00:22:45,130 --> 00:22:52,720
+较小，跳跃越小，质量就越大，我认为因此
+smaller for smaller hopping the mass
+gets larger I think and so it has it's
+
+236
+00:22:52,720 --> 00:22:58,270
+完全与电子的实际物理质量无关
+totally unrelated to the to the actual
+physical mass of the electron you will
+
+237
+00:22:58,270 --> 00:23:04,330
+查找您知道的样品系统实际物理系统金属或其他地方
+find sample you know systems actual
+physical systems metals or whatnot where
+
+238
+00:23:04,330 --> 00:23:09,580
+质量比电子或电子的物理质量小一百倍
+the mass is a hundred times less than
+the physical mass of the electron or a
+
+239
+00:23:09,580 --> 00:23:13,390
+比电子的物理质量大一百或一千倍
+hundred or a thousand times more than
+the physical mass of the electron
+
+240
+00:23:13,390 --> 00:23:17,350
+尽管在实际材料中具有有效质量的物质并不罕见
+although it's not uncommon to have
+effective masses in real materials which
+
+241
+00:23:17,350 --> 00:23:22,030
+在物理电子的实际质量的数量级上
+are on the order of the actual mass of
+the physical electron the other thing to
+
+242
+00:23:22,030 --> 00:23:26,620
+请记住，我们在能带中讨论的K不是
+keep in mind here is that the K we're
+talking about in the energy band is not
+
+243
+00:23:26,620 --> 00:23:35,530
+动量，但它是晶体动量晶体动量或或h-bar K是
+momentum but it's crystal momentum
+crystal momentum or or h-bar K is
+
+244
+00:23:35,530 --> 00:23:41,200
+如果您将H形杆插入其中，则表示动量很大，这意味着您仅知道我们在
+crystal momentum if you put the h-bar in
+which means only that you know we're
+
+245
+00:23:41,200 --> 00:23:48,010
+仅定义我们的动量以晶体波矢量为模
+only defining our momentum modulo the
+crystal wave vector the reciprocal
+
+246
+00:23:48,010 --> 00:23:52,330
+如果我在I上将所有内容都移两个pi，则晶格波矢量在两个pi上
+lattice wave vector two pi over a if I
+shifted everything by two pi over a I
+
+247
+00:23:52,330 --> 00:23:57,160
+回到相同的物理波，所以它与自由略有不同
+get back the same physical wave so it's
+slightly different from the free
+
+248
+00:23:57,160 --> 00:24:02,050
+我们熟悉的最后一件事就是电子波
+electron waves that were that we're
+familiar with the last thing that I want
+
+249
+00:24:02,050 --> 00:24:07,040
+这里要强调的是本征态
+to emphasize here are the eigenstates
+eigenstates
+
+250
+00:24:07,040 --> 00:24:16,610
+我们的波浪我们的飞机波浪只是波浪现在为什么这很有趣
+our waves our plane waves are just waves
+now why is that interesting it means
+
+251
+00:24:16,610 --> 00:24:21,920
+我可以拿一个电子，如果我把它放在某种状态下，那有点像
+that I could take an electron and if I
+put it in some state here it's sort of a
+
+252
+00:24:21,920 --> 00:24:26,150
+向左移动，向右移动，这是向右移动，向右移动
+left a right moving wave it's a right
+moving wave in that right moving wave
+
+253
+00:24:26,150 --> 00:24:31,970
+延伸到整个系统，这对我们的浪潮是至关重要的
+extends clear across the system it's an
+e to the i k aien our form of the wave
+
+254
+00:24:31,970 --> 00:24:35,900
+我从面板顶部滚动下来，但这是一个平面波
+which I get scrolled off the top of the
+board but it's a plane wave that goes
+
+255
+00:24:35,900 --> 00:24:41,000
+在整个系统中清晰可见，这也许令人惊讶，为什么
+clear across the system and that might
+be surprising for a second why well
+
+256
+00:24:41,000 --> 00:24:44,240
+记得当我们研究索末菲理论时，就有这个问题
+remember when we when we studied
+Sommerfeld theory there was this issue
+
+257
+00:24:44,240 --> 00:24:50,060
+固体中电子的散射长度似乎过长
+that the scattering lengths of electrons
+in solids seemed unreasonably long you
+
+258
+00:24:50,060 --> 00:24:53,660
+所有这些原子核都带有正电荷，它们遍布各处
+have all these nuclei with positive
+charges and they're all over the place
+
+259
+00:24:53,660 --> 00:24:57,590
+到每几埃，您就会遇到带正电荷的原子核
+to every few angstroms you run into a
+nucleus with a positive charge and yet
+
+260
+00:24:57,590 --> 00:25:00,620
+电子的散射长度可以是一百埃
+the electron has a scattering length
+that can be a hundred angstroms a
+
+261
+00:25:00,620 --> 00:25:05,150
+现在有一个千埃或一百万埃长的模型
+thousand angstroms or a million
+angstroms long now here we have a model
+
+262
+00:25:05,150 --> 00:25:09,200
+我们有很多原子核周期性地排列在一起
+where we have lots of nuclei lined up
+periodically one after the other after
+
+263
+00:25:09,200 --> 00:25:12,470
+另一个接一个，电子从一个跳到另一个
+the other after the other and the
+electron hops from one to the next to
+
+264
+00:25:12,470 --> 00:25:16,610
+下一波，使波在整个系统中清晰可见，在
+the next next and makes a wave that goes
+clear across the system no scattering at
+
+265
+00:25:16,610 --> 00:25:20,540
+所有您将观察到的这是一个非常好的波形包
+all you would observe this as a
+perfectly good wave packet going
+
+266
+00:25:20,540 --> 00:25:25,670
+整个系统中都没有回散一点点，所以这是我们的第一个
+entirely across the system without back
+scattering one bit so that's our first
+
+267
+00:25:25,670 --> 00:25:29,240
+令人惊讶的结果，我们将非常频繁地返回到该结果
+surprising result and we're going to
+come back to that result very frequently
+
+268
+00:25:29,240 --> 00:25:33,400
+后来，这个术语大家都对此感到满意
+later on in the term okay is everyone
+fairly happy with that
+
+269
+00:25:33,400 --> 00:25:39,830
+是的，还有很多我们尚未考虑的其他事情
+yes well there's lots of other things
+that we haven't accounted for us for
+
+270
+00:25:39,830 --> 00:25:44,030
+例如我们可以不谈论它可能会扩散到其他电子中
+example it can we haven't talked about
+it could scatter into other electrons so
+
+271
+00:25:44,030 --> 00:25:46,970
+实际上，这是我们不会在整个学期讨论的内容
+that's actually in fact that's something
+we're not going to discuss all term
+
+272
+00:25:46,970 --> 00:25:50,510
+因为您可以忽略对其他电子的散射的原因是
+because the reason you can ignore
+scattering against other electrons is
+
+273
+00:25:50,510 --> 00:25:53,870
+实际上非常微妙，明年您甚至可能不会学到
+actually extremely subtle and you
+probably won't even learn it next year
+
+274
+00:25:53,870 --> 00:25:59,720
+直到1980年代或更晚，人们才对它有所了解
+it wasn't understood properly until
+probably the 1980s or even later and it
+
+275
+00:25:59,720 --> 00:26:04,010
+在它之下直到1950年代甚至一点都不了解
+was under it wasn't understood at all
+not even one little bit until 1950s so
+
+276
+00:26:04,010 --> 00:26:06,650
+这是一个非常棘手的问题，但是您还可以分散其他内容
+that's a really tough question but
+there's other things you can scatter
+
+277
+00:26:06,650 --> 00:26:10,670
+有杂质，所以晶体并不完美，里面还有其他垃圾， 
+there's impurities so crystals aren't
+perfect there's other junk in it and
+
+278
+00:26:10,670 --> 00:26:16,070
+有振动，所以你可以让电子移动，它们可以撞击
+there's vibrations so you can have an
+electron moving along and they can hit a
+
+279
+00:26:16,070 --> 00:26:19,850
+振动声子并从声子上散射出去
+vibrational a phonon and scatter off of
+a phonon as well so at finite
+
+280
+00:26:19,850 --> 00:26:23,070
+温度，电子声子的散射经常发生
+temperature there's
+electron phonon scattering is frequently
+
+281
+00:26:23,070 --> 00:26:29,610
+限制过程好不好的好问题，我再给你巧克力
+the limiting process okay good good
+question I give you another chocolate
+
+282
+00:26:29,610 --> 00:26:35,340
+但是您已经可以了，所以我们要做一个以前做过的练习
+but you already have one okay so we're
+going to do an exercise we did before
+
+283
+00:26:35,340 --> 00:26:43,610
+计算计数状态时，我们在计算正常模式时是这样做的
+counting counting states we did this for
+when we counted normal modes in our
+
+284
+00:26:43,610 --> 00:26:52,440
+振动链，所以我们将拥有n个原子核，这意味着
+vibrational chain so will we have n
+nuclei nuclei we have so that means the
+
+285
+00:26:52,440 --> 00:26:57,480
+我们系统的长度是a的n倍，如果系统的长度是a的n倍
+length of our system is n times a and if
+the length of the system is n times a
+
+286
+00:26:57,480 --> 00:27:03,990
+我们大声的情况必须是L乘以P的两个PI的形式，其中PP是
+the case we are loud must be of the form
+two PI over L times P where P P is an
+
+287
+00:27:03,990 --> 00:27:09,240
+整数P是大家熟悉的整数
+integer P is an integer you guys
+familiar with that that notation integer
+
+288
+00:27:09,240 --> 00:27:20,600
+是的，好的P是整数，所以不同k的数量不同k是
+yeah okay good P is integer so the
+number of different k's different k's is
+
+289
+00:27:20,600 --> 00:27:25,860
+等于k的范围不同，k的范围是两个pi 
+equal to the range of k's that are
+different which is two pi over a the
+
+290
+00:27:25,860 --> 00:27:31,110
+从这里到这里拥有的棕熊除以相邻KS之间的间距
+Bruins own from here to here divided by
+the spacing between adjacent KS which is
+
+291
+00:27:31,110 --> 00:27:37,950
+ L上的两个PI，a上的L，n不足为奇
+two PI over L which is L over a which is
+n not surprising the number of different
+
+292
+00:27:37,950 --> 00:27:41,910
+在青铜器中允许的洞穴数量等于
+caves were allowed in the bronz own is
+equal to the number of unit cells in the
+
+293
+00:27:41,910 --> 00:27:48,120
+在这种情况下，整个系统很容易以不同的方式理解
+entire system in this case it's easy to
+understand that in a different way we
+
+294
+00:27:48,120 --> 00:27:55,080
+从一堆猫开始，其中有n个和n个， 
+started with a bunch of cats m there
+were n of them and n of these and
+
+295
+00:27:55,080 --> 00:28:01,919
+这些轨道位于原子核上，一个原子核两个原子核三个
+orbitals these were sitting on on nuclei
+in nucleus one nucleus two nucleus three
+
+296
+00:28:01,919 --> 00:28:07,020
+依此类推，然后对角化我们的哈密顿量，得到本征态K 
+and so forth and then we diagonalized
+our Hamiltonian and we get eigenstates K
+
+297
+00:28:07,020 --> 00:28:13,860
+毫不奇怪，他们中的n个和本征态都很大
+and they're unsurprisingly there n of
+them and eigenstates we had an m and big
+
+298
+00:28:13,860 --> 00:28:18,600
+通过大n矩阵对角化，我们得到了n个特征值和本征态
+and by big n matrix and we diagonalized
+it we got n eigenvalues and eigenstates
+
+299
+00:28:18,600 --> 00:28:25,350
+好吧，所以您输入n个状态就得出n个状态，这是另一种命名法
+okay so you put in n states you get out
+n states one other piece of nomenclature
+
+300
+00:28:25,350 --> 00:28:32,309
+这在这里相当有用这是我想的能量规模
+which is fairly useful here which is
+this energy scale here which I guess for
+
+301
+00:28:32,309 --> 00:28:36,000
+我们把它滚动到最上面
+our
+well I scrolled it off the top it's
+
+302
+00:28:36,000 --> 00:28:47,100
+其实40知道在哪里，所以它是余弦的2倍，余弦2t 
+actually 40 see where was it yeah so
+it's a 2 times the cosine the cosine 2t
+
+303
+00:28:47,100 --> 00:28:53,190
+余弦乘以该范围，T余弦从正1到负1，所以
+times the cosine is the the range and T
+cosine goes from plus 1 to minus 1 so
+
+304
+00:28:53,190 --> 00:28:59,360
+从Emacs的总范围，我们称它为Emacs，在这里，我们称其为e min 
+the total range from Emacs let's call it
+Emacs here let's call this e min here a
+
+305
+00:28:59,360 --> 00:29:17,790
+ min在这里，因此Emacs Emax减去e min被称为带宽宽度，其中
+min here so Emacs Emax minus e min is
+known as the band width width which in
+
+306
+00:29:17,790 --> 00:29:26,520
+这种情况是40好，现在我们该怎么办我们带宽是多少取决于它
+this case is 40 okay now what do we what
+do we what is the bandwidth depend on it
+
+307
+00:29:26,520 --> 00:29:31,320
+取决于您跳的次数越多，跳的越大
+depends on how much hopping you have the
+more hopping you have the bigger the
+
+308
+00:29:31,320 --> 00:29:34,679
+带宽，所以让我们实际画一些图片
+band width
+so let's actually draw a little picture
+
+309
+00:29:34,679 --> 00:29:40,650
+这里的带宽实际上取决于T取决于什么
+here what is the bandwidth actually
+depend on what is what is T depend on
+
+310
+00:29:40,650 --> 00:29:44,820
+好吧，我们拥有的东西我们可以改变的是
+well the thing we had at our disposal
+the thing we could change was the
+
+311
+00:29:44,820 --> 00:29:50,910
+晶格常数a原子核之间的距离为
+lattice constant a the distance between
+the nuclei as the distance between the
+
+312
+00:29:50,910 --> 00:29:55,500
+原子核上升，跳变自然下降，越难跳越
+nuclei goes up the hopping naturally
+goes down it's harder to hop over a
+
+313
+00:29:55,500 --> 00:30:02,210
+距离越远，T就会上升
+longer distance so T goes up goes up
+going this way
+
+314
+00:30:02,210 --> 00:30:06,890
+好人对此感到满意，然后精力就会这样
+good people happy with that okay and
+then energy is going to be this way and
+
+315
+00:30:06,890 --> 00:30:12,450
+然后我们可以画一幅这样的图片，我们从一堆
+then we can draw a picture that kind of
+looks like this we start with a bunch of
+
+316
+00:30:12,450 --> 00:30:20,040
+所有原子都具有本征态且能量为e的原子
+atoms all having eigenstates with energy
+e atomic when the atoms are very far
+
+317
+00:30:20,040 --> 00:30:24,480
+它们都具有相同的能量电子可以坐在这里
+apart they all have the same the same
+energy the electron can sit here can sit
+
+318
+00:30:24,480 --> 00:30:29,250
+在这里，它可以坐在任何一个原子上，并且它的能量总是e原子， 
+here it can sit on any one of the atoms
+and its energy is always e atomic and
+
+319
+00:30:29,250 --> 00:30:38,370
+有n个本征态，我想它现在可以坐在N个原子中的任何一个上
+there are n eigenstates and I guess it
+can sit on any one of the N atoms now as
+
+320
+00:30:38,370 --> 00:30:44,190
+我们将原子靠近在一起，而我们的原子核靠近在一起
+we bring the atoms closer together as we
+nuclei closer together T is going to
+
+321
+00:30:44,190 --> 00:30:51,030
+增加，我们将获得一支乐队，如果它从e min到Emacs 
+increase and we're going to get a band
+and if it goes from e min to Emacs here
+
+322
+00:30:51,030 --> 00:30:56,610
+并且在MN和Emacs之间会有这个本征态
+and there will be eigenstates within
+this range between MN and Emacs so you
+
+323
+00:30:56,610 --> 00:31:01,620
+在MN和Emacs之间选择任何能量，那里会有一些本征态
+pick any energy between MN and Emacs and
+there will be some eigenstates there
+
+324
+00:31:01,620 --> 00:31:07,140
+好吧，所以这里和这里之间的任何能量总会有一些K有一个
+okay so any energy between here and here
+there will always be some K which has an
+
+325
+00:31:07,140 --> 00:31:12,120
+在这种能量下本征态实际上应该看起来有点
+eigenstate at that at that energy now
+this should actually look a little bit
+
+326
+00:31:12,120 --> 00:31:19,500
+从研究共价键时开始熟悉
+familiar from from when we studied the
+covalent bond when we studied the
+
+327
+00:31:19,500 --> 00:31:25,050
+共价键当电子在一个原子上时，我们有两个带能量的原子
+covalent bond we had two atoms with
+energy when the electron set on one
+
+328
+00:31:25,050 --> 00:31:28,530
+原子核中的能量不是，当坐在另一个原子核上时是
+nucleus this energy was not and when sat
+on the other nucleus energy was anat
+
+329
+00:31:28,530 --> 00:31:33,570
+然后我们将它们放在一起，我们得到了反键轨道反键， 
+then we brought them together and we got
+an antibonding orbital anti bond and we
+
+330
+00:31:33,570 --> 00:31:40,530
+在这里得到了一个比原来低一高的键合轨道键
+got a bonding orbital bond down here one
+lower and one higher than the original
+
+331
+00:31:40,530 --> 00:31:45,900
+能量，这正是我们在这里拥有的
+energies and that's exactly what we have
+over here we have a whole bunch of
+
+332
+00:31:45,900 --> 00:31:49,770
+我们以相同的能量将所有轨道合并在一起，我们允许
+orbitals all with the same energy we
+bring them together we allow the
+
+333
+00:31:49,770 --> 00:31:54,090
+电子来回跳动，一些能量下降，而一些
+electron to hop back and forth and some
+of the energies go down and some of the
+
+334
+00:31:54,090 --> 00:31:59,520
+能量上升，并散布成一个带，这确实有意义
+energies go up and it spreads out into
+into a band good does that make sense
+
+335
+00:31:59,520 --> 00:32:06,030
+是的，希望如此，以便传播到乐队中
+yes hopefully
+so the spreading into a band is coming
+
+336
+00:32:06,030 --> 00:32:15,990
+从电子来回跳来跳去，所以现在让我们想象一下
+from the hopping of the electron back
+and forth so right so let's imagine now
+
+337
+00:32:15,990 --> 00:32:20,490
+我们不仅有一个我们要考虑的电子，而且我们有
+that we have not just a single electron
+that we want to consider but we have
+
+338
+00:32:20,490 --> 00:32:30,480
+我们想要考虑许多电子，因为我们不可能有K个状态K 
+many electrons that we want to consider
+since we had n possible K States K
+
+339
+00:32:30,480 --> 00:32:42,050
+状态，但每个K状态每个K可以有两个旋转，可以有向上旋转或向下旋转
+States but each K state each K can have
+two spins can have spin up or spin down
+
+340
+00:32:42,050 --> 00:32:57,929
+这意味着总共有两个n个电子可以适合我，我可以适合乐队，所以很好
+that means there's two n total electrons
+can fit I can fit in band okay good so
+
+341
+00:32:57,929 --> 00:33:00,450
+我们填满所有的K State，您可以用任一旋转填满它们
+we fill up all the K State's you can
+fill them up with either spin
+
+342
+00:33:00,450 --> 00:33:05,310
+或自旋向下旋转，因此我们可以在该频带中总共容纳两个n个电子
+or spin-down so we can have a total of
+two n electrons fitting in that band
+
+343
+00:33:05,310 --> 00:33:14,280
+所以让我们首先考虑一个，我们将把它放在这里
+so let's first consider a we're going to
+put this maybe here mono valent mono
+
+344
+00:33:14,280 --> 00:33:26,160
+每个原子核具有一个电子的价原子，因此总共可以得到
+valent atom which has one electron per
+nucleus so that will give us a total of
+
+345
+00:33:26,160 --> 00:33:40,130
+总共n个电子，总共n个电子，并且一半填充，一半填充带
+n electrons total n electrons total and
+that half fills and half filled band
+
+346
+00:33:41,150 --> 00:33:48,480
+好吧，如果我们总共有n个电子或每个原子有1个电子，我们将充满
+okay so if we have n electrons total or
+one electron per atom we will fill up
+
+347
+00:33:48,480 --> 00:33:56,340
+乐队到这里的一半，现在已经充满了旋转和
+the band halfway up to here and this is
+filled now with both spin-up and
+
+348
+00:33:56,340 --> 00:34:03,720
+自旋降落的电子好了现在这张照片
+spin-down
+electrons alright now this picture of a
+
+349
+00:34:03,720 --> 00:34:14,370
+半满的带半满的带首先它具有一些有趣的特性
+half filled band half filled and it has
+some interesting properties the first
+
+350
+00:34:14,370 --> 00:34:26,340
+东西1有费米表面费米表面um那是什么
+thing 1 it has a Fermi surface has a
+Fermi surface surface um what's that
+
+351
+00:34:26,340 --> 00:34:30,659
+费米表面费米表面在这里是填充状态相遇的地方
+Fermi surface the Fermi surface is this
+point here where the filled States meet
+
+352
+00:34:30,659 --> 00:34:34,559
+空国家，这里是填充国与空国家交汇的地方
+
+353
+00:34:34,560 --> 00:34:38,340
+状态，所以它们只是两个，因为它是一维的，实际上只是两个
+States so they're just two since it's
+one dimensional it's actually just two
+
+354
+00:34:38,340 --> 00:34:44,219
+费米指出您在其中具有最高能量填充状态的两点
+Fermi points two points where where you
+have the highest energy filled state in
+
+355
+00:34:44,219 --> 00:34:50,429
+附近的空状态，因为它具有费米表面，所以有可能
+the empty state nearby because since it
+has a Fermi surface it's possible to
+
+356
+00:34:50,429 --> 00:34:54,689
+通过从费米正下方获取一些电子来进行低能激发
+
+357
+00:34:54,690 --> 00:35:00,810
+表面并将其激发到费米表面正上方，这意味着
+surface and exciting it to just above
+the Fermi surface okay and that means
+
+358
+00:35:00,810 --> 00:35:05,640
+就像我们在计算中得出的那样，热容量将与T成正比
+that the heat capacity is going to be
+proportional to T like we calculated in
+
+359
+00:35:05,640 --> 00:35:09,900
+ Sommerfeld理论，因为您可以很好地进行许多低能激发
+the Sommerfeld theory because you can
+make as many low energy excitations well
+
+360
+00:35:09,900 --> 00:35:13,830
+您可以进行许多低能量激发，而可能没有问题
+you can make lots of low energy
+excitations with no problem maybe less
+
+361
+00:35:13,830 --> 00:35:18,750
+的-是这是一种金属
+of the
+- is that this is a metal it conducts
+
+362
+00:35:18,750 --> 00:35:24,120
+用电，这可能很难想象，但让我们考虑一下
+electricity so that's maybe a little bit
+harder to to imagine but let's think
+
+363
+00:35:24,120 --> 00:35:29,760
+关于它的一秒钟在这里，我们所拥有的，我们已经在这里，我们有权利
+about it for a second here what we have
+is we have over here we have right
+
+364
+00:35:29,760 --> 00:35:34,980
+移动的电子也许我会给它们贴上标签，因为这些家伙在这里有
+moving electrons maybe I'll label them
+since this one these guys over here have
+
+365
+00:35:34,980 --> 00:35:41,340
+正KH横条K在右边，所以这些都是右移右移
+positive K H Bar K is to the right so
+these are right movers right movers over
+
+366
+00:35:41,340 --> 00:35:48,420
+在图的这一边，在这里，我们还剩下左动子
+here on this side of the diagram and
+over here we have left movers left
+
+367
+00:35:48,420 --> 00:35:57,600
+推动者在这一方面如此积极与消极动量，如果我们
+movers over on this side so positive
+versus negative momentum and if we if we
+
+368
+00:35:57,600 --> 00:36:01,890
+施加很少的能量消耗的电场，我们可以采取一些
+apply an electric field with very little
+energy cost we could take some of the
+
+369
+00:36:01,890 --> 00:36:06,900
+从这里过来的电子并将它们移动到这里，我们可能会过度填充
+electrons from over here and moving them
+to over here we could over populate the
+
+370
+00:36:06,900 --> 00:36:10,470
+右边稍微增加一点，并在下面填充一个左边
+right hand side by a little bit and
+under populate the left hand side by a
+
+371
+00:36:10,470 --> 00:36:14,610
+只需花费很少的精力即可完成操作，只需移动费米
+little bit it cost you only very little
+energy to do so just shift the Fermi
+
+372
+00:36:14,610 --> 00:36:22,950
+只是一点点的表面，然后就有净电流，所以金属可以移动
+surface just a little bit and then you
+have a net current so metal can shift
+
+373
+00:36:22,950 --> 00:36:40,140
+费米表面费米表面实际上以一种方式获得电流
+Fermi surface Fermi surface and get
+current in fact the way the way it
+
+374
+00:36:40,140 --> 00:36:43,680
+实际发生的是您应该认真考虑一下
+actually happens is that you should
+really think about it you apply an
+
+375
+00:36:43,680 --> 00:36:48,960
+电场和每个电子态在一个方向上加速一点点
+electric field and each electron state
+accelerates a little bit down in one
+
+376
+00:36:48,960 --> 00:36:53,310
+方向，因此每个电子都会稍微改变其动量，直到这些家伙
+direction so each electron changes his
+momentum a little bit until these guys
+
+377
+00:36:53,310 --> 00:36:58,170
+人口过剩，这些人人口不足，那么你就拥有了
+get overpopulated and these guys get
+underpopulated and then you have the net
+
+378
+00:36:58,170 --> 00:37:04,080
+当前，这的确是一种金属，并且确实非常频繁地
+current so this is indeed a metal and
+indeed it's very very frequently the
+
+379
+00:37:04,080 --> 00:37:11,970
+单价原子是金属的情况下，我的意思通常是简单的图片
+case that mono valent atoms are metals
+often I mean a simple picture should
+
+380
+00:37:11,970 --> 00:37:20,730
+总是真实的，但通常是一价单价物质
+always be true but often mono valent
+mono valent materials
+
+381
+00:37:20,730 --> 00:37:34,690
+我们的金属现在进一步让我们回到这里看这张照片的情况
+our metals now further let's come back
+over here to the case to this picture
+
+382
+00:37:34,690 --> 00:37:40,570
+想象一下，当我们充满乐队之后会发生什么，所以我们将
+and imagine what happens when we have
+fill the band okay so we're going to
+
+383
+00:37:40,570 --> 00:37:45,010
+拿这个乐队，我们要填充一半，现在我们在这里填充这些状态， 
+take this band we're going to half fill
+it now we filled these states here and
+
+384
+00:37:45,010 --> 00:37:50,380
+我们将这些状态留在此处为空，所以这是一个半满的带，现在是
+we've left these states up here empty so
+this is a half filled band now this is
+
+385
+00:37:50,380 --> 00:37:58,570
+与共价键非常相似，它的净能量较低
+very similar to the covalent bond that
+there is it's a lower net energy when
+
+386
+00:37:58,570 --> 00:38:04,180
+电子可以定位在两个原子核之间，因为它们正在填充
+the electrons can be localized between
+the two nuclei because they're filling
+
+387
+00:38:04,180 --> 00:38:07,570
+只要是键合轨道，只要您不必填充反键
+only the bonding orbital and as long as
+you don't have to fill the anti-bonding
+
+388
+00:38:07,570 --> 00:38:12,520
+轨道，所以在这里当您开始让电子来回跳动时
+orbital so here when you start letting
+the electrons hop back and forth they
+
+389
+00:38:12,520 --> 00:38:16,600
+与他们开始时的能量相比，可以降低他们的能量
+can lower their energy compared to this
+energy that they started with this
+
+390
+00:38:16,600 --> 00:38:21,460
+他们开始的原子能，所以
+atomic energy they started with so
+there's a tractive force between the
+
+391
+00:38:21,460 --> 00:38:24,790
+原子核试图使它们彼此靠近，从而使跳跃更加频繁
+nuclei trying to get them closer
+together trying to make the hopping much
+
+392
+00:38:24,790 --> 00:38:33,370
+更大，这就是形成金属之间的金属键
+greater so that is what's forming the
+metallic bond between forms metallic
+
+393
+00:38:33,370 --> 00:38:42,670
+键与原子核之间的金属键非常相似
+bond metallic bond between the nuclei
+this is very very similar to the
+
+394
+00:38:42,670 --> 00:38:47,140
+通过让电子离域来使它们共价键
+covalent bond by letting the the
+electrons delocalized by letting them
+
+395
+00:38:47,140 --> 00:38:51,670
+通过散布其波函数来降低其动能
+reduce their kinetic energy by spreading
+out their wave function it forms a
+
+396
+00:38:51,670 --> 00:38:55,990
+现在将原子核保持在一起的键合力
+bonding force that holds the nuclei
+together now
+
+397
+00:38:55,990 --> 00:38:59,890
+您知道在这张非常简单的图片中，我们遇到的问题与
+you know in this very simple picture we
+have the same problem that we had when
+
+398
+00:38:59,890 --> 00:39:03,730
+我们研究了共价键，通过这张图您可以期望
+we studied the covalent bond that by
+this picture you would expect that the
+
+399
+00:39:03,730 --> 00:39:06,880
+随着细胞核越来越近，细胞核将变得越来越幸福
+nuclei would be happier and happier and
+happier as they got closer and closer
+
+400
+00:39:06,880 --> 00:39:10,930
+在一起，一切都会下降到零距离，那不是
+together and everything would go down to
+sort of zero distance and that's not
+
+401
+00:39:10,930 --> 00:39:15,520
+正确，因为我们的某些近似值开始分解我们的其中一个
+true because some of our approximations
+start to break down one of our
+
+402
+00:39:15,520 --> 00:39:19,330
+开始分解的近似值是我们假设正交
+approximations that this starts to break
+down is that we assumed orthogonal
+
+403
+00:39:19,330 --> 00:39:22,930
+简化假设的轨道
+orbitals that simplifying assumption
+that bad assumption that we started with
+
+404
+00:39:22,930 --> 00:39:26,680
+另一个要分解的东西另一个分解的东西是我们
+another so that's going to break down
+another thing that breaks down is we
+
+405
+00:39:26,680 --> 00:39:30,220
+忘记了或多或少的核相互作用
+forgot about the nuclear nuclear
+interaction which is more or less
+
+406
+00:39:30,220 --> 00:39:34,840
+类似于共价键，这种情况或多或少被直接
+similar to the covalent bond it case is
+more or less canceled by the direct
+
+407
+00:39:34,840 --> 00:39:38,320
+相互作用，但是当原子核开始变得非常接近时， 
+interaction but when the nuclei start to
+get very close to each other that
+
+408
+00:39:38,320 --> 00:39:42,070
+取消不再有用，原子核开始收获全部，因此它们不再
+cancellation is no good anymore and the
+nuclei start to reap all so they're not
+
+409
+00:39:42,070 --> 00:39:45,730
+将会无限接近，但这大致是导致
+going to get infinitely close anymore
+but roughly this is what causes the
+
+410
+00:39:45,730 --> 00:39:51,490
+结合在金属中，这允许电子散布到许多
+bonding in metals it's allowing the
+electrons to spread out over many over
+
+411
+00:39:51,490 --> 00:40:00,250
+许多原子并降低其动能，好开心，好，所以我们可以
+many atoms and lower their kinetic
+energy okay happy okay good so we can
+
+412
+00:40:00,250 --> 00:40:07,120
+现在考虑一个更普遍的二价原子二价原子的情况
+now consider a more general case of
+divalent atoms divalent atoms I guess
+
+413
+00:40:07,120 --> 00:40:10,720
+更一般地说，这只是二价原子的不同情况，例如
+not more general this is just a
+different case divalent atoms like maybe
+
+414
+00:40:10,720 --> 00:40:19,150
+氦氦有两个电子在这种情况下，我们有两个电子和两个
+helium helium has two electrons in this
+case we have two and electrons and two
+
+415
+00:40:19,150 --> 00:40:30,340
+和本征态我们可以填充，所以我们得到了一个完全填充的地图填充带
+and eigenstates we can fill so we get an
+entirely filled map filled band well
+
+416
+00:40:30,340 --> 00:40:35,620
+好吧会发生什么，然后让我们回到这张照片，现在
+okay what happens then let's go back to
+this picture so now with a divalent
+
+417
+00:40:35,620 --> 00:40:41,410
+材料，我们完全充满了这个乐队，我们完全像这样充满
+material we completely fill this band
+and we completely fill like this
+
+418
+00:40:41,410 --> 00:40:47,830
+一切都充满了，在这种情况下，充满的乐队非常无聊
+everything is filled in this case the
+filled band has is very boring the
+
+419
+00:40:47,830 --> 00:40:57,460
+填充带是惰性的填充带可能是惰性的，如果您认为为什么惰性好
+filled band is inert filled band may be
+inert why is it inert well if you think
+
+420
+00:40:57,460 --> 00:41:01,930
+大约可以吸收罐，填充带是否有可能吸收任何能量， 
+about can absorb can is it possible for
+the filled band to absorb any energy the
+
+421
+00:41:01,930 --> 00:41:05,020
+答案是不，不能吸收任何能量，因为所有状态都已充满
+answer is no can't absorb any energy
+because all the states already filled
+
+422
+00:41:05,020 --> 00:41:08,680
+你不能将电子从一种状态来回转移到另一种状态
+you can't transfer an electron back and
+forth from one state to another to in
+
+423
+00:41:08,680 --> 00:41:11,680
+为了提供能量或带走能量，所有状态都充满了
+order to give an energy or take energy
+away all the states are filled it's a
+
+424
+00:41:11,680 --> 00:41:16,150
+独特的状态，没有什么可以移动的，它可以承载电流吗
+unique state there's nothing that can be
+moved around can it carry current it
+
+425
+00:41:16,150 --> 00:41:19,660
+无法承载电流，因为您无法更改左动子的数量
+can't carry current because you can't
+change the number of left movers versus
+
+426
+00:41:19,660 --> 00:41:27,600
+正确的搬运工他们都被装满了，所以没有热容量没有热容量
+right movers they're all filled so it
+has no heat capacity no heat capacity
+
+427
+00:41:29,580 --> 00:41:42,380
+没有电流，没有电流，也没有金属结合
+carries no current carries no current
+and it also has no metallic bonding
+
+428
+00:41:42,380 --> 00:41:50,880
+这又与我们在滑雪时的情况非常相似
+and this is again very similar to what
+we had in the case of the of the ski
+
+429
+00:41:50,880 --> 00:41:55,530
+当我们考虑两个氦原子之间可能的键合
+when we considered possible bonding
+between the helium atom between two
+
+430
+00:41:55,530 --> 00:41:58,410
+氦原子（如果必须填充键合轨道和反键） 
+helium atoms if you have to fill the
+bonding orbital and the anti-bonding
+
+431
+00:41:58,410 --> 00:42:04,380
+轨道，您不会获得任何能量，因此，如果我们有一个充满的频段， 
+orbital you don't gain any energy so
+here if we have a filled band you had
+
+432
+00:42:04,380 --> 00:42:07,770
+两个您填充较低的能量状态，但您必须填充较高的能量状态
+two you fill the lower energy states but
+you had to fill the higher energy states
+
+433
+00:42:07,770 --> 00:42:16,440
+也是如此，所以跳楼再也不会给你带来任何好处
+too so it doesn't gain you anything to
+have the the hopping go up anymore okay
+
+434
+00:42:16,440 --> 00:42:27,329
+那么你的状况怎么样呢，例如在振动变化的情况下
+so how are you doing okay good so as in
+the case of the vibrational change that
+
+435
+00:42:27,329 --> 00:42:32,640
+我们本周早些时候研究过的情况还可能是
+we we studied earlier this week you can
+also have a situation where not every
+
+436
+00:42:32,640 --> 00:42:37,440
+原子或您正在考虑的每个轨道都不相同，所以现在让我们
+atom or not every orbital you're
+considering is the same so let's now
+
+437
+00:42:37,440 --> 00:42:44,640
+考虑一种情况，其中有两个轨道，每个单位两个不同的轨道
+consider a case where there are two
+orbitals two different orbitals per unit
+
+438
+00:42:44,640 --> 00:42:51,510
+细胞并且可以杀死它可以以两种不同的方式或几种不同的方式发生
+cell and this can kill can can occur in
+two different ways or several different
+
+439
+00:42:51,510 --> 00:42:55,650
+一种可能的方式是在晶胞中有两个不同的原子
+ways one possible way is that you have
+two different atoms in the unit cell and
+
+440
+00:42:55,650 --> 00:42:58,980
+他们有不同类型的轨道，其中有氯原子中的钠
+they have different types of orbitals in
+them sort of a sodium in a chlorine atom
+
+441
+00:42:58,980 --> 00:43:03,599
+或像这样的情况在单元格中另一种可能的情况是
+or something like that in a unit cell
+another possible case is you have one
+
+442
+00:43:03,599 --> 00:43:08,069
+原子，但该原子上有两个不同的轨道，例如S轨道和ap轨道或
+atom but two different orbitals on that
+atom like an S orbital and ap orbital or
+
+443
+00:43:08,069 --> 00:43:13,680
+你想考虑的一个和两个轨道
+one s orbital and the 2's orbital that
+you want to consider so without actually
+
+444
+00:43:13,680 --> 00:43:21,180
+详细解决此问题可以告诉您什么频谱
+solving this problem in in detail can
+show you what the what the spectrum
+
+445
+00:43:21,180 --> 00:43:24,240
+看起来像散布看起来很像
+looks like what the dispersion looks
+like it's very similar to the case of
+
+446
+00:43:24,240 --> 00:43:31,170
+振动链，所以这里的K是这里的PI，这里是负的PI是这里的PI 
+the vibrational chain so here's K here's
+PI over a here's minus PI over a here's
+
+447
+00:43:31,170 --> 00:43:40,920
+ e，您会得到一个类似于我们的声学模式的低能带
+e and you get a low energy band
+analogous to the acoustic mode that we
+
+448
+00:43:40,920 --> 00:43:45,750
+进入振动链，您会获得类似于
+got in the vibrational chain and you get
+a high energy band analogous to the
+
+449
+00:43:45,750 --> 00:43:48,720
+我们在振动链中拥有的光学模式
+optical mode that we had in the
+vibrational chain okay that's supposed
+
+450
+00:43:48,720 --> 00:43:53,950
+看起来很对称道歉，所以现在我们有两个
+to look symmetric apologize about that
+so now we have two
+
+451
+00:43:53,950 --> 00:43:58,900
+能量带较低的能量带和较高的能量带我们也可以
+energy bands the lower energy band and a
+higher energy band we could also if we
+
+452
+00:43:58,900 --> 00:44:07,089
+想要这是缩小区域方案缩小区域方案，我们还可以
+want this is the reduced zone scheme
+reduced zone scheme and we could also
+
+453
+00:44:07,089 --> 00:44:13,980
+画在扩展区方案中，我实际上将在这里进行
+draw it in the extended zone scheme
+which I which I'll do over here actually
+
+454
+00:44:17,099 --> 00:44:27,849
+扩展区域方案区域方案我们可以画出相同的东西
+extended zone scheme zone scheme we
+could draw the same thing which would
+
+455
+00:44:27,849 --> 00:44:41,290
+看起来像这样好吧II，这里的PI等于这里的负PI，这里的两个PI 
+look kind of like this okay II here's PI
+over a here's minus PI over a here's two
+
+456
+00:44:41,290 --> 00:44:47,440
+在-2上的PI在a上的PI，扩展区域方案的思想是
+PI over a here's -2 PI over a and the
+idea of the extended zone scheme is to
+
+457
+00:44:47,440 --> 00:44:58,810
+分散乐队到结核菌素区域，所以这是第一个区域，首先是BZ 
+spread out the bands into tuberin zones
+so this is the first zone first BZ here
+
+458
+00:44:58,810 --> 00:45:09,280
+第二个在这里，第二个BZ在这里，所以我所做的就是
+and the second is out here and out here
+second BZ out here okay so all I did was
+
+459
+00:45:09,280 --> 00:45:14,740
+我拿走了这件作品，并把它移到了这里，移到了两个pi的上方。 
+I took this piece and moved it over here
+by two pi over a and this piece and
+
+460
+00:45:14,740 --> 00:45:18,849
+由两个PI移到此处，因此每个可能的K只有一个
+moved over here by two PI over a such
+that each possible K there's only one
+
+461
+00:45:18,849 --> 00:45:25,660
+一种激励，无论哪种情况，您都应该在
+one excitation and in either case your
+this is supposed to line up right at the
+
+462
+00:45:25,660 --> 00:45:29,980
+棕色区域边界此间隙进入此处该间隙进入此处
+brown zone boundary this gap comes in
+here this gap comes in here at the
+
+463
+00:45:29,980 --> 00:45:35,140
+青铜自己的边界请注意，区域边界处有一个间隙
+bronze own boundary notice that there's
+a gap right at the zone boundary and
+
+464
+00:45:35,140 --> 00:45:38,349
+如果您将它们放在一起并斜视一下，这不是偶然的
+it's not coincidental that if you sort
+of put this together and squint your
+
+465
+00:45:38,349 --> 00:45:43,720
+眼睛看起来像一个整体抛物线，那么自由电子可能具有
+eyes this looks like one overall
+parabola then a free electron might have
+
+466
+00:45:43,720 --> 00:45:49,170
+但是您已经在区域边界处打开了空白，我们将解释为什么
+but you've opened up gaps at the zone
+boundary and we'll explain why that is
+
+467
+00:45:49,170 --> 00:45:55,390
+在学期后期，您可能会想到的一件事是
+later on in the term now one thing that
+you might consider here is suppose
+
+468
+00:45:55,390 --> 00:46:04,059
+假设晶胞具有三个电子
+suppose the unit cell unit cell has
+three electrons
+
+469
+00:46:04,059 --> 00:46:11,979
+里面有三个电子那么会发生什么然后你填满整个
+has three electrons in it well then what
+happens then you fill up the entire
+
+470
+00:46:11,979 --> 00:46:17,259
+带有自旋和自旋电子的低能带，你有一半的
+lower band with both spin-up and
+spin-down electrons and you have half of
+
+471
+00:46:17,259 --> 00:46:23,499
+上面的乐队被填满，这里的一半乐队被填满
+the upper band filled up to here and
+half of the upper band here is filled
+
+472
+00:46:23,499 --> 00:46:27,219
+填满了上部频段的一半，所以您填满了下部频段，而​​它填充了一半
+filled up half of the upper band so you
+filled the lower band and it filled half
+
+473
+00:46:27,219 --> 00:46:31,599
+您会注意到我们已经完全填满了较低频段
+of the upper band well you'll notice
+that we have entirely fill lower band
+
+474
+00:46:31,599 --> 00:46:40,359
+较低的频带是惰性的较低的频带是惰性的，我们只需要担心
+the lower band is inert lower band is
+inert and we only need to worry if we're
+
+475
+00:46:40,359 --> 00:46:45,160
+考虑运输特性或没有特定热量的热特性
+thinking about transport properties or
+heat properties that no specific heat
+
+476
+00:46:45,160 --> 00:46:48,640
+热容量之类的，我们只需要担心上频带
+heat capacity something like that we
+only have to worry about the upper band
+
+477
+00:46:48,640 --> 00:46:51,579
+因为较低的频段至少是惰性的，除非您给它一个
+because the lower band is completely
+inert at least unless you give it an
+
+478
+00:46:51,579 --> 00:46:55,209
+激发下层频段到上层频段的巨大能量
+enormous energy to excite things out of
+the lower band and up to the upper band
+
+479
+00:46:55,209 --> 00:47:00,819
+能量很高，因为这些间隙通常很大，您可以忽略
+very high energy because these gaps are
+typically very large you can just ignore
+
+480
+00:47:00,819 --> 00:47:05,289
+整个较低的频段，只担心较高频段的电子
+the lower band altogether and only worry
+about the electrons in the upper band
+
+481
+00:47:05,289 --> 00:47:08,469
+但这实际上是这些问题之一的答案之一
+but this is actually this is actually
+the answer to one of those questions one
+
+482
+00:47:08,469 --> 00:47:14,469
+我们在本学期早期写下的这些难题中
+of these puzzles that we wrote down
+earlier in the term and the puzzle from
+
+483
+00:47:14,469 --> 00:47:18,160
+这个学期的早期是为什么您有时不必担心
+earlier in the term was why is it that
+you sometimes don't have to worry about
+
+484
+00:47:18,160 --> 00:47:23,259
+核心电子如果电子在核心轨道中，为什么可以丢
+core electrons if electrons are in core
+orbitals why is it you can just throw
+
+485
+00:47:23,259 --> 00:47:26,679
+当你数电子时，它们就消失了。你知道钠只计算一个
+them away when you're counting electrons
+you know for sodium you only count one
+
+486
+00:47:26,679 --> 00:47:31,660
+尝试时，每个原子每个单位的电子，而不是每个原子11个电子
+electron per unit per per atom and not
+11 electrons per atom when you're trying
+
+487
+00:47:31,660 --> 00:47:35,890
+计算金属密度的原因是因为基本上
+to calculate the metallic density and
+the reason is because basically those
+
+488
+00:47:35,890 --> 00:47:40,299
+其他电子完全充满了能带，能带变得惰性， 
+other electrons are completely filling
+bands and the band's become inert and
+
+489
+00:47:40,299 --> 00:47:43,929
+只是你知道不是像热容这样有趣的物理学的一部分
+just you know aren't part of the
+interesting physics like heat capacity
+
+490
+00:47:43,929 --> 00:47:52,209
+然后在这里进行一些其他评论，所以我们得到的是
+and and conduction a couple more
+comments here so what we've had is that
+
+491
+00:47:52,209 --> 00:47:58,029
+有这些重要原理是半满的带子是金属
+have these sort of important principles
+is it half filled band band is a metal
+
+492
+00:47:58,029 --> 00:48:07,450
+通常是金属，通常是金属，这是一个电子
+usually a metal usually metal
+and and this is for one electron for
+
+493
+00:48:07,450 --> 00:48:12,310
+晶胞或实际上每个晶胞有任何奇数个电子，因此它们将是
+unit cell or actually any odd number of
+electrons per unit cell so they'd be a
+
+494
+00:48:12,310 --> 00:48:19,150
+每个晶胞电子的奇数个奇数，而偶数个电子
+odd odd number of electrons per unit
+cell whereas an even number of electrons
+
+495
+00:48:19,150 --> 00:48:26,260
+每个单位电池的偶数个单位电池的电子数
+per unit cell even number of electrons
+per unit cell per unit cell you might
+
+496
+00:48:26,260 --> 00:48:34,900
+认为这是迈克·马累（Mike Male）的权利，可能是绝缘体，因为您会
+think that this is Mike male right might
+be be an insulator because you would
+
+497
+00:48:34,900 --> 00:48:41,740
+完全充满乐队，然后你只是一个惰性的情况，但它变成
+completely fill bands and then you have
+just an inert situation however it turns
+
+498
+00:48:41,740 --> 00:48:46,600
+在很多情况下，每个电子有偶数个电子
+out that there are many many cases where
+you have an even number of electrons per
+
+499
+00:48:46,600 --> 00:48:51,550
+晶胞，但它是金属，可能发生的原因是如果您
+unit cell and yet it's a metal and the
+reason that that can occur is if you
+
+500
+00:48:51,550 --> 00:48:55,870
+具有如下所示的波段结构，所以如果您更复杂
+have a band structure that looks as
+follows so if you're more complicated
+
+501
+00:48:55,870 --> 00:49:02,620
+像这样的带结构，所以这里是K，这里是PI，这是这里的负号
+band structure that looks like this so
+here's a K here's PI over a here's minus
+
+502
+00:49:02,620 --> 00:49:08,890
+ PI在上，这是这样的较低频段，然后想象我们有一个
+PI over a and here's the lower band like
+this and then imagine that we have an
+
+503
+00:49:08,890 --> 00:49:15,580
+高端频段可以做到这一点，所以您可以分散更复杂的模型
+upper band that does this okay so it's
+dispersion more complicated models you
+
+504
+00:49:15,580 --> 00:49:19,240
+可以有一个看起来像这样的色散，特别是上频段滑移
+can have a dispersion that looks like
+this in particular the upper band slips
+
+505
+00:49:19,240 --> 00:49:24,220
+低于较低带的下端的顶部，所以如果我每个单元有两个电子
+below the top of the lower of the lower
+band so if I have two electrons per unit
+
+506
+00:49:24,220 --> 00:49:33,550
+实际上，您可以充满整个较低的频段，但能量较低
+cell in fact you could fill the entire
+lower band but it's lower energy to
+
+507
+00:49:33,550 --> 00:49:39,790
+部分填充该波段并部分填充该波段，那会
+partially fill this band and partially
+fill this band and that would that would
+
+508
+00:49:39,790 --> 00:49:43,630
+每个晶胞组成两个电子，而不是完全填充较低的
+make up your two electrons per unit cell
+instead of entirely filling the lower
+
+509
+00:49:43,630 --> 00:49:47,530
+乐队，而在这些情况下将这些国家留空
+band and leaving these States empty in
+that case you have two partially filled
+
+510
+00:49:47,530 --> 00:49:50,950
+乐队，而不是一个完全填充的乐队，因为你有两个部分
+bands instead of one completely filled
+bands and since you have two partially
+
+511
+00:49:50,950 --> 00:49:54,730
+填充的频段，那么您在这里具有低能量激发和低能量
+filled bands you then have low energy
+excitations here and low energy
+
+512
+00:49:54,730 --> 00:49:58,840
+激发在这里，所以这个东西实际上变成了金属，所以有
+excitations here and so this thing
+actually becomes a metal so there are
+
+513
+00:49:58,840 --> 00:50:03,370
+很多情况下，例如钙，钙甚至是金属
+lots of cases of that things like
+calcium has calcium is a metal even
+
+514
+00:50:03,370 --> 00:50:06,460
+尽管它每个晶胞有两个电子，而这正是这种物理学
+though it has two electrons per unit
+cell and it's exactly this physics
+
+515
+00:50:06,460 --> 00:50:10,150
+这两个频段实际上正在穿越能量，所以
+that's occurring the two bands are
+actually crossing an energy so instead
+
+516
+00:50:10,150 --> 00:50:14,890
+完全填满一个乐队，你有两个部分填满的乐队，好吧，我想
+of completely filling one band you have
+two partially filled bands okay I think
+
+517
+00:50:14,890 --> 00:50:18,780
+也许我最好停在那里，我你明天猜猜
+maybe I better stop there and I
+you I guess tomorrow
+
+518
+00:50:18,780 --> 00:50:24,359
+ [掌声] 
+[Applause]
+

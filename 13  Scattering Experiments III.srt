@@ -1,0 +1,3664 @@
+1
+00:00:00,000 --> 00:00:05,520
+好吧，我想我们可以开始了，现在可以开始了欢迎回到13号
+all right I guess we can get we can get
+started now welcome back it's the 13th
+
+2
+00:00:05,520 --> 00:00:09,780
+上次我们停下来谈话时的浓缩物质课程演讲
+lecture of the condensed matter course
+when last we left off we were talking
+
+3
+00:00:09,780 --> 00:00:15,509
+关于散射的基本实验是，您有一些样品，在
+about scattering the basic experiment is
+you have some sample you have a wave at
+
+4
+00:00:15,509 --> 00:00:19,289
+一些波矢量K，您将其发送到样本中，然后散开
+some wave vector K that you send into
+the sample and then it's scattered off
+
+5
+00:00:19,289 --> 00:00:24,150
+到一些波向量K Prime上，并测量多少
+to some wave vector K Prime and by
+measuring how much and in what
+
+6
+00:00:24,150 --> 00:00:27,960
+您有分散的方向，您可以推断出什么
+directions you have scattering you're
+able to deduce something about what's
+
+7
+00:00:27,960 --> 00:00:31,980
+实际上，在样本中，我们对这些类型的
+actually in the sample a couple of
+things that we know about these type of
+
+8
+00:00:31,980 --> 00:00:35,040
+首先进行散射实验，以便从k到k进行散射
+scattering experiments first of all in
+order to get scattering from k to k
+
+9
+00:00:35,040 --> 00:00:40,200
+素数必须有K减去K素数等于倒数晶格向量G和
+prime you must have K minus K prime
+equal a reciprocal lattice vector G and
+
+10
+00:00:40,200 --> 00:00:47,520
+我们在上一讲中得出的等效条件是布拉格条件
+we derived in the last lecture that's
+equivalent to be Bragg condition to be
+
+11
+00:00:47,520 --> 00:00:51,270
+正弦theta等于和lambda换句话说，因为倒易晶格
+sine theta equals and lambda in other
+words since the reciprocal lattice
+
+12
+00:00:51,270 --> 00:00:54,719
+向量与晶格平面族正交
+vector is orthogonal to a family of
+lattice planes what you're actually
+
+13
+00:00:54,719 --> 00:01:01,309
+从具有晶格面间距D的衍射光栅上衍射
+getting is diffraction off a diffraction
+grating with lattice plane spacing D
+
+14
+00:01:01,309 --> 00:01:06,630
+正交于该向量G的散射强度
+orthogonal to that vector G the
+intensity of scattering at any
+
+15
+00:01:06,630 --> 00:01:10,950
+倒易晶格矢量与结构因子成正比
+reciprocal lattice vector is
+proportional to the structure factor of
+
+16
+00:01:10,950 --> 00:01:15,270
+ d平方，其中结构因子是散射的傅立叶变换
+d squared where the structure factor is
+the Fourier transform of the scattering
+
+17
+00:01:15,270 --> 00:01:19,409
+单位晶格中的电位，因此该强度使您
+potential in the unit cell so this
+intensity gives you some amount of
+
+18
+00:01:19,409 --> 00:01:24,479
+有关单位单元中实际存在的信息的信息
+information about what's actually in the
+unit cell now how you actually do this
+
+19
+00:01:24,479 --> 00:01:28,080
+实验要复杂一些，可以采用几种方法
+experiment is a little more complicated
+there's several methods one can go about
+
+20
+00:01:28,080 --> 00:01:32,909
+有第一种方法是最好的方法，但也是最困难的方法
+there is the first method which is the
+best method but also the hardest method
+
+21
+00:01:32,909 --> 00:01:39,780
+最佳但最困难的方法，我将仅就最佳方法进行简要讨论，但
+best but hardest which I'll discuss only
+very briefly for the best method but
+
+22
+00:01:39,780 --> 00:01:47,070
+最困难的方法是使用单晶硅
+also the hardest method is to use a
+single crystal single crystal so single
+
+23
+00:01:47,070 --> 00:01:51,119
+晶体看起来像这样，这是钠的华丽单晶
+crystals look like this this is a
+gorgeous single crystal of sodium
+
+24
+00:01:51,119 --> 00:01:57,509
+氯化物一大块没有任何缺陷的材料现在是什么
+chloride a big single piece of the
+material without any defects now what
+
+25
+00:01:57,509 --> 00:02:00,479
+你会发现，所以你把你的单晶放在你的路径
+you'll find so you take your single
+crystal you put it in the path of your
+
+26
+00:02:00,479 --> 00:02:05,640
+你的波浪，你寻找我们的波浪从它散落的东西，你
+of your wave and you look for for our
+waves being scattered off of it what you
+
+27
+00:02:05,640 --> 00:02:08,568
+发现的是，如果您付钱拿单晶，您可以任意放
+find is if you pay take your single
+crystal you put it in some arbitrary
+
+28
+00:02:08,568 --> 00:02:13,590
+在您的光束前方定向，以获得最大定向
+orientation in front of your your beam
+here for a most orientation
+
+29
+00:02:13,590 --> 00:02:17,340
+您根本不会有任何分散，换句话说，您将无法对齐
+you won't get any scattering at all in
+other words you will not manage to align
+
+30
+00:02:17,340 --> 00:02:21,269
+正好成直角的晶格族
+the families of lattice planes just at
+the right angle such that the Bragg
+
+31
+00:02:21,269 --> 00:02:25,319
+条件是实际满足的，所以为了得到任何散射
+condition is actually satisfied so in
+order to actually get any scattering
+
+32
+00:02:25,319 --> 00:02:31,920
+您需要做的是旋转晶体旋转晶体
+what you need to do is to rotate the
+crystal rotate the crystal another way
+
+33
+00:02:31,920 --> 00:02:37,860
+得到散射是改变波长，非常λ做一个或
+to get scattering is to vary the
+wavelengths very lambda do one or the
+
+34
+00:02:37,860 --> 00:02:42,150
+其他，然后在晶体的某个角度或在波的某个值
+other and then at some angle of the
+crystal or at some value of the wave
+
+35
+00:02:42,150 --> 00:02:45,630
+得到散射的长度，然后写下获得散射的方向
+length you get scattering you write down
+in which direction to get the scattering
+
+36
+00:02:45,630 --> 00:02:48,810
+您可以测量散射的强度，并可以推断出很多
+you measure the intensity of the
+scattering and you can deduce a lot of
+
+37
+00:02:48,810 --> 00:02:53,610
+有关结构因素的信息，因此有关
+information about the structure factor
+and therefore about the structure of the
+
+38
+00:02:53,610 --> 00:02:58,530
+现在，我们实际上不会讨论如何在任何情况下分析此类数据
+crystal now we're not actually going to
+go into how you analyze such data in any
+
+39
+00:02:58,530 --> 00:03:02,220
+本课程中的细节，而我们不打算这样做的原因是因为
+detail in this course and the reason
+we're not going to do it is because this
+
+40
+00:03:02,220 --> 00:03:06,390
+方法很少使用，之所以很少使用是因为
+method is very rarely used and the
+reason it's very rarely used is because
+
+41
+00:03:06,390 --> 00:03:10,890
+这实际上是最难的事情，因为这很难，因为
+it's actually the hardest thing to do
+the reason it's hard is because almost
+
+42
+00:03:10,890 --> 00:03:15,120
+无一例外的材料不喜欢形成漂亮的大晶体钠
+without exception materials don't like
+to form nice big crystals sodium
+
+43
+00:03:15,120 --> 00:03:17,790
+氯化物是一个建议，你有这些美丽的钠大晶体
+chloride is a suggest and you have these
+beautiful big crystals of sodium
+
+44
+00:03:17,790 --> 00:03:21,540
+氯化石英可以制成漂亮的大晶体，您知道您可能可以制成漂亮的晶体
+chloride quartz makes nice big crystals
+you know you can probably make a nice
+
+45
+00:03:21,540 --> 00:03:25,019
+大块的糖晶体，我的意思是，所以有几种材料
+big crystal of sugar something I mean so
+there are a couple of materials that you
+
+46
+00:03:25,019 --> 00:03:28,590
+可以形成漂亮的大晶体，但是如果您煮一些，大多数材料就不会
+can get to form a nice big crystals but
+most materials don't if you cook up some
+
+47
+00:03:28,590 --> 00:03:33,180
+您实验室中的新材料，或者您通常会在自然界中发现一些新材料
+new material in your laboratory or you
+find some new material in nature usually
+
+48
+00:03:33,180 --> 00:03:37,680
+它不是结晶它不会经常形成大晶体它是粉末甚至是
+it's not crystalline it doesn't form big
+crystals frequently it's powder or even
+
+49
+00:03:37,680 --> 00:03:40,950
+更糟糕的是，您可以拥有所谓的多晶，所以这是
+worse than that you can have what's
+known as polycrystalline so this is a
+
+50
+00:03:40,950 --> 00:03:44,760
+多晶材料的图片，其中有微小的小晶体
+picture of a polycrystalline material
+where you have tiny little crystal
+
+51
+00:03:44,760 --> 00:03:49,139
+大约一微米大小的灯，所以这里有一个小水晶
+lights which are about on the size of a
+micron so there's a little crystal here
+
+52
+00:03:49,139 --> 00:03:52,620
+一点水晶般清晰，那些水晶的轴方向错误
+a little crystal clear and those
+crystals have their axes Mis oriented
+
+53
+00:03:52,620 --> 00:03:55,410
+彼此之间，它们都被弄脏了
+with respect to each other and they're
+all sort of smushed together you can
+
+54
+00:03:55,410 --> 00:03:59,519
+认为它就像是粘在一起的微小小晶体粉末， 
+think of it as like a powder of tiny
+little crystals all stuck together and
+
+55
+00:03:59,519 --> 00:04:03,450
+通常，当您制作材料时，其外观如下所示： 
+typically materials look like this when
+you make them it's very very difficult
+
+56
+00:04:03,450 --> 00:04:06,780
+需要非常好的化学家和非常好的材料科学家
+it takes a very good chemist and very
+good material scientist to turn
+
+57
+00:04:06,780 --> 00:04:11,430
+看起来像这样的东西看起来像这样的东西
+something that looks like this into
+something that looks like this so most
+
+58
+00:04:11,430 --> 00:04:14,639
+在做一个实验的时候人们正在做某事
+of the time when one is doing the
+experiment one is working with something
+
+59
+00:04:14,639 --> 00:04:18,480
+看起来像是多晶的，所以两个
+that looks like this it's
+polycrystalline so two
+
+60
+00:04:18,480 --> 00:04:22,560
+要使用多晶样品获取数据，您可以使用所谓的德拜
+to take data on a polycrystalline sample
+you use what's known as the Debye
+
+61
+00:04:22,560 --> 00:04:27,620
+ Scherer提出的Scherer方法
+Scherer method due by Scherer
+
+62
+00:04:27,950 --> 00:04:33,560
+作者是来自Debye振动和固体理论的人Scherer 
+the by is the same guy from the Debye
+theory of vibrations and solids Scherer
+
+63
+00:04:33,560 --> 00:04:39,330
+显然是别人，德拜警长法也叫火药
+someone else obviously and the Debye
+sheriff method is also known as powder
+
+64
+00:04:39,330 --> 00:04:50,580
+衍射衍射，因为您可以使用多种材料的粉末
+diffraction diffraction because you can
+use a powder of the material lots of
+
+65
+00:04:50,580 --> 00:04:54,720
+微小的小小的水晶灯在粉末中，你可以把它放在你的
+tiny tiny little crystal lights in a
+powder and you can put that in your
+
+66
+00:04:54,720 --> 00:04:57,690
+采样并从中获取数据，现在就真正理解它了
+sample and get data out of it and
+actually make sense of it now the
+
+67
+00:04:57,690 --> 00:05:01,770
+粉末衍射或在其上进行衍射的思想的一般原理
+general principle of the idea of powder
+diffraction or doing diffraction on
+
+68
+00:05:01,770 --> 00:05:07,020
+多晶样品是如果您要向您的产品中发送电波
+polycrystalline samples is if you're
+sending a wave into your into your
+
+69
+00:05:07,020 --> 00:05:11,070
+水晶在这里，如果你想像了一秒钟，你会得到一个大生物，一个大单身
+crystal here if you imagine for a second
+you got a big critter a big single
+
+70
+00:05:11,070 --> 00:05:14,750
+晶体，如果有任何晶体，您可以旋转该晶体
+crystal and you could rotate that single
+crystal around if there was any
+
+71
+00:05:14,750 --> 00:05:18,390
+他旋转单晶的方向，你会得到
+direction in which he rotated that
+single crystal and you could get
+
+72
+00:05:18,390 --> 00:05:22,770
+以该角度衍射出来，然后在粉末中的某处
+diffraction out at this angle then
+somewhere in your powder somewhere in
+
+73
+00:05:22,770 --> 00:05:26,790
+您的多晶样品的轴将在其他方向正确定向
+your polycrystalline sample the axes
+will be correctly oriented in other
+
+74
+00:05:26,790 --> 00:05:30,630
+多晶材料或粉末代表一切可能
+words the poly crystal material or the
+powder represents every possible
+
+75
+00:05:30,630 --> 00:05:35,430
+材料的方向，因此在材料的某个地方会有情况
+orientation of the material so somewhere
+in your material you'll have a situation
+
+76
+00:05:35,430 --> 00:05:40,200
+您的晶格平面族以正确的方式按顺序对齐
+where your family of lattice planes is
+aligned just in the right way in order
+
+77
+00:05:40,200 --> 00:05:45,180
+如果有任何方向可以做到从K到K Prime的衍射
+to get diffraction from K to K Prime if
+there's any orientation that will do it
+
+78
+00:05:45,180 --> 00:05:49,320
+您会在您的某处找到正确方向的水晶灯
+you'll find that crystal light with the
+right orientation somewhere in your
+
+79
+00:05:49,320 --> 00:05:51,960
+样本好吧，这是我们要遵循的一般原则
+sample okay
+that's the general principle we're gonna
+
+80
+00:05:51,960 --> 00:05:56,760
+如果你能在这个方向上得到一些衍射
+live by now if if you can get
+diffraction in this direction with some
+
+81
+00:05:56,760 --> 00:06:01,110
+通过这种方式平行排列的晶格平面，您还可以想象
+lattice planes that are sort of lined up
+parallel this way you can also imagine
+
+82
+00:06:01,110 --> 00:06:05,880
+如果您以这种方式排列晶格平面，则可能会衍射出来
+that if you lined up your lattice planes
+this way you could get diffraction out
+
+83
+00:06:05,880 --> 00:06:10,920
+这样，实际上您可以想象绕着旋转水晶灯
+this way and in fact you can imagine
+rotating those crystal lights around the
+
+84
+00:06:10,920 --> 00:06:16,370
+入射轴，您意识到可以获得整个衍射锥
+incoming axis and you realize that you
+can get a whole cone of diffraction
+
+85
+00:06:16,370 --> 00:06:20,730
+如果有可以分散的方向，可以向外旋转
+outwards if there's any direction that
+you can scatter you can rotate that
+
+86
+00:06:20,730 --> 00:06:25,650
+进入通道周围的水晶灯，并得到圆锥形的出射波
+crystal light around the incoming access
+and get a get a cone of outgoing waves
+
+87
+00:06:25,650 --> 00:06:30,870
+因此，实验实际在设置中的外观就像这样
+so the way the experiment actually looks
+in a set up is kind of like this there's
+
+88
+00:06:30,870 --> 00:06:33,420
+入射的X射线有多晶和粉末
+an incident x-ray
+there's a poly crystal and a powder
+
+89
+00:06:33,420 --> 00:06:38,910
+粉末状的标本在这里，然后您得到这些圆锥形的出射波， 
+powdered specimen here and then you get
+these cones of outgoing waves which you
+
+90
+00:06:38,910 --> 00:06:43,290
+然后尝试衡量一下​​，请记住在此处标记了该标记，这样您就不会忘记
+then try to measure remember that the
+it's marked here so you don't forget the
+
+91
+00:06:43,290 --> 00:06:48,420
+总偏转角为2θ非常重要
+total deflection angle is 2 theta very
+important a common source of source of
+
+92
+00:06:48,420 --> 00:06:52,470
+错误和2 theta可以从零到任何地方，这意味着它根本不会分散
+error and 2 theta can go anywhere from
+zero meaning it's not scattered at all
+
+93
+00:06:52,470 --> 00:06:58,290
+到180度，这意味着它已经像以前那样直接反向散射
+to 180 degrees meaning it's directly
+backscattered now the way one used to
+
+94
+00:06:58,290 --> 00:07:02,610
+测量它是您将采用这种圆形环境，并且您将
+measure it is you would take this sort
+of round environment and you would line
+
+95
+00:07:02,610 --> 00:07:06,870
+里面装有相纸，您只需将相纸曝光
+the inside with photographic paper and
+you just expose the photographic paper
+
+96
+00:07:06,870 --> 00:07:12,450
+看到X射线，您会看到这些圆锥形信号发出
+to the x-rays and you can see these nice
+conical signals coming out for these
+
+97
+00:07:12,450 --> 00:07:17,040
+从您的多晶样品中得出各种不同的锥体
+various different cones coming out like
+this from your polycrystalline sample
+
+98
+00:07:17,040 --> 00:07:22,380
+但在现代，不使用相纸的数量更多
+but in modern days photographic paper is
+not used it's much more it's much more
+
+99
+00:07:22,380 --> 00:07:25,680
+方便，实际上更准确，使用起来更灵敏
+convenient and actually much more
+accurate and much more sensitive to use
+
+100
+00:07:25,680 --> 00:07:29,220
+半导体探测器，因此通常是您实际从样品中得到的
+semiconductor detectors so it's usually
+what you actually get out of your sample
+
+101
+00:07:29,220 --> 00:07:33,810
+现在您的实验中出现的是这样的情节， 
+out of your experiment now is a plot
+that looks like this where what's
+
+102
+00:07:33,810 --> 00:07:36,800
+绘制在底部的是散射角和强度
+plotted across the bottom is a
+scattering angle and the intensity
+
+103
+00:07:36,800 --> 00:07:41,160
+垂直，所以您会看到这里有一个二十度左右的峰
+vertically so you'll see there's a peak
+here at twenty-something degrees another
+
+104
+00:07:41,160 --> 00:07:44,250
+在30度左右达到峰值，可能与此环相对应，然后
+peak at 30 something degrees which might
+correspond to this ring and then that
+
+105
+00:07:44,250 --> 00:07:48,480
+响等等，这就是我们要花费他们的数据类型
+ring and so forth and this is the kind
+of data that we're going to spend their
+
+106
+00:07:48,480 --> 00:07:53,820
+时间分析还可以，所以这些都是经典问题的一种
+time analyzing okay so these are sort of
+sort of a classic type of question for
+
+107
+00:07:53,820 --> 00:07:57,780
+检查使用设备Scherer方法分析粉末衍射图
+exams analyze a powder diffraction
+pattern with the device Scherer method
+
+108
+00:07:57,780 --> 00:08:02,130
+因此，遵循此方法有一些规则，因此我将其写下来
+so there's a couple rules for following
+this method so I'll write them down it's
+
+109
+00:08:02,130 --> 00:08:05,520
+很难找到一本能很好地解释这本书的书
+fairly difficult to find a book that
+explains this well I think is explained
+
+110
+00:08:05,520 --> 00:08:08,280
+我的书很好，但是如果您不喜欢我的书中的解释，那您就很好
+well in my book but if you don't like
+the explanation in my book you're kind
+
+111
+00:08:08,280 --> 00:08:11,540
+之所以运气不好，是因为没有很多其他书籍对此有所解释
+of out of luck because there aren't a
+lot of other books that explain it so
+
+112
+00:08:11,540 --> 00:08:14,550
+对此感到抱歉，但事实就是如此
+sorry about that but that's just how it
+is
+
+113
+00:08:14,550 --> 00:08:21,510
+所以规则编号零是没有波长没有波长λ为什么你
+so rule number zero is no the wavelength
+no your wavelength lambda why do you
+
+114
+00:08:21,510 --> 00:08:25,410
+很好地了解您的波长λ，您就是放入X射线的实验者
+know your wavelength lambda well you're
+the experimentalist you put in the x-ray
+
+115
+00:08:25,410 --> 00:08:29,670
+您拥有X射线设备的光束，因此您大概知道
+beam you had the x-ray apparatus so you
+know presumably what the wavelength of
+
+116
+00:08:29,670 --> 00:08:33,510
+ X射线很重要，所以最好从没有波长开始
+the x-ray is so it's a good thing to
+start with no your wavelength probably
+
+117
+00:08:33,510 --> 00:08:37,770
+如果您是优秀的实验师，那么实际上可以很准确地知道它
+know it pretty accurately actually if
+you're a good experimentalist step one
+
+118
+00:08:37,770 --> 00:08:45,189
+测量角度测量角度散射角
+measure the angles
+measure angles angle of scattering which
+
+119
+00:08:45,189 --> 00:08:49,990
+是两个theta都没有theta记住这很重要，所以这里有一些
+is two theta naught theta remember that
+it's gonna be important so here's some
+
+120
+00:08:49,990 --> 00:08:52,839
+数据，我们实际上将要分析他们完成前两个步骤的位置
+data we're actually going to analyze
+where they've done the first two steps
+
+121
+00:08:52,839 --> 00:08:56,740
+因为这是铝，他们在散布铝
+for this is aluminum they're doing
+scattering off of or aluminium I guess
+
+122
+00:08:56,740 --> 00:09:02,800
+在这个国家，波长在这方面是非常精确的
+in this country and the the wavelength
+is known extremely precisely in this
+
+123
+00:09:02,800 --> 00:09:07,420
+设置是通过典型的X射线管完成的，您知道自己有六位数
+setup this is done with a typical x-ray
+tube and you know you have six digits of
+
+124
+00:09:07,420 --> 00:09:11,379
+他们知道波长的精确度要记住
+precision as to how much how precisely
+they know the wavelength remember the
+
+125
+00:09:11,379 --> 00:09:14,699
+他们如此精确地知道其波长的原因是因为这是
+reason they know their wavelength so
+precisely is because this is an
+
+126
+00:09:14,699 --> 00:09:19,029
+原子中两个本征态之间的电子跃迁是电子
+electronic transition between two
+eigenstates in an atom it's an electron
+
+127
+00:09:19,029 --> 00:09:23,050
+从一个本征态下降到另一个本征态，所以能量是
+falling down from one eigen state to
+another eigen state so the energies are
+
+128
+00:09:23,050 --> 00:09:27,310
+这些本征态非常精确地定义，所以您知道
+those eigen states are very very
+precisely defined so you so you know the
+
+129
+00:09:27,310 --> 00:09:32,110
+波长非常高的精度，那么您就会知道所有这些数据
+wavelength with very high precision then
+you you know you get this data all these
+
+130
+00:09:32,110 --> 00:09:36,310
+峰值是散射角2θ的函数，幸运的是
+Peaks as a function of scattering angle
+2 theta and fortunately in this
+
+131
+00:09:36,310 --> 00:09:40,060
+一张特定的图片他们实际上为我们测量了38个角度
+particular picture they've actually
+measured the angles for us thirty-eight
+
+132
+00:09:40,060 --> 00:09:43,509
+点四三度四十四点六七度，依此类推， 
+point four three degrees forty four
+point six seven degrees and so forth and
+
+133
+00:09:43,509 --> 00:09:46,809
+我还用字母标记了峰，以便我们跟踪它们。 
+I've also labeled the peaks with letters
+so we can keep track of them peak a peak
+
+134
+00:09:46,809 --> 00:09:52,480
+ C峰等等，只是一个提示，如果您曾经服用过粉末
+peak C and so forth just a one hint that
+if you're ever given a powder
+
+135
+00:09:52,480 --> 00:09:56,259
+衍射图样，您必须自己测量角度
+diffraction pattern and you have to
+measure the angles yourself it will
+
+136
+00:09:56,259 --> 00:09:59,889
+如果您获得非常精确的角度，对您有很大帮助
+really help a lot if you get the angles
+very precise if you get the angles off
+
+137
+00:09:59,889 --> 00:10:03,279
+一点点，你会很困惑，这不会很明显
+by a little bit you can get very
+confused it won't be obvious what the
+
+138
+00:10:03,279 --> 00:10:08,019
+结果应该是这样，请尝试尽可能精确地对其进行测量
+result is supposed to be so try to
+measure it as precisely as you can okay
+
+139
+00:10:08,019 --> 00:10:14,250
+所以对于每个散射角，您要测量步长两个角
+so for each scattering angle you measure
+step two angle sorry
+
+140
+00:10:14,250 --> 00:10:21,399
+角度，所以第二步是计算晶格平面间距
+angle so step two is calculate the
+lattice plane spacing so lattice plane
+
+141
+00:10:21,399 --> 00:10:33,610
+使用布拉格定律确定平面间距，即d等于2上的lambda 
+spacing plane spacing using Bragg's law
+and that is d equals lambda over two
+
+142
+00:10:33,610 --> 00:10:38,529
+正弦θ好，所以对于每个散射角
+sine theta
+okay so for each scattering angle you
+
+143
+00:10:38,529 --> 00:10:41,860
+看到它代表间距D等于的一族晶格平面
+see that's representing a family of
+lattice planes with the spacing D equals
+
+144
+00:10:41,860 --> 00:10:44,529
+ Lambda超过两个正弦θ，现在您可能会认为它应该是n 
+lambda over two sine theta
+now you might think it should be n
+
+145
+00:10:44,529 --> 00:10:48,100
+ Lambda超过两个正弦波theta，但实际上您不需要在这里结束，因为
+lambda over two sine theta but in fact
+you don't need the end up here because
+
+146
+00:10:48,100 --> 00:10:51,850
+ n的较高值将对应于不同的Thetas 
+the higher values of n will correspond
+to different Thetas that you will also
+
+147
+00:10:51,850 --> 00:10:55,920
+测量一下，所以如果放在楼上，那你就结束了
+measure so you'll just be over
+if you put in an upstairs so you just
+
+148
+00:10:55,920 --> 00:11:01,740
+需要将λ保持在2个正弦θ以上，每个角度对应一个
+need to keep lambda over 2 sine theta
+each angle corresponds to one one
+
+149
+00:11:01,740 --> 00:11:08,070
+晶格平面间距好吧，所以第三步，对我们来说这是
+lattice plane spacing okay all right so
+step three so this is for us this is
+
+150
+00:11:08,070 --> 00:11:13,290
+不在现实世界中，我们可以假设某种立方
+sort of not in the real world we can
+assume cubic of some sort assume cubic
+
+151
+00:11:13,290 --> 00:11:17,960
+在现实世界中，对简单立方的含义实际上不是一个坏假设
+it's actually not a bad assumption in
+the real world to meaning simple cubic
+
+152
+00:11:17,960 --> 00:11:27,000
+我在25年的考试中从未见过的简单BCC或FCC 
+simple BCC or FCC I have never seen in
+25 years of exams I have never seen a
+
+153
+00:11:27,000 --> 00:11:31,200
+要求您找出粉末衍射图的三年级考试
+third-year exam that is asked you to
+figure out a powder diffraction pattern
+
+154
+00:11:31,200 --> 00:11:35,100
+对于比简单立方BCC或FCC更复杂的事情， 
+for anything more complicated than
+simple cubic BCC or FCC those are the
+
+155
+00:11:35,100 --> 00:11:38,850
+您在三年级考试中只会碰到的格子几乎是一个承诺
+only lattices you'll run into on your
+third year exam that's almost a promise
+
+156
+00:11:38,850 --> 00:11:42,060
+我的意思是您当然知道他们第一次可以做些什么，但是
+I mean of course you know they could do
+something for the first time but but
+
+157
+00:11:42,060 --> 00:11:44,400
+你很漂亮，这是一个很好的假设，那就是你永远不会
+you're pretty it's pretty good
+assumption that this is all you're never
+
+158
+00:11:44,400 --> 00:11:47,610
+会在现实世界中碰到的是，你会碰到更多的东西
+gonna run into in the real world it's
+you'll run into things that are more
+
+159
+00:11:47,610 --> 00:11:51,060
+复杂，但以此为前提开始，如果
+complicated but it's not a bad thing to
+start with this as an assumption and if
+
+160
+00:11:51,060 --> 00:11:53,520
+您无法获取适合这些数据的数据，然后继续进行更复杂的操作
+you can't get the data to fit these then
+you go on to more complicated
+
+161
+00:11:53,520 --> 00:11:59,700
+假设立方的可能性还可以，我们也将记住
+possibilities all right assuming cubic
+we also have will remember that the
+
+162
+00:11:59,700 --> 00:12:03,450
+晶格平面间距这是我们根据米勒得出的
+lattice plane spacing this is something
+we derived corresponding to Miller
+
+163
+00:12:03,450 --> 00:12:10,230
+指数HKL是晶格常数a除以H平方的平方根
+indices HKL is the lattice constant a
+divided by the square root of H squared
+
+164
+00:12:10,230 --> 00:12:14,730
+加K平方加l平方这是我们最后得出的结果
+plus K squared plus l squared it's
+something we derived I think in the last
+
+165
+00:12:14,730 --> 00:12:20,640
+讲座也许是之前的那一场，那么这给我们带来了什么呢？ 
+lecture maybe the one before so what
+does that give us that gives us that a
+
+166
+00:12:20,640 --> 00:12:28,950
+ d平方的平方是H平方加K平方加l平方现在我们不
+squared over d squared is H squared plus
+K squared plus l squared now we don't
+
+167
+00:12:28,950 --> 00:12:33,360
+知道是什么，我们将尝试找出答案，但我们知道许多DS 
+know what a is yet we're gonna try to
+figure it out but we know a bunch of DS
+
+168
+00:12:33,360 --> 00:12:39,480
+那么这是要告诉我们DS的比例将是这些HKS和elzar 
+so is this gonna tell us the ratio of DS
+are going to be these HKS and elzar
+
+169
+00:12:39,480 --> 00:12:43,910
+整数，所以1与d平方的比将是一个整数
+integers so the ratio of 1 over d
+squared are going to be an integer
+
+170
+00:12:43,910 --> 00:12:48,630
+比率确定，所以我们要声明这个东西H的平方加K 
+ratios ok so we're going to declare this
+thing this quantity H squared plus K
+
+171
+00:12:48,630 --> 00:12:52,980
+平方乘以l平方，我们将其称为N，然后让我们看看我们还有什么
+squared over l squared we're gonna call
+it N and step let's see what else we're
+
+172
+00:12:52,980 --> 00:12:58,860
+到第四步为止，我们将寻找整数的整数比率
+stuff to up to step four we're going to
+look for integer ratios for integer
+
+173
+00:12:58,860 --> 00:13:01,310
+比率
+ratios
+
+174
+00:13:01,880 --> 00:13:10,560
+ n的比率，然后获得n的整数比率后，我们将寻找
+ratios of n and then once we have the
+integer ratios of n we will look for
+
+175
+00:13:10,560 --> 00:13:17,300
+选择规则寻找选择规则
+selection rules look for selection rules
+
+176
+00:13:20,180 --> 00:13:25,260
+规则，规则，好的，让我们从最后回想一下
+rules rules okay
+so let's let's recall from the last
+
+177
+00:13:25,260 --> 00:13:32,460
+讲座如果我们有一个简单的三次方，将给HKL选择规则
+lecture what the selection rules were
+given HKL if we had a simple cubic
+
+178
+00:13:32,460 --> 00:13:44,010
+格子简单立方格子所有HKL允许所有HKL对应倒数
+lattice simple cubic lattice all HKL are
+allowed all HKL correspond to reciprocal
+
+179
+00:13:44,010 --> 00:13:49,760
+简单立方大声晶格的晶格矢量，因此全部允许
+lattice vectors for the simple cubic
+loud lattice so these are all allowed
+
+180
+00:13:49,760 --> 00:13:57,390
+对于BCC晶格，我们推导了选择规则：h加k加LL 
+for a BCC lattice we derived the
+selection rule that h plus k plus L L
+
+181
+00:13:57,390 --> 00:14:06,330
+对于FCC晶格，必须为偶数，必须为偶数。 
+must be even must be even for an FCC
+lattice we derived the selection rule
+
+182
+00:14:06,330 --> 00:14:20,340
+然后h KL全部为偶数或全为奇数，这样我们就可以开始制作一个
+then h KL all even or all odd so we can
+actually start making a table of the
+
+183
+00:14:20,340 --> 00:14:26,330
+实际上，可能我会把桌子放在这里
+possibilities actually maybe I'll put
+the table over here
+
+184
+00:14:26,470 --> 00:14:32,750
+所以在第一列上会把HKL放到最后一个家庭
+so over first column will put HKL this
+is the family possible families last
+
+185
+00:14:32,750 --> 00:14:38,720
+位置将写出n为H平方加K平方加l平方的数字n 
+place will write the number n which is H
+squared plus K squared plus l squared
+
+186
+00:14:38,720 --> 00:14:44,780
+然后我们将编写简单的立方BCC和FCC并询问是否允许使用
+and then we'll write simple cubic BCC
+and FCC and ask whether they're allowed
+
+187
+00:14:44,780 --> 00:14:49,400
+那么我们所说的最简单的最后一架飞机是什么
+so what's the simplest possible family
+of last planes we could be talking about
+
+188
+00:14:49,400 --> 00:14:54,200
+我们可能在说1 0 0，所以n H平方加K平方加l平方是
+we could be talking about 1 0 0 so n H
+squared plus K squared plus l squared is
+
+189
+00:14:54,200 --> 00:14:59,030
+ 1个简单立方是允许所有简单立方
+1 simple cubic
+yes that's allowed for simple cubic all
+
+190
+00:14:59,030 --> 00:15:03,140
+ H平方加K允许​​所有HK和L用于简单立方BCC，这不是
+H squared plus K all H K and L are
+allowed for simple cubic BCC it's not
+
+191
+00:15:03,140 --> 00:15:08,540
+允许，因为1加0加0为奇数，所以这是不允许的FCC，因为
+allowed because 1 plus 0 plus 0 is odd
+so this is no FCC is not allowed because
+
+192
+00:15:08,540 --> 00:15:14,960
+它们不是全部都是奇数，甚至不是全部，所以FCC不允许下一个
+they're not all odd or all even so it's
+not allowed for FCC how about the next
+
+193
+00:15:14,960 --> 00:15:20,450
+最简单1 1 1 0 H平方加K平方加l平方为2简单立方
+simplest 1 1 1 0 H squared plus K
+squared plus l squared is 2 simple cubic
+
+194
+00:15:20,450 --> 00:15:27,440
+是的，这也允许BCC 1加1加0等于1加1加0是
+well yes that's also allowed BCC well 1
+plus 1 plus 0 is even 1 plus 1 plus 0 is
+
+195
+00:15:27,440 --> 00:15:32,480
+ 2，所以允许，是FCC，这是不允许的，因为他们都不都是奇怪的人
+2 so that's allowed yes FCC it's not
+allowed because they're not all odd who
+
+196
+00:15:32,480 --> 00:15:39,410
+甚至一个一一对一的HBO Chris K Fidel平方是三
+are all even one one one one
+HBO Chris K Fidel squared is three it's
+
+197
+00:15:39,410 --> 00:15:44,090
+允许用于BCC的简单三次，这是不允许的，因为总和是奇数，但
+allowed for simple cubic for BCC it's
+not allowed because the sum is odd but
+
+198
+00:15:44,090 --> 00:15:50,630
+ FCC允许使用，因为它们都是奇数，然后2 0 0继续前进
+it is allowed for FCC because they're
+all odd then 2 0 0 keep going
+
+199
+00:15:50,630 --> 00:15:56,030
+所以2平方加0平方是4它允许简单立方的和是偶数
+so 2 squared plus 0 squared is 4 it's
+allowed for simple cubic the sum is even
+
+200
+00:15:56,030 --> 00:16:00,530
+所以这里允许，他们都可以，所以你可以
+so it's allowed here and they're all
+even so it's allowed here and you can
+
+201
+00:16:00,530 --> 00:16:05,780
+组成这些事情的一个大表值得跟踪
+make up a big table of these things it's
+worth doing to keep track of which
+
+202
+00:16:05,780 --> 00:16:11,000
+您应该从中观察Miller索引现在从哪种可能的晶格类型开始
+Miller indices you should observe for
+which possible lattice type now from
+
+203
+00:16:11,000 --> 00:16:17,240
+这种类型的表格可以列出可能的整数，并且您可以
+this type of table you can make a list
+of the possible integers and that you
+
+204
+00:16:17,240 --> 00:16:22,850
+会看到不同的晶格类型，因此对于简单立方立方
+would see for the different lattice
+types for so for simple cubic cubic you
+
+205
+00:16:22,850 --> 00:16:34,370
+得到，得到的可能结局是1 2 3 4 5 6 8所以7发生了什么
+get and the possible ends you get are 1
+2 3 4 5 6 8 so what happened to 7 so all
+
+206
+00:16:34,370 --> 00:16:38,840
+允许使用可能的HKS和ELL，但是您会发现是否尝试了
+the possible HKS and ELLs are allowed
+but you'll discover if you try there's
+
+207
+00:16:38,840 --> 00:16:41,750
+如果您将它们平方并拿走H就没有了
+no H can
+all that if you square them and take H
+
+208
+00:16:41,750 --> 00:16:46,160
+平方加K平方加l平方，您将得到7，但找不到它
+squared plus K squared plus l squared
+you'll get 7 you just can't find it sort
+
+209
+00:16:46,160 --> 00:16:50,360
+数论类型的结果，您只是找不到三个整数
+of a number theory type of result that
+you just can't find three integers that
+
+210
+00:16:50,360 --> 00:16:53,870
+当平方和加在一起就给你七个，所以七个不见了，依此类推
+when squared and added together give you
+seven so seven is missing and so forth
+
+211
+00:16:53,870 --> 00:17:04,609
+我认为下一个缺少的是BCC的15个BCC和2 4 6 8个
+and I think the next one that's missing
+is 15 for BCC for BCC and is 2 4 6 8 so
+
+212
+00:17:04,609 --> 00:17:09,198
+依此类推，我想缺少的第一个是28，实际上FCC是
+
+213
+00:17:09,199 --> 00:17:20,750
+最有趣的一个FCC系列是N等于3 3 4 8 11 12 16 16等等
+most interesting one FCC the series is N
+equals 3 3 4 8 11 12 16 16 and so forth
+
+214
+00:17:20,750 --> 00:17:24,020
+其实我想我已经把这些写下来了，是的，这不是
+actually I think I wrote these all down
+already yeah it's not on this on this
+
+215
+00:17:24,020 --> 00:17:28,400
+幻灯片，因此我们再次将整个表格写下来， 
+slide so here's exactly building that
+whole table again we wrote down the
+
+216
+00:17:28,400 --> 00:17:32,660
+该表的前四个元素这是端点正方形加K正方形加l 
+first four elements of this table here's
+the ends a square plus K square plus l
+
+217
+00:17:32,660 --> 00:17:37,070
+平方1 2 3 4 5 6到7时，没有米勒指数集
+squared 1 2 3 4 5 6 when you get to 7
+there's no set of Miller indices that
+
+218
+00:17:37,070 --> 00:17:42,110
+平方并加在一起得到7，然后您查看FCC以及
+went squared and add together gives you
+7 and you look at FCC and the possible
+
+219
+00:17:42,110 --> 00:17:46,580
+可能为您提供的FCC允许的Miller指数
+the possible Miller indices that give
+you that are allowed for FCC the first
+
+220
+00:17:46,580 --> 00:17:51,980
+第一个是1 1 1这些都是奇数，总共3个
+the first one is 1 1 1 those are all odd
+that that gives you a total of 3 the
+
+221
+00:17:51,980 --> 00:17:56,419
+允许的下一个是2 0 0这些全都等于2的平方
+next one that's allowed is 2 0 0 those
+are all even that gives you 2 squared
+
+222
+00:17:56,419 --> 00:18:00,020
+加0加0平方是4表示允许，下一个允许的是2 
+plus 0 plus 0 squared is 4 that's
+allowed the next one that's allowed is 2
+
+223
+00:18:00,020 --> 00:18:05,150
+ 2 0全部偶数2平方加2平方加0平方等于8下一个是
+2 0 all even 2 squared plus 2 squared
+plus 0 squared is 8 the next one that's
+
+224
+00:18:05,150 --> 00:18:11,120
+允许的是3 1 1所有的奇数使您得到11，依此类推，所以这是系列
+allowed is 3 1 1 all odd that gives you
+11 and so forth so these are the series
+
+225
+00:18:11,120 --> 00:18:16,730
+我们想要寻找的，所以实际上让我们为这种铝做
+that we want to want to look for so
+actually let's do that for this aluminum
+
+226
+00:18:16,730 --> 00:18:21,970
+数据哦，他们在这里，所以这是写出来的系列1 2 3 4 5 6 8 9 
+data oh and they here so here's the
+series written out 1 2 3 4 5 6 8 9
+
+227
+00:18:21,970 --> 00:18:29,030
+缺少七十五和二十三我都连整数都不包括28 60和
+missing seven fifteen and twenty three I
+all even integer is excluding 28 60 and
+
+228
+00:18:29,030 --> 00:18:33,440
+依此类推，这并非巧合28恰好是7和60的4倍
+so forth actually it's not a coincidence
+of 28 happens to be 4 times 7 and 60
+
+229
+00:18:33,440 --> 00:18:37,340
+碰巧是15的4倍，您可以说服自己为什么如此
+happens to be 4 times 15 you can
+convince yourself why that's true and
+
+230
+00:18:37,340 --> 00:18:45,160
+那么FCC是3 4 8 11 12，以此类推，所以这又是数据
+then FCC is 3 4 8 11 12 and and and so
+forth okay so here's the data again
+
+231
+00:18:45,160 --> 00:18:50,150
+让我们一步一步地完成此过程，所以在这里我们测量了所有
+let's go through this procedure all the
+steps one by one so here we measured all
+
+232
+00:18:50,150 --> 00:18:52,930
+的角度或有人测量了四个
+of the the angles or someone measured
+four
+
+233
+00:18:52,930 --> 00:18:58,120
+这是他们很好的一面，所以让我们计算出所有这些角度的表D 
+here is very nice of them here so make a
+table of all these angles we calculate D
+
+234
+00:18:58,120 --> 00:19:03,430
+等于2正弦theta上的lambda，所以这里是所有2正弦theta上的lambda 
+equals lambda over 2 sine theta so here
+is the lambda over 2 sine theta for all
+
+235
+00:19:03,430 --> 00:19:09,820
+这些散射峰中的一个，那么我们得出以下结论：d平方上有108 
+of these scattering Peaks then we have
+this statement that 108 over d squared
+
+236
+00:19:09,820 --> 00:19:12,940
+在d平方上是H平方加K平方加l平方，我们想
+over d squared is H squared plus K
+squared plus l squared and we want to
+
+237
+00:19:12,940 --> 00:19:18,250
+求出1的平方的整数比率，所以我们要怎么做呢？ 
+find integer ratios of 1 over d squared
+so how do we do that well let's declare
+
+238
+00:19:18,250 --> 00:19:22,900
+这个数字在这里是2点3 4哦5埃，我们称之为D sub a 
+this number here two point three four oh
+five angstroms we'll call that D sub a
+
+239
+00:19:22,900 --> 00:19:28,720
+然后我们将D sub的表平方成d平方，其中D是全部
+and we'll make a table of D sub a
+squared over d squared where D is is all
+
+240
+00:19:28,720 --> 00:19:35,350
+这些D的可能值中的一个，因此第一个时隙在定义上为12.3平方
+of these possible values of D so the
+first slot is by definition 12.3 squared
+
+241
+00:19:35,350 --> 00:19:38,860
+在两点三平方上是一，但在第二个一两点三平方上
+over two point three squared is one but
+the second one two point three squared
+
+242
+00:19:38,860 --> 00:19:42,490
+在2点O 2平方上是1点3 3等等，依此类推
+over two point O two squared is one
+point three three and so forth and so on
+
+243
+00:19:42,490 --> 00:19:46,060
+我们在这张表中得到这些不是整数，但它们非常接近
+we get this in this table here those
+aren't integers but they're pretty close
+
+244
+00:19:46,060 --> 00:19:49,690
+整数，如果乘以三，则会得到一组
+to integers if you're multiplying by
+three you get a set of things that are
+
+245
+00:19:49,690 --> 00:19:53,410
+真的非常接近整数，您会发现该模式实际上是3 
+really really close to integers and
+you'll see that that pattern is really 3
+
+246
+00:19:53,410 --> 00:20:03,100
+ 4 8 11 12 16 1920这是FCC系列3 4 8 11 12 16 19 20 
+4 8 11 12 16 1920 which is the FCC
+series 3 4 8 11 12 16 19 20 so so we've
+
+247
+00:20:03,100 --> 00:20:10,840
+由此得出的结论是，我们发现铝的铝散射模式
+concluded from this that the aluminum
+the aluminum scattering pattern we found
+
+248
+00:20:10,840 --> 00:20:15,390
+对应于FCC晶格，我们实际上可以进一步
+is corresponds to an FCC lattice we can
+actually go on a little bit further to
+
+249
+00:20:15,390 --> 00:20:18,610
+计算晶格常数，所以这可能是步骤5 
+calculate lattice constants so this
+might be step 5
+
+250
+00:20:18,610 --> 00:20:27,190
+计算晶格常数，单位晶格常数a的大小为
+calculate lattice constant the size of
+the unit cell constant a which would be
+
+251
+00:20:27,190 --> 00:20:32,830
+ d乘以K平方的平方根再加上l平方再加上一个平方，因为我
+d times the square root of K squared
+plus l squared plus a squared because I
+
+252
+00:20:32,830 --> 00:20:35,590
+以错误的顺序做了一个正方形加K平方加L平方通常没事
+did in the wrong order a square plus K
+square plus l squared usually all right
+
+253
+00:20:35,590 --> 00:20:41,800
+同样的事情，如果我们这样做，那么哦，这是写下来的米勒指数
+same thing and if we do that oh they're
+the Miller indices written down for
+
+254
+00:20:41,800 --> 00:20:46,540
+它们是山峰，这是A，它们都差不多
+their for the peaks and here's the A's
+and they're all pretty close to the same
+
+255
+00:20:46,540 --> 00:20:49,720
+大约三到四位数，它们并不完全相同，所以可能
+to about three or four digits they're
+not exactly the same so there's probably
+
+256
+00:20:49,720 --> 00:20:53,530
+角度测量中出现了一些错误或类似的错误
+some error in the measurement of the
+angles or something like that has gone
+
+257
+00:20:53,530 --> 00:20:58,300
+错误，但在四位数的精度以内，我们已经测量了晶格
+wrong but to within four digits of
+accuracy we've measured the lattice
+
+258
+00:20:58,300 --> 00:21:03,670
+常数a表示铝还可以，所以现在一般来说就是这样
+constant a for aluminum okay so that's
+generally how it works now when you get
+
+259
+00:21:03,670 --> 00:21:07,920
+擅长于此，您甚至不必真正进行整个计算
+good at this you don't even
+have to really do this whole calculation
+
+260
+00:21:07,920 --> 00:21:13,130
+您可以看一下模式我非常清楚这是什么
+you can sort of look at the pattern I
+have a pretty good idea what it is so
+
+261
+00:21:13,130 --> 00:21:15,990
+哦，有铝，有
+this
+oh there's aluminum there there's the
+
+262
+00:21:15,990 --> 00:21:21,950
+ Miller索引标记正确，所以我将向您展示一种模式， 
+the Miller indices labeled appropriately
+so I'm going to show you a pattern and
+
+263
+00:21:21,950 --> 00:21:28,440
+无需进行任何计算，我们就能知道现在的晶格类型
+without actually doing any calculation
+we can tell what the lattice type is now
+
+264
+00:21:28,440 --> 00:21:33,080
+如果您给我一个理由，只是给我一个理由，只有三种可能性
+there's only three possibilities if you
+give me a reason just give me a reason a
+
+265
+00:21:33,080 --> 00:21:39,720
+简单三次，这是什么原因，很好的原因是什么，所以没有7是
+simple cubic what's the reason very good
+alright so that's a so no seven that's a
+
+266
+00:21:39,720 --> 00:21:45,840
+那是你的，所以你可以在这里看到第一个高峰，这样
+that one's yours so you can see here
+that the first peak so that the the
+
+267
+00:21:45,840 --> 00:21:49,020
+峰间距不完全均匀，这是因为正弦
+spacing of the peaks is not completely
+uniform and that's because of the sine
+
+268
+00:21:49,020 --> 00:21:53,940
+正弦theta的theta因子可让您在离开时获得更多空间
+theta factor that sine theta sort of
+spaces things out more when you're at
+
+269
+00:21:53,940 --> 00:21:59,670
+小角度比大角度，但您可以看到
+low angles than it is it's at high
+angles but but you can kind of see that
+
+270
+00:21:59,670 --> 00:22:01,680
+一从一到二的间距不是这样
+one
+the spacing from one to two isn't so
+
+271
+00:22:01,680 --> 00:22:05,880
+从2到3 3到4 4到5 5到6不同，但是有一个洞，其中7是
+different from 2 to 3 3 to 4 4 to 5 5 to
+6 but then there's a hole where 7 is
+
+272
+00:22:05,880 --> 00:22:09,600
+应该是然后8到9 10 11 12，你看他们是否真的有一个
+supposed to be and then 8 to 9 10 11 12
+and you see if they actually there's a
+
+273
+00:22:09,600 --> 00:22:12,570
+孔应该在15的位置，如果一路上升到23 
+hole where 15 is supposed to be and if
+you go all the way up to 23 you'll
+
+274
+00:22:12,570 --> 00:22:16,140
+注意，应该是一个洞或23，这就是您期望的系列
+notice as a hole or 23 is supposed to be
+and that's the series that you expect
+
+275
+00:22:16,140 --> 00:22:20,910
+对于简单的三次方，您只需在此散射图上查看
+for simple cubic so you can just look at
+this at this scattering pattern for a
+
+276
+00:22:20,910 --> 00:22:24,870
+钛酸钡，知道钛酸钡是简单的立方晶格
+barium titanate and know that barium
+titanate is a simple cubic lattice okay
+
+277
+00:22:24,870 --> 00:22:27,330
+这样就可以了
+that's how it works pretty cool all
+right
+
+278
+00:22:27,330 --> 00:22:31,530
+顺便说一句，钛酸钡是一种非常重要的光电材料
+incidentally barium titanate is a fairly
+important material for the opto
+
+279
+00:22:31,530 --> 00:22:35,790
+电子行业，它用于各种各样的事情，现在有更多
+electronics industry it's used for
+various things now there's more
+
+280
+00:22:35,790 --> 00:22:41,220
+信息中有更多分散的信息
+information in this there is there's
+more information in this scattering
+
+281
+00:22:41,220 --> 00:22:45,810
+到目前为止，我们所使用的模式只是散射角度
+pattern than we've used so far all we've
+used is the angles of scattering we
+
+282
+00:22:45,810 --> 00:22:48,420
+没有使用任何有关散射强度的东西， 
+haven't used anything about the
+intensity of scattering and there's a
+
+283
+00:22:48,420 --> 00:22:52,260
+我们可以利用的大量散射强度信息
+lot of information in the intensity of
+scattering that we can make use of
+
+284
+00:22:52,260 --> 00:22:58,230
+所以让我们来看看是否可以理解我们应该得到多少散射
+so let's um see if we can understand
+what how much scattering we should get
+
+285
+00:22:58,230 --> 00:23:04,050
+来自Miller指数HKL首先，香港存在结构因子s 
+from Miller indices HKL well first of
+all there's the structure factor s at HK
+
+286
+00:23:04,050 --> 00:23:11,040
+现在平方的L还可以写出来，所以结构
+L which gets squared now all right let's
+even write it out so the structure
+
+287
+00:23:11,040 --> 00:23:15,460
+记住这个s等于s乘以s的基数
+factor remember this s equals s lattice
+times s basis
+
+288
+00:23:15,460 --> 00:23:23,860
+乘以s的基础和s的格子，无非是强制选择规则
+times s basis and s lattice does nothing
+more than enforced selection rules
+
+289
+00:23:23,860 --> 00:23:33,610
+强制执行选择规则，这样我们就可以做到
+enforce selection rules so we've done
+that so that's not going to be
+
+290
+00:23:33,610 --> 00:23:38,650
+对我们的基础很有趣，因为在这个基础上只有一个原子
+interesting for us s basis well there's
+only one atom in this basis because it's
+
+291
+00:23:38,650 --> 00:23:43,270
+只是一种类型的原子一个单一的单个原子，因为它只是纯FCC 
+just one type of atom a single single
+atom on the basis it's just a pure FCC
+
+292
+00:23:43,270 --> 00:23:47,800
+没有培根的格子没有有趣的基础，所以您得到的只是表格
+lattice with no bacon no interesting
+basis so all you get is the the form
+
+293
+00:23:47,800 --> 00:23:53,320
+铝的系数，而铝衰变的形状因数
+factor for aluminum and this form factor
+for aluminum decays decays with
+
+294
+00:23:53,320 --> 00:24:01,330
+随着我们上次提到的G的增加或增加而增加
+increasing with increasing increasing G
+as we mentioned last time or increasing
+
+295
+00:24:01,330 --> 00:24:10,720
+角度或增加的θ增加，所以我们期望总散射为
+angle or increased increase theta so we
+expect that the total scattering is
+
+296
+00:24:10,720 --> 00:24:15,430
+会随着散射角的增加而缓慢下降，但是有
+going to drop slowly as a function of
+increased scattering angle but there's
+
+297
+00:24:15,430 --> 00:24:19,900
+实际上，这并不是所有导致强度增加的因素，还有另外两个
+actually that's not all that contributes
+to the the intensity there's two other
+
+298
+00:24:19,900 --> 00:24:23,820
+首先影响强度的因素是概率
+factors which contribute to the
+intensity at first is the probability
+
+299
+00:24:23,820 --> 00:24:33,550
+对齐的可能性，所以这是微晶将
+probability of alignment so this is the
+probability that a crystallite will
+
+300
+00:24:33,550 --> 00:24:37,390
+以正确的方式对齐以获取散射，我们将回到
+align in just the right way in order to
+get scattering we'll come back to that
+
+301
+00:24:37,390 --> 00:24:43,330
+一会儿，最后一个因素被称为洛伦兹因子洛伦兹或
+in a moment and the last factor is known
+as the Lorentz factor Lorentz or
+
+302
+00:24:43,330 --> 00:24:52,690
+有时洛伦兹极化因子是
+sometimes the Lorentz polarization
+factor the polarization factor which is
+
+303
+00:24:52,690 --> 00:24:55,930
+确实是一个几何因素，我们对此不多说，但我会
+really a geometric factor we're not
+going to say too much about it but I'll
+
+304
+00:24:55,930 --> 00:25:00,280
+向您展示它的外观，因此该函数是X随其变化的函数
+show you what it looks like so this
+function is a function which X it varies
+
+305
+00:25:00,280 --> 00:25:04,630
+作为角度的函数相当快，但随后在中间的任何地方
+fairly rapidly as a function of angle
+but then anywhere near at intermediate
+
+306
+00:25:04,630 --> 00:25:08,950
+角度大约在60到140之间比较平坦，然后又回升
+angles it's fairly flat between around
+60 and 140 and then it goes back up
+
+307
+00:25:08,950 --> 00:25:14,080
+最终在140左右开始回升，这是洛伦兹极化
+eventually at around 140 it starts going
+back up it's the Lorentz polarization
+
+308
+00:25:14,080 --> 00:25:18,280
+因素，这实际上是您如何设置实验的功能，因此，如果您
+factor it's really a feature of how you
+set up your experiment and so if you're
+
+309
+00:25:18,280 --> 00:25:21,490
+实验师，您会提前知道这个因素是什么
+an experimentalist you will know what
+this factor is in advance before you do
+
+310
+00:25:21,490 --> 00:25:28,000
+进行任何测量之前，现在有一个
+any sort of before you do any sort of
+measurement now there's a there's our
+
+311
+00:25:28,000 --> 00:25:30,789
+而不是这里有时是什么时候
+instead of a
+which here which is that sometimes when
+
+312
+00:25:30,789 --> 00:25:33,669
+人们会像这样向您展示X射线图
+people present you with x-ray patterns
+like this one
+
+313
+00:25:33,669 --> 00:25:38,139
+他们已经在这里除以洛伦兹极化系数， 
+they'll have already divided by the
+Lorentz polarization factor here and
+
+314
+00:25:38,139 --> 00:25:41,619
+其他时候他们将不会除以洛伦兹极化系数，因此
+other times they will not have divided
+by the Lorentz polarization factor so
+
+315
+00:25:41,619 --> 00:25:45,099
+真的，如果有人向您显示这样的数据，您应该问的是原始数据或
+really if someone shows you data like
+this you should ask is that raw data or
+
+316
+00:25:45,099 --> 00:25:49,139
+你已经用这个洛伦兹极化因子除了吗？ 
+have you divided out by this Lorentz
+polarization factor already and
+
+317
+00:25:49,139 --> 00:25:53,109
+在许多考试中足够令人尴尬的是，他们会问你一个问题，他们
+embarrassingly enough on many exams
+they'll ask you a question and they
+
+318
+00:25:53,109 --> 00:25:55,899
+不会告诉你他们是否被这个除法了
+won't tell you whether they've divided
+by this or not
+
+319
+00:25:55,899 --> 00:25:59,619
+因此，如果您想安全起见，应该说您应该告诉我您是否
+so if you want to be safe you should say
+you should have told me whether you're
+
+320
+00:25:59,619 --> 00:26:05,019
+除以这个因素，我无论如何都假设是这样
+divided by this factor or not I'm
+assuming whatever so anyway so that's
+
+321
+00:26:05,019 --> 00:26:09,970
+这就是这个因素，对于大多数角度也是如此，所以在这里我们只是分散
+that's this factor and it also for most
+angles so here we're only scattering up
+
+322
+00:26:09,970 --> 00:26:15,970
+到这里大约120度，所以这个因素在这里衰减为
+to about 120 degrees here so this so
+this factor here is decaying as a
+
+323
+00:26:15,970 --> 00:26:20,019
+高达120度的角度的函数，此因子在这里也随着
+function of angle up to 120 degrees this
+factor here is also decaying as a
+
+324
+00:26:20,019 --> 00:26:23,349
+角度的函数，所以我们天真地猜测我们应该始终
+function of angle so we'd sort of
+naively guess that we should always
+
+325
+00:26:23,349 --> 00:26:26,679
+随着角度的增加和/或多或少地衰减作为角度的函数
+decay as a function of angle as you
+increase the angle and and more or less
+
+326
+00:26:26,679 --> 00:26:30,700
+散射幅度随着角度的变化而衰减，但是我们还没有
+the scattering amplitude is decaying as
+a function of angle but we haven't
+
+327
+00:26:30,700 --> 00:26:34,479
+在这里看了这块，我们对齐的可能性很好
+looked at this piece here our
+probability of alignment well you might
+
+328
+00:26:34,479 --> 00:26:38,049
+想想自己，您知道所有的微晶都是完全对齐的
+think to yourself you know all the
+crystallites are aligned completely
+
+329
+00:26:38,049 --> 00:26:42,249
+随机，因此该因子应该是微不足道的，它应该只是1，但是认为
+randomly so that that factor should be
+trivial it should be just be 1 but think
+
+330
+00:26:42,249 --> 00:26:46,989
+一秒钟的时间，您会记得当我们谈论晶格族时
+about this for a second you'll remember
+when we talked about families of lattice
+
+331
+00:26:46,989 --> 00:26:50,710
+平面，如果我们正在考虑与
+planes if we're thinking about a lattice
+plane spacing which is associated with
+
+332
+00:26:50,710 --> 00:26:55,450
+ 1：1一族的晶格平面本来可以是一对一的家族
+the 1:1 one family of lattice planes it
+could have been the one one one family
+
+333
+00:26:55,450 --> 00:26:59,799
+晶格平面或1 1 bar 1或1 bar 1 1或1 bar 1 bar 1 I 
+of lattice planes or the 1 1 bar 1 or
+the 1 bar 1 1 or the 1 bar 1 bar 1 I
+
+334
+00:26:59,799 --> 00:27:04,649
+意味着有八种可能性都可以让您完全一样
+mean there's eight possibilities which
+would all give you exactly the same
+
+335
+00:27:04,649 --> 00:27:09,519
+您可以分散的晶格平面间距
+lattice plane spacing that you can
+scatter off of so in fact this
+
+336
+00:27:09,519 --> 00:27:20,379
+对齐的可能性实际上是HKL的倍数，所以如果我们回到
+probability of alignment is actually the
+multiplicity of HKL so if we go back to
+
+337
+00:27:20,379 --> 00:27:26,679
+如果您要在此表格中查看您将多重性添加到此表格的位置
+this table here to see where ya add the
+multiplicities on to this table if we're
+
+338
+00:27:26,679 --> 00:27:31,779
+考虑1 0 0 M Miller指数有六个可能的方向
+thinking about the 1 0 0 M Miller
+indices there's six possible directions
+
+339
+00:27:31,779 --> 00:27:35,320
+这将呈现与1 0 0相同的晶格平面间距，有6 
+which would present the same lattice
+plane spacing as 1 0 0 there's 6
+
+340
+00:27:35,320 --> 00:27:40,149
+立方体的可能轴，但如果我们看1 1 0，将有12 
+possible axes of the cube but if we're
+looking at the 1 1 0 there would be 12
+
+341
+00:27:40,149 --> 00:27:45,070
+可以选择十二种不同的面孔方式
+different faces Speight
+for twelve different face ways you could
+
+342
+00:27:45,070 --> 00:27:49,180
+面对立方体，您将呈现相同的晶格平面间距，并且有人
+face the cube that you would present the
+same lattice plane spacing and someone
+
+343
+00:27:49,180 --> 00:27:53,170
+因为意识到三对一的心理多样性而赢得了巧克力奖
+won a chocolate bar for realizing that
+three to one has a mental multiplicity
+
+344
+00:27:53,170 --> 00:27:58,450
+ 48之所以这些是我们要跟踪的因素
+of 48 so these are the factors that we
+want to keep track of if we want to
+
+345
+00:27:58,450 --> 00:28:05,710
+现在了解散射的强度，让我们看一下
+understand the intensity of the
+scattering now let's look at this let's
+
+346
+00:28:05,710 --> 00:28:08,530
+看两个实际上彼此接近一个角度的峰
+look at two peaks that are actually
+fairly close to each other an angle why
+
+347
+00:28:08,530 --> 00:28:11,140
+我是不是想看看彼此非常接近的两件事
+am I do I want to look at two things
+that are fairly close to each other an
+
+348
+00:28:11,140 --> 00:28:18,640
+如果F和L都随着速度的变化而缓慢衰减
+angle well if you both F and L are
+decaying kind of slowly as a function of
+
+349
+00:28:18,640 --> 00:28:24,100
+角度，所以如果我们在中间某个角度拍摄角度，就知道在这里
+angle so you know here if we're take if
+we take angles somewhere in the middle
+
+350
+00:28:24,100 --> 00:28:28,870
+你知道在100120左右，那么这个东西很平
+you know around 100 120 then then this
+thing is pretty flat this thing is
+
+351
+00:28:28,870 --> 00:28:32,740
+衰减缓慢，我们只能担心多重性，所以让我们
+decaying only slowly and we can only
+worry about the multiplicity so let's
+
+352
+00:28:32,740 --> 00:28:38,950
+在这里取得这两个峰3 1 1＆2 2 2 3 1 1＆2 2 2那里他们知道
+take these two peaks here 3 1 1 & 2 2 2
+3 1 1 & 2 2 2 there they you know they
+
+353
+00:28:38,950 --> 00:28:42,850
+里面有这些F sandeul，但是F和L几乎一样，因为我们
+have these F sandeul's in them but F and
+L are pretty much the same because we're
+
+354
+00:28:42,850 --> 00:28:46,870
+大约以相同的角度散射4 3 1 1＆2 2 2 
+scattering at about the same angle 4 3 1
+1 & 2 2 2 just a slight difference in
+
+355
+00:28:46,870 --> 00:28:53,500
+角度，但是多重性让我们回到这里的多重性3 1 1 
+the angle but the multiplicities let's
+back up to the multiplicities here 3 1 1
+
+356
+00:28:53,500 --> 00:28:59,290
+在哪里3 1 1在哪里有24在哪里-2在哪里有
+has where is it 3 1 1 has a multiplicity
+of 24 where to - 2 has a multiplicity of
+
+357
+00:28:59,290 --> 00:29:03,970
+ 8，所以我们猜想3 1 1的峰值应该是峰值的3倍
+8 so we would guess that the peak for 3
+1 1 should be 3 times higher than the
+
+358
+00:29:03,970 --> 00:29:09,850
+ 8的峰值，实际上3 1 1的峰值比3的峰值高近3倍
+peak for 8 and indeed the peak for 3 1 1
+is pretty close to 3 times higher than
+
+359
+00:29:09,850 --> 00:29:15,400
+ 2 2 2的峰值就可以了，这就是多重​​性在游戏中获得的方式
+the peak for 2 2 2 okay so that's how
+the multiplicities get in in the game as
+
+360
+00:29:15,400 --> 00:29:21,310
+很好，所以这些散射强度实际上可能非常有用
+well okay so these intensities of
+scattering can actually be very useful
+
+361
+00:29:21,310 --> 00:29:26,050
+还要分析数据，我将向您展示一些人为的例子
+for analyzing data as well I'm going to
+show you a sort of artificial example of
+
+362
+00:29:26,050 --> 00:29:34,180
+可能有用的地方，所以这里有一些非常糟糕的铁数据
+where this might be useful so here is
+some fairly bad data for taken on iron
+
+363
+00:29:34,180 --> 00:29:37,900
+不好的原因有两个，第一个原因是因为山峰
+that was bad for a couple reasons
+the first reason is because the peaks
+
+364
+00:29:37,900 --> 00:29:41,740
+第二个原因是因为您只看到三个峰值
+are pretty broad the second reason is
+because you only see three peaks with
+
+365
+00:29:41,740 --> 00:29:45,160
+三个峰值很难说出您在谈论哪个系列
+three peaks it's pretty hard to tell
+which series you're talking about here
+
+366
+00:29:45,160 --> 00:29:48,430
+您无法数到第七个，看看是否缺少第七个，因为
+you can't count out to the seventh and
+see if the seventh is missing because
+
+367
+00:29:48,430 --> 00:29:51,850
+您只有三个峰，这将有些困难，但是
+you only have three peaks so this is
+going to be a little bit difficult but
+
+368
+00:29:51,850 --> 00:29:55,810
+我们有散射的幅度，实际上可能是
+we have the amplitudes of the scattering
+and that actually might be might
+
+369
+00:29:55,810 --> 00:30:00,160
+会有所帮助，所以我们将看看是否可以利用这一点，因此我们将
+be helpful so we'll see if we can we can
+make use of that so we go through the
+
+370
+00:30:00,160 --> 00:30:05,080
+测量角度的相同练习计算晶格平面
+same exercise of measuring the the
+angles calculate the lattice plane
+
+371
+00:30:05,080 --> 00:30:10,030
+间距取第一晶格平面间距与各种
+spacing take the ratio of the first
+lattice plane spacing to the various
+
+372
+00:30:10,030 --> 00:30:15,280
+晶格平面间距da两点零三平方1.4平方是2是
+lattice plane spacing da two point zero
+three squared over 1.4 squared is two is
+
+373
+00:30:15,280 --> 00:30:19,300
+到两点O 3平方超过一分之一七平方约3我们
+to two point O 3 squared over one point
+one seven squared is about three we
+
+374
+00:30:19,300 --> 00:30:24,030
+意识到那些是一二和三的整数比，所以那些可能是
+realize those are in the integer ratios
+of one two and three so those could be
+
+375
+00:30:24,030 --> 00:30:28,510
+两种可能性，要么是简单的三次方，然后是这些
+two possibilities either
+it's simple cubic and then these
+
+376
+00:30:28,510 --> 00:30:34,120
+散射峰对应于1 0 0 1 1 0和1 1 1，表示此整数n H 
+scattering Peaks correspond to 1 0 0 1 1
+0 and 1 1 1 meaning this integer n H
+
+377
+00:30:34,120 --> 00:30:40,840
+平方加K平方加l平方是1 2或3，也可能是n是2 4＆6 
+squared plus K squared plus l squared is
+1 2 or 3 or it could be n is 2 4 & 6
+
+378
+00:30:40,840 --> 00:30:44,890
+那些仍然是1 2＆3的比例，但是它们对应于米勒
+those would still be in the ratio of 1 2
+& 3 but they would correspond to Miller
+
+379
+00:30:44,890 --> 00:30:50,890
+ 1 1 0 2 0 0＆2 1 1的索引我将加平方并加起来得到
+indices of 1 1 0 2 0 0 & 2 1 1 which I'm
+going to add squared and add it up give
+
+380
+00:30:50,890 --> 00:30:55,650
+您2 4＆6，所以我们仅通过查看这些数据就不知道是哪一个
+you 2 4 & 6 so we don't know which one
+it is just by looking at the this data
+
+381
+00:30:55,650 --> 00:31:00,460
+所以我们要做好什么，我们可以采取几种方法
+so what do we do well there's a couple
+of approaches we could take one approach
+
+382
+00:31:00,460 --> 00:31:09,340
+是我们可以尝试计算晶格常数a，因此，如果我们计算
+is that we could try calculating the the
+lattice constant a so if we calculate
+
+383
+00:31:09,340 --> 00:31:13,390
+可以假设简单的三次方计算晶格常数， 
+the lattice we could assume simple cubic
+calculate the lattice constant and we
+
+384
+00:31:13,390 --> 00:31:16,630
+将得到D乘以平方的平方根再加上K平方再加上l平方
+would get D times square root of a
+square plus K squared plus l squared
+
+385
+00:31:16,630 --> 00:31:21,340
+给我们2.0 3埃，我们对BCC做同样的事情，我们得到的是
+gives us 2.0 3 angstroms we did the same
+thing for BCC we'd get something that's
+
+386
+00:31:21,340 --> 00:31:24,610
+ 2的平方根更大，因为我们将所有末端乘以2，所以这
+square root of 2 bigger because we're
+multiplying all the ends by 2 so this
+
+387
+00:31:24,610 --> 00:31:28,930
+平方根里面的东西乘以2，所以不是
+thing inside the square root is
+multiplied by 2 overall so instead of
+
+388
+00:31:28,930 --> 00:31:32,020
+指向零点三，我们得到两个点八六好，所以我们有一个
+getting to point zero three we get two
+point eight six okay so we have a
+
+389
+00:31:32,020 --> 00:31:38,290
+不同的晶格平面和常规晶胞的尺寸不同
+different lattice plane a different size
+of the of the unit cell and conventional
+
+390
+00:31:38,290 --> 00:31:43,030
+现在，对于BCC案例的晶胞，为什么对我们有帮助，因为我们不知道什么
+unit cell for a BCC case now why does
+that help us because we don't know what
+
+391
+00:31:43,030 --> 00:31:47,050
+晶格常数适用于铁，但确实可以帮助我们，因为我们可以尝试
+the lattice constant is for iron but it
+does help us because we could try
+
+392
+00:31:47,050 --> 00:31:52,930
+计算简单立方情况下的原子密度，我们将有一个原子
+calculating the atomic density for the
+simple cubic case we would have one atom
+
+393
+00:31:52,930 --> 00:31:58,240
+每两点O 3埃的立方，而对于BCC，则是两个原子两个
+per two point O 3 angstroms cubed
+whereas for a BCC it's two atoms two
+
+394
+00:31:58,240 --> 00:32:03,130
+常规晶胞中每两点八六埃立方的原子和
+atoms in the conventional unit cell per
+two point eight six angstroms cubes and
+
+395
+00:32:03,130 --> 00:32:06,760
+这些密度彼此之间的平方根为二，所以如果
+those densities differ from each other
+by a factor of square root of two so if
+
+396
+00:32:06,760 --> 00:32:09,309
+我们知道铁的原子密度
+we knew the atomic density of iron we
+could
+
+397
+00:32:09,309 --> 00:32:12,879
+是的，所以我们会完成的，但是假设我们不会碰巧知道
+which one it is so we'd be done but
+suppose we don't happen to know the
+
+398
+00:32:12,879 --> 00:32:16,690
+铁的原子密度，那么我们该怎么办好吧，还有其他事情
+atomic density of iron so what do we do
+then okay there are other other things
+
+399
+00:32:16,690 --> 00:32:21,909
+我们可以调用，我们可以看一下散射幅度
+we could invoke we could look at the
+scattering amplitudes which was what I
+
+400
+00:32:21,909 --> 00:32:26,470
+一直领先到现在，所以以这个散射角度
+was leading up to now remember so at
+this at this scattering angle the
+
+401
+00:32:26,470 --> 00:32:30,759
+洛伦兹系数不断减小，形状因数总是随着
+Lorentz factor is decreasing the form
+factor is always decreasing as a
+
+402
+00:32:30,759 --> 00:32:34,749
+增加角度的功能，因此您会天真地希望a应该是
+function of increased angle so you would
+sort of naively expect that a should be
+
+403
+00:32:34,749 --> 00:32:39,340
+大于B应该大于C但不是C大于唯一
+bigger than B should be bigger than C
+but it's not C is bigger the only thing
+
+404
+00:32:39,340 --> 00:32:44,320
+这可能解释了如果峰值C的多重性更大
+that could possibly explain that is if
+the multiplicity of the peak C is bigger
+
+405
+00:32:44,320 --> 00:32:48,340
+而不是B的多重性，所以如果看简单三次
+than the multiplicity of B so if you
+look at the simple cubic the simple
+
+406
+00:32:48,340 --> 00:32:52,389
+三次，我们确定第一个峰是1 0 0，第二个峰是1 1 0，第三个峰
+cubic we identify the first peak is 1 0
+0 the second peak is 1 1 0 and the third
+
+407
+00:32:52,389 --> 00:32:56,950
+峰值为1 1 1 B的多重性大于C的多重性
+peak as 1 1 1 the multiplicity of B is
+bigger than the multiplicity of C so
+
+408
+00:32:56,950 --> 00:33:00,789
+没有理由让C峰大于B峰
+there's no reason you would ever get the
+C peak to be bigger than B peak
+
+409
+00:33:00,789 --> 00:33:06,009
+但是对于BCC，C峰到1 1的多重性是24个单词
+however for BCC the multiplicity of the
+C peak to 1 1 is 24 words a multiplicity
+
+410
+00:33:06,009 --> 00:33:12,009
+ B峰的峰值是2 0 0，所以如果您现在C实际上应该比B大
+of the B peak is 2 0 0 so C should
+actually be bigger than B now if you
+
+411
+00:33:12,009 --> 00:33:15,490
+只是看一下多重性，您期望C应该是4的倍数
+just look at the multiplicities you
+would expect a factor of 4 that C should
+
+412
+00:33:15,490 --> 00:33:19,090
+比B大4倍，不比B大4倍，只有大约2倍
+be 4 times bigger than B and it's not 4
+times bigger than B it's only about two
+
+413
+00:33:19,090 --> 00:33:24,519
+可能比B大两倍大一点，但它不是完整的原因
+maybe two and a bit bigger times bigger
+than B but the reason it's not a full
+
+414
+00:33:24,519 --> 00:33:28,119
+大四倍是因为F在下降，形状因数在下降， 
+four times bigger is because F is
+dropping the form factor is dropping and
+
+415
+00:33:28,119 --> 00:33:32,080
+洛伦兹系数也在同时下降，因此与此竞争
+Lorentz factor is dropping also at the
+same time so it's competing with this
+
+416
+00:33:32,080 --> 00:33:36,220
+降低这两个条件的影响，但只要考虑一下
+decreasing effect from these other two
+terms but any rates just by looking at
+
+417
+00:33:36,220 --> 00:33:41,889
+我们可以从振幅中得知，这一定是BC C 
+this data we can we can tell just from
+the amplitudes that this must be BC C of
+
+418
+00:33:41,889 --> 00:33:46,450
+当然我们也知道铁不是简单的立方，因为只有一个
+course we also know that iron is not
+simple cubic because there's only one
+
+419
+00:33:46,450 --> 00:33:49,389
+具有简单立方晶格的元素，即po和铁
+element that takes a simple cubic
+lattice and that's polonium and iron
+
+420
+00:33:49,389 --> 00:33:53,619
+不是po，所以它也是一种欺骗的方式
+isn't polonium and so that does it also
+it's sort of a cheating way to go about
+
+421
+00:33:53,619 --> 00:34:01,720
+好的，让我们再做一个例子这是中子的例子
+it all right so let's do one more
+example this is the example of neutron
+
+422
+00:34:01,720 --> 00:34:06,519
+散射中子散射与X射线散射非常相似，但它是
+scattering neutron scattering is very
+similar to x-ray scattering but it's a
+
+423
+00:34:06,519 --> 00:34:10,300
+稍微简单一点，因为形状因子只是一个常数，只是核子
+little simpler because the form factor
+is just a constant it's just the nuclear
+
+424
+00:34:10,300 --> 00:34:19,659
+散射长度不是G的函数，所以我的天哪是格子类型
+scattering length it's not a function of
+G so what's the lattice type oh my gosh
+
+425
+00:34:19,659 --> 00:34:27,789
+哦，是的，我在这个问题上不太好，所以是的，所以你可以说这是FC 
+oh yes yes I'm not so good at this um so
+yes so it's so you can tell it's it's FC
+
+426
+00:34:27,789 --> 00:34:32,500
+这是FCC，由于模式不做任何计算
+this is FCC without doing any
+calculation because of the pattern the
+
+427
+00:34:32,500 --> 00:34:36,429
+您可以想象一下，如果这是3这是4那么有一个很大的
+you can sort of imagine that's if this
+is 3 this is 4 then there's a big
+
+428
+00:34:36,429 --> 00:34:42,639
+到8的间距然后到11的一点间距12靠近在一起，所以您可以看到
+spacing to 8 then a little spacing to 11
+12 close together so you can kind of see
+
+429
+00:34:42,639 --> 00:34:48,879
+间距是FCC晶格的正确间距，所以如果您
+that the spacing is the right spacing
+for an FCC lattice okay so but if you
+
+430
+00:34:48,879 --> 00:34:52,510
+想要贯穿整个故事我们可以经历整个故事
+want to go through the whole the whole
+the whole story we can go through the
+
+431
+00:34:52,510 --> 00:34:56,799
+整个故事仔细测量角度，计算晶格平面间距
+whole story carefully measure the angles
+calculate the lattice plane spacings
+
+432
+00:34:56,799 --> 00:35:02,530
+在晶格平面间距的平方上取1对1的比率
+take the ratios of a 1 over the 1 over
+the square of the lattice plane spacings
+
+433
+00:35:02,530 --> 00:35:07,630
+你得到一个1.3 2.6我们意识到将这些乘以3我们意识到这些
+you get one 1.3 2.6 we realize
+multiplies these by 3 we realize these
+
+434
+00:35:07,630 --> 00:35:13,030
+是整数比率3 4非常接近8非常接近11实际数据
+are integer ratios 3 4 pretty close to 8
+pretty close to 11 actually the data
+
+435
+00:35:13,030 --> 00:35:17,109
+并不是很好，如果备份得好，您会意识到这些峰是
+isn't so great and if you back up
+well you'll realize that these Peaks are
+
+436
+00:35:17,109 --> 00:35:21,849
+相当广泛，他们不是很准确地知道解决方案不是
+pretty broad they're not really that
+accurately you know resolved it's not
+
+437
+00:35:21,849 --> 00:35:26,230
+最好的数据是1959年采集的数据
+the greatest data this was data taken in
+1959 I mean modern modern data is much
+
+438
+00:35:26,230 --> 00:35:31,180
+更好，但是好吧，您可以肯定地看到它将会
+better but but ok it's you can
+definitely see that it's it's going to
+
+439
+00:35:31,180 --> 00:35:39,039
+成为FCC，您还可以标记米勒指数并获得
+be FCC and you can also label the Miller
+indices and get an estimate of the
+
+440
+00:35:39,039 --> 00:35:42,789
+晶格常数好吧，所以晶格常数，也许你不知道
+lattice constant okay so the lattice
+constant and maybe you don't know it
+
+441
+00:35:42,789 --> 00:35:46,569
+在百分之几之内，但是您对它的估计是相当不错的，但是
+within a few percent but you have a
+pretty good estimate of what it is but
+
+442
+00:35:46,569 --> 00:35:50,680
+事实上，我们在这里拥有的东西，我们可以写出我们可以
+in fact what we have here and we can
+write out the multiplicities we can
+
+443
+00:35:50,680 --> 00:35:54,430
+标记峰以及通过执行此操作实际上会注意到您会注意到
+label the peaks as well actually notice
+that you by doing this you'll notice
+
+444
+00:35:54,430 --> 00:35:59,260
+您可能已经预测到会有一个轻微的峰，这里的峰为4至0峰
+that there's you would have predicted a
+slight peak here a peak a 4 to 0 peak
+
+445
+00:35:59,260 --> 00:36:01,839
+这里没有肩膀
+here where the shoulder is it's not
+there
+
+446
+00:36:01,839 --> 00:36:05,289
+我的意思是您，但是如果您仔细地看一下，您会发现其中有些
+I mean you but if you kind of look at it
+carefully you see that there's kind of a
+
+447
+00:36:05,289 --> 00:36:09,700
+肩膀虚弱，您可以想象这只是一个很小的峰
+weak shoulder you can sort of imagine
+that it's just a very small peak that's
+
+448
+00:36:09,700 --> 00:36:15,220
+现在坐在那里，这样可以告诉我们高峰在哪里，但是我们
+sitting there now so this tells us
+whether where the peaks are but we
+
+449
+00:36:15,220 --> 00:36:18,430
+我们想获得更多信息，我们想知道什么
+there's more information that we would
+like to get we would like to know what
+
+450
+00:36:18,430 --> 00:36:25,299
+基础是，所以我们知道碳化钛碳化钛是FCC，它
+the basis is so we know that titanium
+carbide titanium carbide is FCC and it
+
+451
+00:36:25,299 --> 00:36:31,690
+必须有一个基础，我们有两个基础，两个基础
+has to have a basis we the basis it has
+two elements in it with the basis of two
+
+452
+00:36:31,690 --> 00:36:37,540
+两个原子的原子，我们想知道什么是形式
+atoms of two atoms
+and we'd like to know what is the form
+
+453
+00:36:37,540 --> 00:36:40,660
+换句话说，您将钛放在哪里
+of the basis in other words where do you
+put the titanium where you put the
+
+454
+00:36:40,660 --> 00:36:45,790
+晶胞中的碳，所以我们可以算出好吧，所以我们可以任意
+carbon in the unit cell so can we figure
+that out well okay so arbitrarily we can
+
+455
+00:36:45,790 --> 00:36:51,400
+我们总是可以将钛分配到零零零零的位置
+we can always assign titanium to the
+position at position zero zero zero in
+
+456
+00:36:51,400 --> 00:36:54,850
+单位晶格我们将钛位置定义为零零零
+the unit cell we'll just define the
+titanium position to be zero zero zero
+
+457
+00:36:54,850 --> 00:37:02,020
+但是然后碳将置于uvw位置，我们偶然不知道
+but then carbon will put at position uvw
+which we don't know incidentally I
+
+458
+00:37:02,020 --> 00:37:05,619
+应该提到碳化钛实际上是一种非常重要的材料
+should have mentioned titanium carbide
+is actually a really important material
+
+459
+00:37:05,619 --> 00:37:08,859
+有谁知道这是另一个有谁知道为什么碳化钛是
+does anyone know here's another one
+anyone know why titanium carbide is
+
+460
+00:37:08,859 --> 00:37:15,400
+真的很重要，将它用于需要的任何事情
+really important use it for what yeah
+yeah anything that needs to be really
+
+461
+00:37:15,400 --> 00:37:20,830
+很难，那么是的，所以今天任何碳化物都是最难的一种
+hard yeah then yeah okay so and so today
+any carbide is one of the hardest
+
+462
+00:37:20,830 --> 00:37:23,680
+那里没有钻石的材料，我认为只有一两个
+materials out there short of diamond I
+think there's only one or two others
+
+463
+00:37:23,680 --> 00:37:28,480
+和碳化钛一样坚硬，很容易看到
+that are as hard as titanium carbide
+it's easy to see it's easier to make
+
+464
+00:37:28,480 --> 00:37:32,530
+碳化钛，它不比钻石贵，所以无论何时需要
+titanium carbide it's not as expensive a
+diamond it's so whenever you need
+
+465
+00:37:32,530 --> 00:37:36,100
+任何需要非常艰苦的事情，它经常用于事物
+anything that needs to be very tough
+it's very frequently used for things
+
+466
+00:37:36,100 --> 00:37:39,790
+如工具，如果您需要锯或钻头将要切穿的东西
+like tools if you need a saw or a drill
+bit that's gonna cut through something
+
+467
+00:37:39,790 --> 00:37:43,780
+很难，经常是碳化钛，所以这就是为什么
+very hard it's very frequently titanium
+carbide so that's why they did this
+
+468
+00:37:43,780 --> 00:37:48,280
+可以追溯到1959年，因为它是一种有趣的材料
+experiment way back in in 1959 because
+it was an interesting material even back
+
+469
+00:37:48,280 --> 00:37:56,500
+在1959年，他们甚至都不知道它的结构，所以我认为视频也许
+in 1959 and they didn't even know its
+structure so okay so I think video maybe
+
+470
+00:37:56,500 --> 00:37:58,750
+他们不知道其他东西的结构，我不确定，但是
+they didn't know the structure from
+something else I don't I'm not sure but
+
+471
+00:37:58,750 --> 00:38:04,240
+我认为他们不知道，所以无论如何我们都不知道碳在哪里
+I don't think they knew it so anyway we
+don't know where the carbon is in the
+
+472
+00:38:04,240 --> 00:38:08,619
+单位细胞，所以我们要看看是否可以使用这些峰中的强度数据
+unit cells so we're gonna see if we can
+use this intensity data from these Peaks
+
+473
+00:38:08,619 --> 00:38:14,470
+弄清楚在单元格中什么地方通常是我们要去的部分
+to figure out where in the unit cell it
+is so generally the piece we're going to
+
+474
+00:38:14,470 --> 00:38:19,540
+感兴趣的是最终变得越来越重要的基本结构因素
+be interested in is the basic structure
+factor which is which ends up getting
+
+475
+00:38:19,540 --> 00:38:26,740
+平方，那很好，也许我会在这里首先写出等于
+squared and that is well maybe I'll
+write this out here first s basis equals
+
+476
+00:38:26,740 --> 00:38:36,369
+单位单元e中单位单元中的alpha与IG点的总和R alpha乘以B 
+sum over alpha in the unit cell in unit
+cell e to the I G dot R alpha times B
+
+477
+00:38:36,369 --> 00:38:42,040
+晶胞中有两个原子的alpha，因此此处的s平方为B 
+alpha for there's two atoms in the unit
+cell so s basis squared here will be B
+
+478
+00:38:42,040 --> 00:38:47,410
+钛加B碳e会写成
+titanium plus B carbon e to that will
+write it as
+
+479
+00:38:47,410 --> 00:38:56,619
+ 2pi HKL点缀在uvw中，然后将其取平方
+the 2pi HKL dotted into uvw and then you
+take that thing you square it and that
+
+480
+00:38:56,619 --> 00:39:02,650
+如果您知道这些核素是什么，现在将为您提供基础结构因子
+will give you the basis structure factor
+now if you knew what these nuclear
+
+481
+00:39:02,650 --> 00:39:06,339
+散射长度是钛，B是碳，您可能会打架
+scattering lengths were be titanium and
+B be carbon you might have a fighting
+
+482
+00:39:06,339 --> 00:39:11,170
+找出紫外线和紫外线的机会，但假设我们不知道可以
+chance of figuring out what UV and W
+were but suppose we didn't know that can
+
+483
+00:39:11,170 --> 00:39:14,950
+我们仍然可以取得任何进展，如果我愿意，我们可以取得一些进展
+we still make any progress well we can
+make a little bit of progress if I give
+
+484
+00:39:14,950 --> 00:39:16,510
+你的提示，这是你得到的一种提示
+you a hint
+this is a kind of hint you get on an
+
+485
+00:39:16,510 --> 00:39:25,020
+考试考试的提示是FCC具有两个原子基础和一个
+exam the kind of hint you get on an exam
+is that FCC with two atom basis and a
+
+486
+00:39:25,020 --> 00:39:38,559
+在此基础上，只有两个共同点
+basis there's only two common ones only
+two common ones common possibilities in
+
+487
+00:39:38,559 --> 00:39:42,760
+事实上，我什至不知道不是这两种情况之一的任何情况
+fact I don't even know of any cases that
+are not one of these two there may be
+
+488
+00:39:42,760 --> 00:39:45,609
+即使是一个定理，你也不能拥有其他任何东西，我不确定
+even a theorem that you can't have
+anything else I'm not sure about that so
+
+489
+00:39:45,609 --> 00:39:48,880
+不要引用我，但无论如何，我们都已经看到了这两种可能性
+don't quote me but anyway the two
+possibilities we both we've seen them
+
+490
+00:39:48,880 --> 00:39:53,319
+两者之前都存在所谓的锌混合结构
+both before there's the so-called zinc
+blende structure which is the same as
+
+491
+00:39:53,319 --> 00:39:59,109
+我们在课堂上讨论过的砷化镓结构将UVW置于
+the gallium arsenide structure which we
+talked about in class which puts UVW at
+
+492
+00:39:59,109 --> 00:40:05,650
+一季度，一季度，一季度，另一种可能性
+the position one quarter one quarter one
+quarter and the other possibility we
+
+493
+00:40:05,650 --> 00:40:16,529
+还讨论了UVW为1/2 1/2 1/2的氯化钠结构
+also discussed is the sodium chloride
+structure which has UVW at 1/2 1/2 1/2
+
+494
+00:40:16,710 --> 00:40:24,400
+那么我们能找出这两种可能性中的哪一种很好吗，让我们
+so can we figure out which one of these
+two possibilities it is okay well let's
+
+495
+00:40:24,400 --> 00:40:32,440
+看看我们是否可以这样做，让我们先尝试一下，再尝试锌混合结构好吗
+see if we can do it so let's try first
+try one try zinc blende structure okay
+
+496
+00:40:32,440 --> 00:40:42,970
+因此，在这种情况下，基数平方等于B钛加B碳e 
+so in this case s basis squared equals
+well we have B titanium plus B Carbon e
+
+497
+00:40:42,970 --> 00:40:51,089
+到2 pi H KL，然后是1/4 1/4 1/4 
+to the 2 pi H KL and then 1/4 1/4 1/4
+
+498
+00:40:52,120 --> 00:40:57,620
+我们也可以在这里写这个因子这个指数因子也是
+which we can also write this factor here
+this exponential factor here is also
+
+499
+00:40:57,620 --> 00:41:05,510
+等价于PI的e乘以I乘以H加k加L或I的两倍
+equivalent to e to the PI over two times
+I times h plus k plus L or equivalently
+
+500
+00:41:05,510 --> 00:41:15,460
+这就是我的h加k加L所以好吧，我不在这里了，我们在这里
+this would be I to the h plus k plus L
+so okay I'm out of room here we're here
+
+501
+00:41:15,460 --> 00:41:28,070
+所以我们有一个平方的基础等于钛加上碳乘以I到h 
+so we have s basis squared equals be
+titanium plus be carbon times I to the h
+
+502
+00:41:28,070 --> 00:41:35,510
+加K加l平方好吗，那是h KL的函数
+plus K plus l squared okay and what is
+that as a function of h KL well there's
+
+503
+00:41:35,510 --> 00:41:41,060
+三种可能的情况之一我的意思是，情况a是h加
+three possibilities
+case one I mean a case a is that h plus
+
+504
+00:41:41,060 --> 00:41:48,620
+ k加L是4的倍数，等于整数n的四倍，因此在这种情况下，我们
+k plus L is a multiple of 4 equals four
+times an integer n so in that case we
+
+505
+00:41:48,620 --> 00:41:56,750
+获得s的平方的平方等于钛加上碳的绝对值
+get s basis squared equals be titanium
+plus be carbon the absolute value
+
+506
+00:41:56,750 --> 00:42:02,470
+平方第二种可能性情况B是
+squared the second possibility case B is
+
+507
+00:42:02,890 --> 00:42:09,080
+ h加k加L仍然是偶数，但不是四的倍数，因此我们称
+h plus k plus L is still even but it's
+not a multiple of four so we'll call for
+
+508
+00:42:09,080 --> 00:42:19,100
+ n加2，在这种情况下，我们得到的s平方等于钛-碳
+n plus two in which case we get s basis
+squared equals be titanium - be carbon
+
+509
+00:42:19,100 --> 00:42:32,330
+在第三种情况下平方C是h加k加上L是奇奇在这种情况下S 
+squared in the third case case C is h
+plus k plus L is odd odd in which case S
+
+510
+00:42:32,330 --> 00:42:42,170
+基数平方是B钛正负I乘以B碳平方，即
+basis squared is B titanium plus or
+minus I times B Carbon squared which is
+
+511
+00:42:42,170 --> 00:42:47,350
+钛平方加B碳平方
+be titanium squared plus B Carbon
+squared
+
+512
+00:42:47,410 --> 00:42:54,260
+好吧，好吧，让我们凝视一下，您能做什么
+good all right so we've let's stare at
+that for a second and what can you
+
+513
+00:42:54,260 --> 00:42:58,700
+从这个井得出结论，无论B钛和B碳有多长
+conclude from this well no matter what B
+titanium and B carbon are as long as
+
+514
+00:42:58,700 --> 00:43:02,960
+他们是真实的，他们是三种可能性中最大的一种
+they're real which they are the largest
+of the three possibilities is always
+
+515
+00:43:02,960 --> 00:43:07,519
+无论哪种情况，如果它们是钛，都是碳
+either case a and
+case be if they be titanium be carbon
+
+516
+00:43:07,519 --> 00:43:10,819
+具有相同的符号，则如果a是三种可能性中的最大值，则
+have the same sign then case a is the
+largest of the three possibilities if
+
+517
+00:43:10,819 --> 00:43:14,869
+如果B是三种可能性中的最大值，则它们具有相反的符号，因此
+they have opposite sign in case B is the
+largest of three possibilities so the
+
+518
+00:43:14,869 --> 00:43:19,969
+现在，让我们来看看最大的峰肯定是h加k加L 
+largest Peaks should definitely have
+even h plus k plus L now let's look at
+
+519
+00:43:19,969 --> 00:43:29,329
+这些数据，您将看到h加k加L，您会注意到最高峰
+this data and you'll see h plus k plus L
+and you'll notice that the highest peaks
+
+520
+00:43:29,329 --> 00:43:36,319
+总是系统地总是有奇数h加k加l所以总是一个
+always have odd h plus k plus l
+systematically always there so the one
+
+521
+00:43:36,319 --> 00:43:39,559
+一一高三一一高三三一高三三
+one one is high three one one is high
+three three one is high three three
+
+522
+00:43:39,559 --> 00:43:43,700
+三个很高，其他所有的都很小，所以这并不相同
+three is high all the other ones are
+small are even so this does not agree
+
+523
+00:43:43,700 --> 00:43:49,749
+与不同意的数据同意
+with the data it does not agree agree
+
+524
+00:43:50,710 --> 00:43:56,779
+好吧，我们可以尝试其他方法，我们可以尝试氯化钠结构，所以尝试
+well we can try something else we can
+try the sodium chloride structure so try
+
+525
+00:43:56,779 --> 00:44:05,299
+氯化钠在这种情况下我们很好我在这里某处写了它
+sodium chloride in which case we have
+well I wrote it over here somewhere
+
+526
+00:44:05,299 --> 00:44:15,670
+是的那边是1/2 1/2和1/2所以s的平方是B钛加上
+yeah over there it's 1/2 1/2 and 1/2 so
+s basis squared is then B titanium plus
+
+527
+00:44:15,670 --> 00:44:26,900
+ B碳乘以e到2 pi HK的碳现在乘以1/2 1/2 1/2，然后全部
+B carbon times e to the 2 pi H K now
+dotted into 1/2 1/2 1/2 and then all
+
+528
+00:44:26,900 --> 00:44:37,190
+平方，我们可以重写为B钛加B碳乘以负1/2 
+squared and that we can rewrite as B
+titanium plus B carbon times minus 1/2
+
+529
+00:44:37,190 --> 00:44:44,359
+ h加k加L都平方，所以有两种情况我们可以得到情况1 
+the h plus k plus L all squared so
+there's two cases we can have case 1
+
+530
+00:44:44,359 --> 00:44:54,380
+好的，所以a是h加k加上L是奇数，在这种情况下，我们有B钛-是
+case ok so a is h plus k plus L is odd
+in which case we have B titanium - be
+
+531
+00:44:54,380 --> 00:45:04,160
+碳平方是答案，而案例B案例B是h加k加l等于
+carbon squared is the answer whereas
+case B case B is h plus k plus l equals
+
+532
+00:45:04,160 --> 00:45:15,040
+即使在这种情况下，我们有B钛加B碳平方即可
+even in which case we have B titanium
+plus B Carbon squared ok
+
+533
+00:45:15,040 --> 00:45:21,340
+那么，现在最大的是什么？您可以看到，如果这个想法
+so now what's which one is largest here
+well you can see that if this idea maybe
+
+534
+00:45:21,340 --> 00:45:26,020
+碳具有相同的符号，则偶数将始终更大，而如果它们
+carbon have the same sign then the even
+will always be larger whereas if they
+
+535
+00:45:26,020 --> 00:45:30,460
+具有相反的符号，那么如果您查看数据，则奇数会更大
+have the opposite sign then the odd will
+have larger well if you look at the data
+
+536
+00:45:30,460 --> 00:45:35,590
+ h加k加L奇数显然要大得多，所以这告诉我们
+the h plus k plus L odd is clearly much
+larger and so that tells us this it's
+
+537
+00:45:35,590 --> 00:45:42,780
+与这种情况相一致，如果是钛，则钛具有相反的符号
+consistent with this case that if be
+titanium be titanium has opposite sign
+
+538
+00:45:42,780 --> 00:45:52,780
+ B碳的符号是什么，所以大的峰是B钛-被碳平方
+what's its sign of B carbon so the large
+Peaks are B titanium - be carbon squared
+
+539
+00:45:52,780 --> 00:45:56,700
+ B钛和B碳具有相反的符号，并且小峰是
+with B titanium and B carbon having
+opposite sign and the small Peaks are
+
+540
+00:45:56,700 --> 00:46:02,830
+两者之和也有相反的符号大家好
+the sum of the two with them having an
+opposite sign as well okay everyone
+
+541
+00:46:02,830 --> 00:46:07,780
+或多或少有点满意，是的，请说是，好吧，谢谢
+happy with that more or less a little
+bit yes please say yes all right thank
+
+542
+00:46:07,780 --> 00:46:12,670
+好的，让我们看看，是的， 
+you all right
+good so let's see so yeah there's the
+
+543
+00:46:12,670 --> 00:46:17,280
+摘要摘要幻灯片，所以我们得出结论它必须是氯化钠结构
+summary summary slide so we conclude it
+has to be sodium chloride structure
+
+544
+00:46:17,280 --> 00:46:23,170
+让我们来看一下，以便我们可以继续讨论哦在这里，让我们讨论一下您
+let's see so we can actually go on and
+discuss oh here let's discuss how you
+
+545
+00:46:23,170 --> 00:46:28,510
+产生中子一秒钟，所以我们讨论了您如何产生中子
+make neutrons for a second so we
+discussed how you make probably make s
+
+546
+00:46:28,510 --> 00:46:34,000
+我认为上一讲是最后一讲的最后一个托盘，但我们没有讨论
+trays in the last in the last last
+lecture I think but we haven't discussed
+
+547
+00:46:34,000 --> 00:46:38,590
+您如何制造中子这是一个中子设施散裂的中子源
+how you make neutrons this is a neutron
+facility a spallation neutron source
+
+548
+00:46:38,590 --> 00:46:42,280
+也就在同步加速源旁边的路上
+also right down the road next to the
+synchrotron source rather large and
+
+549
+00:46:42,280 --> 00:46:47,020
+昂贵的设备，但我们需要的是需要波长在
+expensive apparatus but what we need is
+we need neutrons with a wavelength on
+
+550
+00:46:47,020 --> 00:46:51,940
+一埃的量级如果波长为一，我们如何得到很好的结果
+the order of one angstrom how do we get
+that well if the wavelength is one
+
+551
+00:46:51,940 --> 00:46:57,820
+埃的动量是Lambda上的2 pi H bar，据此我们可以计算出
+angstrom the momentum is 2 pi H bar over
+lambda and from that we can calculate
+
+552
+00:46:57,820 --> 00:47:06,070
+我们需要的能量在2m上平方P等于大约8000万
+that the energy we need is P squared
+over 2m equals approximately 80 mil
+
+553
+00:47:06,070 --> 00:47:10,930
+电子伏特或约800开尔文，我们将适当的因素
+electron volts or about 800 Kelvin we
+put in the appropriate factor
+
+554
+00:47:10,930 --> 00:47:14,200
+玻尔兹曼常数使中间温度升高，这可能听起来对您来说
+Boltzmann's constant to make an inter
+temperature and this might sound to you
+
+555
+00:47:14,200 --> 00:47:19,060
+就像它很热，但实际上800开尔文对中子来说真的很冷，为什么
+like it's hot but in fact 800 Kelvin is
+really really cold for neutrons why is
+
+556
+00:47:19,060 --> 00:47:23,160
+那你如何首先获得中子
+that well how do you get the neutrons in
+the first place
+
+557
+00:47:23,160 --> 00:47:31,030
+制造中子使中子恢复到以前没有的状态
+making neutrons making neutrons well
+back in the old days they didn't have
+
+558
+00:47:31,030 --> 00:47:35,680
+中子，然后是第二次世界大战和原子弹
+neutrons and then along came the the
+Second World War and the atomic bomb
+
+559
+00:47:35,680 --> 00:47:39,070
+项目和原子弹项目之后，他们有核反应堆和
+project and after the atomic bomb
+project they had nuclear reactors and
+
+560
+00:47:39,070 --> 00:47:45,430
+核反应堆以中子为副产物，因此可能是副产物
+nuclear reactors have neutrons as a
+by-product so possibly one is byproduct
+
+561
+00:47:45,430 --> 00:47:55,090
+裂变，你可以想象，当一个中子从原子核的
+of fission and you can imagine that when
+a neutron comes off of a of a nucleus in
+
+562
+00:47:55,090 --> 00:47:59,470
+某些裂变过程产生了数百万个电子伏特
+some fission process it's coming out
+with millions of electron volts rather
+
+563
+00:47:59,470 --> 00:48:03,550
+比毫伏电子伏特高得多，所以它非常的有活力
+than milla electron volts so it's
+extremely extremely energetic so this
+
+564
+00:48:03,550 --> 00:48:10,150
+ 800开尔文的能量非常低，还有一种更受欢迎的方法
+800 Kelvin is extremely low energy
+there's a more favorite method for
+
+565
+00:48:10,150 --> 00:48:13,720
+因为人们不喜欢在后院安装原子反应堆
+making because people don't like to have
+atomic reactors in their backyard these
+
+566
+00:48:13,720 --> 00:48:18,160
+如今，有一种更受青睐的制造中子的方法，实际上它更
+days there's a more favored method for
+making neutrons in fact it's more
+
+567
+00:48:18,160 --> 00:48:23,410
+高效的方法也被称为阿巴拉契亚（Appalachia），这就是
+efficient method as well which is known
+as Appalachia and that's what this
+
+568
+00:48:23,410 --> 00:48:27,850
+来源是这个中子来源是愿望来源愿望的概念
+source is this Neutron source is
+aspiration source the idea of aspiration
+
+569
+00:48:27,850 --> 00:48:32,800
+来源与X射线管的想法没有什么不同，在X射线管中您通常会
+source is not unlike the idea of an
+x-ray tube where you take usually a
+
+570
+00:48:32,800 --> 00:48:38,820
+质子和质子，您可以将其加速到大约千兆电子伏特
+proton and proton and you accelerate it
+to about a Giga electron volt and you
+
+571
+00:48:38,820 --> 00:48:46,330
+将其击中目标目标，其想法是粉碎一些核和一些核， 
+hit it onto a target target and the idea
+is to smash some nucleus some nuclei and
+
+572
+00:48:46,330 --> 00:48:50,860
+因为您以如此高的命中率击中中子，所以现在再次开始中子
+kick off some neutrons now again since
+you're hitting it with such a high a
+
+573
+00:48:50,860 --> 00:48:56,680
+高能量，您将用一些非常高的能量来启动中子
+high energy you're going to kick off
+neutrons with some very very high energy
+
+574
+00:48:56,680 --> 00:49:01,660
+同样，无论您使用哪种方法来产生中子
+as well so whichever method you use to
+create neutrons they're coming off with
+
+575
+00:49:01,660 --> 00:49:05,290
+令人难以置信的高能量，您必须将其冷却，以便使其冷却
+an incredibly high energy and you have
+to make them cold so to make them cold
+
+576
+00:49:05,290 --> 00:49:12,100
+使用的是主持人，主持人基本上只是一个大坦克
+what you use is you use a moderator and
+a moderator is basically just a big tank
+
+577
+00:49:12,100 --> 00:49:16,200
+某些物质，中子可以进入该物质并在附近反弹
+of some substance where the neutrons can
+go in the substance and bounce around
+
+578
+00:49:16,200 --> 00:49:21,630
+将能量释放给物质，所以人们经常使用碳石墨
+giving off their energy to the substance
+so frequently people use carbon graphite
+
+579
+00:49:21,630 --> 00:49:27,610
+石墨是碳石墨碳水重水许多材料什么
+graphite is carbon graphite carbon water
+heavy water lots of materials anything
+
+580
+00:49:27,610 --> 00:49:31,750
+中子可以撞击并释放能量给
+that will that the neutrons can bump
+into and give off their energy to and
+
+581
+00:49:31,750 --> 00:49:35,530
+最终在这件事的另一端，你得到了中子， 
+eventually out the other end of this
+thing you get you get neutrons and you
+
+582
+00:49:35,530 --> 00:49:37,390
+想把它们拉下来，直到我知道
+want to
+pull them down until they I have about
+
+583
+00:49:37,390 --> 00:49:43,660
+一旦有中子出来，现在就价值800开尔文的能量
+800 Kelvin worth of energy now once you
+have the the neutrons coming out you
+
+584
+00:49:43,660 --> 00:49:50,190
+需要以某种方式弄清楚如何使它们单色八
+need to somehow figure out how to make
+them monochromatic monochrome eight
+
+585
+00:49:50,190 --> 00:49:54,369
+意味着您只想获得一个波长传闻，这是第一个规则
+meaning you just want to get one
+wavelength rumor that is the first rule
+
+586
+00:49:54,369 --> 00:49:59,619
+没有您的波长，所以您必须要单色八倍，所以您如何
+no your wavelength so you have to
+monochrome eight so how do you
+
+587
+00:49:59,619 --> 00:50:05,529
+单色八种方法之一是衍射，因此可以使用晶体
+monochrome eight one way method one is
+to diffract so you can use a crystal
+
+588
+00:50:05,529 --> 00:50:09,249
+众所周知，我们在x射线以及来自
+that's known we mentioned this in the
+case of x-rays as well diffract from a
+
+589
+00:50:09,249 --> 00:50:18,220
+已知晶体中的已知晶体，有时可以起作用，但是还有另一个
+known crystal from known crystal and
+that sometimes works but there's another
+
+590
+00:50:18,220 --> 00:50:21,849
+也使用的方法对中子非常好
+method which is also used which is very
+nice for neutrons which is a
+
+591
+00:50:21,849 --> 00:50:29,259
+飞行时间方法飞行时间以下列方式工作
+time-of-flight method time-of-flight
+which works in the following way
+
+592
+00:50:29,259 --> 00:50:33,400
+所以你有一束中子进入这里，然后你会有一个
+so you have a beam of neutrons coming in
+over here and then you have sort of a
+
+593
+00:50:33,400 --> 00:50:37,690
+您可以打开和关闭的窗口打开并关闭您想要的任何东西，然后您
+window which you can open and close open
+and close whatever you want and then you
+
+594
+00:50:37,690 --> 00:50:43,059
+从这里到这里有一个长距离的el，另一个可以打开的窗口
+have a long spacing el from here to here
+and another window which you can open
+
+595
+00:50:43,059 --> 00:50:46,900
+然后关闭，所以您可以快速打开和关闭窗口
+and close so you open up and close the
+window very quickly to let in a little
+
+596
+00:50:46,900 --> 00:50:51,670
+脉冲中子，然后在某个时间点T后再打开另一个
+pulse of neutrons and then at some time
+delta T later you open up the other
+
+597
+00:50:51,670 --> 00:50:56,710
+窗口，所以您知道L，您知道T，所以如果它是从第一个窗口到
+window so then you know L you know T so
+if it made it from the first window to
+
+598
+00:50:56,710 --> 00:51:02,380
+ ΔT中的第二个窗口你知道它的速度，所以L除以ΔT是
+the second window in delta T you know
+its velocity so L divided by delta T is
+
+599
+00:51:02,380 --> 00:51:06,099
+如果知道它的速度，就知道它的动量。 
+its velocity if you know its velocity
+you know its momentum if you know its
+
+600
+00:51:06,099 --> 00:51:10,869
+动量，您知道它的波长，所以您可以通过给它一个
+momentum you know its wavelength so you
+can select by knowing how by giving it a
+
+601
+00:51:10,869 --> 00:51:13,869
+从第一个窗口到第二个窗口需要一定的时间
+certain amount of time to get from the
+first window to the second window you
+
+602
+00:51:13,869 --> 00:51:17,739
+可以为那里的特定速度选择特定的速度
+can select for a particular velocity
+there for a particular momentum there
+
+603
+00:51:17,739 --> 00:51:22,749
+对于特定的波长，我还要提及的一件事是
+for a particular wavelength one more
+thing that I do want to mention about
+
+604
+00:51:22,749 --> 00:51:25,900
+在接下来的中子中，中子只会说一两件事
+neutrons will say maybe just one or two
+more things about them in the next
+
+605
+00:51:25,900 --> 00:51:29,440
+讲座，但我现在想提一提，这是人们喜欢中子的原因之一
+lecture but I do want to mention now is
+one of the reasons people like neutrons
+
+606
+00:51:29,440 --> 00:51:35,980
+是中子实际上有一个自旋，它使您能够看到具有
+is the neutrons actually have a spin and
+that enables you to see things that have
+
+607
+00:51:35,980 --> 00:51:40,150
+如果在一个区域中有更多旋转，则旋转很重要的重要性
+importance where the spin is important
+if you have more spins in one region
+
+608
+00:51:40,150 --> 00:51:43,989
+而不是另一个区域，中子对它们感到
+than another region the neutrons are
+sensitive to that they feel the the
+
+609
+00:51:43,989 --> 00:51:48,730
+作为光子不存在的潜力的局部磁环境
+local magnetic environment as a
+potential where as photons do not they
+
+610
+00:51:48,730 --> 00:51:51,759
+不在乎中子在当地的磁场环境，因为
+don't care about the local
+magnetic environment neutrons do because
+
+611
+00:51:51,759 --> 00:51:55,569
+中子有一些自旋，我们会停在那儿，然后我们将完成
+the neutrons have some spin okay we'll
+stop there and we'll pick up finish this
+
+612
+00:51:55,569 --> 00:52:04,320
+下一场下一场演讲[掌声] 
+off next next lecture
+[Applause]
+

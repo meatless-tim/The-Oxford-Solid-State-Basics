@@ -1,0 +1,3267 @@
+1
+00:00:00,030 --> 00:00:06,529
+好吧，让我们开始吧，欢迎回来，这是第十二个
+okay let's get started
+welcome back it's the this is the 12th
+
+2
+00:00:06,529 --> 00:00:14,840
+浓缩物课程的讲座你好，还是星期一，所以当我们离开时
+lecture of the condensed matter course
+hello is it Monday still so when we left
+
+3
+00:00:14,840 --> 00:00:18,350
+我们谈论的是散射标准散射实验
+off we were talking about scattering the
+standard scattering experiment did you
+
+4
+00:00:18,350 --> 00:00:23,990
+有一些样本在波矢K处发送一些波，然后出现一些东西
+have some sample you send in some wave
+at wave vector K and something comes out
+
+5
+00:00:23,990 --> 00:00:30,320
+和波向量K Prime并通过测量在各种波向量K处产生的结果
+and wave vector K Prime and by measuring
+what comes out at various wave vectors K
+
+6
+00:00:30,320 --> 00:00:33,500
+首要的，我们应该能够从微观上推断出结构
+Prime we're supposed to be able to
+deduce the structure the microscopic
+
+7
+00:00:33,500 --> 00:00:37,730
+样本的结构，我想再次强调一下， 
+structure of the sample and I want to
+emphasize again that this type of
+
+8
+00:00:37,730 --> 00:00:42,470
+实验是理解事物微观结构的方式
+experiment is the way to understand the
+microscopic structures of things on
+
+9
+00:00:42,470 --> 00:00:46,280
+规模小于您实际能看到的诺贝尔奖数量
+scales smaller than you can actually see
+with your eye the number of Nobel Prizes
+
+10
+00:00:46,280 --> 00:00:49,730
+进行此类实验的人获得的奖励是巨大的
+that have been awarded for people doing
+this type of experiment is enormous
+
+11
+00:00:49,730 --> 00:00:54,710
+大概有20 25 30个无知的奖品
+there's like 20 25 30 ignoble prizes
+just a couple of famous ones you know
+
+12
+00:00:54,710 --> 00:00:58,880
+牛津大学的多萝西·霍奇金·萨默维尔最喜欢的女儿赢得了
+Oxford's own Dorothy Hodgkin
+Somerville's favorite daughter won a
+
+13
+00:00:58,880 --> 00:01:03,110
+发现青霉素和胰岛素的结构获得诺贝尔奖
+Nobel Prize for discovering the
+structure of penicillin and insulin
+
+14
+00:01:03,110 --> 00:01:07,579
+使用X射线散射，沃森和克里克（Watson and Crick）非常著名地发现了DNA的两倍
+using x-ray scattering Watson and Crick
+very famously figured out the DNA double
+
+15
+00:01:07,579 --> 00:01:11,810
+他们通过查看X射线散射数据得出的螺旋结构
+helix structure which they figured out
+by looking at x-ray scattering data
+
+16
+00:01:11,810 --> 00:01:16,159
+罗莎琳德·富兰克林（Rosalind Franklin）摄Russell Franklin不幸去世， 
+taken by rosalind Franklin Russell
+Franklin sadly died extremely young and
+
+17
+00:01:16,159 --> 00:01:21,710
+因此，她被剥夺了诺贝尔奖以及她的余生
+was therefore denied a Nobel Prize as
+well as the rest of her life just very
+
+18
+00:01:21,710 --> 00:01:26,630
+伤心，但每个人都应该知道她的名字
+sad but everyone should know her name
+nonetheless anyway this is an extremely
+
+19
+00:01:26,630 --> 00:01:29,689
+重要的实验，这就是为什么我们要花很多时间在
+important experiment and that's why
+we're spending so much time on it at
+
+20
+00:01:29,689 --> 00:01:32,990
+至少是本讲座的下一个讲座，也许是之后的一些讲座
+least this lecture next lecture and
+maybe some of the lecture there after
+
+21
+00:01:32,990 --> 00:01:36,170
+我们在上一堂课中得出的一件事是，为了获得
+one of the things we derived in the last
+lecture is that in order to get
+
+22
+00:01:36,170 --> 00:01:42,439
+从k到k素数的散射，我们必须在晶体中满足老挝条件
+scattering from k to k prime we must
+satisfy in a crystal the lao e condition
+
+23
+00:01:42,439 --> 00:01:47,780
+ K减去K素数现在必须是倒数晶格向量G 
+that K minus K prime must be a
+reciprocal lattice vector G now at the
+
+24
+00:01:47,780 --> 00:01:52,819
+在上一堂课结束时，我声称这种情况很糟糕
+very end of last lecture I claimed that
+this condition this lousy condition is
+
+25
+00:01:52,819 --> 00:01:58,189
+与您在考虑时已经考虑过的情况非常相似
+very similar to a condition that you
+have already thought about when you
+
+26
+00:01:58,189 --> 00:02:06,079
+被认为只是平面上的简单衍射，您拥有光或X射线，或者
+considered just simple diffraction off
+of planes you have light or x-rays or
+
+27
+00:02:06,079 --> 00:02:09,889
+进入一组平行平面的东西或中子
+something or neutrons coming into a set
+of parallel planes a family of lattice
+
+28
+00:02:09,889 --> 00:02:15,200
+平面和您有不同，我们了解如何获得衍射
+planes and you have different you we
+understand how you can get diffraction
+
+29
+00:02:15,200 --> 00:02:19,610
+这种类型与平行的
+of this sort at
+certain angles off of parallel family of
+
+30
+00:02:19,610 --> 00:02:23,450
+飞机，我要说这种情况实际上是
+planes and I'm gonna claim that this
+this condition here is actually
+
+31
+00:02:23,450 --> 00:02:26,360
+等价于此，所以我们首先要做的是回顾一些
+equivalent to that so first what we're
+gonna do is we're going to review some
+
+32
+00:02:26,360 --> 00:02:30,320
+关于平面衍射的事情，那么我们将证明糟糕的是
+things about diffraction off of planes
+then we're gonna show that the lousy
+
+33
+00:02:30,320 --> 00:02:34,970
+条件和衍射条件是相同的，所以让我们抽象一下
+condition and the diffraction conditions
+are the same so let's uh abstract this
+
+34
+00:02:34,970 --> 00:02:41,750
+像这样在一组飞机上拍一些照片，想像一下我们
+picture a little bit to just a set of
+planes like this and well imagine we
+
+35
+00:02:41,750 --> 00:02:49,090
+像这样有波进来，它像这样以角度θ反射
+have some wave coming in like this it
+reflects off like this at an angle theta
+
+36
+00:02:49,090 --> 00:02:55,160
+而且还有另外一个平行波像这样完全一样的波
+but also another parallel wave coming in
+like this exactly the same wave just
+
+37
+00:02:55,160 --> 00:03:01,400
+下降到一层，像这样以相同的角度θ进一步衍射
+goes down to one layer further diffract
+off like this the same angle theta like
+
+38
+00:03:01,400 --> 00:03:04,880
+这个，我要去强调，我也许可以
+this and I'm just going I'm going to
+actually emphasize this I may be able to
+
+39
+00:03:04,880 --> 00:03:09,770
+甚至将其写下来，因为它是错误总数的极为常见的来源
+even write it down because it's an
+extremely common source of error total
+
+40
+00:03:09,770 --> 00:03:19,550
+偏转角偏转角等于theta为什么为什么有theta 
+deflection angle deflection angle equals
+to theta why is that well there's theta
+
+41
+00:03:19,550 --> 00:03:23,360
+那里还有另一个θ，所以角度差
+there and another theta there so the
+difference the difference in angle
+
+42
+00:03:23,360 --> 00:03:28,310
+传入波和传出波之间实际上是两个theta 
+between the incoming wave and the
+outcoming wave is actually two theta you
+
+43
+00:03:28,310 --> 00:03:31,820
+知道这会给很多人带来各种各样的悲伤，所以请确保
+know that this this causes all sorts of
+grief to a lot of people so make sure
+
+44
+00:03:31,820 --> 00:03:34,220
+你知道什么时候你在谈论theta以及你在谈论两个theta 
+you know when you're talking about theta
+and what are you talking about two theta
+
+45
+00:03:34,220 --> 00:03:39,500
+因此，当您在前几年进行这种类型的计算时，您知道
+so as you did this this type of
+calculation in prior years you know that
+
+46
+00:03:39,500 --> 00:03:44,560
+您需要做的是计算额外距离
+the what you need to do is you need to
+calculate the additional distance
+
+47
+00:03:44,560 --> 00:03:49,160
+由第二波传播，所以如果我在此处垂直放置
+traveled by the second wave so if I drop
+a perpendicular here and a perpendicular
+
+48
+00:03:49,160 --> 00:03:55,970
+如果D是两者之间的距离，则此处的附加距离为d正弦角
+here the additional distance here is d
+sine theta if D is the distance between
+
+49
+00:03:55,970 --> 00:04:02,450
+因此，为了获得相长干涉
+the the layers so in order to get
+constructive interference constructive
+
+50
+00:04:02,450 --> 00:04:09,220
+哦，也许我先写这个额外距离
+oh maybe maybe I'll write this first the
+additional distance additional distance
+
+51
+00:04:09,220 --> 00:04:18,560
+距离等于2 D正弦theta等于2 D正弦theta所以它是D正弦theta 
+distance is then 2 D sine theta equals 2
+D sine theta so it's D sine theta on
+
+52
+00:04:18,560 --> 00:04:22,910
+在这边，然后在那边再有一个D正弦θ，因此额外的距离
+this side and then another D sine theta
+on that side so the additional distance
+
+53
+00:04:22,910 --> 00:04:28,860
+由第二平面反射回来的波所取的是2 D正弦θ2 
+taken by the by the wave that reflected
+off the second plane is 2 D sine theta 2
+
+54
+00:04:28,860 --> 00:04:33,440
+建设性干涉建设性干涉
+constructive interference constructive
+
+55
+00:04:33,980 --> 00:04:42,990
+干扰罐子的放屁我想这是我在写作中所说的
+interference in jar farrance I think
+it's as the term goes on my writing gets
+
+56
+00:04:42,990 --> 00:04:50,610
+更糟的是，我们得到的是n lambda等于两个正弦θ，因此您必须有一个整数
+worse we get is n lambda equals two sine
+theta so you have to have an integer
+
+57
+00:04:50,610 --> 00:04:53,820
+该额外距离中包含的波长数量看起来是否全部
+number of wavelengths contained in that
+extra distance does that all look
+
+58
+00:04:53,820 --> 00:04:57,810
+前几年很熟悉，是的，所以我要在它周围放一个盒子，因为它
+familiar from previous years yeah okay
+so I'll put a box around it because it's
+
+59
+00:04:57,810 --> 00:05:04,100
+一个重要的方程式称为布拉格条件布拉格条件
+an important equation this is known as
+the Bragg condition Bragg condition
+
+60
+00:05:04,100 --> 00:05:10,260
+继威廉·亨利和威廉·劳伦斯·布拉格父子团队之后
+after William Henry and William Lawrence
+Bragg the father-and-son team who
+
+61
+00:05:10,260 --> 00:05:15,630
+开创性的X射线散射William Lawrence Bragg在2006年获得了诺贝尔奖
+pioneered x-ray scattering William
+Lawrence Bragg winning a Nobel Prize at
+
+62
+00:05:15,630 --> 00:05:20,730
+ 25岁的他对巧克力棒的X射线散射所做的工作
+the age of 25 for his work on x-ray
+scattering for a chocolate bar does
+
+63
+00:05:20,730 --> 00:05:25,980
+谁知道第二个最年轻的诺贝尔奖获得者是谁
+anyone know who the second youngest
+Nobel laureate was it's a name you all
+
+64
+00:05:25,980 --> 00:05:32,910
+知道这些都是真的很好的猜测，但是这些都是错误的，真的很接近
+know those are all really good guesses
+but those are all wrong really close to
+
+65
+00:05:32,910 --> 00:05:39,210
+他们都是同一个时代的海森堡，他们在那里说了哦，我的天哪足够近了，是的
+all of them same era Heisenberg who said
+it up there oh my gosh close enough yes
+
+66
+00:05:39,210 --> 00:05:44,250
+海森堡恰好是狄拉克（Dirac），当时年纪才几个月
+Heisenberg exactly Dirac was just a few
+months older well then then then
+
+67
+00:05:44,250 --> 00:05:50,400
+海森堡好吧，所以现在我向你宣称是这种情况
+Heisenberg all right so now that when I
+claim to you was that this condition
+
+68
+00:05:50,400 --> 00:05:53,580
+这种布拉德条件很活跃，却忘记了建设性干扰
+this Brad condition is active forgetting
+constructive interference
+
+69
+00:05:53,580 --> 00:05:57,960
+您只会从某些角度产生建设性干扰
+you only get constructive interference
+coming off on certain angles from your
+
+70
+00:05:57,960 --> 00:06:03,660
+水晶，那个状况实际上和这个糟糕的状况相同
+crystal that that condition is actually
+the same condition as this lousy
+
+71
+00:06:03,660 --> 00:06:08,490
+罐子的状况就是晶体动量的守恒
+condition over here the can which is the
+conservation of crystal momentum so
+
+72
+00:06:08,490 --> 00:06:17,000
+让我们看看是否可以证明将其写下来，因为这是等价的
+let's see if we can prove that write
+this down because this is a equivalence
+
+73
+00:06:18,770 --> 00:06:31,200
+布拉格抹布和哇哇好吧，同样的图，我们在一个家庭中有两个平行的平面
+bragg rag and wowie okay so same diagram
+we have two parallel planes in a family
+
+74
+00:06:31,200 --> 00:06:34,140
+晶格平面，您实际上可以有点理解为什么
+of lattice plane you can actually you
+can kind of understand why it is that
+
+75
+00:06:34,140 --> 00:06:37,710
+这两个将是相关的，请记住上一堂课
+these two are going to be related
+remember from last lecture that
+
+76
+00:06:37,710 --> 00:06:41,040
+倒易的晶格矢量与晶格族相关
+reciprocal lattice vectors are
+associated with families of lattice
+
+77
+00:06:41,040 --> 00:06:44,110
+飞机，所以gee会告诉你
+planes so
+gee up there is going to be telling you
+
+78
+00:06:44,110 --> 00:06:47,860
+关于这个晶格平面族的一些事实，我们拥有的事实
+something about this family of lattice
+planes so the the fact that we have
+
+79
+00:06:47,860 --> 00:06:51,729
+平行平面是因为我们有一个倒数的晶格矢量
+parallel planes is because we have a
+reciprocal lattice vector those are sort
+
+80
+00:06:51,729 --> 00:06:55,720
+等价语句的集合，所以在这里我们将晶格平面族分开
+of equivalent statements so here we have
+our family of lattice planes separated
+
+81
+00:06:55,720 --> 00:07:03,400
+在一定距离D处，我们在波矢K处有一个入射波，并将其传出
+by some distance D we have an incoming
+wave at wave vector K and outgoing it
+
+82
+00:07:03,400 --> 00:07:09,520
+波向量K素，然后由于我们那里有一个晶格平面族
+wave vector K Prime that and then since
+we have a family of lattice planes there
+
+83
+00:07:09,520 --> 00:07:14,740
+是正交向量G，它是一个倒数的晶格向量
+is a orthogonal vector G which is a
+reciprocal lattice vector that was one
+
+84
+00:07:14,740 --> 00:07:17,770
+上一次衍生出来的东西，然后每次我们有一个家庭
+of the things we derive last time then
+every time we have a family of lavs
+
+85
+00:07:17,770 --> 00:07:23,220
+平面上有一个与其垂直的倒数晶格矢量，因为我们有
+planes there's a reciprocal lattice
+vector perpendicular to it since we have
+
+86
+00:07:23,220 --> 00:07:27,669
+因为我们有弹性散射K的大小和K的大小
+since we have elastic scattering the
+magnitude of K and the magnitude of K
+
+87
+00:07:27,669 --> 00:07:35,610
+质数是相同的，实际上定义了一些单位向量
+Prime are the same and that's actually
+define some unit vectors unit vectors of
+
+88
+00:07:35,610 --> 00:07:43,449
+ XK帽子K素色帽子和G帽子要适当的指向
+X K hat K prime hat and G hat to be
+pointing in the the appropriate
+
+89
+00:07:43,449 --> 00:07:49,780
+方向，然后有一点点几何形状K hat dot G hat equals正弦
+directions and then with a little bit of
+geometry K hat dot G hat equals sine
+
+90
+00:07:49,780 --> 00:07:54,039
+ theta只需花一秒钟，确保您确信如果k hat和g 
+theta just take a second make sure
+you're convinced of that if k hat and g
+
+91
+00:07:54,039 --> 00:07:58,210
+帽子指向同一方向，那么混乱的帽子将为1正弦θ 
+hat were pointing in the same direction
+then chaotic g hat would be 1 sine theta
+
+92
+00:07:58,210 --> 00:08:03,310
+在那种情况下也将是1而相反的K素数帽子
+would also be 1 in that case whereas K
+prime hat which is going in the opposite
+
+93
+00:08:03,310 --> 00:08:10,930
+方向G帽子是正弦减theta好的，我们也可以使用我们将需要的
+direction G hat is minus sine theta okay
+and we can also use we're gonna need
+
+94
+00:08:10,930 --> 00:08:16,090
+我们可以将K向量写为K的大小，即Lambda上的2 PI 
+that that K vector we can write as the
+magnitude of K which is 2 PI over lambda
+
+95
+00:08:16,090 --> 00:08:21,039
+ λ波长乘以K 
+with lambda the wave vector with the
+wavelength times K hat everyone happy
+
+96
+00:08:21,039 --> 00:08:27,280
+到目前为止，是的，很好，所以我们要假设处于低矮状态
+with this so far yeah ok good so we're
+gonna assume the lowry condition so
+
+97
+00:08:27,280 --> 00:08:38,890
+假设毛伊等于K减去K素数等于G，所以假设满足并且我
+assume maui that is K minus K prime
+equals G so assume that satisfied and I
+
+98
+00:08:38,890 --> 00:08:45,180
+可以重写为λ2乘以λ乘以K 
+can rewrite that then as 2 PI over
+lambda times K hat minus K prime hat
+
+99
+00:08:45,180 --> 00:09:02,110
+等于G，然后用G帽子加点，以在λG帽子上得到2个PI。 
+equals G then dot with G hat to get 2 PI
+over lambda G hat dot k hat minus G hat
+
+100
+00:09:02,110 --> 00:09:13,300
+点k素数帽子等于G帽子点G向量好，那么我们将替换为
+dot k prime hat equals G hat dot G
+vector okay then we'll substitute in we
+
+101
+00:09:13,300 --> 00:09:18,100
+只是G帽子的点k帽子是正弦θ，所以我们将其替换为
+just had the G hat dot k hat is sine
+theta so we'll substitute that in so we
+
+102
+00:09:18,100 --> 00:09:24,940
+在lambda上获得2 PI，所以这是正弦θ在这里第二项是负正弦
+get 2 PI over lambda so this is sine
+theta here the second term is minus sine
+
+103
+00:09:24,940 --> 00:09:31,350
+ theta然后G hat G vector就是G vector的绝对值
+theta and then G hat G vector is just
+the absolute value of G vector
+
+104
+00:09:31,350 --> 00:09:44,110
+每个人都还开心，好吧，不，不开心，是啊，仍然开心，嗯，好，所以
+everyone's still happy ok um no not
+happy yeah still happy um okay so just a
+
+105
+00:09:44,110 --> 00:09:50,529
+一点点重排，这在绝对G向量乘以2正弦时变成2 PI 
+little bit of rearrangement this becomes
+2 PI over absolute G vector times 2 sine
+
+106
+00:09:50,529 --> 00:09:57,010
+ theta等于lambda，现在记住我们说的是上次导出的内容
+theta equals lambda and now remember
+what we said what we derived last time
+
+107
+00:09:57,010 --> 00:10:04,620
+关于互易的晶格矢量晶格平面D之间的间距为2 PI 
+about reciprocal lattice vectors the
+spacing between lattice planes D is 2 PI
+
+108
+00:10:04,620 --> 00:10:11,350
+在给定方向G min上最短的倒数晶格矢量上
+over the shortest reciprocal lattice
+vector in a given direction G min so any
+
+109
+00:10:11,350 --> 00:10:16,649
+倒数晶格向量G向量必须是最小值的整数倍
+reciprocal lattice vector G vector has
+to be some integer times the minimum
+
+110
+00:10:16,649 --> 00:10:25,480
+在给定方向上的晶格矢量，所以n是一些整数，所以
+lattice vector in that given direction
+so n is some integer integer so
+
+111
+00:10:25,480 --> 00:10:29,190
+将此等式中的等式代入上面的等式
+substituting this equation in this
+equation into the equation just above
+
+112
+00:10:29,190 --> 00:10:36,850
+给我们2个D正弦theta等于和lambda布拉格条件，所以我们已经
+gives us 2 D sine theta equals and
+lambda the Bragg condition so what we've
+
+113
+00:10:36,850 --> 00:10:41,649
+结果表明，在低e条件下，晶体动量守恒是
+shown is that the low e condition this
+conservation of crystal momentum is the
+
+114
+00:10:41,649 --> 00:10:47,260
+与需要建设性干涉或拥有布拉格一样
+same thing as requiring constructive
+interference or having the Bragg
+
+115
+00:10:47,260 --> 00:10:53,540
+条件满意还可以吧
+condition satisfied ok good
+all right so
+
+116
+00:10:53,540 --> 00:10:58,290
+假设我们有布拉格条件或优等条件
+supposing that we have the Bragg
+condition or the laude condition
+
+117
+00:10:58,290 --> 00:11:02,580
+我们上次得出的结论之一是
+satisfied one of the things we derive
+last time was that the intensity of
+
+118
+00:11:02,580 --> 00:11:07,529
+散射强度与结构强度成正比
+scattering intensity of scattering is
+proportional to the structure factor at
+
+119
+00:11:07,529 --> 00:11:16,430
+ GK减去K素数平方，结构因子s等于
+G K minus K prime squared the structure
+factor s equals the Fourier transform of
+
+120
+00:11:16,430 --> 00:11:22,350
+ EMR的散射潜能听起来像上一堂课一样
+the scattering potential of EMR does
+that sound familiar from last lecture I
+
+121
+00:11:22,350 --> 00:11:33,390
+希望还可以，但是问题仍然存在。 
+hope ok but that still leaves up in the
+question what is V of R and what V of R
+
+122
+00:11:33,390 --> 00:11:38,760
+波进入晶体时感觉到的潜力取决于
+is what the potential your wave feels as
+it goes into the crystal depends on well
+
+123
+00:11:38,760 --> 00:11:41,399
+取决于晶体，但也取决于您是哪种波
+depends on the crystal but it also
+depends on what kind of wave you're
+
+124
+00:11:41,399 --> 00:11:45,029
+使用您知道波与晶体的相互作用非常不同，取决于
+using you know the wave interacts with
+the crystal very differently depending
+
+125
+00:11:45,029 --> 00:11:50,459
+根据您使用的波形类型，因此更容易考虑的情况是
+on the type of wave that you're using so
+the easier case to think about is
+
+126
+00:11:50,459 --> 00:11:55,850
+中子所以案例1中子中子
+neutrons so case 1 neutrons neutrons
+
+127
+00:11:55,970 --> 00:12:09,390
+主要通过短程近程通过核力进行相互作用
+interact mainly mainly via nuclear
+forces by a short-range short-range
+
+128
+00:12:09,390 --> 00:12:18,380
+核力量和核力量
+nuclear forces and nuclear forces
+
+129
+00:12:18,450 --> 00:12:25,260
+那么这意味着中子进入了样本，他们看到了
+so what does that mean it means the
+neutrons go into the sample and they see
+
+130
+00:12:25,260 --> 00:12:30,510
+与原子核相关的非常短程的电势，我们可以写出V 
+very short-range potentials associated
+with the nuclei and we can write the V
+
+131
+00:12:30,510 --> 00:12:38,820
+ R等于或正比于我猜所有原子的原子之和
+of R equals or it's proportional to I
+guess sum over atoms from all atoms
+
+132
+00:12:38,820 --> 00:12:44,430
+整个系统中的alpha系数为alpha乘以delta 
+alpha in the whole system some
+coefficient be alpha times a delta
+
+133
+00:12:44,430 --> 00:12:52,079
+ R减去R alpha的功能势，所以基本上说每个原子核
+function potential at R minus R alpha so
+basically saying that every nucleus so
+
+134
+00:12:52,079 --> 00:13:02,790
+我们的alpha是原子alpha的位置，而alpha是在
+our alpha is position of atom alpha
+position of alpha and be alpha is in the
+
+135
+00:13:02,790 --> 00:13:06,300
+与该原子核相互作用的大小被称为核子
+the magnitude of the interaction with
+that nucleus it's known as the nuclear
+
+136
+00:13:06,300 --> 00:13:21,570
+散射长度散射长度，所以这个方程的本质是
+scattering length scattering length and
+so the essence of this equation is
+
+137
+00:13:21,570 --> 00:13:26,399
+基本上说，进入它们的中子看到了非常尖锐的峰值
+basically saying that the the neutrons
+coming in they see very sharp peaks in
+
+138
+00:13:26,399 --> 00:13:32,010
+在核位置的潜力，这就是他们所没有看到的
+potential at the positions of the nuclei
+and and that's all they don't see
+
+139
+00:13:32,010 --> 00:13:36,510
+现在其他任何这些系数，因为它们必须
+anything else
+now these coefficients be they have to
+
+140
+00:13:36,510 --> 00:13:39,829
+核物理学和核物理学可能非常复杂
+do with nuclear physics and nuclear
+physics can be extremely complicated
+
+141
+00:13:39,829 --> 00:13:43,500
+根据具体情况，它们可以是正数或负数
+they can be positive or they can be
+negative depending on the particular
+
+142
+00:13:43,500 --> 00:13:47,370
+我们所说的正核意味着您具有排斥性相互作用
+nucleus we're talking about positive
+means you have a repulsive interaction
+
+143
+00:13:47,370 --> 00:13:50,699
+负核意味着您与
+with the nucleus negative means you have
+an attractive interaction with the
+
+144
+00:13:50,699 --> 00:13:54,570
+核，你也可以任一个，这些蜜蜂的大小可以变化，你知道
+nucleus and you can either either and
+the size of these bees can vary you know
+
+145
+00:13:54,570 --> 00:13:58,170
+取决于您正在考虑的特定原子核
+by it Lots depending on the particular
+nucleus you're thinking about and really
+
+146
+00:13:58,170 --> 00:14:01,920
+知道B对于特定原子核的唯一方法是只查找它
+the only way to know what B is for a
+particular nucleus is to just look it up
+
+147
+00:14:01,920 --> 00:14:06,569
+在桌子上或测量它，您知道周期中可能有两个原子
+on a table or measure it you know you
+could have two atoms on the periodic
+
+148
+00:14:06,569 --> 00:14:10,140
+彼此相邻的桌子，例如碳氮和核
+table that are right next to each other
+like carbon nitrogen and the nuclear
+
+149
+00:14:10,140 --> 00:14:12,839
+散射长度是完全不同的，你知道有些可以是正的
+scattering lengths is completely
+different you know some can be positive
+
+150
+00:14:12,839 --> 00:14:16,110
+有些可能是负面的，它到处都是，所以实际上是
+some can be negative it just goes all
+over the place so it's actually a
+
+151
+00:14:16,110 --> 00:14:20,160
+我们甚至无法真正预测核物理学家的东西
+something that we can't actually predict
+very easily even nuclear physicist even
+
+152
+00:14:20,160 --> 00:14:25,139
+好的核物理学家很难预测这些事情，所以我们只有
+good nuclear physicists have a hard time
+predicting these things so we just have
+
+153
+00:14:25,139 --> 00:14:29,130
+你知道诉诸表，并假设这些东西是已知的
+to you know resort to a table and assume
+that these things are known or this
+
+154
+00:14:29,130 --> 00:14:32,880
+以某种方式我们将能够测量它们，但是给定
+somehow we're going to be able to
+measure them but given
+
+155
+00:14:32,880 --> 00:14:37,470
+我们具有这种与核相互作用的功能形式
+that we have this sort of functional
+form of the interaction with the nuclei
+
+156
+00:14:37,470 --> 00:14:43,980
+然后我们可以计算G的结构因子s 
+we can then calculate the structure
+factor structure factor s of G which
+
+157
+00:14:43,980 --> 00:14:50,340
+记住定义是它实际上是dpr这是权威
+remember the definition is that it's
+actually dpr it's the authority
+
+158
+00:14:50,340 --> 00:14:56,180
+在单位单元中将e的单位单元中的傅立叶变换为I 
+transform in the unit cell the fourier
+transform in the unit cell of e to the I
+
+159
+00:14:56,180 --> 00:15:03,030
+ G点R乘以R的V 
+G dot R times V of R something we
+derived last time and if we actually
+
+160
+00:15:03,030 --> 00:15:10,950
+插入上面刚刚记下的表格，我们得出的总和超过了alpha 
+plug in the the form that we just wrote
+down above we have sum over alpha be
+
+161
+00:15:10,950 --> 00:15:16,790
+ Alpha Delta 3维Delta函数R减去R sub alpha现在我们将
+Alpha Delta 3 dimensional Delta function
+R minus R sub alpha now we'll let the
+
+162
+00:15:16,790 --> 00:15:22,920
+ Delta函数的作用，我们得到了相当简单的结果并总结了Adams 
+Delta function act and we get the fairly
+simple outcome and to sum over Adams
+
+163
+00:15:22,920 --> 00:15:35,490
+ V sub alpha e到IG点R sub alpha的晶胞中的alpha Adams alpha，其中
+alpha Adams alpha in unit cell of V sub
+alpha e to the I G dot R sub alpha where
+
+164
+00:15:35,490 --> 00:15:46,020
+ R sub alpha是原子alpha在晶胞alpha中的位置，因此
+R sub alpha is the position of position
+of atom alpha in unit cell alpha so
+
+165
+00:15:46,020 --> 00:15:52,770
+在那里，所以这是散射
+there we have it so that's the structure
+factor for scattering scattering of
+
+166
+00:15:52,770 --> 00:15:59,520
+现在中子对原子核是超级中子
+neutrons against nuclei now that's for
+super neutrons neutrons being fairly
+
+167
+00:15:59,520 --> 00:16:03,630
+很简单，但还有第二种情况，我们需要担心的是x射线和
+simple but there's a second case that we
+need to worry about which is x rays and
+
+168
+00:16:03,630 --> 00:16:10,620
+ X射线是更复杂的麦克射线X射线是电磁X射线
+x-rays are more complicated mike rays x
+rays well their electromagnetism x-rays
+
+169
+00:16:10,620 --> 00:16:15,830
+你知道吗，像光一样，它们主要散射，主要是电子散射
+are you know like light they mainly
+scatter mainly scatter from electrons
+
+170
+00:16:15,830 --> 00:16:28,980
+电子通过汤姆森从电子中散射
+scatter from electrons from from
+electrons electrons via Thomson
+
+171
+00:16:28,980 --> 00:16:32,280
+他去年研究了汤姆森散射，所以听起来很熟悉
+scattering he studies Thomson scattering
+last year so it sound familiar yeah so
+
+172
+00:16:32,280 --> 00:16:35,220
+他们通过汤普森散射从电子中散射出来，有一点点
+they made a scattering from electrons
+via Thompson scattering there's a little
+
+173
+00:16:35,220 --> 00:16:38,520
+汤姆森散布在原子核上，但实际上非常非常小
+bit of Thomson scattering off the nuclei
+but really very very very small amount
+
+174
+00:16:38,520 --> 00:16:43,200
+因为与电子相比，原子核非常重，所以它们
+because the the nuclei are very heavy
+compared to the electrons and so they're
+
+175
+00:16:43,200 --> 00:16:45,520
+很难散开，很难推开它们
+very hard to scatter off of it's hard to
+push them around
+
+176
+00:16:45,520 --> 00:16:50,170
+推电子很容易，因为它们很轻，所以主要是我们的V 
+it's easy to push the electrons around
+because they're light so mainly V of our
+
+177
+00:16:50,170 --> 00:16:55,270
+对于我们的X射线，有效相互作用与密度成正比
+for our x-rays the effective interaction
+is proportional to the density of
+
+178
+00:16:55,270 --> 00:17:03,760
+电子的电子密度，那么我们能得到的电子密度是多少
+electrons density of electrons so what's
+the density of electrons well we can
+
+179
+00:17:03,760 --> 00:17:07,929
+写出电子密度的近似表达式
+write sort of an approximate expression
+for the density of electrons which will
+
+180
+00:17:07,929 --> 00:17:16,300
+在原子αZ子alpha Z上写一些总和，这里是原子数
+write as some sum over atoms alpha Z sub
+alpha Z here being the atomic number
+
+181
+00:17:16,300 --> 00:17:23,230
+原子的原子序数alpha原子序数是其中的电子数
+atomic number of atom alpha atomic
+number being the number of electrons in
+
+182
+00:17:23,230 --> 00:17:27,569
+原子中的质子数也乘以某些函数
+the in the atom also the number of
+protons in the atom times some function
+
+183
+00:17:27,569 --> 00:17:35,230
+我称R的G sub alpha减去R alpha，我想我们可以这样称呼
+I'll call G sub alpha of R minus R alpha
+which I guess we can call something like
+
+184
+00:17:35,230 --> 00:17:46,570
+归一化的形状函数，因此其积分为1，我们可以进行比较
+a shape function which is normalized so
+it's integral is 1 and we can compare
+
+185
+00:17:46,570 --> 00:17:51,400
+与我们这里所看到的相似，除了这里是一个三角洲
+that to what we have over here looks
+kind of similar except here it's a delta
+
+186
+00:17:51,400 --> 00:17:55,720
+函数，这里不是增量函数，所以区别是
+function and here it's not a delta
+function so the the difference being
+
+187
+00:17:55,720 --> 00:17:59,710
+当您是中子时，您只会从核中飞散
+that when you if you're a neutron you
+you scatter off of only the nucleus
+
+188
+00:17:59,710 --> 00:18:04,450
+而如果您是X射线，则您会散射整个原子，因此您可以
+whereas if you're an x-ray you scatter
+off of the whole atom so you can kind of
+
+189
+00:18:04,450 --> 00:18:08,980
+认为这个G是一个非常非常胖的Delta函数，它散布开来
+think of this G as being a very very fat
+Delta function it's spread out spreading
+
+190
+00:18:08,980 --> 00:18:12,429
+将Delta函数转换为某些函数，您知道它只需要
+out the Delta function into some
+function there's you know it just takes
+
+191
+00:18:12,429 --> 00:18:16,480
+考虑到原子中所有电子的整体大小，因此将其视为
+into account the entire size of all the
+electrons in the atom so think of it as
+
+192
+00:18:16,480 --> 00:18:23,860
+一种原子，所以现在我应该说，这种形式
+a sort of atom so now I should say
+however that this this form where we're
+
+193
+00:18:23,860 --> 00:18:27,600
+总结所有这些不同原子的形状乘以
+summing up over the shapes of all these
+different atoms times the number of
+
+194
+00:18:27,600 --> 00:18:32,170
+每个原子中的电子有点近似，原因是
+electrons in each atom is a little bit
+approximate and the reason it's a little
+
+195
+00:18:32,170 --> 00:18:36,550
+有点近似是因为这里有一个隐含的假设
+bit approximate is because there's an
+assumption the hidden assumption here
+
+196
+00:18:36,550 --> 00:18:40,210
+如果原子的形状独立于其环境
+that the shape of the atom is
+independent of its environment if an
+
+197
+00:18:40,210 --> 00:18:44,050
+原子碰巧与一种特定类型的原子结合，实际上
+atom happens to be bonded to an one
+particular type of atom it will actually
+
+198
+00:18:44,050 --> 00:18:48,790
+稍微扭曲原子的电子云，因此形状将改变
+distort the electron cloud of the atom a
+little bit so the shape will change a
+
+199
+00:18:48,790 --> 00:18:51,850
+一点，我们已经忽略了它，如果它键合到另一种原子上
+little bit and we've ignored that and if
+it's bonded to a different type of atom
+
+200
+00:18:51,850 --> 00:18:55,240
+它的形状会在另一个方向上发生一些变化
+its shape will will change a little bit
+in maybe another direction it will
+
+201
+00:18:55,240 --> 00:18:57,730
+取决于粘合方向，依此类推，依此类推
+depend on which direction it's bonded
+and so forth and so on
+
+202
+00:18:57,730 --> 00:19:01,700
+但是-这是一个非常好的第一近似
+but
+- a very good first approximation this
+
+203
+00:19:01,700 --> 00:19:07,430
+是描述任何电子密度的形状的一种很好的方法
+is a fairly good way to describe the the
+shape of the density of electrons in any
+
+204
+00:19:07,430 --> 00:19:10,730
+水晶，只要您知道自己具有特定类型的原子的形状， 
+crystal just you know you have a shape
+of for a particular type of atom and you
+
+205
+00:19:10,730 --> 00:19:14,210
+将其加到所有原子上，而忽略相邻原子将
+add it up over all atoms and you ignore
+the fact that neighboring atoms will
+
+206
+00:19:14,210 --> 00:19:22,280
+扭曲形状好吧好吧，所以我们可以采用这种形式的
+distort the shape okay good all right
+so we can take this form of the of the
+
+207
+00:19:22,280 --> 00:19:29,150
+电子密度并再次构造G的结构因子s 
+density of electrons and again construct
+the structure factor s of G which is now
+
+208
+00:19:29,150 --> 00:19:37,010
+所有原子的总和D 3的alpha积分与我们所做的非常相似
+sum over all atoms atoms alpha integral
+of D 3 are very similar to what we did
+
+209
+00:19:37,010 --> 00:19:44,930
+就在单位晶格上方，然后我们有e到IJ点R，有z 
+just over here over the unit cell then
+we have e to the I J dot R we have z
+
+210
+00:19:44,930 --> 00:19:54,080
+ sub-alpha，如果我们为您进行转换，我们有R-R alpha的G sub alpha 
+sub-alpha and we have G sub alpha of R -
+R alpha if we do that for you transform
+
+211
+00:19:54,080 --> 00:19:59,480
+我们得到的东西与我们在这里得到的东西非常相似
+what we get is extremely similar to what
+we get over here very similar to this
+
+212
+00:19:59,480 --> 00:20:05,240
+在这里，我们得到的方程式是亚当斯α和
+equation here what we get is of the
+following form sum over adams alpha and
+
+213
+00:20:05,240 --> 00:20:16,010
+ e到IG点RF子alpha的e单位单元格，请使用其他字母作为
+unit cell of e to the I G dot R F sub
+alpha you use different letter as a
+
+214
+00:20:16,010 --> 00:20:24,740
+ G的函数这称为原子形状因数
+function of G this is known as the
+atomic form factor form factor it
+
+215
+00:20:24,740 --> 00:20:28,310
+取决于我们正在谈论的原子类型以及您是否想知道
+depends on the type of atom we're
+talking about and if you want to know
+
+216
+00:20:28,310 --> 00:20:32,210
+原子形状因数实际上是什么，所以实际上可以将其与
+what the atomic form factor actually is
+so actually maybe just compare it to
+
+217
+00:20:32,210 --> 00:20:36,830
+在这里，原子形状因子代替了核散射
+over here the atomic form factor takes
+the place of the nuclear scattering
+
+218
+00:20:36,830 --> 00:20:41,090
+此处的长度代替了B alpha，但整体结构
+length over here of this takes the place
+of the B alpha but the overall structure
+
+219
+00:20:41,090 --> 00:20:45,740
+这个方程的结构因子的
+of that of the of the structure factor
+here of this equation stays pretty much
+
+220
+00:20:45,740 --> 00:20:50,000
+相同的唯一区别是原子形状因子也是
+the same the only difference is the
+atomic form factor is also a function of
+
+221
+00:20:50,000 --> 00:20:54,530
+阶梯的倒数晶格矢量G，而在这里不是
+the of the ladder the reciprocal lattice
+vector G whereas over here it's not and
+
+222
+00:20:54,530 --> 00:20:57,410
+之所以不在这里是因为我们有一个很好的简单Delta函数
+the reason it's not over here is because
+we have a nice simple Delta function
+
+223
+00:20:57,410 --> 00:21:02,720
+在这里进行互动，如果您在这里进行更复杂的互动
+interaction over here and we have a more
+complicated interaction over here if you
+
+224
+00:21:02,720 --> 00:21:10,340
+想知道G的f的实际形式，实际上是整数d3r 
+want to know the actual form of f of G
+it's actually an integral d3r it's just
+
+225
+00:21:10,340 --> 00:21:16,400
+我想也许萨瓦尔（Salal）提出了傅立叶变换gr t sub-alpha 
+the Fourier transform
+gr t sub-alpha I guess maybe Saval put
+
+226
+00:21:16,400 --> 00:21:20,720
+首先是z子alpha，然后是我们的G子alpha，所以它只是傅立叶
+the z sub-alpha first then G sub alpha
+of our so it's just the Fourier
+
+227
+00:21:20,720 --> 00:21:27,410
+形状函数G的变换也许是这个积分是
+transform of the shape function G the
+surprise maybe is this integral is
+
+228
+00:21:27,410 --> 00:21:33,230
+实际上不仅在晶胞上，而且在整个空间上，我都不会
+actually over all space not just over
+the unit cell and that I'm not going to
+
+229
+00:21:33,230 --> 00:21:36,860
+经过整个推导，我认为有一个修订作业
+go through the whole derivation I think
+there's a revision homework assignment
+
+230
+00:21:36,860 --> 00:21:41,330
+要求您尝试解决它，也许是去年，也许是
+that asks you to try to work through it
+maybe or there was last year maybe it's
+
+231
+00:21:41,330 --> 00:21:44,510
+今年不存在，但是值得尝试，因为它在书中
+not there this year but it's worth
+trying to do it's it's it's in the book
+
+232
+00:21:44,510 --> 00:21:49,070
+但是请尝试说服您积分应该是整体空间，然后让
+but the to try to convince you that the
+integral should be overall space and let
+
+233
+00:21:49,070 --> 00:21:54,740
+我提出以下论点，所以这些形状函数G的尾巴很长
+me make the following argument so these
+these shape functions G have long tails
+
+234
+00:21:54,740 --> 00:22:00,620
+我的意思是，这些尾巴很小，但它们却很长，如果您只是
+I mean this tails are small but they but
+they go out a long way if you're only
+
+235
+00:22:00,620 --> 00:22:05,780
+加总晶胞内的原子，您将永远不会感觉到
+adding up over atoms within the unit
+cell you would never feel the tail of
+
+236
+00:22:05,780 --> 00:22:09,500
+这些形状函数之一，因为您只累加了
+one of those those shape functions
+because you're only adding up over
+
+237
+00:22:09,500 --> 00:22:13,820
+晶胞内的Alpha，但是您应该包括所有的尾巴
+alphas within the unit cell what but you
+should be including the tails of all
+
+238
+00:22:13,820 --> 00:22:16,040
+你的邻居，所以那里有亚当斯的出路，其他
+your neighbors
+so there's Adams way out there and other
+
+239
+00:22:16,040 --> 00:22:19,580
+单位细胞，那么您应该感觉到那些形状的尾巴
+unit cells then you should be feeling
+the tails of those of those shape
+
+240
+00:22:19,580 --> 00:22:24,100
+功能，所以您要整合所有空间的事实是
+functions and so the the fact that
+you're integrating all over all space is
+
+241
+00:22:24,100 --> 00:22:29,810
+跟踪G的短距离部分和G的尾部
+keeping track of both the short-range
+part of G and the tails of the of the
+
+242
+00:22:29,810 --> 00:22:33,980
+ G来自更远的其他原子，所以它们全都吸引了我一些
+G's from other atoms farther away so
+they all sort of get me some and come
+
+243
+00:22:33,980 --> 00:22:38,330
+到这里的形状因素中，所以我将不做推导
+into the the form factor here okay so
+I'm not going to do the derivation it's
+
+244
+00:22:38,330 --> 00:22:43,550
+可能不值得做，但无论如何可能都是在做些有趣的事
+probably not worth doing but
+might be where it's doing for fun anyway
+
+245
+00:22:43,550 --> 00:22:49,820
+该形状因数的形式或多或少看起来像这样，所以我们将绘制F 
+the the form of this form factor more or
+less looks like this so we'll draw F
+
+246
+00:22:49,820 --> 00:22:59,720
+ alpha在这里，对于G等于零，对于G等于零，我们将在此处绘制G 
+alpha here we'll draw G over here for G
+equal to zero for G equals zero equals
+
+247
+00:22:59,720 --> 00:23:05,060
+零个F sub alpha只是Z sub alpha它基本上只是在计算你可以
+zero F sub alpha is just Z sub alpha
+it's just basically counting you can
+
+248
+00:23:05,060 --> 00:23:10,790
+有点看是否在空间G上的那个整数中插入零
+kind of see if you insert zero into that
+integral over space G is a normalized
+
+249
+00:23:10,790 --> 00:23:18,140
+形状函数，这样您就可以使Z返回，因此，如果G为零，则可以得到Z sub 
+shape function so you just get Z back
+out so so if G is zero you get Z sub
+
+250
+00:23:18,140 --> 00:23:23,630
+ Alpha在这里，但随后会逐渐衰减到更小
+alpha up here but then it sort of decays
+slowly down to something much smaller
+
+251
+00:23:23,630 --> 00:23:30,740
+并且衰变长度在的原子半径范围内或多或少为1 
+and the decay length is more or less 1
+over the radius of the atom radius of
+
+252
+00:23:30,740 --> 00:23:37,430
+原子经常被人们认为α的F是一个近似值
+atom very frequently people just make
+the approximation that F of alpha is a
+
+253
+00:23:37,430 --> 00:23:41,600
+常数，常数就是电子数，因为你知道
+constant and the constant is just the
+number of electrons because you know if
+
+254
+00:23:41,600 --> 00:23:45,380
+你有更多的电子，你从原子上散射的更多，所以让我们
+you have more electrons you scatter more
+off of it off of the atom so just let's
+
+255
+00:23:45,380 --> 00:23:49,070
+假设形状因子与G无关，并且基本上
+assume that the form factor is
+independent of G and it's basically just
+
+256
+00:23:49,070 --> 00:23:53,150
+与G中的电子数成正比，这并不可怕
+proportional to the number number of
+electrons in G it's not a horrible
+
+257
+00:23:53,150 --> 00:23:57,830
+近似值并不完全正确，但还算不错，让您的生活更美好
+approximation it isn't completely right
+but it's not too bad and makes your life
+
+258
+00:23:57,830 --> 00:24:03,350
+简单得多，它使X射线问题看起来更像
+a lot simpler it makes the the x-ray
+problem look a lot more like the the
+
+259
+00:24:03,350 --> 00:24:07,340
+这些B的形状因子不依赖于G的中子问题
+neutron problem where these this form
+factor this B doesn't depend on G
+
+260
+00:24:07,340 --> 00:24:09,980
+不再依赖于互易的晶格因子，而是严格地
+anymore it doesn't depend on the
+reciprocal lattice factor but strictly
+
+261
+00:24:09,980 --> 00:24:16,760
+讲F应该衰减也是G的函数，所以通常在
+speaking F should decay as a function of
+G as well so generally where they were
+
+262
+00:24:16,760 --> 00:24:23,030
+谈论X射线，或者我们谈论中子，总是会有G 
+talking about x-rays or we're talking
+about neutrons will always have s of G
+
+263
+00:24:23,030 --> 00:24:31,550
+单元格e中的adams alpha adams alpha上以下形式的总和
+of the following form sum over adams
+alpha adams alpha in unit cell e to the
+
+264
+00:24:31,550 --> 00:24:41,060
+ IG点R alpha，然后我将其写为G的f但或或alpha的野兽
+I G dot R alpha and then well I'll write
+it as f of G but or or beasts of alpha
+
+265
+00:24:41,060 --> 00:24:46,649
+如果我们在谈论中子，那么经常重写是很方便的
+if we're talking about neutrons
+it's convenient frequently to rewrite
+
+266
+00:24:46,649 --> 00:24:52,710
+就米勒指数而言，因此，如果我们根据
+this in terms of Miller indices so if we
+rewrite these statements in terms of
+
+267
+00:24:52,710 --> 00:25:01,919
+米勒指数，我们将在晶胞e中获得超过2 alpha H倍的alpha值
+Miller indices we would have some over
+alpha in unit cell e to the 2 pi H times
+
+268
+00:25:01,919 --> 00:25:11,309
+ u alpha加K乘以V alpha加L乘以W F为F sub alpha HKL，所以
+u alpha plus K times V alpha plus L
+times W alpha of F sub alpha H K L so
+
+269
+00:25:11,309 --> 00:25:26,820
+这里H KL h KL是GG向量和u alpha的Miller指数
+here H KL h KL is the Miller indices
+Miller indices of G G vector and u alpha
+
+270
+00:25:26,820 --> 00:25:43,009
+ v alpha W alpha等于原子alpha alpha在晶胞中的位置
+v alpha W alpha equals position position
+of atom alpha alpha in unit cell okay
+
+271
+00:25:43,009 --> 00:25:49,500
+到目前为止，让人们开心的事让我们实际做一个例子
+that make people happy good so far all
+right let's actually do an example to
+
+272
+00:25:49,500 --> 00:25:56,960
+使其中的一些内容更加清晰，因此我们之前讨论过的示例材料
+make make some of this more clear so
+example material we talked about before
+
+273
+00:25:56,960 --> 00:26:05,159
+氯化铯，所以您还记得氯化铯是简单立方的
+cesium chloride so you remember cesium
+chloride is simple cubic with basis with
+
+274
+00:26:05,159 --> 00:26:20,330
+基，并且基的铯为0 0 0 0 0 0 0，氯为1/2 1/2 1/2 
+basis and the basis has a cesium at 0 0
+0 0 0 0 and a chlorine at 1/2 1/2 1/2
+
+275
+00:26:20,539 --> 00:26:24,450
+实际上我想我可能对此有一张照片，我希望这看起来
+and actually I think I may have a
+picture of that yeah I hope this looks
+
+276
+00:26:24,450 --> 00:26:27,330
+熟悉的我们花了一些时间讨论它
+familiar we spent some time discussing
+it
+
+277
+00:26:27,330 --> 00:26:33,899
+因此，使用该表达式作为结构因子，我们可以编写s 
+so using that expression for the
+structure factor we can we can write s
+
+278
+00:26:33,899 --> 00:26:41,490
+在香港，l等于好，所以它将是单元中两个原子的总和
+at HK l equals okay so it's going to be
+a sum over the two atoms in the unit
+
+279
+00:26:41,490 --> 00:26:44,730
+单元格，因此第一个原子位于0 0 0，因此e 
+cell
+so the first atom is at 0 0 0 so e to
+
+280
+00:26:44,730 --> 00:26:49,139
+ 2 pi然后我们在楼上有一堆零，所以第一个项将是
+the 2 pi then we have a bunch of zeros
+upstairs so the first term will just be
+
+281
+00:26:49,139 --> 00:26:56,420
+ F铯，因为e到2 pi 0只会给你一个好处，这
+F cesium because e to the 2 pi 0 is just
+going to give you one good and this
+
+282
+00:26:56,420 --> 00:27:06,290
+我们将F氯乘以e到2 pi，然后将h乘以1/2加K 
+we'll be F chlorine times e to the 2 pi
+and then we have h times 1/2 plus K
+
+283
+00:27:06,290 --> 00:27:14,650
+乘以1/2加L乘以1/2可以堵住氯气的位置
+times 1/2 plus L times 1/2
+ok plugging in the position of chlorine
+
+284
+00:27:14,650 --> 00:27:21,980
+ UV和W均为氯的1/2现在我可以将其重写为FC并严格
+UV and W both being 1/2 for chlorine now
+I can rewrite that as FC and strictly
+
+285
+00:27:21,980 --> 00:27:27,980
+严格来说，我应该给铯中的F和HKL中的F氯
+speaking strictly speaking I should have
+given F at cesium and F chlorine HKL
+
+286
+00:27:27,980 --> 00:27:34,610
+我刚在那边大声疾呼的依赖，所以他们严格来说
+dependencies as I just ranted about up
+there so they're strictly speaking there
+
+287
+00:27:34,610 --> 00:27:40,370
+也是h KL的功能h KL的弱功能也取决于
+are also functions of h KL weak
+functions of h KL as well they depend
+
+288
+00:27:40,370 --> 00:27:45,860
+关于G的大小，但我通常不会写那个
+slightly on on the magnitude of G but I
+typically won't write that write that
+
+289
+00:27:45,860 --> 00:27:49,370
+依赖性，但您必须记住它确实存在，因此我们可以重写
+dependence but you have to remember that
+it's actually there so we can rewrite
+
+290
+00:27:49,370 --> 00:27:53,810
+作为这里的铯，为了方便起见，我将不再依赖HK L 
+that as f cesium in here I'm gonna drop
+the dependence on HK L for convenience
+
+291
+00:27:53,810 --> 00:27:59,690
+乘以F clora加上F氯，然后将此e乘以2 pi H乘以1/2加上
+times F clora plus F chlorine and this
+factor of e to the 2 pi H times 1/2 plus
+
+292
+00:27:59,690 --> 00:28:05,620
+想要拥有的K倍1/2加L倍实际上是h减去1/2加k加L 
+K times 1/2 plus L times want to have is
+actually minus 1/2 the h plus k plus L
+
+293
+00:28:05,620 --> 00:28:10,880
+很好，所以这是结构因素，您把这个东西平方即可得到
+good so this is the structure factor and
+you square this thing this will give you
+
+294
+00:28:10,880 --> 00:28:16,430
+ 20的平方，它将使您的散射幅度为2o，K为负
+the 20 squared it will give you the
+amplitude of scattering 2o with K minus
+
+295
+00:28:16,430 --> 00:28:22,630
+米勒指数给出的K素数HK L好吧，让我们再举一个例子
+K prime given by Miller indices HK L
+okay all right let's do another example
+
+296
+00:28:22,630 --> 00:28:30,370
+举例来说，纯铯旁边的两个是铯，现在您还记得那是BCC 
+example two next to pure cesium here are
+cesium now you remember that that's BCC
+
+297
+00:28:30,370 --> 00:28:38,930
+但BCC可以被认为是简单的三次方，其基础是
+but BCC can be thought of as simple
+cubic with a basis with basis where the
+
+298
+00:28:38,930 --> 00:28:50,690
+铯是0 0 0，铯是1/2 1/2 1/2，换句话说，我们只是
+basis is cesium at 0 0 0 and cesium at
+1/2 1/2 1/2 so in other words we're just
+
+299
+00:28:50,690 --> 00:28:58,790
+我们之前已经讨论过用另一种铯代替氯，所以有
+replacing the chlorine by another cesium
+we discussed this before and so there's
+
+300
+00:28:58,790 --> 00:29:02,540
+它的图片，所以您只需用铯代替氯即可， 
+a picture of it so you just replace the
+chlorine with a cesium so we get exactly
+
+301
+00:29:02,540 --> 00:29:07,370
+相同的结果，但现在是f氯，这是来自中心的氯
+the same result except now f chlorine
+and this is the chlorine from the center
+
+302
+00:29:07,370 --> 00:29:11,930
+的单位电池与f铯相同，所以现在我们将
+of the unit cell it's
+to be the same as f cesium so now we'll
+
+303
+00:29:11,930 --> 00:29:24,260
+得到s HK l等于f铯+ f铯x-1直至h加k加L，我们
+get s HK l equals f cesium + f cesium x
+- 1 up to the h plus k plus L and we
+
+304
+00:29:24,260 --> 00:29:29,750
+想要我们可以分解出铯，并将铯乘以1加负1 
+want to we can factor out the F cesium
+and write f cesium times 1 plus minus 1
+
+305
+00:29:29,750 --> 00:29:37,250
+ h加k加L现在，您会注意到它消失了，除非写下
+the h plus k plus L now you'll notice
+that this vanishes unless write this
+
+306
+00:29:37,250 --> 00:29:50,270
+下降消失，更少的h加k加L等于H加k加L等于
+down vanishes and less h plus k plus L
+is even H plus k plus L is even this is
+
+307
+00:29:50,270 --> 00:29:54,830
+所谓的选择规则或系统性缺席，也许我会写
+what's known as a selection rule or a
+systematic absence maybe I'll write
+
+308
+00:29:54,830 --> 00:30:07,990
+那些选择不足的人将统治或系统性缺席系统性缺席
+those down selection will rule or
+systematic absence systematic absence
+
+309
+00:30:07,990 --> 00:30:17,600
+缺席感系系统性缺席
+absence absence sense systematic absence
+um the idea being that you will get no
+
+310
+00:30:17,600 --> 00:30:24,470
+除非h加k加L都是偶数，否则所有具有h的米勒指数
+scattering unless h plus k plus L is
+even so all of the Miller indices with h
+
+311
+00:30:24,470 --> 00:30:27,350
+加k加al为奇数根本没有散射
+plus k plus al being odd have no
+scattering at all they are
+
+312
+00:30:27,350 --> 00:30:31,400
+有序地从散射或其他方式来
+systematically absent from this from the
+scattering or another way words in order
+
+313
+00:30:31,400 --> 00:30:37,040
+为了得到散射，您必须满足此选择规则，这通常是
+to get scattering you must satisfy this
+selection rule and this is generally
+
+314
+00:30:37,040 --> 00:30:42,440
+对于BCC晶格为true对于BCC晶格对于BCC晶格，这些是选择
+true for BCC lattices for BCC lattices
+for BCC lattices these are the selection
+
+315
+00:30:42,440 --> 00:30:52,340
+现在就规则了，所以每当您进行分散实验时，如果发现
+rules now so whenever you do a
+scattering experiment if you discover
+
+316
+00:30:52,340 --> 00:30:56,420
+这些米向量的所有米勒指数都由H加k加
+that all the Miller indices scattering
+by these wave vectors with H plus k plus
+
+317
+00:30:56,420 --> 00:31:01,070
+如果发现h加k加L的奇数没有
+L not any time if you discover that h
+plus k plus L odd that there's no
+
+318
+00:31:01,070 --> 00:31:05,420
+在那些米勒指数处将其散射，但您确实发现了h的散射
+scattering it there at those Miller
+indices but you do find scattering for h
+
+319
+00:31:05,420 --> 00:31:10,630
+加k加L甚至很好地打赌您拥有的是BCC晶格
+plus k plus L even it's a very very good
+bet that what you have is a BCC lattice
+
+320
+00:31:10,630 --> 00:31:15,980
+但是你会被愚弄你怎么会被愚弄你会被愚弄
+however you can be fooled how can you be
+fooled you can be fooled
+
+321
+00:31:15,980 --> 00:31:20,600
+例如，让我们考虑一下氯化铯的情况
+for example let's consider the case of
+cesium chloride suppose just
+
+322
+00:31:20,600 --> 00:31:25,340
+巧合的是铯和氟氯在某种程度上彼此相等
+coincidentally F cesium and F chlorine
+we're equal to each other by some
+
+323
+00:31:25,340 --> 00:31:29,330
+巧合的是，在这种情况下，您将在这里消失得一样
+coincidence in which case you'd get the
+same vanishing over here you'd have the
+
+324
+00:31:29,330 --> 00:31:34,159
+相同的选择角色，但是如果它们不同，则可能
+same selection role but if they're
+different maybe by a little bit then the
+
+325
+00:31:34,159 --> 00:31:38,239
+选择规则几乎可以满足，这意味着您必须看起来很真实
+selection rule is almost satisfied
+meaning that you'd have to look really
+
+326
+00:31:38,239 --> 00:31:41,600
+真的很认真地看到有一些振幅，因为这些会
+really carefully to see that there was
+some amplitude because these would
+
+327
+00:31:41,600 --> 00:31:45,799
+几乎完全取消，所以抓住氯化物不具有此特性F 
+almost exactly cancel so seizing
+chloride does not have this property F
+
+328
+00:31:45,799 --> 00:31:49,309
+铯和F氯不是很相似，但是有非常相似的
+cesium and F chlorine are not very
+similar but there's a very very similar
+
+329
+00:31:49,309 --> 00:31:53,600
+这两个材料非常接近的材料，您可能会
+material for which these two are
+extremely close and you might be
+
+330
+00:31:53,600 --> 00:31:58,070
+如果您查看数据，可能会误会，并且可能会出错，除非
+mistaken you might if you looked at the
+data you might make a mistake and unless
+
+331
+00:31:58,070 --> 00:32:00,289
+你仔细地看了一下，就会以为
+you looked at it really carefully you
+would think that you would have the same
+
+332
+00:32:00,289 --> 00:32:07,340
+任何人都想猜出该物质是什么氯化钾的选择规则
+selection rule anyone want to guess what
+that material is what potassium chloride
+
+333
+00:32:07,340 --> 00:32:10,729
+你以为你是谁说过的话我还是会给你的
+who do you think you said that way up
+there I'll give this to you anyway but
+
+334
+00:32:10,729 --> 00:32:14,090
+这不是正确的答案氯化钾是一个很好的猜测
+it's not the right answer
+potassium chloride is a very good guess
+
+335
+00:32:14,090 --> 00:32:18,129
+而之所以认为和氯化物是一个很好的猜测是因为
+and the reason the reason for that and
+chloride is a good guess is because
+
+336
+00:32:18,129 --> 00:32:25,759
+请记住，这些F这些形状因子基本上与原子成正比
+remember that these F these form factors
+are basically proportional to the atomic
+
+337
+00:32:25,759 --> 00:32:29,590
+铯和氯的原子数和原子数有很大不同
+number and the atomic number of cesium
+and chlorine are extremely different
+
+338
+00:32:29,590 --> 00:32:35,840
+氯是什么氯氯是17号而铯是55号
+chlorine is what is chlorine chlorine is
+number 17 and cesium is number number 55
+
+339
+00:32:35,840 --> 00:32:39,529
+因此这两个数字将有很大的不同，但是如果您替换了
+so these two numbers will be extremely
+different but if you replaced the
+
+340
+00:32:39,529 --> 00:32:43,700
+氯铯与钾钾在上方
+chlorine the cesium with potassium
+potassium is right above it on the
+
+341
+00:32:43,700 --> 00:32:49,009
+周期表在化学上非常相似，然后看到钾具有原子
+periodic table it's chemically very
+similar then see potassium has atomic
+
+342
+00:32:49,009 --> 00:32:53,929
+ 19号和氯原子序号为17，所以这些原子数是多余的， 
+number 19 and chlorine has the atomic
+number 17 so these would be extra and
+
+343
+00:32:53,929 --> 00:32:58,099
+您几乎要取消氯化钾是不正确的答案，因为
+you'd have a near cancellation potassium
+chloride is not the right answer because
+
+344
+00:32:58,099 --> 00:33:01,429
+实际上，氯化钾并不具有这种晶体结构，它需要
+in fact potassium chloride does not take
+this crystal structure and it takes a
+
+345
+00:33:01,429 --> 00:33:05,119
+不同的晶体结构是FCC，就像是氯化钠，是FCC 
+different crystal structure is FCC it's
+like it's like sodium chloride it's FCC
+
+346
+00:33:05,119 --> 00:33:08,899
+在此基础上还有另一种材料，但这暗示着其他
+with the basis there's another material
+but that's a hint what's the other
+
+347
+00:33:08,899 --> 00:33:12,340
+更像氯化铯的物质
+material that would be more like cesium
+chloride
+
+348
+00:33:12,340 --> 00:33:19,220
+不，不，镁，不，不，我要自己保留这个，这是一些
+no not magnesium no no all right I'm
+gonna keep this one myself it's some
+
+349
+00:33:19,220 --> 00:33:25,909
+碘化铯，如果用2 2个空格的碘代替氯
+caesium iodide if you replace chlorine
+with iodine which is which is 2 2 spaces
+
+350
+00:33:25,909 --> 00:33:31,909
+在它的周期表下，碘的原子序数为53和铯
+under it on the periodic table the
+iodine has atomic number 53 and caesium
+
+351
+00:33:31,909 --> 00:33:37,100
+原子序数为55，因此这两者之间的取消为
+has atomic number 55 so the cancellation
+between these two would be
+
+352
+00:33:37,100 --> 00:33:41,299
+几乎完全正确，我的意思是您只需要几个百分点
+almost exact I mean only within a few
+percent you would you would have a
+
+353
+00:33:41,299 --> 00:33:45,530
+轻微的非取消，因此您很容易犯错误并查看
+slight non cancellation so you it's very
+easy to make the mistake and look at the
+
+354
+00:33:45,530 --> 00:33:48,650
+数据，并认为您拥有密件抄送格，因为您认为
+data and think that you have a BCC
+lattice because you think there's a
+
+355
+00:33:48,650 --> 00:33:52,070
+全身性的缺失，但是如果仔细观察，就会发现
+systemic absence but if you look at it
+much much more closely you discover that
+
+356
+00:33:52,070 --> 00:34:00,940
+事实上，这并不能完美消除所有人的快乐，好吧，好吧
+in fact it's not perfectly canceling
+okay everyone happy all right so right
+
+357
+00:34:00,940 --> 00:34:08,449
+考虑到FCC FCC的情况，我们可以对FCC格做同样的事情
+we can do the same thing with with FCC
+lattices considering a case of FCC FCC
+
+358
+00:34:08,449 --> 00:34:18,499
+晶格，所以对于FCC，我们可以认为FCC等于基本简单立方时间
+
+359
+00:34:18,500 --> 00:34:27,260
+简单的三次方，偶然的基础，我应该有
+basis simple cubic times the basis
+incidentally um I should I should have
+
+360
+00:34:27,260 --> 00:34:30,710
+提到这一点，如果我们正在研究核散射长度，那么有
+mentioned this if we were looking at
+nuclear scattering lengths then there's
+
+361
+00:34:30,710 --> 00:34:33,949
+绝对没有理由您应该期望任何两个都一样
+absolutely no reason you should ever
+expect any two would be the same
+
+362
+00:34:33,949 --> 00:34:36,799
+与他们的原子序数无关，因为我的意思是你可以拥有一个
+
+363
+00:34:36,800 --> 00:34:41,030
+氢的散射长度恰好发生在一个奇怪的巧合
+strange coincidence that the scattering
+lengths of hydrogen happens to happen to
+
+364
+00:34:41,030 --> 00:34:44,570
+匹配铁的散射长度或类似的疯狂东西，但
+match the scattering length of iron or
+something crazy like that but just
+
+365
+00:34:44,570 --> 00:34:47,600
+因为它们在元素周期表中彼此靠近并不意味着
+because they're close to each other in
+the periodic table doesn't mean that
+
+366
+00:34:47,600 --> 00:34:51,500
+他们有紧密的核散射长度，完全不相关，所以
+they have close nuclear scattering
+lengths completely unrelated so it's
+
+367
+00:34:51,500 --> 00:34:55,070
+如果您认为几乎可以取消使用X射线，那有时会很好
+sometimes good if you think there's a
+near cancellation to switch from x-rays
+
+368
+00:34:55,070 --> 00:34:58,400
+到中子，因为X射线几乎不会抵消
+to neutrons because a near cancellation
+with x-rays won't be in near
+
+369
+00:34:58,400 --> 00:35:04,190
+用中子消除通常可以回到FCC FCC，我们可以认为
+cancellation with neutrons generally all
+right back to FCC FCC and we can think
+
+370
+00:35:04,190 --> 00:35:11,540
+它是简单的三次方，其底基等于底基等于0 0 0 0 
+of it as simple cubic with a basis where
+the basis equals basis equals 0 0 0 0
+
+371
+00:35:11,540 --> 00:35:26,000
+和1/2 1/2 0 1/2 0 1/2和0 1/2 1/2实际上我想我有一张
+and 1/2 1/2 0 1/2 0 1/2 and 0 1/2 1/2
+actually I think I have a picture of
+
+372
+00:35:26,000 --> 00:35:31,790
+还要记住，从FCC的一些演讲之前，这是
+that as well remember this from from a
+couple lectures ago the FCC lattice is
+
+373
+00:35:31,790 --> 00:35:39,230
+可以穿透简单的三次方，所以我们可以写出结构因子
+for interpenetrating simple cubics okay
+so we can write the structure factor the
+
+374
+00:35:39,230 --> 00:35:45,950
+结构因子将是这四个四个晶格点的总和
+structure factor is going to be the sum
+over all these four four lattice points
+
+375
+00:35:45,950 --> 00:35:49,960
+在e到2 pi和i'的常规单位格内
+within the conventional unit cell of e
+to the 2 pi and i'll
+
+376
+00:35:49,960 --> 00:36:01,990
+这个HKL点到UV W点alpha中，我们可以写成1加e到
+this HKL dotted into UV W point alpha
+which we can then write as 1 plus e to
+
+377
+00:36:01,990 --> 00:36:11,589
+ I pi h加，所以一个是从0 0 0，那么我将得到h加k加e 
+the I pi h plus so one is from 0 0 0
+then we'll have h plus k plus e to the I
+
+378
+00:36:11,589 --> 00:36:23,740
+ pi H加L加e至I pi k加L，然后等于1加-1至
+pi H plus L plus e to the I pi k plus L
+which is then equal to 1 plus -1 to the
+
+379
+00:36:23,740 --> 00:36:32,800
+ h加k加-1到h加L加1减去k加L然后我声称
+h plus k plus -1 to the h plus L plus
+minus 1 the k plus L then I claim that
+
+380
+00:36:32,800 --> 00:36:51,490
+除非HK l HK L全部为偶数或全部为奇数，并且使您信服， 
+this vanishes unless HK l HK L all even
+or all odd and to convince you of that
+
+381
+00:36:51,490 --> 00:36:56,050
+如果HK和L都是偶数，那么所有这些指数集都是偶数，所以它是1 
+if HK and L are all even then all those
+sets of exponents are even so it's 1
+
+382
+00:36:56,050 --> 00:37:01,510
+加1加1加1，如果HK和L均为奇数，则再加到加在一起的几率
+plus 1 plus 1 plus 1 if HK and L are all
+odd then again to odds added together
+
+383
+00:37:01,510 --> 00:37:05,890
+总是给你一个偶数，所以它又是1加1加1加1但如果你有
+always give you an even so it's again 1
+plus 1 plus 1 plus 1 but if you have for
+
+384
+00:37:05,890 --> 00:37:10,450
+例如，一个奇数和两个偶数让我们考虑一下这种情况，假设H为
+example one odd and two evens let's
+think about that case let's suppose H is
+
+385
+00:37:10,450 --> 00:37:16,240
+奇数，并且K和L或什至然后H加K为奇数h加上L为奇数，但k加L为偶数
+odd and K and L or even then H plus K is
+odd h plus L is odd but k plus L is even
+
+386
+00:37:16,240 --> 00:37:20,500
+所以我们将有1减1减1加1并消失，您可以说服
+so we'll have 1 minus 1 minus 1 plus 1
+and vanishes and you can convince
+
+387
+00:37:20,500 --> 00:37:24,820
+你自己，除非HK和L全都是奇数
+yourself that unless HK and L are either
+all even are all odd
+
+388
+00:37:24,820 --> 00:37:37,839
+您会消失的，所以这是FCC的选择规则，所以在哪里
+you'll get your vanish so this is a
+selection rule rule for for FCC so where
+
+389
+00:37:37,839 --> 00:37:42,339
+如果您还记得的话，请执行这些选择规则实际来自的地方
+do these where these selection rules
+actually come from if you remember back
+
+390
+00:37:42,339 --> 00:37:45,910
+到上一讲或我们讨论晶格族之前的讲课
+to the last lecture or the lecture
+before we discussed families of lattice
+
+391
+00:37:45,910 --> 00:37:51,070
+平面以及米勒指数的某些集合与
+planes and how it is that certain sets
+of Miller indices do not correspond to
+
+392
+00:37:51,070 --> 00:37:54,970
+ BCC和FCC晶格的晶格平面族，因此请记住例如
+families of lattice planes for BCC and
+FCC lattices so remember for example
+
+393
+00:37:54,970 --> 00:38:00,730
+ 1 0 0晶格平面族或倒数晶格向量对应于
+with 1 0 0 family of lattice planes or
+reciprocal lattice vector corresponds to
+
+394
+00:38:00,730 --> 00:38:03,640
+这些这些平面的简单立方
+this these sets of planes for simple
+cubic
+
+395
+00:38:03,640 --> 00:38:07,900
+如果我尝试将一个零零用于BCC，那将不是最后一个家庭
+if I tried to use that one zero zero for
+BCC it would not be a family of last
+
+396
+00:38:07,900 --> 00:38:12,520
+飞机，因为您会想念常规中心的家伙
+planes because you would miss the the
+guy in the center of the conventional
+
+397
+00:38:12,520 --> 00:38:17,290
+晶胞必须上升到两个零零才能获得第二好的
+unit cell you have to go up to two zero
+zero in order to get that second best
+
+398
+00:38:17,290 --> 00:38:22,030
+中间的额外平面的平面间距较小，以便抓住
+the extra plane in the middle a smaller
+plane spacing in order to catch that
+
+399
+00:38:22,030 --> 00:38:26,040
+常规晶胞中间的附加晶格点
+additional additional lattice point in
+the middle of the conventional unit cell
+
+400
+00:38:26,040 --> 00:38:32,160
+好吧伙计，这听起来很熟悉吗，我希望如此
+okay dude is this sound familiar vaguely
+familiar I hope so
+
+401
+00:38:32,160 --> 00:38:40,450
+现在这就是为什么2 0 0满足BCC选择规则，而1 0 0一打
+now this is why 2 0 0 satisfies the BCC
+selection rule whereas 1 0 0 a dozen for
+
+402
+00:38:40,450 --> 00:38:45,670
+密件抄送的选择规则是h加k加L应为2 
+BCC the selection rule is that h plus k
+plus L should be even that is true for 2
+
+403
+00:38:45,670 --> 00:38:49,690
+ 0 0这不是选择规则的起源1 0 0 
+0 0 it is not true for 1 0 0 that's the
+origin of the selection rule the
+
+404
+00:38:49,690 --> 00:38:54,100
+选择规则询问这组已知索引实际上何时
+selection rule is asking when is this
+set of known indices actually a
+
+405
+00:38:54,100 --> 00:38:57,190
+此特定晶格的倒数晶格矢量
+reciprocal lattice vector for this
+particular lattice that's where it's
+
+406
+00:38:57,190 --> 00:39:02,500
+来自您可以看到另一种情况1 1 1 1 1 1使这些对角线
+coming from you can see another case
+with 1 1 1 1 1 1 makes these diagonal
+
+407
+00:39:02,500 --> 00:39:08,800
+飞机在这里横穿单位晶胞，但如果
+planes here cutting across the unit cell
+here but it would miss the BCC point if
+
+408
+00:39:08,800 --> 00:39:11,890
+我们在考虑BCC时，我们会错过
+we was thinking about BCC we'd be
+missing the point in the center of the
+
+409
+00:39:11,890 --> 00:39:17,200
+单位晶格，如果去2 2 2则具有两倍于
+unit cell if you went to 2 2 2 you have
+twice the density of lattice plane of
+
+410
+00:39:17,200 --> 00:39:21,730
+飞机在这里，您将捕捉到单元中心的晶格点
+planes here and you would catch the
+lattice point in the center of the unit
+
+411
+00:39:21,730 --> 00:39:26,200
+单元1 1 1不满足B加选择规则，即h加k加L 
+cell 1 1 1 does not satisfy the BCC
+selection rule that h plus k plus L
+
+412
+00:39:26,200 --> 00:39:31,060
+应该是偶数，而2 2 2可以，所以这就是当你有一个
+should be even whereas 2 2 2 does okay
+so that's how you tell when you have a
+
+413
+00:39:31,060 --> 00:39:35,500
+真正的接收者温迪·米勒（Wendy Miller）指数实际上代表一个倒数晶格
+real recipient Wendy Miller indices
+actually represent a reciprocal lattice
+
+414
+00:39:35,500 --> 00:39:39,100
+向量，当它们满足
+vector they represent a reciprocal
+lattice vector when they satisfy the
+
+415
+00:39:39,100 --> 00:39:42,460
+选择角色，当它们出现时，它们不代表倒易的晶格向量
+selection role and they do not represent
+a reciprocal lattice vector when they do
+
+416
+00:39:42,460 --> 00:39:48,870
+不能代表它满足选择角色，好吧，是的，很好
+not represent it satisfy the selection
+role okay make sense yeah good all right
+
+417
+00:39:48,870 --> 00:39:55,180
+关于这些选择规则，这些方面真的很酷的一件事是
+one thing that's really cool about these
+about these selection rules is that in
+
+418
+00:39:55,180 --> 00:39:59,890
+事实上，当您可以描述任何晶体时，我们可以将晶体描述为晶格
+fact when you can describe any crystal
+we can describe a crystal as a lattice
+
+419
+00:39:59,890 --> 00:40:03,700
+这十四种晶格类型中的任何一种乘以基数，这是其中之一
+any one of these fourteen lattice types
+times a basis this is one of the things
+
+420
+00:40:03,700 --> 00:40:06,370
+我们检查了晶体结构，例如氯化钠
+we went over we did crystal structure
+for example sodium chloride
+
+421
+00:40:06,370 --> 00:40:09,880
+这是FCC晶格，然后乘以一个基础，告诉您有钠
+it's an FCC lattice but then times a
+basis which tells you there's a sodium
+
+422
+00:40:09,880 --> 00:40:15,310
+为零零零，氯为1/2 1 1/2 1/2时，选择规则仍为
+is zero zero zero and a chlorine at 1/2
+1 1/2 1/2 the selection rules remain the
+
+423
+00:40:15,310 --> 00:40:20,790
+相同于倾向于选择规则的规则
+same in
+tend to the basis selection rules rules
+
+424
+00:40:20,790 --> 00:40:31,110
+在基础上是独立的，因此有助记符
+are independent independent in depth of
+basis so there's a mnemonic for how it
+
+425
+00:40:31,110 --> 00:40:35,400
+是人们记得这一点吗？经常说s是s 
+is that people remember this it's
+frequently said that s is s for the
+
+426
+00:40:35,400 --> 00:40:42,840
+晶格乘以s为基础，因此如果s的晶格消失，则整个
+lattice times s for the basis so if s
+for the lattice vanishes then the whole
+
+427
+00:40:42,840 --> 00:40:49,800
+事情消失了，所以让我们看看是否可以放一些您知道的方程式
+thing vanishes ok so let's see if we can
+put some you know some equations behind
+
+428
+00:40:49,800 --> 00:40:53,640
+我的意思是s为晶格乘以s为基础，所以让我们
+this what I mean by s for the lattice
+times s for the basis all right so let's
+
+429
+00:40:53,640 --> 00:41:03,630
+回想一下，s将是亚当斯alpha和f sub alpha的晶胞的总和
+recall that s is going to be a sum over
+adams alpha and unit cell of f sub alpha
+
+430
+00:41:03,630 --> 00:41:12,750
+ e到i g-- r alpha然后我们可以用a来写任何原子alpha 
+e to the i g-- r alpha and then we can
+write any atom alpha in terms of a
+
+431
+00:41:12,750 --> 00:41:18,930
+晶格点和基向量x，所以这是晶格点大R 
+lattice point and a basis vector x so
+this is lattice point big R that point
+
+432
+00:41:18,930 --> 00:41:26,460
+ X是基向量基，因此它的位置R alpha是
+and X is the basis vector basis so that
+its position R alpha is the position of
+
+433
+00:41:26,460 --> 00:41:32,070
+该原子的晶格矢量R和该原子的基矢量X 
+the lattice vector R for that atom and
+the basis vector X for that atom so for
+
+434
+00:41:32,070 --> 00:41:37,830
+例如，钠的X为0，它正好位于晶格上
+example X for sodium here is 0 it's
+sitting right on the lattice where X for
+
+435
+00:41:37,830 --> 00:41:42,660
+氯是1/2 1/2 1/2这告诉你要找出一个氯的位置
+chlorine is 1/2 1/2 1/2 which tells you
+that you take to find the position of a
+
+436
+00:41:42,660 --> 00:41:46,770
+氯到达晶格点，然后将其放在向量X处
+chlorine you go to a lattice point and
+then you just place it by a vector X for
+
+437
+00:41:46,770 --> 00:41:50,460
+氯是1/2 1/2 1/2所以我只是写原子的坐标
+chlorine which is 1/2 1/2 1/2 so I'm
+just writing the coordinates of the atom
+
+438
+00:41:50,460 --> 00:41:56,250
+就其晶格坐标和基础位移而言，可以
+in terms of its lattice coordinate and
+the basis displacement okay all right so
+
+439
+00:41:56,250 --> 00:42:05,430
+那么我们就可以这样写s为R上的和X上的和
+then we can write s in terms of this as
+sum over R in lattice sum over X in
+
+440
+00:42:05,430 --> 00:42:13,770
+基于F的形式因数仅取决于X，因此它仅取决于X 
+basis of F the form factor is only going
+to depend on X because it only cares
+
+441
+00:42:13,770 --> 00:42:17,250
+您正在谈论的原子类型是钠还是氯，所以
+what type of atom you're talking about
+whether it's a sodium or a chlorine so f
+
+442
+00:42:17,250 --> 00:42:23,700
+这里只取决于X乘以e到I G，然后位置R小R大
+only depends on X here times e to the I
+G and then the position R small R is big
+
+443
+00:42:23,700 --> 00:42:32,730
+ R加上大R加上大X好的，那么我们可以将其写为
+R plus big R plus big X
+okay then we can factor this write it as
+
+444
+00:42:32,730 --> 00:42:46,200
+等于R在晶格时间e中的和与I GE R在X和基数上的和
+equal to sum over R in lattice times e
+to the I GE R times sum over X and basis
+
+445
+00:42:46,200 --> 00:42:58,289
+在F sub X e到IG点X的基础上，所以这就是我们上面计算的
+in basis F sub X e to the I G dot X okay
+so this is what we just calculated above
+
+446
+00:42:58,289 --> 00:43:07,809
+这是s的格子，这是s的基础，所以真的很漂亮
+this is s for the lattice and this here
+is s for the basis so it's really pretty
+
+447
+00:43:07,809 --> 00:43:12,339
+严格说来，任何晶体的结构因素就是结构
+much strictly true that the structure
+factor for any crystal is the structure
+
+448
+00:43:12,339 --> 00:43:16,720
+晶格系数乘以结构系数
+factor for the lattice alone times the
+structure factor this factor here for
+
+449
+00:43:16,720 --> 00:43:20,799
+基础，因此如果晶格的结构因子消失，换句话说，如果
+the basis so if the structure factor for
+the lattice vanishes in other words if
+
+450
+00:43:20,799 --> 00:43:24,819
+您不满足晶格类型的选择规则，则
+you're not satisfying the selection rule
+for the for the lattice type then the
+
+451
+00:43:24,819 --> 00:43:27,819
+整个事情都会消失，所以无论您的复杂程度如何
+whole thing is going to vanish so it
+doesn't matter how complicated your
+
+452
+00:43:27,819 --> 00:43:32,410
+基础是如果是FCC为了获得散射，您必须满足FCC 
+basis is if it's FCC in order to get
+scattering you have to satisfy the FCC
+
+453
+00:43:32,410 --> 00:43:36,880
+ HK和L的散布规则必须全部为偶数或全部为奇数行，现在有一个
+scattering rules in H K and L have to be
+all even or all odd okay now there's a
+
+454
+00:43:36,880 --> 00:43:42,190
+解释您必须满足选择的陈述的方式
+way to interpret this statement that
+that you have to satisfy the selection
+
+455
+00:43:42,190 --> 00:43:47,260
+规则仅用于晶格，以便从复杂的物体中散射
+rule for the lattice alone in order to
+get scattering from a complicated
+
+456
+00:43:47,260 --> 00:43:51,849
+晶体，所以让我们考虑一下这张图片，用氯化钠
+crystal so let's think about this
+picture here with sodium chloride for a
+
+457
+00:43:51,849 --> 00:43:56,349
+再想一秒钟，我们忽略了氯，只是摆脱了
+second imagine for a second that we
+ignore the chlorines just get rid of the
+
+458
+00:43:56,349 --> 00:44:00,970
+氯，然后剩下的就是FCC晶格上的钠，以便
+chlorines and then what we have left is
+sodium's on an FCC lattice in order to
+
+459
+00:44:00,970 --> 00:44:04,599
+从那些钠中得到X射线散射或中子散射
+get x-ray scattering or neutron
+scattering from those sodium's you have
+
+460
+00:44:04,599 --> 00:44:08,950
+满足选择规则，否则您将不会从中分散
+to satisfy the selection rule otherwise
+you get no scattering from it now let's
+
+461
+00:44:08,950 --> 00:44:12,099
+摆脱钠是，并把氯中的氯也
+get rid of the sodium is and put the
+chlorines in the chlorines are also
+
+462
+00:44:12,099 --> 00:44:15,880
+形成一个完整的FCC晶格，以便从
+forming a complete FCC lattice and in
+order to get scattering from the
+
+463
+00:44:15,880 --> 00:44:19,059
+如果您放回氯气，现在必须满足选择规则
+chlorines you have to satisfy the
+selection rule now if you put them back
+
+464
+00:44:19,059 --> 00:44:23,260
+都通过叠加返回，这将是两者的总和
+both back in by superposition in order
+it's just going to be the sum of the two
+
+465
+00:44:23,260 --> 00:44:25,690
+从钠和苏纳特和
+scatterings the scatterings from the
+sodium's and the sunnat' and the
+
+466
+00:44:25,690 --> 00:44:28,660
+从氯中飞散出来，所以如果您不满足选择规则
+scattering from the chlorines so if
+you're not satisfying the selection rule
+
+467
+00:44:28,660 --> 00:44:32,440
+对于其中之一，您不是，所以您根本不会得到任何散射，所以
+for one of them you're not so you're not
+gonna get any scattering at all so it's
+
+468
+00:44:32,440 --> 00:44:34,809
+基本上只是说您将各个部分的散射加起来
+basically just saying that you add up
+the scattering from each of the pieces
+
+469
+00:44:34,809 --> 00:44:41,350
+分别好吧，好了，所以在下一个讲座中我们要去
+separately okay all right
+so in the next lecture what we're going
+
+470
+00:44:41,350 --> 00:44:47,230
+我们要做的是，我们将实际查看一些真实的X射线数据
+to do is we're going to yeah we're going
+to actually look at some real x-ray data
+
+471
+00:44:47,230 --> 00:44:52,630
+然后我们将分析X射线数据并推论出什么是真实的
+and we're going to analyze the x-ray
+data and deduce what is in some real
+
+472
+00:44:52,630 --> 00:45:00,010
+材料，但其中之一应该知道
+materials but one of the things that
+were expected to know that sort of has
+
+473
+00:45:00,010 --> 00:45:04,690
+首先要讨论的是如何制作X射线
+to be discussed is how you make x-rays
+in the first place how to make make
+
+474
+00:45:04,690 --> 00:45:13,300
+ X射线，所以有两种制作X射线的方法，我们可能只能获得X射线
+x-rays so there's two ways to make
+x-rays which we may only be able to get
+
+475
+00:45:13,300 --> 00:45:19,510
+到今天最简单的方式，但最简单的方式又便宜又简单
+to the simplest of them today but the
+simple way the cheap way simple and
+
+476
+00:45:19,510 --> 00:45:29,080
+便宜的是使用X射线管X射线管，这是Ron Chen发现的方法
+cheap is to use an x-ray tube x-ray tube
+this is a method discovered by Ron Chen
+
+477
+00:45:29,080 --> 00:45:37,720
+追溯到1919年1900年1901年，您的想法是
+way back in you know around 1919 1900
+1901 the idea is you take a great big
+
+478
+00:45:37,720 --> 00:45:43,660
+此处的电压，您将其放在阴极的这一侧
+voltage here and you put it across a
+cathode on this side just a piece of
+
+479
+00:45:43,660 --> 00:45:50,800
+这边的金属和这边的大目标
+metal on this side and a big target on
+this side target on this side and by
+
+480
+00:45:50,800 --> 00:45:54,940
+拥有如此巨大的电压，您会将电子从阴极吐出， 
+having this huge voltage
+you spit electrons off the cathode and
+
+481
+00:45:54,940 --> 00:46:00,160
+电子击中目标并发出X射线，所以真正发生了什么
+the electrons hit the target and off
+come x-rays so what's really happening
+
+482
+00:46:00,160 --> 00:46:11,400
+这是电子快电子快速电子被踢出
+here is that the electrons fast
+electrons fast electrons kick out
+
+483
+00:46:11,400 --> 00:46:19,619
+来自核心轨道的电子将来自核心轨道的电子踢出
+electrons from core orbitals kick out
+electrons from core orbitals from core
+
+484
+00:46:22,400 --> 00:46:28,170
+而您看到的X射线主要来自其他
+and the x-rays you see the x-ray lines
+you actually see are mainly from other
+
+485
+00:46:28,170 --> 00:46:32,490
+电子从高轨道下降到核心的外观
+electrons falling down from the high
+orbitals down to the look to the core
+
+486
+00:46:32,490 --> 00:46:37,579
+轨道重新填充它们，因此请参见发射
+orbitals to refill them so see emission
+
+487
+00:46:38,300 --> 00:46:47,369
+来自电子跃迁的跃迁，因此高电子跃迁
+from transitions from electron
+transitions so an electron in a high up
+
+488
+00:46:47,369 --> 00:46:52,440
+轨道下降以填充核心轨道中的这些空白区域之一
+orbital drops down to fill one of these
+empty spaces in the in the core orbitals
+
+489
+00:46:52,440 --> 00:47:00,089
+然后您会看到一条漂亮的X射线线进入了一条漂亮的X射线，现在能量
+and you'll see a nice x-ray line come in
+a nice x-ray coming off now the energy
+
+490
+00:47:00,089 --> 00:47:06,240
+过渡的时间基本上是里德伯格乘以原子
+of that of that transition is basically
+about the rid berg times the atomic
+
+491
+00:47:06,240 --> 00:47:11,910
+数字平方记得当你有一个氢原子的能量时
+number squared remember when you have a
+hydrogen atom the energy of the the
+
+492
+00:47:11,910 --> 00:47:18,990
+氢原子的本征态随核电荷的平方而变化，所以你知道
+eigenstates of the hydrogen atom go as
+the nuclear charge squared so you know
+
+493
+00:47:18,990 --> 00:47:22,740
+红鸟是13电子伏特，但如果您是
+the Redbird is 13 electron volts but the
+atomic number of your atom if you're
+
+494
+00:47:22,740 --> 00:47:26,609
+用铜之类的东西40之类的东西
+using something like copper something
+like 40 so you can have a huge huge
+
+495
+00:47:26,609 --> 00:47:33,480
+能量可以是几十千伏的ke v，并且将非常对应
+energy this can be tens of kilovolts of
+ke v and that will correspond very
+
+496
+00:47:33,480 --> 00:47:39,770
+恰好与我们想要的对应于我们想要的lambda 
+nicely to what we want correspond to
+what we want which is lambda
+
+497
+00:47:39,770 --> 00:47:43,680
+现在大约有一个埃
+approximately one angstrom now there's a
+couple of really nice things about this
+
+498
+00:47:43,680 --> 00:47:47,339
+这项技术真正很棒的一件事是，因为它是一种
+technique one thing that's really nice
+about this technique is since it's an
+
+499
+00:47:47,339 --> 00:47:52,500
+原子过渡，这非常非常尖锐。 
+atomic transition it's very very sharp
+in other words bits it's a very sharp
+
+500
+00:47:52,500 --> 00:47:57,450
+在两个不同的能级之间建立非常非常独特的过渡
+line a very very distinct transition
+between two distinct energy levels you
+
+501
+00:47:57,450 --> 00:48:00,510
+知道这里很清楚的能量水平那里很清楚的能量水平
+know very clear energy level up here a
+very clear energy level down there and
+
+502
+00:48:00,510 --> 00:48:08,520
+因此，您可以从中获得非常明确的定义明确的lambda 
+so you get a very very well-defined
+well-defined defined lambda out of this
+
+503
+00:48:08,520 --> 00:48:13,109
+类型的技术，这基本上就是罗恩·陈所做的
+type of technique and this is basically
+what what Ron Chen was doing you know
+
+504
+00:48:13,109 --> 00:48:18,780
+ 100 115年前的现在，在现代的现代时代，我可能有也可能没有
+100 115 years ago now in modern in the
+modern era I may or may not have a
+
+505
+00:48:18,780 --> 00:48:24,690
+这幅画让我看看我是否拥有它是在现代时代
+picture of this let me see if I have it
+yeah here in the modern era there's
+
+506
+00:48:24,690 --> 00:48:31,500
+另一种制作X射线的方法是一种更好的技术， 
+another way to make x-rays which is sort
+of favored as a better technique is only
+
+507
+00:48:31,500 --> 00:48:34,650
+这些X射线管非常便宜
+these x-ray tubes they're they're
+incredibly cheap
+
+508
+00:48:34,650 --> 00:48:37,800
+你能知道这是你在牙医诊所里所拥有的
+you can you know this is what you have
+in the doctor the dentist office when
+
+509
+00:48:37,800 --> 00:48:41,820
+口腔X射线就是其中之一，或者您知道X射线断了骨头
+the x-ray your mouth is one of these
+things or you know x-ray broken bones
+
+510
+00:48:41,820 --> 00:48:45,180
+这些就是这些东西，您可以在这座建筑物周围找到许多
+it's these things and there's probably
+dozen them around this building you can
+
+511
+00:48:45,180 --> 00:48:48,510
+如果愿意，可以自己建一个，但如果经常，则需要更多
+build one yourself if you wanted to but
+if frequently you need a much more
+
+512
+00:48:48,510 --> 00:48:53,910
+高科技X射线源和现代高科技X射线源被称为
+high-tech x-ray source and the modern
+high-tech x-ray source is known as the
+
+513
+00:48:53,910 --> 00:48:59,940
+同步加速器叉，在这张照片中，这是这些大建筑物之一
+synchrotron prong and it's in this
+picture it's one of these big buildings
+
+514
+00:48:59,940 --> 00:49:05,520
+这就是即将发生的事情这是钻石实验室的X射线同步加速器源
+this is just down the road this is the
+x-ray synchrotron source at Diamond Lab
+
+515
+00:49:05,520 --> 00:49:10,890
+就在路上，开车约十分钟，这些东西大概是十
+just just up the road by about ten
+minutes by car these things are about 10
+
+516
+00:49:10,890 --> 00:49:15,960
+到10倍亮10到10是10到10倍亮
+to the 10th times brighter 10 to the 10
+yeah 10 to the 10 times brighter more
+
+517
+00:49:15,960 --> 00:49:26,430
+光子，然后是X射线管，然后是X射线管，这实际上非常有用
+photons then x-ray tubes then x-ray
+tubes and that's actually quite useful
+
+518
+00:49:26,430 --> 00:49:32,610
+如果有很多现代实验来检验
+to have if for a lot of modern
+experiments which examine either
+
+519
+00:49:32,610 --> 00:49:37,290
+非常小的样本，或者您需要非常快速地收集数据，我的意思是
+extremely small samples or you need to
+collect data extremely quickly I mean at
+
+520
+00:49:37,290 --> 00:49:40,200
+一天结束时，您总是在计数光子
+the end of the day you're always
+counting photons you're sort of counting
+
+521
+00:49:40,200 --> 00:49:43,590
+如果有更多光子，则在特定方向上会散布多少光子
+how many photons are scattered in
+particular direction if you have more
+
+522
+00:49:43,590 --> 00:49:47,280
+光子特别是如果您总是会得到更好的数据
+photons you always get better data if
+you're if it's particularly if you're
+
+523
+00:49:47,280 --> 00:49:51,000
+看着很小的样品，很难将这些电子聚焦在
+looking at a very small sample where
+it's hard to focus those electrons in on
+
+524
+00:49:51,000 --> 00:49:56,130
+小样本同步加速器的总体思路是，您将这个伟大
+the the small sample the general idea of
+the synchrotron is you take this great
+
+525
+00:49:56,130 --> 00:50:00,330
+大环，您可以在这张照片中看到您旋转的同步加速器源
+big ring which you can see in this
+picture this synchrotron source you spin
+
+526
+00:50:00,330 --> 00:50:04,230
+电子围绕这个环，所以电子在这个环周围
+electrons around this ring so the
+electrons are going around this ring at
+
+527
+00:50:04,230 --> 00:50:11,160
+在GeV上非常高的速度，所以千兆电子伏特然后
+very high velocities at up a GeV
+so Giga electron volts and then in order
+
+528
+00:50:11,160 --> 00:50:16,590
+要从中取出X射线，您需要先带走电子，然后再将其发送通过
+to get x-rays out of it you take your
+electrons and then you send them through
+
+529
+00:50:16,590 --> 00:50:25,950
+一堆磁铁，所以南北南北北南南这就是所谓的
+a bunch of magnets so north south south
+north north south this is known as an
+
+530
+00:50:25,950 --> 00:50:33,750
+有时是起伏器或摇摆器，其想法是电子通过
+undulator or a wiggler sometimes and the
+idea is that the electrons going through
+
+531
+00:50:33,750 --> 00:50:36,990
+他们正在经历非常快，而你让他们通过
+this they're going through very fast and
+you make them accelerate through and as
+
+532
+00:50:36,990 --> 00:50:44,330
+你知道加速电子会在这种情况下发出辐射
+you know accelerating electrons emits
+radiation in this case they will emit
+
+533
+00:50:44,330 --> 00:50:48,420
+定向准直的X射线辐射
+directed x-ray radiation which is
+extremely collimated
+
+534
+00:50:48,420 --> 00:50:55,320
+频率定义非常明确，如果您对某种
+extremely well defined frequency and if
+you're not happy with the sort of a
+
+535
+00:50:55,320 --> 00:50:59,850
+技术，这是很重要的，要知道您是否不满意
+technique this is sort of important to
+know if you're not happy with how well
+
+536
+00:50:59,850 --> 00:51:04,640
+定义频率是如果您想指定说话并更精确地看到
+defined the frequency is if you want to
+specify a speak and see more precisely
+
+537
+00:51:04,640 --> 00:51:15,030
+更精确地指定波长您所做的是衍射已知光
+specify a wavelength more precisely what
+you do is you diffract off a known
+
+538
+00:51:15,030 --> 00:51:27,870
+晶体衍射以特定角度从已知晶体中分离出来， 
+crystal diffract tract off known crystal
+crystal at a particular angle and that
+
+539
+00:51:27,870 --> 00:51:32,010
+将会挑选出您现在感兴趣的特定波长
+will pick out a particular wavelength
+that you're interested in using now
+
+540
+00:51:32,010 --> 00:51:34,830
+每当您这样做时，您都会丢弃很多很多
+whenever you're doing this you're
+throwing away lots and lots and lots of
+
+541
+00:51:34,830 --> 00:51:38,490
+拥有的光子，但是如果有十到十倍的光子
+the photons that you have but if you
+have ten to the ten times the number of
+
+542
+00:51:38,490 --> 00:51:42,090
+首先需要的光子可以扔掉很多，然后您可以
+photons that you need to begin with you
+can throw away a ton of them and you can
+
+543
+00:51:42,090 --> 00:51:45,870
+多次衍射以真正指定该波长
+diffract multiple times to really
+specify that wavelength extremely
+
+544
+00:51:45,870 --> 00:51:48,660
+精确地进行非常高精度的测量，是的，我认为
+precisely and do extremely high
+precision measurements yeah I think
+
+545
+00:51:48,660 --> 00:51:53,630
+这就是我要说的，明天明天见
+that's all I have to say about this I
+see you tomorrow tomorrow
+
+546
+00:51:55,240 --> 00:51:57,300
+您
+you
+

@@ -1,0 +1,3471 @@
+1
+00:00:00,190 --> 00:00:04,810
+这是我们离开时的浓缩课程第十讲
+this is now the tenth lecture of the
+condensed matter course when we left off
+
+2
+00:00:04,810 --> 00:00:09,700
+上一次我们谈论三维的晶格时，我们已经介绍了
+last time we were talking about lattices
+in three dimensions we've covered the
+
+3
+00:00:09,700 --> 00:00:13,659
+简单的立方晶格或原始立方晶格，我们已经移至主体
+simple cubic lattice or primitive cubic
+lattice and we've moved on to the body
+
+4
+00:00:13,659 --> 00:00:26,470
+居中居中立方居中立方晶格或BCC或立方- 
+centered body centered cubic body
+centered cubic lattice or BCC or cubic -
+
+5
+00:00:26,470 --> 00:00:32,320
+我和我们有一张图片，显示了以身体为中心的常规晶胞
+I and we have a picture of that the
+conventional unit cell the body centered
+
+6
+00:00:32,320 --> 00:00:37,929
+立方晶格看起来像这样，在所有
+cubic lattice looks something like this
+there's a 1-point shared among all the
+
+7
+00:00:37,929 --> 00:00:42,089
+八个角，八个八分之一，然后在中心
+eight corners one eighth times eight of
+them and then one in the center of the
+
+8
+00:00:42,089 --> 00:00:45,729
+常规单元在常规单元中产生两个晶格点
+conventional unit cell making two
+lattice points in the conventional unit
+
+9
+00:00:45,729 --> 00:00:50,530
+单元格，您可以从上方查看事物，在此平面图方案中， 
+cell you can look at the thing from
+above and in this plan view scheme where
+
+10
+00:00:50,530 --> 00:00:55,089
+您可以适当地标记所有高度，因此这里
+you label all of the heights
+appropriately so this point here
+
+11
+00:00:55,089 --> 00:00:58,030
+在此对应于此点，并说未标记的点在高度0处， 
+corresponds to this point here and says
+unlabeled points are at height zero and
+
+12
+00:00:58,030 --> 00:01:04,150
+因此，如果您实际放置原子，则此点的高度为零，高度为a 
+a so this point is at height zero and
+height a now if you actually put atoms
+
+13
+00:01:04,150 --> 00:01:07,690
+在以身体为中心的立方晶格的晶格点上，您注意到
+at the lattice points of the body
+centered cubic lattice you notice that
+
+14
+00:01:07,690 --> 00:01:12,460
+您非常有效地包装了球体，填补了您的空缺
+you packed the spheres fairly
+efficiently you filled the hole that you
+
+15
+00:01:12,460 --> 00:01:15,670
+如果只是一个简单的立方晶格就会有，因此
+would have had if it was just a simple
+cubic lattice and because of that this
+
+16
+00:01:15,670 --> 00:01:20,950
+是原子许多元素的更普遍的安排锂钠
+is a much more common arrangement for
+atoms lots of elements sodium lithium
+
+17
+00:01:20,950 --> 00:01:27,370
+铁钾都具有体心立方晶格构型
+iron potassium all take body centered
+cubic lattice configurations it's
+
+18
+00:01:27,370 --> 00:01:30,820
+从这张照片可以明显看出，协调数
+obvious from this picture that the
+coordination number the number of
+
+19
+00:01:30,820 --> 00:01:34,570
+如果您考虑它中心的球体，则最近的邻居是8 
+nearest neighbors is eight if you think
+about the sphere in the center it has
+
+20
+00:01:34,570 --> 00:01:38,340
+显然，顶部有四个邻居，底部有四个邻居，总共
+obviously four neighbors on top and four
+neighbors on bottom making a total
+
+21
+00:01:38,340 --> 00:01:43,900
+协调数8对您来说可能并不明显
+coordination number of 8 it may not be
+obvious to you that every point in this
+
+22
+00:01:43,900 --> 00:01:46,540
+晶格彼此相等，这是我们对a的定义之一
+lattice is equivalent to each other
+that's one of our definitions of a
+
+23
+00:01:46,540 --> 00:01:51,070
+每个晶格点都应具有相同的环境，所以我们将
+lattice that every lattice point should
+have the same environment but so we'll
+
+24
+00:01:51,070 --> 00:01:55,840
+很好地看这张照片，这显然是这个领域
+look at this picture here well most is
+this this sphere here is obviously in
+
+25
+00:01:55,840 --> 00:02:00,520
+黄色轮廓立方体的中心，但是如果我们取其中之一的黄色
+the center of the yellow outline cube
+but if we take one of the yellow of one
+
+26
+00:02:00,520 --> 00:02:04,300
+黄色轮廓立方体的四角之一，它也位于
+of the corners of the yellow outline
+cube like that one it is also in the
+
+27
+00:02:04,300 --> 00:02:11,050
+另一个立方体的中心，所以每个球体都认为它们在一个立方体内
+center of another cube so each sphere
+thinks that they are inside a cube so
+
+28
+00:02:11,050 --> 00:02:15,460
+每个球体的每个点都是等价的，可能不是
+every sphere every point of the lattice
+is equivalent that may not be a
+
+29
+00:02:15,460 --> 00:02:20,170
+有说服力的论点足以说服您BCC实际上是
+sufficiently convincing argument to
+convince you that the BCC is actually a
+
+30
+00:02:20,170 --> 00:02:27,610
+所以我们应该做的是写下我的晶格向量
+lattice so what we should do is we
+should write down the lattice vectors my
+
+31
+00:02:27,610 --> 00:02:37,840
+检查员将使用以下内容编写为uvwxa晶格常数a 
+inspectors which will write as u v w x a
+lattice constant a with the following
+
+32
+00:02:37,840 --> 00:02:58,209
+可能性可能性1要么与可能性要么呆在一起1全部
+possibilities possibility 1 either stay
+with either possibility 1 all business
+
+33
+00:02:58,209 --> 00:03:04,600
+声音消失了，你能说出某事消失了吗
+out and the sound is falling out
+can you name something something's gone
+
+34
+00:03:04,600 --> 00:03:11,230
+错误可以召唤回去修理，如果我使用其他麦克风或
+wrong can can summon back there fixing
+it should I use the other microphone or
+
+35
+00:03:11,230 --> 00:03:21,610
+我应该看看好吗，也许我们会杀死声音，然后
+should I just see good yeah man maybe
+maybe we kill the sound and then and
+
+36
+00:03:21,610 --> 00:03:28,030
+我只想大声一点，那就是有人可以回到那里更好，是的，所以我不是说
+I'll just yell is that better
+can someone back there yeah so no I mean
+
+37
+00:03:28,030 --> 00:03:34,390
+应该有一个人回到那里，那里没有人回到我那里
+there should be someone back there who's
+there's not someone back there I have no
+
+38
+00:03:34,390 --> 00:03:37,120
+想法就是这个关键，只要继续前进，看看我们是否可以忍受它
+idea it's just this key just keep going
+and see if we can suffer through it for
+
+39
+00:03:37,120 --> 00:03:41,410
+一会儿有人会打赌那个人的赌注又回来了
+a while someone would that's the
+person's bet is back there is fixing it
+
+40
+00:03:41,410 --> 00:03:47,200
+好吧，希望这将得到解决，如果仍然无法解决，请阻止我
+ok so hopefully this will get fixed stop
+me if it doesn't okay anyway you can
+
+41
+00:03:47,200 --> 00:03:51,310
+阅读如果您听不到声音，您仍然可以阅读，所以我们要写
+read you can still read if you can't
+hear so we're gonna we're gonna write
+
+42
+00:03:51,310 --> 00:04:01,260
+向下将晶格矢量作为UV W乘以a，并包含所有UV W整数和
+down the lattice vectors as UV W times a
+with either all of the UV W integers and
+
+43
+00:04:01,260 --> 00:04:06,730
+如果您以常规方式查看此整数，则对应的很好
+the integer case corresponds to well if
+you look in this in the conventional
+
+44
+00:04:06,730 --> 00:04:11,470
+晶胞是晶胞的角，因此该晶胞具有坐标1 0 0 
+unit cell it's the corners of the unit
+cell so this one has coordinate 1 0 0
+
+45
+00:04:11,470 --> 00:04:18,970
+这个有1 1 0等等，以此类推，另一个可能是UV和W uv 
+this one has 1 1 0 and so forth and so
+on the other possibility is UV and W u v
+
+46
+00:04:18,970 --> 00:04:30,720
+ w所有半个奇数整数1/2个奇数整数和一半的奇数我的意思是一半
+w all half odd integers 1/2 odd integers
+integers and by half odd I mean one half
+
+47
+00:04:30,720 --> 00:04:36,660
+三个一半五个一半，依此类推，这对应于最平坦的
+three half five halves and so forth and
+that corresponds to the the the flattest
+
+48
+00:04:36,660 --> 00:04:41,070
+点在立方体的中心，例如，此点将具有
+points in the center of the cube for
+example this point here would have
+
+49
+00:04:41,070 --> 00:04:45,030
+协调一半一半一半一半，所以这一半将是一半一半
+coordinates one half one half one half
+so this one would be one half one half
+
+50
+00:04:45,030 --> 00:04:48,300
+一半，这个一半是一半，一半是一半，依此类推， 
+one half this one would be one half
+three halves one half and so forth and
+
+51
+00:04:48,300 --> 00:04:51,720
+所以现在我们应该检查一下以使我们的
+so on now
+we should check to make one of our
+
+52
+00:04:51,720 --> 00:04:56,010
+或我们应该能够添加的晶格矢量的定义
+definitions of lattice vectors of a
+lattice or that we should be able to add
+
+53
+00:04:56,010 --> 00:04:59,130
+任何两个晶格矢量在一起，并获得另一个晶格矢量，它应该是
+any two lattice vectors together and get
+another lattice vector it should be a
+
+54
+00:04:59,130 --> 00:05:02,850
+加法下的封闭集，因此我们应该检查是否将整数添加到
+closed set under addition so we should
+check well if we add integers to
+
+55
+00:05:02,850 --> 00:05:06,419
+整数，我们回到整数，所以如果我们添加具有
+integers we get back to integers so
+that's good if we add integers that have
+
+56
+00:05:06,419 --> 00:05:10,410
+奇整数我们将整数取一半，所以如果再加上一半就很好
+odd integers we get back half on
+integers so that's good if we add half
+
+57
+00:05:10,410 --> 00:05:14,310
+在整数上，在一半上，我们返回整数，所以它可以工作
+on integers and half on integers we get
+back integers so it's gonna work either
+
+58
+00:05:14,310 --> 00:05:17,729
+方式彼此添加您会得到一些回馈
+way add any of these to each other
+you'll get back something it's either
+
+59
+00:05:17,729 --> 00:05:22,830
+这样的，这样就很好，使它成为格子
+this kind of this kind so that's that's
+good so that makes this a lattice so
+
+60
+00:05:22,830 --> 00:05:29,520
+让我们看看这里我们去那里我们去写下原始图很有用
+let's see here we go there we go it's
+it's useful to write down the primitive
+
+61
+00:05:29,520 --> 00:05:35,430
+这个晶格的晶格因子tlvs 
+lattice factors tlvs
+for this lattice which we can take to be
+
+62
+00:05:35,430 --> 00:05:44,729
+一零零乘以一零一零乘以一，然后再二分之一
+one zero zero times a zero one zero
+times a and then one half one half one
+
+63
+00:05:44,729 --> 00:05:51,510
+半数，所以让我们在这里看到这个图，所以它是一个零零
+half times a so let's see that on this
+on this plot here so it's one zero zero
+
+64
+00:05:51,510 --> 00:05:55,860
+乘以一零一零乘以a和二分之一乘以a的一半
+times a zero one zero times a and one
+half one half one half times a and to
+
+65
+00:05:55,860 --> 00:05:58,830
+让自己相信这些东西是原始的晶格向量，我们要做的就是
+convince yourself that these things are
+primitive lattice vectors all we have to
+
+66
+00:05:58,830 --> 00:06:02,610
+要做的就是说服自己，您可以通过以下方式到达晶格的任何点
+do is convince ourselves that you can
+get to any point of the lattice by
+
+67
+00:06:02,610 --> 00:06:06,330
+将它们以整数组合加在一起，例如，如果我想
+adding these together in integer
+combinations so for example if I wanted
+
+68
+00:06:06,330 --> 00:06:11,010
+为了达到这一点，我会把这个家伙一两次，然后减去
+to get to this point here I would take
+this guy twice one two and then subtract
+
+69
+00:06:11,010 --> 00:06:13,860
+这个，那将带我从这里到这里，我会到达这个格子
+this one and that would take me from
+here to here and I'd get to this lattice
+
+70
+00:06:13,860 --> 00:06:17,250
+点，您可以通过将这些内容加在一起
+point and you can sort of work out that
+that by adding these together and all
+
+71
+00:06:17,250 --> 00:06:21,930
+最终可以到达每个晶格点的整数组合
+integer combinations you can get
+eventually to every every lattice point
+
+72
+00:06:21,930 --> 00:06:28,500
+到目前为止，一切都很好，现在没有警告，这是一个
+good so far so good
+all right now no warning and it's it's a
+
+73
+00:06:28,500 --> 00:06:32,010
+警告世界上每个人都应该采取的行动不要犯以下错误
+warning that that everyone in the world
+should take do not make the mistake of
+
+74
+00:06:32,010 --> 00:06:36,870
+称氯化铯为体心立方晶格，晶格规则为
+calling caesium chloride a body-centered
+cubic lattice the rule of a lattice is
+
+75
+00:06:36,870 --> 00:06:40,110
+每个晶格点应该看起来相同，所以有
+that every lattice point should look
+identical so there is
+
+76
+00:06:40,110 --> 00:06:43,110
+这是身体中间的一个点，但与另一个不同
+a point in the middle of the body here
+but it's not identical to the other
+
+77
+00:06:43,110 --> 00:06:46,680
+点，所以它不是以人体为中心的立方晶格，而是具有
+point so it's not a body centered cubic
+lattice it's a simple cubic lattice with
+
+78
+00:06:46,680 --> 00:06:51,120
+一个基数，并且基数必须等于0 0 0处的等价原子1 
+a basis and the basis has to in
+equivalent atoms one at 0 0 0 which is
+
+79
+00:06:51,120 --> 00:06:54,420
+铯和另一个在1/2 1/2和1/2这是氯，有一个
+cesium and the other is at 1/2 1/2 and
+1/2 which is chlorine there's a
+
+80
+00:06:54,420 --> 00:06:57,630
+差异，所以它不是以身体为中心的立方晶格，您会发现
+difference so it's not body centered
+cubic lattice you will find books that
+
+81
+00:06:57,630 --> 00:07:01,080
+犯这个错误，这超出了名义艾希尔的不同， 
+make this mistake this goes beyond
+difference in nominal Eicher it's just
+
+82
+00:07:01,080 --> 00:07:04,620
+错误，称其为体心立方晶格纯铯是不正确的
+wrong it is incorrect to call it body
+centered cubic lattice cesium pure
+
+83
+00:07:04,620 --> 00:07:08,490
+铯，这里所有点上都有一个铯原子，甚至是
+cesium where there is a cesium atom at
+all the points here even the one in the
+
+84
+00:07:08,490 --> 00:07:13,160
+中心是一个以身体为中心的立方晶格，但是欢迎您称它为中心
+center that is a body centered cubic
+lattice but you're welcome to call it
+
+85
+00:07:13,160 --> 00:07:18,780
+您也可以称其为“体心立方” 
+you're also allowed to call it body
+centered cubic is the same thing as
+
+86
+00:07:18,780 --> 00:07:27,150
+具有基础的简单三次方，其中基础是我们所讨论的基础
+simple cubic with a basis with basis
+where the basis that we're talking about
+
+87
+00:07:27,150 --> 00:07:36,360
+这里包括一个0 0 0点和一个1/2 1/2 1/2点，它们是
+here includes a point at 0 0 0 and a
+point at 1/2 1/2 1/2 those are
+
+88
+00:07:36,360 --> 00:07:41,190
+等价的陈述，我想这个陈述的简单点是
+equivalent statements I suppose that the
+simpler of this statements is to say
+
+89
+00:07:41,190 --> 00:07:43,950
+这是一个以身体为中心的立方晶格，但您可以编写一个以身体为中心的立方晶格
+it's a body centered cubic lattice but
+you can write a body centered cubic
+
+90
+00:07:43,950 --> 00:07:48,780
+晶格只是说它是简单的三次方，其基础包括一个晶格点
+lattice is just saying it's simple cubic
+with a basis including one lattice point
+
+91
+00:07:48,780 --> 00:07:55,920
+在一格点处0 0 0处1/2 1/2 1/2很好到目前为止很好现在
+at 0 0 0 in one lattice point at 1/2 1/2
+1/2 good so far so good all right now
+
+92
+00:07:55,920 --> 00:07:59,820
+您可能想知道为什么我们使用常规方法会遭受痛苦
+you might wonder why is it we're
+suffering through using a conventional
+
+93
+00:07:59,820 --> 00:08:04,170
+拥有一个以上单位的晶胞，其中有两个晶格点，而不是
+unit cell that has one more you one that
+has two lattice points in it instead of
+
+94
+00:08:04,170 --> 00:08:07,980
+使用基本单元，它只有一个晶格点，不是
+using a primitive unit cell it only has
+one lattice point in it wouldn't that be
+
+95
+00:08:07,980 --> 00:08:11,850
+比较容易，这是有一个原因，我们不使用基本单元
+easier well there's a reason we don't
+use a primitive a primitive unit cell
+
+96
+00:08:11,850 --> 00:08:15,540
+因为原始的晶胞看起来有点丑陋，所以这是个大神经
+because the primitive unit cell is kind
+of ugly looking so this is the big nur
+
+97
+00:08:15,540 --> 00:08:20,210
+为BCC晶格定位原始单位单元，它被截断了
+sites primitive unit cell for the BCC
+lattice and it's it's a truncated
+
+98
+00:08:20,210 --> 00:08:25,260
+八面体我认为它有14个面，您可以看到这里发生了什么
+octahedron I think it has 14 sides and
+you can kind of see what's going on here
+
+99
+00:08:25,260 --> 00:08:29,460
+在这个立方体的中心，有一个晶格点， 
+this is in the center of this cube
+there's one of the lattice points and
+
+100
+00:08:29,460 --> 00:08:33,840
+这是八个邻居，您可以看到所有e8邻居和
+here are the eight neighbors which you
+can see all e8 neighbors and the
+
+101
+00:08:33,840 --> 00:08:38,640
+六边形面是这两个面之间的垂直平分平面
+hexagonal faces are the perpendicularly
+bisecting planes between this the
+
+102
+00:08:38,640 --> 00:08:42,299
+立方体中心的晶格点和立方体角的晶格点
+lattice point in the center of the cube
+and the lattice point in the corner of
+
+103
+00:08:42,299 --> 00:08:46,830
+立方体的方形面是两边之间的垂直平分线
+the cube the square faces are the
+perpendicularly bisect ins between the
+
+104
+00:08:46,830 --> 00:08:50,220
+立方体中心的晶格点和邻居的晶格点
+lattice point in the center of the cube
+and the lattice point in the neighbor
+
+105
+00:08:50,220 --> 00:08:53,190
+使立方体居中，因此，如果您越过一个立方体
+centering cube so if you go over one
+cube
+
+106
+00:08:53,190 --> 00:08:55,740
+然后在那个立方体的中心有一个晶格点
+and you have a lattice point in the
+center of that cube and you make a
+
+107
+00:08:55,740 --> 00:08:59,699
+垂直平分线平面，为您提供这些正方形的面，记住了方式
+perpendicular bisector plane that gives
+you these square faces remember the way
+
+108
+00:08:59,699 --> 00:09:03,120
+您通过垂直平分线来构造单元，因此您
+you construct the figner sight cells by
+making perpendicular bisectors so you
+
+109
+00:09:03,120 --> 00:09:07,230
+知道太空中最接近该点的一个点
+know that everything in space that's
+closest to the one lattice point in the
+
+110
+00:09:07,230 --> 00:09:11,459
+中心在该对象的内部，所以它是一个难看的形状的对象，这就是为什么
+center is on the inside of that object
+so it's an ugly shaped object that's why
+
+111
+00:09:11,459 --> 00:09:15,389
+我们不将原始单位单元用于BCC晶格，但是如果您采用这些
+we don't use primitive unit cells for
+the BCC lattice but if you do take these
+
+112
+00:09:15,389 --> 00:09:17,939
+这些截断的八面体的丑陋形状的物体
+ugly shaped objects these truncated
+octahedron
+
+113
+00:09:17,939 --> 00:09:22,439
+他们将很好地堆叠在一起，并铺满所有空间
+they will stack together very nicely and
+tile all the space filling all space
+
+114
+00:09:22,439 --> 00:09:28,769
+因为他们应该没问题，所以还有另一种类型的晶格
+appropriately as they're supposed to
+okay there's one more type of lattice
+
+115
+00:09:28,769 --> 00:09:34,040
+我们需要讨论哪个是面心立方晶格面
+that we need to discuss which is the
+face centered cubic lattice face
+
+116
+00:09:34,040 --> 00:09:50,819
+居中居中立方或FCC或立方-f您可能已经注意到我写了一个
+centered centered cubic or FCC or cubic
+- f you may have noticed that I wrote a
+
+117
+00:09:50,819 --> 00:09:54,240
+以美国方式而不是英国方式为中心，我这样做的原因是
+centered the American way not the
+British Way and the reason I do this is
+
+118
+00:09:54,240 --> 00:09:57,360
+因为我做了另一种方式，我的大脑会爆炸，就是你知道你得到了
+because I did the other way my brain
+would explode it's just you know you get
+
+119
+00:09:57,360 --> 00:10:00,930
+曾经以一种方式做某件事，而你只是不能改变任何一种方式都是正确的
+used to doing something one way and you
+just can't change either way is correct
+
+120
+00:10:00,930 --> 00:10:05,310
+因此，根据您所在的海洋一侧，让我们看看脸
+so depending on the side of the ocean
+you're on so let's see what the face
+
+121
+00:10:05,310 --> 00:10:09,209
+居中的立方晶格看起来像，所以您从一个简单的立方晶格开始
+centered cubic lattice looks like so you
+start with a the simple cubic lattice
+
+122
+00:10:09,209 --> 00:10:13,139
+常规单位单元角落的点，然后添加
+the points in the corner of the
+conventional unit cell and then you add
+
+123
+00:10:13,139 --> 00:10:17,459
+像这样在每个人的脸中央居中
+one point in the centre of every face
+like this one in the center this place
+
+124
+00:10:17,459 --> 00:10:20,040
+是这张脸的中心之一，这张脸的中心之一，依此类推
+is one of the center this face is one of
+the center this face and so forth
+
+125
+00:10:20,040 --> 00:10:23,959
+里面有多少个晶格点
+how many lattice points are there in the
+
+126
+00:10:27,170 --> 00:10:37,530
+所以是的，我将不得不加倍努力，是的，其中有四个要点
+so yeah I'm gonna have to make these
+harder yes there are four points in the
+
+127
+00:10:37,530 --> 00:10:43,070
+传统上你自己会看到四个点在哪里，八个
+conventional yourself there's to see
+where the four points are there's eight
+
+128
+00:10:43,070 --> 00:10:50,640
+每个角落都有八分之一，所以传统的里面有1/8 
+corners each of which counts one eight
+so there's 1/8 inside the conventional
+
+129
+00:10:50,640 --> 00:10:54,660
+您卖出然后有六个空格，脸中心的点是
+you sell then there are six spaces and
+the point in the center of the face is
+
+130
+00:10:54,660 --> 00:10:58,800
+一半在晶胞内，一半在晶胞外，所以是6倍
+half inside the unit cell and half
+outside the unit cell so it's 6 times
+
+131
+00:10:58,800 --> 00:11:04,560
+ 1/2等于常规晶胞内的四个晶格点，您也可以
+1/2 equals four lattice points within
+the conventional unit cell you can also
+
+132
+00:11:04,560 --> 00:11:10,320
+使用此平面图方案绘制单元格的惯例
+draw the convention of the cell with
+this this plan view scheme which you
+
+133
+00:11:10,320 --> 00:11:12,960
+知道所以这里是角落里的要害，正如它所说的未贴标签
+know so here are the points in the
+corners and it as it says unlabeled
+
+134
+00:11:12,960 --> 00:11:16,380
+点是高度为0的点，因此此点对应于此点
+points are height 0 on a so this point
+here corresponds to this point here
+
+135
+00:11:16,380 --> 00:11:20,790
+在a的高度为0的位置上，您可以看到该点的高度
+which is at height 0 on a you can see
+the points on this on the halfway up the
+
+136
+00:11:20,790 --> 00:11:24,420
+高度超过2的脸，这就是这一点
+faces at height labeled a over 2 so
+that's this point this point this point
+
+137
+00:11:24,420 --> 00:11:28,170
+在这一点上，这是这个，这个，这个，然后一个，然后一个
+on this point that's this one this one
+this one and this one and then the one
+
+138
+00:11:28,170 --> 00:11:35,610
+在这中心的这个高度也是0 
+in the center here is also at height 0
+on a this one and this one here ok now
+
+139
+00:11:35,610 --> 00:11:41,490
+如果您想象在FCC晶格中将原子或球体排列在一起
+if you imagine arranging atoms together
+or spheres together in the FCC lattice
+
+140
+00:11:41,490 --> 00:11:45,330
+配置实际上是您可以打包的最有效方法
+configuration it is actually the most
+efficient way that you can possibly pack
+
+141
+00:11:45,330 --> 00:11:48,450
+球在一起，因此，如果您有一束网球，您会尝试粘住
+spheres together so if you have a bunch
+of tennis balls you're trying to stick
+
+142
+00:11:48,450 --> 00:11:52,410
+把它们装进一个盒子里，把那些网球的最高密度的包装放进去
+them into a box the highest density
+packing of those tennis balls into the
+
+143
+00:11:52,410 --> 00:11:56,130
+盒子是FCC格子，还有其他包装，密度也相当
+box is an FCC lattice there are other
+packings which are equivalently dense
+
+144
+00:11:56,130 --> 00:12:01,440
+但是您永远不会比FCC包装做得更好，我们不会研究其他包装
+but you're never going to do better than
+the FCC packing we don't study the other
+
+145
+00:12:01,440 --> 00:12:04,860
+填料的类型，因为它们没有正交轴，但它们是
+types of packings because they don't
+have orthogonal axes but they're
+
+146
+00:12:04,860 --> 00:12:09,150
+实际上等同于FCC，这说明您无法获得更密集的包装
+equivalent to FCC in fact this statement
+that you can't get a more dense packing
+
+147
+00:12:09,150 --> 00:12:14,340
+比FCC的原子数由开普勒（Kepler）在1611年推测
+of atoms than FCC was conjectured by
+Kepler in 1611
+
+148
+00:12:14,340 --> 00:12:20,130
+它只是在1998年被证明的，所以它是一个长期存在的定理，但是
+and it was only proven in 1998 so it's a
+very long standing standing theorem but
+
+149
+00:12:20,130 --> 00:12:23,250
+事实证明，你不能做得更好，不能打包
+it turns out to be true
+you can't do any better you can't pack
+
+150
+00:12:23,250 --> 00:12:28,190
+如果有担心，可以将更多的东西放到狭小的空间中，然后使用FCC晶格
+more things into a small space if
+there's fears then using FCC lattice
+
+151
+00:12:28,190 --> 00:12:31,590
+因为如果你考虑原子，那么你会在一个狭小的空间里放很多长矛
+because you get so many Spears in a
+small space if you think about atoms
+
+152
+00:12:31,590 --> 00:12:36,260
+试图吸引对方，这是很普遍的，这是非常有吸引力的
+trying to attract each other it's a very
+common it's a very appealing a
+
+153
+00:12:36,260 --> 00:12:41,010
+原子的组态，因此许多元素采用FCC组态
+configuration for atoms and so many
+elements take FCC configurations
+
+154
+00:12:41,010 --> 00:12:49,589
+铜，银，金，钙，许多其他都可以通过FCC进行，所以既然有四个
+copper silver gold calcium many others
+are FCC okay so since there are four
+
+155
+00:12:49,589 --> 00:12:55,490
+每个单位晶格的原子，我们应该能够在输入4时查看FCC晶格
+atoms per unit cell we should be able to
+view the FCC lattice as 4 enter
+
+156
+00:12:55,490 --> 00:13:00,240
+互穿简单的立方晶格，所以让我们看看是否可以看到这是
+interpenetrating simple cubic lattices
+so let's see if we can see that this is
+
+157
+00:13:00,240 --> 00:13:05,820
+ FCC球体晶格，这是我标出的简单立方
+an FCC lattice of spheres and this is
+the red I have marked out a simple cubic
+
+158
+00:13:05,820 --> 00:13:09,690
+格子这是一个简单的立方体，很难看，但是您可以
+lattice this is a simple cube it's a
+little hard to see but then you can
+
+159
+00:13:09,690 --> 00:13:14,420
+如果您仔细看的话，请选择其他三个
+actually pick out if you look very
+carefully there are three other
+
+160
+00:13:14,420 --> 00:13:19,620
+相互渗透的简单立方晶格，在这里和尽管
+interpenetrating simple cubic lattices
+which are mixed in here and although it
+
+161
+00:13:19,620 --> 00:13:24,750
+每个球体的环境可能并不完全清楚
+may not be completely obvious that the
+environment of every single sphere is
+
+162
+00:13:24,750 --> 00:13:28,649
+现在与其他领域的环境相同，因为那不是
+identical to the environment of every
+other sphere now since that's not
+
+163
+00:13:28,649 --> 00:13:32,699
+完全显而易见，我们应该练习一下写下
+completely obvious we should do the
+exercise of actually writing down the
+
+164
+00:13:32,699 --> 00:13:40,829
+ FCC晶格的晶格矢量我声称它们采用
+lattice vectors lattice vectors for the
+FCC lattice and I claim they take the
+
+165
+00:13:40,829 --> 00:13:55,589
+再次形成UV w UV W乘以a，其中一个UV W都为整数
+form again UV w UV W times a where
+either one UV W all integer and again
+
+166
+00:13:55,589 --> 00:14:00,149
+这将对应于备份另一个
+that would correspond backing up one
+more that would correspond to the the
+
+167
+00:14:00,149 --> 00:14:05,550
+将所有整数都指向角，所以这个1是1 0 0这是1 1 0并且
+points in the corners all integers so
+this one is is 1 0 0 this is 1 1 0 and
+
+168
+00:14:05,550 --> 00:14:08,940
+等等，还有其他可能性，所以紫外线W 
+so forth and so on
+the other possibility so UV W we're
+
+169
+00:14:08,940 --> 00:14:22,790
+要么可能性1都是整数，要么其中两个都是半奇数
+either either possibility 1 they're all
+integers or to two of them are half odd
+
+170
+00:14:25,250 --> 00:14:34,579
+整数和一个整数
+integer and one integer
+
+171
+00:14:35,720 --> 00:14:41,570
+好吧，我们将证明它确实有效，但在继续之前
+okay so we're gonna show that this
+actually works but before going on so
+
+172
+00:14:41,570 --> 00:14:49,010
+再来一个巧克力，什么是协调
+for the one one more chocolate
+what is the coordination of the
+
+173
+00:14:49,010 --> 00:14:54,380
+协调数12让我们实际上在此图上看到的是
+coordination numbers 12 let's actually
+see on this on this on this plot y it is
+
+174
+00:14:54,380 --> 00:14:58,190
+协调号码是12我要停止问问题
+the coordination number is is 12 I'm
+gonna stop asking questions I'm gonna
+
+175
+00:14:58,190 --> 00:15:04,520
+这样运行巧克力，我将不得不问更难的问题
+run that chocolate this way I'm gonna
+have to ask harder questions okay
+
+176
+00:15:04,520 --> 00:15:08,810
+因此，如果您看到协调编号12，那么我们将这个领域
+so if you see the coordination numbers
+12 let's take this sphere here the one
+
+177
+00:15:08,810 --> 00:15:13,400
+它被切成两半，在同一高度有四个邻居一二三四
+that's cut in half it has four neighbors
+one two three four at the same height it
+
+178
+00:15:13,400 --> 00:15:17,000
+有四个邻居，高度略低一些，您可以看到其中两个
+has four neighbors at a slightly lower
+height here you can see two of them that
+
+179
+00:15:17,000 --> 00:15:20,000
+也触摸它，然后如果您走到更高的高度， 
+are touching it also and then if you
+went to a slightly higher height the
+
+180
+00:15:20,000 --> 00:15:23,480
+距离这些下降的距离相同，您将再有四个距离，因此
+same distance up that these are down you
+would have four more so it's forth the
+
+181
+00:15:23,480 --> 00:15:26,660
+高度略低而略高的相同高度
+same height for slightly lower and for
+slightly higher which may not look all
+
+182
+00:15:26,660 --> 00:15:33,620
+令人信服，但我们可以使用此规则进行显示，因此该规则可以使
+that convincing but we can show it using
+this rule so this rule would give that
+
+183
+00:15:33,620 --> 00:15:37,030
+免费给我们的原因，我们知道这是因为
+to us for free
+the reason we would know this is because
+
+184
+00:15:37,030 --> 00:15:41,210
+如果您看的很好，首先让我们来
+if you if you look at this point here
+well first of all let's let's take a
+
+185
+00:15:41,210 --> 00:15:44,750
+看看这个项目到这里，他们两个都有奇数整数之一
+look at this this item to here the two
+of them have odd integer one of them
+
+186
+00:15:44,750 --> 00:15:47,780
+整数对应于什么，对应于
+integer what does that correspond to
+that corresponds to someone in the
+
+187
+00:15:47,780 --> 00:15:52,640
+例如脸部中间，这个家伙他已经回来了一半多
+middle of the face for example this guy
+here he's over one-half he's back
+
+188
+00:15:52,640 --> 00:15:56,870
+二分之一，但他的身高和整数身高，而这个家伙在这里，他已经结束了
+one-half but he's up and integer height
+whereas this guy over here he's over
+
+189
+00:15:56,870 --> 00:16:01,070
+他的一半上升了一半，但他的身高是整数，恰好是他的深度
+one-half he's up one half but his height
+is an integer it happens to be his depth
+
+190
+00:16:01,070 --> 00:16:06,800
+是一个整数，这个是1/2以上1/2的整数，他是整数，所以如果
+is an integer this one here is over 1/2
+up 1/2 and he's an integer back so if
+
+191
+00:16:06,800 --> 00:16:11,420
+它在脸上有两个一半的整数，如果有一个，则有一个整数
+it's on a face it has two half out
+integers and one integer if it's on a
+
+192
+00:16:11,420 --> 00:16:19,040
+角都是全整数，现在我们可以检查我们可以再次检查这里
+corner it's all integers now we can
+check we can check here that again we
+
+193
+00:16:19,040 --> 00:16:22,160
+应该具有以下规则：如果您将这些集合中的任何两项添加到彼此
+should have the rule that if you add any
+two things from these sets to each other
+
+194
+00:16:22,160 --> 00:16:26,690
+您应该从这些集合之一中获取一些东西，例如
+you should get back something from this
+from one of these sets so for example if
+
+195
+00:16:26,690 --> 00:16:30,440
+您添加引入两个整数，如果您将整数添加到
+you add introduce two integers you get
+back integers if you add integers to
+
+196
+00:16:30,440 --> 00:16:33,740
+半个奇数整数和一个整数，您会得到回报，您知道以下事实： 
+half odd integers and one integer you'll
+get back you know the fact that you're
+
+197
+00:16:33,740 --> 00:16:36,200
+向某物添加整数不会改变它是否是一半整数
+adding integers to something doesn't
+change whether it's a half out integer
+
+198
+00:16:36,200 --> 00:16:40,220
+或整数，以便您再次获得第二组中的某项，但这不是
+or an integer so you get back something
+in the set two again but what's not
+
+199
+00:16:40,220 --> 00:16:43,400
+很明显，您需要做两件事，其中有两个半数整数和一个
+obvious is you take two things which
+have two half out integers and one
+
+200
+00:16:43,400 --> 00:16:47,720
+整数并将它们加在一起会得到什么，所以让我们尝试一下，如果有
+integer and you add them together what
+do you get so let's try so if you have
+
+201
+00:16:47,720 --> 00:16:52,370
+例如一半一半一半，然后将其添加到三个
+for example one half
+one half one and you add it to three
+
+202
+00:16:52,370 --> 00:16:58,610
+将一半减半，所以这两个都是其中一半我将整数之一
+halves one half zero so both of these
+are two of them half I'd integers one of
+
+203
+00:16:58,610 --> 00:17:03,110
+它们是整数，所以它们都在脸上，您会得到2逗号1逗号1 
+them integers so both of these would be
+on the face you get 2 comma 1 comma 1
+
+204
+00:17:03,110 --> 00:17:07,059
+都是整数，这很好，但是我可以用不同的方式来做
+which is all integers and that's good
+but I could have done it differently you
+
+205
+00:17:07,059 --> 00:17:17,179
+本来可以有一个一半一个一半一个说一半的一半0 3一半
+could have had one half one half one
+added to say one half 0 3 halves for
+
+206
+00:17:17,179 --> 00:17:24,980
+例子，那么你得到的是1个逗号1个半逗号3个一半，还有两个
+example then what do you get is 1 comma
+1 half comma 3 halves and still two of
+
+207
+00:17:24,980 --> 00:17:27,799
+它们是1/2个奇数整数，其中一个是整数，所以如果加
+them are 1/2 odd integers and one of
+them is an integer so if you add
+
+208
+00:17:27,799 --> 00:17:32,480
+集合B的两件事在一起，您会从集合B中得到某事
+together two things from set B you'll
+get either something from set wasthat be
+
+209
+00:17:32,480 --> 00:17:36,770
+设置为您会从设置1或设置2中得到一些东西，因此它形成一个
+set to you get either something from set
+1 or something from set 2 so it forms a
+
+210
+00:17:36,770 --> 00:17:40,429
+假设我们知道这些是坐标，则加法下的闭集
+closed set under addition now given that
+we know that these are the coordinates
+
+211
+00:17:40,429 --> 00:17:47,030
+ FCC格子中的向量的，让我们看看是否可以找出
+of the of the vectors in the FCC lattice
+let's see if we can figure out that that
+
+212
+00:17:47,030 --> 00:17:50,360
+协调编号12更容易一点，让我们从这一点开始
+coordination number 12 a little more
+easily so let's start with this point
+
+213
+00:17:50,360 --> 00:17:58,400
+这就是0 0 0的点，并寻找最接近0 0 0的东西最接近0 
+here that's the point 0 0 0 and look for
+the closest things to 0 0 0 closest to 0
+
+214
+00:17:58,400 --> 00:18:06,200
+ 0 0好吧好吧这家伙看起来很近，他的警戒线是1/2 1/2逗号
+0 0 okay well okay this guy here looks
+pretty close his cordon is 1/2 1/2 comma
+
+215
+00:18:06,200 --> 00:18:13,130
+ 0，所以1/2 1/2逗号为0，如果它符合以下点之一的定义
+0 so 1/2 1/2 comma 0 and if that fits
+the definition of one of the points in
+
+216
+00:18:13,130 --> 00:18:16,549
+ FCC晶格中的两个是一半整数，其中一个是整数， 
+the FCC lattice two of them half out
+integers one of them integer and it's
+
+217
+00:18:16,549 --> 00:18:19,549
+非常接近无法接近，但我们可以
+pretty close
+can't get any closer but we could have
+
+218
+00:18:19,549 --> 00:18:23,090
+做这个正负，我们也可以做这个正负
+made this plus or minus and we could
+have made this plus or minus as well
+
+219
+00:18:23,090 --> 00:18:27,559
+正确的是，这些也都符合定义，我们可以将0放入
+right that those all fit the definition
+as well and we could have put the 0 in
+
+220
+00:18:27,559 --> 00:18:34,460
+三个地点中的任何一个，三种可能性，所以我们有四个
+any of the three spots three
+possibilities so we have four
+
+221
+00:18:34,460 --> 00:18:37,970
+这些加号或减号的可能性以及何处的三种可能性
+possibilities of these plus or minus
+signs and three possibilities of where
+
+222
+00:18:37,970 --> 00:18:42,309
+你把零，所以我们得到4乘以3等于12是协调数
+you put the zero so we get 4 times 3
+equals 12 is the coordination number
+
+223
+00:18:42,309 --> 00:18:54,860
+好吧好吧好吧，所以还值得写下一些原始的
+okay good okay all right so it's worth
+also writing down a set of primitive
+
+224
+00:18:54,860 --> 00:19:00,740
+ FCC晶格的晶格矢量，因此FCC晶格的POV确实非常好
+lattice vectors for the FCC lattice so
+POVs for the FCC lattice a really good
+
+225
+00:19:00,740 --> 00:19:05,360
+例如，最接近的向量使它们很好剥皮
+example are just the closest
+vectors are make pretty good peel these
+
+226
+00:19:05,360 --> 00:19:21,820
+所以1/2 1/2 0倍1/2 0 1/2倍+ 0 1/2 1/2倍
+so 1/2 1/2 0 times a 1/2 0 1/2 times a +
+0 1/2 1/2 times a make pretty good
+
+227
+00:19:21,820 --> 00:19:26,420
+它们在那里是原始晶格向量，一次又一次地使自己相信它们
+primitive lattice vectors there they are
+and again to convince yourself that they
+
+228
+00:19:26,420 --> 00:19:29,450
+确实是原始晶格向量，我们要做的就是说服自己
+really are primitive lattice vectors
+what we have to do is convince ourselves
+
+229
+00:19:29,450 --> 00:19:32,690
+我们可以通过添加整数到达FCC晶格上的每个点
+that we can get to every point on the
+FCC lattice by adding integer
+
+230
+00:19:32,690 --> 00:19:37,160
+它们的组合，例如，如果我们想在这里达到这一点
+combinations of them so for example if
+we wanted to get to this point here
+
+231
+00:19:37,160 --> 00:19:41,210
+我们将不得不将其中每个添加1个，因此将这个添加为1个
+we would have to add 1 of each of them
+so this one this one plus this one would
+
+232
+00:19:41,210 --> 00:19:45,290
+带我们到这里，如果我们想到达这里，我们将不得不添加mmm 
+take us to here and if we wanted to get
+to here we would have to add mmm well
+
+233
+00:19:45,290 --> 00:19:50,540
+我不确定是的，您如何到达其中两个，然后减去-1 
+I'm not sure yeah okay how do you get
+there two of these and then minus 1 of
+
+234
+00:19:50,540 --> 00:19:54,590
+这些或其他内容，无论如何，您都可以使用它，它可以正常工作
+these or something and anyway so you can
+play around with it you it works you can
+
+235
+00:19:54,590 --> 00:19:59,570
+到达那里你如何到达这里嗯是的，这将是其中的两个
+get there how do you how do you get here
+um yeah so it would be two of these
+
+236
+00:19:59,570 --> 00:20:07,730
+会把你带到这里，那么你可能需要减去一-是其中之一，再加上
+would get you here then you need maybe
+minus one yeah - one of these then plus
+
+237
+00:20:07,730 --> 00:20:12,460
+其中之一是某种可以让您顺利到达的东西
+one of these there's something that will
+get you there okay anyway
+
+238
+00:20:12,700 --> 00:20:23,570
+好吧，因为FCC晶格具有FCC晶格，每个FCC晶格具有四个四个晶格点
+alright so since the FCC lattice has FCC
+lattice has four four lattice points per
+
+239
+00:20:23,570 --> 00:20:27,830
+常规单位单元，就像我们对BCC所做的那样，我们可以将其编写为简单
+conventional unit cell just like we did
+with the BCC we could write it as simple
+
+240
+00:20:27,830 --> 00:20:35,559
+立方简单立方乘以基数乘以基数，其中基数现在包括
+cubic simple cubic times the basis times
+a basis where the basis now includes
+
+241
+00:20:35,559 --> 00:20:46,720
+基数等于0 0 0的点等于1/2 1/2 0的点等于1/2 0 
+basis equals the point at 0 0 0 the
+point at 1/2 1/2 0 the point at 1/2 0
+
+242
+00:20:46,720 --> 00:20:54,140
+ 1/2和0 1/2 1/2的点会给我四个晶格点
+1/2 and the point at 0 1/2 1/2 that
+would give me the four lattice points
+
+243
+00:20:54,140 --> 00:20:59,059
+每个单位单元格，如果我按照惯例翻译了这四个晶格点
+per unit cell and if I translate those
+four lattice points in my convention
+
+244
+00:20:59,059 --> 00:21:00,860
+他们会卖到每个格子点
+they'd sell around to every lattice
+point
+
+245
+00:21:00,860 --> 00:21:05,210
+所以晶格点在0 0 0，然后这些都从原始位置移开
+so lattice points at 0 0 0 and then
+these are all displace from the original
+
+246
+00:21:05,210 --> 00:21:08,870
+将重建整个面为中心的立方晶格的晶格点或
+lattice point that will reconstruct the
+entire face centered cubic lattice or
+
+247
+00:21:08,870 --> 00:21:12,400
+另一种思考方式是这些是四个的位移
+another way of thinking about it is
+these are the displacements of the four
+
+248
+00:21:12,400 --> 00:21:16,760
+互穿构成FCC晶格的简单立方晶格
+interpenetrating simple cubic lattices
+that make up the FCC lattice
+
+249
+00:21:16,760 --> 00:21:25,090
+与BCC晶格一样，有一个原因是我们不使用基本单位单元
+as with the BCC lattice there's a reason
+we don't use the primitive unit cell for
+
+250
+00:21:25,090 --> 00:21:28,460
+它使用传统的单元格而不是原始单元格，因为
+it we use a conventional you cell not
+the primitive unit cell because the
+
+251
+00:21:28,460 --> 00:21:31,940
+原始单元格在这里非常丑陋，它被截短到十进制
+primitive unit cell is extremely ugly
+here it is it's a truncated to deca
+
+252
+00:21:31,940 --> 00:21:36,080
+ heatran它具有12个面，这12个面对应于12个最近的邻居
+heatran it has 12 sides those 12 sides
+correspond to the 12 nearest neighbors
+
+253
+00:21:36,080 --> 00:21:39,200
+所以我们在中心的是晶格点之一，然后我们有
+so what we have in the center is one of
+the lattice points and then we have the
+
+254
+00:21:39,200 --> 00:21:42,350
+ 12个最近的邻居，其中四个在同一位置略高于
+12 nearest neighbors four of them
+slightly above for them at the same
+
+255
+00:21:42,350 --> 00:21:47,150
+高度，并形成在略低于正十二面体的下面和面中
+height and formed in slightly below and
+the faces of the truncated dodecahedron
+
+256
+00:21:47,150 --> 00:21:53,180
+这是0和和之间的线段的垂直平分线
+here are the perpendicular bisectors of
+the segment between 0 and the and the
+
+257
+00:21:53,180 --> 00:21:57,620
+和最近的邻居好吧，这就是我们需要了解的FCC 
+and the nearest neighbors okay alright
+that's all we need to know about the FCC
+
+258
+00:21:57,620 --> 00:22:01,580
+实际上这就是我们要使用的所有三个三维晶格
+lattice in fact that's all the three
+dimensional lattices we're going to
+
+259
+00:22:01,580 --> 00:22:08,210
+研究值得一提的是，总共有14种晶格
+study it is worth knowing that there are
+14 types of lattices in in all the ones
+
+260
+00:22:08,210 --> 00:22:12,110
+我们已经研究了立方本原体
+we've studied are the cubic primitive
+the cubic body-centered the cubic
+
+261
+00:22:12,110 --> 00:22:15,680
+以面子为中心，我们还讨论了四边形简单tr三角形和
+face-centered we also talked about the
+tetragonal simple trent trigonal and
+
+262
+00:22:15,680 --> 00:22:19,340
+简单的斜方晶，然后您在这里有一堆其他的
+simple orthorhombic and then you have a
+whole bunch of other ones here you may
+
+263
+00:22:19,340 --> 00:22:23,660
+注意那里有类似物，所以我们不需要知道身体的类似物
+notice that there's there's analog so we
+don't need to know analogues of the body
+
+264
+00:22:23,660 --> 00:22:26,630
+中心四角形体中心斜方面中心正交面
+centered tetragonal body centred
+orthorhombic face centred orthorhombic
+
+265
+00:22:26,630 --> 00:22:31,490
+依此类推，您可能会注意到没有以四角形为中心的人脸，其原因是
+and so forth you may notice there's no
+face centered tetragonal and the reason
+
+266
+00:22:31,490 --> 00:22:36,110
+因为这实际上是因为通过横向旋转晶格
+for that is because in fact by turning
+the lattice sideways it would be in one
+
+267
+00:22:36,110 --> 00:22:39,830
+以及其他类别的东西，所以无论如何您都将过度计算
+of the other classes as well so you
+would be over counting so anyway these
+
+268
+00:22:39,830 --> 00:22:43,190
+在brav a是谁之后，有时称为brav a晶格类型
+are sometimes known as the brav a
+lattice types after brav a who is the
+
+269
+00:22:43,190 --> 00:22:49,070
+第一人称正确写下来，所以我们赞扬
+first person to write them down
+correctly and so we give brav a credit
+
+270
+00:22:49,070 --> 00:22:52,160
+为此，这些是您可能拥有的唯一可能的晶格类型
+for doing them so these are the only
+possible lattice types you can have it's
+
+271
+00:22:52,160 --> 00:22:56,690
+一种深层的数学陈述，即三个周期中的任何周期结构
+kind of a deep mathematical statement
+that any periodic structure in three
+
+272
+00:22:56,690 --> 00:23:00,050
+您可以在三个维度中拥有的任何维度都是其中之一
+dimensions anything you can have in
+three dimensions is one of these
+
+273
+00:23:00,050 --> 00:23:04,490
+晶格乘以某个基础，所以如果您可以写下所有这些晶格，您
+lattices times some basis so if you can
+write down all these lattices and you
+
+274
+00:23:04,490 --> 00:23:08,090
+可以选择任何依据，无论您做任何事情多么复杂
+can have any basis you choose no matter
+how complicated you can make anything
+
+275
+00:23:08,090 --> 00:23:12,890
+任何周期性结构都是这些晶格之一乘以某些基数
+any periodic structure is one of these
+lattices times some bases the only ones
+
+276
+00:23:12,890 --> 00:23:15,860
+我们实际上必须要知道今年是三个立方，而这个和
+we're actually gonna have to know this
+year are the three cubics and this and
+
+277
+00:23:15,860 --> 00:23:19,940
+这三个简单的立方四方正交晶体很少需要
+the three simple cubic tetragonal
+orthorhombic very rarely do we need to
+
+278
+00:23:19,940 --> 00:23:22,910
+知道泰德·龙格定理，因为我很少参加考试
+know Ted dragonlore theorem because I
+only rarely come up on exams it's really
+
+279
+00:23:22,910 --> 00:23:27,160
+这三个在考试中名列前茅的好吗
+these three across the top that actually
+show up on exams okay
+
+280
+00:23:27,160 --> 00:23:31,620
+所以这是你可以放一个例子
+so
+this is an example of what you can put
+
+281
+00:23:31,620 --> 00:23:36,990
+当你有晶格和基础时，这是钠
+together when you when you have a
+lattice and a basis this is a sodium
+
+282
+00:23:36,990 --> 00:23:43,710
+氯化物结构非常典型的盐结构氯化钠非常离子
+chloride structure a very typical salt
+structure sodium chloride very ionic
+
+283
+00:23:43,710 --> 00:23:47,460
+钠释放电子氯会吸收电子，如果您看一下
+sodium gives up the electron chlorine
+takes the electron and if you look at it
+
+284
+00:23:47,460 --> 00:23:51,600
+仔细地您会看到钠正在形成FCC晶格，甚至
+carefully you can see that sodium is
+forming an FCC lattice this is even
+
+285
+00:23:51,600 --> 00:23:55,320
+标有立方的f，所以也许最容易在这张照片中看到这些
+labeled cubic f so maybe it's easiest to
+see in this picture these are all
+
+286
+00:23:55,320 --> 00:24:01,020
+同一格的描绘实际上都不是很好，但我们可能有
+depictions of the same lattice none of
+them are actually great but we may have
+
+287
+00:24:01,020 --> 00:24:05,970
+为此，您可以在这张图片中以FCC的形式看到此处的绿色球体。 
+to make do so here you can see the green
+spheres here in this picture form an FCC
+
+288
+00:24:05,970 --> 00:24:11,640
+格子，所以它也位于脸部的角和中心
+lattice so it's on the corners and in
+the center of the faces as well but in
+
+289
+00:24:11,640 --> 00:24:16,800
+除了FCC晶格上的钠原子外，还有氯
+addition to the sodium atoms which are
+on the FCC lattice there are chlorine
+
+290
+00:24:16,800 --> 00:24:21,240
+原子也可以这样说： 
+atoms as well and you can describe the
+position of the chlorine atoms by saying
+
+291
+00:24:21,240 --> 00:24:25,530
+每一个钠原子都有一个氯原子被二分之一取代
+for every sodium atom there is a
+chlorine atom displaced by one half one
+
+292
+00:24:25,530 --> 00:24:30,150
+钠原子的一半一半将使您处于
+half one half from the sodium atom that
+will that will get you the position of
+
+293
+00:24:30,150 --> 00:24:34,560
+所有的氯原子都是平面图蓝调是钠的
+all the chlorine atoms here's a plan
+view the Blues would be the sodium's and
+
+294
+00:24:34,560 --> 00:24:38,970
+氯，例如，如果我开始加钠，然后超过一半
+the chlorines so for example if I
+started a sodium and I go over a half
+
+295
+00:24:38,970 --> 00:24:45,120
+返回一半然后再向上延伸一半到下一层当我到达一个氯原子时
+back a half and then up a half to the
+next layer I get to a chlorine atom when
+
+296
+00:24:45,120 --> 00:24:49,530
+描述基础时，应始终描述基本单元的基础
+you describe a basis you should always
+describe the basis of the primitive unit
+
+297
+00:24:49,530 --> 00:24:53,790
+单元格，所以在这里我不告诉您这四个我不谈论的地方
+cell so here I don't tell you where all
+the four I don't talk about the
+
+298
+00:24:53,790 --> 00:24:57,480
+传统的晶胞，它只有四个钠和四个氯
+conventional unit cell which would have
+four sodium's and four chlorines I just
+
+299
+00:24:57,480 --> 00:25:00,830
+告诉你这是一个FCC格子，马上你知道
+tell you there's it's an FCC lattice and
+immediately you know that the
+
+300
+00:25:00,830 --> 00:25:04,830
+传统的静音单元将在其中和位置上具有四个晶格点
+conventional muted cell will have four
+lattice points in it and on the position
+
+301
+00:25:04,830 --> 00:25:09,570
+在零零零处有一个钠蓝色，然后从
+of the lattice at zero zero zero there's
+a sodium blue and then displace from
+
+302
+00:25:09,570 --> 00:25:13,680
+我把1/2 1/2 1/2加了氯，所以我只想向你描述一个
+that by 1/2 1/2 1/2 I put a chlorine so
+I only have to describe to you one
+
+303
+00:25:13,680 --> 00:25:17,340
+钠和一氯可以告诉你一切，一旦我告诉你这是
+sodium and one chlorine to tell you
+everything once I've told you it's a
+
+304
+00:25:17,340 --> 00:25:24,000
+简单立方，这是FCC晶格注意，我不是唯一的方式
+simple cubic it's a it's a FCC lattice
+notice also that it's not unique how I
+
+305
+00:25:24,000 --> 00:25:26,790
+描述了氯的位置相对于氯的位置
+described the position of the chlorine
+with respect to the position of the
+
+306
+00:25:26,790 --> 00:25:30,960
+钠我本可以告诉你，氯被置换为1/2 0 0 
+sodium I could have told you that the
+chlorine was displaced 1/2 0 0 that
+
+307
+00:25:30,960 --> 00:25:34,890
+会给您相同的结构，或者我可能已经决定氯
+would give you the equivalent structure
+or I could have decided that chlorine
+
+308
+00:25:34,890 --> 00:25:38,430
+是我的零零零，钠是这个地方，它也会给
+was my zero zero zero and sodium was
+this place from it that would also give
+
+309
+00:25:38,430 --> 00:25:41,760
+您具有同等的结构，因此有多种不同的方式来描述
+you an equivalent structure so there's
+various different ways to describe the
+
+310
+00:25:41,760 --> 00:25:45,150
+相同的晶格这是我们运行的另一个结构
+same the same lattice
+here's another structure that we run
+
+311
+00:25:45,150 --> 00:25:49,350
+变成非常常见的金刚石结构碳
+into very frequently the diamond
+structure carbon it also is the
+
+312
+00:25:49,350 --> 00:25:54,270
+硅和锗的结构也基于FCC晶格，因此您可以
+structure of silicon and germanium it is
+also based on the FCC lattice so you can
+
+313
+00:25:54,270 --> 00:25:57,900
+举例来说，在上面，有一个家伙，有一个家伙， 
+see for example on the top face here
+there's some guy there's one in all the
+
+314
+00:25:57,900 --> 00:26:01,380
+边角在一个角或中心，侧面是一个
+corners and there's one or in the center
+of the face the side face is one in all
+
+315
+00:26:01,380 --> 00:26:04,890
+角在脸中央有一个，依此类推，所以肯定
+the corners there's one in the center of
+the face and so forth so it's definitely
+
+316
+00:26:04,890 --> 00:26:09,060
+里面有FCC格子，但那并不能告诉您所有
+has an FCC lattice in it but then that
+that doesn't tell you where all the
+
+317
+00:26:09,060 --> 00:26:12,390
+碳的位置上还有其他碳，您可以描述
+positions of the carbons are there
+additional carbons and you can describe
+
+318
+00:26:12,390 --> 00:26:16,020
+碳的位置被四分之一取代
+the position of the carbons by just as
+being displaced by one quarter one
+
+319
+00:26:16,020 --> 00:26:19,620
+从每个晶格点开始四分之一四分之一，因此例如在平面图中
+quarter one quarter from every lattice
+point so for example in the plan view we
+
+320
+00:26:19,620 --> 00:26:24,450
+从0 0 0处的碳开始，然后我们将四分之一四分之一位移
+start with this carbon at 0 0 0 and then
+we displace by a quarter one quarter one
+
+321
+00:26:24,450 --> 00:26:29,010
+季度，我们也在该位置找到另一个碳，所以我再也没有
+quarter and we find another carbon at
+that position as well so again I don't
+
+322
+00:26:29,010 --> 00:26:32,670
+必须描述所有八个碳在常规碳中的位置
+have to describe the position of all of
+the eight carbons in the conventional
+
+323
+00:26:32,670 --> 00:26:37,110
+晶胞我只需要告诉你这是一个FCC晶格，并且它有一个
+unit cell I only have to tell you that
+it's an FCC lattice and and it has a
+
+324
+00:26:37,110 --> 00:26:41,910
+以两个原子为基础，一个在0 0 0，一个在1/4 1/4 1/4，这足以
+basis of two atoms one at 0 0 0 and one
+at 1/4 1/4 1/4 and that's sufficient to
+
+325
+00:26:41,910 --> 00:26:52,290
+好好描述一切，什么是格子，什么是
+describe everything ok all right
+what'swhat's the lattice what is the
+
+326
+00:26:52,290 --> 00:27:00,450
+晶格是什么晶格是什么晶格是有基础的晶格
+lattice what is the lattice what it is a
+lattice it's a lattice with a basis what
+
+327
+00:27:00,450 --> 00:27:05,280
+谁说的FCC格子类型好好好
+what lattice type who said it FCC ok ok
+good
+
+328
+00:27:05,280 --> 00:27:09,330
+哇，这是坐起来很方便的好处
+Wow see this is advantage to sitting up
+close you get more chocolate that way
+
+329
+00:27:09,330 --> 00:27:12,510
+顺便说一句，我尝试了一些
+incidentally I switched from chocolate
+types because I tried some of the
+
+330
+00:27:12,510 --> 00:27:15,320
+昨天的巧克力不好吃，所以希望有一点更好
+chocolate yesterday wasn't all that good
+so there hopefully this bit it's better
+
+331
+00:27:15,320 --> 00:27:21,390
+你们我是巧克力鉴赏家好吧，这是FCC，所以这是镓
+you guys I'm chocolate connoisseur okay
+so it's FCC it's it's so this is gallium
+
+332
+00:27:21,390 --> 00:27:24,810
+砷化物结构也称为锌混合结构
+arsenide structure also known as the
+zinc blende structure it's exactly the
+
+333
+00:27:24,810 --> 00:27:30,090
+与钻石结构相同，不同之处在于您已经获取了第二碳并
+same as the diamond structure except
+that you've taken the second carbon and
+
+334
+00:27:30,090 --> 00:27:33,420
+你把它变成了不同类型的原子，所以在这里让我向你展示
+you turn it into a different type of
+atom so here let me actually to show you
+
+335
+00:27:33,420 --> 00:27:40,500
+所以在我们FCC的F形中的黄色，所以您可以看到黄色原子
+so the yellow at our F form at FCC so
+you can see that the the yellow atoms
+
+336
+00:27:40,500 --> 00:27:43,980
+在脸部的角落和中心说，例如，这是一张脸
+say in the corners and the centre of the
+faces so for example here here's a face
+
+337
+00:27:43,980 --> 00:27:48,300
+中间有一个黄色然后蓝调被1/4 1/4 1/4取代
+and there's a yellow in the center of it
+then the Blues are displaced 1/4 1/4 1/4
+
+338
+00:27:48,300 --> 00:27:52,920
+从每个黄色原子开始，有些您知道它看起来有些令人困惑
+from every yellow atom now some of the
+you know it may look a little puzzling
+
+339
+00:27:52,920 --> 00:27:55,740
+看起来我们有比黄色原子更多的黄色原子，但我们没有
+it looks like we have more yellow atoms
+than we have blue atoms but we don't
+
+340
+00:27:55,740 --> 00:27:58,830
+因为有些黄色是我们晶胞内仅有的一半
+because some of the yellow
+our only half inside the unit cell the
+
+341
+00:27:58,830 --> 00:28:03,899
+ FCC在晶胞内有四个晶格点，因此应该有
+FCC there's four lattice points within
+the unit cell and so there should be
+
+342
+00:28:03,899 --> 00:28:07,619
+四个黄色原子（如果算在内的话）包括八分之一
+four yellow atoms if you count them
+including you know it's half an eighth
+
+343
+00:28:07,619 --> 00:28:10,289
+如果它在拐角处，一半在侧面，您会算黄色
+if it's on the corner and a half of its
+on the side you'll count for yellow
+
+344
+00:28:10,289 --> 00:28:14,070
+原子，然后它们显然是完全位于单元内部的四个蓝色原子
+atoms and then they're obviously four
+blue atoms completely inside the unit
+
+345
+00:28:14,070 --> 00:28:20,249
+单元格还可以，还有一个评论，如果Mike Glaser，这是一个微妙的地方
+cell as well okay um one more comment
+this is a subtlety if Mike Glaser
+
+346
+00:28:20,249 --> 00:28:23,489
+碰巧是你的老师，他会很高兴我告诉你他是一个真正的
+happens to be your tutor he'll be very
+happy that I tell you this he's a real
+
+347
+00:28:23,489 --> 00:28:26,639
+清澈的晶体学家，他总是把我的脚扶在火上，迫使我
+clear crystallographer and he always
+holds my feet to the fire to force me to
+
+348
+00:28:26,639 --> 00:28:30,809
+以真实的方式讲事物，不讲任何谎言，所以我在这里讲
+tell things the way they really are and
+not tell any lies so here I'm gonna tell
+
+349
+00:28:30,809 --> 00:28:34,799
+你的微妙之处，不要告诉你任何谎言，所以假设我们有一个像
+you the subtlety and not tell you any
+lies so suppose we have a material like
+
+350
+00:28:34,799 --> 00:28:41,339
+这似乎是一个简单的三次系统，以三个为基础
+this it appears to be a simple cubic
+system with a basis of three there's one
+
+351
+00:28:41,339 --> 00:28:44,159
+在拐角处，然后在中心的两个地方，它们不正确
+on the corners and then two somewhere in
+the center they're not right in the
+
+352
+00:28:44,159 --> 00:28:48,359
+中心，所以它不是密件抄送，但中心有两个地方，有一个
+center so it's not BCC but there's two
+somewhere in the center and there's one
+
+353
+00:28:48,359 --> 00:28:52,139
+并由八个角落共享，所以我们可以说这是一个简单的立方体
+and shared by all the eight corners so
+we would say it's a simple cubic with a
+
+354
+00:28:52,139 --> 00:28:58,049
+如果我测量这个立方体的边缘，现在包括三个三三个原子
+basis including three three three atoms
+now if I measure the edges of this cube
+
+355
+00:28:58,049 --> 00:29:01,200
+我说它们都是相同的aa和a以及所有三个方向
+and I say they're all the same a a and a
+and all the three directions I would say
+
+356
+00:29:01,200 --> 00:29:05,969
+如果您很想说这是简单的立方晶体，但是
+it's if you would be tempted to say it's
+simple cubic crystal but a
+
+357
+00:29:05,969 --> 00:29:09,479
+晶体学家会说不是，而他们会说不是
+crystallographers would say it's not and
+the reason they would say it's not is
+
+358
+00:29:09,479 --> 00:29:13,259
+因为它没有简单立方物体的对称性
+because it doesn't have the symmetry of
+a simple cubic object a simple cubic
+
+359
+00:29:13,259 --> 00:29:16,409
+对象，您应该能够将其在所有六个方向上旋转，并且它看起来
+object you should be able to turn it in
+all six directions and it should look
+
+360
+00:29:16,409 --> 00:29:19,589
+不管您从哪个方向看，它都不会
+the same whichever direction you look at
+it from and this thing doesn't look the
+
+361
+00:29:19,589 --> 00:29:22,739
+如果从顶部看，就像从侧面看一样
+same if you look at it from the top as
+from as if you look at it from the side
+
+362
+00:29:22,739 --> 00:29:26,399
+结晶学家为什么知道这么重要
+why is that important well the
+crystallographer knows that if it
+
+363
+00:29:26,399 --> 00:29:30,450
+没有对称性，没有充分的理由将其高度设置为
+doesn't have the symmetry there's no
+good reason that its height should be
+
+364
+00:29:30,450 --> 00:29:33,749
+与其宽度相同，但不相同，在任何意义上都不相等
+the same as its width they're not the
+same they're not equivalent in any sense
+
+365
+00:29:33,749 --> 00:29:37,799
+因此高度不必与宽度相同，所以如果我告诉你
+so the height doesn't have to be the
+same as the width and so if I tell you
+
+366
+00:29:37,799 --> 00:29:40,859
+边缘的长度相同，他会说去测量
+well the the the edges have the same
+length he would say well go measure it
+
+367
+00:29:40,859 --> 00:29:43,499
+仔细一点，您会发现它们的长度不一样，所以
+more carefully and you'll discover
+they're not the same length so the
+
+368
+00:29:43,499 --> 00:29:46,769
+晶体学家知道边缘是否有很好的对称性原因
+crystallographer knows if there's not a
+good symmetry reason for the edge
+
+369
+00:29:46,769 --> 00:29:50,129
+长度是相同的，那么他们是不一样的，如果我是晶体学家
+lengths to be the same then they're not
+the same and a crystallographer if I
+
+370
+00:29:50,129 --> 00:29:53,789
+写下这个，晶体学家会回来找我，说不
+wrote this down the crystallographer
+would come back to me and say no they're
+
+371
+00:29:53,789 --> 00:29:56,729
+实际上长度不一样，您只是以为它们长度相同所以就去
+actually not the same length you just
+think they're the same length so go
+
+372
+00:29:56,729 --> 00:29:59,190
+再次测量，您会发现它们的长度不一样
+measure it again and you'll discover
+them they're not the same length it
+
+373
+00:29:59,190 --> 00:30:02,669
+如果没有很好的对称原因，这将是一个令人难以置信的巧合
+would be an unbelievable coincidence if
+there was not a good symmetry reason for
+
+374
+00:30:02,669 --> 00:30:04,970
+边缘的长度相同，最终导致人
+the edges to be the same length and they
+ended up people
+
+375
+00:30:04,970 --> 00:30:08,870
+长度一样可以让真正的晶体学家高兴
+being the same length okay so that's to
+make the real crystallographers happy
+
+376
+00:30:08,870 --> 00:30:15,890
+这就是我们今天要说的关于晶体结构的所有内容，所以很好
+and that is all we have to say about
+crystal structure for today okay good so
+
+377
+00:30:15,890 --> 00:30:20,000
+现在，我们已经了解了三个晶体结构所需的所有知识
+we've now learned everything we need to
+know about crystal structure in three
+
+378
+00:30:20,000 --> 00:30:23,750
+确定我们将要讨论的所有晶格的尺寸
+dimensions all the lattices we're going
+to have to discuss we know about
+
+379
+00:30:23,750 --> 00:30:29,330
+格子和花瓶，但归根结底，我们真的想形容
+lattices and vases but at the end of the
+day we really want to describe physical
+
+380
+00:30:29,330 --> 00:30:33,500
+这些晶体中的现象，而且通常不是我们感兴趣的现象
+phenomena in these crystals and more
+often than not what we're interested in
+
+381
+00:30:33,500 --> 00:30:36,919
+是某种波，无论是振动波还是声子
+is waves of some sort whether the
+vibrational waves or phonons whether
+
+382
+00:30:36,919 --> 00:30:40,130
+它们是电子波，无论是电磁波还是
+they're electron waves whether
+electromagnetic waves and the world of
+
+383
+00:30:40,130 --> 00:30:45,200
+方式是互惠空间的世界，所以我们必须备份并了解一些
+ways is the world of reciprocal space so
+we have to back up and understand some
+
+384
+00:30:45,200 --> 00:30:50,630
+当我们拥有复杂的晶体时，关于互易空间的事情，让我们
+things about reciprocal space when we
+have complicated crystals so let's
+
+385
+00:30:50,630 --> 00:30:54,169
+提醒自己一些我们在一个互惠空间中学到的东西
+remind ourselves some things we learned
+about this reciprocal space in one
+
+386
+00:30:54,169 --> 00:31:01,250
+一维很好，我们有一个形式为R sub的直接晶格
+dimension well in one dimension we had a
+direct lattice lattice of the form R sub
+
+387
+00:31:01,250 --> 00:31:07,520
+ N等于N的乘积，并且整数a是原始晶格矢量p lv 
+N equals a times N and was the integer a
+was the primitive lattice vector p lv
+
+388
+00:31:07,520 --> 00:31:15,820
+然后从直接空间我们得到倒数空间倒数格
+and then from direct space we have the
+reciprocal space reciprocal lattice
+
+389
+00:31:15,880 --> 00:31:24,679
+我们可以这样写：GM乘以M等于2 pi现在这里a的2 PI是
+which we can write as G M equals 2 pi
+over a times M now here 2 PI over a is
+
+390
+00:31:24,679 --> 00:31:29,299
+倒数空间中的本征格向量
+the primitive lattice vector in
+reciprocal space primitive lattice
+
+391
+00:31:29,299 --> 00:31:34,220
+现在倒数晶格的向量为什么为什么我们选择这个作为
+vector for the reciprocal lattice now
+why was it that we chose this to be the
+
+392
+00:31:34,220 --> 00:31:41,270
+倒数晶格很好，我们选择它是因为如果您取K 2 K加任何
+reciprocal lattice well we chose it
+because if you take K 2 K plus any
+
+393
+00:31:41,270 --> 00:31:50,090
+倒数晶格中的元素GM我们以相同的方式得到相同的结果
+element GM in the reciprocal lattice we
+get back the same way gets same way why
+
+394
+00:31:50,090 --> 00:31:59,960
+那好吧，让我们仔细地将e移到IK点RK点R上， 
+is that well let's do carefully e to the
+I K dot R K dot R gets shifted to e to
+
+395
+00:31:59,960 --> 00:32:12,580
+ IK加G m点RN，等于e等于IK点R ne 
+the I K plus G m dot RN and that
+becomes equals e to the I K dot R n e to
+
+396
+00:32:12,580 --> 00:32:21,280
+ i GM RN，这是一个因素，因为这是一个，因为
+the i GM RN and this factor here is just
+one because it's this is one because it
+
+397
+00:32:21,280 --> 00:32:31,270
+ e到I到PI的时间是M乘以n的整数倍，所以我们要
+is e to the I to PI over a times M times
+a times n that's just one so we're going
+
+398
+00:32:31,270 --> 00:32:35,650
+将其概括为另外两个维度
+to generalize that in two more
+dimensions in any dimension in any
+
+399
+00:32:35,650 --> 00:32:46,450
+我们定义的维以找到倒数晶格定义
+dimension we define to find the
+reciprocal lattice define resupply
+
+400
+00:32:46,450 --> 00:33:02,100
+ tiss-you SIPP Flat oh yeah points as points GG vector that that e 
+tiss-you SIPP flat oh yeah
+points as points G G vector such that e
+
+401
+00:33:04,470 --> 00:33:16,620
+到i g-- m点RN o kg，我们不要在其上加上索引，但g RN等于1 
+to the i g-- m dot RN o kg let's not put
+an index on it yet g RN equals 1 for all
+
+402
+00:33:16,620 --> 00:33:23,220
+因为所有人都在直接晶格中
+for all are and in direct lattice
+
+403
+00:33:23,970 --> 00:33:30,250
+间接晶格，所以这是我们对等晶格的一般定义
+indirect lattice so this is our general
+definition of the reciprocal lattice
+
+404
+00:33:30,250 --> 00:33:37,240
+倒数晶格中的向量G现在这是一个很好的定义
+vectors G in the reciprocal lattice now
+this is a nice definition it's a very
+
+405
+00:33:37,240 --> 00:33:41,919
+有用的定义，但我没有以任何方式向您证明此定义
+useful definition but I have not in any
+way proven to you that this definition
+
+406
+00:33:41,919 --> 00:33:45,880
+定义了我声称的晶格，但定义了晶格，但我没有显示
+defines the lattice that I've claimed it
+defines the lattice but I haven't shown
+
+407
+00:33:45,880 --> 00:33:51,280
+您定义一个晶格并证明倒数空间中的点集G 
+you it defines a lattice and the proof
+the set of points G in reciprocal space
+
+408
+00:33:51,280 --> 00:33:56,860
+对于直接晶格中的所有RN，满足此等式的方程等于1 
+that satisfy this equation equals 1 for
+all RN in the direct lattice the proof
+
+409
+00:33:56,860 --> 00:34:00,549
+定义互易空间中的晶格有点微妙， 
+that that defines a lattice in
+reciprocal space is a little subtle and
+
+410
+00:34:00,549 --> 00:34:06,880
+有点棘手，所以我们将通过它来看看是否可以做到
+a little tricky so we're going to go
+through it let's see if we can make it
+
+411
+00:34:06,880 --> 00:34:10,239
+说服它是真的，所以首先我们将采用直接晶格
+convincing that it's true so first of
+all we'll take the direct lattice
+
+412
+00:34:10,239 --> 00:34:13,979
+我们必须定义直接晶格矢量的因素直接晶格矢量
+
+413
+00:34:13,980 --> 00:34:19,960
+接下来，我们将根据原始晶格因子来写它们，因此R等于n1 
+next we'll write them in terms of the
+primitive lattice factors so R equals n1
+
+414
+00:34:19,960 --> 00:34:27,940
+ a 1加n 2 a 2加n 3 a 3其中原始晶格因子的A 
+a 1 plus n 2 a 2 plus n 3 a 3 where the
+A's of the primitive lattice factors
+
+415
+00:34:27,940 --> 00:34:34,330
+我们的PL V的A是PL，这些是原始晶格向量，所以我们
+our pl V's A's are PL these are the
+primitive lattice vectors okay so we've
+
+416
+00:34:34,330 --> 00:34:38,560
+现在定义了直接晶格，然后我们将猜测我要制作一个
+defined the direct lattice now and then
+we're going to guess I'm going to make a
+
+417
+00:34:38,560 --> 00:34:43,239
+猜测这是一个很好的猜测，这是正确的猜测，我们将
+guess of what this is a very good guess
+it's correct guess and we're gonna have
+
+418
+00:34:43,239 --> 00:34:49,209
+为了证明这一点，请稍后猜测POV的PL v。 
+
+419
+00:34:49,210 --> 00:34:53,280
+每个小伙子互惠的格子
+reciprocal lattice every sip lad
+
+420
+00:34:53,760 --> 00:35:00,580
+我们将它们称为B sub I，并将其与直接晶格的sub I进行比较，我们将
+we'll call them B sub I is compared to a
+sub I for the direct lattice and we'll
+
+421
+00:35:00,580 --> 00:35:08,040
+通过以下等式b定义它们，sub j等于2 pi 
+define them by the following equation b
+sub i gotted with a sub j equals 2 pi
+
+422
+00:35:08,040 --> 00:35:14,740
+ Delta IJ这是一个非常重要的方程式
+Delta IJ it's a rather important
+equation now first thing you might
+
+423
+00:35:14,740 --> 00:35:18,730
+想知道如何直接给定一组原始晶格向量
+wonder is how do I know given a set of
+primitive lattice vectors in direct
+
+424
+00:35:18,730 --> 00:35:25,690
+我怎么知道有一组向量B满足这个
+space a how do I know that there's a set
+of vectors B which satisfies this this
+
+425
+00:35:25,690 --> 00:35:32,349
+对偶空间对偶向量空间基础的方程式排序
+equation sort of a dual space dual
+vector space basis well there's a fairly
+
+426
+00:35:32,349 --> 00:35:36,670
+向您展示可以通过一些帮助找到蜜蜂的简便方法，方法是编写
+easy way to show you that you can find
+bees given some aids which is by writing
+
+427
+00:35:36,670 --> 00:35:41,800
+他们写下来，让我们写下来，所以bi等于2 
+them down
+so let's write them down so bi equals 2
+
+428
+00:35:41,800 --> 00:35:55,869
+ pi aj cross ak over让我们看到一个1点缀成2个cross并3个
+pi aj cross a k over let's see a 1
+dotted into a 2 cross a 3 okay and this
+
+429
+00:35:55,869 --> 00:36:07,690
+对于ijk等于1 2 3或3 1 2或2 3 1，所以以循环方式，所以我主张
+is for ijk equals to 1 2 3 or 3 1 2 or 2
+3 1 so in the cyclical way so I claim
+
+430
+00:36:07,690 --> 00:36:13,420
+ B的表达式将满足B的定义并对其进行检查
+that this expression for B will satisfy
+this definition of B and to check it
+
+431
+00:36:13,420 --> 00:36:18,490
+让我们来找出它是否正确，所以以B 1为例
+let's uh let's just find out if it's
+true so let's take for example B 1
+
+432
+00:36:18,490 --> 00:36:29,950
+点上1的点，这样写出来B 1 B 1是2 pi a 2跨过点1上的3 
+dotted with a 1 so well write out B 1 B
+1 is 2 pi a 2 cross a 3 over a 1 dotted
+
+433
+00:36:29,950 --> 00:36:34,790
+用2交叉3，然后我们将其点到1 
+with a 2 cross a 3
+and then we want to dot that into a 1
+
+434
+00:36:34,790 --> 00:36:39,470
+我们看到分子和分母实际上是相同的，所以我们
+and we see that the numerator and the
+denominator are actually identical so we
+
+435
+00:36:39,470 --> 00:36:46,300
+只能得到2 pi，因为我们应该这样做，但是如果我们将B 1点到2 
+just get 2 pi as we're supposed to
+however if we took B 1 dotted into a 2
+
+436
+00:36:46,300 --> 00:36:54,380
+我们将得到相同的表达式，这里是一个2交叉，一个3向上，然后这个
+we would get the same same expression
+here a 2 cross a 3 up top and then this
+
+437
+00:36:54,380 --> 00:36:59,420
+楼下的整个表情我走的不对，然后点到一个2 
+whole expression downstairs I'm not
+going right and then dotted into a 2 and
+
+438
+00:36:59,420 --> 00:37:04,850
+那东西等于0，因为当您怀疑它与2交叉时，它与3正交
+that thing equals 0 because a 2 cross a
+3 is orthogonal to a 2 when you doubt it
+
+439
+00:37:04,850 --> 00:37:11,600
+变成2，你得到0，所以B 1 +点a 1确实给你2 pi B 1 a 2给你
+into a 2 you get 0 so indeed the B 1 +
+dot a 1 gives you 2 pi B 1 a 2 gives you
+
+440
+00:37:11,600 --> 00:37:16,160
+ 0，您还可以检查它是否也适用于所有其他IJ组合
+0 and you can check that it works for
+all the other I J combinations as well
+
+441
+00:37:16,160 --> 00:37:21,980
+好吧，现在我们可以猜出倒数晶格矢量是什么
+okay so now we have a guess for what our
+reciprocal lattice vectors are so we
+
+442
+00:37:21,980 --> 00:37:28,820
+会猜测我们会将互易的晶格矢量G记为M 1 B 1 
+would guess that we would write down our
+reciprocal lattice vectors G as M 1 B 1
+
+443
+00:37:28,820 --> 00:37:38,210
+再加上M 2 B 2再加上M 3 B 3好吧，现在将是我们的客人，但是如果
+plus M 2 B 2 plus M 3 B 3 ok that's
+going to be our guest right now but if
+
+444
+00:37:38,210 --> 00:37:46,280
+我们想证明这些G是互易的晶格矢量
+we wanted to try to prove that these G's
+are reciprocal lattice vectors are we
+
+445
+00:37:46,280 --> 00:37:49,640
+想要如果要证明晶格中的G，我们需要证明的是
+want if you want to prove the G's in
+lattice what we need to show is that the
+
+446
+00:37:49,640 --> 00:37:54,410
+如果我只想选择一个点，那么m只能是整数
+m's can only be integers okay now if I
+want to just pick any point in
+
+447
+00:37:54,410 --> 00:37:59,660
+倒数空间我可以选择用M的任意点将该点写为G 
+reciprocal space I can choose to write
+that point as G with M's arbitrary so
+
+448
+00:37:59,660 --> 00:38:04,990
+让我以M的任意M开头，换言之，实数
+let me start with M's arbitrary M this
+arbitrary in other words real numbers
+
+449
+00:38:04,990 --> 00:38:15,850
+任意的，即允许考虑任何G考虑任何矢量任何矢量
+arbitrary and that allows ie consider
+any G consider any vector any vector
+
+450
+00:38:16,270 --> 00:38:21,320
+晶格，所以我将考虑从现在开始的任何可能的G，然后
+lattice so I'm going to consider any
+possible G to begin with now then what
+
+451
+00:38:21,320 --> 00:38:25,010
+我们要做的是强加定义eetu IG点R 
+we're going to do is we're going to
+impose the definition eetu the I G dot R
+
+452
+00:38:25,010 --> 00:38:32,870
+等于1，所以我们将其强制为1等于IG点R e ok 
+equals 1 so we're going to force on it 1
+equals e to the I G dot R ok what does
+
+453
+00:38:32,870 --> 00:38:42,380
+表示我对G的e是m1 v1加m2 B 2加M 3 B 3 
+that mean e to the I okay G is m1 v1
+plus m2 B 2 plus M 3 B 3 in but run out
+
+454
+00:38:42,380 --> 00:38:51,120
+在1加n 2 a 2加n 3 a 3的房间N 1 a上确定
+of room N 1 a
+on a 1 plus n 2 a 2 plus n 3 a 3 ok and
+
+455
+00:38:51,120 --> 00:38:57,030
+如果我要将条件e施加到IG r等于1，我也需要这个
+I need this too if I'm going to impose
+the condition e to the IG r equals 1 I
+
+456
+00:38:57,030 --> 00:39:01,530
+必须使用我们的条件强加这个东西等于1的条件
+have to impose the condition that this
+thing equals 1 well using our
+
+457
+00:39:01,530 --> 00:39:07,860
+正交条件B点a bi AJ等于2 pi Delta IJ，即1等于e 
+orthogonality condition B dot a bi AJ
+equals 2 pi Delta IJ that is 1 equals e
+
+458
+00:39:07,860 --> 00:39:17,910
+如果我想要2 pi IM 1 N 1加M 2和2加M 3和3 
+to the 2 pi I M 1 N 1 plus M 2 and 2
+plus M 3 and 3 now if I want this thing
+
+459
+00:39:17,910 --> 00:39:23,100
+对于每个可能的n的每个可能的直接晶格矢量等于1 
+to equal 1 for every possible direct
+lattice vector for every possible n the
+
+460
+00:39:23,100 --> 00:39:33,000
+只有这样，这才是正确的，这对于所有N的所有n都是正确的，并且仅当M为
+only way this will be true this is true
+for all n for all N and only if M are
+
+461
+00:39:33,000 --> 00:39:42,570
+整数EMAS是可以确定的整数，这意味着为了满足我们
+integers EMAS are integers ok so that
+means that in order to satisfy our
+
+462
+00:39:42,570 --> 00:39:47,370
+ IGR等于1的倒数晶格的定义是
+definition of the reciprocal lattice
+that e to the IGR equals 1 for all are
+
+463
+00:39:47,370 --> 00:39:51,330
+在直接晶格中，唯一可行的方法是选择
+in the direct lattice the only way we
+can do that is if we choose G of that
+
+464
+00:39:51,330 --> 00:39:55,830
+ MS整数的形式，因此G是晶格，我们不仅知道G 
+form with the MS integers therefore G is
+a lattice and not only do we know that G
+
+465
+00:39:55,830 --> 00:39:59,130
+是一个晶格我们知道它的原始晶格矢量是什么
+is a lattice we know what its primitive
+lattice vectors are so we just derived
+
+466
+00:39:59,130 --> 00:40:03,930
+到目前为止，G是具有原始格向量的格
+the fact that G is a lattice with those
+primitive lattice vectors so far so good
+
+467
+00:40:03,930 --> 00:40:10,560
+我对那好事感到满意，但实际上我认为这两个有趣的事实
+happy with that ok good a couple of
+interesting facts fact actually I think
+
+468
+00:40:10,560 --> 00:40:13,710
+这是一个家庭作业的问题，也许是关于家庭作业的修订等等
+this is a homework problem maybe on the
+revision of homework or something then
+
+469
+00:40:13,710 --> 00:40:26,070
+我们简单地添加一下，我们坐在FCC的平面是BCC BCC，反之亦然
+we simply add we sit flat of FCC is BCC
+BCC and vice versa kind of an
+
+470
+00:40:26,070 --> 00:40:30,900
+有趣的陈述，您可以检查一下，我想您可能会选择其中一项
+interesting statement you can check it
+and I think you probably will for one of
+
+471
+00:40:30,900 --> 00:40:38,270
+您的家庭作业中另一个有趣的注释是它旨在将D变成D 
+your homeworks another interesting
+comment is it's aimed that into D into D
+
+472
+00:40:38,270 --> 00:40:47,640
+适用相同的规则适用规则，但您可能想知道如何处理
+same rules apply rules apply but you
+might wonder how do you handle this
+
+473
+00:40:47,640 --> 00:40:53,550
+ 2D中的公式，因为我只有两个向量，而不是三个向量
+formula in 2d because I only have two
+vectors not three well the way you do
+
+474
+00:40:53,550 --> 00:41:03,060
+您处理公式只是选择a3等于Z hat 
+you handle that formula is just choose
+choose a3 equals Z hat a point coming
+
+475
+00:41:03,060 --> 00:41:07,230
+离开飞机，换句话说，如果您生活在2D模式中，您会想象有一个
+out of the plane so in other words if
+you live in 2d you imagine there's a
+
+476
+00:41:07,230 --> 00:41:10,620
+垂直于平面，您将其视为第三个原始晶格因子， 
+normal to a plane and you treat that as
+your third primitive lattice factor and
+
+477
+00:41:10,620 --> 00:41:15,960
+你从那里去，你生意很好，离我们还有几分钟
+you go from there and you're in business
+all right a couple of minutes left we're
+
+478
+00:41:15,960 --> 00:41:18,690
+在接下来的几堂课中我们将尝试做一些
+going to try to in the next couple
+lectures we're going to try to do some
+
+479
+00:41:18,690 --> 00:41:22,140
+对等格的解释和一些用途
+interpretation and some uses of this
+reciprocal lattice there's a rather
+
+480
+00:41:22,140 --> 00:41:26,660
+人们经常做出互惠格子的重要声明
+important statement that people
+frequently made the reciprocal lattice
+
+481
+00:41:26,660 --> 00:41:38,280
+是直接直接的傅立叶变换
+is the Fourier transform Fourier
+transform transform of direct direct
+
+482
+00:41:38,280 --> 00:41:44,310
+这也许不足为奇，因为倒易晶格存在于k空间中
+this maybe isn't surprising because the
+reciprocal lattice lives in k-space
+
+483
+00:41:44,310 --> 00:41:48,180
+而直接的格子生活在现实中是隔开的，你知道从我们这里得到
+and the direct lattice lives in real are
+spaced and you know to get from our
+
+484
+00:41:48,180 --> 00:41:53,070
+空间到K空间，您经常需要执行傅立叶变换等操作，但是
+space to K space you frequently have to
+do things like Fourier transform but let
+
+485
+00:41:53,070 --> 00:41:58,140
+我看看是否可以使此操作更加严格，让我们在1d中再次进行操作
+me see if we can make this a little bit
+more rigorous let's do it in 1d again so
+
+486
+00:41:58,140 --> 00:42:03,630
+我们的晶格向量是N等于N乘以N，我们如何去傅立叶
+our lattice vectors are N equals a times
+N and how are we going to Fourier
+
+487
+00:42:03,630 --> 00:42:10,500
+很好地变换那个格子，让我们做一个X的函数Rho 
+transform that lattice well let's make a
+function Rho of X which is a sum over
+
+488
+00:42:10,500 --> 00:42:15,200
+三角函数的所有晶格点在每个晶格点的位置
+all lattice points of a delta function
+at the position of each lattice point
+
+489
+00:42:15,200 --> 00:42:18,450
+好的，这就是所谓的增量函数
+okay
+this is what's known as a delta function
+
+490
+00:42:18,450 --> 00:42:24,780
+梳子Delta函数梳子您在量子力学中是否曾见过
+comb Delta function comb have you seen
+this before in some in quantum mechanics
+
+491
+00:42:24,780 --> 00:42:30,360
+或类似的梳子，看起来像是X轴，然后
+or something comb okay it looks kind of
+like this here's the x-axis and then
+
+492
+00:42:30,360 --> 00:42:36,570
+这是0这是2 a 3 a，它具有这些很大的Delta函数峰值
+here's 0 here's a here's 2 a 3 a and it
+has these great big Delta function peaks
+
+493
+00:42:36,570 --> 00:42:44,430
+在每个晶格点的位置上，可以尝试傅立叶
+at the position of each of these lattice
+points ok that's try Fourier
+
+494
+00:42:44,430 --> 00:42:54,170
+对其进行变换，以使X的Rho的傅立叶变换等于DX e到ikx 
+transforming it so Fourier transform of
+Rho of X equals integral DX e to the ikx
+
+495
+00:42:54,170 --> 00:43:00,060
+然后我们有这个Rho X功能并插入X Rho功能
+then we have this Rho of X function and
+plug in the Rho of X function we'll pull
+
+496
+00:43:00,060 --> 00:43:07,280
+求和，这样就得到了N个积分DX e的和，即I KX和Delta 
+out the sum so we get sum over N
+integral DX e to the I KX and Delta
+
+497
+00:43:07,280 --> 00:43:13,700
+ X减去RN的函数，我们让Delta函数起作用，所以我们
+function of X minus RN
+and we let the Delta function act so we
+
+498
+00:43:13,700 --> 00:43:22,730
+对I k RN求和，我们也可以写为ne的求和
+get some over n e to the I k RN which we
+could also write as sum over n e to the
+
+499
+00:43:22,730 --> 00:43:26,870
+我Kaena好的，这是什么，我们有这个
+I
+Kaena okay so what is this we have this
+
+500
+00:43:26,870 --> 00:43:32,750
+ X的Rho的傅立叶变换，是所有这些阶段e至
+Fourier transform of Rho of X and it's a
+sum over all of these these phases e to
+
+501
+00:43:32,750 --> 00:43:41,420
+如果K是GM倒数晶格的元素，则IKr n好，则每个项
+the IKr n well if K is an element of the
+reciprocal lattice of GM then every term
+
+502
+00:43:41,420 --> 00:43:47,840
+这是IG n RN GM RN的e形式，因此每个项都是一个，因此
+here is of the form e to the IG n RN G M
+RN and so every term is one so this then
+
+503
+00:43:47,840 --> 00:43:53,930
+变成超过1的N的总和，如果有无限
+becomes sum over N of the number 1 which
+is infinite if you have an infinitely
+
+504
+00:43:53,930 --> 00:44:02,450
+大系统如果K不是倒数晶格的元素，那么我们拥有
+big system if K is not an element of the
+reciprocal lattice then what we have
+
+505
+00:44:02,450 --> 00:44:07,070
+那么我们所拥有的就是您会遇到一个复杂的阶段
+then what we have is you'll have a
+situation where this complex phase here
+
+506
+00:44:07,070 --> 00:44:11,570
+不等于1，所以它有一些复数相和任意复数相， 
+is not equal to 1 so it has some complex
+phase some arbitrary complex phase and
+
+507
+00:44:11,570 --> 00:44:16,700
+那么，如果您到达的格子点是两倍大的double n，您将
+then if you go out to a lattice point
+which is twice as big double n you'll
+
+508
+00:44:16,700 --> 00:44:19,430
+得到两倍的复杂阶段，而您得到的结果却是原来的三倍
+get twice the complex phase and you go
+out to something as three times as big
+
+509
+00:44:19,430 --> 00:44:22,520
+您将获得复杂阶段的三倍，并且这些复杂阶段不断旋转
+you'll get three times the complex phase
+and these complex phases keep rotating
+
+510
+00:44:22,520 --> 00:44:29,870
+周围和周围，所以您会遇到一些振荡阶段
+around and around and around so you get
+some over oscillating phases which goes
+
+511
+00:44:29,870 --> 00:44:35,600
+归零，它们全部抵消，您得到零，所以最终可能是
+to zero they all cancel out and you get
+zero so at the end of the day it may be
+
+512
+00:44:35,600 --> 00:44:44,260
+我将移至此处，这就是它的傅立叶变换
+I'll move over to here what we have
+is it the Fourier transform of this
+
+513
+00:44:44,260 --> 00:44:51,790
+增量函数梳是所有可能的倒易晶格矢量K的总和
+Delta function comb is a sum over all
+possible reciprocal lattice vectors K
+
+514
+00:44:51,790 --> 00:44:57,970
+峰的负gm在倒数位置处的无限大峰
+minus g-m of a peak an infinitely big
+peak at the position of the reciprocal
+
+515
+00:44:57,970 --> 00:45:01,690
+晶格矢量，如果您仔细进行操作，则可获得2 pi的因数
+lattice vector and if you do it
+carefully you get a factor of 2 pi over
+
+516
+00:45:01,690 --> 00:45:09,520
+一个在外面a是这两个PI在a上的最后一个因素是相同的两个
+a out out front a being the last factor
+this two PI over a is it's the same two
+
+517
+00:45:09,520 --> 00:45:12,460
+当您进行傅立叶变换时显示的pi总是有两个PI 
+pi that shows up whenever you do Fourier
+transforms there's always two PI's
+
+518
+00:45:12,460 --> 00:45:15,910
+漂浮在周围，所以他们总是在那里，你可能不会被抓住
+floating around so they're always there
+you're not probably going to be held
+
+519
+00:45:15,910 --> 00:45:21,130
+我怀疑有责任获得正确的前置因子，所以
+responsible for ever getting this
+prefactor right I suspect so the
+
+520
+00:45:21,130 --> 00:45:24,550
+原理是，如果您在真实空间中拥有增量函数梳， 
+principle is that if we have a delta
+function comb in real space if you
+
+521
+00:45:24,550 --> 00:45:28,000
+通过傅立叶变换，如果您坐在一个
+Fourier transform that the result is
+infinite if you're sitting on a
+
+522
+00:45:28,000 --> 00:45:32,050
+倒数晶格位，如果您的K是倒数晶格矢量且它是0 
+reciprocal lattice site if your K is a
+reciprocal lattice vector and it's 0
+
+523
+00:45:32,050 --> 00:45:35,080
+否则，这将成为增量函数梳
+otherwise
+and that becomes a delta function comb
+
+524
+00:45:35,080 --> 00:45:40,650
+在k空间中，现在相同的事物或多或少都存在
+in k space ok
+now the same thing more or less holds in
+
+525
+00:45:40,650 --> 00:45:52,470
+三维在3d中执行此操作，因此在3d中的3d中，我们将X向量的Rho等于
+three dimensions do this in 3d so in 3d
+in 3d we'll write Rho of X vector equals
+
+526
+00:45:52,470 --> 00:46:00,160
+如果您进行傅立叶运算，则将三角函数X的晶格点R的总和再减去R 
+sum over lattice points R of a delta
+function X minus R again if you Fourier
+
+527
+00:46:00,160 --> 00:46:05,230
+转换它，您将获得X Rho的转换，您可以使用Delta函数
+transform it you'll get for a transform
+of Rho of X you let the Delta function
+
+528
+00:46:05,230 --> 00:46:10,119
+起作用并播种一个三维Delta函数Delta 3，这成为求和
+act and sow a three dimensional Delta
+function Delta 3 this becomes sum over
+
+529
+00:46:10,119 --> 00:46:19,690
+ e到IK点R的晶格矢量R 
+lattice vectors R of e to the I K dot R
+and then this thing becomes exactly the
+
+530
+00:46:19,690 --> 00:46:24,670
+以同样的方式，如果K是倒数晶格矢量，它是一个
+same way that if K is a reciprocal
+lattice vector it's the sum over an
+
+531
+00:46:24,670 --> 00:46:28,030
+无限数量的晶格矢量是发散的数字1，您将获得
+infinite number of lattice vectors are
+the number 1 which diverges and you get
+
+532
+00:46:28,030 --> 00:46:31,900
+无穷大，如果K不是倒数晶格矢量，那么您就不会得到
+infinity if K is not a reciprocal
+lattice vector then you don't get the
+
+533
+00:46:31,900 --> 00:46:35,260
+数字1会得到一些复杂的相位，而这个复杂的相位会旋转并
+number 1 you get some complex phase and
+that complex phase rotates around and
+
+534
+00:46:35,260 --> 00:46:40,480
+我们将它们相加并得到0，所以最终得到2个PI立方体
+around and around and we add them up and
+get 0 so you end up getting 2 PI cubed
+
+535
+00:46:40,480 --> 00:46:46,210
+超过晶胞的体积，沸腾的晶胞又可能
+over the volume of the unit cell the
+boiling unit cell again you're probably
+
+536
+00:46:46,210 --> 00:46:48,849
+不负责任的因素
+not going to be held responsible for the
+prefactor
+
+537
+00:46:48,849 --> 00:46:57,710
+ k个倒数晶格向量G的倒数晶格向量之和
+sum over reciprocal lattice vectors
+of k- reciprocal lattice vector G okay
+
+538
+00:46:57,710 --> 00:47:04,410
+到目前为止，到目前为止，我们可以做得更好，甚至可以考虑
+so far so good now we can do a little
+better even we can consider things that
+
+539
+00:47:04,410 --> 00:47:07,740
+比起增量函数梳还要复杂，因为我们非常
+are more complicated than just a delta
+function comb because we're very
+
+540
+00:47:07,740 --> 00:47:10,170
+经常，我们实际上很少
+frequently
+we're very infrequently actually
+
+541
+00:47:10,170 --> 00:47:15,510
+呈现了真正的增量函数调用，因此我们将考虑
+presented with a real delta function
+call so instead we're going to consider
+
+542
+00:47:15,510 --> 00:47:25,350
+ X的任何周期函数和X的周期函数角色，我的意思是
+any periodic function a periodic
+function role of X and what I mean by
+
+543
+00:47:25,350 --> 00:47:31,140
+周期函数是X的Rho应等于X加R的Rho，其中R为
+periodic function is that Rho of X
+should equal Rho of X plus R where R is
+
+544
+00:47:31,140 --> 00:47:37,320
+向后平移一个晶格矢量，因此X的此函数Rho等于
+a lattice vector lat
+back so this function Rho of X equals
+
+545
+00:47:37,320 --> 00:47:41,460
+ X加上R的Rho，其中R是晶格矢量，它的周期为
+Rho of X plus R where R is a lattice
+vector it has the periodicity of the
+
+546
+00:47:41,460 --> 00:47:45,720
+点阵好吧，这样做有意义吗，好吧，好吧，现在让我们来研究傅立叶
+lattice okay does that make sense yeah
+okay okay so now let's take the Fourier
+
+547
+00:47:45,720 --> 00:47:53,060
+在X的Rho变换等于整数之前，此函数的变换
+transform of this function before I
+transform of Rho of X equals integral
+
+548
+00:47:53,060 --> 00:48:02,070
+ d3x e到IK点X，这是X的所有空间Rho的积分
+d3x e to the I K dot X and this is the
+integral over all space Rho of X now
+
+549
+00:48:02,070 --> 00:48:04,590
+我们将做一些技巧，这将是一个有用的技巧
+we're going to do a little bit of a
+trick this is a useful trick that will
+
+550
+00:48:04,590 --> 00:48:09,660
+可能在某个时候回来困扰你，我将把这个积分
+probably come back to haunt you at some
+point I'm gonna take that integral over
+
+551
+00:48:09,660 --> 00:48:15,090
+所有空间，我将其写为所有晶格矢量的整数
+all space and I'm gonna write it as an
+integral over all lattice vectors are
+
+552
+00:48:15,090 --> 00:48:22,200
+那么单位晶格上的积分d 3x可能是较大的单位晶格
+then the integral d 3x over the unit
+cell maybe the bigger sites unit cell
+
+553
+00:48:22,200 --> 00:48:27,270
+周围都是周围，所以我只是在整个空间中分解该积分
+around are around are so I'm just
+breaking up that integral over all space
+
+554
+00:48:27,270 --> 00:48:32,120
+分为两部分，每个部分都在该位置周围的手指位点细胞上方
+in two pieces each piece being over the
+finger site cell around the position are
+
+555
+00:48:32,120 --> 00:48:42,540
+您的IK点X X的Rho，那么我们将定义一个参数Y x 
+you the I K dot X Rho of X then what
+we'll do is we'll define a parameter Y x
+
+556
+00:48:42,540 --> 00:48:50,190
+等于R加y，我们将把那个积分重写为整数
+equals R plus y like that and we'll
+rewrite that integral then as integral
+
+557
+00:48:50,190 --> 00:49:00,130
+在单位单元的积分d 3y上求和
+oops some over our sum over our integral
+d 3y of over the unit cell
+
+558
+00:49:00,130 --> 00:49:12,850
+ e到IK点的数量，我猜是R加y，然后是R加y的Rho，现在是R加y的Rho 
+of e to the I K dot I guess R plus y and
+then Rho of R plus y now Rho of R plus y
+
+559
+00:49:12,850 --> 00:49:17,860
+ Rho是周期的，因此R加y的Rho与Y的Rho相同，因此
+Rho is periodic so Rho of R plus y is
+the same as Rho of Y so that makes that
+
+560
+00:49:17,860 --> 00:49:24,550
+容易，然后我可以从此处将e分解为IKr项，我得到
+easy and then I can factor out the e to
+the IKr term from this here and I get
+
+561
+00:49:24,550 --> 00:49:34,780
+将R e加到括号中的IK点R的乘积
+sum over R e to the I K dot R put that
+in parentheses times this in parentheses
+
+562
+00:49:34,780 --> 00:49:48,190
+现在，将这些元素在e的单位单元上的d 3y积分到y的rh的I点y。 
+integral d 3y over the unit cell of e to
+the I okay dot y of rho of y now these
+
+563
+00:49:48,190 --> 00:49:51,840
+第一个术语应该看起来很熟悉，因为我们刚才已经进行了计算
+this first term should look familiar
+since we just calculated a moment ago
+
+564
+00:49:51,840 --> 00:49:57,760
+这个东西是e到IKr的所有晶格向量的总和
+this thing here is the sum over all
+lattice vectors of e to the IKr
+
+565
+00:49:57,760 --> 00:50:02,080
+如果K为倒数晶格矢量，则为无限大，如果K不是倒数
+if K is a reciprocal lattice vector this
+is infinite if K is not a reciprocal
+
+566
+00:50:02,080 --> 00:50:07,570
+晶格向量，这个东西是0，所以这个东西就像我们在2 PI之前一样
+lattice vector this thing is 0 so this
+thing is just as we had before it's 2 PI
+
+567
+00:50:07,570 --> 00:50:12,400
+在所有倒易晶格向量上的单位像元总和的体积上求立方
+cubed over the volume of the unit cell
+sum over all reciprocal lattice vectors
+
+568
+00:50:12,400 --> 00:50:18,730
+我们的K减去G的Delta的G，所以它会给您一个在
+G of Delta of our of K minus G so it
+gives you a delta function peak at the
+
+569
+00:50:18,730 --> 00:50:24,370
+每个倒易晶格矢量的位置，在此被称为
+position of each reciprocal lattice
+vector this term here is known as the
+
+570
+00:50:24,370 --> 00:50:29,670
+ K的结构因子s 
+structure factor s of K structure factor
+
+571
+00:50:30,390 --> 00:50:36,640
+结构因子，它只是我们所要函数的傅立叶变换
+structure factor and it's just the
+Fourier transform of the function we're
+
+572
+00:50:36,640 --> 00:50:41,890
+考虑在单个晶胞内，所以这实际上是一个相当有趣的
+considering within a single unit cell so
+this is actually a rather interesting
+
+573
+00:50:41,890 --> 00:50:45,400
+声明和相当重要的声明，我们将在以后使用很多次
+statement and rather important statement
+we're going to use many times later on
+
+574
+00:50:45,400 --> 00:50:49,210
+您可以采用任何周期函数，只要您进行傅立叶变换就可以了
+you take any periodic function
+whatsoever you Fourier transform it it
+
+575
+00:50:49,210 --> 00:50:54,310
+在倒易晶格的位置将只有大约非零值
+will only have about nonzero values at
+the position of reciprocal lattice
+
+576
+00:50:54,310 --> 00:50:59,020
+向量及其在那些值上的保留典型格向量的权重为
+vectors and its value at those preserves
+typical lattice vectors is weighted by
+
+577
+00:50:59,020 --> 00:51:02,770
+在单个单位单元内对函数进行傅立叶变换
+the Fourier transform of the function
+within a single unit cell there's going
+
+578
+00:51:02,770 --> 00:51:06,100
+在接下来的两三堂课中非常重要，所以我会见到你
+to be extremely important in the next
+two or three lectures so I will see you
+
+579
+00:51:06,100 --> 00:51:10,180
+在星期一，星期一，我想，我想，我会见你
+on Monday Monday
+I think Monday I think I'll see you
+
+580
+00:51:10,180 --> 00:51:14,360
+星期一好吧，周末愉快
+Monday all right have a good weekend
+you
+
