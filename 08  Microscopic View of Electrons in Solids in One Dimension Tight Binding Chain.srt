@@ -844,14 +844,14 @@ solve this very similar to what we did
 142
 00:13:30,500 --> 00:13:37,279
 对于振动链，我们使用非点，这是点上的英文单词
-for the vibrational chains we use a non
-dots which is an English word on dots
+for the vibrational chains we use an
+ansatz which is an English word ansatz
 
 143
 00:13:37,279 --> 00:13:46,310
 而我们使用他的文件的圆点是到IK的圆点上的平面波
-and the on dots we use his file is a
-plane wave on dots to the I K and a like
+and the ansatz we use h is a
+plane wave ansatz to the I K and a like
 
 144
 00:13:46,310 --> 00:13:53,360
